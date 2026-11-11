@@ -56,6 +56,10 @@ jobs:
         run: |
           python3 tools/verify_1022_names.py worktree
           python3 tools/test_1022_names.py
+      - name: Apply 1.0.23 reviewed UI literal translations (OBF +41, API +26)
+        run: python3 tools/apply_1023.py worktree
+      - name: Verify exact 1.0.23 mappings and unchanged data files
+        run: python3 tools/verify_1023_ui.py worktree
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
