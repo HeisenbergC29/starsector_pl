@@ -31,7 +31,13 @@ def audit(path):
   'limitations':'Automated boundary/token audit only. Not an exhaustive semantic or UI runtime review. A comma before English and may intentionally be omitted in Polish.'}
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('api_csv',type=Path);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
- z=audit(a.api_csv);a.out.write_text(json.dumps(z,ensure_ascii=True,indent=2)+'\n',encoding='utf8')
+ p=argparse.ArgumentParser();p.add_argument('api_csv',type=Path);p.add_argument('--out',type=Path,required=True);p.add_argument('--strict',action='store_true');a=p.parse_args()
+ z=audit(a.api_csv)
+ if a.strict:
+  assert z['examined_installed_draft_optional']==3659, 'DRAFT/OPTIONAL coverage changed; needs human review'
+  assert z['statuses']=={'DRAFT_ONLY_NOT_INSTALLED':1008,'DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME':356,'OPTIONAL_PATCHER_NOT_GAME_TESTED':2295},'DRAFT/OPTIONAL status set changed'
+  assert set(z['flags'])=={'leading_space_added'}, ('unexpected formatting mismatch',z['flags'].keys())
+  assert sorted(item['english'] for item in z['flags']['leading_space_added'])==[', and a fighter wing',', and several fighter wings'], 'unreviewed leading-space difference'
+ a.out.write_text(json.dumps(z,ensure_ascii=True,indent=2)+'\n',encoding='utf8')
  print(json.dumps({'rows_checked':z['examined_installed_draft_optional'],'flags':{k:len(v) for k,v in z['flags'].items()}},indent=2))
 if __name__=='__main__':main()
