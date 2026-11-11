@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.22):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.23):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.22** (snapshot 1.0.12 + overlaye 1013–1022; 65 nazw Ligi Perseanskiej ujednoliconych w 3 plikach danych, mapy Java bez zmian wobec 1.0.21). Cel 1.1 nieukonczony.
+**Aktualny stan roboczy: 1.0.23** (snapshot 1.0.12 + nakladki 1013–1023; 41 nowych napisow OBF i 26 API w UI. Wszystkie 870 plikow danych niezmienione wobec 1.0.22). Cel 1.1 nieukonczony.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -57,3 +57,6 @@ Po odtworzeniu bazy uruchom kolejno overlaye 1013–1021, potem `python3 tools/v
 
 ## Rozwój 1.0.22
 Po przywroceniu snapshotu wykonaj overlaye 1013–1022 w tej kolejnosci, potem `python3 tools/verify_1022_names.py worktree` i `python3 tools/test_1022_names.py`. W 1.0.22 wyeliminowano 53 formy `Liga/Ligi/Lige Perseusza` i 12 `Liga/Ligi Persea` w widocznych polach tekstowych. 867 pozostalych plikow danych ma taki sam hash-drzewa jak w 1.0.21. [Dokumentacja 1.0.22](docs/RELEASE_1022.md).
+
+## Rozwój 1.0.23
+Po przywroceniu snapshotu stosuj nakladki 1013–1023 kolejno. OBF aktywna mapa `TLUMACZENIA_OBF_10123.csv`, API `TLUMACZENIA_JAR_1023.csv`. Test `python3 tools/verify_1023_ui.py worktree` potwierdza dokladnie +67 widocznych etykiet, zachowanie poprzednich map i skladanie fragmentow podpowiedzi. Zachowano aktualizacje z 1.0.22. [Dokumentacja](docs/RELEASE_1023.md).
