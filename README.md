@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.17):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.18):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.17** (snapshot 1.0.12 + nakladki 1013, 1014, 1015, 1016, 1017; 870 plikow danych bez zmian, 15 nowych tekstow OBF, 2 API i 1 poprawka znaczenia). Wydanie 1.1 jeszcze nie ukonczone.
+**Aktualny stan roboczy: 1.0.18** (snapshot 1.0.12 + nakladki 1013–1018; 870 plikow data bez zmian, 2 nowe zaimki OBF i 4 API). Wersja 1.1 nie jest gotowa.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -42,3 +42,6 @@ Po `python3 tools/restore_snapshot.py` wykonaj po kolei `tools/apply_1013.py`, `
 
 ## Rozwój 1.0.17
 Po odtworzeniu bazy wykonaj w kolejnosci `tools/apply_1013.py` do `tools/apply_1017.py` z argumentem `worktree`. Zweryfikowano odtwarzalnosc 1000 plikow zrodlowych. Zobacz [docs/RELEASE_1017.md](docs/RELEASE_1017.md).
+
+## Rozwój 1.0.18
+Po odtworzeniu bazy wykonaj `tools/apply_1013.py` do `tools/apply_1018.py` kolejno z argumentem `worktree`, a nastepnie `python3 tools/verify_subject_pronouns_1018.py worktree`. Inne zaimki i `Misc.STORY` wymagaja audytu. Wyniki: [docs/RELEASE_1018.md](docs/RELEASE_1018.md).
