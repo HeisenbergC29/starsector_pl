@@ -50,6 +50,8 @@ Wszystkie 44 źródłowe teksty potwierdzono w oryginalnych `CONSTANT_String` 11
 
 **ZIP:** `Starsector_PL_ASCII_0.98a_RC8_1.0.24_MINIMALNY.zip` — **13 031 153 B**, SHA-256 `31bf9f27f2451be4f10e3ebcca0568cceee9e3812295ffdb29686c4f025a0b2f`. Pakiet i raport `Starsector_PL_1.0.24_TESTY.json` zapisano w prywatnej Bibliotece projektu.
 
+**GitHub Actions: PASS** — [przebieg 43110733323](https://github.com/HeisenbergC29/starsector_pl/actions/runs/43110733323), commit `e13b6baa`. Odtworzono wszystkie nakładki od 1.0.12 do 1.0.24, sprawdzono nowe mapy i testy negatywne, walidację danych i opcji dialogowych, Go test/vet oraz Windows x64 cross-build. CI nie uruchamia gry.
+
 ## Odtwarzanie i testy
 
 ```sh
