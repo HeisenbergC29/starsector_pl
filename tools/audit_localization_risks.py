@@ -13,7 +13,7 @@ from pathlib import Path
 
 MAPS = {
     "OBF": "buildtools/NARZEDZIA_OBF/TLUMACZENIA_OBF_10118.csv",
-    "API": "buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1018.csv",
+    "API": "buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1019.csv",
 }
 # Deliberately narrow: avoid confusing ordinary punctuation with dynamic tokens.
 TOKENS = re.compile(
