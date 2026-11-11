@@ -1,0 +1,164 @@
+{
+  "OBF": {
+    "original_sha256": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8",
+    "csv_rows": 3116,
+    "matched_literals": 3116,
+    "review_statuses": {
+      "REVIEWED_OBF_PATCH_EXPERIMENTAL": {
+        "csv_rows": 1590,
+        "constant_string_matches": 1590
+      },
+      "OBF_09104_MANUAL_USER_FACING": {
+        "csv_rows": 333,
+        "constant_string_matches": 333
+      },
+      "REVIEWED_OBF_PATCH_EXPERIMENTAL_09100": {
+        "csv_rows": 308,
+        "constant_string_matches": 308
+      },
+      "OBF_09103_MANUAL_USER_FACING": {
+        "csv_rows": 225,
+        "constant_string_matches": 225
+      },
+      "OBF_09102_MANUAL_REVIEW": {
+        "csv_rows": 181,
+        "constant_string_matches": 181
+      },
+      "EXPERIMENTAL_09109": {
+        "csv_rows": 151,
+        "constant_string_matches": 151
+      },
+      "OBF_09101_MANUAL": {
+        "csv_rows": 116,
+        "constant_string_matches": 116
+      },
+      "MANUAL_UI_LITERAL_1003": {
+        "csv_rows": 45,
+        "constant_string_matches": 45
+      },
+      "OBF_09101_EXACT_PREVIOUS_GLOSSARY": {
+        "csv_rows": 41,
+        "constant_string_matches": 41
+      },
+      "VERIFIED_LITERAL_VISIBLE_OR_GENERATED_1007": {
+        "csv_rows": 30,
+        "constant_string_matches": 30
+      },
+      "REVIEWED_DYNAMIC_NUMBER_09147": {
+        "csv_rows": 17,
+        "constant_string_matches": 17
+      },
+      "REVIEWED_UI_VISIBLE": {
+        "csv_rows": 14,
+        "constant_string_matches": 14
+      },
+      "VERIFIED_ORIGINAL_LITERAL_1008": {
+        "csv_rows": 13,
+        "constant_string_matches": 13
+      },
+      "VERIFIED_JAVAP_CALLSITE_09144": {
+        "csv_rows": 10,
+        "constant_string_matches": 10
+      },
+      "REVIEWED_CONTEXT_09146": {
+        "csv_rows": 10,
+        "constant_string_matches": 10
+      },
+      "KOREKTA_SEMANTYKI_09153": {
+        "csv_rows": 9,
+        "constant_string_matches": 9
+      },
+      "REVIEWED_DYNAMIC_FRAGMENT_09126": {
+        "csv_rows": 9,
+        "constant_string_matches": 9
+      },
+      "KOREKTA_SEMANTYKI_09152": {
+        "csv_rows": 6,
+        "constant_string_matches": 6
+      },
+      "VERIFIED_JAVAP_DYNAMIC_09160": {
+        "csv_rows": 5,
+        "constant_string_matches": 5
+      },
+      "REVIEWED_OBF_PATCH_EXPERIMENTAL_09141": {
+        "csv_rows": 3,
+        "constant_string_matches": 3
+      }
+    },
+    "status_column_controls_installation": false,
+    "note": "Patchers match literals from all CSV rows; status is not an installation filter. A matched literal is not proof it is UI-visible."
+  },
+  "API": {
+    "original_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+    "csv_rows": 5042,
+    "matched_literals": 5040,
+    "review_statuses": {
+      "OPTIONAL_PATCHER_NOT_GAME_TESTED": {
+        "csv_rows": 2301,
+        "constant_string_matches": 2301
+      },
+      "DRAFT_ONLY_NOT_INSTALLED": {
+        "csv_rows": 1014,
+        "constant_string_matches": 1012
+      },
+      "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME": {
+        "csv_rows": 356,
+        "constant_string_matches": 356
+      },
+      "potwierdzone_CONST_String_0989": {
+        "csv_rows": 309,
+        "constant_string_matches": 309
+      },
+      "potwierdzone_CONST_String_0987": {
+        "csv_rows": 241,
+        "constant_string_matches": 241
+      },
+      "potwierdzone_CONST_String_0988": {
+        "csv_rows": 210,
+        "constant_string_matches": 210
+      },
+      "OFFLINE_VERIFIED_OPTIONAL_PATCH": {
+        "csv_rows": 184,
+        "constant_string_matches": 184
+      },
+      "REVIEWED_VISIBLE_UI_1004": {
+        "csv_rows": 101,
+        "constant_string_matches": 101
+      },
+      "REVIEWED_API_PATCH_EXPERIMENTAL": {
+        "csv_rows": 60,
+        "constant_string_matches": 60
+      },
+      "REVIEWED_UI_LITERAL_1005": {
+        "csv_rows": 55,
+        "constant_string_matches": 55
+      },
+      "VERIFIED_ORIGINAL_LITERAL_1008": {
+        "csv_rows": 51,
+        "constant_string_matches": 51
+      },
+      "VERIFIED_LITERAL_VISIBLE_OR_GENERATED_1007": {
+        "csv_rows": 49,
+        "constant_string_matches": 49
+      },
+      "REVIEWED_1_0_10": {
+        "csv_rows": 44,
+        "constant_string_matches": 44
+      },
+      "MANUAL_UI_LITERAL_1003": {
+        "csv_rows": 43,
+        "constant_string_matches": 43
+      },
+      "REVIEWED_UI_VISIBLE": {
+        "csv_rows": 22,
+        "constant_string_matches": 22
+      },
+      "VERIFIED_DYNAMIC_1002": {
+        "csv_rows": 2,
+        "constant_string_matches": 2
+      }
+    },
+    "status_column_controls_installation": false,
+    "note": "Patchers match literals from all CSV rows; status is not an installation filter. A matched literal is not proof it is UI-visible."
+  }
+}
