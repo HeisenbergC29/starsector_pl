@@ -1,0 +1,8 @@
+worktree/
+__pycache__/
+*.pyc
+*.exe
+*.bin
+*.jar
+*.rar
+starsector.log
