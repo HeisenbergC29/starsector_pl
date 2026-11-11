@@ -44,6 +44,7 @@ def main(root,previous):
     marker={(r['source_class'],r['english_literal']):r['polish_ascii_draft'] for r in apimap}
     cl='com.fs.starfarer.api.impl.campaign.abilities.ToggleAbilityWithCost'
     assert 'Z'+marker[(cl,'educes the combat readiness ')]+marker[(cl,' of all ships, costing up to %s supplies to recover.')]=='Zmniejsza gotowosc bojowa wszystkich okretow, a przywrocenie ich gotowosci moze kosztowac do %s jednostek zaopatrzenia.'
+    assert OBF['com.fs.starfarer.ui.impl.CargoTooltipFactory']['Perfect']=='Idealna', 'weapon accuracy adjective must agree with feminine celnosc'
     meta=json.loads((root/'mod/mod_info.json').read_text('utf8'))
     assert meta['version']=='1.0.23' and meta['gameVersion']=='0.98a-RC8'
     assert '10123' in (o/'main.go').read_text('utf8')
