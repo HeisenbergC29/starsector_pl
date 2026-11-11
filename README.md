@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.21):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.22):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.21** (snapshot 1.0.12 + kolejne overlaye 1013–1021; +2 etykiety OBF, +1 naglowek API i 4 korekty w trzech plikach danych). Cel 1.1 nieukonczony.
+**Aktualny stan roboczy: 1.0.22** (snapshot 1.0.12 + overlaye 1013–1022; 65 nazw Ligi Perseanskiej ujednoliconych w 3 plikach danych, mapy Java bez zmian wobec 1.0.21). Cel 1.1 nieukonczony.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -54,3 +54,6 @@ Po odtworzeniu snapshotu wykonaj nakladki 1013–1020 w kolejnosci i `python3 to
 
 ## Rozwój 1.0.21
 Po odtworzeniu bazy uruchom kolejno overlaye 1013–1021, potem `python3 tools/verify_1021_delta.py worktree`. Audyt wzgledem prywatnego oryginalnego `data.rar` obejmuje **870 plikow**: 833 struktur, 18 CSV i 19 TXT do recenzji semantycznej. Kod: `tools/verify_source_fields_1021.py`; testy zabezpieczen: `tools/test_source_fields_1021.py`. [Szczegoly](docs/RELEASE_1021.md).
+
+## Rozwój 1.0.22
+Po przywroceniu snapshotu wykonaj overlaye 1013–1022 w tej kolejnosci, potem `python3 tools/verify_1022_names.py worktree` i `python3 tools/test_1022_names.py`. W 1.0.22 wyeliminowano 53 formy `Liga/Ligi/Lige Perseusza` i 12 `Liga/Ligi Persea` w widocznych polach tekstowych. 867 pozostalych plikow danych ma taki sam hash-drzewa jak w 1.0.21. [Dokumentacja 1.0.22](docs/RELEASE_1022.md).
