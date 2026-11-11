@@ -44,6 +44,12 @@ jobs:
         run: python3 tools/apply_1020.py worktree
       - name: Verify male/female assembled dialogues and approved translation-only delta
         run: python3 tools/verify_1020_dialogs.py worktree
+      - name: Apply 1.0.21 additional visible UI texts and data-name corrections
+        run: python3 tools/apply_1021.py worktree
+      - name: Verify 1.0.21 translation-only map and data delta
+        run: python3 tools/verify_1021_delta.py worktree
+      - name: Test original-vs-localized field integrity scanner on synthetic fixtures
+        run: python3 tools/test_source_fields_1021.py
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
