@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.24):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.25):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.24** (snapshot 1.0.12 + nakladki 1013–1024; +28 widocznych napisow OBF i +16 API, w tym glówne menu; 870 danych bez zmian). Cel 1.1 nieukonczony.
+**Aktualny stan roboczy: 1.0.25** (snapshot 1.0.12 + nakladki 1013–1025; 81 nowych literałów OBF w 12 klasach, w tym poprawne GB w raportach wypadkow floty; API i 870 plikow danych bajtowo bez zmian wobec 1.0.24). Cel 1.1 nieukonczony.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -63,3 +63,6 @@ Po przywroceniu snapshotu stosuj nakladki 1013–1023 kolejno. OBF aktywna mapa 
 
 ## Rozwój 1.0.24
 Po odtworzeniu snapshotu zastosuj nakladki 1013–1024 kolejno. OBF aktywna mapa `TLUMACZENIA_OBF_10124.csv`; API aktywna mapa `TLUMACZENIA_JAR_1024.csv`. `python3 tools/verify_1024_ui.py worktree` testuje dokladnie +44 nowe etykiety, nienaruszone stare tlumaczenia i brak zmiany danych; `python3 tools/test_1024_delta.py worktree` celowo narusza mapy i testuje odmowe. Z prywatnymi oryginalnymi JAR: `tools/verify_1024_callsites.py` (44 potwierdzone miejsca uzycia). [Dokumentacja](docs/RELEASE_1024.md).
+
+## Rozwój 1.0.25
+Po odtworzeniu bazy wykonaj overlaye `tools/apply_1013.py`–`tools/apply_1025.py` kolejno na `worktree`. Aktywne mapy: OBF `TLUMACZENIA_OBF_10125.csv`, API `TLUMACZENIA_JAR_1025.csv` (ta sama zawartosc co 1024). Testy: `tools/verify_1025_ui.py`, `tools/test_1025_delta.py`, odrebnie `tools/verify_1025_callsites.py` z prywatnym JAR. Audyt 3659 aktywnych DRAFT/OPTIONAL: `tools/audit_draft_boundaries_1025.py`. Zob. [docs/RELEASE_1025.md](docs/RELEASE_1025.md).
