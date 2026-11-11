@@ -36,6 +36,10 @@ jobs:
         run: python3 tools/apply_1018.py worktree
       - name: Verify 1.0.18 literal-only map delta
         run: python3 tools/verify_subject_pronouns_1018.py worktree
+      - name: Apply 1.0.19 composed ability-tooltip translation corrections
+        run: python3 tools/apply_1019.py worktree
+      - name: Verify 1.0.19 approved mapping delta and UI assembly guards
+        run: python3 tools/verify_1019_tooltip.py worktree
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
