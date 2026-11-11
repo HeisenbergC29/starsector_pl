@@ -56,6 +56,8 @@ Wynikowy **API SHA-256** (identyczny z 1.0.25): `3d584fb28a334adc62894795bb197e3
 
 ZIP, raport testów oraz dokładny audyt `ST_1026_CALLSITES.json` zapisano w Bibliotece projektu. Publiczne repozytorium nie zawiera oryginalnych JAR, plików binarnych z gry ani pełnych zrzutów literałów komercyjnych klas.
 
+**GitHub Actions: PASS** — [przebieg 43122029677](https://github.com/HeisenbergC29/starsector_pl/actions/runs/43122029677), commit `337def2b`. Zaliczone: odtworzenie źródeł z migawek i wszystkich nakładek 1013–1026, rygorystyczny audyt map OBF/API oraz 3659 starszych podmian DRAFT/OPTIONAL, walidacja `rules.csv`, Go test/vet i kompilacja trzech instalacyjnych plików PE32+ Windows x64. Nie jest to test uruchomionej gry na Windows.
+
 ## Odtworzenie z GitHuba
 
 ```bash
