@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.13):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.14):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.13** (snapshot bazowy 1.0.12 plus `python3 tools/apply_1013.py worktree`; 870 plików danych bez zmian, +15 przetlumaczonych opisow w JAR API). Wydanie 1.1 jeszcze nie ukończone.
+**Aktualny stan roboczy: 1.0.14** (snapshot 1.0.12 + `tools/apply_1013.py` + `tools/apply_1014.py`; 870 danych bez zmian, 17 kolejnych opisow i dialogow API oraz naprawa obslugi UTF-8 w oryginalnych literałach Java). Wydanie 1.1 jeszcze nie ukończone.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -30,3 +30,6 @@ Wersja 1.1 dopiero po pełnym audycie, a nie po samym wzroście liczby podmian.
 
 ## Rozwój 1.0.13
 Po odtworzeniu `worktree` z archiwum 1.0.12 wykonaj `python3 tools/apply_1013.py worktree` przed kompilacja. Nowy plik `TLUMACZENIA_JAR_1013.csv` jest generowany na podstawie niezmienionej mapy `1010` (wymaganej do aktualizacji). Mapy OBF nie zmieniono. Wynik testow i SHA-256 paczki: `docs/RELEASE_1013.md`.
+
+## Rozwój 1.0.14
+Po odtworzeniu migawki wywołaj kolejno `python3 tools/apply_1013.py worktree` i `python3 tools/apply_1014.py worktree`. Historia obu map 1013/1014 jest zachowana dla aktualizacji starszych instalacji. Go test zawiera regresję dla nie-ASCII w literałach z oryginalnego JAR. Szczegóły: [docs/RELEASE_1014.md](docs/RELEASE_1014.md).
