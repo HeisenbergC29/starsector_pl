@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.15):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.16):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.15** (snapshot 1.0.12 + `tools/apply_1013.py` + `tools/apply_1014.py`; 870 danych bez zmian, 17 kolejnych opisow i dialogow API oraz naprawa obslugi UTF-8 w oryginalnych literałach Java). Wydanie 1.1 jeszcze nie ukończone.
+**Aktualny stan roboczy: 1.0.16** (snapshot 1.0.12 + nakladki 1013, 1014, 1015, 1016; 870 plikow danych bez zmian, 4 nowe teksty OBF i 17 API). Wydanie 1.1 jeszcze nie ukonczone.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -36,3 +36,6 @@ Po odtworzeniu migawki wywołaj kolejno `python3 tools/apply_1013.py worktree` i
 
 ## Rozwój 1.0.15
 Po odtworzeniu bazy wykonaj po kolei `python3 tools/apply_1013.py worktree`, `python3 tools/apply_1014.py worktree`, `python3 tools/apply_1015.py worktree`. Zapisano wszystkie historyczne mapy do aktualizacji. Zobacz [docs/RELEASE_1015.md](docs/RELEASE_1015.md).
+
+## Rozwój 1.0.16
+Po `python3 tools/restore_snapshot.py` wykonaj po kolei `tools/apply_1013.py`, `tools/apply_1014.py`, `tools/apply_1015.py`, `tools/apply_1016.py` z argumentem `worktree`. Obie historyczne mapy OBF/API sa zachowane dla upgrade. Zobacz [docs/RELEASE_1016.md](docs/RELEASE_1016.md).
