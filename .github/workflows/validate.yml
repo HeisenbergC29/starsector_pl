@@ -1,0 +1,56 @@
+name: Verify Polish localization project
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+      - name: Install zstd
+        run: sudo apt-get update && sudo apt-get install -y zstd
+      - name: Verify Git snapshot and restore project
+        run: python3 tools/restore_snapshot.py
+      - name: Validate every data file and dialog option
+        run: |
+          python3 tools/check_project.py worktree/mod
+          python3 worktree/maintenance/check_rules_options.py worktree/mod/data/campaign/rules.csv
+      - name: Test error detection on malformed option
+        run: |
+          python3 - <<'PY'
+          import importlib.util, pathlib, tempfile, shutil
+          spec = importlib.util.spec_from_file_location('audit', 'tools/check_project.py')
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          with tempfile.TemporaryDirectory() as d:
+              dst = pathlib.Path(d) / 'mod'
+              shutil.copytree('worktree/mod', dst)
+              rule = dst / 'data/campaign/rules.csv'
+              contents = rule.read_bytes()
+              assert b'lpp_devAddFaithful:' in contents
+              rule.write_bytes(contents.replace(b'lpp_devAddFaithful:', b'lpp_devAddFaithful:invalid:'))
+              result = module.audit_mod(dst)
+              assert any('Invalid option' in err for err in result['errors'])
+          print('Malformed option rejected as expected')
+          PY
+      - name: Go tests and static analysis (OBF, API)
+        run: |
+          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off go test ./... && GO111MODULE=off go vet ./...)
+          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off go test ./... && GO111MODULE=off go vet ./...)
+      - name: Cross-compile Windows EXEs and test installer
+        run: |
+          (cd worktree && sh build_windows.sh)
+          (cd worktree/buildtools/NARZEDZIA_INSTALATOR && GO111MODULE=off go test ./... && GO111MODULE=off go vet ./...)
+          file worktree/obf_windows.exe worktree/api_windows.exe worktree/Starsector_PL_Instalator.exe
+          file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
+          file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
+          file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
