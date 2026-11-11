@@ -66,6 +66,14 @@ jobs:
         run: |
           python3 tools/verify_1024_ui.py worktree
           python3 tools/test_1024_delta.py worktree
+      - name: Apply 1.0.25 blueprint, production, officer and GB accident UI texts
+        run: python3 tools/apply_1025.py worktree
+      - name: Verify 81 approved OBF labels, unchanged API map and correct GB grammar
+        run: |
+          python3 tools/verify_1025_ui.py worktree
+          python3 tools/test_1025_delta.py worktree
+      - name: Audit all active older DRAFT/OPTIONAL API translations (diagnostic)
+        run: python3 tools/audit_draft_boundaries_1025.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1025.csv --out audit_draft_boundaries_1025.json
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
