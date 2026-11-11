@@ -11,6 +11,8 @@ python3 tools/apply_1016.py worktree
 python3 tools/apply_1017.py worktree
 python3 tools/apply_1018.py worktree
 python3 tools/apply_1019.py worktree
+python3 tools/apply_1020.py worktree
+python3 tools/verify_1020_dialogs.py worktree
 python3 tools/verify_1019_tooltip.py worktree
 python3 tools/verify_subject_pronouns_1018.py worktree
 python3 worktree/maintenance/check_rules_options.py worktree/mod/data/campaign/rules.csv
@@ -24,8 +26,8 @@ file obf_windows.exe api_windows.exe Starsector_PL_Instalator.exe
 
 **Wazne:** testy instalatora wymagaja istnienia `buildtools/NARZEDZIA_INSTALATOR/bin/{api,obf}.bin` osadzanych przez `//go:embed`. `build_windows.sh` tworzy je po cross-kompilacji. Samo `go test` instalatora przed tym etapem moze zakonczyc sie bledem o brakujacych plikach bin.
 
-Paczka gracza: zawartosc `worktree/mod/` + `worktree/Starsector_PL_Instalator.exe`, z katalogiem glownym `Starsector_PL_ASCII/`. Nie wkladaj do ZIP zrodel, raportow, testow ani oryginalnych JAR. W ZIP 1.0.19 jest 870 plikow data + mod_info.json + CZYTAJ.txt + EXE = 873. OBF pozostaje 10118 (bez zmian), API 1019: 8 naprawionych i 6 nowych literałów tooltipu.
+Paczka gracza: zawartosc `worktree/mod/` + `worktree/Starsector_PL_Instalator.exe`, z katalogiem glownym `Starsector_PL_ASCII/`. Nie wkladaj do ZIP zrodel, raportow, testow ani oryginalnych JAR. W ZIP 1.0.20 jest 870 plikow data + mod_info.json + CZYTAJ.txt + EXE = 873. OBF pozostaje 10118; API 1020: 7 naprawionych fragmentow dialogow i jeden nowy literał.
 
 Testy instalacji na oryginalnych JAR i natywny Windows wymagaja osobnych, rzeczywistych uruchomien.
 
-**Stan zrodel:** `tools/restore_snapshot.py` odtwarza z GitHub wersje bazowa 1.0.12. `tools/apply_1013.py worktree`, `tools/apply_1014.py worktree` oraz `tools/apply_1015.py worktree`, `tools/apply_1016.py worktree` oraz `tools/apply_1017.py worktree`, `tools/apply_1018.py worktree` oraz `tools/apply_1019.py worktree` sa niezbedne, by uzyskac 1.0.19. Nigdy nie dystrybuuj oryginalnych JAR.
+**Stan zrodel:** `tools/restore_snapshot.py` odtwarza z GitHub wersje bazowa 1.0.12. `tools/apply_1013.py worktree`, `tools/apply_1014.py worktree` oraz `tools/apply_1015.py worktree`, `tools/apply_1016.py worktree` oraz `tools/apply_1017.py worktree`, `tools/apply_1018.py worktree` oraz `tools/apply_1019.py worktree` oraz `tools/apply_1020.py worktree` sa niezbedne, by uzyskac 1.0.20. Nigdy nie dystrybuuj oryginalnych JAR.
