@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only, reproducible localization risk audit of the current 1.0.23 worktree.
+"""Read-only, reproducible localization risk audit of the current 1.0.24 worktree.
 
 This produces candidates for HUMAN review. It is not a coverage percentage,
 does not edit source material, and does not assert that a literal is UI-visible.
@@ -12,8 +12,8 @@ import re
 from pathlib import Path
 
 MAPS = {
-    "OBF": "buildtools/NARZEDZIA_OBF/TLUMACZENIA_OBF_10123.csv",
-    "API": "buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1023.csv",
+    "OBF": "buildtools/NARZEDZIA_OBF/TLUMACZENIA_OBF_10124.csv",
+    "API": "buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1024.csv",
 }
 # Deliberately narrow: avoid confusing ordinary punctuation with dynamic tokens.
 TOKENS = re.compile(
