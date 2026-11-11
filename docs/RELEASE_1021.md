@@ -44,6 +44,8 @@ Zachowano wszystkie wcześniejsze mapy tłumaczeń w celu aktualizacji z wydań 
 - **18** plików CSV: zmiany wyłącznie w dozwolonych polach tekstowych, bez modyfikacji kolumn technicznych; w `rules.csv` pięć dodatkowych zmian jedynie argumentów `SetTextHighlights`, z zachowaniem reszty skryptu;
 - **19** plików TXT (opisy misji, kodeks) wymagają odrębnego ręcznego audytu znaczenia i kompletności — narzędzie nie zapewnia dla nich weryfikacji struktury.
 
+**Dodatkowy audyt TXT:** `tools/audit_prose_layout_1021.py` porównał wszystkie **19** plików TXT względem oryginału: liczba wierszy, dyrektywy i identyfikatory kodeksu, wartości liczbowe, sekwencje `\\n`, skróty klawiszowe oraz chronione znaczniki. **19/19 PASS, zero naruszeń wykrytych przez test formatu**. Raport w prywatnej Bibliotece: `Starsector_PL_1021_PROSE_LAYOUT_AUDIT.json`. To nadal **nie jest** semantyczna ocena poprawności tłumaczeń TXT.
+
 To dowód niezmienności struktury i pól chronionych według reguł skanera, **nie** dowód poprawności znaczenia wszystkich słów; skrypt Java może zawierać literały techniczne, które wymagają sprawdzenia miejsca użycia.
 
 Szczegółowy raport `Starsector_PL_1021_DATA_FIELD_AUDIT.json` i `Starsector_PL_1.0.21_TESTY.json` są w prywatnej Bibliotece projektu; nie publikowano oryginalnych zasobów gry.
@@ -90,5 +92,6 @@ python3 tools/verify_source_fields_1021.py \
 - Pozostałe literały oryginalnych JAR muszą mieć audyt widoczności w grze; automatyczna heurystyka to tylko lista kandydatów.
 - 19 plików narracyjnych TXT wymaga sprawdzenia semantycznego.
 - Odmiana dynamicznych zaimków i **81** kontekstów `Misc.STORY` nadal wymagają rozstrzygnięcia; nie należy robić globalnej zamiany.
+- **Issue #5:** nowa kontrola wykryła jeszcze **53** wystąpienia form `Liga/Ligi/Lige Perseusza` w `rules.csv`, `strings/descriptions.csv` i opisie misji, równolegle z `Liga Perseanska`. Cztery zmiany dokonane w 1.0.21 nie usuwają całej niespójności. Wymagana odrębna spójna decyzja terminologiczna i kontekstowe poprawki tylko tekstów gracza.
 - Rozbieżności, statusy `DRAFT/OPTIONAL`, tłumaczone nazwy, nicki i skróty: dalsza kontrola.
 - Faktyczny natywny test Windows i uruchomionej gry wciąż NIE wykonany.
