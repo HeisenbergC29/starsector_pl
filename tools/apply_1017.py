@@ -21,7 +21,7 @@ OBF = [{'source_class': 'com.fs.starfarer.tutorial.oOOO.G',
                         'zaznaczyc je do wystawienia, a nastepnie nacisnij przycisk "Wystaw".\n'
                         '\n'
                         'Wystawianie jednostek wymaga punktow floty. Na razie masz ich niewiele, wiec <highlight>po '
-                        'zamknieciu tego okna wystaw tylko skrzydlo mysliwcow Wasp.</highlight>',
+                        'zamknieciu tego okna wystaw tylko skrzydlo mysliwcow Osa.</highlight>',
   'status': 'VERIFIED_JAVAP_UI_CALLSITE_1017'},
  {'source_class': 'com.fs.starfarer.tutorial.oOOO.F',
   'english_literal': 'You can press %s to open and close the map, and %s to pause and unpause. To pan your view, '
@@ -119,7 +119,7 @@ OBF = [{'source_class': 'com.fs.starfarer.tutorial.oOOO.G',
                         'polowie mapy, kilka pol na lewo od przejetej przed chwila sieci czujnikow.\n'
                         '\n'
                         '<highlight>Kliknij lewym przyciskiem myszy wybrane miejsce, aby utworzyc punkt zborny, i '
-                        'wybierz z menu "Zbiorka grupy uderzeniowej".</highlight> Bombowce torpedowe Dagger, jako '
+                        'wybierz z menu "Zbiorka grupy uderzeniowej".</highlight> Bombowce torpedowe Sztylet, jako '
                         'jedyne jednostki uderzeniowe twojej floty, skieruja sie w to miejsce.',
   'status': 'VERIFIED_JAVAP_UI_CALLSITE_1017'},
  {'source_class': 'com.fs.starfarer.tutorial.oOOO.C',
@@ -133,12 +133,13 @@ OBF = [{'source_class': 'com.fs.starfarer.tutorial.oOOO.G',
                      'Group" to keep the Gemini there and out of trouble.</highlight>',
   'polish_ascii_draft': 'Dobrze, bombowce sa juz w drodze.\n'
                         '\n'
-                        'Tymczasem mysliwce przechwytujace same ruszyly na krazownik, a Gemini takze sie do niego '
-                        'zbliza. Nie chcemy tego: Gemini jest transportowcem i lotniskowcem, ktory w bezposrednim '
-                        'starciu nie ma szans z krazownikiem. Podobnie jest z mysliwcami przechwytujacymi.\n'
+                        'Tymczasem mysliwce przechwytujace same ruszyly na krazownik, a okret Bliznieta takze sie do '
+                        'niego zbliza. Nie chcemy tego: Bliznieta to transportowiec i lotniskowiec, ktory w '
+                        'bezposrednim starciu nie ma szans z krazownikiem. Podobnie jest z mysliwcami '
+                        'przechwytujacymi.\n'
                         '\n'
                         '<highlight>Kliknij lewym przyciskiem myszy za swoimi liniami, aby utworzyc kolejny punkt '
-                        'zborny, i wybierz "Zbiorka grupy lotniskowcow", aby Gemini pozostal tam i uniknal '
+                        'zborny, i wybierz "Zbiorka lotniskowcow", aby okret Bliznieta pozostal tam i uniknal '
                         'niebezpieczenstwa.</highlight>',
   'status': 'VERIFIED_JAVAP_UI_CALLSITE_1017'},
  {'source_class': 'com.fs.starfarer.tutorial.oOOO.C',
@@ -190,8 +191,8 @@ OBF = [{'source_class': 'com.fs.starfarer.tutorial.oOOO.G',
                         'okret flagowy zostal unieruchomiony, albo gdy chcesz zaczac walke szybsza jednostka, a '
                         'pozniej przesiasc sie na ciezszy okret.\n'
                         '\n'
-                        'Sprobujmy przekazac dowodzenie na Gemini. <highlight>Kliknij Gemini i wybierz "Przekaz '
-                        'dowodzenie" z menu kontekstowego.</highlight>',
+                        'Sprobujmy przekazac dowodzenie na okret Bliznieta. <highlight>Kliknij okret Bliznieta i '
+                        'wybierz "Przekaz dowodzenie" z menu kontekstowego.</highlight>',
   'status': 'VERIFIED_JAVAP_UI_CALLSITE_1017'},
  {'source_class': 'com.fs.starfarer.tutorial.oOOO.oOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO',
   'english_literal': "Congratulations, you've completed the Starfarer fleet command tutorial!\n"
@@ -296,7 +297,7 @@ func TestOBF10117UpgradeAndUIMap(t *testing.T) {
   s=replace_exact(s,'const exeVersion = "1.0.16"','const exeVersion = "1.0.17"')
   s=replace_exact(s,'"1013", "1014", "1015", version}', '"1013", "1014", "1015", "1016", version}')
   s=replace_exact(s,'const expectedOBFPatched10116 = "c3dcae2341f5fa96cb92b6a1cb1a59ec5f32cdf4579f77fe5ad30985764ee78c"',
-    'const expectedOBFPatched10116 = "c3dcae2341f5fa96cb92b6a1cb1a59ec5f32cdf4579f77fe5ad30985764ee78c"\nconst expectedOBFPatched10117 = "31307f67a97dabb9687569c2f65a57c1b39c6aeec1eb1b8e8eb22099189ea93e"')
+    'const expectedOBFPatched10116 = "c3dcae2341f5fa96cb92b6a1cb1a59ec5f32cdf4579f77fe5ad30985764ee78c"\nconst expectedOBFPatched10117 = "c5035d4c06b747604652760b162ed163ebdf6a956d419963c38f594ad0fa1a11"')
   s=replace_exact(s,'if hash(obf) != expectedOBF && hash(obf) != expectedOBFPatched10116',
       'if hash(obf) != expectedOBF && hash(obf) != expectedOBFPatched10117 && hash(obf) != expectedOBFPatched10116')
   s=replace_exact(s,'PL ASCII patch up to 1.0.16','PL ASCII patch up to 1.0.17')
