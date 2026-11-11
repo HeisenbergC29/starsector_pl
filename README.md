@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.19):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.20):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.19** (snapshot 1.0.12 + overlaye 1013–1019; OBF bez zmian względem 1.0.18, API ma 6 nowych i 8 poprawionych fragmentow dymkow zdolnosci). Wersja 1.1 nadal nieukonczona.
+**Aktualny stan roboczy: 1.0.20** (snapshot 1.0.12 + nakladki 1013–1020; 870 plikow data bez zmian, 7 napraw zdan dynamicznych i 1 nowe slowo API). Pelne 1.1 nadal nie jest gotowe.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -48,3 +48,6 @@ Po odtworzeniu bazy wykonaj `tools/apply_1013.py` do `tools/apply_1018.py` kolej
 
 ## Rozwój 1.0.19
 Wykonaj kolejno `tools/apply_1013.py`–`tools/apply_1019.py` na przywroconym `worktree`, nastepnie `tools/verify_1019_tooltip.py`. Nowy niezalezny audyt 81 odwolan `Misc.STORY` i 219 wywolan metod zaimkowych: `tools/audit_dynamic_calls_1019.py`. [Raport](docs/RELEASE_1019.md).
+
+## Rozwój 1.0.20
+Po odtworzeniu snapshotu wykonaj nakladki 1013–1020 w kolejnosci i `python3 tools/verify_1020_dialogs.py worktree`. Nowy `tools/audit_exact_literals_1020.py` porownuje faktyczne `CONSTANT_String` oryginalnych JAR z mapami bez blednych escape'ow z `javap`. Wyniki: [docs/RELEASE_1020.md](docs/RELEASE_1020.md).
