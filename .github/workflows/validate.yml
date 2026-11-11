@@ -50,6 +50,12 @@ jobs:
         run: python3 tools/verify_1021_delta.py worktree
       - name: Test original-vs-localized field integrity scanner on synthetic fixtures
         run: python3 tools/test_source_fields_1021.py
+      - name: Apply 1.0.22 canonical Persean League names without changing Java JAR maps
+        run: python3 tools/apply_1022.py worktree
+      - name: Verify exactly 65 translated names, unchanged 867 data files and regression fixtures
+        run: |
+          python3 tools/verify_1022_names.py worktree
+          python3 tools/test_1022_names.py
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
