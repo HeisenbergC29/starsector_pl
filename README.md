@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.12):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.13):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny snapshot źródeł: 1.0.12** (870 plików danych, nowa polonizacja misji m2/m3; JAR mapy bez zmian). Wydanie 1.1 jeszcze nie ukończone.
+**Aktualny stan roboczy: 1.0.13** (snapshot bazowy 1.0.12 plus `python3 tools/apply_1013.py worktree`; 870 plików danych bez zmian, +15 przetlumaczonych opisow w JAR API). Wydanie 1.1 jeszcze nie ukończone.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -27,3 +27,6 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 Zgłoszony crash na 1.0.9 został odtworzony poprzez analizę `rules.csv` i bajtkodu parsera. Ścieżka naprawy opisana jest w `docs/TEST_109_CRASH.md`.
 
 Wersja 1.1 dopiero po pełnym audycie, a nie po samym wzroście liczby podmian.
+
+## Rozwój 1.0.13
+Po odtworzeniu `worktree` z archiwum 1.0.12 wykonaj `python3 tools/apply_1013.py worktree` przed kompilacja. Nowy plik `TLUMACZENIA_JAR_1013.csv` jest generowany na podstawie niezmienionej mapy `1010` (wymaganej do aktualizacji). Mapy OBF nie zmieniono. Wynik testow i SHA-256 paczki: `docs/RELEASE_1013.md`.
