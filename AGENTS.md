@@ -1,6 +1,6 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.16** (snapshot bazowy 1.0.12 + kolejno `tools/apply_1013.py`, `tools/apply_1014.py`, `tools/apply_1015.py`, `tools/apply_1016.py`).
+**Aktualny stan roboczy: 1.0.17** (snapshot bazowy 1.0.12 + kolejno `tools/apply_1013.py`, `tools/apply_1014.py`, `tools/apply_1015.py`, `tools/apply_1016.py`, `tools/apply_1017.py`).
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 
@@ -18,7 +18,7 @@
 
 ## Start pracy w nowym czacie
 1. Czytaj README, docs/STATUS.md i docs/TEST_109_CRASH.md.
-2. Uruchom `python3 tools/restore_snapshot.py` (wymagany zstd), nastepnie `python3 tools/apply_1013.py worktree` i `python3 tools/apply_1014.py worktree` oraz `python3 tools/apply_1015.py worktree` i `python3 tools/apply_1016.py worktree`. Powstanie biezacy `worktree/` z mapami CSV (w tym 1013, 1014, 1015 i 1016), narzedziami Go, kodem patcherow i mod/data.
+2. Uruchom `python3 tools/restore_snapshot.py` (wymagany zstd), nastepnie `python3 tools/apply_1013.py worktree` i `python3 tools/apply_1014.py worktree` oraz `python3 tools/apply_1015.py worktree` i `python3 tools/apply_1016.py worktree` oraz `python3 tools/apply_1017.py worktree`. Powstanie biezacy `worktree/` z mapami CSV (w tym 1013, 1014, 1015, 1016 i 1017), narzedziami Go, kodem patcherow i mod/data.
 3. Waliduj `worktree/mod/data/campaign/rules.csv`.
 4. Zdobywaj oryginalne JAR z prywatnej Biblioteki uzytkownika i weryfikuj ich SHA; nie zakladaj ze sa w GitHub.
 5. Kontynuuj audyt wszystkich pozostalych pol do wersji 1.1.
