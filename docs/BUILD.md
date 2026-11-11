@@ -9,6 +9,8 @@ python3 tools/apply_1014.py worktree
 python3 tools/apply_1015.py worktree
 python3 tools/apply_1016.py worktree
 python3 tools/apply_1017.py worktree
+python3 tools/apply_1018.py worktree
+python3 tools/verify_subject_pronouns_1018.py worktree
 python3 worktree/maintenance/check_rules_options.py worktree/mod/data/campaign/rules.csv
 cd worktree
 (cd buildtools/NARZEDZIA_OBF && GO111MODULE=off go test ./... && GO111MODULE=off go vet ./...)
@@ -20,8 +22,8 @@ file obf_windows.exe api_windows.exe Starsector_PL_Instalator.exe
 
 **Wazne:** testy instalatora wymagaja istnienia `buildtools/NARZEDZIA_INSTALATOR/bin/{api,obf}.bin` osadzanych przez `//go:embed`. `build_windows.sh` tworzy je po cross-kompilacji. Samo `go test` instalatora przed tym etapem moze zakonczyc sie bledem o brakujacych plikach bin.
 
-Paczka gracza: zawartosc `worktree/mod/` + `worktree/Starsector_PL_Instalator.exe`, z katalogiem glownym `Starsector_PL_ASCII/`. Nie wkladaj do ZIP zrodel, raportow, testow ani oryginalnych JAR. W ZIP 1.0.17 jest 870 plikow data + mod_info.json + CZYTAJ.txt + EXE = 873. OBF +15, API +2 i jedna korekta semantyczna wobec 1.0.16.
+Paczka gracza: zawartosc `worktree/mod/` + `worktree/Starsector_PL_Instalator.exe`, z katalogiem glownym `Starsector_PL_ASCII/`. Nie wkladaj do ZIP zrodel, raportow, testow ani oryginalnych JAR. W ZIP 1.0.18 jest 870 plikow data + mod_info.json + CZYTAJ.txt + EXE = 873. OBF +2 i API +4 nowe zaimki podmiotowe wobec 1.0.17.
 
 Testy instalacji na oryginalnych JAR i natywny Windows wymagaja osobnych, rzeczywistych uruchomien.
 
-**Stan zrodel:** `tools/restore_snapshot.py` odtwarza z GitHub wersje bazowa 1.0.12. `tools/apply_1013.py worktree`, `tools/apply_1014.py worktree` oraz `tools/apply_1015.py worktree`, `tools/apply_1016.py worktree` oraz `tools/apply_1017.py worktree` sa niezbedne, by uzyskac 1.0.17. Nigdy nie dystrybuuj oryginalnych JAR.
+**Stan zrodel:** `tools/restore_snapshot.py` odtwarza z GitHub wersje bazowa 1.0.12. `tools/apply_1013.py worktree`, `tools/apply_1014.py worktree` oraz `tools/apply_1015.py worktree`, `tools/apply_1016.py worktree` oraz `tools/apply_1017.py worktree`, `tools/apply_1018.py worktree` sa niezbedne, by uzyskac 1.0.18. Nigdy nie dystrybuuj oryginalnych JAR.
