@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.20):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.21):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.20** (snapshot 1.0.12 + nakladki 1013–1020; 870 plikow data bez zmian, 7 napraw zdan dynamicznych i 1 nowe slowo API). Pelne 1.1 nadal nie jest gotowe.
+**Aktualny stan roboczy: 1.0.21** (snapshot 1.0.12 + kolejne overlaye 1013–1021; +2 etykiety OBF, +1 naglowek API i 4 korekty w trzech plikach danych). Cel 1.1 nieukonczony.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -51,3 +51,6 @@ Wykonaj kolejno `tools/apply_1013.py`–`tools/apply_1019.py` na przywroconym `w
 
 ## Rozwój 1.0.20
 Po odtworzeniu snapshotu wykonaj nakladki 1013–1020 w kolejnosci i `python3 tools/verify_1020_dialogs.py worktree`. Nowy `tools/audit_exact_literals_1020.py` porownuje faktyczne `CONSTANT_String` oryginalnych JAR z mapami bez blednych escape'ow z `javap`. Wyniki: [docs/RELEASE_1020.md](docs/RELEASE_1020.md).
+
+## Rozwój 1.0.21
+Po odtworzeniu bazy uruchom kolejno overlaye 1013–1021, potem `python3 tools/verify_1021_delta.py worktree`. Audyt wzgledem prywatnego oryginalnego `data.rar` obejmuje **870 plikow**: 833 struktur, 18 CSV i 19 TXT do recenzji semantycznej. Kod: `tools/verify_source_fields_1021.py`; testy zabezpieczen: `tools/test_source_fields_1021.py`. [Szczegoly](docs/RELEASE_1021.md).
