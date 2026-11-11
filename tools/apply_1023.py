@@ -16,7 +16,7 @@ OBF={
    'Charges':'Ladunki', 'Damage':'Obrazenia', 'Deficit':'Niedobor',
    'Demand':'Zapotrzebowanie', 'Excess':'Nadwyzka',
    'Hitpoints':'Wytrzymalosc', 'Location':'Lokalizacja',
-   'Perfect':'Idealne', 'Range':'Zasieg', 'Special':'Specjalne',
+   'Perfect':'Idealna', 'Range':'Zasieg', 'Special':'Specjalne',
    'Speed':'Predkosc', 'Tracking':'Naprowadzanie',
    ' (Beam)':' (Wiazka)',
  },
@@ -67,7 +67,7 @@ API={
 
 # Value for 1.0.23 is computed after running the OBF patcher on the *original*
 # starfarer_obf.jar and checking the entire changed-class bytecode audit.
-OBF_SHA_1023='faf05ace9fce1c0ec9309871db3b4d5684c6b2de679d2c7c5983ad1a7f33adbf'
+OBF_SHA_1023='f391bc4f0a0c6078845f02415b80378a9d45375ab37eb6c287fcac4058b46abb'
 
 
 def exact(s,old,new):
