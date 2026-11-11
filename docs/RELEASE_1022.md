@@ -43,6 +43,7 @@ Pozostałe **867/870** plików danych identyczne bajtowo z 1.0.21. Nie ruszano i
 | ZIP, 873 pozycje, CRC; brak oryginalnych komercyjnych JAR | PASS |
 | Test w uruchomionym Starsector Windows | **NIE WYKONANO** |
 | Kompletność polonizacji 1.1 | **NIE POTWIERDZONO** |
+| GitHub Actions (odtworzenie wszystkich overlayow, dialogi, testy Go i cross-build) | **PASS** — przebieg [43103578381](https://github.com/HeisenbergC29/starsector_pl/actions/runs/43103578381) |
 
 **JAR po patchu (niezmienione wobec 1.0.21):**
 - OBF 3144 podmiany: `cfcf4860d7b451074e6285488f4bf24f91d2dd683aad95ef11ce344894cb84be`
@@ -69,6 +70,8 @@ python3 tools/package_1022.py --worktree worktree --out Starsector_PL_ASCII_0.98
 ```
 
 Jeśli poprzedni ZIP 1.0.21 jest dostępny, podaj `--previous-zip /sciezka/1.0.21.zip` do `verify_1022_names.py`, a `--previous /sciezka/1.0.21.zip` do `package_1022.py`; wymusi to dokładne porównanie 870 plików oraz tylko trzech dopuszczonych zmian.
+
+**Zgłoszenie terminologii [#5](https://github.com/HeisenbergC29/starsector_pl/issues/5) zamknięte jako wykonane** — poprawka obejmuje wszystkie 65 znalezionych wariantów tej nazwy, nie dowodzi spójności innych nazw w całej grze.
 
 ## Niezakończone przed 1.1
 
