@@ -15,6 +15,7 @@
 - Paczka dla gracza minimalna: 870 plikow data, mod_info.json, krotka instrukcja i jeden EXE ze zintegrowanymi patcherami. Zrodla i raporty poza paczka.
 - Oryginalne JAR sa materialami komercyjnymi gry i nie sa w tym repo. **Nie dodawaj do publicznego GitHub oryginalnych bibliotek ani pelnych logow ze sciezkami uzytkownika.**
 - Nie udawaj PASS ani 100% ukonczenia. Pracuj konkretnie, raportuj krotko. Nie tworz kolejnych wersji bez zmian i testow.
+- Audyt 1018 wykryl **aktywnie widoczne angielskie zaimki** w dynamicznych dialogach API (`BaseBarEventWithPerson` i `PlanetaryShieldBarEvent`) oraz `Misc.STORY` w dwoch tooltipach OBF. Zob. `docs/DYNAMIC_FRAGMENT_AUDIT_1018.md`, issue #4; nie naprawiaj globalna podmiana `her` bez analizy przypadkow gramatycznych. Ostatnia faktycznie zbudowana wersja to 1.0.17, NIE 1.0.18.
 
 ## Start pracy w nowym czacie
 1. Czytaj README, docs/STATUS.md i docs/TEST_109_CRASH.md.
