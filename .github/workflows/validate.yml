@@ -20,6 +20,8 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y zstd
       - name: Verify Git snapshot and restore project
         run: python3 tools/restore_snapshot.py
+      - name: Apply reviewed 1.0.13 localization overlay to 1.0.12 snapshot
+        run: python3 tools/apply_1013.py worktree
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
