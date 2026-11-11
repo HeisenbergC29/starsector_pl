@@ -2,6 +2,9 @@
 
 **Wydanie robocze 1.0.21. Cel 1.1 nadal otwarty.**
 
+- **Dodatkowy audyt TXT 1.0.21:** 19/19 plikow kodeksu i opisow misji zachowuje uklad wierszy, techniczne identyfikatory dyrektyw, liczby, chronione znaczniki i kombinacje klawiszy; PASS skanera `tools/audit_prose_layout_1021.py`, lecz bez certyfikacji semantyki kazdego zdania. **Nierozwiazany issue #5:** w widocznych tekstach zostaly 53 wystapienia `Liga/Ligi/Lige Perseusza` obok kanonicznej obecnie `Liga Perseanska`. Korygowac nastepnym sprawdzonym patchem w kolumnach tekstowych (nie ruszac identyfikatorow).
+
+
 - **Audyt dynamicznych tekstow 2026-11-11 (bez nowego wydania):** na oryginalnych JAR potwierdzono brak polonizacji `he/she/him/her/his/himself/herself` w `BaseBarEventWithPerson`. `PlanetaryShieldBarEvent` wywoluje 18 razy metody zwracajace te zaimki i ma 53 instalowane polskie fragmenty (42 o statusie DRAFT). `her` wystepuje w dwoch metodach o odmiennym przypadku gramatycznym, wiec masowa podmiana moze zepsuc zdania. Dwa tooltipy premii doswiadczenia maja angielski poczatek i dynamiczny `Misc.STORY=story`. Potrzebna recenzja kompletnych skladanych wypowiedzi, nie tylko literalow. Dowody i narzedzie: `docs/DYNAMIC_FRAGMENT_AUDIT_1018.md`, `tools/audit_dynamic_fragments.py`, issue #4. Ostatnia paczka 1.0.17 bez zmian.
 
 
