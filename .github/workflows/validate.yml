@@ -28,6 +28,8 @@ jobs:
         run: python3 tools/apply_1015.py worktree
       - name: Apply 1.0.16 verified OBF and API UI text overlay
         run: python3 tools/apply_1016.py worktree
+      - name: Apply 1.0.17 OBF/API tutorial and UI translations
+        run: python3 tools/apply_1017.py worktree
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
