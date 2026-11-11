@@ -24,6 +24,8 @@ jobs:
         run: |
           python3 tools/check_project.py worktree/mod
           python3 worktree/maintenance/check_rules_options.py worktree/mod/data/campaign/rules.csv
+      - name: Audit Java literal risks and mission-text coverage (report only)
+        run: python3 tools/audit_localization_risks.py worktree --out audit_localization_risks.json
       - name: Test error detection on malformed option
         run: |
           python3 - <<'PY'
