@@ -1,6 +1,6 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.24** (snapshot 1.0.12 + kolejno nakladki 1013–1024; OBF aktywna mapa 10124, API 1024; 870 plikow data bez zmian).
+**Aktualny stan roboczy: 1.0.25** (snapshot 1.0.12 + overlaye 1013–1025; OBF mapa 10125, API mapa 1025 identyczna tekstowo z 1024; 870 plikow danych bez zmian).
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 
@@ -35,3 +35,5 @@
 10. W 1.0.23 dodano 67 UI literals (41 OBF, 26 API) w tooltipach uzbrojenia, tabelach rynku, kodeksie, symulatorze i gotowosci bojowej. Nie patchuj enum ID `HIGH/LOW/EXTREME` itp. W `ToggleAbilityWithCost` oryginalne `educes the combat readiness ` z trailing space jest ODREBNYM literalem od wersji bez spacji; polski wynik musi poprawnie skladac zdanie. Test `tools/verify_1023_ui.py`, dowody `docs/RELEASE_1023.md`. Patch OBF SHA `f391bc4f0a0c6078845f02415b80378a9d45375ab37eb6c287fcac4058b46abb`, API SHA `562877340d26fecabb5c34f38b9fbe11ed8d2c781faa78b307c7150bc018cb10`. Natywnej gry Windows i pelnej 1.1 NIE zweryfikowano.
 
 11. **Krytyczne odkrycie 1.0.24:** w 1.0.23 wiele głownych przyciskow menu bylo po angielsku, mimo przetlumaczonych `New Game`/`Load Game`. W klasie OBF `com.fs.starfarer.title.C` potwierdzono 8 pozostalych stringow budujacych przyciski. W 1.0.24 sa po polsku, wraz z filtrami wyboru broni i eskadr, launcherem i zadaniami flot: **44 nowe etykiety** (OBF 28/API 16). Zachowano enum ID (`FOLLOW`, `HOLD`, etc.) i potencjalnie techniczny wybor `Off` launchera. Gotowe testy: `tools/verify_1024_ui.py`, `tools/test_1024_delta.py` i prywatny audyt `tools/verify_1024_callsites.py`; raport `docs/RELEASE_1024.md`. Oryginalne JAR bez zmian po restore, Windows/gameplay nieuruchomione. Audyt pelnego 1.1 nadal otwarty.
+
+12. **1.0.25:** OBF +81 krotkich UI etykiet w 12 klasach, m.in. przegladarki schematow, koszty produkcji, wybor oficerow, dziennik misji. `ShipLoss` składa w 3 wariantach `utrata 17% GB`, `skrzydlo Osa - utrata 17% GB`, `okret Jastrzab - utrata 17% GB` bez błędów odmiany. API ma mapę 1025 identyczna z 1024; nowy patcher akceptuje hash OBF `dc1fecf61d12d8819bab11b3d1bf20c4aecc294ac27ebce747e08b0dd35ae033`. Weryfikacja 81 JVM literałów w 100 miejscach ldc, 12 klas, 1018 zrodel odtwarzalnych, realny upgrade 1.0.24->1.0.25 PASS. Audyt 3659 DRAFT/OPTIONAL: zadnych strat spacji/znacznikow, dwa prawidlowe przecinki Oxford przed `i`. To nie jest pełna recenzja znaczenia; issue #3 dalej otwarte. Szczegoly `docs/RELEASE_1025.md`.
