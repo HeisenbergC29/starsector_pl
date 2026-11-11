@@ -1,6 +1,6 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-11
 
-**Wydanie robocze 1.0.24. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.25. Cel 1.1 nadal otwarty.**
 
 - **Dodatkowy audyt TXT 1.0.21:** 19/19 plikow kodeksu i opisow misji zachowuje uklad wierszy, techniczne identyfikatory dyrektyw, liczby, chronione znaczniki i kombinacje klawiszy; PASS skanera `tools/audit_prose_layout_1021.py`, lecz bez certyfikacji semantyki kazdego zdania. **Issue #5 — naprawa w 1.0.22:** po dodatkowym audycie 53 dawnych `Liga/Ligi/Lige Perseusza` oraz 12 `Liga/Ligi Persea` zamieniono na odpowiednie formy `Liga Perseanska`. Tylko 3 pliki data i teksty widoczne; 867 pozostalych danych bez zmian.
 
@@ -8,6 +8,8 @@
 - **Audyt dynamicznych tekstow 2026-11-11 (bez nowego wydania):** na oryginalnych JAR potwierdzono brak polonizacji `he/she/him/her/his/himself/herself` w `BaseBarEventWithPerson`. `PlanetaryShieldBarEvent` wywoluje 18 razy metody zwracajace te zaimki i ma 53 instalowane polskie fragmenty (42 o statusie DRAFT). `her` wystepuje w dwoch metodach o odmiennym przypadku gramatycznym, wiec masowa podmiana moze zepsuc zdania. Dwa tooltipy premii doswiadczenia maja angielski poczatek i dynamiczny `Misc.STORY=story`. Potrzebna recenzja kompletnych skladanych wypowiedzi, nie tylko literalow. Dowody i narzedzie: `docs/DYNAMIC_FRAGMENT_AUDIT_1018.md`, `tools/audit_dynamic_fragments.py`, issue #4. Ostatnia paczka 1.0.17 bez zmian.
 
 
+- **Zmiany 1.0.25:** 81 nowych podmian OBF (12 klas): produkcja, doktryny flot, schematy, oficerowie, dziennik misji, statusy wypadkow; poprawna konstrukcja `utrata ... GB`. OBF 3294 podmiany w 533 klasach, API 5148 w 936 klasach (mapa API 1025 identyczna bajtowo z 1024). Audit CP i 533 manifestow OBF: jedynie zatwierdzone teksty; 81 tekstow w 100 miejscach ldc. Rzeczywisty upgrade ze spatchowanych 1.0.24, idempotencja, restore, 5 testow negatywnych, odmowa uszkodzonego JAR, 1018 zrodel odtwarzalnych, 870 danych bez zmian, 7371 opcji i 3 Windows x64 build: PASS. Bez natywnego Windows/game testu. **DRAFT/OPTIONAL:** 3659 aktywnie instalowanych wierszy, zero utraconych formatow/spacji; dwa umyslne pominiecia angielskiego przecinka przed `i`. NIE jest to semantyczna recenzja wszystkich wpisow. Raport `docs/RELEASE_1025.md`.
+- **Odtworzenie:** `tools/restore_snapshot.py`, overlaye 1013..1025, `tools/verify_1025_ui.py`, `tools/test_1025_delta.py`.
 - **Zmiany 1.0.24:** 44 nowe teksty UI (OBF +28, API +16), w tym osiem przyciskow menu glownego, zakladki broni i eskadr, przyciski edycji grup, launcher, filtry planet i opisy zadan flot. Oryginalne JVM CP i javap: 44/44 potwierdzone, identyfikatory enum nietkniete. OBF 3213 rzeczywistych podmian w 533 klasach, API 5148 w 936; brak niedozwolonych zmian bajtkodu. Instalacja na oryginalnych bibliotekach i upgrade z 1.0.23 byte-identyczne, idempotencja i restore obu JAR PASS. 870 plikow data bez zmian, 7371 opcji dialogowych PASS, go test/vet i cross-build Win x64 PASS. Pakiet ZIP 873 pliki, SHA-256 `31bf9f27f2451be4f10e3ebcca0568cceee9e3812295ffdb29686c4f025a0b2f`. Brak testu natywnego Windows i gry. `docs/RELEASE_1024.md`.
 - **Odtworzenie:** `tools/restore_snapshot.py`, overlaye 1013–1024, testy `tools/verify_1024_ui.py` i `tools/test_1024_delta.py`.
 - **Zmiany 1.0.23:** 67 nowych potwierdzonych UI literali: OBF +41 (opisy broni, ceny, producenci/odbiorcy, naglowki kodeksu), API +26 (symulator, etykiety CR, przemysl, reputacja, poprawka skladanej zdolnosci). OBF 3185 trafien / 533 klasy, API 5132 / 936 klas. Audyt oryginal->patch: brak zmian bajtkodu, OBF 533 poprawione sekcje sum manifestu; upgrade z 1.0.22, idempotencja i restore oryginalnych obu JAR PASS, odrzucanie uszkodzonych JAR PASS. 870 danych bez zmian; 7371 opcji dialogs PASS. Windows x64 kompilacja PASS, natywnej gry i testu Windows NIE wykonywano. Detale `docs/RELEASE_1023.md`. Nie zmieniono technicznych enum ID. 
@@ -38,7 +40,7 @@
 ## Otwarte problemy dla 1.1
 1. Potwierdzic uruchamianie moda i instalatora na Windows oraz brak bledow `rules.csv` w rozgrywce (issue #1).
 2. Dalszy audyt kazdego pozostalego pola widocznego w data / OBF / API i dynamicznych tekstach, z zachowaniem technicznych tokenow oraz polskich nazw i skrotow (issue #2).
-3. Rozstrzygnac bezpieczenstwo podmian API oznaczonych `DRAFT_ONLY_NOT_INSTALLED` (1012 faktycznie podmienianych), `OPTIONAL_PATCHER_NOT_GAME_TESTED` (2301) i `DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME` (356). Kolumna `status` nie jest filtrem patchera; pozycje te sa instalowane (issue #3).
+3. Rozstrzygnac bezpieczenstwo podmian API oznaczonych `DRAFT_ONLY_NOT_INSTALLED` (1008 aktywnie instalowanych), `OPTIONAL_PATCHER_NOT_GAME_TESTED` (2295) i `DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME` (356). Kolumna `status` nie jest filtrem patchera; pozycje te sa instalowane (issue #3).
 4. Konflikty oryginalnych wariantow danych (67 plikow) i kontrola odmiany tekstow generowanych.
 
 Nie deklarowac 100% ani finalnego 1.1 przed skonczonym audytem i testami.
