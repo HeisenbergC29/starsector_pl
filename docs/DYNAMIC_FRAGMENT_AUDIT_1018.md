@@ -1,6 +1,8 @@
 # Audyt 1.1: teksty dynamiczne Java (stan 1.0.17)
 
-**Status:** problem potwierdzony na oryginalnych bibliotekach Starsector 0.98a-RC8. Nie wprowadzono zmian w plikach gry ani w mapach 1.0.17. Audyt jest wykonywalny i nie zawiera komercyjnych JAR.
+**Status:** problem potwierdzony na oryginalnych bibliotekach Starsector 0.98a-RC8. Nie wprowadzono zmian w plikach gry ani w mapach 1.0.17.
+
+**Aktualizacja:** w wersji 1.0.18 podmiotowe `he/she` przetlumaczono na `on/ona` w OBF `Person` i API `BaseBarEventWithPerson` oraz `HistorianData`. Pozostale zaimki i `Misc.STORY` nadal wymagaja pracy. Ponizsze liczby dotycza audytu stanu 1.0.17. Zobacz `docs/RELEASE_1018.md`. Audyt jest wykonywalny i nie zawiera komercyjnych JAR.
 
 ## Wyniki — dialogi w barach
 
