@@ -1,6 +1,6 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.23** (snapshot 1.0.12 + kolejne nakladki 1013–1023; OBF aktywna mapa 10123, API 1023; 870 danych bez zmian wobec 1.0.22).
+**Aktualny stan roboczy: 1.0.24** (snapshot 1.0.12 + kolejno nakladki 1013–1024; OBF aktywna mapa 10124, API 1024; 870 plikow data bez zmian).
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 
@@ -19,7 +19,7 @@
 
 ## Start pracy w nowym czacie
 1. Czytaj README, docs/STATUS.md i docs/TEST_109_CRASH.md.
-2. Uruchom `python3 tools/restore_snapshot.py` (wymagany zstd), nastepnie `python3 tools/apply_1013.py worktree` i `python3 tools/apply_1014.py worktree` oraz `python3 tools/apply_1015.py worktree` i `python3 tools/apply_1016.py worktree` oraz `python3 tools/apply_1017.py worktree` i `python3 tools/apply_1018.py worktree` oraz `python3 tools/apply_1019.py worktree` i `python3 tools/apply_1020.py worktree` oraz `python3 tools/apply_1021.py worktree` i `python3 tools/apply_1022.py worktree` oraz `python3 tools/apply_1023.py worktree`. Powstanie biezacy `worktree/` z mapami CSV (w tym API 1021, OBF 10121 i wszystkie historyczne), narzedziami Go, kodem patcherow i mod/data.
+2. Uruchom `python3 tools/restore_snapshot.py` (wymagany zstd), nastepnie `python3 tools/apply_1013.py worktree` i `python3 tools/apply_1014.py worktree` oraz `python3 tools/apply_1015.py worktree` i `python3 tools/apply_1016.py worktree` oraz `python3 tools/apply_1017.py worktree` i `python3 tools/apply_1018.py worktree` oraz `python3 tools/apply_1019.py worktree` i `python3 tools/apply_1020.py worktree` oraz `python3 tools/apply_1021.py worktree` i `python3 tools/apply_1022.py worktree` oraz `python3 tools/apply_1023.py worktree` i `python3 tools/apply_1024.py worktree`. Powstanie biezacy `worktree/` z mapami CSV (w tym API 1021, OBF 10121 i wszystkie historyczne), narzedziami Go, kodem patcherow i mod/data.
 3. Waliduj `worktree/mod/data/campaign/rules.csv`.
 4. Zdobywaj oryginalne JAR z prywatnej Biblioteki uzytkownika i weryfikuj ich SHA; nie zakladaj ze sa w GitHub.
 5. Kontynuuj audyt wszystkich pozostalych pol do wersji 1.1.
@@ -33,3 +33,5 @@
 9. W 1.0.22 skorygowano 65 wystapien nazwy frakcji do `Liga Perseanska` / `Ligi Perseanskiej` / `Lige Perseanska`, w 3 user-facing plikach data. `tools/verify_1022_names.py` kontroluje hash 867 nietknietych plikow i 3 docelowych; `tools/test_1022_names.py` chroni przed zastapieniem fragmentu `Ligi Persea` wewnatrz poprawnej juz `Ligi Perseanskiej`. Nie zmieniono map JAR, technicznych ID ani skryptow. Testy pelnej 1.1 i Windows wciaz otwarte; `docs/RELEASE_1022.md`.
 
 10. W 1.0.23 dodano 67 UI literals (41 OBF, 26 API) w tooltipach uzbrojenia, tabelach rynku, kodeksie, symulatorze i gotowosci bojowej. Nie patchuj enum ID `HIGH/LOW/EXTREME` itp. W `ToggleAbilityWithCost` oryginalne `educes the combat readiness ` z trailing space jest ODREBNYM literalem od wersji bez spacji; polski wynik musi poprawnie skladac zdanie. Test `tools/verify_1023_ui.py`, dowody `docs/RELEASE_1023.md`. Patch OBF SHA `f391bc4f0a0c6078845f02415b80378a9d45375ab37eb6c287fcac4058b46abb`, API SHA `562877340d26fecabb5c34f38b9fbe11ed8d2c781faa78b307c7150bc018cb10`. Natywnej gry Windows i pelnej 1.1 NIE zweryfikowano.
+
+11. **Krytyczne odkrycie 1.0.24:** w 1.0.23 wiele głownych przyciskow menu bylo po angielsku, mimo przetlumaczonych `New Game`/`Load Game`. W klasie OBF `com.fs.starfarer.title.C` potwierdzono 8 pozostalych stringow budujacych przyciski. W 1.0.24 sa po polsku, wraz z filtrami wyboru broni i eskadr, launcherem i zadaniami flot: **44 nowe etykiety** (OBF 28/API 16). Zachowano enum ID (`FOLLOW`, `HOLD`, etc.) i potencjalnie techniczny wybor `Off` launchera. Gotowe testy: `tools/verify_1024_ui.py`, `tools/test_1024_delta.py` i prywatny audyt `tools/verify_1024_callsites.py`; raport `docs/RELEASE_1024.md`. Oryginalne JAR bez zmian po restore, Windows/gameplay nieuruchomione. Audyt pelnego 1.1 nadal otwarty.
