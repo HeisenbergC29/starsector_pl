@@ -74,6 +74,12 @@ jobs:
           python3 tools/test_1025_delta.py worktree
       - name: Audit all active older DRAFT/OPTIONAL API translations (diagnostic)
         run: python3 tools/audit_draft_boundaries_1025.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1025.csv --out audit_draft_boundaries_1025.json --strict
+      - name: Apply 1.0.26 verified refit, raid, market and navigation UI labels
+        run: python3 tools/apply_1026.py worktree
+      - name: Verify 86 OBF-only translations, unchanged API map and 5 negative regressions
+        run: |
+          python3 tools/verify_1026_ui.py worktree
+          python3 tools/test_1026_delta.py worktree
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
