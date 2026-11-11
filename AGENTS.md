@@ -1,6 +1,6 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
+**Aktualny stan roboczy: 1.0.13** (snapshot bazowy 1.0.12 + `tools/apply_1013.py`).\n\n**Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 
 - Tlumacz wszystkie widoczne teksty z data/, OBF i API, w tym dialogi, menu, opisy, raporty, nazwy generowane i dynamiczne wiadomosci.
 - Tlumacz nazwy z powszechnym polskim odpowiednikiem, pseudonimy/nicki i skroty z przetlumaczonym rozwinieciem (combat readiness CR -> gotowosc bojowa GB). **Nie tlumacz imion i nazwisk osob.**
@@ -16,7 +16,7 @@
 
 ## Start pracy w nowym czacie
 1. Czytaj README, docs/STATUS.md i docs/TEST_109_CRASH.md.
-2. Uruchom `python3 tools/restore_snapshot.py` (wymagany zstd). Utworzy `worktree/` z mapami CSV, narzedziami Go, kodem patcherow, mod/data i skryptami.
+2. Uruchom `python3 tools/restore_snapshot.py` (wymagany zstd), nastepnie `python3 tools/apply_1013.py worktree`. Powstanie biezacy `worktree/` z mapami CSV (w tym 1013), narzedziami Go, kodem patcherow i mod/data.
 3. Waliduj `worktree/mod/data/campaign/rules.csv`.
 4. Zdobywaj oryginalne JAR z prywatnej Biblioteki uzytkownika i weryfikuj ich SHA; nie zakladaj ze sa w GitHub.
 5. Kontynuuj audyt wszystkich pozostalych pol do wersji 1.1.
