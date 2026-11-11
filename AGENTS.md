@@ -12,7 +12,7 @@
 - Zachowuj wszystkie znaczniki $..., %..., kroki parsera, format CSV, kodowanie i zakonczenia linii CRLF.
 - Po zmianach porownuj cala strukture z oryginalami i kazdy zmieniony .class (dopuszczalne tylko literały i manifest JAR), testuj na oryginalnych JAR: instalacje, aktualizacje, idempotencje, przywracanie i odmowe na uszkodzonych plikach.
 - Natywne testy Windows i gry sa oddzielne; format PE i testy Go na Linuxie nie zastepuja uruchomienia gry.
-- Paczka dla gracza minimalna: 868 plikow data, mod_info.json, krotka instrukcja i jeden EXE ze zintegrowanymi patcherami. Zrodla i raporty poza paczka.
+- Paczka dla gracza minimalna: 870 plikow data, mod_info.json, krotka instrukcja i jeden EXE ze zintegrowanymi patcherami. Zrodla i raporty poza paczka.
 - Oryginalne JAR sa materialami komercyjnymi gry i nie sa w tym repo. **Nie dodawaj do publicznego GitHub oryginalnych bibliotek ani pelnych logow ze sciezkami uzytkownika.**
 - Nie udawaj PASS ani 100% ukonczenia. Pracuj konkretnie, raportuj krotko. Nie tworz kolejnych wersji bez zmian i testow.
 
