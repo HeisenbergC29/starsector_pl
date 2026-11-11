@@ -20,6 +20,8 @@
 | `BaseIndustry` — etykiety ulepszeń, przedmiotów, produkcji | – | 3 |
 | **Razem** | **41** | **26** |
 
+Zgodnosc odmiany: `Perfect` w opisie celnosci broni ma poprawna forme `Idealna` (nie `Idealne`).
+
 Nie dodano zerowej podmiany `Administrator` → `Administrator` (poprawna już forma polska). **Celowo nie tłumaczono** `HIGH`, `LOW`, `EXTREME` itd. używanych jako techniczne nazwy stałych enum, mimo że w pobliżu występują etykiety widoczne dla gracza.
 
 W `ToggleAbilityWithCost` zidentyfikowano dwa różne źródłowe literały różniące się końcową spacją: jeden był tłumaczony w 1.0.19, drugi nie. Dodano drugi wariant i przetestowano wynik po połączeniu trzech fragmentów: `Zmniejsza gotowosc bojowa wszystkich okretow...`, bez podwójnych spacji.
@@ -52,10 +54,10 @@ W `ToggleAbilityWithCost` zidentyfikowano dwa różne źródłowe literały ró�
 - API: `a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a`
 
 **Po instalacji 1.0.23 (SHA-256):**
-- OBF: `faf05ace9fce1c0ec9309871db3b4d5684c6b2de679d2c7c5983ad1a7f33adbf`
+- OBF: `f391bc4f0a0c6078845f02415b80378a9d45375ab37eb6c287fcac4058b46abb`
 - API: `562877340d26fecabb5c34f38b9fbe11ed8d2c781faa78b307c7150bc018cb10`
 
-**Pakiet:** `Starsector_PL_ASCII_0.98a_RC8_1.0.23_MINIMALNY.zip`, **12 697 626 B**, SHA-256 `81b4b379f54549aa2bbf048ba4a1a0a457048faf4b39ad65437a546377540588`. ZIP oraz `Starsector_PL_1.0.23_TESTY.json` zapisano w prywatnej Bibliotece projektu.
+**Pakiet:** `Starsector_PL_ASCII_0.98a_RC8_1.0.23_MINIMALNY.zip`, **12 697 625 B**, SHA-256 `1476d7f23cb03d6167c256e6d7e2fc1261524d7e474975acd18cc773ae2d7dd4`. ZIP oraz `Starsector_PL_1.0.23_TESTY.json` zapisano w prywatnej Bibliotece projektu.
 
 ## Reprodukcja stanu z GitHub
 
