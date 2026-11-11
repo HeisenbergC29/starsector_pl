@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.23):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.24):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.23** (snapshot 1.0.12 + nakladki 1013–1023; 41 nowych napisow OBF i 26 API w UI. Wszystkie 870 plikow danych niezmienione wobec 1.0.22). Cel 1.1 nieukonczony.
+**Aktualny stan roboczy: 1.0.24** (snapshot 1.0.12 + nakladki 1013–1024; +28 widocznych napisow OBF i +16 API, w tym glówne menu; 870 danych bez zmian). Cel 1.1 nieukonczony.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -60,3 +60,6 @@ Po przywroceniu snapshotu wykonaj overlaye 1013–1022 w tej kolejnosci, potem `
 
 ## Rozwój 1.0.23
 Po przywroceniu snapshotu stosuj nakladki 1013–1023 kolejno. OBF aktywna mapa `TLUMACZENIA_OBF_10123.csv`, API `TLUMACZENIA_JAR_1023.csv`. Test `python3 tools/verify_1023_ui.py worktree` potwierdza dokladnie +67 widocznych etykiet, zachowanie poprzednich map i skladanie fragmentow podpowiedzi. Zachowano aktualizacje z 1.0.22. [Dokumentacja](docs/RELEASE_1023.md).
+
+## Rozwój 1.0.24
+Po odtworzeniu snapshotu zastosuj nakladki 1013–1024 kolejno. OBF aktywna mapa `TLUMACZENIA_OBF_10124.csv`; API aktywna mapa `TLUMACZENIA_JAR_1024.csv`. `python3 tools/verify_1024_ui.py worktree` testuje dokladnie +44 nowe etykiety, nienaruszone stare tlumaczenia i brak zmiany danych; `python3 tools/test_1024_delta.py worktree` celowo narusza mapy i testuje odmowe. Z prywatnymi oryginalnymi JAR: `tools/verify_1024_callsites.py` (44 potwierdzone miejsca uzycia). [Dokumentacja](docs/RELEASE_1024.md).
