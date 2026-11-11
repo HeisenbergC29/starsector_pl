@@ -59,6 +59,8 @@ W `ToggleAbilityWithCost` zidentyfikowano dwa różne źródłowe literały ró�
 
 **Pakiet:** `Starsector_PL_ASCII_0.98a_RC8_1.0.23_MINIMALNY.zip`, **12 697 625 B**, SHA-256 `1476d7f23cb03d6167c256e6d7e2fc1261524d7e474975acd18cc773ae2d7dd4`. ZIP oraz `Starsector_PL_1.0.23_TESTY.json` zapisano w prywatnej Bibliotece projektu.
 
+**GitHub Actions:** pełne odtworzenie nakładek 1013–1023, walidacje danych, testy map, Go test/vet i kompilacja Windows x64: **PASS** — [przebieg 43107856887](https://github.com/HeisenbergC29/starsector_pl/actions/runs/43107856887). Jest to test CI na Linuksie, nie test uruchomionej gry na Windows.
+
 ## Reprodukcja stanu z GitHub
 
 ```bash
