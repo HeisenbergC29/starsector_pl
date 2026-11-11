@@ -16,8 +16,8 @@ def audit_mod(mod: Path):
     if info.get('gameVersion') != '0.98a-RC8':
         errors.append('Wrong gameVersion in mod_info.json')
     files = [p for p in (mod / 'data').rglob('*') if p.is_file()]
-    if len(files) != 868:
-        errors.append(f'Expected 868 data files, got {len(files)}')
+    if len(files) != 870:
+        errors.append(f'Expected 870 data files, got {len(files)}')
     non_ascii = [p.relative_to(mod).as_posix() for p in files if not p.read_bytes().isascii()]
     if non_ascii:
         errors.append(f'Non-ASCII data files: {non_ascii[:20]}')

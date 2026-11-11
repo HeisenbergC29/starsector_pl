@@ -1,42 +1,52 @@
 {
-  "archive": "starsector_pl_sources_1011.tar.zst",
-  "size": 1579542,
-  "sha256": "234f828f77f34fe8d4629d034e6ec3a1480816995bc9202f4b2f6cd432a8f596",
+  "archive": "starsector_pl_sources_1012.tar.zst",
+  "size": 2208208,
+  "sha256": "06d6375dd60a15f3bc8da280e1d1fed43a79f0a02ce04de07733334e416b2706",
   "parts": [
     {
-      "file": "starsector_sources_1011.part000",
-      "sha256": "da2e8ea91d8071ff34afb8cddcae883227bae8dcd35b2c7986e2b4854269998c",
+      "file": "starsector_sources_1012.part000",
+      "sha256": "45a3872eaed16a392f642c8d35a3535b56e006708a08adae10966c12bd49132d",
       "size": 262144
     },
     {
-      "file": "starsector_sources_1011.part001",
-      "sha256": "cd280fb55a8a5fd0de18798f9f8e4f87442cedfb8b5616fbd0b77c6cfa5826ad",
+      "file": "starsector_sources_1012.part001",
+      "sha256": "84286ac20513385e45227529922b4ba62b4f3ab3a7c2eac6fed0115727f6e1f8",
       "size": 262144
     },
     {
-      "file": "starsector_sources_1011.part002",
-      "sha256": "de07075faa09368e5515f8ae8a5a8a4c6301a9221bde89859269313e9015bc01",
+      "file": "starsector_sources_1012.part002",
+      "sha256": "291b20b3e32ed37a4ac3f18efbcfc7d9d6afbfcba989e6e6fda3358f6d587537",
       "size": 262144
     },
     {
-      "file": "starsector_sources_1011.part003",
-      "sha256": "80f9800d13adeb09980bee16d80579c713e1d66e2ebca19f477374c2aaf8d379",
+      "file": "starsector_sources_1012.part003",
+      "sha256": "cb84b623e95b0814b2e8ba0bf2150b1b6e26dfca8a40b166ec44041e9c4a7bc2",
       "size": 262144
     },
     {
-      "file": "starsector_sources_1011.part004",
-      "sha256": "d11ae1df9ced61da42abf86386440258272ee33c7c39c15ded85b25ef851921d",
+      "file": "starsector_sources_1012.part004",
+      "sha256": "9cef693dcc06f4c453dce6ea837e4057042beac2b04ae9d30fd5711f1536fe8a",
       "size": 262144
     },
     {
-      "file": "starsector_sources_1011.part005",
-      "sha256": "4af34dacf93c896b1f49003084276f70e27f4f502ab76bcb34d4947cf491167c",
+      "file": "starsector_sources_1012.part005",
+      "sha256": "9d3e4058b67d29c9f60b1e7bd4572faddcdb7b587d5639635058378cb9ee580d",
       "size": 262144
     },
     {
-      "file": "starsector_sources_1011.part006",
-      "sha256": "448721696228002fd7020ad92c243fd514d93e25fc63f484adf7d06d898c780c",
-      "size": 6678
+      "file": "starsector_sources_1012.part006",
+      "sha256": "0fc074a0c88194db0158dd08862f0f42a9f8b5c2b52e2c42ed16a6d02ea39aa7",
+      "size": 262144
+    },
+    {
+      "file": "starsector_sources_1012.part007",
+      "sha256": "f2f69eaaed09a7fbcc3b953aaae8354da69774e15b2d6a06eecd07b52e7bf13a",
+      "size": 262144
+    },
+    {
+      "file": "starsector_sources_1012.part008",
+      "sha256": "6b87682b2b56d124e95d00cc2e5fff9a690b931ccdfbd11213406273d4064859",
+      "size": 111056
     }
   ]
 }
