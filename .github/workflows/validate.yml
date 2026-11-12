@@ -80,6 +80,12 @@ jobs:
         run: |
           python3 tools/verify_1026_ui.py worktree
           python3 tools/test_1026_delta.py worktree
+      - name: Apply 1.0.27 translated fleet dialogs and ship/commodity labels
+        run: python3 tools/apply_1027.py worktree
+      - name: Verify exact 71 approved translations and reject unsafe historical-map changes
+        run: |
+          python3 tools/verify_1027_ui.py worktree
+          python3 tools/test_1027_delta.py
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
