@@ -1,0 +1,21 @@
+{
+  "baseline": "1.0.29",
+  "entries_needing_semantic_review": 3659,
+  "status_counts": {
+    "DRAFT_ONLY_NOT_INSTALLED": 1008,
+    "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME": 356,
+    "OPTIONAL_PATCHER_NOT_GAME_TESTED": 2295
+  },
+  "priority_counts": {
+    "0": 2,
+    "2": 173,
+    "3": 3484
+  },
+  "flag_counts": {
+    "SPACE_BOUNDARY": 2,
+    "CONTEXT_SPECIFIC_TRANSLATIONS": 173,
+    "SHORT_CONTEXT_SENSITIVE": 515
+  },
+  "meaning_verified_by_this_script": 0,
+  "warning": "Heuristic flags are not proof of a translation error; review full class and UI callsites."
+}

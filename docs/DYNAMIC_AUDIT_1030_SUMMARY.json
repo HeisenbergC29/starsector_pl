@@ -1,0 +1,33 @@
+{
+  "game_version": "0.98a-RC8",
+  "baseline": "1.0.29",
+  "original_SHA256": {
+    "OBF": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8",
+    "API": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a"
+  },
+  "patched_1029_SHA256": {
+    "OBF": "fe13bdd519414be15e290ab1fcf84724524ea5e2f133b1bae6ce4e12ad90e71a",
+    "API": "030e3f3e1f4649de423a8dce5e64b0acd7849a9cd26063b38a87974eb954e0f2"
+  },
+  "story_field_reads": 81,
+  "classes_using_story": 24,
+  "story_jar_counts": {
+    "OBF": 65,
+    "API": 16
+  },
+  "method_scoped_next_point_literal": 69,
+  "historical_loose_lookahead_point_count": 69,
+  "pronoun_calls_from_prior_audit": 219,
+  "her_aliasing": {
+    "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.BaseBarEventWithPerson",
+    "same_constant_pool_string_reference": true,
+    "constant_pool_index": 143,
+    "methods": [
+      "getHimOrHer",
+      "getHisOrHer"
+    ],
+    "incompatibility": "one shared her string requires different grammatical Polish forms"
+  },
+  "translation_status": "BLOCKED: no blanket replacement of shared STORY/her",
+  "native_windows_gameplay_tested": false
+}

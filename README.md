@@ -79,3 +79,7 @@ Zastosuj kolejno overlaye `tools/apply_1013.py` do `tools/apply_1028.py` na odtw
 ## Rozwoj 1.0.29
 
 30 nowych klasowo ograniczonych podmian Java UI (OBF 23, API 7); 43 uzycia `ldc` zweryfikowane na oryginalnych bibliotekach. Pełen raport: [docs/RELEASE_1029.md](docs/RELEASE_1029.md). Odtworzenie: po overlay 1028 uruchom `python3 tools/apply_1029.py worktree`, nastepnie `python3 tools/verify_1029_ui.py worktree`, `python3 tools/test_1029_delta.py worktree`, walidator opcji rules i `sh worktree/build_windows.sh`. 1.1 nadal nieukonczona, test gry na Windows niewykonany.
+
+## Postep do 1.1: audyt dynamicznych tekstow 1030 (bez nowego wydania)
+
+Na oryginalnych i spolonizowanych bibliotekach 1.0.29 ponownie zweryfikowano 81 uzyc `Misc.STORY`, 24 klasy oraz techniczna kolizje stalej `her` miedzy dwoma metodami. Stworzono narzedzia i testy tylko do odczytu, a takze kolejke 3659 starszych tlumaczen API do recenzji semantycznej. Nowe bramki akceptacji opisano w [docs/RELEASE_GATES_11.json](docs/RELEASE_GATES_11.json). Wyniki: [docs/DYNAMIC_AUDIT_1030.md](docs/DYNAMIC_AUDIT_1030.md) oraz [docs/SEMANTIC_AUDIT_1030.md](docs/SEMANTIC_AUDIT_1030.md). **Najnowsza paczka 1.0.29 pozostaje bez zmian. To nie jest ukonczona 1.1.**

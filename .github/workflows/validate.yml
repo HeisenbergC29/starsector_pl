@@ -98,6 +98,11 @@ jobs:
         run: |
           python3 tools/verify_1029_ui.py worktree
           python3 tools/test_1029_delta.py worktree
+      - name: Release gate audit for 1.1 (current development version is 1.0.29)
+        run: |
+          python3 tools/test_dynamic_1030.py
+          python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1029.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
+          python3 tools/check_release_gates_1030.py worktree --gates docs/RELEASE_GATES_11.json
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
