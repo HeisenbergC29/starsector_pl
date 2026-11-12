@@ -1,0 +1,18 @@
+{
+  "version": "1.0.37",
+  "previous_version": "1.0.36",
+  "total_getter_calls": 219,
+  "reviewed_offline_prior": 1,
+  "newly_reviewed_getHeOrShe_sites": 6,
+  "reviewed_offline_total": 7,
+  "pending_offline": 212,
+  "pending_windows_visual": 219,
+  "shared_her_constant_pool_index": 143,
+  "shared_her_intact": true,
+  "method_bytecode_changed": false,
+  "corrected_historical_api_literals": 5,
+  "new_exact_api_literals": 1,
+  "reviewed_historical_api_total": 83,
+  "historical_api_pending": 3575,
+  "native_windows": false
+}

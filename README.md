@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.36):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.37):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.36** (snapshot bazowy 1.0.12 i nakladki 1013–1036; OBF 3534 podmiany/539 klas jak w 1.0.35, API 5242 podmiany/938 klas z 5244 wierszy mapy; 870 plikow danych bez zmian). Cel 1.1 nadal OTWARTY.
+**Aktualny stan roboczy: 1.0.37** (snapshot 1.0.12 + overlaye 1013–1037; OBF 3534/539 klas bez zmian, API 5245 wierszy CSV/5243 rzeczywiste podmiany/938 klas; 870 plikow data jak w 1.0.36). Pelne 1.1 pozostaje OTWARTE.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -117,3 +117,7 @@ Kolejne 64 widoczne wiersze `rules.csv` maja 93 poprawki tekstu, bez 108 angiels
 ## Wydanie robocze 1.0.36 — poprawa jednego getHimOrHerself() bez zmian bajtkodu
 
 [Weryfikowalny raport](docs/RELEASE_1036.md), [liczniki getterow](docs/PRONOUN_1036_SUMMARY.json), [bramki 1.1](docs/RELEASE_GATES_11.json). Dwa nowe literały API (himself/herself -> on/ona) i cztery poprawione fragmenty `PlanetaryShieldBarEvent`. Sprawdzono oba warianty polskiej konstrukcji w oryginalnej oraz spatchowanej puli stalych, jedno wywolanie Java getHimOrHerself() w optionSelected offset 663; **pozostale 218 z 219 wywolan wymagaja kontroli kontekstowej**, a wspolne `her` w getHimOrHer/getHisOrHer nadal koliduje. 20 nowych recenzji semantycznych API (78 zatwierdzonych offline lacznie, 3580 pozostale). API 5244 mapy/5242 trafienia w 938 klasach, wszystkie metody Java niezmienione bajtowo. 870 data identyczne z 1.0.35, testy Go/CI i Win x64 crossbuild. To nadal NIE jest ukonczona wersja 1.1 ani test gameplay Windows.
+
+## Wersja 1.0.37 — szesc kolejnych kontekstow on/ona
+
+W oryginalnym i spatchowanym API sprawdzono szesc miejsc `getHeOrShe` oraz 12 wariantow tekstow dla obu plci. Piec poprawionych wierszy `DRAFT/OPTIONAL` i jedna nowa brakujaca etykieta ` says. ` -> ` mowi. ` w `TriTachMajorLoanBarEvent`. Usunieto podwojne `bedzie` (`ContactIntel`), meska odmiane w negocjacjach i opisach naukowca/pozyczek. Bez modyfikacji logiki, OBF i plikow data. Rejestr: 83 historyczne API zatwierdzone offline, **3575** nadal do recenzji; Java gettery **7/219** kontekstow poprawionych offline, **212** oczekuje. Natywne Windows/gameplay nadal niewykonane. [Raport](docs/RELEASE_1037.md), [metryki](docs/PRONOUN_1037_SUMMARY.json).

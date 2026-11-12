@@ -13,8 +13,8 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_1036.py: one and only one getHimOrHerself JVM callsite patched with male/female neutral grammar; shared her #143 not changed; 91 rules rows unchanged; native Windows test pending",
-      "unresolved_count": 218,
+      "source": "tools/verify_1037.py: 6 additional original-JAR getHeOrShe callsites reviewed offline for both genders; shared her #143 still unresolved; 91 rules rows unchanged; Windows UI not tested",
+      "unresolved_count": 212,
       "reviewed_rules_rows_offline": 91,
       "removed_visible_gender_variable_refs": 183,
       "pending_windows_ui_rules_rows": 91,
@@ -23,28 +23,29 @@
       "total_jvm_getter_calls": 219,
       "reviewed_reflexive_calls_offline": 1,
       "pending_windows_ui_java_getter_calls": 219,
-      "shared_her_conflict_open": true
+      "shared_her_conflict_open": true,
+      "reviewed_subject_getter_calls_offline": 6
     },
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1036.json: 58 old +20 contextual API reviews; 2 new getter literals; 3658 historical DRAFT/OPTIONAL still installed by patcher",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1036.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1037.json: previous 78 +5 historical corrections; one extra exact JVM literal says; 3658 historical DRAFT/OPTIONAL still installed by patcher",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1037.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 78,
-      "unresolved_count": 3580,
-      "gameplay_unverified_count": 3683,
-      "new_literal_count": 25
+      "reviewed_offline": 83,
+      "unresolved_count": 3575,
+      "gameplay_unverified_count": 3684,
+      "new_literal_count": 26
     },
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1036.md: a single getter callsite fully corrected offline, further 218 Java getter callsites and 1.1 completeness audit outstanding"
+      "source": "docs/RELEASE_1037.md: 6 additional getHeOrShe fragments corrected offline; remaining Java getter callsites, static/dynamic labels, and full language review unfinished"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1036.md: original-JAR constant-pool verified and Windows x64 crossbuild, but native game/runtime and GUI tests still NOT RUN"
+      "source": "docs/RELEASE_1037.md: JAR constant-pool and Windows x64 cross-build tested offline; native gameplay and visual inspection not performed"
     }
   ]
 }
