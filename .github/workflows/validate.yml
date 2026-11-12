@@ -109,12 +109,19 @@ jobs:
           python3 tools/verify_1031.py worktree
           python3 tools/verify_review_1031.py --map worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1030.csv --ledger docs/API_SEMANTIC_REVIEW_1031.json
           python3 tools/test_1031.py
-      - name: Release gate audit for 1.1 (current development version is 1.0.31)
+      - name: Apply 1.0.32 reviewed light-year tooltip and numeric quantity corrections
+        run: python3 tools/apply_1032.py worktree
+      - name: Verify exact 1.0.32 map and eight assembled text combinations
+        run: |
+          python3 tools/verify_1032.py worktree
+          python3 tools/verify_review_1032.py --map worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1032.csv --old-ledger docs/API_SEMANTIC_REVIEW_1031.json --ledger docs/API_SEMANTIC_REVIEW_1032.json
+          python3 tools/test_1032.py worktree
+      - name: Release gate audit for 1.1 (current development version is 1.0.32)
         run: |
           python3 tools/test_dynamic_1030.py
           python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1030.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
-          python3 tools/check_release_gates_1031.py worktree --gates docs/RELEASE_GATES_11.json --ledger docs/API_SEMANTIC_REVIEW_1031.json
-          python3 tools/test_release_gates_1031.py
+          python3 tools/check_release_gates_1032.py worktree --gates docs/RELEASE_GATES_11.json --prior-ledger docs/API_SEMANTIC_REVIEW_1031.json --ledger docs/API_SEMANTIC_REVIEW_1032.json
+          python3 tools/test_release_gates_1032.py worktree
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -153,5 +160,5 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.31 minimal Windows installer
-        run: python3 tools/package_1031.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.31_MINIMALNY.zip
+      - name: Package and CRC-check 1.0.32 minimal Windows installer
+        run: python3 tools/package_1032.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.32_MINIMALNY.zip

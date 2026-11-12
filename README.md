@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.31):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.32):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.31** (snapshot 1.0.12 + overlaye 1013–1031; OBF 3510 trafien/538 klas, API 5217 trafien/938 klas; 870 plikow danych, jeden literal Java zmieniony wzgledem 1.0.30). Cel 1.1 nadal otwarty.
+**Aktualny stan roboczy: 1.0.32** (snapshot 1.0.12 + overlaye 1013–1032; OBF 3510 trafien/538 klas, API 5223 trafienia/938 klas, 5225 wierszy; 870 danych niezmienionych wzgledem 1.0.31). Cel 1.1 nadal otwarty.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -95,3 +95,7 @@ Nowe literalne napisy OBF +2, API +4 i **jedna poprawka wczesniejszego skladaneg
 ## Wydanie robocze 1.0.31 — poprawka odmiany i kontrola statusow API
 
 W `data/hullmods/SurveyingEquipment.java` usunieto bledna polska konstrukcje przy 1 jednostce i zachowano znaczniki `%s`, ASCII oraz CRLF. Mapy OBF/API i sumy spatchowanych JAR sa **niezmienione wzgledem 1.0.30**. Niezalezny audyt constant pool potwierdzil, ze status `DRAFT_ONLY_NOT_INSTALLED` jest mylacy: 1006/1008 takich wierszy zostalo zastosowanych do JAR. Ledger `docs/API_SEMANTIC_REVIEW_1031.json` dokumentuje **30** rzeczywiscie zrecenzowanych offline pozycji ze starszej puli 3658, pozostawiajac **3628** do recenzji semantycznej i nadal **3658** bez testu w grze Windows. [Pelny raport](docs/RELEASE_1031.md). Nie wydawac 1.1 bez zamkniecia [bramek](docs/RELEASE_GATES_11.json).
+
+## Wydanie 1.0.32 — dynamiczne podpowiedzi paliwa i odmiana liczb
+
+[Raport i testy](docs/RELEASE_1032.md). Naprawiono skladane podpowiedzi trzech zdolnosci, dotychczas laczace polski z angielskim `year's/years'`: `1 roku swietlnego` / `2 lat swietlnych`. API +6 nowych literalow, 25 poprawionych mapowanych tekstow, JAR 5223 realnych podmian/938 klas, kod metod bez zmian (potwierdzony bajt po bajcie). Rozszerzono recenzje offline z 30 do 55 pozycji; **3603** historycznych wpisow pozostaje do recenzji semantycznej, a 3664 w monitorowanych grupach do testu Windows. `Misc.STORY` i zaimki nadal blokują 1.1. Dane mod bez zmian od 1.0.31; paczka instalatora 1.0.32.

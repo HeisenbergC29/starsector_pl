@@ -17,22 +17,23 @@
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "API map TLUMACZENIA_JAR_1030.csv; 3658 draft or optional statuses; 30 context-checked offline in 1.0.31 using immutable row fingerprints; native game not tested",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1031.json",
+      "source": "API map TLUMACZENIA_JAR_1032.csv: 3658 historical DRAFT/OPTIONAL, 30 prior + 25 new reviewed offline; 6 new assembled fragments; full Windows runtime untested",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1032.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 30,
-      "unresolved_count": 3628,
-      "gameplay_unverified_count": 3658
+      "reviewed_offline": 55,
+      "unresolved_count": 3603,
+      "gameplay_unverified_count": 3664,
+      "new_literal_count": 6
     },
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/STATUS.md; one localized SurveyingEquipment source corrected, broader coverage unconfirmed"
+      "source": "docs/STATUS.md; light-year fuel tooltip and singular quantity corrections in 1.0.32, remaining UI coverage not exhaustively verified"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1031.md; Linux CI and Windows x64 cross-build only; native Windows gameplay and visual inspection NOT RUN"
+      "source": "docs/RELEASE_1032.md; Linux CI and Windows cross-compiled installer only; native Windows gameplay not run"
     }
   ]
 }
