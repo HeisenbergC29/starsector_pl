@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.28):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.29):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.28** (snapshot bazowy 1.0.12 + overlaye 1013–1028; 64 nowe etykiety OBF w 18 klasach i 28 API w 9 klasach; 870 danych bez zmian). Cel 1.1 jeszcze nieukonczony.
+**Aktualny stan roboczy: 1.0.29** (snapshot bazowy 1.0.12 + overlaye 1013–1028; 64 nowe etykiety OBF w 18 klasach i 28 API w 9 klasach; 870 danych bez zmian). Cel 1.1 jeszcze nieukonczony.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -75,3 +75,7 @@ Po odtworzeniu bazy wykonaj overlaye 1013–1027 kolejno. Aktywne mapy: `TLUMACZ
 
 ## Rozwoj 1.0.28
 Zastosuj kolejno overlaye `tools/apply_1013.py` do `tools/apply_1028.py` na odtworzonym `worktree`, potem `tools/verify_1028_ui.py` i `tools/test_1028_delta.py`. Aktywne mapy OBF `TLUMACZENIA_OBF_10128.csv` i API `TLUMACZENIA_JAR_1028.csv`. Oryginalne JAR mozna niezaleznie sprawdzic narzedziami `tools/verify_1028_callsites.py` oraz `tools/audit_story_1028.py`. Pozostale **81** uzyc `Misc.STORY` w **24** klasach nie zostalo globalnie zmienione (69 bezposrednio zestawia sie z `point/points`). [Dokumentacja](docs/RELEASE_1028.md).
+
+## Rozwoj 1.0.29
+
+30 nowych klasowo ograniczonych podmian Java UI (OBF 23, API 7); 43 uzycia `ldc` zweryfikowane na oryginalnych bibliotekach. Pełen raport: [docs/RELEASE_1029.md](docs/RELEASE_1029.md). Odtworzenie: po overlay 1028 uruchom `python3 tools/apply_1029.py worktree`, nastepnie `python3 tools/verify_1029_ui.py worktree`, `python3 tools/test_1029_delta.py worktree`, walidator opcji rules i `sh worktree/build_windows.sh`. 1.1 nadal nieukonczona, test gry na Windows niewykonany.

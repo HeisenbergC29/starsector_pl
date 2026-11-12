@@ -1,7 +1,8 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-12
 
-**Wydanie robocze 1.0.28. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.29. Cel 1.1 nadal otwarty.**
 
+- **Zmiany 1.0.29:** 30 nowych potwierdzonych etykiet Java, OBF +23, API +7 (mapa/refit/handel, ceny, czas i odleglosc, glod oraz przyciski dialogow). OBF 3508 podmian / 538 klas, API 5213 podmian / 938 klas (5215 wpisow w CSV). 43 uzycia `ldc` na oryginalnych JAR. Testy: zero zmian w wykonywalnym kodzie metod; realny upgrade 1.0.28->1.0.29 bajtowo identyczny ze swieza instalacja; przywracanie obu oryginalnych SHA, idempotencja, 12 testow negatywnych, 870 plikow data identycznych, 7371/7371 poprawnych opcji rules.csv; Go test/vet i crossbuild Win x64 PASS. Paczka 873 wpisy ZIP, SHA `a5deb389b017adfd9011cc69438bc0f34fc3d06830fea71d40415ea70133a2e7`. Kod i testy: `tools/apply_1029.py`, `tools/verify_1029_ui.py`, `tools/test_1029_delta.py`, `tools/verify_1029_callsites.py`, `tools/verify_1029_jars.py`, `tools/package_1029.py`. **Misc.STORY, dynamiczne zaimki, DRAFT/OPTIONAL i test Windows/gameplay nadal otwarte**. `docs/RELEASE_1029.md`.
 - **Dodatkowy audyt TXT 1.0.21:** 19/19 plikow kodeksu i opisow misji zachowuje uklad wierszy, techniczne identyfikatory dyrektyw, liczby, chronione znaczniki i kombinacje klawiszy; PASS skanera `tools/audit_prose_layout_1021.py`, lecz bez certyfikacji semantyki kazdego zdania. **Issue #5 — naprawa w 1.0.22:** po dodatkowym audycie 53 dawnych `Liga/Ligi/Lige Perseusza` oraz 12 `Liga/Ligi Persea` zamieniono na odpowiednie formy `Liga Perseanska`. Tylko 3 pliki data i teksty widoczne; 867 pozostalych danych bez zmian.
 
 

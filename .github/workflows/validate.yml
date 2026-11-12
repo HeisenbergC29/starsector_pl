@@ -92,6 +92,12 @@ jobs:
         run: |
           python3 tools/verify_1028_ui.py worktree
           python3 tools/test_1028_delta.py
+      - name: Apply 1.0.29 additional reviewed player-visible UI labels
+        run: python3 tools/apply_1029.py worktree
+      - name: Verify 30 precise UI mapping additions and 12 negative regression cases
+        run: |
+          python3 tools/verify_1029_ui.py worktree
+          python3 tools/test_1029_delta.py worktree
       - name: Validate every data file and dialog option
         run: |
           python3 tools/check_project.py worktree/mod
@@ -128,3 +134,5 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
+      - name: Package and CRC-check 1.0.29 minimal Windows installer
+        run: python3 tools/package_1029.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.29_MINIMALNY.zip
