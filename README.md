@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.26):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.27):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.26** (snapshot 1.0.12 + nakladki 1013–1026; +86 etykiet UI OBF w 20 klasach; API i 870 plikow danych identyczne z 1.0.25). Cel 1.1 nadal nieukonczony.
+**Aktualny stan roboczy: 1.0.27** (snapshot 1.0.12 + kolejne nakladki 1013–1027; 41 nowych etykiet OBF i 30 API; dane 870 plikow bez zmian). Pelne 1.1 wciaz nieukonczone.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -69,3 +69,6 @@ Po odtworzeniu bazy wykonaj overlaye `tools/apply_1013.py`–`tools/apply_1025.p
 
 ## Rozwój 1.0.26
 Po odtworzeniu bazy wykonaj overlaye 1013–1026 kolejno. Aktywne mapy: OBF `TLUMACZENIA_OBF_10126.csv` (3380 podmian), API `TLUMACZENIA_JAR_1026.csv` (identyczna z 1025, 5148 podmian). Test `tools/verify_1026_ui.py` kontroluje dokladnie 86 nowych etykiet w 20 klasach i brak zmian danych; `tools/test_1026_delta.py` wymusza wykrycie pieciu niedozwolonych zmian. Z prywatnym oryginalnym JAR mozna uruchomic `tools/verify_1026_callsites.py` (106 odwolania `ldc`). Zob. [docs/RELEASE_1026.md](docs/RELEASE_1026.md).
+
+## Rozwój 1.0.27
+Po odtworzeniu bazy wykonaj overlaye 1013–1027 kolejno. Aktywne mapy: `TLUMACZENIA_OBF_10127.csv` (3421 trafien) i `TLUMACZENIA_JAR_1027.csv` (5180 wierszy, 5178 trafien). Test `tools/verify_1027_ui.py` chroni stare i nowe mapy, `tools/test_1027_delta.py` sprawdza 14 nieautoryzowanych modyfikacji, a `tools/verify_1027_callsites.py` potwierdza 140 wywolan `ldc` z oryginalnych JAR. [Dokumentacja 1.0.27](docs/RELEASE_1027.md).
