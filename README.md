@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.35):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.36):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.35** (snapshot 1.0.12 + nakladki 1013–1035; OBF 3534/539 klas, API 5240/938 klas bez zmian od 1.0.34; 870 plikow danych, 1 poprawiony). Cel 1.1 nadal otwarty.
+**Aktualny stan roboczy: 1.0.36** (snapshot bazowy 1.0.12 i nakladki 1013–1036; OBF 3534 podmiany/539 klas jak w 1.0.35, API 5242 podmiany/938 klas z 5244 wierszy mapy; 870 plikow danych bez zmian). Cel 1.1 nadal OTWARTY.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -113,3 +113,7 @@ Zastosowano nieodmienny skrot **PF** = punkty fabularne zamiast dynamicznego `Mi
 ## Wydanie 1.0.35 — dynamiczne zaimki w dialogach Tri-Tachyon i Ludda
 
 Kolejne 64 widoczne wiersze `rules.csv` maja 93 poprawki tekstu, bez 108 angielskich zmiennych zaimkowych. Lacznie z 1.0.34 jest to **91 wierszy i 183 usuniete odniesienia**. Tlumaczenia nie zmieniaja skryptow, warunkow ani 219 istniejących wywolan getterow Java. Dane pozostalych 869 plikow oraz OBF/API JAR zachowane. Raport i instrukcja odtworzenia: [docs/RELEASE_1035.md](docs/RELEASE_1035.md); [rejestr 64 wierszy](docs/RULES_PRONOUN_REVIEW_1035.json). Wymagany test w dzialajacej grze Windows; to nadal NIE jest kompletna 1.1.
+
+## Wydanie robocze 1.0.36 — poprawa jednego getHimOrHerself() bez zmian bajtkodu
+
+[Weryfikowalny raport](docs/RELEASE_1036.md), [liczniki getterow](docs/PRONOUN_1036_SUMMARY.json), [bramki 1.1](docs/RELEASE_GATES_11.json). Dwa nowe literały API (himself/herself -> on/ona) i cztery poprawione fragmenty `PlanetaryShieldBarEvent`. Sprawdzono oba warianty polskiej konstrukcji w oryginalnej oraz spatchowanej puli stalych, jedno wywolanie Java getHimOrHerself() w optionSelected offset 663; **pozostale 218 z 219 wywolan wymagaja kontroli kontekstowej**, a wspolne `her` w getHimOrHer/getHisOrHer nadal koliduje. 20 nowych recenzji semantycznych API (78 zatwierdzonych offline lacznie, 3580 pozostale). API 5244 mapy/5242 trafienia w 938 klasach, wszystkie metody Java niezmienione bajtowo. 870 data identyczne z 1.0.35, testy Go/CI i Win x64 crossbuild. To nadal NIE jest ukonczona wersja 1.1 ani test gameplay Windows.

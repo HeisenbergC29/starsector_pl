@@ -1,6 +1,9 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-12
 
-**Wydanie robocze 1.0.35. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.36. Cel 1.1 nadal otwarty.**
+
+**Wydanie 1.0.36 (12.11.2026):** rozwiazano offline jedno uzycie `getHimOrHerself` w `PlanetaryShieldBarEvent.optionSelected` offset 663: w `BaseBarEventWithPerson` `himself/herself` -> `on/ona` oraz 4 korekty skladanego polskiego zdania. Wspolny `her` pod #143 w getHisOrHer/getHimOrHer bez zmian. Z 219 getter calls 1 zostalo poprawione i zrecenzowane offline, **218 pozostalym potrzebna jest recenzja; 219 nadal bez wizualnego testu Windows**. API mapa 5244 wiersze, 5242 podmiany /938 klas, zero roznic w metodach JVM; OBF 3534/539 klas i 870 data niezmienione wzgledem 1.0.35. Test upgrade z realnej 1.0.33/1.0.35 API przy aktywnym OBF 1.0.33, idempotencja, restore oryginalnych SHA i odmowa uszkodzonego JAR, 9 testow negatywnych map i 14 bramek, Go test/vet i Windows x64 PE oraz 7371 opcji PASS. 20 nowych recenzji offline PlanetaryShieldBarEvent; razem 78 z 3658 historycznych, 3580 do weryfikacji, 3683 sledzonych z brakiem Windows runtime. ZIP 873 wpisy, 15403739 B, SHA `4ead77404794dcc7872757c08fd8c0a205d47ae5c22da25b67feb473ea406f1c`. **Brak natywnego Windows/gameplay**; 81 PF nadal do kontroli wizualnej, 91 dialogow rules do UI testu. `docs/RELEASE_1036.md`.
+
 
 **Zmiany 1.0.35 (12.11.2026):** w 64 wierszach `rules.csv` wykonano 93 podmiany i usunieto 108 dynamicznych zmiennych zaimkowych z widocznych komunikatow. 91 zatwierdzonych offline wierszy i 183 odniesienia lacznie z 1.0.34, nadal do sprawdzenia w grze. Pozostale 869 data i mapy OBF/API bajtowo niezmienione; getter calls Java nadal 219. `rules.csv` z 1.0.35 (SHA `c09ff63ee5da19d93e17c66c4e8ed3f1beb0e805c885d6b32d67d878b5291e0d`) odwracalny do 1.0.34 SHA `ebcf0741e168dd7046259edeae506caceb6d93cd1f2f9c7ff315f9d52a13428d`. ASCII, CRLF, 7371 opcji, 12 negatywnych testow danych+13 bramek, Go test/vet i 3 Win x64 exe PASS. ZIP 15191470 B, 873 wpisy, SHA `08cb30cf426bf35f1e7e419d6f8bd1a07bf7d2b24b0eb731e37257dadb1e2d11`. **Brak gry Windows; 81 PF wymaga kontroli, 3600 starszych tlumaczen API bez recenzji**. `docs/RELEASE_1035.md`.
 

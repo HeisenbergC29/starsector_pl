@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "release": "1.0.36",
+  "game_version": "0.98a-RC8",
+  "total_original_jvm_getter_invocations": 219,
+  "original_method_counts": {
+    "getHeOrShe": 79,
+    "getHisOrHer": 66,
+    "getManOrWoman": 41,
+    "getHimOrHer": 32,
+    "getHimOrHerself": 1
+  },
+  "newly_corrected_reflexive_callsite": {
+    "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+    "method": "optionSelected",
+    "jvm_bytecode_offset": 663,
+    "getter_owner": "BaseBarEventWithPerson",
+    "original_values": ["himself", "herself"],
+    "polish_ascii_values": ["on", "ona"],
+    "verified_offline": true,
+    "tested_on_windows": false
+  },
+  "previously_untested_jvm_getter_calls_still_pending_offline": 218,
+  "java_getter_calls_pending_windows_gameplay": 219,
+  "shared_her_constant_pool_index": 143,
+  "shared_her_conflict_resolved": false,
+  "prior_reviewed_rules_rows": 91,
+  "removed_display_pronoun_references_in_rules": 183,
+  "historical_api_draft_pool": 3658,
+  "historical_api_reviewed_offline": 78,
+  "historical_api_pending_semantic_review": 3580,
+  "tracked_api_pending_windows_gameplay": 3683,
+  "native_windows_gameplay_performed": false,
+  "commercial_jar_files_committed": false
+}
