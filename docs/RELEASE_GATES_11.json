@@ -11,24 +11,28 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/audit_dynamic_calls_1019.py; 219 pronoun calls; duplicated string her is shared by two different methods",
+      "source": "tools/audit_dynamic_calls_1019.py; 219 pronoun calls; shared constant her must be contextually resolved",
       "unresolved_count": 219
     },
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "API TLUMACZENIA_JAR_1030.csv: 3658 remaining older active DRAFT/OPTIONAL; one assembled bounty sentence corrected and reviewed in 1.0.30",
-      "unresolved_count": 3658
+      "source": "API map TLUMACZENIA_JAR_1030.csv; 3658 draft or optional statuses; 30 context-checked offline in 1.0.31 using immutable row fingerprints; native game not tested",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1031.json",
+      "total_draft_rows": 3658,
+      "reviewed_offline": 30,
+      "unresolved_count": 3628,
+      "gameplay_unverified_count": 3658
     },
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/STATUS.md; some short UI labels and dynamic texts still not independently reviewed"
+      "source": "docs/STATUS.md; one localized SurveyingEquipment source corrected, broader coverage unconfirmed"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1030.md; Linux CI and Windows x64 cross-build only; native Windows gameplay and visual inspection NOT RUN"
+      "source": "docs/RELEASE_1031.md; Linux CI and Windows x64 cross-build only; native Windows gameplay and visual inspection NOT RUN"
     }
   ]
 }

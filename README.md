@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.30):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.31):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.30** (snapshot bazowy 1.0.12 + overlaye 1013–1030; OBF 3510 podmian/538 klas, API 5217 trafien/938 klas; 870 danych bez zmian). Cel 1.1 nadal otwarty.
+**Aktualny stan roboczy: 1.0.31** (snapshot 1.0.12 + overlaye 1013–1031; OBF 3510 trafien/538 klas, API 5217 trafien/938 klas; 870 plikow danych, jeden literal Java zmieniony wzgledem 1.0.30). Cel 1.1 nadal otwarty.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -91,3 +91,7 @@ Z oryginalnego `data.rar` sklasyfikowano **529** plikow niepodmienianych przez 8
 ## Wydanie 1.0.30 — poprawa skladanych dialogow i UI
 
 Nowe literalne napisy OBF +2, API +4 i **jedna poprawka wczesniejszego skladanego zdania**. Naprawiono mieszanke `He is/She is` z polskim opisem lokalizacji poszukiwanej osoby; caly komunikat `On/Ona podobno ukrywa sie...` jest skladany gramatycznie. Poprawiono takze etykiety `Nazwa:`, `Cena: ` i licznik sekund impulsu zaklocajacego. [Dowody, testy i odtwarzanie](docs/RELEASE_1030.md). Nie oznaczac jako kompletnej 1.1: `Misc.STORY`, zaimki wspoldzielone i test Windows nadal otwarte.
+
+## Wydanie robocze 1.0.31 — poprawka odmiany i kontrola statusow API
+
+W `data/hullmods/SurveyingEquipment.java` usunieto bledna polska konstrukcje przy 1 jednostce i zachowano znaczniki `%s`, ASCII oraz CRLF. Mapy OBF/API i sumy spatchowanych JAR sa **niezmienione wzgledem 1.0.30**. Niezalezny audyt constant pool potwierdzil, ze status `DRAFT_ONLY_NOT_INSTALLED` jest mylacy: 1006/1008 takich wierszy zostalo zastosowanych do JAR. Ledger `docs/API_SEMANTIC_REVIEW_1031.json` dokumentuje **30** rzeczywiscie zrecenzowanych offline pozycji ze starszej puli 3658, pozostawiajac **3628** do recenzji semantycznej i nadal **3658** bez testu w grze Windows. [Pelny raport](docs/RELEASE_1031.md). Nie wydawac 1.1 bez zamkniecia [bramek](docs/RELEASE_GATES_11.json).

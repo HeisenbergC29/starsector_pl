@@ -1,6 +1,9 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-12
 
-**Wydanie robocze 1.0.30. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.31. Cel 1.1 nadal otwarty.**
+
+**Wersja 1.0.31, etap poprawki i kontroli:** w 870 plikach danych zmodyfikowano 1 lokalny literał `SurveyingEquipment.java` ("jednostek" -> "jedn." przy liczbie 1; zgodnosc z nazwa "ciezkie maszyny"), bez zmian kodu Java, znacznikow ani CRLF. Mapy tlumaczen OBF/API i spatchowane JAR jak w 1.0.30. Audyt oryginalnej i zmienionej constant pool JVM: API 5219 map, 5217 rzeczywistych trafien, z czego 1006/1008 pozycji o statusie `DRAFT_ONLY_NOT_INSTALLED` sa faktycznie spatchowane — dotychczasowa interpretacja statusu byla bledna. Ledger 30 pozycji z kontrola kontekstu offline, 3628 jeszcze do recenzji; 3658 niezweryfikowanych w grze. 12 testow negatywnych/regresyjnych, Go test/vet, 7371 opcji rules, kompilacja 3 EXE x64, CRC ZIP PASS. Paczka 14 637 638 B SHA `fda00cf498901e00b02f0acdce9d0ac81ce195f63b6fb9a01d0cee1dbbbe3a32`. Brak testu gameplay Windows, `Misc.STORY` 81, zaimki 219, kompletne pokrycie otwarte. `docs/RELEASE_1031.md`.
+
 
 **Zmiany 1.0.30 (12.11.2026):** poprawiono 2 widoczne etykiety OBF, 4 fragmenty API oraz poprawiono jedna wczesniejsza polska fraze API. `PersonBountyIntel`: usunieto mieszanine `He is/She is` z polskim opisem lokalizacji, przetestowano kompletne zdania dla obu plci i trzech lokalizacji. `InterdictionPulseAbility`: poprawiono komunikat i odstep przed `s`. OBF 3510 podmian/538 klas, API 5217 podmian/938 klas. 6 nowo trafionych `ldc`, jeden poprawiony starszy fragment; zero zmian wykonywalnego kodu klas, realny upgrade z 1.0.29, restore, idempotencja, corrupted JAR rejection, Go test/vet, Windows crossbuild PASS. Wszystkie 870 danych jak w 1.0.29; 7371 opcji poprawnych. **3658 DRAFT/OPTIONAL nadal do semantycznej recenzji**; 81 STORY i 219 wywolan zaimkow bez rozstrzygniecia. Paczka 14 637 790 B, SHA `b59d2dda6881907a62348de9fd3c53928e668e71a13de17804c56d34534589c7`. Brak natywnego Windows/gameplay. Raport `docs/RELEASE_1030.md`.
 
