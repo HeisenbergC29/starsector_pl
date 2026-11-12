@@ -12,8 +12,8 @@ import re
 from pathlib import Path
 
 MAPS = {
-    "OBF": "buildtools/NARZEDZIA_OBF/TLUMACZENIA_OBF_10126.csv",
-    "API": "buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1026.csv",
+    "OBF": "buildtools/NARZEDZIA_OBF/TLUMACZENIA_OBF_10127.csv",
+    "API": "buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1027.csv",
 }
 # Deliberately narrow: avoid confusing ordinary punctuation with dynamic tokens.
 TOKENS = re.compile(
