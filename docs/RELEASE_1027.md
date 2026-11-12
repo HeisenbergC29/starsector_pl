@@ -57,6 +57,8 @@ Każdy nowy angielski literał znaleziono w dokładnej puli stałych oryginalnej
 
 **Pakiet:** `Starsector_PL_ASCII_0.98a_RC8_1.0.27_MINIMALNY.zip`, 13 619 202 bajtów, SHA-256 `a6fff38039ca06b8c7cd7461549787b1d91e38bbf9e1d9279636be9ec26730b3`. Archiwum i raport testów w prywatnej Bibliotece projektu; komercyjne JAR pozostają prywatne.
 
+**Niezależna kontrola GitHub Actions: PASS** — [przebieg 43127098089](https://github.com/HeisenbergC29/starsector_pl/actions/runs/43127098089), commit `f0d8bbff`. CI odtworzyło wszystkie nakładki 1013–1027, walidację 71 nowo dodanych etykiet i 14 testów negatywnych, audyt dawnych map, testy Go oraz kompilację Windows x64. Nie jest to test działania uruchomionej gry.
+
 ## Odtworzenie
 
 ```sh
