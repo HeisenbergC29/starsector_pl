@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "version": "1.0.33",
+  "result": "PASS_LOCAL",
+  "zip": {
+    "filename": "Starsector_PL_ASCII_0.98a_RC8_1.0.33_MINIMALNY.zip",
+    "bytes": 15191487,
+    "sha256": "7dc561ffe9ad2f358efa49bc4d0a545cba2dc1582861906e72be998a3868d2ee",
+    "entries": 873,
+    "localized_data_files": 870,
+    "crc_ok": true
+  },
+  "jar_original_sha256": {
+    "OBF": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8",
+    "API": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a"
+  },
+  "jar_patched_sha256": {
+    "OBF": "03729bc8e6ad0100ce4d0f7bf2f71bc198f917ff9e1b2fa5f9dacf4f35960a7a",
+    "API": "148f70c8bb45ef5d1e59c7ada1157766eb032e582bc12522b2e613e95a84839a"
+  },
+  "checks": {
+    "map_deltas_and_samples": "PASS",
+    "81_story_calls": "PASS_OFFLINE",
+    "69_suffixes": "PASS_OFFLINE",
+    "method_code_unchanged": "PASS",
+    "old_1032_to_1033_byte_identical_to_fresh": "PASS",
+    "reinstall_idempotence": "PASS",
+    "restore_orig_jars": "PASS",
+    "reject_corrupted_both_jars": "PASS",
+    "regression_negative_cases": 14,
+    "text_samples": 10,
+    "rules_options": 7371,
+    "rules_invalid": 0,
+    "go_test_and_vet": "PASS",
+    "windows_x64_PE_exes_built": 3,
+    "native_windows_gameplay": "NOT_RUN"
+  },
+  "release_11_gate": "BLOCKED"
+}

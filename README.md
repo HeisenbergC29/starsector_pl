@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.32):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.33):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.32** (snapshot 1.0.12 + overlaye 1013–1032; OBF 3510 trafien/538 klas, API 5223 trafienia/938 klas, 5225 wierszy; 870 danych niezmienionych wzgledem 1.0.31). Cel 1.1 nadal otwarty.
+**Aktualny stan roboczy: 1.0.33** (snapshot 1.0.12 + overlaye 1013–1033; OBF 3534 podmiany/539 klas, API 5240 trafien/938 klas, 5242 wiersze mapy; 870 danych identycznych z 1.0.32). Cel 1.1 pozostaje OTWARTY.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -99,3 +99,9 @@ W `data/hullmods/SurveyingEquipment.java` usunieto bledna polska konstrukcje prz
 ## Wydanie 1.0.32 — dynamiczne podpowiedzi paliwa i odmiana liczb
 
 [Raport i testy](docs/RELEASE_1032.md). Naprawiono skladane podpowiedzi trzech zdolnosci, dotychczas laczace polski z angielskim `year's/years'`: `1 roku swietlnego` / `2 lat swietlnych`. API +6 nowych literalow, 25 poprawionych mapowanych tekstow, JAR 5223 realnych podmian/938 klas, kod metod bez zmian (potwierdzony bajt po bajcie). Rozszerzono recenzje offline z 30 do 55 pozycji; **3603** historycznych wpisow pozostaje do recenzji semantycznej, a 3664 w monitorowanych grupach do testu Windows. `Misc.STORY` i zaimki nadal blokują 1.1. Dane mod bez zmian od 1.0.31; paczka instalatora 1.0.32.
+
+## Wydanie 1.0.33 — lokalizacja 81 kontekstow punktow fabularnych
+
+Zastosowano nieodmienny skrot **PF** = punkty fabularne zamiast dynamicznego `Misc.STORY` (`story`). Kontrolowane tlumaczenie sasiednich tekstow wszystkich **81** oryginalnych uzyc w **24** klasach obejmuje **69** bezposrednich koncowek `point(s)`. Mapy: **OBF +24 nowych/40 skorygowanych**, **API +17 nowych/5 skorygowanych**; 10 testow kompletnych polskich konstrukcji, 14 testow negatywnych, bajtowa zgodnosc kodu metod obu zmodyfikowanych JAR. ZIP 870 identycznych danych i 3 programy Windows x64. [Dokumentacja i SHA](docs/RELEASE_1033.md), [publiczne liczniki](docs/STORY_1033_SUMMARY.json), [bramki wydania 1.1](docs/RELEASE_GATES_11.json).
+
+**81 kontekstow poprawionych i sprawdzonych offline; wszystkie 81 nadal wymagaja testu UI w grze Windows.** Otwarta pozostaje odmiana 219 wywolan metod zaimkowych oraz 3600 historycznych recenzji API. Nie oznaczac jako kompletna 1.1.

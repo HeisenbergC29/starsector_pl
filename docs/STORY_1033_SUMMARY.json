@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "1.0.33",
+  "target": "1.1",
+  "scope": {
+    "story_calls": 81,
+    "story_classes": 24,
+    "obf_story_calls": 65,
+    "api_story_calls": 16,
+    "adjacent_point_suffixes": 69,
+    "offline_reviewed": 81,
+    "pending_windows_ui": 81
+  },
+  "mapping": {
+    "obf_rows": 3534,
+    "obf_additions": 24,
+    "obf_historical_corrections": 40,
+    "obf_changed_classfiles": 539,
+    "api_rows": 5242,
+    "api_actual_matches": 5240,
+    "api_additions": 17,
+    "api_historical_corrections": 5,
+    "api_changed_classfiles": 938
+  },
+  "privacy": {
+    "original_jars_in_repo": false,
+    "private_callsite_inventory_in_repo": false
+  },
+  "bytecode_unchanged": true,
+  "runtime_windows_tested": false
+}
