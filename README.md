@@ -4,7 +4,7 @@
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.29** (snapshot bazowy 1.0.12 + overlaye 1013–1028; 64 nowe etykiety OBF w 18 klasach i 28 API w 9 klasach; 870 danych bez zmian). Cel 1.1 jeszcze nieukonczony.
+**Aktualny stan roboczy: 1.0.29** (snapshot bazowy 1.0.12 + overlaye 1013–1029; 23 nowe etykiety OBF w 21 klasach i 7 API w 6 klasach; 870 danych bez zmian). Cel 1.1 jeszcze nieukonczony.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

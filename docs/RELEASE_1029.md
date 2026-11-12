@@ -3,7 +3,7 @@
 Wersja docelowa: **1.1**, nieukonczona. Oryginalne JAR sa prywatnymi materialami gry i nie sa publikowane w repo.
 
 ## Dokonane zmiany
-- **OBF +23** nowych klasowo ograniczonych etykiet UI w 22 klasach, m.in. ludnosc, zarzadzanie, kredyty/miesiac, lata swietlne, ceny, zasieg, refit, stany oslony, grupy uzbrojenia.
+- **OBF +23** nowych klasowo ograniczonych etykiet UI w 21 klasach, m.in. ludnosc, zarzadzanie, kredyty/miesiac, lata swietlne, ceny, zasieg, refit, stany oslony, grupy uzbrojenia.
 - **API +7** w 6 klasach: `Go back` w czterech miejscach, niedobor zywnosci i ostrzezenie o niedoborze, `Fight!`.
 - Zmiany wylacznie w literałach tekstowych; bez dotykania `Misc.STORY`, metod zaimkowych, ID, enum, technicznych kluczy, logiki.
 - Pliki `mod/data/`: **870/870 identyczne** z 1.0.28; zmienione `mod_info.json`, `CZYTAJ.txt`, Go patchery i mapy.
