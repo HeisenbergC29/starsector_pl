@@ -1,0 +1,627 @@
+{
+  "schema_version": 1,
+  "installed_version": "1.0.38",
+  "review_protocol": "83 immutable earlier reviews plus 21 visually reconstructed historian/DonationOffer texts, including 18 complete gendered phrase variants and strict original/patched Java constant pools; no native Windows gameplay.",
+  "reviewed": [
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "427de199ff58f14f00d0d41e32d83291c48d340fc2018a9aba18d2d913780bd3",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "993bd3f969ec2c52683715f1661e4d4e6b33a578f4b761280cb6f844a36f5f7b",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "6d28207f3d0722093194f8682bf7bd82f71234c9d391a5081df5f2eda71dd280",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "62c73ac26b8121d8c18fb53c969c0387cdee9c0424152703c774ce10a8ecf047",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "1c82ba35528b61cb16adad6344b3d0776ea2629e7632b55187f8be61a6fa3f14",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "8f03d6ed48d943a3a60895e166519a535ad71d124f18a7763b2d188d3ca8e784",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.econ.MonthlyReport",
+      "row_sha256": "7c634f27792ea3c1b819083331010e39ec56ae626344a45a4cbcdeb1abcc2eeb",
+      "evidence": "monthly_report_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.econ.MonthlyReport",
+      "row_sha256": "e9f97e5d892a86ed9306925f99c0fd3ec4d6a88ac2fdbbfd622f7837cf6f7124",
+      "evidence": "monthly_report_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.econ.MonthlyReport",
+      "row_sha256": "e3546ae4f8b72174c299d9620cda85f32ba6bf378df0ae7e33f999bd693a6241",
+      "evidence": "monthly_report_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "21b3324180cb9152dda38528294ad4a99b4a1bb0bd262c64f9e10913a6cce96e",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "550f3cab05b1234c7ddbc4cd227f9c57bed051dbb41ff4ccb046ea890d171c94",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "f08f24b04c4e9904d5fa44b470657b8d6cf04eb1584530841be054a59011933a",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "42b2a1519087198fc5072a180c6abb899af8cfe83e185b0da507db977ab45df4",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "b7fbfd8ba67e4d8aee33d2607026c97480158af87bebaf5ad243beac6019b486",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "3291506c8bafe9ec263a5b3cb72772d8e7198a35eb80eed070703332cfe45417",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "bf528085d58fc5450d51dd053ee0636786a8046e8f301587ee4c72e2010e44cd",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "c80e937591ad8c6e507020da0acac85846250fbd416fc149115d1d5a531a5bba",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "1d6ac7aa81717fc12269856ab9529d5096e14585948f7ca5b0a590e1bea469e2",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "a411fddedc303baa202193528d65e49c128e189528c201af168f0fd77dff256b",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "b3d3b967abef5392bde3dd67469c4df0d4e0429ae95d44c40758d72219a00313",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "90bccf71a964210fe6b27c0bd1011a5a9d1cb8ec389a8b6278ea5a004412b60e",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "293dca57a96ba49157868569cd316d264cf6cff87ef60d444790203be63e5ebb",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "ef42cc8cce76732bd3ee14253f8bccab557cb25c559e8456f1f8701c4787ea48",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "f6addf9584e5226f285aa9b1b2174eb207da5564cf6a83630a47b2c92867c284",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "3e551796643dda14efc9f109078f5f4ca3eb5933259c6acce1e15d074794d7bd",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "0932d4646b7def28db40f51c6dce29b75e15c9d3eacec4bba82be5a326fc2032",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "881aa24a9578dae1c0d72346d3c83f1283116cc34da74e6a71d608fe404620f1",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "d11e90855797de9df4f68915afcc26d84656f7377966f146f9af10398f06786d",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "a51d2c8f6ad10021b87048f7e2eff7f0e62169b927650fdb668749f63dd93db4",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "4417261a0f235194198611fada6e8b007dfdb7b1fb8a52cce4f9ca3a12a42255",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "660956bedc707bf269d82d842ebafa4691ad72caf6e4b120c079a95fe95e73fc",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "6fded69878ff6046e338148c3350408032db695866e74962ac4192e66c75aed7",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "50dafeb8613065f9e1b638d67035292f5449a9bc3827c638c4c41b710f4b03d4",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "a09856337a0f4bad139843ad4749610022b6a28bc47c1f5fcec178cde1faa275",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "dc429c247f21b8da27bc080fb59e5482cda5b05757a71dca621b2eac0d8f66f5",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "eb6ccecf66c601dfb61c8d905eb2a5366929132613904139a1dbf9df968a8f74",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "fa092cbb85e0a50119854493833f17685ca9c1fef0ad885181e0aa72c6390700",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "b491fa7770073e77687f55f0cc3adf5f7dc3dbf45572922f7224671e662d27a7",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.FractureJumpAbility",
+      "row_sha256": "4c97a04c68b38166989c5f909a9bb01a7885e952affbdda98eef33ca585bc3c4",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.FractureJumpAbility",
+      "row_sha256": "c7381a9b9764153a76dc3e2e5b8b9eafbd555005e0616684ecd857023589597d",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.FractureJumpAbility",
+      "row_sha256": "b0eb7099949943033abe9e611dc13fcbfd8eecde1229959618d6f3e285a43753",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "1fd024804ef1a8b19a0a4768dca9143477a667bdc8a463dcd08530f7afe1fa63",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "b65dceedc14e906629a6268f400e7fc11d470fedc00506b9babd073457e1d90e",
+      "evidence": "quantity_label_number_neutral"
+    },    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin",
+      "row_sha256": "719025fdc6a25bc68011daf96dc98cb03017ba7fe521617fbb11a08a78cdf1e1",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.ContainmentProcedures$Level4",
+      "row_sha256": "cdba8d9ff89429d1ad1fa9d2550e1677870f85777489a7d7b6e23468f43d037b",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.ContainmentProcedures$Level4",
+      "row_sha256": "fd4d5d8e24adef7a81a9433598653d54ed488eb637fbabb0e85b901fd6d37972",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.MakeshiftEquipment$Level3",
+      "row_sha256": "46a7de4797aceb25769ccc928b7a74fc44875979445d6fc967aec815bd94d9e7",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.MakeshiftEquipment$Level3",
+      "row_sha256": "e95e6f32c975371a3464192546855679a4bc6ec023770d3e805ba045d4692e31",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.Navigation$Level4",
+      "row_sha256": "46b9f3c202381fe5fd03e519b836b15db226c4354fa6866bb336e8f1bce78b46",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.Navigation$Level4",
+      "row_sha256": "7b4212ffd1e7f9e382e7d7bcc1f37d6a9b3896ff3b1da42fbb7f4e9c30668eb5",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "3c13751177178a1107f5668aa0801b46a18b9cf9c1ee5f7c7e22d89fed707828",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "169d0032eaa9ede9314dd4134afee5d56f3242cbce1dd7c49892685b0cea87b1",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "32aaa6a584b5574ef703966e86a5b42a21f75ba06b387a65310045899510c5ac",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "e2145c10d1413673d481dbf1c020a10d3171f2643dcaceaa2418ebde83ecd435",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryMissionIntel",
+      "row_sha256": "6ae7def9640e2f8b2ac2babc0c80ce9d353a5d17b4a9d9c01f4b19b8315e8b5a",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "2bbbe22d0bf1056c4a70d3f7d04072cadbd9893855d832267bf034d9cc66dd82",
+      "evidence": "story_pf_81_callsites_offline"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.SetStoryOption$BaseOptionStoryPointActionDelegate",
+      "row_sha256": "f150c50b895eeaa2780cd7e156a8d87d54153e074ae586167c68753f39914f5b",
+      "evidence": "story_pf_81_callsites_offline"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.tutorial.TutorialLevelUpDialogPluginImpl",
+      "row_sha256": "301f5a76b430a81a31b2ab32cd22be4a0c810d17e18ab25e55556116698e884a",
+      "evidence": "story_pf_81_callsites_offline"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "693e9ae72ace7be2c8f92e5eea74a71bcb638931799beccb6cf8d21f2016ddd4",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "neutral statement about the pilot, independent of name gender",
+      "english_key_sha256": "e8fda873f75c2092a0b82cc8642e13e44f5b7d6d7974273e951364db7e8e1148"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "6070e85734be44e667f8a360975e5e166e4c73f16997a79986168b47e8ca10cb",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "comparative clause before gendered on/ona; both variants tested",
+      "english_key_sha256": "16dfb2f6fd798ab8416e3fffe4d839a13a774cf00b8b45d56c9aab54675a1e6c"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "393c465a9d98c068de6b79a0aa526e99618606dcbd6ce2fc69dee2ed43d48be6",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "comma and continuing clause, with a space before semi-retirement",
+      "english_key_sha256": "7a5a252ac0e2dc194e965e2eb0585dd3fcf2e81964703c8de48f74c5a078e293"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "08c8f51ea8cb8e3e1847d3023109e02803e441ac64d4653af263ab37346ecd8c",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "speaker-independent direct speech, no masculine conditional",
+      "english_key_sha256": "985f517858c4804c6c34774b8d39942086eb1dfee4bee19045a14c36cf5fd901"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "ab0de78c9bc249fe9a8bd232563ac0cb15e6900afae86c9a62f5876839a495cd",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "continuation toward the cryopod description",
+      "english_key_sha256": "b02861f705028319235ad21620ce367113227d17ac28d8e76f4012c7b0d8796a"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "e1d68226a926ca6a8a100f73192c8814a5f1d5137bb672eed59d4319cc3928c2",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "continuation of the cryopod description; unchanged quote",
+      "english_key_sha256": "b85b43b57f489dd28407af4139c6c5a46fc02ed2e11111bcb0d193367bac7fb1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "4df65db996db3c4909401c74b2a6ded9b0e8f95ffe1182efa3671053f314a3dc",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "speaker/target framing for the corrected sentence",
+      "english_key_sha256": "3cb5c466cb4bc64b98e236f95d15dd34281a4dc7b68cf469d0c25a7635ef3112"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "04792365d0084749fc19fa0c8bcf619405a866b22c84a553cb8e66b0d7cf9fb0",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "bar-event narrative after ordering drinks",
+      "english_key_sha256": "40109c20d29eac9c8c6589d965fed6eee510aaa21d5ee0c8bcd2a8a77eb3a02e"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "31a5e9d24da65dbc2e69c1fe7b425c1623ca6730009e4ed8dc3198134d6d97f2",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "narrative break, two newlines and trailing space preserved",
+      "english_key_sha256": "aee945ae9d64291f2b92324352db74d4ed706604a6a46f76e5413c24e67ddd3b"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "d1be66098359934dab67ce78f0b78da68f431af56d0023c4baae383aa6ce908c",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "planet discovery with quoted speech, ellipsis preserved",
+      "english_key_sha256": "6b709df5ea0185da4a6b38af52eae60edbcee929000721ca5ac244970fa305d7"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "5eaa1023049d8fc6b07866b085cd926d582aa9c7e1f4c6d55d9c1a3f169708bb",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "story denotes a tale here, NOT the Misc.STORY point currency",
+      "english_key_sha256": "65f06a42a3689f07e50f44de563f54ede44914200e59d482e177c21b653b13e4"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "af0b9f8fda75ce8985b3d0c34a1088cf0b231483ecdb14d05053f64d6afe40d5",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "past-tense salvage fleet description",
+      "english_key_sha256": "1b7017770bde6e9800a11f54962a2c47f54ad81e3f6c3d0dbdfb478e471d8e95"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "ee767037ad3c3bc61673d542a34d71b50a421527be51b4847628da5b4bc36b34",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "travel narrative, original two storms retained",
+      "english_key_sha256": "c577dd0db2bd3a0e88544ad5e14c8c580d4578bac2e22f7b03f08ce73e6d8643"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "fd60bca334111f6169f1220782cb42f4c57ec8f96ecb8d32d98dd329939054dc",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "salvage fleet, Core Worlds term, trailing delimiter",
+      "english_key_sha256": "f13bef4818a63780f081f3a21e2627875d09b272bdf40386ac505909a1132080"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "8d31aa03d6136c0820f5e4a912ce5abe332d3abcb8249bb3496f38aa3502686a",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "crew rumors leading into target world description",
+      "english_key_sha256": "5dc58384934c3b6d98f5e190696098a5f960aff5e80e606309bcfce56790bb53"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "a585b642f6f02ce763db21f600698d59451abb1a99d7c8df323aa4b9e06abbcf",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "asteroid belt and outer jump point, not a new system",
+      "english_key_sha256": "1bc4718698db75a1d8529be685e00bb1baf8661a4eb1aa0611af16a2671d5384"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "688d494c85d3c82d92ddb1f14c8f06db21a2e3e905ff8ef1007ca45154c2d91e",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "partially faulty escape pod, first-person quotation retained",
+      "english_key_sha256": "d3e075b76150e4ac291c4287339e0ea0380de99a65d189b53c36beb5a8a18396"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "b942f65cb77a3cf46de20f255f7e375a31ac1385770229cd27dc947124e6e4c3",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "Domain technology referenced without changing faction name",
+      "english_key_sha256": "50d91291b20244ddee17849690d64dbb0655b037bd98dada1e41d3c220937839"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "94682a3d662c916af56670a40c2ee247bc81cc314f8323ffaca2de769ba1e255",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "player option asking the location of the red planet",
+      "english_key_sha256": "ed608a3e3cc8af1fddc26fbf66e905a7781a383bc57de08b8341ff28b70216bf"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "c3fa67429824f399ea56e40e85e5d3867756239fac32e1c5f2ac4a5878c44786",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "option narrative introducing target destination",
+      "english_key_sha256": "37b69c40bcc5689da663e5e2562704de73d9d9d26bdb74083add2bd0df415b7e"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.contacts.ContactIntel",
+      "row_sha256": "ce676387c5ca28951639665a5874a27ae93d27188cf88c970c6b6806bbcdf949",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",      "jvm_method": "createSmallDescription",
+      "jvm_offset": 911,
+      "english_key_sha256": "1a7040f1e1f145b203b131ddc795a5277ba8dc4abb999c8dbbffd71e2dd298be"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "4910acda2ede4369e9daae8130abc6b07e151da59cc48410e98ad324cf31e5cf",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "getNegotiatedText",
+      "jvm_offset": 11,
+      "english_key_sha256": "d44d1d7807bdc22e4e6e6a284d683d7eab1cf957b0808cc22ee00c03b81d79d9"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.ScientistAICoreBarEvent",
+      "row_sha256": "4af253047ee764c88a381460d71d701d9d823d747cae5b33a09fbdc9521f7433",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "getMainText",
+      "jvm_offset": 18,
+      "english_key_sha256": "26788ce8b3b177dfe7cae5679fa8d52ce20db243b9a8728fe391b192cf930b27"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.ScientistAICoreIntel",
+      "row_sha256": "a377113369512c233ef69403a0aed27a23797dbbeb9cb137d373da9d6d76747a",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "createSmallDescription",
+      "jvm_offset": 193,
+      "english_key_sha256": "13fcf042a301ae53eba68c5776727a2718542f291edd7e5996e316920efe2781"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "row_sha256": "aa8dc2a97c4b567603c31b7ff3049fba4971bee07b3f08c40ea2b2942a76d98c",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "getNegotiatedText",
+      "jvm_offset": 43,
+      "english_key_sha256": "3745aa6cebd8e133f5e7abc94e69e9d28e85ca5ff40d6aaecab9111375c94d88"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.DonationOffer",
+      "row_sha256": "8756b8c13758c7fd6899ff6ce29c03a961d46e178fab055d095f3a2a70559b04",
+      "english_key_sha256": "ebafa4b966bc2dc4528b03d2b9307aead0ff6c8fe574aaa3284ff43f620ee34d",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.DonationOffer",
+      "row_sha256": "e03fa34a59b6898a3c1c7d6e5d670185bffb3a8dca44ff0750d79a63169ed651",
+      "english_key_sha256": "da462724454db32708cb4f05f70d85107fa15cb2f1c22f4a6adeb395f3bcf211",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "24714cb34e3137892e5d4f4cb5f6393bd7bc250eed6027fb42e0d88edc196ae1",
+      "english_key_sha256": "d354c1edbe20d2e27d6f2dc26d70f9fe7804949d06aad44aa0dbe5f2f0d01a8c",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "1a35cf628697100a6d23d502198ab7c70a513be563d8a56696dc190c7db8a808",
+      "english_key_sha256": "a403991e209841af93b5ac6b71a5fff46d0afea28129e7812c5ef72f2f1f7e80",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "60f0862dc584907bed1aad0dc8e2147d2b55fd2ed467fbfac2b43af7a597024a",
+      "english_key_sha256": "84dc63900ebeeae13a06e6b9bef02f31f9faf35e726a3e0ed6ecf793091719e9",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "d3f65222f1014415166a3fe45a38433e6f64c944cf1707346844ec6ae851b64a",
+      "english_key_sha256": "4d0ef2dca1e82ac634838aacccf43f215d72e53595afe953d0ff28c1f906f438",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "4732e2115f311f2d131ecb3158d3ebb12c8a7ea585d79e04eaa6382d9222471b",
+      "english_key_sha256": "773d5b4789aca775322016b68c02123b8e3608bd06414c9e6b8f105292849084",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "691cfd31138044b5051dc61175bb1898b2f19a491d07f3d089c93383a0d0ef7f",
+      "english_key_sha256": "a6b9b2a56d187cbe6848191d383db76fe8c886027cc78ee8f1e23f5ac10583ab",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "72cbea9e1ffa31af66605f2fea3902ca32ab6eee6cf613ae5f0a21e77c7ead95",
+      "english_key_sha256": "d4957a9b4a709e846b9a65b6593a71f6317cc89c6b15464ee48e531b3a91ddfb",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "c717c9e5f4fdbfe0ff1bdf7a42aa01de195f390e191abcc2516b09f19a28c0c9",
+      "english_key_sha256": "f920cf7ebbbe8caeca85e36c281601556c61f4bfc84a00b3b29db8a183e4c5d7",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "3ecf71899707506474d139e6767fa2633c402ddc7bcd64442dafa8358a3b57d6",
+      "english_key_sha256": "6a0d0280d51d60e4bc25b44fafc2b14ccd5970199637bd3f7becd11aa28f6600",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "e1588377c89561cf9df4e4e06453d9171926cc3c4ae36873193fc313d3b02961",
+      "english_key_sha256": "73847bdf7b47177e46a112d163b686ef11775cde972a87675d44b06eba2afa77",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "f1f3b4eff64100f231593cde2abc896f2e3bf7f856958c00dcc1efa96f6647c1",
+      "english_key_sha256": "85c659e4d0b79ea9db5b3dc7397d4654ae7b793da4c1ca6c58dda822e15b0ac3",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "e5d4261399b40ee8605a618c545256d87cb42c1fb3ee2241a34261117e165d40",
+      "english_key_sha256": "2287e98a4e38660c04f5c69d448df63ccd787aaa70849a06904e069a4a85a1bf",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "814de7f8a6e6b0472f31156878ce83edda76b618da87dadef26c7ec3ceee3fcd",
+      "english_key_sha256": "42b0c4cba1a8f6d0fb1b098f1a4fe13b82ad2761ad4e0a9228bd872be001a2b1",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "bbf02cdb80df9ca91e2d0177f984c216d59c982ee89fc3b0742d5432be572cdc",
+      "english_key_sha256": "6de0d4642efe3db737495b3f22afda13aab3f55de5a6e5f2412a5af497e2a493",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "f7c88b3813eabe65d247a073f99b4ae6e89ced179e6b1f262e50071f4820ca5c",
+      "english_key_sha256": "0c133d4254af51c9eaa113a71c1c91a6db8eef23ebf762b08d0c7bf7fdcdde0e",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "7dadcbf69def25c84a8ef8cedbed9b13100d2a1a06f365e1eb7b8fef53437339",
+      "english_key_sha256": "15607b59b6008441183bee9081f772e367b2d1d98a742e9523118226823e6ac3",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "7405775fe4075f300cc46bd747541d89382887a0fc22ae5f19c71ab6ac2a9734",
+      "english_key_sha256": "122f573d56bff5991d06c982627e9cde5ba55d22ed1e96b673207847ec2876ec",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "d9380312eb5b69a8761a9f4f409175331ecf76c997e9601e3723327146742bd7",
+      "english_key_sha256": "b0f6217d19cbba269d6b60dd598dc75c0e03a43bcb94a56a53ee1da0c9a7591d",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "3fc32b1a6fa06aba1568a9b9efba7ff1d5fb231986e163bc5f658689f60ae71e",
+      "english_key_sha256": "93b3ff8b8578302e5d22da8ef90e4357feb91c485db2c5b83073f4bd33235fc8",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    }
+  ]
+}

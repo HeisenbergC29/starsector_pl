@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.37):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.38):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.37** (snapshot 1.0.12 + overlaye 1013–1037; OBF 3534/539 klas bez zmian, API 5245 wierszy CSV/5243 rzeczywiste podmiany/938 klas; 870 plikow data jak w 1.0.36). Pelne 1.1 pozostaje OTWARTE.
+**Aktualny stan roboczy: 1.0.38** (snapshot 1.0.12 + overlaye 1013–1038; OBF 3534 podmiany w 539 klasach bez zmian, API 5254 wiersze/5252 trafienia w 938 klasach; 870 danych identycznych z 1.0.37). Pelne 1.1 pozostaje OTWARTE.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -121,3 +121,7 @@ Kolejne 64 widoczne wiersze `rules.csv` maja 93 poprawki tekstu, bez 108 angiels
 ## Wersja 1.0.37 — szesc kolejnych kontekstow on/ona
 
 W oryginalnym i spatchowanym API sprawdzono szesc miejsc `getHeOrShe` oraz 12 wariantow tekstow dla obu plci. Piec poprawionych wierszy `DRAFT/OPTIONAL` i jedna nowa brakujaca etykieta ` says. ` -> ` mowi. ` w `TriTachMajorLoanBarEvent`. Usunieto podwojne `bedzie` (`ContactIntel`), meska odmiane w negocjacjach i opisach naukowca/pozyczek. Bez modyfikacji logiki, OBF i plikow data. Rejestr: 83 historyczne API zatwierdzone offline, **3575** nadal do recenzji; Java gettery **7/219** kontekstow poprawionych offline, **212** oczekuje. Natywne Windows/gameplay nadal niewykonane. [Raport](docs/RELEASE_1037.md), [metryki](docs/PRONOUN_1037_SUMMARY.json).
+
+## Wersja 1.0.38 — poprawiono caly kontekst spotkania z historykiem
+
+W `HistorianData`, `HistorianBarEvent` i `DonationOffer` dodano **9 nowych** i poprawiono **12 istniejacych** tlumaczen API, bez zmiany metod JVM. Skladaja sie 18 wynikowych zdań dla obu plci, w tym prawidlowa odmiana `mezczyzna/kobieta`, `mu/jej` i `jego/jej`. Zweryfikowano **14** kontekstow wywolan getterow na oryginalnych bibliotekach. W `HistorianData` wspolny `her` = `jej` dziala w obu udokumentowanych funkcjach, ale konflikt `BaseBarEventWithPerson.her` #143 **nadal istnieje**. Gettery: 21/219 ocenionych offline, 198 pozostalo. Historia API: 104 zrecenzowane offline, 3554 do kontroli. Windows: 219 getterow + 81 PF + 91 dialogow nadal bez natywnego testu. [Raport 1.0.38](docs/RELEASE_1038.md), [dowody](docs/PRONOUN_1038_SUMMARY.json), [bramki 1.1](docs/RELEASE_GATES_11.json).

@@ -13,8 +13,8 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_1037.py: 6 additional original-JAR getHeOrShe callsites reviewed offline for both genders; shared her #143 still unresolved; 91 rules rows unchanged; Windows UI not tested",
-      "unresolved_count": 212,
+      "source": "tools/verify_1038.py: 14 additional historian/DonationOffer getter callsites contextually reviewed with both genders; other 198 open; BaseBarEventWithPerson her #143 STILL unresolved; 91 rules rows and 81 PF pending Windows",
+      "unresolved_count": 198,
       "reviewed_rules_rows_offline": 91,
       "removed_visible_gender_variable_refs": 183,
       "pending_windows_ui_rules_rows": 91,
@@ -24,28 +24,29 @@
       "reviewed_reflexive_calls_offline": 1,
       "pending_windows_ui_java_getter_calls": 219,
       "shared_her_conflict_open": true,
-      "reviewed_subject_getter_calls_offline": 6
+      "reviewed_subject_getter_calls_offline": 6,
+      "reviewed_historian_getter_calls_offline": 14
     },
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1037.json: previous 78 +5 historical corrections; one extra exact JVM literal says; 3658 historical DRAFT/OPTIONAL still installed by patcher",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1037.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1038.json: 83 prior immutable reviews +21 visible historian/DonationOffer DRAFT text fragments checked against original/patched JVM. 3658 historical DRAFT/OPTIONAL still installed by patcher",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1038.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 83,
-      "unresolved_count": 3575,
-      "gameplay_unverified_count": 3684,
-      "new_literal_count": 26
+      "reviewed_offline": 104,
+      "unresolved_count": 3554,
+      "gameplay_unverified_count": 3693,
+      "new_literal_count": 35
     },
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1037.md: 6 additional getHeOrShe fragments corrected offline; remaining Java getter callsites, static/dynamic labels, and full language review unfinished"
+      "source": "docs/RELEASE_1038.md: 14 gendered historian/DonationOffer getter contexts fixed offline; many dynamic getter callsites and whole-game UI remain to be verified"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1037.md: JAR constant-pool and Windows x64 cross-build tested offline; native gameplay and visual inspection not performed"
+      "source": "docs/RELEASE_1038.md: original/patched JVM and Win x64 cross-build verified offline; native Windows gameplay and visual inspection not performed"
     }
   ]
 }
