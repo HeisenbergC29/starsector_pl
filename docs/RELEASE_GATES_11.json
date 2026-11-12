@@ -13,12 +13,13 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_review_1034.py: 27 rules.csv text/option rows rewritten to remove 75 displayed pronoun-variable uses, but 219 original Java calls not altered; Windows runtime check still open",
+      "source": "tools/verify_1035.py and tools/verify_review_1035.py: 64 further rules.csv dialogues rewritten to remove 108 displayed pronoun variables; 91/183 cumulative; original 219 Java getter calls remain unaffected; Windows runtime pending",
       "unresolved_count": 219,
-      "reviewed_rules_rows_offline": 27,
-      "removed_visible_gender_variable_refs": 75,
-      "pending_windows_ui_rules_rows": 27,
-      "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json"
+      "reviewed_rules_rows_offline": 91,
+      "removed_visible_gender_variable_refs": 183,
+      "pending_windows_ui_rules_rows": 91,
+      "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
+      "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json"
     },
     {
       "id": "draft_semantics",
@@ -34,12 +35,12 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1034.md: 81 STORY sites localized offline in 1.0.33; 27 selected dynamic-pronoun rules now gender-neutral; remaining full text coverage pending"
+      "source": "docs/RELEASE_1035.md: 81 STORY sites localized offline; 91 selected rules.csv dialogue records rewritten; remaining full text coverage pending"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1034.md: Linux Go, Windows cross-build, source-level rules.csv and original JAR audits only; native Windows game/display test NOT RUN"
+      "source": "docs/RELEASE_1035.md: Linux Go, Windows cross-build, data review and parser audits; native Windows game/display test NOT RUN"
     }
   ]
 }

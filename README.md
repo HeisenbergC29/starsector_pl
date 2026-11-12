@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.34):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.35):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.34** (snapshot 1.0.12 + nakladki 1013–1034; OBF 3534 podmiany/539 klas, API 5240 trafien/938 klas bez zmian od 1.0.33; 870 plikow danych, z czego 1 poprawiony). Cel 1.1 nadal otwarty.
+**Aktualny stan roboczy: 1.0.35** (snapshot 1.0.12 + nakladki 1013–1035; OBF 3534/539 klas, API 5240/938 klas bez zmian od 1.0.34; 870 plikow danych, 1 poprawiony). Cel 1.1 nadal otwarty.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -109,3 +109,7 @@ Zastosowano nieodmienny skrot **PF** = punkty fabularne zamiast dynamicznego `Mi
 ## Wydanie 1.0.34 — dialogi bez angielskich dynamicznych zaimkow
 
 [Raport techniczny](docs/RELEASE_1034.md) · [Rejestr 27 zmienionych wierszy](docs/RULES_PRONOUN_REVIEW_1034.json) · [bramki 1.1](docs/RELEASE_GATES_11.json). Zmodyfikowano tylko `data/campaign/rules.csv`: 27 wierszy, 62 zatwierdzone zamiany, 75 usunietych wystapien dynamicznych zaimkow w tekstach. Pozostale 869 danych oraz obie mapy OBF/API i patchery Java sa identyczne z 1.0.33. Obejmuje misje Akademii Galatia, informatora na Kapteyn, pielgrzymow Ludda i posrednika w ich misji. **Wywolania metod Java (219) pozostaja nienaruszone**, co jest odrebna metryka. Test w grze Windows nadal niezrealizowany; wydanie nie jest finalna 1.1.
+
+## Wydanie 1.0.35 — dynamiczne zaimki w dialogach Tri-Tachyon i Ludda
+
+Kolejne 64 widoczne wiersze `rules.csv` maja 93 poprawki tekstu, bez 108 angielskich zmiennych zaimkowych. Lacznie z 1.0.34 jest to **91 wierszy i 183 usuniete odniesienia**. Tlumaczenia nie zmieniaja skryptow, warunkow ani 219 istniejących wywolan getterow Java. Dane pozostalych 869 plikow oraz OBF/API JAR zachowane. Raport i instrukcja odtworzenia: [docs/RELEASE_1035.md](docs/RELEASE_1035.md); [rejestr 64 wierszy](docs/RULES_PRONOUN_REVIEW_1035.json). Wymagany test w dzialajacej grze Windows; to nadal NIE jest kompletna 1.1.

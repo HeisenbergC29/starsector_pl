@@ -130,12 +130,19 @@ jobs:
           python3 tools/verify_1034.py worktree
           python3 tools/verify_review_1034.py worktree --ledger docs/RULES_PRONOUN_REVIEW_1034.json
           python3 tools/test_1034.py worktree
-      - name: Release gate audit for 1.1 (current development version is 1.0.34)
+      - name: Apply 1.0.35 gender-neutral dialogue revisions
+        run: python3 tools/apply_1035.py worktree
+      - name: Verify 64 revised rows and 108 removed pronoun placeholders
+        run: |
+          python3 tools/verify_1035.py worktree
+          python3 tools/verify_review_1035.py worktree --prior-ledger docs/RULES_PRONOUN_REVIEW_1034.json --ledger docs/RULES_PRONOUN_REVIEW_1035.json
+          python3 tools/test_1035.py worktree
+      - name: Release gate audit for 1.1 (current development version is 1.0.35)
         run: |
           python3 tools/test_dynamic_1030.py
           python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1030.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
-          python3 tools/check_release_gates_1034.py worktree --gates docs/RELEASE_GATES_11.json --prior-ledger docs/API_SEMANTIC_REVIEW_1032.json --ledger docs/API_SEMANTIC_REVIEW_1033.json --rules-ledger docs/RULES_PRONOUN_REVIEW_1034.json
-          python3 tools/test_release_gates_1034.py worktree .
+          python3 tools/check_release_gates_1035.py worktree --gates docs/RELEASE_GATES_11.json --prior-api-ledger docs/API_SEMANTIC_REVIEW_1032.json --api-ledger docs/API_SEMANTIC_REVIEW_1033.json --prior-rules-ledger docs/RULES_PRONOUN_REVIEW_1034.json --rules-ledger docs/RULES_PRONOUN_REVIEW_1035.json
+          python3 tools/test_release_gates_1035.py worktree .
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -174,5 +181,5 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.34 minimal Windows installer
-        run: python3 tools/package_1034.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.34_MINIMALNY.zip
+      - name: Package and CRC-check 1.0.35 minimal Windows installer
+        run: python3 tools/package_1035.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.35_MINIMALNY.zip

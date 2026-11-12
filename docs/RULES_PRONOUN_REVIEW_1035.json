@@ -1,0 +1,1048 @@
+{
+  "schema_version": 1,
+  "installed_version": "1.0.35",
+  "source_release": "1.0.34",
+  "prior_rules_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
+  "scope": "Visible dialogue text, plus two translated labels; no conditions, scripts or technical IDs",
+  "reviewed_rows": 64,
+  "exact_edits": 93,
+  "removed_visible_pronoun_placeholders": 108,
+  "pending_windows_ui_rows": 64,
+  "cumulative_offline_rows": 91,
+  "cumulative_removed_references": 183,
+  "cumulative_pending_windows_ui_rows": 91,
+  "java_getter_calls_untouched": 219,
+  "rules_sha256_before": "ebcf0741e168dd7046259edeae506caceb6d93cd1f2f9c7ff315f9d52a13428d",
+  "rules_sha256_after": "c09ff63ee5da19d93e17c66c4e8ed3f1beb0e805c885d6b32d67d878b5291e0d",
+  "reviewed": [
+    {
+      "id": "CGRmarketWeirdOutro",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "946aef2b380356c00a5a66f9be01335c28def34405c2bc3cbdd4f7a358f4cbe8"
+      },
+      "after_sha256": {
+        "text": "282faac4a6a858dc213554d4b7811e3118ffdd7cce00a19231d98abc3d4506f6"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRmarketWeirdOutroCom",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "435af3e98ec3fe45244832dd405cdd33dd31e4db6fd4f4d925d55a846ed6ff55"
+      },
+      "after_sha256": {
+        "text": "85fa698b388a9f0b87864fc1ae48629085184a9c09fff68fcde56f3fe8a58eb6"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRmarketWeirdOutroComFaith",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "f82287caeafcfe35d6d4459f1918b145e89c2440006caabc8558dc67928d889b"
+      },
+      "after_sha256": {
+        "text": "18b3dc6b13f49138acd501eb6cab14af6734cbfc565744d55a1f81a994fdd4db"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRmarketWeirdOutroFaith",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "98c299e2de964841a1a7d8fe72cc61941af8eb94a9f49d3502e092efa0193915"
+      },
+      "after_sha256": {
+        "text": "ac4d2e710ab58f3280b541fcca589f8f4422a3083be3b785fe1ec73e993487a1"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdMods0",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "30524f8595e71053c0ac991994475882b15dda07f3604983184892e3d42bcd6b"
+      },
+      "after_sha256": {
+        "text": "c9f4eede841e1fb5f256f382ef69180bfdcdabaf7f139baf76ef68eccdeee9d6"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdMods0unknown",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "30524f8595e71053c0ac991994475882b15dda07f3604983184892e3d42bcd6b"
+      },
+      "after_sha256": {
+        "text": "c9f4eede841e1fb5f256f382ef69180bfdcdabaf7f139baf76ef68eccdeee9d6"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdMods1",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "6b5920610c5dd6648ba88a5933d31d4a23c59d78593f3f1c4354be8c5e2401f7"
+      },
+      "after_sha256": {
+        "text": "a2bceb67e2a0e3360f5a31dff4ade8a00c02941a37e9512737576ce07822225a"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdMods2a",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "06aa2be7379fe8fb64326fc5b5429f5374a10ddb4d3c4d6ef64e1a109fba7b78"
+      },
+      "after_sha256": {
+        "text": "81b728905d35ef899282ed855bf9a5c6b68c48ec38b2446f904d6b15a9675add"
+      },
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdMods2b",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "7937ed822da9e5aa0a2d6a81761e061df266c41bfc92ce196a6f5eab145378e7"
+      },
+      "after_sha256": {
+        "text": "1307ccf77a673ef33cc57a56dde67c1a63fa04085b9f17dfafc55888713111c5"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdMods2c",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "885ac897e7b7953715a01abcc9d57ada8185dbbf827426cd53f20c938a0a1c5f"
+      },
+      "after_sha256": {
+        "text": "64a43215b2eb680afd58c1e488cf8c6cdcb39a6e2072a23305c6001cf3183b94"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdMods3",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "13886576f9b2cddc78a10896182a991c0e23cd54d592393c9becd7d94e2f8bbc"
+      },
+      "after_sha256": {
+        "text": "86f2d8b344347ff6de3312c8a3c08f007a0f3c797ed11ecec8ce022f83dd2c62"
+      },
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsEnd3",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "a7a5526ad7fc00d3bf02984a616fb113ff8d0c2da98c161d81d27725e60b06dc"
+      },
+      "after_sha256": {
+        "text": "b6af480c7e49088b76c649506b189229ad4093ac8a077689364f14d5310e763f"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsEnd3b",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "a7a5526ad7fc00d3bf02984a616fb113ff8d0c2da98c161d81d27725e60b06dc"
+      },
+      "after_sha256": {
+        "text": "b6af480c7e49088b76c649506b189229ad4093ac8a077689364f14d5310e763f"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsOpt3aSel",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "31cad82a4197af77134ff2601826bb414dff1ebd72d3442019ec909e5b17da62"
+      },
+      "after_sha256": {
+        "text": "50eb2d9d78cd84fa3f18d52424283bd6a011099e1b303a76af7a5895a55e18f4"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsOpt3bSel",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "9aeb423b462b8ca358d04810eaa1b02ce46dcafa744a43ef2eade71ed990d934"
+      },
+      "after_sha256": {
+        "text": "dba889ad9af44924cefb6a0d80aa38d6cf4ebf5c5c3330d783ed5d272c3767ce"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsOpt3dSel",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "a1bd4c67d01b4effaaa3b5d9692c5bd7a7841c44cc87058005cb65d0973b0c80"
+      },
+      "after_sha256": {
+        "text": "097f4adc9111fc20d4d36115e23159af904f49f51c7d7bc8b7c206c9607d1fa6"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsUnknownEnd",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "ed71b939ec8a9cb201c1e5095216ec156913532dac6353a59f7da4285a3c25c8"
+      },
+      "after_sha256": {
+        "text": "088a9878374445cbc5e5292cab3330daac6588e54533dfcb99b6e430a1b5a0f0"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsUnknownEndTrade",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "ed71b939ec8a9cb201c1e5095216ec156913532dac6353a59f7da4285a3c25c8"
+      },
+      "after_sha256": {
+        "text": "088a9878374445cbc5e5292cab3330daac6588e54533dfcb99b6e430a1b5a0f0"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "CGRpatrolWeirdModsUnknownEndWeaker",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "ed71b939ec8a9cb201c1e5095216ec156913532dac6353a59f7da4285a3c25c8"
+      },
+      "after_sha256": {
+        "text": "088a9878374445cbc5e5292cab3330daac6588e54533dfcb99b6e430a1b5a0f0"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods1a",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "8f51965371ade936a59b8d9101524064eff99b3c403796e37ae81f1cbda99b50"
+      },
+      "after_sha256": {
+        "text": "cd8a1d47368e0245ecfee0aabcc8758cc68055d03f7b5060da73570e679c8d40"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods1b",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "bc9e7a9ce56c1bdf4682e4d182a022a39b5c68ac963ddd6cc6acc3f25e457170"
+      },
+      "after_sha256": {
+        "text": "545a6afc00582d42939214b71e37864bae816b9d1d10d5686f62b67eb7267b61"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods1c",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "a2cccadc7da9d1c3fe801984a8131a3612b021cb09c5e69aca4b28677dca36ec"
+      },
+      "after_sha256": {
+        "text": "f5b9e22e383ab050d86cbab0b2dc40773b142126b5eda29f1c62cb622c36113d"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods2",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "40dd6a9431f6c6d211027f066789aaccdc1c093fbafab5ea139bf5fb61fda175"
+      },
+      "after_sha256": {
+        "text": "dc2e17a9aeae61e74f761c5e794539d88cadac5139109a04d2c83ab8568f081b"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods2OMKI",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "c508e9538e327ea74977cd9c5e005f37dcd5ae57661f1158d2d97cc2c7970aaa"
+      },
+      "after_sha256": {
+        "text": "c86f1a07aed143be2d9bb09a96e59530b7db9137e5c90743f617458758403ce9"
+      },
+      "exact_edits": 5,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods3b",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "36ababe7c3a01605a4d16f2c6c994130a5b521bdac23c92a26703060dedff678"
+      },
+      "after_sha256": {
+        "text": "78fe9da4ee94577b849741db2283be73af00560886feb466cc0cf4601d9d91da"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods3c",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "171f784577b5e2dd6660ee67ee401792282e96cb0de01fdb5b444f037f3663ab"
+      },
+      "after_sha256": {
+        "text": "e17ec77b92424790aec69292575e053b5ec9ba48e3388ce546915ba6014fc4f9"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods4",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "2f13c0df01b2e10445dc96e5ea9f437fd0a2f31db6e63c7a975d3246e4129d6e"
+      },
+      "after_sha256": {
+        "text": "2595cffa3ec645914f16a6e21d1608eefd130c9ea1b68319b57143fd46bd8493"
+      },
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods4eochuBres",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "2a72d32936f4021bd05e16d45d6fd0b6a398f62554ed7f7f43d0e755b79eba90"
+      },
+      "after_sha256": {
+        "text": "c7c5e5df091c0926a0ea7a5a94dbb1a7ce0f6e71230c4b0002626448c80c06f8"
+      },
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods6a",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "ac2fac488f717fac7a3cff6328d19186de5a951835bc8527c076fd8e993b62fa"
+      },
+      "after_sha256": {
+        "text": "aa96e37c81afcdb475ed529cc706acd8519a2caf75d3fbedc1c6694c1ace92c1"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods6b",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "07a96670393670a2295f899963191fc10c3431ab3e2ff94a644bd052d462360d"
+      },
+      "after_sha256": {
+        "text": "e33846c36d8f7f2101d625f39a3be881d66214cddd14ffc3b5704661c18bb062"
+      },
+      "exact_edits": 3,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdMods6c",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "b44e3b967b251e790a2381f5d34eeaf45965bf27e2ebc04453927135f42d0252"
+      },
+      "after_sha256": {
+        "text": "33d22e82316b0697a49d94a6cf41c90ddc1a51b0e9fbc1c189410a24c36682db"
+      },
+      "exact_edits": 3,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdModsOutro2a",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "7404d8a0937c89d615bbba6f9050332620eb27ef664a720d1915c17947dc77ef"
+      },
+      "after_sha256": {
+        "text": "ddb3ce4c9af22b2d3f6b2cb83d20dc245367affa389250eb4fd041a7ba92be24"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdModsOutro2aX",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "8570f40ee6bb56f72c7f82451b22dfdd80178f4843d495bd466510b20f4d884b"
+      },
+      "after_sha256": {
+        "text": "58f0a2748bf6984cd18fb29db735920a1c53d8213a3f61c8a39ee85d9da2eba1"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdModsOutro2b",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "754b4afb5855bdd1dca5286faef03f6101d809c037fcf63c54da92ff63e8ad44"
+      },
+      "after_sha256": {
+        "text": "059c482f953f2e8d2118aaa3cef78c787b33d5b86d7b62d1a246db313dbf155b"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTmarketWeirdModsOutro2c",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "ba923179182edcdcaddd0a53bd9748635be337eb436ce965f1d491c469d92c09"
+      },
+      "after_sha256": {
+        "text": "033c483b8ef5cb3853f9c5d771d4573ee57bbdb0ae49d85f8e71589146d1c4e1"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "31e8a0c90518af95128a89dc2f8d95c49c6f9446c4603b17b5a0161e4657571b"
+      },
+      "after_sha256": {
+        "text": "c4e6ca217d74816ec19eb17fbf6d65f0140a81584457186513d0528242c39ec8"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2business",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "27b125487fd55fc86c1efcc13c50ac8851cedd87f9c2aa6ad7a0cba66d282b9c"
+      },
+      "after_sha256": {
+        "text": "a64eefd6f1cbd0a4bb05059102ba7d82e04947504d999114de67105d27f9bd44"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2faithful",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "c1620ae2acd7354a571ed611969a236a65f482210cd54579a6a239b3e07e55a1"
+      },
+      "after_sha256": {
+        "text": "a5c55d66140d5398a26cec56ac211d310bde99b31120d388c4e9f180de2e9c3d"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2official",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "16265aee606260b29f42d74d05315888681abbaf132b82e0a1cef053c8114858"
+      },
+      "after_sha256": {
+        "text": "4adcef8f14117bca29da574a609a53cf208dce54d04adb8747bdbfa1a40fbed5"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2pather",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "796c227a212285d0d5cb6d5f080887be22ddd896eedd7157506d450d91baaf4a"
+      },
+      "after_sha256": {
+        "text": "4db2e94425f23dd2db7cb6f8d21bcf7acb8f0cc02978e6a31df8e5678e9fd53d"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2scientist",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "4f0235f78a7c928caa712a5f63b5edf1d9fc04a23c5ab4b3777ddc1341164cd6"
+      },
+      "after_sha256": {
+        "text": "c38ddd42b25345e9aaf44110b6882c449f07823914548b46ec44cff1d34d4b66"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2soldier",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "abefe8361605568873c0d8c87f34c87cb2a190a6ee5a69de1a22c5414df7681e"
+      },
+      "after_sha256": {
+        "text": "d97423a7ae9bcc3aa39b3a6c73e1b131a2616bcdfe9e7b3d35a3c2f39834b3b8"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "convDefaultGreeting2villain",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "7aa4f2d02292780ebf0b8a4bf538012b7fc6971feef0efec88819edb65ddafce"
+      },
+      "after_sha256": {
+        "text": "15bd95421181872e6e83727eddceb9f9b720e62bd7549d088e73e7b5abdc3ec5"
+      },      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateAgnosticOut",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "2850bfbcf268776cd7984e0d2c3f234f4eb15abf820e24b4041281d2262867bb"
+      },
+      "after_sha256": {
+        "text": "df82f6fb4996242e53d19844e6d6804a45d20e868e5850be9ce64eeae5e828d9"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCalled",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "28b1a67acfc74421ace78a939d6ae1ba69e430d2ab70c13504005b05177fca8d"
+      },
+      "after_sha256": {
+        "text": "38d2f00001ae02c70491aebb79fadf73842113f0222bae8f0c74be0705367bf8"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCottonAsk",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "498c3ba3be72aa3581b2dfcbc90655a345236cc186500ee594bfe6192597e121"
+      },
+      "after_sha256": {
+        "text": "a5e393c382f1a4a49e3676644027411586ceb752fb95068c9f16639cf6118d87"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCottonJoin",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "cd9b20b40d6af3eef4a541b7404517f319fd19735e56e290477cdd795086c659"
+      },
+      "after_sha256": {
+        "text": "4850092251da64a77b3aaa83024170648109229124e09dac1554b7a896625227"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCottonKill",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "4262e400e02b266e4048d9da3373bffc72fa67056b1c3361183a3c021d770d04"
+      },
+      "after_sha256": {
+        "text": "2387ae35b90096743d4df0d71427a6688d3c557037b1d0546fb90ddc7147ed77"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCottonKill2a",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "3af0b20ddbe9f046a4cd0db45e2d896cca2991004e21d7465bed5b7522381d4a"
+      },
+      "after_sha256": {
+        "text": "40031d25c8265afa86fcffe3c2387fa7b224987da44b5d124046b87f1a369146"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCottonTalk",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "4f6b22177a4bb889a8503f407c516d64c623907f1ef5034a16372387e375e039"
+      },
+      "after_sha256": {
+        "text": "02ddd489828e5f9baf83fa64af326bb895545e9bcb12075e629ef84539afbb33"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCottonTalk2",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "77f1774948546cb1c74964ea1b7aba3901eaf33829aebdb99701f9fd86e53ceb"
+      },
+      "after_sha256": {
+        "text": "9c66a25f80faaecb3dc097fba1b1e676f07888cd227419da7422de84259f9404"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCottonWontSay",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "e4e41b3442f1afbc83d2c4a250ff938abcd569793e3fa515bee6f9e3f5faad70"
+      },
+      "after_sha256": {
+        "text": "a01e8a14b9fb8c5ad70155bfb676efe7abb9325e6e7db6880717d7e4ae894c11"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateCredits",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "2b6176957b120e96bb9745d0e6048d59476827b9e90abf7b87151154d4c5ab16"
+      },
+      "after_sha256": {
+        "text": "7d85d8e314a9bca8c449833d15383be58c51c894f27317a11fad998cdab87688"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateFascinating",
+      "fields": [
+        "text",
+        "options"
+      ],
+      "before_sha256": {
+        "text": "c504680e1a4e57340594a53988323e5d45843ab7f1278959dff46220d284cf26",
+        "options": "ad7d04669e58734908b3f122f2048c98a2ba15f0f8459c93dea47960ee0b67f2"
+      },
+      "after_sha256": {
+        "text": "4950f7ee64c47d75764688c92664903f8d90038d2e51d58bf458095fc892b1dd",
+        "options": "861c98db9d4c002934a1208cb08092c9cca634ecce7c7597107cf91a0f89e2d7"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateHowManyA",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "f8896e2e7249ae4592fa6b015e7a2000d1d88724aebb0266569042aa7ad0361f"
+      },
+      "after_sha256": {
+        "text": "df474a48c277bbc7e7e484ba70e39d1f88c9258275bca3ff9f2124a4194fd2d4"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateHowManyB",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "ced05cd5da07c6c1ee4302290a5d05970954e18ca786b1678be4443477f8e813"
+      },
+      "after_sha256": {
+        "text": "0cf42ed52ecb5b1b81c2db7cb305cbfd3c6a45244dd7a53aafe70f73ce846b80"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateInfoDump",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "b05e217900201cee4d2dbbe0222214db93f60408d533d23207c8d3f3682146c0"
+      },
+      "after_sha256": {
+        "text": "a10b62a69812c48472b88aaa30695b6a6763e9a8576d423d3ffef2825ef89b24"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCuratePilgrimage",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "9215dc4580ad87d9c630de8c2cdecd7993b3ae63268988bd0cf03a73a9035ca2"
+      },
+      "after_sha256": {
+        "text": "516de8321bee8ed5b5858b8e90f133e0f8b3ca529dde4163a6aa315328af46fa"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateSeeyaCynical",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "1796ccd4e43a533fbdec8a7a8d0f15f41f90f8942d44b1101d70f81c527cc5b5"
+      },
+      "after_sha256": {
+        "text": "e9e45f2885d72abee8d21de5a3a122ffda1f973b404519ce638b3a93467ecd90"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateSeeyaPather",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "1cd2032f486b059a9596b94c8cfe97f79b7873a8135d7658c2c0efa76d0f1547"
+      },
+      "after_sha256": {
+        "text": "c75a05630606b65c4ede6e0a86bd3aa76b514a8a14d1c4fe351eb795896a17c5"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateSegue",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "efd2d392c2bcc4466ca823520d5217b741e7676334d5b8f8bded00819dcd030b"
+      },
+      "after_sha256": {
+        "text": "897d0739cee042cd0ba1429ceaed20f8e508d37d2b9483f0faa6f701a2afd043"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateShrineCoordinates1",
+      "fields": [
+        "text",
+        "options"
+      ],
+      "before_sha256": {
+        "text": "2d78753c7b1d00083c2825158a7b8756a53ac79fae71e13668bea832102f1edb",
+        "options": "ad7d04669e58734908b3f122f2048c98a2ba15f0f8459c93dea47960ee0b67f2"
+      },
+      "after_sha256": {
+        "text": "977bd08f589ae6360041fb592dabe9bfc34b6332384c395598651550fa129710",
+        "options": "861c98db9d4c002934a1208cb08092c9cca634ecce7c7597107cf91a0f89e2d7"
+      },
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateUpload2",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "51286cf46ecb434901ec306f6cfc6ac51fee1fc5d2e8835e47a8f5bbe74ad3de"
+      },
+      "after_sha256": {
+        "text": "a9bcc2ea826fa0fc5a13de86f6220e3d06248b4960b9f4f3e77be1055014c5ac"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppHookCurateVisit",
+      "fields": [
+        "text"
+      ],
+      "before_sha256": {
+        "text": "d2b21859db0ad5a761be356cd9a190aeff5cc1039eb2bbcc26b7d02f0a2c3b50"
+      },
+      "after_sha256": {
+        "text": "fb4b566d7d32dd30d2c10d283ab7effcaf44ddfb3d6638df79b0826909bf3c43"
+      },
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    }
+  ],
+  "note": "Offline language and CSV integrity checks only. 219 original Java getter invocations remain unresolved; runtime Windows inspection has not been performed."
+}

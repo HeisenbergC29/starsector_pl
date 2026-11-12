@@ -1,0 +1,37 @@
+{
+  "release": "1.0.35",
+  "source_version": "1.0.34",
+  "game_version": "0.98a-RC8",
+  "old_rules_sha256": "ebcf0741e168dd7046259edeae506caceb6d93cd1f2f9c7ff315f9d52a13428d",
+  "new_rules_sha256": "c09ff63ee5da19d93e17c66c4e8ed3f1beb0e805c885d6b32d67d878b5291e0d",
+  "reviewed_dialogue_rows": 64,
+  "exact_text_replacements": 93,
+  "removed_dynamic_gender_variable_references": 108,
+  "cumulative_reviewed_rows": 91,
+  "cumulative_removed_dynamic_gender_references": 183,
+  "unresolved_java_getter_calls": 219,
+  "unchanged_data_files": 869,
+  "changed_data_files": 1,
+  "valid_dialogue_options": 7371,
+  "negative_data_tests": 12,
+  "negative_release_gate_tests": 13,
+  "obf_map": "unchanged_since_1.0.33",
+  "api_map": "unchanged_since_1.0.33",
+  "go_test": "PASS_all_three_components",
+  "go_vet": "PASS_all_three_components",
+  "windows_cross_build": "PASS_three_PE32+_x86_64",
+  "native_windows_gameplay": "NOT_RUN",
+  "zip": {
+    "filename": "Starsector_PL_ASCII_0.98a_RC8_1.0.35_MINIMALNY.zip",
+    "bytes": 15191470,
+    "sha256": "08cb30cf426bf35f1e7e419d6f8bd1a07bf7d2b24b0eb731e37257dadb1e2d11",
+    "entries": 873,
+    "crc": "PASS"
+  },
+  "groups": {
+    "Tri-Tachyon": 16,
+    "Kosciol Ludda/patrole": 19,
+    "Kustosz sanktuarium": 21,
+    "Powitania": 8
+  }
+}

@@ -1,6 +1,9 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-12
 
-**Wydanie robocze 1.0.34. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.35. Cel 1.1 nadal otwarty.**
+
+**Zmiany 1.0.35 (12.11.2026):** w 64 wierszach `rules.csv` wykonano 93 podmiany i usunieto 108 dynamicznych zmiennych zaimkowych z widocznych komunikatow. 91 zatwierdzonych offline wierszy i 183 odniesienia lacznie z 1.0.34, nadal do sprawdzenia w grze. Pozostale 869 data i mapy OBF/API bajtowo niezmienione; getter calls Java nadal 219. `rules.csv` z 1.0.35 (SHA `c09ff63ee5da19d93e17c66c4e8ed3f1beb0e805c885d6b32d67d878b5291e0d`) odwracalny do 1.0.34 SHA `ebcf0741e168dd7046259edeae506caceb6d93cd1f2f9c7ff315f9d52a13428d`. ASCII, CRLF, 7371 opcji, 12 negatywnych testow danych+13 bramek, Go test/vet i 3 Win x64 exe PASS. ZIP 15191470 B, 873 wpisy, SHA `08cb30cf426bf35f1e7e419d6f8bd1a07bf7d2b24b0eb731e37257dadb1e2d11`. **Brak gry Windows; 81 PF wymaga kontroli, 3600 starszych tlumaczen API bez recenzji**. `docs/RELEASE_1035.md`.
+
 
 **Wydanie 1.0.34 (12.11.2026):** 27 wierszy polskich dialogow w `rules.csv` zostalo poprawionych w zakresie 62 fragmentow, eliminujac 75 uzyc dynamicznych zaimkow widocznych dla gracza. Dotyczy to Akademii Galatia (Skok Poprzeczny i informator), pielgrzymow Ludda oraz luddystycznego posrednika. Modyfikacja ograniczona do 26 pol `text` i jednej etykiety `options`, 0 zmian skryptow/warunkow/ID, z zachowaniem ASCII/CRLF/CSV i 7371 poprawnych opcji. Odwracalnosc: SHA rules 1.0.33 `c24d09cb29da3cccd01b40e2b8d318988000ebb132ad0de105fdf916e7b00e38`, 1.0.34 `ebcf0741e168dd7046259edeae506caceb6d93cd1f2f9c7ff315f9d52a13428d`. **869 innych plikow data i patchery Java identyczne z 1.0.33**; OBF 3534, API 5240. 11 testow negatywnych danych, 9 testow negatywnych blokad 1.1, Go test/vet i cross-build trzech EXE Windows x64 PASS. ZIP 873 wpisy / 15 191 440 B / SHA `559c5651367907396c078757925aceb4b5296bc6786e426462f8f5ac34da0487`. **219 wywolan zaimkow Java nadal otwarte**, mimo 75 usunietych odwolaniom w wyswietlanym rules.csv; 27 nowych dialogow wymagaja testu w grze. 81 dynamicznych PF i 3600 API oraz caly Windows gameplay nadal otwarte. `docs/RELEASE_1034.md`.
 
