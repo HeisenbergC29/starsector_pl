@@ -1,6 +1,6 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.26** (snapshot 1.0.12 + overlaye 1013–1026; OBF mapa 10126: 3380 podmian; API mapa 1026: 5150 wierszy, 5148 podmian identycznych z 1025).
+**Aktualny stan roboczy: 1.0.27** (snapshot 1.0.12 + overlaye 1013–1027; OBF mapa 10127 / 3421 podmian; API mapa 1027 / 5180 wierszy, 5178 trafien; 870 danych bez zmian).
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 
@@ -39,3 +39,5 @@
 12. **1.0.25:** OBF +81 krotkich UI etykiet w 12 klasach, m.in. przegladarki schematow, koszty produkcji, wybor oficerow, dziennik misji. `ShipLoss` składa w 3 wariantach `utrata 17% GB`, `skrzydlo Osa - utrata 17% GB`, `okret Jastrzab - utrata 17% GB` bez błędów odmiany. API ma mapę 1025 identyczna z 1024; nowy patcher akceptuje hash OBF `dc1fecf61d12d8819bab11b3d1bf20c4aecc294ac27ebce747e08b0dd35ae033`. Weryfikacja 81 JVM literałów w 100 miejscach ldc, 12 klas, 1018 zrodel odtwarzalnych, realny upgrade 1.0.24->1.0.25 PASS. Audyt 3659 DRAFT/OPTIONAL: zadnych strat spacji/znacznikow, dwa prawidlowe przecinki Oxford przed `i`. To nie jest pełna recenzja znaczenia; issue #3 dalej otwarte. Szczegoly `docs/RELEASE_1025.md`.
 
 13. **1.0.26:** 86 nowych etykiet OBF w 20 klasach, m.in. przyciski refitu, badanie planet, wybieranie celow najazdow, budynki i rynek, oficerowie, odzyskiwanie i zakladki. Potwierdzono 106 uzyc JVM `ldc`; 11 etykiet ma posrednie przekazanie do UI przez zmienne (nie oceniaj ich wylacznie oknem 10 instrukcji). API 1026 to kopia mapy 1025; nowy patcher akceptuje OBF SHA `a475ef535590b79da74d425f9e3f7566c85bed163e4a3795e88a593b7f69f42a`. Fresh, real upgrade z 1.0.25, restore, invalid JAR odmowa, Go i 1021 plikow zrodel odtwarzalnych: PASS. `docs/RELEASE_1026.md`. Nie deklarowac pelnego 1.1 ani native Windows runtime testow.
+
+14. **1.0.27:** 41 nowych tekstow OBF w 7 klasach (klasy okretow, ekonomia, battle menu, rozkazy), 30 API w 12 klasach (spotkania flot, salvage, status Ligi). 140 potwierdzonych `ldc` oryginalnych klas. Wazne: nie tlumaczyc technicznych ID `SHIP_ACCELERATE`/`CMENU_ASSAULT`, tagow `Military`/`Missions`/`Exploration`, ani kluczy `getSortString()` (`Raid`, `Procurement`). Nowe OBF SHA `8d009ff086bc592b66fbb54b0e23ce11f3c2c85fb2a9ebb6c514c58515f1262d`; API SHA `3b6a4cfb3911aa9564ea89c84e30b38931455f2d5c5e73f9a6e58eeb43e7d57d`. Fresh install, REAL upgrade 1.0.26->1.0.27, idempotencja, restore, invalid JAR, 14 negatywnych testow, 1024 pliki zrodel identyczne; szczegoly docs/RELEASE_1027.md. 1.1, Misc.STORY i native Windows gameplay nadal otwarte.
