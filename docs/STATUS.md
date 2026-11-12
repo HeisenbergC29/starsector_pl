@@ -2,6 +2,9 @@
 
 **Wydanie robocze 1.0.29. Cel 1.1 nadal otwarty.**
 
+**Audyt niepodmienionych danych 1030:** sklasyfikowano wszystkie 529 plikow oryginalnego data.rar pozostawionych poza lokalizacja. 23 pliki hullName odpowiadaja polskiej ship_data.csv; zero sprzecznych nazw. Jedna nieaktywna pozycja `codex/game_mechanics.txt`; 4 `displayName` wariantow do decyzji. 50 skryptow Java poddano analizie rzeczywistych literałów: 238 stringow, jeden wielowyrazowy tekst diagnostyczny w TestCombatPlugin (bez dowodu aktywnego wyswietlenia graczowi). Czynnosci tylko diagnostyczne, zadnych zmian danych/JAR. Raport `docs/OMITTED_DATA_1030.md`, narzedzia `tools/audit_omitted_data_1030.py` i `tools/audit_java_source_1030.py`.
+
+
 **Audyt blokad 1.1, etap 1030 (bez nowej paczki):** na oryginalnych oraz spatchowanych JAR 1.0.29 potwierdzono 81 odczytow `Misc.STORY` (65 OBF / 16 API) w 24 klasach, 69 polaczonych literali point/points; konflikt wspolnego indeksu `her` #143 w `getHimOrHer` i `getHisOrHer`. Przygotowano prywatny raport 81 kontekstow i deterministyczna kolejke 3659 aktywnych wpisow DRAFT/OPTIONAL do semantycznej recenzji. Dotychczasowy test skladni nie oznacza akceptacji jezykowej. Dodano `docs/RELEASE_GATES_11.json` + skrypt blokujacy przedwczesne oznaczenie 1.1. **Danych gry, map, JAR i EXE nie zmieniono; ostatnie wydanie 1.0.29.** Dok.: `docs/DYNAMIC_AUDIT_1030.md` i `docs/SEMANTIC_AUDIT_1030.md`.
 
 

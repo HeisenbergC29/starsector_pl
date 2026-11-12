@@ -1,0 +1,9 @@
+{
+  "omitted_java_files": 50,
+  "active_lexical_string_literals": 238,
+  "literals_with_two_or_more_english_words": 1,
+  "candidate_classes": [
+    "scripts/plugins/TestCombatPlugin.java"
+  ],
+  "cannot_infer_runtime_UI_solely_from_lexing": true
+}

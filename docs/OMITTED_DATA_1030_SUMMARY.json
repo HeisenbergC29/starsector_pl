@@ -1,0 +1,35 @@
+{
+  "game_version": "0.98a-RC8",
+  "original_files": 1399,
+  "localized_overlay_files": 870,
+  "unmodified_source_files": 529,
+  "by_extension": {
+    ".csv": 18,
+    ".java": 50,
+    ".jpg": 16,
+    ".json": 30,
+    ".png": 6,
+    ".proj": 110,
+    ".sample": 4,
+    ".ship": 24,
+    ".skill": 28,
+    ".system": 63,
+    ".txt": 1,
+    ".variant": 16,
+    ".wpn": 163
+  },
+  "classifications": {
+    "disabled_codex": 1,
+    "hull_name_equals_localized_csv": 23,
+    "image_data": 22,
+    "script_manual_check": 50,
+    "ship_without_hull_name": 1,
+    "untouched_reference": 428,
+    "variant_display_name_manual_check": 4
+  },
+  "hull_names_identical_to_localized_csv": 23,
+  "unresolved_hull_name_conflicts": 0,
+  "variant_display_name_review_count": 4,
+  "java_scripts_pending_manual_callsite_review": 50,
+  "meaning_or_runtime_visibility_fully_verified": false
+}

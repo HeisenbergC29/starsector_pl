@@ -83,3 +83,7 @@ Zastosuj kolejno overlaye `tools/apply_1013.py` do `tools/apply_1028.py` na odtw
 ## Postep do 1.1: audyt dynamicznych tekstow 1030 (bez nowego wydania)
 
 Na oryginalnych i spolonizowanych bibliotekach 1.0.29 ponownie zweryfikowano 81 uzyc `Misc.STORY`, 24 klasy oraz techniczna kolizje stalej `her` miedzy dwoma metodami. Stworzono narzedzia i testy tylko do odczytu, a takze kolejke 3659 starszych tlumaczen API do recenzji semantycznej. Nowe bramki akceptacji opisano w [docs/RELEASE_GATES_11.json](docs/RELEASE_GATES_11.json). Wyniki: [docs/DYNAMIC_AUDIT_1030.md](docs/DYNAMIC_AUDIT_1030.md) oraz [docs/SEMANTIC_AUDIT_1030.md](docs/SEMANTIC_AUDIT_1030.md). **Najnowsza paczka 1.0.29 pozostaje bez zmian. To nie jest ukonczona 1.1.**
+
+### Audyt pominiętych zasobow (bez nowej paczki, etap 1030)
+
+Z oryginalnego `data.rar` sklasyfikowano **529** plikow niepodmienianych przez 870 plikow lokalizacji. 23 nazwy kadlubow są identyczne ze spolonizowana tabela, 4 nazwy wariantow wymagaja indywidualnej decyzji, a 50 skryptow Java przebadano leksykalnie: 238 aktywnych literalow kodu, jeden wielowyrazowy komunikat diagnostyczny. Wynik i ograniczenia w [docs/OMITTED_DATA_1030.md](docs/OMITTED_DATA_1030.md). To nie zastępuje natywnego testu gry ani nie oznacza pelnej 1.1.
