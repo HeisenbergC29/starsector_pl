@@ -59,6 +59,8 @@ Oryginalna stala `com.fs.starfarer.api.util.Misc.STORY` ma wartosc `story`. Potw
 
 **Nie zmieniono `Misc.STORY` i nie zastosowano globalnego `story` → `PF`**. Taka podmiana nie naprawilaby polskiej odmiany. Przykladowo `story point`, `story points`, `one story point` oraz frazy z polskimi fragmentami wymagaja roznych konstrukcji. Konieczny jest przeglad calego lancucha, nie sama zamiana jednego slowa. Szczegolowy prywatny `ST_1028_STORY_AUDIT.json` i publiczny odczytowy `tools/audit_story_1028.py` sa zapisane do dalszej pracy. Publiczne repozytorium nie zawiera komercyjnych oryginalnych JAR ani ich calych zrzutow literałów.
 
+**GitHub Actions: PASS** — [przebieg 43135284366](https://github.com/HeisenbergC29/starsector_pl/actions/runs/43135284366), commit `ed4f1e46`. Niezaleznie od lokalnego katalogu odtworzono nakladki 1013–1028, zaliczono kontrole 92 nowych tekstow, 14 testow negatywnych map, walidacje dialogow, Go test/vet oraz cross-build trzech EXE Windows x64. CI na Linuxie nie uruchamia gry.
+
 ## Odtworzenie stanu z GitHub
 
 ```sh
