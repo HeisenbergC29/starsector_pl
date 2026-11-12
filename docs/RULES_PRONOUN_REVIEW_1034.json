@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "installed_version": "1.0.34",
+  "source_release": "1.0.33",
+  "scope": "data/campaign/rules.csv display text and one option caption only",
+  "reviewed_rows": 27,
+  "exact_edits": 62,
+  "removed_visible_pronoun_placeholders": 75,
+  "pending_windows_ui_rows": 27,
+  "rules_sha256_before": "c24d09cb29da3cccd01b40e2b8d318988000ebb132ad0de105fdf916e7b00e38",
+  "rules_sha256_after": "ebcf0741e168dd7046259edeae506caceb6d93cd1f2f9c7ff315f9d52a13428d",
+  "reviewed": [
+    {
+      "id": "LPTcheckCompletionContRichOneOff",
+      "field": "text",
+      "before_sha256": "cfe140eb40408cef51ccbbdd8c16680e807b6da8f6c45d8f16f8bbeb8b852a14",
+      "after_sha256": "e8e0337597d8790ab505942a4a45dd93f9e05eb353d223e2a91e40d00bf80860",
+      "exact_edits": 5,
+      "removed_variable_references": 6,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LPTcheckNonMarketContRichOneOff",
+      "field": "text",
+      "before_sha256": "1fa2583dc3cdff2cfdd5893716b7f3c4b2a1a96fc97b8138bb6abf08ef88420c",
+      "after_sha256": "d31f30b924a4fa36aa1e361d5a2e5a5c2a9e6d9a5acf8c8228d25ee2fe8237ed",
+      "exact_edits": 6,
+      "removed_variable_references": 7,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCAskAroundKapteynBar1",
+      "field": "text",
+      "before_sha256": "0bfc4f2aec9dd320505c52c809a69dd39ab503d3ab199489f50edf85b8cc213a",
+      "after_sha256": "051ba7b8fab9ff83675e955fdba5d67d53540ad5381c7cf4b4f7f9c4321a7804",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCAskAroundKapteynBar3",
+      "field": "text",
+      "before_sha256": "794affc7088c7a5e42b497a88ab0a3305fd69884457a2d62c62a915bf136f739",
+      "after_sha256": "f66541c001077860adc8cfebf61cb4c153ce3ef3fc2b1f4c1d373becf71844e9",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCAskAroundKapteynBarDone",
+      "field": "text",
+      "before_sha256": "2fb1899ec803fe250dcc8bbabd8bae80aa4b9d614df5703506e63a54856f455b",
+      "after_sha256": "c5319c74aa867b7f32d2ca1949e5e12b548c97e0d43e0e0eb278c63b543636d7",
+      "exact_edits": 3,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCAskAroundKapteynBarMore",
+      "field": "text",
+      "before_sha256": "7b4e2d14c0491a9e9b5c3136b96a95ed8c0bf6f5e2fdc669d5b3ec8588057ebb",
+      "after_sha256": "b97a696da2ac796a9ce134930a5d5d6ed8de6892ebd447372d838b449f1e9b72",
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCAskAroundKapteynBarProfit",
+      "field": "text",
+      "before_sha256": "42dbfbf1f7877cbccc4983466f1708bee86dc89f16bd280f74aa43e3911560dc",
+      "after_sha256": "58c04c5746c28a606bf52958db98530234df3420d9f47d43688ff5b4fdaf0553",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCKapteynBarBribe1",
+      "field": "text",
+      "before_sha256": "c49da3d71849045d9c8d970a8deaf9adcf03fe81ca509861ec3fe5937d076853",
+      "after_sha256": "cbc728d7430572b184c931d81da68ea7155d0caa64d32f4de83c53806d58bf20",
+      "exact_edits": 4,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaTJMissionText3a",
+      "field": "text",
+      "before_sha256": "dc78ad60366be46d8aa37f14b856909b39b5b13b82f00295652599ec298dea5b",
+      "after_sha256": "8a22ce6a0b4e462cc8d3ea8d760163665a414b75d89abb19fc5e456aab6ef8bb",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaTJMissionText3b",
+      "field": "text",
+      "before_sha256": "1ea4fef73a479adc30b162a5954e61846de72fe4fd4d04bb0ad31f6a5efd72cd",
+      "after_sha256": "ab909a78a6479a907393e1859a87ec70746ed62958175bb6ff02a0f2f94bfb90",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaTJPlanetContact",
+      "field": "text",
+      "before_sha256": "5ab50367b603e7194c8216ef1e32103698f216efc4b662c1cae5d3e760d3d135",
+      "after_sha256": "88400ef0ae70aab5cec2308e32bcfdfdb42baa276c89447d9d4d8654edf03495",
+      "exact_edits": 7,
+      "removed_variable_references": 5,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaTJPlanetContact3",
+      "field": "text",
+      "before_sha256": "fc4f2e9500a63e4d92ecd893b0272d6b312a8e9c53b6049460d118c76fc8950b",
+      "after_sha256": "1e5d69e0292fe79d9a1252d695ebb3d9e5b29e641eb8e3ecf00120809a50e64d",
+      "exact_edits": 2,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaTJPlanetContactHaveTJ",
+      "field": "text",
+      "before_sha256": "5070c47f1be9a49cea42c7a0267a2f09434f96fd343a4fa106c3dd10add54b6b",
+      "after_sha256": "237da4bb7fa8ba4fef9e8f04828db9bf4a849ab3da9a5ecacecb802ddc464cbb",
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaTJPlanetContactTakeChip",
+      "field": "text",
+      "before_sha256": "4979113a2eec641061086ba444dde900086e814378a40ac926aad657d35cc8a2",
+      "after_sha256": "57008e5474dfdf234a189ca3b128ab813fcd472b0099fc4023a786364141b70b",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaTJPlanetContactTakeNN",
+      "field": "text",
+      "before_sha256": "3e447e6fc6929dd36896dffad2c897b9387a232cc185f63da0434e5fb1d47529",
+      "after_sha256": "2a97838a1ebc86eefdb3651e06d8392f92f56ace82dc672fe7a00209cba44e2e",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfBlurbBar",
+      "field": "text",
+      "before_sha256": "1f98237d1d9fccd71c6e3140662e53fe2e6a9dcbee927e90956568ef2b8e73ef",
+      "after_sha256": "40d786a6b50f0b297b1decc8b9ddb051ced9f84ca8c6cbc302dc88bdfe3bd9fe",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferBarAcceptFirst",
+      "field": "text",
+      "before_sha256": "9921fed18eb3b3e9da68906651a904f7fccb01e3335177288d94b03fd7917d37",
+      "after_sha256": "a3bc3bfd486d6229fbc424b52c5bafc01fa262d78d146f4876eb574f1e905c47",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferBarCynicalRewardAsk",
+      "field": "text",
+      "before_sha256": "9b439d3355c262acc0e4e572f12e23f84fa0620628ffbfa4ed9aa51bc7a5ce6c",
+      "after_sha256": "10ab1cf9cc3e8159e709edf65fecbcfbfa3ca64d149411588af6d1e57737794e",
+      "exact_edits": 2,
+      "removed_variable_references": 3,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferCynicalRewardAsk",
+      "field": "text",
+      "before_sha256": "558aa938fe5a3b0930eb0bf5b2c7fa985dc779ec09c9bb2a9322f0df60c0144b",
+      "after_sha256": "f4997946535941578d188f871adb4d2b41b8dfa7293701f24850616b1193085b",
+      "exact_edits": 2,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferOptionBar",
+      "field": "options",
+      "before_sha256": "88cd1983679469c7c074a4d9c9c2e7c84ccd22da9e47d54d92b0a8865ffd03eb",
+      "after_sha256": "0862cf857581c4f605c515b8f0f446d5c92b3ee3e316888d32feb7e7c57a3368",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferTextBar",
+      "field": "text",
+      "before_sha256": "51500b492da7eb472f26630e614f36ea0fd3f5cb445298cc0beff22b349697c0",
+      "after_sha256": "f1e63843f0b53916b1bf170e12736d7f9b70768218e4a342de804e5aaf9750e6",
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferTextBar2",
+      "field": "text",
+      "before_sha256": "1779a3194e77c34207f962a338514ab7f906985446b9f80669434bb1b0ae9270",
+      "after_sha256": "57c8dbcf206ad53a9dee7001aea493144cd1fd5e2f78be238e2087e7c065e672",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferTextBarAgain",
+      "field": "text",
+      "before_sha256": "ff3553094e6b387914f16309030585d9f3485220d76b772527409930ac76b353",
+      "after_sha256": "45fe9940ed1bcc5798a312b6db87245557be3de2a07e5b1996c774ccaa0012ca",
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "locrlfOfferTextBarAgainB",
+      "field": "text",
+      "before_sha256": "080192f3aee2b44ff7741ca854347a7b4b5600dac3af661526e8c59f1364ff7d",
+      "after_sha256": "d5bc79a8688ed5f363fb2a12439f16fb90dc80fb749d265c94709d231f5d092f",
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lptBlurbBar1",
+      "field": "text",
+      "before_sha256": "ba5fef09abf7aaf6faefd004b9b5645ae4a8bf84398716e34c344fe4bd10886b",
+      "after_sha256": "43c3fea027f1cbe47b77d9618e9928709f64501f7f8384fd7ab5a0bf0fe47ed3",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lptOfferTextBarPoor",
+      "field": "text",
+      "before_sha256": "eae22742c6d60d8410b1f963fd5b22262dc66a4822d2a1b14f54bdd701bc7605",
+      "after_sha256": "95f53faca58c72d43b262c2e242119470d0266c38e8c50d7a9273a0c1977d121",
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lptOfferTextBarRich",
+      "field": "text",
+      "before_sha256": "26c8eb55ea0d1b9740e182cf6a8f19abaa9c045c676d8f680218a2924389fb70",
+      "after_sha256": "934477b420100375d20b01a4403251ba1b90a9e5ab56d89a57065dee24e28d8a",
+      "exact_edits": 3,
+      "removed_variable_references": 4,
+      "offline_review": "approved_grammatical_rewrite_without_pronoun_placeholder",
+      "windows_gameplay": "not_tested"
+    }
+  ],
+  "note": "Does NOT change 219 Java getter invocation count. Translated sentences still need native Windows UI inspection."
+}

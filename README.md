@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.33):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.34):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.33** (snapshot 1.0.12 + overlaye 1013–1033; OBF 3534 podmiany/539 klas, API 5240 trafien/938 klas, 5242 wiersze mapy; 870 danych identycznych z 1.0.32). Cel 1.1 pozostaje OTWARTY.
+**Aktualny stan roboczy: 1.0.34** (snapshot 1.0.12 + nakladki 1013–1034; OBF 3534 podmiany/539 klas, API 5240 trafien/938 klas bez zmian od 1.0.33; 870 plikow danych, z czego 1 poprawiony). Cel 1.1 nadal otwarty.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -105,3 +105,7 @@ W `data/hullmods/SurveyingEquipment.java` usunieto bledna polska konstrukcje prz
 Zastosowano nieodmienny skrot **PF** = punkty fabularne zamiast dynamicznego `Misc.STORY` (`story`). Kontrolowane tlumaczenie sasiednich tekstow wszystkich **81** oryginalnych uzyc w **24** klasach obejmuje **69** bezposrednich koncowek `point(s)`. Mapy: **OBF +24 nowych/40 skorygowanych**, **API +17 nowych/5 skorygowanych**; 10 testow kompletnych polskich konstrukcji, 14 testow negatywnych, bajtowa zgodnosc kodu metod obu zmodyfikowanych JAR. ZIP 870 identycznych danych i 3 programy Windows x64. [Dokumentacja i SHA](docs/RELEASE_1033.md), [publiczne liczniki](docs/STORY_1033_SUMMARY.json), [bramki wydania 1.1](docs/RELEASE_GATES_11.json).
 
 **81 kontekstow poprawionych i sprawdzonych offline; wszystkie 81 nadal wymagaja testu UI w grze Windows.** Otwarta pozostaje odmiana 219 wywolan metod zaimkowych oraz 3600 historycznych recenzji API. Nie oznaczac jako kompletna 1.1.
+
+## Wydanie 1.0.34 — dialogi bez angielskich dynamicznych zaimkow
+
+[Raport techniczny](docs/RELEASE_1034.md) · [Rejestr 27 zmienionych wierszy](docs/RULES_PRONOUN_REVIEW_1034.json) · [bramki 1.1](docs/RELEASE_GATES_11.json). Zmodyfikowano tylko `data/campaign/rules.csv`: 27 wierszy, 62 zatwierdzone zamiany, 75 usunietych wystapien dynamicznych zaimkow w tekstach. Pozostale 869 danych oraz obie mapy OBF/API i patchery Java sa identyczne z 1.0.33. Obejmuje misje Akademii Galatia, informatora na Kapteyn, pielgrzymow Ludda i posrednika w ich misji. **Wywolania metod Java (219) pozostaja nienaruszone**, co jest odrebna metryka. Test w grze Windows nadal niezrealizowany; wydanie nie jest finalna 1.1.

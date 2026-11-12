@@ -1,0 +1,40 @@
+{
+  "version": "1.0.34",
+  "result": "PASS_LOCAL",
+  "zip": {
+    "filename": "Starsector_PL_ASCII_0.98a_RC8_1.0.34_MINIMALNY.zip",
+    "bytes": 15191440,
+    "sha256": "559c5651367907396c078757925aceb4b5296bc6786e426462f8f5ac34da0487",
+    "entries": 873,
+    "localized_data_files": 870,
+    "crc_ok": true
+  },
+  "rules": {
+    "changed_display_rows": 27,
+    "precise_edits": 62,
+    "removed_gender_variable_references": 75,
+    "before_sha": "c24d09cb29da3cccd01b40e2b8d318988000ebb132ad0de105fdf916e7b00e38",
+    "after_sha": "ebcf0741e168dd7046259edeae506caceb6d93cd1f2f9c7ff315f9d52a13428d",
+    "other_data_files_identical": 869,
+    "valid_options": 7371,
+    "invalid_options": 0,
+    "CRLF_preserved": true
+  },
+  "java": {
+    "OBF_matches": 3534,
+    "API_matches": 5240,
+    "JAR_maps_changed": false,
+    "method_bytecode_changed": false,
+    "original_getter_invocations_remaining": 219
+  },
+  "tests": {
+    "source_delta": "PASS",
+    "CSV_unaffected_fields": "PASS",
+    "Go_test_vet": "PASS",
+    "Win_x64_cross_build": "PASS",
+    "negative_tests": 11,
+    "release_gates_negative_tests": 9,
+    "native_windows_gameplay": "NOT_RUN"
+  },
+  "release_11_allowed": false
+}

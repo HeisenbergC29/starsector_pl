@@ -13,8 +13,12 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/audit_dynamic_calls_1019.py; 219 pronoun calls; shared constant her must be contextually resolved",
-      "unresolved_count": 219
+      "source": "tools/verify_review_1034.py: 27 rules.csv text/option rows rewritten to remove 75 displayed pronoun-variable uses, but 219 original Java calls not altered; Windows runtime check still open",
+      "unresolved_count": 219,
+      "reviewed_rules_rows_offline": 27,
+      "removed_visible_gender_variable_refs": 75,
+      "pending_windows_ui_rules_rows": 27,
+      "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json"
     },
     {
       "id": "draft_semantics",
@@ -30,12 +34,12 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1033.md; 81 Misc.STORY contexts localized offline; full game-wide visible-text coverage still not exhaustively verified"
+      "source": "docs/RELEASE_1034.md: 81 STORY sites localized offline in 1.0.33; 27 selected dynamic-pronoun rules now gender-neutral; remaining full text coverage pending"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1033.md; original+patched JAR and Linux CI tested; native Windows game/display test still not run"
+      "source": "docs/RELEASE_1034.md: Linux Go, Windows cross-build, source-level rules.csv and original JAR audits only; native Windows game/display test NOT RUN"
     }
   ]
 }
