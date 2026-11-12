@@ -1,0 +1,28 @@
+{
+  "edition": "1.0.30",
+  "game_version": "0.98a-RC8",
+  "new_literals": {"OBF": 2, "API": 4},
+  "corrected_existing_API": 1,
+  "confirmed_new_ldc_uses": 6,
+  "OBF": {"mapped": 3510, "changed_classes": 538, "sha256": "291a0098153b058b5725a97a331d4e41763bef9ea33dbac42eea0d0a989f8722"},
+  "API": {"map_rows": 5219, "mapped": 5217, "changed_classes": 938, "sha256": "f1927b0fbea90e41c049e95b954f97acfcf9e59496c89371b774ad0e12cea4e6"},
+  "test_results": {
+    "source_reproduction_1032_files": "PASS",
+    "bounty_sentence_six_variants": "PASS",
+    "interdiction_duration_four_variants": "PASS",
+    "original_cp_ldc_checks": "PASS",
+    "all_changed_class_methods_equal": "PASS",
+    "fresh_obf_and_api_install": "PASS",
+    "real_upgrade_1029_to_1030_byte_equal_to_fresh": "PASS",
+    "idempotent_reinstall": "PASS",
+    "original_jar_restore_byte_equal": "PASS",
+    "corrupt_obf_and_api_refused": "PASS",
+    "all_870_data_unchanged": "PASS",
+    "all_7371_dialog_options_valid": "PASS",
+    "go_test_and_vet_3_components": "PASS",
+    "three_windows_x64_cross_build": "PASS",
+    "zip_873_entries_crc": "PASS"
+  },
+  "zip": {"bytes": 14637790, "sha256": "b59d2dda6881907a62348de9fd3c53928e668e71a13de17804c56d34534589c7", "entries": 873},
+  "not_tested": ["Native Windows game launch", "Actual gameplay visual inspection", "All dynamic STORY and pronoun contexts", "All remaining 3658 DRAFT/OPTIONAL translations"]
+}

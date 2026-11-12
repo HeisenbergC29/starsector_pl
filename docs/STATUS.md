@@ -1,6 +1,9 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-12
 
-**Wydanie robocze 1.0.29. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.30. Cel 1.1 nadal otwarty.**
+
+**Zmiany 1.0.30 (12.11.2026):** poprawiono 2 widoczne etykiety OBF, 4 fragmenty API oraz poprawiono jedna wczesniejsza polska fraze API. `PersonBountyIntel`: usunieto mieszanine `He is/She is` z polskim opisem lokalizacji, przetestowano kompletne zdania dla obu plci i trzech lokalizacji. `InterdictionPulseAbility`: poprawiono komunikat i odstep przed `s`. OBF 3510 podmian/538 klas, API 5217 podmian/938 klas. 6 nowo trafionych `ldc`, jeden poprawiony starszy fragment; zero zmian wykonywalnego kodu klas, realny upgrade z 1.0.29, restore, idempotencja, corrupted JAR rejection, Go test/vet, Windows crossbuild PASS. Wszystkie 870 danych jak w 1.0.29; 7371 opcji poprawnych. **3658 DRAFT/OPTIONAL nadal do semantycznej recenzji**; 81 STORY i 219 wywolan zaimkow bez rozstrzygniecia. Paczka 14 637 790 B, SHA `b59d2dda6881907a62348de9fd3c53928e668e71a13de17804c56d34534589c7`. Brak natywnego Windows/gameplay. Raport `docs/RELEASE_1030.md`.
+
 
 **Audyt niepodmienionych danych 1030:** sklasyfikowano wszystkie 529 plikow oryginalnego data.rar pozostawionych poza lokalizacja. 23 pliki hullName odpowiadaja polskiej ship_data.csv; zero sprzecznych nazw. Jedna nieaktywna pozycja `codex/game_mechanics.txt`; 4 `displayName` wariantow do decyzji. 50 skryptow Java poddano analizie rzeczywistych literałów: 238 stringow, jeden wielowyrazowy tekst diagnostyczny w TestCombatPlugin (bez dowodu aktywnego wyswietlenia graczowi). Czynnosci tylko diagnostyczne, zadnych zmian danych/JAR. Raport `docs/OMITTED_DATA_1030.md`, narzedzia `tools/audit_omitted_data_1030.py` i `tools/audit_java_source_1030.py`.
 

@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.29):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.30):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.29** (snapshot bazowy 1.0.12 + overlaye 1013–1029; 23 nowe etykiety OBF w 21 klasach i 7 API w 6 klasach; 870 danych bez zmian). Cel 1.1 jeszcze nieukonczony.
+**Aktualny stan roboczy: 1.0.30** (snapshot bazowy 1.0.12 + overlaye 1013–1030; OBF 3510 podmian/538 klas, API 5217 trafien/938 klas; 870 danych bez zmian). Cel 1.1 nadal otwarty.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -87,3 +87,7 @@ Na oryginalnych i spolonizowanych bibliotekach 1.0.29 ponownie zweryfikowano 81 
 ### Audyt pominiętych zasobow (bez nowej paczki, etap 1030)
 
 Z oryginalnego `data.rar` sklasyfikowano **529** plikow niepodmienianych przez 870 plikow lokalizacji. 23 nazwy kadlubow są identyczne ze spolonizowana tabela, 4 nazwy wariantow wymagaja indywidualnej decyzji, a 50 skryptow Java przebadano leksykalnie: 238 aktywnych literalow kodu, jeden wielowyrazowy komunikat diagnostyczny. Wynik i ograniczenia w [docs/OMITTED_DATA_1030.md](docs/OMITTED_DATA_1030.md). To nie zastępuje natywnego testu gry ani nie oznacza pelnej 1.1.
+
+## Wydanie 1.0.30 — poprawa skladanych dialogow i UI
+
+Nowe literalne napisy OBF +2, API +4 i **jedna poprawka wczesniejszego skladanego zdania**. Naprawiono mieszanke `He is/She is` z polskim opisem lokalizacji poszukiwanej osoby; caly komunikat `On/Ona podobno ukrywa sie...` jest skladany gramatycznie. Poprawiono takze etykiety `Nazwa:`, `Cena: ` i licznik sekund impulsu zaklocajacego. [Dowody, testy i odtwarzanie](docs/RELEASE_1030.md). Nie oznaczac jako kompletnej 1.1: `Misc.STORY`, zaimki wspoldzielone i test Windows nadal otwarte.

@@ -2,10 +2,33 @@
   "schema_version": 1,
   "target_version": "1.1",
   "gates": [
-    {"id":"story_contexts","status":"blocked","source":"tools/audit_dynamic_1030.py; 81 uses of Misc.STORY in 24 classes; docs/DYNAMIC_AUDIT_1030.md","unresolved_count":81},
-    {"id":"pronoun_contexts","status":"blocked","source":"tools/audit_dynamic_calls_1019.py; 219 pronoun calls; duplicated string her is shared by two different methods","unresolved_count":219},
-    {"id":"draft_semantics","status":"blocked","source":"tools/audit_draft_boundaries_1025.py; 3659 older active API entries checked structurally, not all semantically","unresolved_count":3659},
-    {"id":"text_completeness","status":"in_progress","source":"docs/STATUS.md; some short UI labels and dynamic texts still not independently reviewed"},
-    {"id":"windows_runtime","status":"blocked","source":"docs/RELEASE_1029.md; cross-build PE32+ and Linux CI PASS, native Windows gameplay and visual inspection NOT RUN"}
+    {
+      "id": "story_contexts",
+      "status": "blocked",
+      "source": "tools/audit_dynamic_1030.py; 81 uses of Misc.STORY in 24 classes; docs/DYNAMIC_AUDIT_1030.md",
+      "unresolved_count": 81
+    },
+    {
+      "id": "pronoun_contexts",
+      "status": "blocked",
+      "source": "tools/audit_dynamic_calls_1019.py; 219 pronoun calls; duplicated string her is shared by two different methods",
+      "unresolved_count": 219
+    },
+    {
+      "id": "draft_semantics",
+      "status": "blocked",
+      "source": "API TLUMACZENIA_JAR_1030.csv: 3658 remaining older active DRAFT/OPTIONAL; one assembled bounty sentence corrected and reviewed in 1.0.30",
+      "unresolved_count": 3658
+    },
+    {
+      "id": "text_completeness",
+      "status": "in_progress",
+      "source": "docs/STATUS.md; some short UI labels and dynamic texts still not independently reviewed"
+    },
+    {
+      "id": "windows_runtime",
+      "status": "blocked",
+      "source": "docs/RELEASE_1030.md; Linux CI and Windows x64 cross-build only; native Windows gameplay and visual inspection NOT RUN"
+    }
   ]
 }

@@ -98,10 +98,14 @@ jobs:
         run: |
           python3 tools/verify_1029_ui.py worktree
           python3 tools/test_1029_delta.py worktree
-      - name: Release gate audit for 1.1 (current development version is 1.0.29)
+      - name: Apply 1.0.30 verified complete bounty sentence and interface labels
+        run: python3 tools/apply_1030.py worktree
+      - name: Verify 1.0.30 exact map delta and all 10 composed sentence/duration variants
+        run: python3 tools/verify_1030_sentences.py worktree
+      - name: Release gate audit for 1.1 (current development version is 1.0.30)
         run: |
           python3 tools/test_dynamic_1030.py
-          python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1029.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
+          python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1030.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
           python3 tools/check_release_gates_1030.py worktree --gates docs/RELEASE_GATES_11.json
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
@@ -141,5 +145,5 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.29 minimal Windows installer
-        run: python3 tools/package_1029.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.29_MINIMALNY.zip
+      - name: Package and CRC-check 1.0.30 minimal Windows installer
+        run: python3 tools/package_1030.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.30_MINIMALNY.zip

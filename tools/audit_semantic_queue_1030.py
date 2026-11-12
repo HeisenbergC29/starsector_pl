@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a private, deterministic review queue of 3659 active draft/optional API strings.
+"""Generate a private, deterministic review queue for active draft/optional API strings.
 
 This tool deliberately does not claim that machine heuristics prove semantic correctness.
 Output contains English source strings from commercial Starsector and must remain private.
@@ -20,7 +20,8 @@ def main():
     with args.mapping.open(encoding='utf8',newline='') as f:
         rows=list(csv.DictReader(f))
     wanted=[r for r in rows if r['status'] in REVIEW]
-    assert len(wanted)==3659,(len(wanted),collections.Counter(r['status'] for r in wanted))
+    expected={'1029':3659,'1030':3658}.get(args.mapping.stem.rsplit('_',1)[-1])
+    assert expected is not None and len(wanted)==expected,(args.mapping,len(wanted),collections.Counter(r['status'] for r in wanted))
     inconsistencies=collections.defaultdict(set)
     for r in rows:inconsistencies[r['english_literal']].add(r['polish_ascii_draft'])
     results=[]
@@ -41,7 +42,7 @@ def main():
                         'source_class':r['source_class'],'original':src,'translation':target,
                         'mapping_status':r['status']})
     results.sort(key=lambda r:(r['priority'],r['source_class'],r['id']))
-    summary={'baseline':'1.0.29','entries_needing_semantic_review':len(results),
+    summary={'baseline':'1.0.'+args.mapping.stem.rsplit('_',1)[-1][-2:],'entries_needing_semantic_review':len(results),
              'status_counts':dict(collections.Counter(r['mapping_status'] for r in results)),
              'priority_counts':dict(collections.Counter(str(r['priority']) for r in results)),
              'flag_counts':dict(collections.Counter(f for r in results for f in r['reason'])),

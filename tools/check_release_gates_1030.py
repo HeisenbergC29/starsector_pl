@@ -25,14 +25,20 @@ def check(worktree: Path, manifest: Path, strict: bool=False) -> dict:
     meta=json.loads((worktree/'mod/mod_info.json').read_text('utf8'))
     version=meta['version'];assert re.match(r'^\d+(?:\.\d+)+$',version)
     assert meta['gameVersion']=='0.98a-RC8'
-    api=worktree/'buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1029.csv'
-    if api.exists():
+    translations=worktree/'buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations'
+    # Highest overlay version wins. Review counts must track approved corrections,
+    # not remain forever frozen at the 1.0.29 historical value 3659.
+    maps=list(translations.glob('TLUMACZENIA_JAR_*.csv'))
+    api=max(maps,key=lambda p:int(p.stem.rsplit('_',1)[1])) if maps else None
+    if api:
         with api.open('r',encoding='utf8',newline='') as f:
             rows=list(csv.DictReader(f))
         status_counts={k:sum(1 for row in rows if row['status']==k) for k in
                        ('OPTIONAL_PATCHER_NOT_GAME_TESTED','DRAFT_ONLY_NOT_INSTALLED','DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME')}
         old_review=sum(status_counts.values())
-        assert old_review==3659,('untracked historical review pool',old_review)
+        # Fail if a release gate claims more reviews were resolved than the
+        # current authoritative map actually demonstrates.
+        assert old_review==byid['draft_semantics'].get('unresolved_count'),('untracked semantic review pool',old_review,byid['draft_semantics'].get('unresolved_count'))
     else:
         status_counts={};old_review=None
     blocked=[key for key in REQUIRED if byid[key]['status']!='verified']
