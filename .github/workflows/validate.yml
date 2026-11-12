@@ -158,12 +158,19 @@ jobs:
           python3 tools/verify_1038.py worktree
           python3 tools/verify_review_1038.py worktree --prior-ledger docs/API_SEMANTIC_REVIEW_1037.json --ledger docs/API_SEMANTIC_REVIEW_1038.json
           python3 tools/test_1038.py worktree
-      - name: Release gate audit for 1.1 (current development version is 1.0.38)
+      - name: Apply 1.0.39 pronoun-free player-facing rules.csv dialogues
+        run: python3 tools/apply_1039.py worktree
+      - name: Verify 62 precise dialogue rows and all 153 immutable review records
+        run: |
+          python3 tools/verify_1039.py worktree
+          python3 tools/verify_review_1039.py worktree --ledger34 docs/RULES_PRONOUN_REVIEW_1034.json --ledger35 docs/RULES_PRONOUN_REVIEW_1035.json --ledger docs/RULES_PRONOUN_REVIEW_1039.json
+          python3 tools/test_1039.py worktree
+      - name: Release gate audit for 1.1 (current development version is 1.0.39)
         run: |
           python3 tools/test_dynamic_1030.py
           python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1030.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
-          python3 tools/check_release_gates_1038.py worktree --gates docs/RELEASE_GATES_11.json --prior-ledger docs/API_SEMANTIC_REVIEW_1037.json --ledger docs/API_SEMANTIC_REVIEW_1038.json
-          python3 tools/test_release_gates_1038.py worktree --gates docs/RELEASE_GATES_11.json --prior-ledger docs/API_SEMANTIC_REVIEW_1037.json --ledger docs/API_SEMANTIC_REVIEW_1038.json
+          python3 tools/check_release_gates_1039.py worktree --gates docs/RELEASE_GATES_11.json --ledger34 docs/RULES_PRONOUN_REVIEW_1034.json --ledger35 docs/RULES_PRONOUN_REVIEW_1035.json --ledger docs/RULES_PRONOUN_REVIEW_1039.json --api-ledger docs/API_SEMANTIC_REVIEW_1038.json
+          python3 tools/test_release_gates_1039.py worktree --gates docs/RELEASE_GATES_11.json --ledger34 docs/RULES_PRONOUN_REVIEW_1034.json --ledger35 docs/RULES_PRONOUN_REVIEW_1035.json --ledger docs/RULES_PRONOUN_REVIEW_1039.json --api-ledger docs/API_SEMANTIC_REVIEW_1038.json
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -202,5 +209,5 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.38 minimal Windows installer
-        run: python3 tools/package_1038.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.38_MINIMALNY.zip
+      - name: Package and CRC-check 1.0.39 minimal Windows installer
+        run: python3 tools/package_1039.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.39_MINIMALNY.zip

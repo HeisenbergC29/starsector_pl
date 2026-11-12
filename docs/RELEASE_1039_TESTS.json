@@ -1,0 +1,30 @@
+{
+  "version": "1.0.39",
+  "status": "local_tests_pass_independent_ci_pending",
+  "data_files": 870,
+  "changed_data_files": [
+    "campaign/rules.csv"
+  ],
+  "dialogue_rows_edited": 62,
+  "approved_exact_text_edits": 68,
+  "visible_gender_placeholders_removed": 77,
+  "cumulative_rules_rows_offline_reviewed": 153,
+  "cumulative_gender_placeholders_removed": 260,
+  "original_java_getter_calls": 219,
+  "getter_calls_pending_offline": 198,
+  "getter_calls_pending_windows": 219,
+  "story_contexts_pending_windows": 81,
+  "api_historical_semantic_pending": 3554,
+  "dialogue_option_valid": 7371,
+  "dialogue_option_invalid": 0,
+  "negative_data_tests_passed": 12,
+  "negative_gate_tests_passed": 14,
+  "go_test_and_vet": "pass_3_components",
+  "windows_crossbuild": "PE32+_x86_64_3_programs",
+  "native_windows_gameplay": "not_run",
+  "prior_rules_sha256": "c09ff63ee5da19d93e17c66c4e8ed3f1beb0e805c885d6b32d67d878b5291e0d",
+  "new_rules_sha256": "fd7697b869bc4951204a7e90583ab8526ae1d046ba715454048b7cbaedcd3751",
+  "zip_sha256": "ba2f3c8c1048b1941adecb632891493bd64b697a070aee72f649a2a128dc250e",
+  "zip_bytes": 15830723,
+  "zip_entries": 873
+}

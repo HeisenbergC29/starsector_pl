@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "installed_version": "1.0.39",
+  "source_release": "1.0.38",
+  "prior_rules_ledgers": [
+    "docs/RULES_PRONOUN_REVIEW_1034.json",
+    "docs/RULES_PRONOUN_REVIEW_1035.json"
+  ],
+  "scope": "Only player-visible text in rules.csv, with no change to technical identifiers, commands, conditions, notes or options",
+  "reviewed_rows": 62,
+  "exact_edits": 68,
+  "removed_visible_pronoun_placeholders": 77,
+  "pending_windows_ui_rows": 62,
+  "cumulative_offline_rows": 153,
+  "cumulative_removed_references": 260,
+  "cumulative_pending_windows_ui_rows": 153,
+  "java_getter_calls_untouched": 219,
+  "rules_sha256_before": "c09ff63ee5da19d93e17c66c4e8ed3f1beb0e805c885d6b32d67d878b5291e0d",
+  "rules_sha256_after": "fd7697b869bc4951204a7e90583ab8526ae1d046ba715454048b7cbaedcd3751",
+  "reviewed": [
+    {
+      "id": "BFFIpsRuseMeanC",
+      "field": "text",
+      "before_sha256": "f916218f7c1f6d825b8c12c893b29c021d9a4548770c01fdd6966b8ba2845c01",
+      "after_sha256": "0b0fb42af1390aa552b84a1fba60ec8889d75a935d42f84fe1cd70ccbe449f49",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIpsRuseNiceB",
+      "field": "text",
+      "before_sha256": "7312eb5d0c870d13c336741dab4abdfbabbad8cc4d9140ecb9b910094e9f3749",
+      "after_sha256": "87533ce8629c0abfb67ce5ead3926f2c9e47bdcd115d198e4d13faec6c1d910a",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIpsRuseNiceC",
+      "field": "text",
+      "before_sha256": "1335095e29f20b81e7a037ec850e075890114d4087292c39ffb5e44529eaa744",
+      "after_sha256": "08dd071951802874d6572ba9132668a4d412d222a7d288e0b4334dea3b33c6f4",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIpsRuseNiceE",
+      "field": "text",
+      "before_sha256": "11cd1e31c68700e9e9e862fcc40b92b6a33e98973aeb08911606f4564d1642a8",
+      "after_sha256": "96a80b4b4d3e842d5cc41a27653275b22a63d9fcb59caf93b59fb83ea436e953",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIpsRuseOpenMeanAlmost",
+      "field": "text",
+      "before_sha256": "3f74c3d083d79c7d0ccfd8ec789cbb22f6de51a89086a21a6d7435e66ed51d28",
+      "after_sha256": "dc4b527ca5d51786787541bed2d7e3c86ef97a5ab2aa9a831356b09d42ec88f4",
+      "exact_edits": 1,
+      "removed_variable_references": 3,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIpsRuseOpenNice2",
+      "field": "text",
+      "before_sha256": "142e531ea78f634f8f86ec2b52705a1c661b2bfaef0b9172e5a0fa3905224ab1",
+      "after_sha256": "5d2a48e41d704e329f1b765dd42c4afd81b8223158062a70082583b02f9ed377",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIpsRuseOpenNiceAlmost",
+      "field": "text",
+      "before_sha256": "fecffacf002e320269d955b5d36f21b6cbf140bb8248b5c19ba52410adc64361",
+      "after_sha256": "32b81e599ac5883272b83f3027a5a0717a0bd71473ac664efceb3654a9dc3b3f",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIstationBuyer1",
+      "field": "text",
+      "before_sha256": "85f3f39198bc3fe25ef6124ba38c689a68513a6fda0428f656e52c6e33752361",
+      "after_sha256": "fb398afe4386cd7b564ab8c5691c0feaca32da7887da51e4b561e10505121332",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "BFFIstationConfront1",
+      "field": "text",
+      "before_sha256": "fd87cb0b37b00865ed73e30148ffc3f159a56888ce290f005052441a9e9c9401",
+      "after_sha256": "b5beecceb9aed387c8bb3ef5d462b31e8c499b622f47378a0b1a5cb7f4900798",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEchalVIPdemandBornanew",
+      "field": "text",
+      "before_sha256": "0e92cbee7f196a225b18fd39d8bc43c46f0cf8e014e2a53ab43d1281acd4236e",
+      "after_sha256": "ca7beed3502c349df912a296141eb443a7731307dbe92024a1684fa973bcd4f0",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEchalVIPdemandRecruiter",
+      "field": "text",
+      "before_sha256": "f002011d853d97f761c1ccd3918499962574f22202d40ecbf0ae331895ac6aa5",
+      "after_sha256": "dc051e7a394b1f023b0e0978cdf982412ef0478ed6da93d543b36f0dd31f90a3",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEchalcedonThreatSedgeA",
+      "field": "text",
+      "before_sha256": "ccd485b69088ab63a94cc5574830376eddbbdd86461093b39f7f546edc27af11",
+      "after_sha256": "00078a668136cd5649b8d1dd0d613cbafe5af557ec1e63994a745d3d406b2c40",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEchalcedonThreatSedgeC",
+      "field": "text",
+      "before_sha256": "92182797f5e501c9ccd29375a1b02544a3816025457f207670b07e312b86d8e2",
+      "after_sha256": "6008308013400d2a8d5d1ab310202ab37b4fe9cc5f76fb40c97e413062fe45f0",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEmazAdminAskBugC",
+      "field": "text",
+      "before_sha256": "880b136ceabdf74d972f0efd7a98074fcac58978a5b6bac66e57df0284be530c",
+      "after_sha256": "2cfda000d9b273360ee8559d31624d8e3917ee1691b0d3bcc952477a68567e71",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEmazQMTryYaribayForget",
+      "field": "text",
+      "before_sha256": "dbc871cfb7d7756808dab8668ba41968d48d637a7907be64361433c931d5134b",
+      "after_sha256": "085471382a5fa9ea502bc14365a01b4892cc06222d41620b4cbcec072fac3810",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEmazalotAskAdminBugged",
+      "field": "text",
+      "before_sha256": "4d1198eaf0e984a2fa5b2550c741ac74d3d8a4c790cf01261865b66d0b0351c2",
+      "after_sha256": "fcf3112356307fd0258ad5034747d464f253a044c636509ebc1d20476bb8af8a",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEmazalotAskAdministrator0",
+      "field": "text",
+      "before_sha256": "8c542acc35d794323fd8e9293506a43c0196af02bd66bdadb3ef947bda4b00a3",
+      "after_sha256": "0ed08a5bbb457a78ae0a1a51fa2648debdeba2d1985b91042eba7cbaf8b94352",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEmazalotAskPMYaribayB1",
+      "field": "text",
+      "before_sha256": "2d38731c8ef2884cd7b8f7bddc16cf788ef793bcda3c3a4b5e5055469af3a217",
+      "after_sha256": "be8cf5041f14630a8039d089b3bc2adf2ad8ffeb390ff35e8ac3f49e3e60d367",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEmazalotAskPMresp5Opt",
+      "field": "text",
+      "before_sha256": "51b6eb692f573259b42d1055d9254b0930d0d0c99f0cac0c2ded9338e6929b68",
+      "after_sha256": "5dda1ae4a300293e1b53bae6bda363721fcd8e760d1a79e657ec0df0ef75454f",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEmazalotAskPortmasterPath",
+      "field": "text",
+      "before_sha256": "affcdebaad7eafe8197abfd7cd49930d09228676131336375705796262808b69",
+      "after_sha256": "19882ef25c64aef9481d27a4a0b958b89cd0b405b71fb56847539fce1266cee6",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEpatherFleetAskCottonContact",
+      "field": "text",
+      "before_sha256": "4e6c120cb82465eaa5edc545b813c31991e6484fc5bbd02684dd4100752bc3ad",
+      "after_sha256": "1687dd2defe1a3fccfa00251bb25cdbe520d03629817fb74d1e21b5722dcb9c4",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "LKEpatherFleetNotStopping",
+      "field": "text",
+      "before_sha256": "2384877cca48271df1d555d0cb2299da5a88799247fb977112c107f5a384638f",
+      "after_sha256": "dd40bec3b494390c2a7186b0fa61d66830a1adcb40f40a973794304e1e59d079",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTpatrolWeirdMods1a",
+      "field": "text",
+      "before_sha256": "6896e6848963ffbaef680e9b44c485da63e8d92bf2de51669e13a23bdc6b9e56",
+      "after_sha256": "9e91335c6037e85dafe3f69d78a6859ee302305b09a8e564ad844f5cf35d35a5",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTpatrolWeirdMods3a",
+      "field": "text",
+      "before_sha256": "959a6048925e96e133dd8fe4ec41633b9a2c2e9b41f3799be815e9eb7a055fa9",
+      "after_sha256": "0c7b3cfa5406c517b7a906c346d9de5a30ce9664a96399d428dff865e71c95f6",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTpatrolWeirdMods3c",
+      "field": "text",
+      "before_sha256": "af118290c0cbc78ab13aa1f074863015faee1dcc56cfb43923a8e226714d727e",
+      "after_sha256": "73574f1bbd388838221560e2e7bf5a4948adf55c822ee5bf52f87cb55416132c",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "TTpatrolWeirdMods6",
+      "field": "text",
+      "before_sha256": "1bfd349e69c6155fa9e93da362257cb4cc63cf13b3557976bf1e8b0615fc7c2f",
+      "after_sha256": "12a14c5a0434cde0c26fc608d99671f161f1c296183a6de3cdb79d622c49b0ab",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "buyHTDataConfirmSelAristo",
+      "field": "text",
+      "before_sha256": "91d5bc29f81ef31407171196691e1b4d93d182878c763869794166772cb5d0a6",
+      "after_sha256": "2afbe02781cf76d184d70f24458e54ff08b801a6f7c9a4997ca234b06501e26e",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "buyHTDataConfirmSelSpacer",
+      "field": "text",
+      "before_sha256": "363a0541116b7175755b79727e13815273f664b0a8aafed98c31ef783d95967f",
+      "after_sha256": "722360e352614d5e7f1cf72e788978b11f9f8091d1ed6aad284dc402eebb64a3",
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "buyHTDataNeverMindSel",
+      "field": "text",
+      "before_sha256": "73839f9ca525abfb7ad4c2f5fa425f49b9ede28e2c63d2ec1e92f5aa937a28dd",
+      "after_sha256": "3bc906a135a4f3b64a5c149618cb52984db7f39a60d6d44eee2f2242403aea3a",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "buyHTDataNeverMindSelBusiness",
+      "field": "text",
+      "before_sha256": "d25e851161c4ebd5c75ee9a8a96d925f7811f1a0f454c1b8f1523c935de9e651",
+      "after_sha256": "99276fd1de03ec3eb635c0c4aa142c7085436e79ae1294fe5b608c2dffdc6e43",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "buyHTDataNeverMindSelFaithful",
+      "field": "text",
+      "before_sha256": "d8558b67e117644a58aefb75044aa2a04e31540d1a13543cc8940a93a1d93bd4",
+      "after_sha256": "42d25f060eeeb83e128ea37f51da561762bc158ff5145117aeeebaf02acd176b",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "buyHTDataNeverMindSelSpacer",
+      "field": "text",
+      "before_sha256": "41fe799f581f28174280899166f26648ba6bbfdd773d5890c9418c2e3fb043db",
+      "after_sha256": "5cfa2fa256cf1ead8f7d2099ce3d3fbd2a888ed89a45535eb7a7524404ee9ee5",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "buyHTDataNeverMindSelVillain",
+      "field": "text",
+      "before_sha256": "bee85dc35939ca2cea1f384755f2fc3e8ef921ae756c36bfe907b3eb9ab38103",
+      "after_sha256": "08aeab50217c13e8988399a91e8b5880776f11f12ae1642e6161a1586948d717",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "customsInspectionConvStart",
+      "field": "text",
+      "before_sha256": "d9aaf48e911f9c6a2263f4f586f911508c528ea56832adad9b9c1fd985cab1c4",
+      "after_sha256": "62fb7ff74d94145b77f010303ed1a68e34a1affb2f7333a1887988ed770116be",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "customsInspectionResultToll",
+      "field": "text",
+      "before_sha256": "1fd3fc8e307200854cf7a6280a4a298abb847970dc5a3b1679ac437759cca23e",
+      "after_sha256": "f7a88915bc7a7cbfc9caecacd4968e5d5077aef2fea6b0e3e3d7dba1dc75376b",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCArchonSearchRestEasy",
+      "field": "text",
+      "before_sha256": "4912c3afc13269b932dba0b81ef76058042eff661bc39a9e604cc73bf75e2f59",
+      "after_sha256": "1e82680dd3b3b8a96d9f5deb33ad312d5f3913e083279810f71a598922731170",
+      "exact_edits": 2,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCFikenhildBotherPM4a",
+      "field": "text",
+      "before_sha256": "1d4762a57b371eb9b5dfb35d01a4ec00ccde6c34476dcb84fbb96d3fa93fb909",
+      "after_sha256": "30c80ddbd531cc2ff971fd71db9a826ac13f66506915defb4c3b2a54130b49df",
+      "exact_edits": 2,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCFikenhildBotherQM4a",
+      "field": "text",
+      "before_sha256": "a425542b9b6296255bc373804e23dbdb7ebdbf778475c7ac02e5b57a541bdf0e",
+      "after_sha256": "5df8d00ca1f82ccc50c009ef272c58b3203874d50cf0de53677232b886f6a227",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCFikenhildBotherQM4b",
+      "field": "text",
+      "before_sha256": "d4c113158c5e69ecbca214bb1f5f1ac32b719bee86f83605848d4151c0a703a3",
+      "after_sha256": "b55d83393e9aaf89e925f566f9fd09e09ef5e85a2df20f6ccbc76495793f3d4d",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCFikenhildBotherVIPoptCsel",
+      "field": "text",
+      "before_sha256": "a3b826f37e791d87f8d3328112fd70c680883e8483ff94b8964cfe6d9dacf209",
+      "after_sha256": "e1c4b093c2f816a2f1df71bd662b75e66acead85998767aa6439e5d486a233ae",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCIsirahMercRespondThreats",
+      "field": "text",
+      "before_sha256": "f4e625bfb8763c5d17fbb1f24ef01b3951c442b5204e89c966ffbc6bfe9c5526",
+      "after_sha256": "02a6274295e9c916262dff78287b14c734be7867c477afd92bcf25502a943c30",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCKapteynAdminGreetAgain",
+      "field": "text",
+      "before_sha256": "94b467e0b047af916d350277409390c4cb232b52a50fe4b65c55ceb76d017cd4",
+      "after_sha256": "0ee58af1798b5b357fa8de9764debd4831078336cc8312c858314866a7fc4ea7",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCLaicaileVisitStartAlamangYes",
+      "field": "text",
+      "before_sha256": "a34a262c57d405f88ce9af34b8f3f4e6b2d33aa1c8a27fea4ad0bc154641f2a6",
+      "after_sha256": "d480853adb82154e0f33e89175e19c58471f54e50b5cf5c5510596cdadaa5397",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCLaicailleQuartermasterBother4",
+      "field": "text",
+      "before_sha256": "350bc8b1b8bf4a70119859c660374157c28997fff120c7ba877552b2d349b020",
+      "after_sha256": "ee9edfa709d9372bb68d80959d133fe6ddfe529065491c03b581f1f3e20a0f5a",
+      "exact_edits": 1,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCarchBack",
+      "field": "text",
+      "before_sha256": "5befc66baffa0869a7512cc2441c36126b0354b03ab0e3cef87b0280f55fb1b6",
+      "after_sha256": "06ac23d934d96c2c54db0226912b2e6e207b51430f4901c51a2c873bc5748cc1",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCarchPLexcuseAgain",
+      "field": "text",
+      "before_sha256": "c8491a770849a0bd392f329d529d7b5c7dfcdf50278af7c401d704879a47fafb",
+      "after_sha256": "c789e507e38f5464335cb9ae6d0f31aab75b2c655347117f45b24ce4cc4be579",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "gaFCarchonAskDemOptsCsel",
+      "field": "text",
+      "before_sha256": "ba4b3c68a23ce40286ed01f8ca33090663997cb40dcd646d64e3017be122c0c8",
+      "after_sha256": "a12260e880ce46c380fb3576a7f5d6a3d9c9b86b79ef95c1c711a5d89c9afbb5",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "greetingDefaultInfamousFriendly",
+      "field": "text",
+      "before_sha256": "2b8ab9859325e51b172c18037faba842ad95c2e61d818a294d2a31bcaad6229f",
+      "after_sha256": "d109bae525aa85713f2d6ad6fa000105a04d850f5127b051c4e9fcaaa92838d9",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "greetingTTHostileWeakerDefiant",
+      "field": "text",
+      "before_sha256": "466d908faa5dbc32bb8762ab1ebf54cbe6977348e81f0d1edcf3614ddfe5b39c",
+      "after_sha256": "3a582c47f4619ad0ecf40c5e0657c6acc8bbace852699cc0aed8752426ac611b",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lkeChalcedonLookingBornanewA3b",
+      "field": "text",
+      "before_sha256": "8c64c2e096eacc6c8fe5b633f330eadbd72d40dcd531c2593e81ccf6aff8dbd0",
+      "after_sha256": "80b575d71891d1ab43e6a08f396fc6dab8924c91835f831c17df587219e0875b",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lkeChalcedonLookingRecruiterC",
+      "field": "text",
+      "before_sha256": "c5f0281c5d383cf5e8a27b2de7db37f10ee2cc528783695caac07510d03bd6a7",
+      "after_sha256": "0e70d61abc7ef9d8201b41bd171cf39f753a264735e1d74e3bc6ad1d49ccf426",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lkeChalcedonVIPreason1",
+      "field": "text",
+      "before_sha256": "8068aeb96e7da18950986f7f75d18f438228a67f1e9537b195850c6125f906b8",
+      "after_sha256": "fa44ea342b9cc336d39b3de0cdce9ea6114fcc52491d35c6a41d03092a8bc4f5",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lkeChalcedonVIPreason3",
+      "field": "text",
+      "before_sha256": "89668948852532375a35232bf92e5a242fbcc38ddc7c6023ceaf6b538a3bd85b",
+      "after_sha256": "c30ed290fede83ed806908c43bc32e0664c4af830bf371e9720a6b3f6bfb927a",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lkeChalcedonVIPstartChurch",
+      "field": "text",
+      "before_sha256": "2f92e58782707cabbbd930a804d9ec97347f3a13f57302e78715a3828037c49c",
+      "after_sha256": "2b4dd3cee6bb9f654766a5e11750938850a9ae3147ef49edc6a4fdc889293a23",
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lkePatherFleetDefault",
+      "field": "text",
+      "before_sha256": "ffac832d073aade8aa24a0951c65769c91b02781763aed0479f032e86d359c5e",
+      "after_sha256": "5f74fd68e7f78793b379155a4b9e15e53d0b352175a8ebf4ca87dae9112967c2",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppJangalaProtestInfoHegCom",
+      "field": "text",
+      "before_sha256": "8aff5362c009b752c6e15a11c1423e60d72c405e408a3b88dcb747a569a351c6",
+      "after_sha256": "3eea1bc666211bf6d73e53a26fcb561f680830bf40f00e096cb32c1c4c32b60f",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "lppJangalaProtestMarinesHelp",
+      "field": "text",
+      "before_sha256": "781853e5e7ebf6e79a861657d9960d8228fcb70cad1fa1f7d6d92ae9687ca7fa",
+      "after_sha256": "1c851f0c10ca9c62c0ba7349edc4f74205bd6efad62091e5f4a2924169ac44e5",
+      "exact_edits": 2,
+      "removed_variable_references": 2,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "ttli_greetingLaterMajor",
+      "field": "text",
+      "before_sha256": "2f6afbcf558495cd38276d19ea3c16bfd147e8d4b80b7da866279ab94a8a215c",
+      "after_sha256": "6dc92756b89ef5c64cfadb55a80535e2a3d32e3a05fa33142fac01921de7ed19",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "ttli_greetingSoonMajor",
+      "field": "text",
+      "before_sha256": "5527c6831944500d806eb510557543af08b51e338c6446c04bf1f9a58f21a686",
+      "after_sha256": "8e0e6feabb54fc4955afa91066d6a102ecc0b63b83a5b6c73f78ff97abeec734",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "ttli_notPayingTextMajor",
+      "field": "text",
+      "before_sha256": "4a39e32488601bc08cd01a891c8f345f3026985c6f49241cb0731b10a826eb44",
+      "after_sha256": "206d68b21cad29ad5d793408862388a2aed7185260d8a165317e8bb09bd4332a",
+      "exact_edits": 2,
+      "removed_variable_references": 4,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "ttli_payLoanResp",
+      "field": "text",
+      "before_sha256": "0763e0ecb8a67385757adf8d02bacce08408ad1b634b19acbdb8c0f91e53a8ff",
+      "after_sha256": "5cb0e6d46a5f91a28772825b0289d452086de4f15ec3172cbb907dd24e2e518a",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "id": "ttli_payLoanRespMajor",
+      "field": "text",
+      "before_sha256": "15814e467841950ec57a0a19b3be42f89bdd3ff2c42bd9041a605d907eb97a26",
+      "after_sha256": "fdfe94a170b2d14d54795324584ff42ca6b301b9446cbe2068255cf74dec3025",
+      "exact_edits": 1,
+      "removed_variable_references": 1,
+      "offline_review": "approved_contextual_gender_neutral_rewrite",
+      "windows_gameplay": "not_tested"
+    }
+  ],
+  "note": "These 62 new dialogue rewrites improve player-facing localization without changing the 219 JVM getter callsites; native Windows gameplay/visual testing is still pending."
+}

@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.38):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.39):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.38** (snapshot 1.0.12 + overlaye 1013–1038; OBF 3534 podmiany w 539 klasach bez zmian, API 5254 wiersze/5252 trafienia w 938 klasach; 870 danych identycznych z 1.0.37). Pelne 1.1 pozostaje OTWARTE.
+**Aktualny stan roboczy: 1.0.39** (snapshot 1.0.12 + overlaye 1013–1039; OBF 3534 podmiany/539 klas, API 5252 podmiany/938 klas — bez zmian wzgledem 1.0.38; 870 plikow data, zmieniony tylko rules.csv). Pelna 1.1 nadal OTWARTA.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -125,3 +125,7 @@ W oryginalnym i spatchowanym API sprawdzono szesc miejsc `getHeOrShe` oraz 12 wa
 ## Wersja 1.0.38 — poprawiono caly kontekst spotkania z historykiem
 
 W `HistorianData`, `HistorianBarEvent` i `DonationOffer` dodano **9 nowych** i poprawiono **12 istniejacych** tlumaczen API, bez zmiany metod JVM. Skladaja sie 18 wynikowych zdań dla obu plci, w tym prawidlowa odmiana `mezczyzna/kobieta`, `mu/jej` i `jego/jej`. Zweryfikowano **14** kontekstow wywolan getterow na oryginalnych bibliotekach. W `HistorianData` wspolny `her` = `jej` dziala w obu udokumentowanych funkcjach, ale konflikt `BaseBarEventWithPerson.her` #143 **nadal istnieje**. Gettery: 21/219 ocenionych offline, 198 pozostalo. Historia API: 104 zrecenzowane offline, 3554 do kontroli. Windows: 219 getterow + 81 PF + 91 dialogow nadal bez natywnego testu. [Raport 1.0.38](docs/RELEASE_1038.md), [dowody](docs/PRONOUN_1038_SUMMARY.json), [bramki 1.1](docs/RELEASE_GATES_11.json).
+
+## Wersja 1.0.39 — kolejne 62 kontekstowe polskie dialogi
+
+W `data/campaign/rules.csv` poprawiono 62 wiersze i 68 fragmentow, eliminujac **77** niepotrzebnych wstawek angielskich zaimkow bez zmiany skryptow, opcji, warunkow czy technicznych identyfikatorow. Razem z 1.0.34 i 1.0.35: **153** wiersze sprawdzone offline i **260** usunietych odnosnikow. Wszystkie 153 dialogi oczekuja na test wizualny w grze Windows. `tools/verify_1039.py` odwraca kazda podmiane i udowadnia bajtowa zgodnosc z 1.0.38, a `tools/verify_review_1039.py` chroni wczesniejsze 91 zatwierdzonych zmian. OBF/API JAR bez zmian. Nierozwiazane pozostaja **198** z 219 kontekstow wywolan getterow JVM, wspolne `her` #143 i 3554 starsze tlumaczenia API do recenzji. [Raport 1.0.39](docs/RELEASE_1039.md), [rejestr 62 zmian](docs/RULES_PRONOUN_REVIEW_1039.json).

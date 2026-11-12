@@ -13,11 +13,11 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_1038.py: 14 additional historian/DonationOffer getter callsites contextually reviewed with both genders; other 198 open; BaseBarEventWithPerson her #143 STILL unresolved; 91 rules rows and 81 PF pending Windows",
+      "source": "tools/verify_review_1039.py: 62 additional strictly reviewed pronoun-free rules.csv dialogue rows in 1.0.39; 153 cumulative rows/260 removed placeholder references. JVM getter calls unchanged; shared her conflict remains unresolved.",
       "unresolved_count": 198,
-      "reviewed_rules_rows_offline": 91,
-      "removed_visible_gender_variable_refs": 183,
-      "pending_windows_ui_rules_rows": 91,
+      "reviewed_rules_rows_offline": 153,
+      "removed_visible_gender_variable_refs": 260,
+      "pending_windows_ui_rules_rows": 153,
       "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
       "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
       "total_jvm_getter_calls": 219,
@@ -25,7 +25,8 @@
       "pending_windows_ui_java_getter_calls": 219,
       "shared_her_conflict_open": true,
       "reviewed_subject_getter_calls_offline": 6,
-      "reviewed_historian_getter_calls_offline": 14
+      "reviewed_historian_getter_calls_offline": 14,
+      "latest_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1039.json"
     },
     {
       "id": "draft_semantics",
@@ -41,12 +42,12 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1038.md: 14 gendered historian/DonationOffer getter contexts fixed offline; many dynamic getter callsites and whole-game UI remain to be verified"
+      "source": "docs/RELEASE_1039.md: 62 additional verified dialogue text rewrites; JVM getter problem and full game UI audit still open."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1038.md: original/patched JVM and Win x64 cross-build verified offline; native Windows gameplay and visual inspection not performed"
+      "source": "docs/RELEASE_1039.md: Windows x64 executables cross-built on Linux; native Windows game and all 153 reviewed dialogue scenes not tested."
     }
   ]
 }
