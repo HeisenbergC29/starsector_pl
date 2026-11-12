@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.39):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.40):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.39** (snapshot 1.0.12 + overlaye 1013–1039; OBF 3534 podmiany/539 klas, API 5252 podmiany/938 klas — bez zmian wzgledem 1.0.38; 870 plikow data, zmieniony tylko rules.csv). Pelna 1.1 nadal OTWARTA.
+**Aktualny stan roboczy: 1.0.40** (snapshot 1.0.12 + overlaye 1013–1040; OBF 3534 podmiany w 539 klasach, API 5257 wierszy / 5255 podmian w 938 klasach; 870 danych bez zmian od 1.0.39). Pelna 1.1 nadal OTWARTA.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -129,3 +129,7 @@ W `HistorianData`, `HistorianBarEvent` i `DonationOffer` dodano **9 nowych** i p
 ## Wersja 1.0.39 — kolejne 62 kontekstowe polskie dialogi
 
 W `data/campaign/rules.csv` poprawiono 62 wiersze i 68 fragmentow, eliminujac **77** niepotrzebnych wstawek angielskich zaimkow bez zmiany skryptow, opcji, warunkow czy technicznych identyfikatorow. Razem z 1.0.34 i 1.0.35: **153** wiersze sprawdzone offline i **260** usunietych odnosnikow. Wszystkie 153 dialogi oczekuja na test wizualny w grze Windows. `tools/verify_1039.py` odwraca kazda podmiane i udowadnia bajtowa zgodnosc z 1.0.38, a `tools/verify_review_1039.py` chroni wczesniejsze 91 zatwierdzonych zmian. OBF/API JAR bez zmian. Nierozwiazane pozostaja **198** z 219 kontekstow wywolan getterow JVM, wspolne `her` #143 i 3554 starsze tlumaczenia API do recenzji. [Raport 1.0.39](docs/RELEASE_1039.md), [rejestr 62 zmian](docs/RULES_PRONOUN_REVIEW_1039.json).
+
+## Wydanie 1.0.40 — forma mezczyzna/kobieta w wydarzeniach barowych
+
+**3 nowe podmiany i 18 korekt API**. W osobnej bazowej klasie `BaseGetCommodityBarEvent` przetlumaczono `getManOrWoman()` i dopasowano sasiadujace frazy. Zweryfikowano 12 oryginalnych wywolan w siedmiu klasach i 24 polskie warianty fragmentow obu plci. Odrębny problem wspoldzielonych `her` pod indeksami #188 i #143 pozostaje otwarty; tych stalych nie modyfikowano, a inne zaimki moga nadal pozostawac angielskie w tych samych ekranach. API 5255 podmian, zero zmian wykonywalnego kodu JVM, realny upgrade z API 1.0.38 (jaka ma paczka 1.0.39), restore, idempotencja, uszkodzony JAR odrzucony, go test/vet i Windows x64 crossbuild PASS. 870 plikow danych bez zmian, 7371 poprawnych opcji. Historyczne API: 122/3658 recenzji offline, 3536 do recenzji; gettery: 33/219 ocenione offline, 186 pozostalo; Windows nieprzetestowany. [Raport](docs/RELEASE_1040.md), [bramki 1.1](docs/RELEASE_GATES_11.json).

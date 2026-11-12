@@ -13,8 +13,8 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_review_1039.py: 62 additional strictly reviewed pronoun-free rules.csv dialogue rows in 1.0.39; 153 cumulative rows/260 removed placeholder references. JVM getter calls unchanged; shared her conflict remains unresolved.",
-      "unresolved_count": 198,
+      "source": "tools/verify_1040.py: 12 getManOrWoman callsites in 7 BaseGetCommodity subclasses checked in original and patched JVM; 24 gendered fragments. Other getters including shared her remain unresolved. 153 rules.csv rows from prior releases remain offline-only.",
+      "unresolved_count": 186,
       "reviewed_rules_rows_offline": 153,
       "removed_visible_gender_variable_refs": 260,
       "pending_windows_ui_rules_rows": 153,
@@ -26,28 +26,29 @@
       "shared_her_conflict_open": true,
       "reviewed_subject_getter_calls_offline": 6,
       "reviewed_historian_getter_calls_offline": 14,
-      "latest_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1039.json"
+      "latest_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1039.json",
+      "reviewed_base_get_commodity_man_or_woman_calls_offline": 12
     },
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1038.json: 83 prior immutable reviews +21 visible historian/DonationOffer DRAFT text fragments checked against original/patched JVM. 3658 historical DRAFT/OPTIONAL still installed by patcher",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1038.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1040.json: 104 old immutable reviews plus 18 reviewed contextual texts, all still pending Windows; DRAFT flags do not prevent actual installation.",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1040.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 104,
-      "unresolved_count": 3554,
-      "gameplay_unverified_count": 3693,
-      "new_literal_count": 35
+      "reviewed_offline": 122,
+      "unresolved_count": 3536,
+      "gameplay_unverified_count": 3696,
+      "new_literal_count": 38
     },
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1039.md: 62 additional verified dialogue text rewrites; JVM getter problem and full game UI audit still open."
+      "source": "docs/RELEASE_1040.md: 12 BaseGetCommodity gender terms localized; other pronouns, mission text and UI audit open."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1039.md: Windows x64 executables cross-built on Linux; native Windows game and all 153 reviewed dialogue scenes not tested."
+      "source": "docs/RELEASE_1040.md: x64 crossbuild only, zero native Windows gameplay tests. 12 new gendered contexts also need UI confirmation."
     }
   ]
 }
