@@ -24,10 +24,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 343,
-      "unresolved_count": 3315,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1054.json",
-      "source": "docs/API_SEMANTIC_REVIEW_1054.json: previous 324 reviewed, 19 newly checked original JVM UI strings (including 6 corrected DRAFT); new 7 class scoped strings are not historical DRAFT; 3315 awaiting review"
+      "reviewed_offline": 391,
+      "unresolved_count": 3267,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1055.json",
+      "source": "1.0.55: 343 preceding immutable historical API reviews plus 48 additional class-scoped reviewed original-JVM UI fragments (14 BlockadeFGI, 10 KnightsOfLuddTakeoverExpedition, 24 GenericRaidFGI); 3267 remain, not native Windows-tested."
     },
     {
       "id": "rules_possessives",
@@ -124,15 +124,26 @@
       "pending_windows_ui": 13
     },
     {
+      "id": "api_blockade_duration_1055",
+      "status": "in_progress",
+      "source": "tools/apply_1055.py and tools/audit_jvm_1055.py: 8 exact new shared duration/heading fragments in BlockadeFGI and KnightsOfLuddTakeoverExpedition plus 2 corrected GenericRaidFGI sentence fragments; original JVM ldc proof, 3 class replacements, no method bytecode change",
+      "added_api_rows": 8,
+      "corrected_api_rows": 2,
+      "changed_classes": 3,
+      "pending_windows_ui": 10,
+      "reviewed_historical_ui_fragments": 48,
+      "native_windows_gameplay_tested": false
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.54: neutral dynamic simulator/Codex UI plus six numerical descriptions, 343/3658 historical API reviewed offline, 3315 remain, 2275 raw pronoun tokens in 1139 rules records not yet fully assessed; full 1.1 not verified"
+      "source": "1.0.55: seven plus one translated headers/duration fragments and 2 repaired GenericRaid UI phrases, 48 historical UI texts newly reviewed; 3267 historical DRAFT texts and 2275 raw rules pronoun tokens still need review; 1.1 incomplete."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.54: 13 modified/new API strings in simulator/Codex, fleet calculations, planet search, blockade and faction activities; 19 historical reviews; plus older 253 dialogue rows, 81 story contexts and 219 pronoun getter calls require native Windows UI verification"
+      "source": "1.0.55: both blockade duration branches, 2 Assessment headings and repaired no-target colony prose, along with previous 253 rules rows, 81 story contexts and 219 getter calls require actual Windows UI verification."
     }
   ]
 }

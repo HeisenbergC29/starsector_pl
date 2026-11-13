@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.54):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.55):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.54** (snapshot 1.0.12 + overlaye 1013–1054; OBF 3537 podmian w 539 klasach bez zmian, API 5290 wierszy mapy/5288 skutecznych podmian w 938 klasach; 13 poprawek i dodanych fragmentow w 6 klasach; 870 data bez zmian). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.55** (snapshot 1.0.12 + overlaye 1013–1055; OBF 3537 podmian w 539 klasach bez zmian, API 5298 wierszy mapy/5296 realnych podmian w 938 klasach; 8 nowych i 2 poprawione fragmenty w 3 klasach JVM; 870 data bez zmian). Cel 1.1 nadal OTWARTY.
 
 ## Etap 1.0.45
 
@@ -46,9 +46,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport i reprodukcja](docs/RELEASE_1053.md): audyt wszystkich 5283 wpisow mapy API ujawnil tylko dwa pseudo-wpisy w zlej warstwie, ktorych tlumaczenia juz dzialaja z mod/data i OBF. **Realnie nieprzetlumaczone** `ship/ships/ ships` znaleziono w `FleetMemberRecoveryDialog` w oryginalnym OBF; nowe 3 mapowania daja poprawne liczebniki `okr.` dla 1/2/5. OBF 3537 trafien, 539 klas; API map 5283, 5281 trafien bez zmian. [Oryginalny JAR oraz test aktualizacji](docs/JVM_OBF_RECOVERY_1053.json): fresh=upgrade PASS, 1 zmieniona klasa OBF oraz jej digest w manifeście, 0 nowych zmian wykonywalnego kodu. Wszystkie 870 danych identyczne; 1.1 i native gameplay Windows nadal niegotowe.
 
-## Najnowszy etap 1.0.54
+## Etap 1.0.54
 
 [Raport 1.0.54](docs/RELEASE_1054.md): polskie powiadomienia symulatora i kodeksu nie doklejaja juz angielskich `faction(s)/variant(s)/entry/entries` po dynamicznej liczbie. 7 nowych dokladnych mapowan i 6 poprawionych istniejacych API; wliczajac PhaseField, filtr planet, blokade kolonii i aktywnosc Ligi Persea. Wszystkie 13 `CONSTANT_String` i uzycia `ldc` zweryfikowano na oryginalnym JVM. [Audyt binarny](docs/JVM_AUDIT_1054.json): tylko 6 klas zmienionych wzgledem 1.0.53, zadnych nowych zmian wykonywalnego kodu. [Prawdziwy upgrade JAR](docs/UPGRADE_1054.json): fresh=upgrade, no-op, tamper refusal i restore PASS. **343/3658** historycznych API zweryfikowanych offline, **3315** pozostalych; 186 innych getterow i natywny gameplay Windows nadal otwarte.
+
+## Najnowszy etap 1.0.55
+
+[Raport 1.0.55](docs/RELEASE_1055.md): dwie klasy blokad mialy nieprzetlumaczone jednostki `day/days`, dodatkowe `more ` i naglowki `Assessment` mimo polskich fraz otaczajacych. Dodano osiem class-scoped literalow, poprawiono dwa skladane fragmenty `GenericRaidFGI` o braku celow. 20 testow liczb i stanow blokady, 4 przykladowe nazwy operacji, 7 testow mapy, 10 bramek 1.1 PASS. [JVM original proof](docs/JVM_AUDIT_1055.json) i [realny JAR upgrade](docs/UPGRADE_1055.json): 3 zmienione klasy, zero nowych metodowych instrukcji, swieza instalacja=upgrade 1.0.54->1.0.55. Historyczna recenzja **391/3658**, **3267** nadal otwartych. Nie przetestowano wizualnie w dzialajacej grze Windows; 1.1 nieukonczona.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

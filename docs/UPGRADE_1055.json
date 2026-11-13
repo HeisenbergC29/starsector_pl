@@ -1,0 +1,13 @@
+{
+  "release": "1.0.55",
+  "api_new_sha256": "57004e66715ce8ccaec236a85d73961290cb4ebbbdc0282abd12a31c9b0c6be8",
+  "obf_unchanged_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "fresh_and_upgrade_1054_to_1055_identical": true,
+  "both_patchers_reapplication_idempotent": true,
+  "corrupt_zip_header_rejected_without_overwrite": true,
+  "both_proprietary_originals_restored_byte_for_byte": true,
+  "java_classes_changed_vs_1054": 3,
+  "new_executable_bytecode_edits": 0,
+  "original_jvm_reviewed_historical_fragments": 48,
+  "native_windows_gameplay_tested": false
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "target_version": "1.1",
+  "gates": [
+    {
+      "id": "story_contexts",
+      "status": "in_progress",
+      "pending_windows_ui": 81
+    },
+    {
+      "id": "pronoun_contexts",
+      "status": "blocked",
+      "unresolved_count": 186,
+      "total_jvm_getter_calls": 219,
+      "shared_her_conflict_open": false,
+      "reviewed_rules_rows_offline": 253,
+      "removed_visible_gender_variable_refs": 420,
+      "source": "1.0.52 original-JVM checked 11 direct inherited BaseBarEventWithPerson getter callsites (2 dative mu/jej, 9 possessive jego/jej) and 2 gender-label sites; shared her #143 yields same Polish jej in both documented usages. Broader unreviewed JVM count conservatively still 186 until full corpus re-accounting; no native Windows test",
+      "base_bar_shared_her_resolved_offline_1052": true,
+      "shared_her_pending_native_windows_validation": true,
+      "base_bar_gender_getter_callsites_reviewed_1052": 13
+    },
+    {
+      "id": "draft_semantics",
+      "status": "blocked",
+      "total_draft_rows": 3658,
+      "reviewed_offline": 343,
+      "unresolved_count": 3315,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1054.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1054.json: previous 324 reviewed, 19 newly checked original JVM UI strings (including 6 corrected DRAFT); new 7 class scoped strings are not historical DRAFT; 3315 awaiting review"
+    },
+    {
+      "id": "rules_possessives",
+      "status": "in_progress"
+    },
+    {
+      "id": "rules_gender_neutral_1044",
+      "status": "in_progress"
+    },
+    {
+      "id": "rules_gender_neutral_1045",
+      "status": "in_progress"
+    },
+    {
+      "id": "numeric_quantities",
+      "status": "in_progress"
+    },
+    {
+      "id": "punctuation_regression",
+      "status": "in_progress"
+    },
+    {
+      "id": "api_contexts_1046",
+      "status": "in_progress",
+      "reviewed_offline": 16
+    },
+    {
+      "id": "api_numeric_1047",
+      "status": "in_progress",
+      "corrected_api_rows": 14
+    },
+    {
+      "id": "api_numeric_1048",
+      "status": "in_progress",
+      "corrected_api_rows": 29
+    },
+    {
+      "id": "api_grammar_1049",
+      "status": "in_progress",
+      "corrected_api_rows": 13,
+      "added_api_rows": 1,
+      "changed_classes": 7,
+      "pending_windows_ui": 14
+    },
+    {
+      "id": "api_time_fragments_1050",
+      "status": "in_progress",
+      "source": "BaseIntelPlugin",
+      "added_api_rows": 8,
+      "changed_classes": 1,
+      "original_jvm_ldc_uses": 17,
+      "pending_windows_ui": 8
+    },
+    {
+      "id": "personality_ui_1051",
+      "status": "in_progress",
+      "source": "2 exact class-scoped text-only UI and two ldc operand overrides",
+      "corrected_ui_rows": 2,
+      "changed_classes": 1,
+      "jvm_ldc_operand_changes": 2,
+      "pending_windows_ui": 2,
+      "technical_identity_constants_preserved": true
+    },
+    {
+      "id": "bar_shared_her_1052",
+      "status": "in_progress",
+      "source": "tools/apply_1052.py, tools/private_jvm_1052.py: 14 new exact class-scoped literal maps, 10 corrected UI fragments in 3 classes, original #143 her shared safely rendered jej in dative and possessive after auditing 11 getHim/getHis callsites; ZERO new bytecode edits; game Windows untested",
+      "new_api_rows": 14,
+      "corrected_existing_api_rows": 10,
+      "modified_java_classes": 3,
+      "shared_her_resolved_offline": true,
+      "new_executable_java_bytecode_changes": 0,
+      "reviewed_gender_getter_callsites": 13,
+      "pending_windows_ui": 24
+    },
+    {
+      "id": "obf_recovery_1053",
+      "status": "in_progress",
+      "source": "tools/apply_1053.py, verify_1053.py, private_integration_1053.py: exactly 3 missing visible recovery dialog ship/ships suffixes, 1 OBF class, original ldc_w callsites confirmed, original-JAR upgrade tested, native Windows UI pending",
+      "new_obf_entries": 3,
+      "total_obf_entries": 3537,
+      "changed_classes": 1,
+      "pending_windows_ui": 3,
+      "executable_java_bytecode_changed": false,
+      "api_map_changed": false
+    },
+    {
+      "id": "api_dynamic_fragments_1054",
+      "status": "in_progress",
+      "source": "tools/apply_1054.py, verify_1054.py; seven original class-scoped strings added, six numeric/assembled UI texts corrected in six API JVM classes; no executable code changes; actual original JAR upgrade checked offline",
+      "new_api_rows": 7,
+      "corrected_api_rows": 6,
+      "changed_classes": 6,
+      "pending_windows_ui": 13
+    },
+    {
+      "id": "text_completeness",
+      "status": "in_progress",
+      "source": "1.0.54: neutral dynamic simulator/Codex UI plus six numerical descriptions, 343/3658 historical API reviewed offline, 3315 remain, 2275 raw pronoun tokens in 1139 rules records not yet fully assessed; full 1.1 not verified"
+    },
+    {
+      "id": "windows_runtime",
+      "status": "blocked",
+      "native_gameplay_tested": false,
+      "source": "1.0.54: 13 modified/new API strings in simulator/Codex, fleet calculations, planet search, blockade and faction activities; 19 historical reviews; plus older 253 dialogue rows, 81 story contexts and 219 pronoun getter calls require native Windows UI verification"
+    }
+  ]
+}

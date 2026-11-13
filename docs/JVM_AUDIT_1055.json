@@ -1,0 +1,566 @@
+{
+  "release": "1.0.55",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "previous_api_sha256": "b5c256c78f92fb174456cb297660945d81690c33d21d513627b0547ed783eb14",
+  "current_api_sha256": "57004e66715ce8ccaec236a85d73961290cb4ebbbdc0282abd12a31c9b0c6be8",
+  "changed_java_classes": 3,
+  "new_jvm_executable_bytecode_changes": 0,
+  "reviewed_historical_source_literals": 48,
+  "new_literal_and_corrected_rows": 10,
+  "exact_original_constant_and_ldc_evidence": [
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "Assessment",
+      "polish": "Ocena",
+      "constant_index": 311,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "day",
+      "polish": "dzien",
+      "constant_index": 333,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "days",
+      "polish": "dni",
+      "constant_index": 335,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "more ",
+      "polish": "",
+      "constant_index": 336,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " to target in the system.",
+      "polish": "\".",
+      "constant_index": 690,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "There are no colonies for the ",
+      "polish": "W tym ukladzie nie ma kolonii dostepnych jako cel operacji: \"",
+      "constant_index": 688,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": "Assessment",
+      "polish": "Ocena",
+      "constant_index": 601,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": "day",
+      "polish": "dzien",
+      "constant_index": 623,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": "days",
+      "polish": "dni",
+      "constant_index": 625,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": "more ",
+      "polish": "",
+      "constant_index": 627,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "VERIFIED_ORIGINAL_JVM_UI_COMPOSITION_1055_OFFLINE_PENDING_WINDOWS"
+    }
+  ],
+  "previous_draft_reviews_original_ldc_evidence": [
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "actively hostile",
+      "polish": "otwarcie wrogie",
+      "constant_index": 386,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "attempt to maintain control over the system's jump-points.",
+      "polish": "probuja utrzymac kontrole nad punktami skoku ukladu.",
+      "constant_index": 374,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "blockading forces",
+      "polish": "sily blokujace",
+      "constant_index": 35,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "not nominally hostile",
+      "polish": "formalnie niewrogie",
+      "constant_index": 376,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "happens to be near a jump-point, however, the situation is apt to get hot very quickly.",
+      "polish": "znajduje sie jednak w poblizu punktu skoku, sytuacja moze bardzo szybko stac sie goraca.",
+      "constant_index": 384,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": ", causing a %s accessibility penalty ",
+      "polish": ", powodujac kare %s do dostepnosci ",
+      "constant_index": 342,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": " are actively hostile, but will not directly attack colonies ",
+      "polish": " sa otwarcie wrogie, ale nie beda bezposrednio atakowac kolonii ",
+      "constant_index": 378,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": " are not nominally hostile, but will harass shipping and ",
+      "polish": " nie sa formalnie wrogie, ale beda nekac transport i ",
+      "constant_index": 372,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "attempt to maintain control over the system's jump-points. If a defended planet ",
+      "polish": "probuja przejac kontrole nad punktami skoku w ukladzie. Jesli broniona planeta ",
+      "constant_index": 382,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": "in the system and will instead ",
+      "polish": "w ukladzie i zamiast tego ",
+      "constant_index": 380,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": " is likely to be fully effective",
+      "polish": " najpewniej bedzie w pelni skuteczna",
+      "constant_index": 392,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": " is likely to only be partially effective",
+      "polish": " prawdopodobnie bedzie tylko czesciowo skuteczna",
+      "constant_index": 390,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": " is unlikely to be effective",
+      "polish": " raczej nie bedzie skuteczna",
+      "constant_index": 388,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "english": " will last for approximately %s ",
+      "polish": " potrwa okolo %s ",
+      "constant_index": 340,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "Conducting operations in the ",
+      "polish": "Prowadzi dzialania w ",
+      "constant_index": 760,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "Disrupting the military facilities ",
+      "polish": "Zakloca dzialanie instalacji wojskowych ",
+      "constant_index": 789,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "Operating in the ",
+      "polish": "Operuje w ",
+      "constant_index": 564,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "Returning to ",
+      "polish": "Powraca do ",
+      "constant_index": 811,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "Targeting the ",
+      "polish": "Cel: ",
+      "constant_index": 456,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "There are no colonies for the ",
+      "polish": "W tym ukladzie nie ma kolonii dostepnych jako cel operacji: \"",
+      "constant_index": 688,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "Traveling from ",
+      "polish": "Podrozuje z ",
+      "constant_index": 805,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "Traveling to the ",
+      "polish": "Podrozuje do ",
+      "constant_index": 803,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " are withdrawing",
+      "polish": " wycofuja sie",
+      "constant_index": 619,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " are withdrawing.",
+      "polish": " wycofuja sie.",
+      "constant_index": 766,
+      "original_ldc_uses": 3,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " have been defeated and any ",
+      "polish": " zostaly pokonane, a pozostale ",
+      "constant_index": 768,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " have been defeated and scatter",
+      "polish": " zostaly pokonane i rozproszone",
+      "constant_index": 585,
+      "original_ldc_uses": 3,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " have failed to achieve their objective",
+      "polish": " nie osiagnely celu",
+      "constant_index": 580,
+      "original_ldc_uses": 3,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " is in the planning stages on",
+      "polish": " jest na etapie planowania na",
+      "constant_index": 778,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " is likely to find success",
+      "polish": " ma duze szanse powodzenia",
+      "constant_index": 701,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " is uncertain",
+      "polish": " wynik jest niepewny",
+      "constant_index": 699,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " is unlikely to find success",
+      "polish": " ma niewielkie szanse powodzenia",
+      "constant_index": 695,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "returning to ",
+      "polish": "powraca do ",
+      "constant_index": 164,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "should be safe from the ",
+      "polish": "powinny byc bezpieczne przed ",
+      "constant_index": 707,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": "the outcome of the ",
+      "polish": "wynik ",
+      "constant_index": 697,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " to target in the system.",
+      "polish": "\".",
+      "constant_index": 690,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " was aborted in the planning stages",
+      "polish": " zostal odwolany na etapie planowania",
+      "constant_index": 608,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " was successful and the ",
+      "polish": " zakonczyl sie powodzeniem, a ",
+      "constant_index": 772,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "english": " will abort the ",
+      "polish": " spowoduje przerwanie ",
+      "constant_index": 797,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": " %s. If stability reaches zero, %s will permanently fall under %s control.",
+      "polish": " %s. Jesli stabilnosc spadnie do zera, %s trwale przejdzie pod kontrole %s.",
+      "constant_index": 636,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": ", causing a progressive loss of stability ",
+      "polish": ", powodujac stopniowy spadek stabilnosci ",
+      "constant_index": 631,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": "Conducting operations in the ",
+      "polish": "Prowadzi dzialania w ",
+      "constant_index": 683,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": "The operation will last for approximately %s ",
+      "polish": "Operacja potrwa okolo %s ",
+      "constant_index": 629,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": " are actively hostile, and will engage any orbital defenses, and ",
+      "polish": " sa jawnie wrogie i zaatakuja wszelkie systemy obrony orbitalnej oraz ",
+      "constant_index": 656,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": " are not nominally hostile, but will harass shipping and ",
+      "polish": " nie sa formalnie wrogie, lecz beda nekac transport i ",
+      "constant_index": 648,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": "attempt to maintain control of the volume around the colony and undermine your ",
+      "polish": "probuja utrzymac kontrole nad przestrzenia wokol kolonii i podwazac twoja ",
+      "constant_index": 650,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": " conduct planetside operations to undermine your authority.",
+      "polish": " prowadza operacje naziemne majace podwazyc twoja wladze.",
+      "constant_index": 658,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": " stability reduced by %s",
+      "polish": " stabilnosc zmniejszona o %s",
+      "constant_index": 454,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "english": " stability: %s per month",
+      "polish": " stabilnosc: %s miesiecznie",
+      "constant_index": 695,
+      "original_ldc_uses": 1,
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    }
+  ],
+  "changed_class_summaries": [
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "previous_class_sha256": "5b89454d76cd2d5e98f56fc9c0bcddcddcdbca3d9e53c137e46e9375dd38c95f",
+      "new_class_sha256": "251d2b6b67918bdc4fdf71770afb3d80cd075b8e0ed7c11aa5f9f07eed931f80",
+      "new_literal_changes": 4,
+      "historical_reviewed_count": 14,
+      "all_executable_instructions_unchanged": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.GenericRaidFGI",
+      "original_class_sha256": "80834d5624334877de16935c8de01151580a0245cf430a3e244d14c32d01db9d",
+      "previous_class_sha256": "11c781bcc3f4260a0c2365c5e5ede66f71f96922181adfec6fd71b3c84402f6e",
+      "new_class_sha256": "7039d617a0a61ae84735eb96184dd71b60eabccf4aecc8ded90e38adf6df77a3",
+      "new_literal_changes": 2,
+      "historical_reviewed_count": 24,
+      "all_executable_instructions_unchanged": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.KnightsOfLuddTakeoverExpedition",
+      "original_class_sha256": "09b85eacb6aba91c0fbda5d377cae8ec0a1fbde032078513a2bf8d5237ea503f",
+      "previous_class_sha256": "d937a6541747e47a1f0f9ffe3ba5af5a92fa289bb2e39a44f27dae78fe76d993",
+      "new_class_sha256": "bf2c62d39fd41f32577060c3f64b70d0b75b4c863f0f635e13513689ca1b1ecb",
+      "new_literal_changes": 4,
+      "historical_reviewed_count": 10,
+      "all_executable_instructions_unchanged": true
+    }
+  ],
+  "native_windows_gameplay_tested": false
+}
