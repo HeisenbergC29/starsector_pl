@@ -5,11 +5,17 @@ import argparse,hashlib,json,zipfile
 from pathlib import Path
 from verify_1055 import check
 sha=lambda b:hashlib.sha256(b).hexdigest()
+def preflight(root):
+ """Assert this packager's output schema and its matching map before building EXEs."""
+ validation=check(root)
+ if (validation['rows_api'],validation['effective_api_literals'])!=(5298,5296):
+  raise ValueError('Wrong v1.0.55 map/package validator contract')
+ return validation
+
 def package(root,out):
  root=Path(root);out=Path(out)
  if out.exists():raise FileExistsError(out)
- validation=check(root)
- if validation['api_map_entries']!=5298:raise ValueError('Wrong release map')
+ validation=preflight(root)
  ins=(root/'Starsector_PL_Instalator.exe').read_bytes()
  if not ins.startswith(b'MZ') or len(ins)<30_000_000:raise ValueError('Invalid Windows PE installer')
  for binary,embedded in [('obf_windows.exe','obf.bin'),('api_windows.exe','api.bin')]:

@@ -335,6 +335,7 @@ jobs:
         run: |
           python3 tools/verify_1055.py worktree
           python3 tools/test_1055.py worktree
+          python3 tools/test_package_contract_1055.py worktree
       - name: Verify append-only 391 API reviews and reject fake 1.1 release gates
         run: |
           python3 tools/verify_review_1055.py worktree --previous docs/API_SEMANTIC_REVIEW_1054.json --ledger docs/API_SEMANTIC_REVIEW_1055.json
