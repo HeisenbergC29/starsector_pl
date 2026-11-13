@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.47. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.48. Cel 1.1 nadal otwarty.**
+
+**1.0.48 (2026-11-13):** 29 precyzyjnych korekt fraz z dynamicznymi liczbami w API (19 klas, 5260 wierszy mapy bez zmian klas/kluczy/statusow; OBF i 870 data bez zmian). Nowy SHA mapy `2f85b133be0d3087321d16dd71080f5214cf9e2932cc60381ecbab521b273289`. Oryginalny JVM: 29/29 literalow, 19 klas, shared 'her' nadal kolizja. 87 symulacji liczb 1/2/5 i 8 celowych regresji: PASS. 23 nowe recenzje historycznych DRAFT, 3 istniejace recenzje zaktualizowane i 3 nie-DRAFT skorygowane; 203/3658, do zrecenzowania 3455. **Prawdziwy upgrade 1.0.47->1.0.48** na komercyjnych oryginalnych JAR PASS (19 klas miedzy wydaniami, zero zmian metod JVM, swieza instalacja=upgrade, no-op, ZIP tamper refused, restore). Wynik API SHA `65c308e455cdc2edadebab4af2a7ec1b6081c774826dd5e5074b7d5b6d12d1d7`. 186 getterow nierozpatrzonych, natywna gra Windows NIE testowana. Raport `docs/RELEASE_1048.md`.
+
+
 
 **1.0.47 (2026-11-13):** 14 korekt API w 11 klasach kolonialnego przemyslu: liczebnikowo niepoprawne "%s jednostke" -> "%s jedn.", 42 warianty 1/2/5 PASS, dziewiec testow negatywnych PASS. Mapa 5260 wierszy, SHA `9a36861c53e6508f8082a1a2b845e36e6c5d76f44dd1918b3b8e151ae06eaebd`, 870 danych nietknietych, OBF bez zmian. Audyt oryginalnego JVM: 14 naprawionych literalow, 26 opcji bojowych w 32 callsite addOption; review historycznych API 142->180, pozostalo 3478/3658. Shared 'her' #143 w BaseBarEventWithPerson nierozwiazany. **Realny upgrade prywatnego API JAR 1.0.46 -> 1.0.47 PASS:** 11 klas miedzy wersjami, zero zmian wykonywalnego bajtkodu, wynik identyczny jak fresh, noop/restore/odmowa ZIP tamper PASS. Nowy API JAR SHA `98cc36aec4aa87e37717082469704f973ad7a91f51b7d0222a10a18770e2a277`. Natywna gra Windows NIE testowana. Dokumenty: `docs/RELEASE_1047.md`, `docs/UPGRADE_1047.json`.
 

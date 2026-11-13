@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.47):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.48):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.47** (snapshot 1.0.12 + overlaye 1013–1047; OBF 3534 podmiany / 539 klas nietkniete, API 5260 map/5258 podmian w 938 klasach, 14 korekt numerycznych; 870 plikow data identyczne jak 1.0.46). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.48** (snapshot 1.0.12 + overlaye 1013–1048; OBF 3534 podmiany/539 klas bez zmian, API 5260 wierszy mapy/5258 faktycznych podmian w 938 klasach; 29 korekt dynamicznych liczb w 19 klasach; wszystkie 870 data bez zmian). Cel 1.1 OTWARTY.
 
 ## Etap 1.0.45
 
@@ -18,9 +18,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport i reprodukcja](docs/RELEASE_1046.md): 13 poprawek i 3 nowe literalne tłumaczenia API w 8 klasach, naprawa skladanych tekstow rozliczenia kolonii, dynamiczna odmiana czasu i kredytow. 20 nowych semantycznych recenzji API, lacznie 142/3658 offline; 3516 pozostaje otwarte. 870 danych gry nietknietych. Brak natywnego testu Windows, wersja 1.1 nadal NIE jest gotowa.
 
-## Najnowszy etap 1.0.47
+## Etap 1.0.47
 
 [Raport](docs/RELEASE_1047.md): 14 poprawek tekstow jednostek w interfejsie gospodarki kolonii (11 klas API), bez zmian kodu Java i 870 plikow data. [Audyt JVM](docs/JVM_ORIGINAL_1047_SUMMARY.json): 26 etykiet opcji interfejsu walki z 32 wywolaniami addOption, problem wspolnej stalej 'her' #143 nadal OTWARTY. [Test aktualizacji](docs/UPGRADE_1047.json): 1.0.46 -> 1.0.47, fresh=upgrade, idempotencja, odmowa uszkodzonego ZIP i restore PASS. 38 nowych historycznych recenzji, 180/3658 API offline, 3478 pozostaje. Natywny gameplay Windows nieprzetestowany.
+
+## Najnowszy etap 1.0.48
+
+[Raport i reprodukcja](docs/RELEASE_1048.md): 29 korekt gramatycznych dynamicznych liczb w tekstach Java API, 19 klas, brak zmian instrukcji metod i danych gry. Rzeczywisty [upgrade z 1.0.47](docs/UPGRADE_1048.json) na oryginalnych JAR — PASS. [Dowody original JVM](docs/JVM_ORIGINAL_1048_SUMMARY.json): wszystkie 29 literalow. Historyczne API: 23 NOWE recenzje, stan 203/3658, pozostalo 3455 (3 juz recenzowane zaktualizowane, 3 nie-DRAFT nie liczone ponownie). Wspolny literal 'her' i 186 getterow nadal OTWARTE; natywny test gry Windows NIE zostal wykonany.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

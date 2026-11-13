@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "version": "1.0.48",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "original_jvm_string_literals_verified": 29,
+  "original_classes": 19,
+  "review_sha256": "bbfacbbccef672eeb58b616cd854bfb9e661ced532983fd1162d4ff03d11c878",
+  "details": [
+    {
+      "class": "com.fs.starfarer.api.characters.SkillsChangeOfficerEffect$2",
+      "english_sha256": "2a3380c29fed90b9bba1d632fbdfc43d14c2fc875f6f9e3cf556f30b69680567",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "english_sha256": "dce31a4ef782be92c73a8a8b2b4fe661504340e7060e8c572f5831dfc8385d5b",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "english_sha256": "80ab136981b255cafc81d3541e31e186d3fb52d4af179f38abc3ac31e2582ca3",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "english_sha256": "0875393c299728eb8a9a23e9c5d4d0c3d4f75e51fb4b9419c6fb4373cf312576",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.StabilizeMarketPluginImpl",
+      "english_sha256": "5372dfee8063df698f7c710e465d24685fbe29213ad8b69de5c7f46fc911fd5c",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "english_sha256": "f4e91917156571ab65b55d3bc4e3b4df8fed07fffcfec2a40b947ddd7550c5a8",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "english_sha256": "f34194bf2ddb6f7071d2a9a310e3dedac4b4c20f37dd7f6b400e0b8e12e58612",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "english_sha256": "e3b7a1f48fb8840eed5c65db8c9d315fe0c1506b587b02223154b3d3aec9d22f",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "english_sha256": "8b2d32fc90b9cec5ed72d22917494d6fab7112e116db71931be3d4e378cb4fd1",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "english_sha256": "62d232ffff3f1e3437527f1e991be36917d04fece9eb0f6db0e47f660fba71f3",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "english_sha256": "123da8d9abacf7a72e28daee788c13de5e36e19ec394ab0fece4bef3816a2f10",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.RecentUnrest",
+      "english_sha256": "c1fe1180401c1e122b0d903f0bede6f77b4670da09d1a8c6daa308cf09f19c9a",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.graid.DisruptIndustryRaidObjectivePluginImpl",
+      "english_sha256": "980e51a29763498935f7ffac9c1beaa694ac50a5f130a06c44e5af629627c7ce",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.BaseGetCommodityBarEvent",
+      "english_sha256": "24744fbf00513c2e9c8a432856aa7d88e841d6d91640902f6064b7b5a2a58d9f",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "english_sha256": "d5788ed69f119a7c3c1a1565ea92f3f5ba3784718dff325ee061fd1b44e439a0",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "english_sha256": "efb93e8457e08145e0c4ce61dc231ff64dbd85d9dae2a822825b4e256522b91e",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "english_sha256": "e1ecd68a8f1e1a68247b10651707433a55b949bff4acbce827f7bf97944c7a98",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "english_sha256": "817594d6332e9aa5a6784aaf6b5773ebb56e2d7127247d498a23d6be0ff44042",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachMajorLoanBarEvent",
+      "english_sha256": "0665b41461a1eea8b9a161c3de2f7225cba7d7c21155e8fca61d4af9d6d58c8b",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.punitive.PEActionStage",
+      "english_sha256": "e7127f39f38af202b27c253606474e15bbb84e57c5912406368c8ae6baf7fa8e",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.punitive.PunitiveExpeditionIntel",
+      "english_sha256": "8470f2a5a5743ac920cf86333ff8e48ff41974add4cb6a9da4e2274df4f0b53e",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.missions.hub.BaseHubMission",
+      "english_sha256": "5e408709541fb7537513230da3d46ddd16a6110f244a4d54cb93662e353ad658",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.rulecmd.ShowRemainingCapacity",
+      "english_sha256": "24744fbf00513c2e9c8a432856aa7d88e841d6d91640902f6064b7b5a2a58d9f",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_sha256": "379e1888d2179050c2ba2e1c17cb14eaab5f72ac1f1ca682391d75444aef7a14",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_sha256": "db31de85d57596dfa7101bda71b42e0fd9ba49446874b8a696fe9c389bfd8e52",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.tutorial.TutorialMissionIntel",
+      "english_sha256": "be538709197f8b2064568ca286f2dc0b4ad65557917136f26790e74c6f3602ff",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.combat.dweller.ShroudedThunderheadHullmod",
+      "english_sha256": "f37f8c8a5dcb4f9316eb95df514511fe0fdabc57579aa737c7d0cbaa11bd53f9",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.hullmods.ConvertedHangar",
+      "english_sha256": "87b300955c69ae105662487e94789d449b1181d91cd2a908edeb14183f1d3919",
+      "source_const_string_count": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "english_sha256": "8ffd6effd9138aa59ad35f55f0f20cf44c05e570a00da13d6384d945c96863e6",
+      "source_const_string_count": 1
+    }
+  ],
+  "shared_her_conflict_unresolved": true,
+  "shared_her_evidence": {
+    "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.BaseBarEventWithPerson",
+    "object_getter": "getHimOrHer",
+    "possessive_getter": "getHisOrHer",
+    "shared_original_constant_pool_index": 143,
+    "same_ldc_constant": true,
+    "plain_her_replacement_safe_for_both_grammatical_roles": false,
+    "getter_callsite_fix_status": "open_not_modified"
+  },
+  "no_original_game_files_published": true,
+  "native_windows_gameplay_tested": false
+}
