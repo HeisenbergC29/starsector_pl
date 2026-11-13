@@ -1,0 +1,54 @@
+{
+  "version": "1.0.53",
+  "target_original_game": "Starsector 0.98a-RC8",
+  "total_api_map_rows": 5283,
+  "api_map_rows_effectively_installed": 5281,
+  "dead_or_cross_layer_api_map_entries": [
+    {
+      "source_class": "data/hullmods/SurveyingEquipment.java",
+      "literal": "The combined surveying equipment in your fleet reduces the survey cost by %s supplies and %s heavy machinery.",
+      "reason": "not a class in starfarer.api.jar; the shipped mod/data/hullmods/SurveyingEquipment.java already has localized addPara text",
+      "localization_effective_in": "mod/data/hullmods/SurveyingEquipment.java",
+      "shipped_data_file_sha256": "3e2439b5e21fb40cf9b5daef6ad12eb3c07af0ee9ff73b23a016c5718b8de385",
+      "localized_source_checked": true
+    },
+    {
+      "source_class": "com.fs.starfarer.ui.newui.FleetMemberRecoveryDialog",
+      "literal": "Select ships to recover",
+      "reason": "not a class in starfarer.api.jar; real OBF class has an already installed class-scoped translation for this heading",
+      "localization_effective_in": "starfarer_obf.jar / class CP String #816",
+      "original_english_bytes_remain_unused": true,
+      "actual_java_ldc_w_816_result": "Wybierz okrety do odzyskania",
+      "first_OBF_translation_status": "OBF_09101_EXACT_PREVIOUS_GLOSSARY"
+    }
+  ],
+  "newly_fixed_obf_dialogue_strings": [
+    {
+      "source_class": "com.fs.starfarer.ui.newui.FleetMemberRecoveryDialog",
+      "english_literal": "ship",
+      "polish_ascii": "okr.",
+      "original_jvm_cp_index": 823,
+      "original_ldc_w_count": 1
+    },
+    {
+      "source_class": "com.fs.starfarer.ui.newui.FleetMemberRecoveryDialog",
+      "english_literal": "ships",
+      "polish_ascii": "okr.",
+      "original_jvm_cp_index": 821,
+      "original_ldc_w_count": 1
+    },
+    {
+      "source_class": "com.fs.starfarer.ui.newui.FleetMemberRecoveryDialog",
+      "english_literal": " ships",
+      "polish_ascii": " okr.",
+      "original_jvm_cp_index": 1248,
+      "original_ldc_w_count": 1
+    }
+  ],
+  "api_map_changed": false,
+  "data_files_changed": false,
+  "obf_jvm_method_bytecode_changed": false,
+  "still_pending_semantic_api_review": 3334,
+  "still_pending_java_getter_sites": 186,
+  "native_windows_gameplay_tested": false
+}

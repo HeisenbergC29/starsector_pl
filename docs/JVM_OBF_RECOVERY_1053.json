@@ -1,0 +1,30 @@
+{
+  "original_obf_sha256": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8",
+  "old_patched_obf_sha256": "03729bc8e6ad0100ce4d0f7bf2f71bc198f917ff9e1b2fa5f9dacf4f35960a7a",
+  "new_patched_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "changed_obf_classes_vs_1052": 1,
+  "changed_obf_classes_vs_original": 539,
+  "source_class_path": "com/fs/starfarer/ui/newui/FleetMemberRecoveryDialog.class",
+  "source_class_sha256": "99a94128288e065d3c89b25c8606eebb0db6081bf2ebcde07615c238770d87c0",
+  "new_class_sha256": "b94fa94cc7716e02d29a0d4f55ea6e385cd4b86b96229b599b2d655eaf6c481d",
+  "verified_original_ldc_w_uses": {
+    "816": 1,
+    "821": 1,
+    "823": 1,
+    "1248": 1
+  },
+  "checked_added_literals": 3,
+  "previously_translated_heading_confirmed": true,
+  "executed_jvm_instructions_changed": 0,
+  "manifest_changed_only_for_target_class_digests": true,
+  "native_windows_gameplay_tested": false,
+  "upgrade": {
+    "fresh_equals_upgrade_api_sha256": "5d53fa936ada275642a93b523f4a3e5ef45c10d3f16ed82465ed5476d27414c7",
+    "fresh_equals_upgrade_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "old_1052_obf_upgrade_supported": true,
+    "old_1052_api_unchanged_sha256": true,
+    "both_patchers_reapply_idempotent": true,
+    "corrupt_jar_refused_without_write": true,
+    "both_commercial_originals_restored_identically": true
+  }
+}

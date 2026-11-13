@@ -5,30 +5,17 @@
     {
       "id": "story_contexts",
       "status": "in_progress",
-      "source": "tools/verify_story_1033.py: 81/81 static JVM contexts localized to PF offline; visually unverified on Windows",
-      "unresolved_count": 0,
-      "reviewed_offline": 81,
       "pending_windows_ui": 81
     },
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "1.0.52 original-JVM checked 11 direct BaseBarEventWithPerson inherited getHim/getHis getter callsites and 2 gender-label sites: shared her #143 maps to Polish jej both dative/possessive offline. Broader unreviewed Java corpus conservatively remains 186 until full audit, Windows test pending",
       "unresolved_count": 186,
+      "total_jvm_getter_calls": 219,
+      "shared_her_conflict_open": false,
       "reviewed_rules_rows_offline": 253,
       "removed_visible_gender_variable_refs": 420,
-      "pending_windows_ui_rules_rows": 253,
-      "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
-      "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
-      "latest_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1045.json",
-      "total_jvm_getter_calls": 219,
-      "reviewed_reflexive_calls_offline": 1,
-      "reviewed_subject_getter_calls_offline": 6,
-      "reviewed_historian_getter_calls_offline": 14,
-      "reviewed_base_get_commodity_man_or_woman_calls_offline": 12,
-      "pending_windows_ui_java_getter_calls": 219,
-      "shared_her_conflict_open": false,
-      "previous_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json",
+      "source": "1.0.52 original-JVM checked 11 direct inherited BaseBarEventWithPerson getter callsites (2 dative mu/jej, 9 possessive jego/jej) and 2 gender-label sites; shared her #143 yields same Polish jej in both documented usages. Broader unreviewed JVM count conservatively still 186 until full corpus re-accounting; no native Windows test",
       "base_bar_shared_her_resolved_offline_1052": true,
       "shared_her_pending_native_windows_validation": true,
       "base_bar_gender_getter_callsites_reviewed_1052": 13
@@ -36,86 +23,50 @@
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1052.json: 314 immutable prior reviews + 10 first-time reviewed DRAFT/OPTIONAL bar-dialogue text fragments; 3334 historical API remaining; 14 newly added class-scoped fragments not counted as historical DRAFT",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1052.json",
       "total_draft_rows": 3658,
       "reviewed_offline": 324,
       "unresolved_count": 3334,
-      "gameplay_unverified_count": 3700,
-      "new_literal_count": 42
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1052.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1052.json: 314 immutable prior reviews + 10 new DRAFT/OPTIONAL bar-dialogue fragments checked in original Java, 3334 historical unreviewed; 14 added class-scoped new literals not counted as historical DRAFT"
     },
     {
       "id": "rules_possessives",
-      "status": "in_progress",
-      "source": "tools/apply_1043.py, tools/verify_1043.py; 31 text-only CSV rows and 36 grammatical possessive noun phrases verified offline, Windows not tested",
-      "reviewed_offline": 36,
-      "reviewed_rows_offline": 31,
-      "pending_windows_ui": 36
+      "status": "in_progress"
     },
     {
       "id": "rules_gender_neutral_1044",
-      "status": "in_progress",
-      "source": "tools/apply_1044.py, tools/verify_1044.py, docs/RULES_GENDER_REVIEW_1044.json: 25 gender-neutral rules.csv rows, text-only offline",
-      "reviewed_rows_offline": 25,
-      "fragments_changed": 30,
-      "removed_visible_gender_variable_refs": 31,
-      "pending_windows_ui_rows": 25
+      "status": "in_progress"
     },
     {
       "id": "rules_gender_neutral_1045",
-      "status": "in_progress",
-      "source": "tools/apply_1045.py, tools/verify_1045.py, docs/RULES_GENDER_REVIEW_1045.json; 44 records, 80 edits, 93 removed placeholders, offline only",
-      "reviewed_rows_offline": 44,
-      "fragments_changed": 80,
-      "removed_visible_gender_variable_refs": 93,
-      "pending_windows_ui_rows": 44
+      "status": "in_progress"
     },
     {
       "id": "numeric_quantities",
-      "status": "in_progress",
-      "source": "tools/verify_1041.py: 77 active numeric quantity literals made grammar-neutral; not equivalent to full semantic review Maintained unchanged after 1.0.42 punctuation-only adjustment.",
-      "source_version": "1.0.41",
-      "reviewed_offline": 77,
-      "pending_windows_ui": 77,
-      "review_sha256": "8edfe27a4ce166d1dad5be44555ccdd13346b7f48c97013051be4321ea30456f"
+      "status": "in_progress"
     },
     {
       "id": "punctuation_regression",
-      "status": "in_progress",
-      "source": "tools/verify_1042.py; 15 exact original JVM strings fixed; two dots after abbreviation removed, no other changes. This is not in-game verification.",
-      "reviewed_offline": 15,
-      "pending_windows_ui": 15,
-      "source_version": "1.0.42",
-      "plan_sha256": "fc7bf29cfc7f327342060c7a6eb36f3662d72d2cd097431c6141c9b32ff2a761"
+      "status": "in_progress"
     },
     {
       "id": "api_contexts_1046",
       "status": "in_progress",
-      "source": "tools/apply_1046.py / tools/verify_1046.py: 13 corrected API text literals plus 3 previously untranslated assembled-tooltip fragments in 8 classes; 16 original JVM constants verified offline, no native Windows gameplay",
-      "reviewed_offline": 16,
-      "pending_windows_ui": 16,
-      "changed_classes": 8
+      "reviewed_offline": 16
     },
     {
       "id": "api_numeric_1047",
       "status": "in_progress",
-      "source": "tools/apply_1047.py/verify_1047.py: 14 numeric economy UI literals in 11 classes fixed, original-JAR upgrade verified; no running Windows gameplay",
-      "corrected_api_rows": 14,
-      "changed_classes": 11,
-      "pending_windows_ui": 14
+      "corrected_api_rows": 14
     },
     {
       "id": "api_numeric_1048",
       "status": "in_progress",
-      "source": "tools/apply_1048.py/verify_1048.py; 29 API numeric grammar corrections across 19 classes, original JVM and private original-JAR upgrade verified offline, native Windows still not tested",
-      "corrected_api_rows": 29,
-      "changed_classes": 19,
-      "pending_windows_ui": 29
+      "corrected_api_rows": 29
     },
     {
       "id": "api_grammar_1049",
       "status": "in_progress",
-      "source": "tools/apply_1049.py, tools/verify_1049.py, docs/API_TEXT_CORRECTIONS_1049.json: 13 corrected class-scoped JVM text literals + 1 suffix s->empty in SalvorsTallyIntel; original JVM 6 ldc uses; native Windows not tested.",
       "corrected_api_rows": 13,
       "added_api_rows": 1,
       "changed_classes": 7,
@@ -124,7 +75,7 @@
     {
       "id": "api_time_fragments_1050",
       "status": "in_progress",
-      "source": "tools/apply_1050.py, tools/verify_1050.py, docs/API_TIME_COMPONENTS_1050.json: 8 class-scoped BaseIntelPlugin time literals, 17 original ldc uses, one class changed, native Windows untested",
+      "source": "BaseIntelPlugin",
       "added_api_rows": 8,
       "changed_classes": 1,
       "original_jvm_ldc_uses": 17,
@@ -133,7 +84,7 @@
     {
       "id": "personality_ui_1051",
       "status": "in_progress",
-      "source": "tools/apply_1051.py, verify_1051.py, private_jvm_1051.py; two UI string templates and exactly two ldc operand bytes in addDescToTooltip, original-class SHA pinned; technical IDs unchanged, actual private JAR fresh/upgrade verified, native Windows UI pending",
+      "source": "2 exact class-scoped text-only UI and two ldc operand overrides",
       "corrected_ui_rows": 2,
       "changed_classes": 1,
       "jvm_ldc_operand_changes": 2,
@@ -143,7 +94,7 @@
     {
       "id": "bar_shared_her_1052",
       "status": "in_progress",
-      "source": "tools/apply_1052.py, tools/private_jvm_1052.py: 14 new exact class-scoped literal maps and 10 corrected fragments in 3 classes; her #143 used safely as jej after original 11 getter callsite audit; no NEW method bytecode edits; Windows game still untested",
+      "source": "tools/apply_1052.py, tools/private_jvm_1052.py: 14 new exact class-scoped literal maps, 10 corrected UI fragments in 3 classes, original #143 her shared safely rendered jej in dative and possessive after auditing 11 getHim/getHis callsites; ZERO new bytecode edits; game Windows untested",
       "new_api_rows": 14,
       "corrected_existing_api_rows": 10,
       "modified_java_classes": 3,
@@ -153,15 +104,26 @@
       "pending_windows_ui": 24
     },
     {
+      "id": "obf_recovery_1053",
+      "status": "in_progress",
+      "source": "tools/apply_1053.py, verify_1053.py, private_integration_1053.py: exactly 3 missing visible recovery dialog ship/ships suffixes, 1 OBF class, original ldc_w callsites confirmed, original-JAR upgrade tested, native Windows UI pending",
+      "new_obf_entries": 3,
+      "total_obf_entries": 3537,
+      "changed_classes": 1,
+      "pending_windows_ui": 3,
+      "executable_java_bytecode_changed": false,
+      "api_map_changed": false
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.52: original Java shared her mapped contextually, 14 new and 10 corrected bar strings; 324 historical API reviewed offline with 3334 pending, 2275 raw pronoun references in 1139 rules.csv rows pending detailed audit, 1.1 not complete"
+      "source": "1.0.53: fixes 3 untranslated numeric ship count suffixes in FleetMemberRecoveryDialog (OBF). 3334 historical API translations still pending semantic review; 186 other Java getter calls and 2275 raw gender placeholders need contextual assessment; release 1.1 unfinished."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.52: 24 bar UI text fragments plus earlier 253 dialogue rows, 81 story contexts and 219 gender getter calls need actual running Windows game verification",
-      "native_gameplay_tested": false
+      "native_gameplay_tested": false,
+      "source": "1.0.53: 3 count strings in recovery screen + prior 24 bar fragments, 253 rules rows, 81 story contexts and 219 getter sites still require running Windows UI verification; only offline JAR patcher checked."
     }
   ]
 }
