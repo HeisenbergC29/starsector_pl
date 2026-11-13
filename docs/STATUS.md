@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.50. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.51. Cel 1.1 nadal otwarty.**
+
+**1.0.51 (2026-11-13):** w oryginalnym `FactionPersonalityPickerPluginImpl` potwierdzono kolizje identyfikatorow `aggressive/reckless` miedzy logika i wyswietlanym tekstem UI. Dokladnie dwa bajty operandow `ldc` w `addDescToTooltip()` przekierowano z identyfikatorow #44/#47 na **juz polskie** etykiety #80/#84, nie ruszajac `createPersonalityPicker`. Wszystkie 938 zmienionych klas API porownane do oryginalu; **jedna** klasa rozni sie od 1.0.50, **dokladnie dwa dopuszczone bajty**, pozostale bajty instrukcji JVM identyczne. Uwaga: jest to jawny, udokumentowany wyjatek od dotychczasowej zasady zerowych zmian bajtkodu! 2 poprawione UI-formaty, mapy 5269 wierszy, SHA `099abe6d62264e6b1d4ff66b9aba196ecb7d11845b7d2b2207aab4a8b8f66aa4`, 870 danych i OBF bez zmian. 8 testow negatywnych mapy oraz 10 testow falszywych bramek 1.1 PASS. Historyczne API: 312->314/3658 (pozostalo 3344). Realny upgrade 1.0.50->1.0.51, fresh=noop/upgrade, odrzucenie uszkodzonego ZIP i restore PASS. API JAR SHA `cf26c3aa2885df954f4914b584ff1552b3b3c8f8d9290adfb8a03a9d6dff7a13`. Kolizja `her`, 186 nieocenionych getterow oraz Windows gameplay nadal otwarte. Raport `docs/RELEASE_1051.md`.
+
+
 
 **1.0.50 (2026-11-13):** 8 nowych klasowych translacji `BaseIntelPlugin` (day/days, month/months, cycle/cycles, ' and ', ' ago.') w oryginalnych 17 wywolaniach ldc_w. API mapa 5269 wierszy, 5267 rzeczywistych zmian w 938 klasach, SHA `d2f6b355c58a8d2f0c9a5674e19bcaf7e24862ac4a3c28ad6ace97ce0024b41e`; tylko 1 klasa JVM zmieniona wzgledem 1.0.49, kod wykonywalny identyczny. 60 kolejnych statycznych kontekstow API sprawdzono offline na oryginalnych JAR: stan **312/3658**, pozostaje **3346**. Swieza instalacja i upgrade 1.0.49->1.0.50 na prywatnych oryginalnych JAR: bajtowo ten sam API SHA `35e086aed9380cf481bd6e48bfc29017cb5ee94012e5292953c9d53e44a540df`; ponowne zastosowanie, odmowa uszkodzonego ZIP i restore PASS. 870 danych bez zmian. Wspolne 'her', 186 getterow, 2275 potencjalnych zmiennych w rules.csv oraz Windows runtime nadal nieprzetestowane. Szczegoly `docs/RELEASE_1050.md`.
 

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "release": "1.0.51",
+  "game": "Starsector 0.98a-RC8",
+  "original_class": "com/fs/starfarer/api/impl/campaign/FactionPersonalityPickerPluginImpl.class",
+  "original_class_sha256": "f1c37918b1ae8542f5f3673775e9343e34bd04c3c075c2a5752f6433ef354949",
+  "mechanical_method_preserved": "createPersonalityPicker(com.fs.starfarer.api.campaign.FactionAPI)",
+  "ui_method": "addDescToTooltip(com.fs.starfarer.api.ui.TooltipMakerAPI,int)",
+  "ui_string_changes": [
+    {
+      "english_literal": "%s officers and ship commanders.",
+      "before": "%s oficerow i dowodcow okretow.",
+      "after": "Oficerowie i dowodcy okretow: %s."
+    },
+    {
+      "english_literal": "A mix of %s and %s officers and ship commanders.",
+      "before": "Mieszanka oficerow i dowodcow okretow o cechach %s i %s.",
+      "after": "Oficerowie i dowodcy okretow: %s oraz %s."
+    }
+  ],
+  "technical_personality_identifiers_untouched": ["cautious", "steady", "aggressive", "reckless"],
+  "already_localized_display_label_constants": {
+    "Cautious": "Ostrozny",
+    "Steady": "Opanowany",
+    "Aggressive": "Agresywny",
+    "Reckless": "Brawurowy"
+  },
+  "method_local_references": [
+    {"source_code_offset": 112, "instruction": "ldc", "before_cp_index": 44, "after_cp_index": 80, "before_display": "aggressive", "after_display": "Agresywny"},
+    {"source_code_offset": 117, "instruction": "ldc", "before_cp_index": 47, "after_cp_index": 84, "before_display": "reckless", "after_display": "Brawurowy"}
+  ],
+  "total_bytecode_operand_bytes_modified": 2,
+  "other_bytecode_bytes_modified": 0,
+  "exception_trigger": "new exact UI-format translation in 1.0.51 map; historical 1.0.50 and older mappings skip bytecode override",
+  "reason_for_exception": "lowercase internal personality IDs are shared with the mixed-case UI string, so changing them globally would affect gameplay personality selection",
+  "native_windows_gameplay_tested": false,
+  "separate_shared_her_problem_resolved": false
+}

@@ -1,0 +1,27 @@
+{
+  "release": "1.0.51",
+  "changed_classes_against_original": 938,
+  "changed_classes_against_1050": 1,
+  "class_path": "com/fs/starfarer/api/impl/campaign/FactionPersonalityPickerPluginImpl.class",
+  "source_class_sha256": "f1c37918b1ae8542f5f3673775e9343e34bd04c3c075c2a5752f6433ef354949",
+  "technical_ids_unchanged": [
+    "cautious",
+    "steady",
+    "aggressive",
+    "reckless"
+  ],
+  "display_ldc_operands_modified": 2,
+  "display_ldc_cp_indices_before": [
+    44,
+    47
+  ],
+  "display_ldc_cp_indices_after": [
+    80,
+    84
+  ],
+  "other_executable_instruction_bytes_modified": 0,
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "previous_api_sha256": "35e086aed9380cf481bd6e48bfc29017cb5ee94012e5292953c9d53e44a540df",
+  "current_api_sha256": "cf26c3aa2885df954f4914b584ff1552b3b3c8f8d9290adfb8a03a9d6dff7a13",
+  "native_windows_gameplay_tested": false
+}

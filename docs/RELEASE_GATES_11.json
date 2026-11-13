@@ -33,11 +33,11 @@
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1050.json: 252 prior unchanged reviews plus 60 new original-JVM-confirmed static UI messages (42 BaseIndustry, 13 MarketCMD, 5 BaseIntelPlugin); 3346 historical API still unreviewed, Windows not tested",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1050.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1051.json: 312 preceding immutable API reviews + 2 exact-original-JVM verified personality UI formats, 3344 historical semantics to review, Windows not tested",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1051.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 312,
-      "unresolved_count": 3346,
+      "reviewed_offline": 314,
+      "unresolved_count": 3344,
       "gameplay_unverified_count": 3700,
       "new_literal_count": 42
     },
@@ -128,14 +128,24 @@
       "pending_windows_ui": 8
     },
     {
+      "id": "personality_ui_1051",
+      "status": "in_progress",
+      "source": "tools/apply_1051.py, verify_1051.py, private_jvm_1051.py; two UI string templates and exactly two ldc operand bytes in addDescToTooltip, original-class SHA pinned; technical IDs unchanged, actual private JAR fresh/upgrade verified, native Windows UI pending",
+      "corrected_ui_rows": 2,
+      "changed_classes": 1,
+      "jvm_ldc_operand_changes": 2,
+      "pending_windows_ui": 2,
+      "technical_identity_constants_preserved": true
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.50: 8 BaseIntelPlugin time fragments localized and 60 static UI texts reviewed offline; 3346 historical API still unreviewed; 2275 raw gender markers in 1139 rules dialogues need contextual review; 1.1 incomplete"
+      "source": "1.0.51 resolves technical-ID/UI-label collision for mixed officer personality, 314/3658 historical API snippets reviewed offline; 3344 unreviewed, 2275 raw dynamic pronoun tokens in 1139 rules rows still pending contextual review, 1.1 incomplete"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.50: 8 shared duration fragments plus 60 reviewed UI labels and earlier 253 dialogue rows, 81 story contexts and 219 getter calls need native Windows gameplay confirmation",
+      "source": "1.0.51: two personality tooltips (one strict JVM exception) plus previous 253 corrected rules rows, 81 story contexts, and 219 pronoun getters still need actual Windows UI testing",
       "native_gameplay_tested": false
     }
   ]
