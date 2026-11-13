@@ -122,7 +122,7 @@ jobs:
         run: |
           python3 tools/verify_story_1033.py worktree
           python3 tools/verify_review_1033.py --map worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1033.csv --old-ledger docs/API_SEMANTIC_REVIEW_1032.json --ledger docs/API_SEMANTIC_REVIEW_1033.json
-          python3 tools/test_story_1033.py worktree --old-ledger docs/API_SEMANTIC_REVIEW_1032.json --ledger docs/API_SEMANTIC_REVIEW_1033.json --gates docs/RELEASE_GATES_11.json
+          python3 tools/test_story_1033.py worktree --old-ledger docs/API_SEMANTIC_REVIEW_1032.json --ledger docs/API_SEMANTIC_REVIEW_1033.json --gates docs/RELEASE_GATES_1043.json
       - name: Apply 1.0.34 context-safe translations of gendered rules.csv dialogues
         run: python3 tools/apply_1034.py worktree
       - name: Verify 27 precise dialogue rows, 75 unrendered pronouns and 869 unchanged files
@@ -197,8 +197,16 @@ jobs:
         run: |
           python3 tools/test_dynamic_1030.py
           python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1030.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
-          python3 tools/check_release_gates_1043.py worktree --gates docs/RELEASE_GATES_11.json
-          python3 tools/test_release_gates_1043.py worktree --gates docs/RELEASE_GATES_11.json
+          python3 tools/check_release_gates_1043.py worktree --gates docs/RELEASE_GATES_1043.json
+          python3 tools/test_release_gates_1043.py worktree --gates docs/RELEASE_GATES_1043.json
+      - name: Apply 1.0.44 gender-neutral rules.csv text corrections
+        run: python3 tools/apply_1044.py worktree --ledger-out /tmp/RULES_GENDER_1044_generated.json
+      - name: Verify 25 new dialogue rows, reject invalid changes and audit remaining 1.1 gates
+        run: |
+          python3 tools/verify_1044.py worktree
+          python3 tools/test_1044.py worktree
+          python3 tools/check_release_gates_1044.py worktree --gates docs/RELEASE_GATES_11.json --ledger docs/RULES_GENDER_REVIEW_1044.json
+          diff -u docs/RULES_GENDER_REVIEW_1044.json /tmp/RULES_GENDER_1044_generated.json
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -237,5 +245,12 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.43 minimal Windows installer
-        run: python3 tools/package_1043.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.43_MINIMALNY.zip
+      - name: Package and CRC-check 1.0.44 minimal Windows installer
+        run: python3 tools/package_1044.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.44_MINIMALNY.zip
+      - name: Upload the 1.0.44 Windows package
+        uses: actions/upload-artifact@v4
+        with:
+          name: Starsector_PL_ASCII_1.0.44
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.44_MINIMALNY.zip
+          if-no-files-found: error
+          retention-days: 7

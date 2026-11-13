@@ -1,6 +1,9 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.43. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.44. Cel 1.1 nadal otwarty.**
+
+**Wersja 1.0.44 (2026-11-13):** 25 kolejnych wierszy `rules.csv`, 30 precyzyjnych poprawek i 31 usunietych odwolania do zmiennych plciowych; lacznie 209 dialogow i 327 usunietych wstawek (tylko offline). SHA `rules.csv`: `cf1e35899c5cebd42430cf45242662a6c59389e3330c493c6b667bf2eafb918b`; podmiana tylko kolumny `text`, 869 plikow danych bez zmian, mapy JAR i Java bez zmian. Odtworzenie 1.0.43 bajtowo PASS; testy negatywne 6/6 PASS lokalnie. 186 getterow Java, 3536 starszych API i natywne Windows wciaz do zrobienia. Dokument `docs/RELEASE_1044.md`, ledger `docs/RULES_GENDER_REVIEW_1044.json`.
+
 
 **Wersja 1.0.43 (2026-11-13):** 31 dalszych wierszy `rules.csv` (36 podmian) ma poprawione frazy z dynamicznymi angielskimi przymiotnikami dzierzawczymi: twarz, spojrzenie, glos, dlonie, oczy i zaloga. Poprawiono takze interpunkcje wypowiedzi Rycerzy Ludda. Zmieniono wylacznie teksty, bez zmian ID, scripts, conditions, trigger, notes, options, kodu Java, map i 869 innych plikow danych. Odwracalnosc bajtowa do SHA 1.0.42 `fd7697b869bc4951204a7e90583ab8526ae1d046ba715454048b7cbaedcd3751` PASS; nowy SHA `a43f8a4f5acf91e67c7331c7828e3152564f2e224ea2a6bb46e49b9d6374f8a0`. Rejestry 31 nowych i 153 starszych wierszy zachowane: 184 offline, 296 odniesien usunietych, 184 wymagaja natywnego testu Windows. 7371 opcji poprawnych, 12 negatywnych testow danych+15 bramek 1.1 PASS, Go test/vet 3 komponentow, 3 Windows x64 EXE PASS, ZIP 873 wpisy/16468391 B/SHA `2ee2a4692fe27e544afa12ac9de2daf333f6ee9a4a05d2dc5216f431ed3a1f1b`. **186 getterow JVM nadal do kontekstowej kontroli, 3536 historycznych API do recenzji; 81 PF, 77 ilosci, 15 korekt interpunkcji i 184 dialogi bez natywnego UI Windows.** Brak gameplay; 1.1 w opracowaniu. `docs/RELEASE_1043.md`.
 

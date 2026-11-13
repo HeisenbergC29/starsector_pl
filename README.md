@@ -1,10 +1,14 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.43):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.44):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.43** (snapshot 1.0.12 + overlaye 1013–1043; OBF 3534 podmiany/539 klas, API 5257 map/5255 podmian w 938 klasach — bez zmian Java wzgledem 1.0.42; 870 danych, zmieniony wylacznie rules.csv). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.44** (snapshot 1.0.12 + overlaye 1013–1044; OBF 3534 podmiany/539 klas, API 5257 map/5255 podmian w 938 klasach — bez zmian Java wzgledem 1.0.42; 870 danych, zmieniony wylacznie rules.csv; 25 nowych rekordow po 1.0.43). Cel 1.1 OTWARTY.
+
+## Najnowszy etap 1.0.44
+
+[Raport i reprodukcja](docs/RELEASE_1044.md): 25 wierszy `rules.csv`, 30 poprawek, 31 usunietych zmiennych; lacznie 209 rekordow i 327 usunietych referencji. Wszystkie inne dane i mapy Java zachowane. Brak natywnego gameplay Windows; 1.1 niedokonczona.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

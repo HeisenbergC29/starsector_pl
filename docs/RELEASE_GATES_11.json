@@ -13,21 +13,22 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_1043.py and docs/RULES_POSSESSIVE_REVIEW_1043.json: 31 additional noun-phrase rewrites, 36 removed variable placeholders; JVM getter bytecode unchanged and still 186 unreviewed",
+      "source": "tools/verify_1044.py + docs/RULES_GENDER_REVIEW_1044.json: 25 new rules.csv rows, 30 fragments, 31 gender placeholders removed; no Java getter bytecode changes",
       "unresolved_count": 186,
-      "reviewed_rules_rows_offline": 184,
-      "removed_visible_gender_variable_refs": 296,
-      "pending_windows_ui_rules_rows": 184,
+      "reviewed_rules_rows_offline": 209,
+      "removed_visible_gender_variable_refs": 327,
+      "pending_windows_ui_rules_rows": 209,
       "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
       "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
-      "latest_rules_review_ledger": "docs/RULES_POSSESSIVE_REVIEW_1043.json",
+      "latest_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json",
       "total_jvm_getter_calls": 219,
       "reviewed_reflexive_calls_offline": 1,
       "reviewed_subject_getter_calls_offline": 6,
       "reviewed_historian_getter_calls_offline": 14,
       "reviewed_base_get_commodity_man_or_woman_calls_offline": 12,
       "pending_windows_ui_java_getter_calls": 219,
-      "shared_her_conflict_open": true
+      "shared_her_conflict_open": true,
+      "previous_rules_review_ledger": "docs/RULES_POSSESSIVE_REVIEW_1043.json"
     },
     {
       "id": "draft_semantics",
@@ -47,6 +48,15 @@
       "reviewed_offline": 36,
       "reviewed_rows_offline": 31,
       "pending_windows_ui": 36
+    },
+    {
+      "id": "rules_gender_neutral_1044",
+      "status": "in_progress",
+      "source": "tools/apply_1044.py, tools/verify_1044.py, docs/RULES_GENDER_REVIEW_1044.json: 25 gender-neutral rules.csv rows, text-only offline",
+      "reviewed_rows_offline": 25,
+      "fragments_changed": 30,
+      "removed_visible_gender_variable_refs": 31,
+      "pending_windows_ui_rows": 25
     },
     {
       "id": "numeric_quantities",
@@ -69,12 +79,12 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.43 corrects 36 noun-phrase possessives in 31 rules.csv rows; 1.1 whole-game completeness still unverified"
+      "source": "1.0.44 replaces 31 gender-variable refs in 25 further rules.csv rows; full game completeness not verified"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.43 data-only 31 rows, 81 story contexts and 219 Java getters still lack native gameplay validation",
+      "source": "1.0.44 209 reviewed dialogue rows, 81 story contexts, 219 JVM getter calls remain without native Windows gameplay validation",
       "native_gameplay_tested": false
     }
   ]

@@ -1,6 +1,8 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.43** (snapshot 1.0.12 + overlaye 1013–1043; OBF 3534/539 klas bez zmian, API 5257 map/5255 podmian/938 klas bez zmian, 870 danych, tylko rules.csv zmieniony).
+**Aktualny stan roboczy: 1.0.44** (snapshot 1.0.12 + overlaye 1013–1043; OBF 3534/539 klas bez zmian, API 5257 map/5255 podmian/938 klas bez zmian, 870 danych, tylko rules.csv zmieniony).
+
+**1.0.44:** 25 dodatkowych wierszy rules.csv, 30 zmian i 31 usunietych problematycznych zmiennych plciowych. Lacznie 209 rekordow i 327 referencji skontrolowanych offline. Mapy OBF/API bez zmian; 186 getterow Java, 3536 historycznych API oraz testy Windows nadal otwarte. Szczegoly `docs/RELEASE_1044.md`.
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 

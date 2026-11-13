@@ -1,0 +1,187 @@
+{
+  "stats": {
+    "version": "1.0.44",
+    "rows_changed": 25,
+    "fragments_changed": 30,
+    "gender_references_removed": 31,
+    "before_sha256": "a43f8a4f5acf91e67c7331c7828e3152564f2e224ea2a6bb46e49b9d6374f8a0",
+    "after_sha256": "cf1e35899c5cebd42430cf45242662a6c59389e3330c493c6b667bf2eafb918b"
+  },
+  "approved": [
+    {
+      "id": "GAKA_TTStart",
+      "old_text_sha256": "cc6e33138b53039b8a281b2eba126dfa489af949863ed4cd1479cd1c3f3495bd",
+      "new_text_sha256": "980b545f03a344f78b8afc42e32f402416b07c0735f27fd2330836c6910c857a",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "genericGreetingNeedTOff",
+      "old_text_sha256": "4ca57959b3858f9148b970a610a00f810eb4d6228abb29c65e747889310f4b82",
+      "new_text_sha256": "8e1a47c8997a4083f1da154f6caec248c98b8d7ab054a6a23c6d1e0bdddee32e",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "genericGreetingNeedNoPatrols",
+      "old_text_sha256": "9d9f59792c7d1bfb67ad0cabcc8d5fa18188e229bc5e3447c9da71fd00536c5e",
+      "new_text_sha256": "b107c21d66c93a24f663fbe6cb6545f13dbc754345b9fef3cb2322636bc1410f",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "genericGreetingNeedNoPatrolsUW",
+      "old_text_sha256": "9d9f59792c7d1bfb67ad0cabcc8d5fa18188e229bc5e3447c9da71fd00536c5e",
+      "new_text_sha256": "b107c21d66c93a24f663fbe6cb6545f13dbc754345b9fef3cb2322636bc1410f",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "proComTextRemoteBarUnderworld",
+      "old_text_sha256": "cf06cd2be0691dd3c01eee6ed82a10625576f486a11ad5c157026b297f3ef6bf",
+      "new_text_sha256": "340da1347982c65ccbabd44d94e10c271d03abe1e155b35ed709e70ab6b38c76",
+      "edits": 2,
+      "removed": 2
+    },
+    {
+      "id": "cpcOfferTextBar1",
+      "old_text_sha256": "691330f38578178bb8445ac5eef98ddb0a0fd12a45865be99cff1b23ad65ad97",
+      "new_text_sha256": "e7632968133f72ca0b5c476e72ceff63932c93d797f91097d9d1042a8e51693d",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "cpcOfferTextBarCoilGun",
+      "old_text_sha256": "9b324f7678c522730f83c127e409a9685063f7952c14e96e78c182616c7ccd53",
+      "new_text_sha256": "740856214856edebdb42bb7ae5839befa5cc9aca65f91717e4c0ebf83a066695",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "psbOfferTextBar",
+      "old_text_sha256": "bbaf294c68de945b8b5a4f909efbee81968349e6fec10a2fc1f8665e8b81159c",
+      "new_text_sha256": "6a0f3f489761e3d350addb6f6d20db6da200438d62b46088597b3adf6db9d9fe",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "ssatOfferTextBarUW",
+      "old_text_sha256": "27af779d1d3250b9bf2eceeaba66cbf7c7943c45d4059fcc4e87c48d7dfdc7bf",
+      "new_text_sha256": "c091050e35efed47c928193899f443f43a36fb2db6e98c69ef4f8a78221ed6c2",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "extrOfferTextBar1",
+      "old_text_sha256": "260e97997c1f6b93ea281045e675ca05c365c4b29f4224908d9a263e4bcec9f5",
+      "new_text_sha256": "dab1535c9dd0844bcb9e1365ba5ad7232ca489906da409550615548bda3ece83",
+      "edits": 2,
+      "removed": 2
+    },
+    {
+      "id": "extrOfferTextBar2",
+      "old_text_sha256": "57e51e8a60c4592142dd95dabb1f8070a5e6b13e444348f0f82a3c87bf6bf85b",
+      "new_text_sha256": "240eee65c81ad3979003f76ab3eef2df686e46daf3e016697034b278adf629a9",
+      "edits": 2,
+      "removed": 2
+    },
+    {
+      "id": "extrOfferTextBar3",
+      "old_text_sha256": "59195607146551cfbd4c071e50b92d4d2e5f0fff2b9a9c4c592dd427953f1317",
+      "new_text_sha256": "c0051067fc2379c7ad8046fb9d7ac30164fb12f292a3addc1440b86ff5a7506f",
+      "edits": 2,
+      "removed": 2
+    },
+    {
+      "id": "LOCRMcontact1",
+      "old_text_sha256": "147380796ccfec5e79b721de06bc45dce62f23bcdf44af8fb4cca847c7cee5ef",
+      "new_text_sha256": "993f812e89bf1bf6234a6164052ccf992f378a4a23f273f15a34ebe51b4bc1a0",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "LOCRPcontact1",
+      "old_text_sha256": "d43c3eded10956b6994aad410ca33955db81aaace003b07a12d0a29ee80efc05",
+      "new_text_sha256": "2c967b7c57c97211315ab347d3ae37bb30f45940aaa51cf03a5f60c5676e7dfa",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "LOCRPwhyAreYouHere",
+      "old_text_sha256": "ef0cc7b3f7ce2d766b03f8fe1a2e96a14e939e6ef34d10881af9cc5b60517bdf",
+      "new_text_sha256": "ecd69f526f675403420bf065d30eaf2496354422b985b424cb42bfa31d0f4abc",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "LOCRPnotLuddies",
+      "old_text_sha256": "9cacee7f21517ae2353fe0547f68b831ace4da59d83947822e388020b16f7acf",
+      "new_text_sha256": "536aa394cb367bcf9d4852dc16b78db6c117d98414398d4c4f5505e7b78342e0",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "LOCRLaskHowManyB",
+      "old_text_sha256": "a6c67277ff56661d16acdc4325b1747ede3df3c3576ff400869f4634399cfba2",
+      "new_text_sha256": "c38150fac7f9b8a8a5beb5746e29a505838460716fa68915de5810c4cf448ee1",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "LOCRLaskPaymentA",
+      "old_text_sha256": "b0078145f6c0376d8853f9a48481798b92f777e6a260453a31efbe9d76e064a0",
+      "new_text_sha256": "b9007fbdba2dcb2eb69240a335acb83c3aad0e9b9d252d0ee4d96287ebd0eba6",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "LOCRLaskPaymentB",
+      "old_text_sha256": "b0078145f6c0376d8853f9a48481798b92f777e6a260453a31efbe9d76e064a0",
+      "new_text_sha256": "b9007fbdba2dcb2eb69240a335acb83c3aad0e9b9d252d0ee4d96287ebd0eba6",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "AVIPTblurbBar",
+      "old_text_sha256": "50543c581059603004c1070a4a0f1fc43faee68663b905418baa2fdcf3af3226",
+      "new_text_sha256": "167ceaa8409754efa8a0f4ca9e4c17521a61546d3ac408a61902a1ca1933a627",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "AVIPTtextBarAccept",
+      "old_text_sha256": "fed8c8d85369995922a5a4f899c07f9821ab212cfca1246c6cdedb420397dfe1",
+      "new_text_sha256": "dd2c1ae1cd1b7367c770cbac80de01920b8edd324b09afe23c84376e1f93535c",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "AVIPTtextBarDecline",
+      "old_text_sha256": "41a86fc4fd4fa65a93b00563bd344630bd630bebf8697df29ded66cb305aad1a",
+      "new_text_sha256": "b5e54e50cfefd844f91cd4f039398935343b2a549a08446d85c73ad6f92013d5",
+      "edits": 1,
+      "removed": 2
+    },
+    {
+      "id": "AVIPTtextBarDeclineRude",
+      "old_text_sha256": "dca41bf9d33ed10838fd1245681ed9e4360163e59da7cee9fbca62400ae11c5e",
+      "new_text_sha256": "da08fa6122903d7749e7b5867572bdca11589b9ec6489368cfd603bcc888ef55",
+      "edits": 2,
+      "removed": 2
+    },
+    {
+      "id": "sitmBlurbBar1",
+      "old_text_sha256": "5bcfde0ef013dd25deaa4d976f95b0208e190dc9a70d384b50e9aada5afb110f",
+      "new_text_sha256": "6c023f234b32b7d5d6f31cd6b57d1ca199a0aac56f9d0b0001b3aaf1c0cc64d9",
+      "edits": 1,
+      "removed": 1
+    },
+    {
+      "id": "sitmContactMissionAcceptBar",
+      "old_text_sha256": "9520f30213c9e39259dc3da7fbd362b6317ae88ab1ed93c8587b193f41d3afc7",
+      "new_text_sha256": "65aeb70c93198ff12b56385f4a0a4b20c54a8573db54a0cf001182a369903160",
+      "edits": 1,
+      "removed": 1
+    }
+  ]
+}
