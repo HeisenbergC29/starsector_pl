@@ -270,6 +270,22 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
+      - name: Cross-build Linux JVM patchers for private original-JAR regression
+        run: |
+          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1046" .)
+          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1046" .)
+          file api_linux_1046 obf_linux_1046
+          file api_linux_1046 | grep -q 'ELF 64-bit'
+          file obf_linux_1046 | grep -q 'ELF 64-bit'
+      - name: Upload temporary Linux patchers (no commercial JAR)
+        uses: actions/upload-artifact@v4
+        with:
+          name: Starsector_PL_1.0.46_private_JAR_audit_patchers
+          path: |
+            api_linux_1046
+            obf_linux_1046
+          retention-days: 1
+          if-no-files-found: error
       - name: Package and CRC-check 1.0.46 minimal Windows installer
         run: python3 tools/package_1046.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.46_MINIMALNY.zip
       - name: Upload the 1.0.46 Windows package
