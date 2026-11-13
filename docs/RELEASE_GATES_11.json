@@ -33,11 +33,11 @@
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1046.json: 122 inherited verified rows and 20 new original-JVM/context-reviewed API rows; 3516 historical DRAFT/OPTIONAL entries still pending",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1046.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1047.json: 142 immutable prior plus 38 reviewed DRAFT (12 economic unit corrections and 26 option-panel battle labels), original JVM and 32 addOption callsites confirmed offline; native Windows not tested",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1047.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 142,
-      "unresolved_count": 3516,
+      "reviewed_offline": 180,
+      "unresolved_count": 3478,
       "gameplay_unverified_count": 3699,
       "new_literal_count": 41
     },
@@ -94,14 +94,22 @@
       "changed_classes": 8
     },
     {
+      "id": "api_numeric_1047",
+      "status": "in_progress",
+      "source": "tools/apply_1047.py/verify_1047.py: 14 numeric economy UI literals in 11 classes fixed, original-JAR upgrade verified; no running Windows gameplay",
+      "corrected_api_rows": 14,
+      "changed_classes": 11,
+      "pending_windows_ui": 14
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.46 fixes 13 mapped API texts and adds 3 class-scoped dynamic-tooltip fragments; 1.1 whole-game completeness remains unverified; 2275 raw gender placeholders in 1139 rules.csv records still require contextual review"
+      "source": "1.0.47: 14 economic-unit strings corrected, 26 fleet option labels reviewed offline; 3478 historical API texts await semantic review, 2275 raw gender placeholders in 1139 rules.csv rows pending contextual review; whole-game completeness unverified"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.46 adds 16 API contexts needing native Windows UI tests; 253 prior reviewed rules dialogues, 81 PF and 219 JVM getter-calls remain without full native UI verification",
+      "source": "1.0.47: 14 economic tooltips + 26 combat options and previous 253 dialog rows, 81 story contexts, 219 JVM getter calls still need native Windows UI verification",
       "native_gameplay_tested": false
     }
   ]

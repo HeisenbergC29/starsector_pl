@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.46. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.47. Cel 1.1 nadal otwarty.**
+
+**1.0.47 (2026-11-13):** 14 korekt API w 11 klasach kolonialnego przemyslu: liczebnikowo niepoprawne "%s jednostke" -> "%s jedn.", 42 warianty 1/2/5 PASS, dziewiec testow negatywnych PASS. Mapa 5260 wierszy, SHA `9a36861c53e6508f8082a1a2b845e36e6c5d76f44dd1918b3b8e151ae06eaebd`, 870 danych nietknietych, OBF bez zmian. Audyt oryginalnego JVM: 14 naprawionych literalow, 26 opcji bojowych w 32 callsite addOption; review historycznych API 142->180, pozostalo 3478/3658. Shared 'her' #143 w BaseBarEventWithPerson nierozwiazany. **Realny upgrade prywatnego API JAR 1.0.46 -> 1.0.47 PASS:** 11 klas miedzy wersjami, zero zmian wykonywalnego bajtkodu, wynik identyczny jak fresh, noop/restore/odmowa ZIP tamper PASS. Nowy API JAR SHA `98cc36aec4aa87e37717082469704f973ad7a91f51b7d0222a10a18770e2a277`. Natywna gra Windows NIE testowana. Dokumenty: `docs/RELEASE_1047.md`, `docs/UPGRADE_1047.json`.
+
+
 
 **Upgrade 1.0.45 -> 1.0.46 na rzeczywistych prywatnych JAR: PASS.** Z kodu zrodlowego historycznego patchera 1042 odtworzono identyczny SHA wyniku API `ae2cfb7bda28b58e20bd31976e1f399174c9eab564f5b98c192f2464ecf3bcf4`. Nastepnie zastosowano nowy 1046 na tym zmodyfikowanym API; wynik `581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886` jest bajtowo identyczny ze swiezym patchem 1046. Zero zmian wykonywalnego Java, reapply noop i restore obu oryginalnych JAR PASS. Publiczny raport docs/UPGRADE_1046.json, powtarzalny test tools/private_upgrade_1046.py. Brak natywnego gameplay Windows.
 

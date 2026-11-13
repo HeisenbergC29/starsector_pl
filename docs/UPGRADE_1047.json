@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "version": "1.0.47",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "patched_api_1046_sha256": "581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886",
+  "patched_api_1047_sha256": "98cc36aec4aa87e37717082469704f973ad7a91f51b7d0222a10a18770e2a277",
+  "api_classes_modified_from_original": 938,
+  "obf_classes_modified_from_original": 539,
+  "class_files_changed_from_1046_to_1047": 11,
+  "approved_numeric_text_translations_updated": 14,
+  "all_class_executable_sections_identical": true,
+  "upgrade_output_identical_to_fresh_install": true,
+  "same_version_reapply_noop": "PASS",
+  "tampered_zip_header_rejected_unchanged": "PASS",
+  "both_original_jars_restored_exactly": "PASS",
+  "native_windows_gameplay_tested": false,
+  "commercial_jar_bytes_published": false
+}

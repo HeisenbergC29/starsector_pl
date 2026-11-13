@@ -1,0 +1,108 @@
+{
+  "version": "1.0.47",
+  "corrected_api_rows": 14,
+  "changed_class_count": 11,
+  "api_map_rows": 5260,
+  "new_api_map_sha256": "9a36861c53e6508f8082a1a2b845e36e6c5d76f44dd1918b3b8e151ae06eaebd",
+  "data_file_changes": 0,
+  "review": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_sha256": "f23706f9b3db6660526297aa470ac17be5ec0cb74903078a6f9fc18862487fb3",
+      "old_polish_sha256": "51a5866b040e2fe095029e7c0718cf34f8a66647aedd3da40a4e2102f7c3020b",
+      "new_polish_sha256": "16b1d1b8ca23d8f74a305c91aa653c2ef906a04b23e6936b0ebac19c585ef55b",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_sha256": "725d20ad7e7a9f40e1e3f842d79a4c60cded61b8ce1ea05871bbca1e2e012083",
+      "old_polish_sha256": "2fa0c416ef169314e54a82cbe3d1eec4fec86fd4974c802c1312f7e30c4356b5",
+      "new_polish_sha256": "0d0cc5deef7ea5a121cf42a38be68dad69262feb570e3936a0ca5e5d847003c3",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_sha256": "43cf43303acdaf89a80e7432987480c46100e45d9faf41ce801845deb69064b9",
+      "old_polish_sha256": "1dbbe32f336468932195c2578d635c0dcc5dc7c192a87b564c2e46844c794dd6",
+      "new_polish_sha256": "4e834b10345c1f6fb4cb02eee8e612946f283533ca1484726d78f031a46c35f7",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.ItemEffectsRepo$1$2",
+      "english_sha256": "e18d106f7e8bf3c9ae51fdf22b1a70397057cef606b236cc8314a114f15ed54c",
+      "old_polish_sha256": "189350f2ca3600df713aff9b2db20bfb36e5b29a72b28ab346f46ae4a2e11939",
+      "new_polish_sha256": "fd97fed7bf6dea646f8af76460a699d02bf4e23ae9dda1da8430674676458f8a",
+      "source_status": "OFFLINE_VERIFIED_OPTIONAL_PATCH"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.Cryorevival",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.PlanetaryShield",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.TechMining",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.TradeCenter",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.Waystation",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "3b3ce461a6bbea50b8f3ba14f39dea65b1febb2fed63877f2ea85c41eec19037",
+      "new_polish_sha256": "d77baa0870d2d43146ec8038ec26cf4b7056000fcbb5190099ef55926e9d45ed",
+      "source_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "old_polish_sha256": "28eaa5e35b6005203697afaecb96675affb426693a43dc23f8b392b240e19c30",
+      "new_polish_sha256": "05b64ccb1f0a1b5a70cd71eb8bcc07a0f94995cae1bc9e4b155093dc1b9ca151",
+      "source_status": "MANUAL_UI_LITERAL_1003"
+    }
+  ]
+}

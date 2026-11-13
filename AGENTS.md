@@ -1,6 +1,6 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.46** (snapshot 1.0.12 + overlaye 1013–1046; OBF 3534/539 klas bez zmian, API 5260 wpisow mapy, 13 poprawek i 3 nowe literały w 8 klasach, 870 plikow danych bez zmian).
+**Aktualny stan roboczy: 1.0.47** (snapshot 1.0.12 + overlaye 1013–1047; OBF 3534/539 klas nietkniete, API 5260 map/5258 podmian w 938 klasach, 14 korekt w 11 klasach; 870 danych identyczne do 1.0.46).
 
 **1.0.44:** 25 dodatkowych wierszy rules.csv, 30 zmian i 31 usunietych problematycznych zmiennych plciowych. Lacznie 209 rekordow i 327 referencji skontrolowanych offline. Mapy OBF/API bez zmian; 186 getterow Java, 3536 historycznych API oraz testy Windows nadal otwarte. Szczegoly `docs/RELEASE_1044.md`.
 
@@ -9,6 +9,8 @@
 **1.0.46:** 13 poprawionych i 3 nowe teksty Java API, oryginalne JVM 16/16 zweryfikowane offline; naprawione skladanie bilansu porzucenia kolonii (cost/payout + of %s). Dodatkowe 20 recenzji API podnosi liczniki 122->142 i zmniejsza zaleglosci 3536->3516. 186 getterow zaimkowych Java oraz natywne Windows pozostaja otwarte. Raport `docs/RELEASE_1046.md`.
 
 **Test prywatnych JAR 1.0.46:** na oryginalnych bibliotekach potwierdzono OBF 539 klas / 3534 literały, API 938 klas / 5258 literałów; zero zmian wykonywalnego kodu klas, fresh/noop/restore i uszkodzony ZIP PASS. Narzedzie `tools/private_jar_integration_1046.py`, raport `docs/JAR_INTEGRATION_1046.json`. To NIE jest test Windows UI. **Prawdziwy upgrade z 1.0.45 do 1.0.46: PASS**, wynik API bajtowo zgodny ze swieza instalacja, reapply noop, restore OBF/API; raport `docs/UPGRADE_1046.json`, reprodukcja `tools/private_upgrade_1046.py`. Natywny gameplay Windows nadal potrzebny.
+
+**1.0.47:** 14 korekt dynamicznych "jednostke" -> "jedn." w tekstach przemyslu kolonii, 11 klas Java API. Dodatkowo 38 zatwierdzonych kontekstow DRAFT/OPTIONAL (12 numerycznych, 26 opcji walki / 32 wywolania addOption); API offline review 180/3658, zostalo 3478. Oryginalne JVM potwierdza wspolne 'her' #143 w dwoch getterach - **nie podmieniac globalnie**; 186 getterow nadal do analizy. Test realnego upgrade 1.0.46 -> 1.0.47 na oryginalnych JAR PASS (11 poprawionych klas, brak zmian kodu metod, idempotencja, restore, odmowa na uszkodzonym ZIP). Szczegoly `docs/RELEASE_1047.md` i `docs/UPGRADE_1047.json`; gameplay Windows jeszcze nie testowano.
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 

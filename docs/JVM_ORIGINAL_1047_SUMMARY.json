@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "release": "1.0.47",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "corrected_numeric_english_literals_found": 14,
+  "original_battle_ui_option_labels_found": 26,
+  "checked_original_jvm_string_literals": 40,
+  "classes_with_original_constants": 12,
+  "option_panel_callsites_checked": 32,
+  "shared_her": {
+    "class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.BaseBarEventWithPerson",
+    "object_getter": "getHimOrHer",
+    "possessive_getter": "getHisOrHer",
+    "shared_original_constant_pool_index": 143,
+    "same_ldc_constant": true,
+    "plain_her_replacement_safe_for_both_grammatical_roles": false,
+    "getter_callsite_fix_status": "open_not_modified"
+  },
+  "checks": [
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_key_sha256": "f23706f9b3db6660526297aa470ac17be5ec0cb74903078a6f9fc18862487fb3"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_key_sha256": "725d20ad7e7a9f40e1e3f842d79a4c60cded61b8ce1ea05871bbca1e2e012083"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_key_sha256": "43cf43303acdaf89a80e7432987480c46100e45d9faf41ce801845deb69064b9"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.ItemEffectsRepo$1$2",
+      "english_key_sha256": "e18d106f7e8bf3c9ae51fdf22b1a70397057cef606b236cc8314a114f15ed54c"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.Cryorevival",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.PlanetaryShield",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.TechMining",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.TradeCenter",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.econ.impl.Waystation",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "ac68014fc181238892810d2dcf8cf0a7204b89c7a61e90eb1ea42e37576cf826"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "cbc815699ada2864012d7aa3621983932b7d8f705860587475ef00ff8f5029eb"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "ee63ee99ecbdeb7659797d72f5995e95064d0cd56f0467016ee89b2115d0f2cf"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "9245e1cfa9ff545edbff5bbc698d63d3bdbe6ad2132cbcefe05064fb7a2ada9c"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "c399a5dc4b269ab816037343ed7ad74805366f5bd10a67265a6690059790df8e"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "6250c88f2fe58e0498cca5b0e6395df4d7f0dba33706fb8a5c85ce3e0bba2543"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "7ebabde3cc14b2a5a4ceda6ab63fa96c01375dbb63fdc6fc97c8977f9375548f"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "e51b9804955278f024505393dc80734af95bee1e86c86615eff552fef4257ee3"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "193d63c053b6ec2256c721d1c701915c2a017ccbcfb5ce0887bf6a12c5e2ece1"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "87604ee651f76e8cdf48dfa71767010063ac3b8315ed90877d07056461305c0c"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "e65ea7703f3d862068501d5ceedc131feae048c376d32418a4c298a782b0d227"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "ce9de98d91c73072242a4caa01de9b847cd4952f374a391396452ad76314b3d6"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "0d24e4cf0b14ec94ec3b843ddd718637cb1315da9ec954005812af16cd871478"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "08716036df6629aff1a94002d596737ecf519b5f8155a48753899229f2a3658a"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "3589efd13ac157ffc20eb3f6e7430f09ca296492b09e29e8319f5139d0d09867"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "55815998aa4199640597d75fadf639feb36674e2343ca5318c2dbcffb421f9aa"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "7a0cbb1086306aa10547efd6b0600493f16bcc70271b06c1e0ae4f4668a9cfea"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "4b7902a3a7a1ddf1418ad98065b2c006fba8440784ecf1d6235da041efbfa863"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "bcd671e57fca81926288389eefd2c7946e6d9952fa21d4312f0c236a55de0bff"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "0d485a694bf597ee867bed144576d65665976710941bdf578c9b2049ab1e7ad5"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "de5045e5ed877e4f03f8d20378ae4fc71116cbd0ba95359d2352dc7bdfd1550b"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "fc575faf02a233215dcedb0b3877bc77de7d2e38a2cfc3f8826d6dba39b5db0c"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "b03daea8f7f4d176a94954b46800774d346ad0feaf55de7ee25e265758398703"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "a24023c32989fc135cda8bc91581d9f60cab4a2f22548145333f6fd6d9a37647"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "c089807f7a724421da4b223159712c1ce5d5c9def2376ded34f065ed58d8043d"
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_key_sha256": "f5a858c006240be073708148bef55a70ceb4e9170549794e74bd279f6ef262f8"
+    }
+  ],
+  "battle_option_evidence": [
+    {
+      "english_key_sha256": "ac68014fc181238892810d2dcf8cf0a7204b89c7a61e90eb1ea42e37576cf826",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "cbc815699ada2864012d7aa3621983932b7d8f705860587475ef00ff8f5029eb",
+      "original_jvm_add_option_calls": 2,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "ee63ee99ecbdeb7659797d72f5995e95064d0cd56f0467016ee89b2115d0f2cf",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "9245e1cfa9ff545edbff5bbc698d63d3bdbe6ad2132cbcefe05064fb7a2ada9c",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "c399a5dc4b269ab816037343ed7ad74805366f5bd10a67265a6690059790df8e",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "6250c88f2fe58e0498cca5b0e6395df4d7f0dba33706fb8a5c85ce3e0bba2543",
+      "original_jvm_add_option_calls": 2,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "7ebabde3cc14b2a5a4ceda6ab63fa96c01375dbb63fdc6fc97c8977f9375548f",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "e51b9804955278f024505393dc80734af95bee1e86c86615eff552fef4257ee3",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "193d63c053b6ec2256c721d1c701915c2a017ccbcfb5ce0887bf6a12c5e2ece1",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "87604ee651f76e8cdf48dfa71767010063ac3b8315ed90877d07056461305c0c",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "e65ea7703f3d862068501d5ceedc131feae048c376d32418a4c298a782b0d227",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "ce9de98d91c73072242a4caa01de9b847cd4952f374a391396452ad76314b3d6",
+      "original_jvm_add_option_calls": 3,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "0d24e4cf0b14ec94ec3b843ddd718637cb1315da9ec954005812af16cd871478",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "08716036df6629aff1a94002d596737ecf519b5f8155a48753899229f2a3658a",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "3589efd13ac157ffc20eb3f6e7430f09ca296492b09e29e8319f5139d0d09867",
+      "original_jvm_add_option_calls": 2,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "55815998aa4199640597d75fadf639feb36674e2343ca5318c2dbcffb421f9aa",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "7a0cbb1086306aa10547efd6b0600493f16bcc70271b06c1e0ae4f4668a9cfea",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "4b7902a3a7a1ddf1418ad98065b2c006fba8440784ecf1d6235da041efbfa863",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "bcd671e57fca81926288389eefd2c7946e6d9952fa21d4312f0c236a55de0bff",
+      "original_jvm_add_option_calls": 2,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "0d485a694bf597ee867bed144576d65665976710941bdf578c9b2049ab1e7ad5",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "de5045e5ed877e4f03f8d20378ae4fc71116cbd0ba95359d2352dc7bdfd1550b",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "fc575faf02a233215dcedb0b3877bc77de7d2e38a2cfc3f8826d6dba39b5db0c",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "b03daea8f7f4d176a94954b46800774d346ad0feaf55de7ee25e265758398703",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "a24023c32989fc135cda8bc91581d9f60cab4a2f22548145333f6fd6d9a37647",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "c089807f7a724421da4b223159712c1ce5d5c9def2376ded34f065ed58d8043d",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    },
+    {
+      "english_key_sha256": "f5a858c006240be073708148bef55a70ceb4e9170549794e74bd279f6ef262f8",
+      "original_jvm_add_option_calls": 1,
+      "option_panel_callsite_verified": true
+    }
+  ],
+  "source": "private original JVM 0.98a-RC8, no in-game Windows run"
+}

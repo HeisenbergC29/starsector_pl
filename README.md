@@ -1,22 +1,26 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.46):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.47):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.46** (snapshot 1.0.12 + overlaye 1013–1046; OBF 3534 podmiany/539 klas bez zmian wzgledem 1.0.45; API 5260 wierszy mapy/5258 podmian w 938 klasach, 13 poprawek i 3 nowe literały w stosunku do 1.0.45; wszystkie 870 plikow danych identyczne z 1.0.45). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.47** (snapshot 1.0.12 + overlaye 1013–1047; OBF 3534 podmiany / 539 klas nietkniete, API 5260 map/5258 podmian w 938 klasach, 14 korekt numerycznych; 870 plikow data identyczne jak 1.0.46). Cel 1.1 OTWARTY.
 
 ## Etap 1.0.45
 
 [Raport i reprodukcja](docs/RELEASE_1045.md): 44 wiersze rules.csv, 80 poprawek, 93 usuniete zmienne plciowe; lacznie 253 rekordy i 420 usunietych referencji. [Audyt surowych zmiennych](docs/PRONOUN_AUDIT_1045.json): 2275 wystapien w 1139 rekordach do dalszej oceny. Mapy Java bez zmian. Brak gameplay Windows, 1.1 nieukonczona.
 
-## Najnowszy etap 1.0.46
+## Etap 1.0.46
 
 **Prawdziwy upgrade 1.0.45 -> 1.0.46:** API ze spatchowanej biblioteki 1.0.45 zostal zaktualizowany, a wynik jest bajtowo identyczny ze swieza instalacja 1.0.46. Zachowano wykonywalny kod Java, przywracanie oryginalow i idempotencje. [Powtarzalny raport testu](docs/UPGRADE_1046.json). Natywnej gry Windows jeszcze nie sprawdzono.
 
 **Dodatkowo potwierdzono na oryginalnych komercyjnych JAR u wlasciciela:** fresh patch OBF 539 klas/API 938 klas, 0 zmian instrukcji metod Java, idempotencja, restore i odmowa na uszkodzonym ZIP — PASS. Publiczne liczniki w [docs/JAR_INTEGRATION_1046.json](docs/JAR_INTEGRATION_1046.json). Same oryginaly nie sa publikowane.
 
 [Raport i reprodukcja](docs/RELEASE_1046.md): 13 poprawek i 3 nowe literalne tłumaczenia API w 8 klasach, naprawa skladanych tekstow rozliczenia kolonii, dynamiczna odmiana czasu i kredytow. 20 nowych semantycznych recenzji API, lacznie 142/3658 offline; 3516 pozostaje otwarte. 870 danych gry nietknietych. Brak natywnego testu Windows, wersja 1.1 nadal NIE jest gotowa.
+
+## Najnowszy etap 1.0.47
+
+[Raport](docs/RELEASE_1047.md): 14 poprawek tekstow jednostek w interfejsie gospodarki kolonii (11 klas API), bez zmian kodu Java i 870 plikow data. [Audyt JVM](docs/JVM_ORIGINAL_1047_SUMMARY.json): 26 etykiet opcji interfejsu walki z 32 wywolaniami addOption, problem wspolnej stalej 'her' #143 nadal OTWARTY. [Test aktualizacji](docs/UPGRADE_1047.json): 1.0.46 -> 1.0.47, fresh=upgrade, idempotencja, odmowa uszkodzonego ZIP i restore PASS. 38 nowych historycznych recenzji, 180/3658 API offline, 3478 pozostaje. Natywny gameplay Windows nieprzetestowany.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
