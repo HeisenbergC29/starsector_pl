@@ -2,6 +2,9 @@
 
 **Wydanie robocze 1.0.46. Cel 1.1 nadal otwarty.**
 
+**Upgrade 1.0.45 -> 1.0.46 na rzeczywistych prywatnych JAR: PASS.** Z kodu zrodlowego historycznego patchera 1042 odtworzono identyczny SHA wyniku API `ae2cfb7bda28b58e20bd31976e1f399174c9eab564f5b98c192f2464ecf3bcf4`. Nastepnie zastosowano nowy 1046 na tym zmodyfikowanym API; wynik `581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886` jest bajtowo identyczny ze swiezym patchem 1046. Zero zmian wykonywalnego Java, reapply noop i restore obu oryginalnych JAR PASS. Publiczny raport docs/UPGRADE_1046.json, powtarzalny test tools/private_upgrade_1046.py. Brak natywnego gameplay Windows.
+
+
 **Rzeczywisty test JAR 1.0.46:** oryginalne OBF/API 0.98a-RC8 zostaly zmodyfikowane natywnymi patcherami Go Linux z CI. OBF: 539 klas / 3534 trafienia, API: 938 klas / 5258 trafien. Wszystkie zmienione klasy zachowaly wykonywalny bajtkod, jedynie literały constant pool i manifest OBF zmienione. Fresh PASS, ponowne zastosowanie noop PASS, uszkodzona metadana ZIP odmowa PASS, restore obu SHA oryginalow PASS. API patched SHA `581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886`. `docs/JAR_INTEGRATION_1046.json`; natywna Windows/gra nadal nietestowana.
 
 

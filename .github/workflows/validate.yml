@@ -287,7 +287,7 @@ jobs:
           retention-days: 1
           if-no-files-found: error
       - name: Validate private-JAR regression script is importable
-        run: python3 -m py_compile tools/private_jar_integration_1046.py
+        run: python3 -m py_compile tools/private_jar_integration_1046.py tools/private_upgrade_1046.py
       - name: Export temporary API patcher sources for historical upgrade verification
         uses: actions/upload-artifact@v4
         with:

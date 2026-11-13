@@ -1,0 +1,11 @@
+{
+  "upgrade": "1.0.45/API 1042 -> 1.0.46/API 1046",
+  "old_api_sha256": "ae2cfb7bda28b58e20bd31976e1f399174c9eab564f5b98c192f2464ecf3bcf4",
+  "upgraded_api_sha256": "581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886",
+  "fresh_and_upgraded_jars_identical": true,
+  "patched_java_executable_code_unchanged": true,
+  "changed_api_classes": 938,
+  "reapply_noop": true,
+  "restored_both_original_jars": true,
+  "private_jar_data_published": false
+}

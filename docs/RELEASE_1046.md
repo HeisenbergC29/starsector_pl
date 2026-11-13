@@ -87,4 +87,27 @@ Build na GitHubie nie zawiera oryginalnych komercyjnych JAR. Sam cross-build Win
 
 - OBF po patchowaniu SHA-256: `03729bc8e6ad0100ce4d0f7bf2f71bc198f917ff9e1b2fa5f9dacf4f35960a7a`.
 - API po patchowaniu 1.0.46 SHA-256: `581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886`.
-- Wymagana nadal dodatkowa weryfikacja **prawdziwej aktualizacji z juz spatchowanego 1.0.45**, a takze test uruchomionej gry Windows. Sam test Linux nie potwierdza wygladu polskich tekstow w grze.
+- Prawdziwa aktualizacja API 1.0.45 -> 1.0.46 zostala dodatkowo wykonana i potwierdzona ponizej. Nadal potrzebny test uruchomionej gry Windows. Sam test Linux nie potwierdza wygladu polskich tekstow w grze.
+
+## Prawdziwy upgrade 1.0.45 -> 1.0.46 na oryginalnych bibliotekach
+
+**Wykonany, wynik PASS.** Narzedzie `tools/private_upgrade_1046.py` buduje historyczny patcher API 1042 z odtworzonych zrodel (po weryfikacji oryginalnego SHA 1042 kodu Go), tworzy faktycznie spatchowany stan API 1.0.45 i stosuje na nim nowy patcher 1046. Wszystkie operacje odbywaja sie na tymczasowych kopiach prywatnych oryginalow; pelne JAR-y nie trafiaja do repo.
+
+- Historyczny wynik API z 1.0.45 odtworzony bajtowo: `ae2cfb7bda28b58e20bd31976e1f399174c9eab564f5b98c192f2464ecf3bcf4`.
+- Wynik rzeczywistej aktualizacji jest **bajtowo identyczny** ze swieza instalacja API 1.0.46: `581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886`.
+- Zmieniono 938 klas API, lecz nie zmieniono wykonywalnych instrukcji Java; ponowne zastosowanie 1.0.46 jest no-op; przywracanie obu oryginalnych JAR zachowuje oryginalne SHA.
+- Publiczny raport `docs/UPGRADE_1046.json` zawiera wylacznie liczniki i sumy kontrolne, bez oryginalnych plikow ani prywatnych sciezek.
+
+Po standardowym odtworzeniu `worktree` 1.0.46 z publicznego GitHuba i zbudowaniu testowych patcherow Linux:
+
+```bash
+python3 tools/private_upgrade_1046.py \
+  --api-source worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO \
+  --latest-api /prywatne/api_linux_1046 \
+  --latest-obf /prywatne/obf_linux_1046 \
+  --original-api /prywatne/starfarer.api.jar \
+  --original-obf /prywatne/starfarer_obf.jar \
+  --out /prywatne/UPGRADE_1046.json
+```
+
+**Nadal nie wykonano natywnego testu gry na Windows. 1.1 pozostaje otwarta.**

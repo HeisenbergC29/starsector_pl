@@ -8,7 +8,7 @@
 
 **1.0.46:** 13 poprawionych i 3 nowe teksty Java API, oryginalne JVM 16/16 zweryfikowane offline; naprawione skladanie bilansu porzucenia kolonii (cost/payout + of %s). Dodatkowe 20 recenzji API podnosi liczniki 122->142 i zmniejsza zaleglosci 3536->3516. 186 getterow zaimkowych Java oraz natywne Windows pozostaja otwarte. Raport `docs/RELEASE_1046.md`.
 
-**Test prywatnych JAR 1.0.46:** na oryginalnych bibliotekach potwierdzono OBF 539 klas / 3534 literały, API 938 klas / 5258 literałów; zero zmian wykonywalnego kodu klas, fresh/noop/restore i uszkodzony ZIP PASS. Narzedzie `tools/private_jar_integration_1046.py`, raport `docs/JAR_INTEGRATION_1046.json`. To NIE jest test Windows UI. Prawdziwa aktualizacja z 1.0.45 wymaga jeszcze osobnego sprawdzenia.
+**Test prywatnych JAR 1.0.46:** na oryginalnych bibliotekach potwierdzono OBF 539 klas / 3534 literały, API 938 klas / 5258 literałów; zero zmian wykonywalnego kodu klas, fresh/noop/restore i uszkodzony ZIP PASS. Narzedzie `tools/private_jar_integration_1046.py`, raport `docs/JAR_INTEGRATION_1046.json`. To NIE jest test Windows UI. **Prawdziwy upgrade z 1.0.45 do 1.0.46: PASS**, wynik API bajtowo zgodny ze swieza instalacja, reapply noop, restore OBF/API; raport `docs/UPGRADE_1046.json`, reprodukcja `tools/private_upgrade_1046.py`. Natywny gameplay Windows nadal potrzebny.
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 
