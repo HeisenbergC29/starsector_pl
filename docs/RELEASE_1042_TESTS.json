@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "version": "1.0.42",
+  "date": "2026-11-13",
+  "test_result": {
+    "15_exact_only_map_delta": "PASS",
+    "no_double_periods_in_5257_API_translations": "PASS",
+    "14_negative_map_tests": "PASS",
+    "14_negative_release_gate_tests": "PASS",
+    "7371_dialogue_options": "PASS",
+    "0_dialogue_option_errors": "PASS",
+    "870_data_files_unchanged_vs_1041": "PASS",
+    "original_and_patched_api_jar_full_class_proof": "PASS",
+    "5255_API_edited_constants_in_938_classes": "PASS",
+    "all_executable_class_bytes_untouched": "PASS",
+    "fresh_install_vs_real_1041_upgrade_bit_identical": "PASS",
+    "same_version_reapply_does_not_modify_JAR": "PASS",
+    "restore_returns_identical_original_sha256": "PASS",
+    "tampered_JAR_ZIP_metadata_rejected_without_write": "PASS",
+    "original_backup_untouched_on_tampered_JAR": "PASS",
+    "Go_test_and_vet_3_components": "PASS",
+    "Windows_x64_PE32_plus_3_EXEs": "PASS",
+    "actual_installer_embeds_exact_compiled_OBF_and_API_exes": "PASS",
+    "ZIP_873_entries_CRC": "PASS"
+  },
+  "original_API_SHA256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "patched_API_SHA256": "ae2cfb7bda28b58e20bd31976e1f399174c9eab564f5b98c192f2464ecf3bcf4",
+  "package_SHA256": "514129a508e2e39851c569170ba21bd5aa93d2c02e1f4dddafc145f8aa3f027d",
+  "package_bytes": 16468322,
+  "native_windows_gameplay_tested": false,
+  "JAR_tests_require_private_original_files": true
+}

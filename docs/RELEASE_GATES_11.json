@@ -43,21 +43,30 @@
     {
       "id": "numeric_quantities",
       "status": "in_progress",
-      "source": "tools/verify_1041.py: 77 active numeric quantity literals made grammar-neutral; not equivalent to full semantic review",
+      "source": "tools/verify_1041.py: 77 active numeric quantity literals made grammar-neutral; not equivalent to full semantic review Maintained unchanged after 1.0.42 punctuation-only adjustment.",
       "source_version": "1.0.41",
       "reviewed_offline": 77,
       "pending_windows_ui": 77,
       "review_sha256": "8edfe27a4ce166d1dad5be44555ccdd13346b7f48c97013051be4321ea30456f"
     },
     {
+      "id": "punctuation_regression",
+      "status": "in_progress",
+      "source": "tools/verify_1042.py; 15 exact original JVM strings fixed; two dots after abbreviation removed, no other changes. This is not in-game verification.",
+      "reviewed_offline": 15,
+      "pending_windows_ui": 15,
+      "source_version": "1.0.42",
+      "plan_sha256": "fc7bf29cfc7f327342060c7a6eb36f3662d72d2cd097431c6141c9b32ff2a761"
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1041.md: numeric inflection checked; remaining mission strings, pronouns and contextual UI audit still open"
+      "source": "1.0.42 repairs 15 double dots introduced in 1.0.41; full context coverage still open."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1041.md: cross-compiled Windows x64 executables, no native gameplay test",
+      "source": "1.0.42 CI crossbuild and offline bytecode tests are not native Windows gameplay; 15 new punctuation fixes require actual UI confirmation.",
       "native_gameplay_tested": false
     }
   ]

@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.41):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.42):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.41** (snapshot 1.0.12 + overlaye 1013–1041; OBF 3534 podmiany/539 klas bez zmian; API 5257 mapowanych wierszy/5255 trafien w 938 klasach, 77 korekt ilosciowych w 59 klasach; 870 danych identycznych z 1.0.40). Pelna 1.1 nadal OTWARTA.
+**Aktualny stan roboczy: 1.0.42** (snapshot 1.0.12 + overlaye 1013–1042; OBF 3534 podmiany/539 klas bez zmian, API 5257 map/5255 rzeczywistych podmian w 938 klasach; 870 danych identycznych z 1.0.41). Cel 1.1 nadal OTWARTY.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -139,3 +139,7 @@ W `data/campaign/rules.csv` poprawiono 62 wiersze i 68 fragmentow, eliminujac **
 **77 aktywnych poprawek API w 59 klasach**, wyłącznie w tłumaczonych tekstach z numerycznym `%s`: 40 × `jednostek` → `jedn.`, 25 × `punktow` → `pkt`, 12 × `lat swietlnych` → `l. sw.`. Znaczniki, identyfikatory i bajtkod Java są bez zmian. Te korekty gramatyczne NIE oznaczają pełnej recenzji semantycznej 77 zdań. Dodatkowo poprawiono patcher API: już zainstalowany JAR o zmodyfikowanych bajtach nagłówka ZIP nie jest uznawany za prawidłową kopię na podstawie identycznej rozpakowanej zawartości. Test integracyjny potwierdza odmowę bez nadpisania archiwum lub kopii zapasowej. [Raport](docs/RELEASE_1041.md), [metryki](docs/NUMERIC_1041_SUMMARY.json), [bramki 1.1](docs/RELEASE_GATES_11.json).
 
 **Uwaga wydawnicza:** nieaktualny ZIP o SHA `81cee23f...` zawierał wcześniejszą kompilację instalatora. Poprawna, końcowa paczka 1.0.41 ma SHA **`ca780e8d6ca4e3ccbfba385c94d7508f25c58c4c3e740b5023d0fa902ef4e2d1`**, 16 256 610 bajtów, 873 wpisy; zaktualizowany EXE zweryfikowano bezpośrednio wewnątrz ZIP. Nadal brak native Windows gameplay test.
+
+## Wydanie 1.0.42 — poprawiono 15 bledow interpunkcji z 1.0.41
+
+Wykryto **15** podwojnych kropek w tekstach API po wprowadzeniu skrotow liczbowych 1.0.41: 11 `%s jedn..` i 4 `%s l. sw..`. Poprawiono je w 15 klasach na `%s jedn.` i `%s l. sw.` bez dotykania innych map, statusow, technicznych ID i kodu Java. Audyt calej mapy **5257** tekstow: zero podobnych podwojnych kropek; 5255 podmian JVM w 938 klasach, zero zmian wykonywalnego bajtkodu. Prawdziwy upgrade 1.0.41->1.0.42 i fresh daja identyczny SHA; backup/restore, uszkodzony ZIP, 14 negatywnych map + 14 bramek, Go test/vet i Windows x64 build PASS offline. Ponadto ZIP 1.0.42 sprawdza bajtowo, czy oba patchery sa faktycznie osadzone w instalatorze (zapobiega regresji z nieaktualnym EXE). 870 danych bez zmian; nadal nie testowano na dzialajacym Windows. [Raport](docs/RELEASE_1042.md), [dokladne liczniki](docs/PUNCTUATION_1042_SUMMARY.json), [bramki 1.1](docs/RELEASE_GATES_11.json).

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "version": "1.0.42",
+  "game_version": "0.98a-RC8",
+  "scope": "fix only sentence-ending abbreviation double periods introduced by version 1.0.41",
+  "source_map": "TLUMACZENIA_JAR_1041.csv",
+  "destination_map": "TLUMACZENIA_JAR_1042.csv",
+  "map_rows": 5257,
+  "affected_class_scoped_texts": 15,
+  "affected_classes": 15,
+  "replacements": {
+    "unit_duplicate_period": 11,
+    "light_year_duplicate_period": 4
+  },
+  "exact_plan_sha256": "fc7bf29cfc7f327342060c7a6eb36f3662d72d2cd097431c6141c9b32ff2a761",
+  "double_period_translation_entries_remaining": 0,
+  "mod_data_files_unchanged": 870,
+  "api_jar_patched_sha256": "ae2cfb7bda28b58e20bd31976e1f399174c9eab564f5b98c192f2464ecf3bcf4",
+  "api_jar_string_patches": 5255,
+  "api_jar_classes_modified": 938,
+  "executable_java_code_changed": false,
+  "fully_verified_offline": true,
+  "native_windows_gameplay_tested": false
+}
