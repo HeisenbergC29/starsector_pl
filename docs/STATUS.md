@@ -2,6 +2,9 @@
 
 **Wydanie robocze 1.0.46. Cel 1.1 nadal otwarty.**
 
+**Rzeczywisty test JAR 1.0.46:** oryginalne OBF/API 0.98a-RC8 zostaly zmodyfikowane natywnymi patcherami Go Linux z CI. OBF: 539 klas / 3534 trafienia, API: 938 klas / 5258 trafien. Wszystkie zmienione klasy zachowaly wykonywalny bajtkod, jedynie literały constant pool i manifest OBF zmienione. Fresh PASS, ponowne zastosowanie noop PASS, uszkodzona metadana ZIP odmowa PASS, restore obu SHA oryginalow PASS. API patched SHA `581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886`. `docs/JAR_INTEGRATION_1046.json`; natywna Windows/gra nadal nietestowana.
+
+
 **1.0.46 (2026-11-13):** 13 korekt API oraz 3 nowe literały dynamicznego bilansu porzucania kolonii w 8 klasach; API 5260 wierszy mapy, poprzednie 5257 zachowane w tej samej kolejnosci. Na oryginalnym JAR potwierdzono 16/16 literałów; 20 nowych kontekstowych recenzji API podnosi stan 122 do 142, pozostawiajac 3516/3658 historycznych bez recenzji. Dynamiczna odmiana czasu, stypendium, kredytow, podpowiedzi koloni i zapasu rakiet; 870 danych nietknietych, OBF niezmienione. Nowy SHA mapy `8c09fa12c41199e92008551cf89e86a30e59329531ad6ba40731c9d697a73a93`. Test rzeczywistego gameplay Windows nadal brak, 186 wywolan getterow Java nierozpatrzone. Raport `docs/RELEASE_1046.md`.
 
 

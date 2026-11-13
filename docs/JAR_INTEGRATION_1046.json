@@ -1,0 +1,26 @@
+{
+  "version": "1.0.46",
+  "fresh_install_results": [
+    {
+      "jar": "OBF",
+      "changed_classes": 539,
+      "patched_sha256": "03729bc8e6ad0100ce4d0f7bf2f71bc198f917ff9e1b2fa5f9dacf4f35960a7a",
+      "manifest_changes": 1,
+      "unchanged_entries": 2388,
+      "changed_cp_entries": 3534,
+      "appended_entries": 3520
+    },
+    {
+      "jar": "API",
+      "changed_classes": 938,
+      "patched_sha256": "581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886",
+      "unchanged_entries": 2602,
+      "changed_cp_entries": 5258,
+      "appended_entries": 5222
+    }
+  ],
+  "no_private_jar_redistributed": true,
+  "same_version_noop": "PASS",
+  "tampered_zip_metadata_refusal": "PASS",
+  "both_original_jars_restored_byte_identical": "PASS"
+}

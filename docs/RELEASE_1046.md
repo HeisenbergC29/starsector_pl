@@ -70,3 +70,21 @@ Build na GitHubie nie zawiera oryginalnych komercyjnych JAR. Sam cross-build Win
 - 3516 starszych tekstow API bez pelnej recenzji; 16 poprawionych/nowych tekstow 1.0.46 nadal do kontroli w grze.
 - 253 skorygowane w poprzednich etapach wiersze dialogow oraz 81 tekstow `PF`, 77 ilosci i 15 interpunkcji do natywnego UI Windows.
 - Brak pelnego audytu tekstow widocznych w grze i brak natywnej rozgrywki Windows; **nie wydawac jako 1.1**.
+
+## Oryginalne biblioteki gry: rzeczywisty test patchowania Linux 0.98a-RC8
+
+**Wykonano po pełnym CI**, używając zbudowanych przez GitHub Actions oryginalnych Go patcherow Linux i prywatnych JAR użytkownika o SHA dokumentacji. Narzedzie reprodukcji `tools/private_jar_integration_1046.py`; publiczny, nieidentyfikujacy raport `docs/JAR_INTEGRATION_1046.json`. Nie opublikowano zadnych bibliotek komercyjnych.
+
+| Weryfikacja | Wynik |
+|---|---|
+| Fresh instalacja OBF oraz API na **oryginalnych JAR** | PASS |
+| OBF: zmienionych klas | **539**, jedynie literały i manifest |
+| API: zmienionych klas | **938**, **5258** podmian stringow w constant pool |
+| Porownanie calej struktury klas po constant pool | **0 zmian bajtkodu wykonywalnego** |
+| Idempotencja: ponowne uruchomienie patcherow | PASS, wynikowy JAR bajt w bajt identyczny |
+| Celowo zmieniona metadana ZIP API bez zmiany skompresowanego payloadu | **Odrzucono** bez nadpisania pliku |
+| Przywracanie obu originalnych JAR | PASS, oryginalne SHA-256 bez zmian |
+
+- OBF po patchowaniu SHA-256: `03729bc8e6ad0100ce4d0f7bf2f71bc198f917ff9e1b2fa5f9dacf4f35960a7a`.
+- API po patchowaniu 1.0.46 SHA-256: `581ebc605139ccf9a35ebe3c191e495c4664a255714756577b16d4361741d886`.
+- Wymagana nadal dodatkowa weryfikacja **prawdziwej aktualizacji z juz spatchowanego 1.0.45**, a takze test uruchomionej gry Windows. Sam test Linux nie potwierdza wygladu polskich tekstow w grze.

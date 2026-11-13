@@ -12,6 +12,8 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 ## Najnowszy etap 1.0.46
 
+**Dodatkowo potwierdzono na oryginalnych komercyjnych JAR u wlasciciela:** fresh patch OBF 539 klas/API 938 klas, 0 zmian instrukcji metod Java, idempotencja, restore i odmowa na uszkodzonym ZIP — PASS. Publiczne liczniki w [docs/JAR_INTEGRATION_1046.json](docs/JAR_INTEGRATION_1046.json). Same oryginaly nie sa publikowane.
+
 [Raport i reprodukcja](docs/RELEASE_1046.md): 13 poprawek i 3 nowe literalne tłumaczenia API w 8 klasach, naprawa skladanych tekstow rozliczenia kolonii, dynamiczna odmiana czasu i kredytow. 20 nowych semantycznych recenzji API, lacznie 142/3658 offline; 3516 pozostaje otwarte. 870 danych gry nietknietych. Brak natywnego testu Windows, wersja 1.1 nadal NIE jest gotowa.
 
 ## Zacznij tutaj

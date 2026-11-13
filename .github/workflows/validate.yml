@@ -286,6 +286,15 @@ jobs:
             obf_linux_1046
           retention-days: 1
           if-no-files-found: error
+      - name: Validate private-JAR regression script is importable
+        run: python3 -m py_compile tools/private_jar_integration_1046.py
+      - name: Export temporary API patcher sources for historical upgrade verification
+        uses: actions/upload-artifact@v4
+        with:
+          name: Starsector_PL_1.0.46_API_source_for_private_upgrade
+          path: worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/
+          retention-days: 1
+          if-no-files-found: error
       - name: Package and CRC-check 1.0.46 minimal Windows installer
         run: python3 tools/package_1046.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.46_MINIMALNY.zip
       - name: Upload the 1.0.46 Windows package
