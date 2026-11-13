@@ -10,7 +10,7 @@ def sha(data):return hashlib.sha256(data).hexdigest()
 def package(root,out,prior=None):
  root=Path(root);out=Path(out)
  if out.exists():raise FileExistsError(out)
- validation=verify(root,previous_zip=prior)
+ validation=verify(root,reference_zip=prior)
  meta=json.loads((root/'mod/mod_info.json').read_text('utf8'))
  assert meta['version']=='1.0.44' and len(meta['replace'])==41
  inst=(root/'Starsector_PL_Instalator.exe').read_bytes()
