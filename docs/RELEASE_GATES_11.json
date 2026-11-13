@@ -33,13 +33,13 @@
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1048.json: 180 previously recorded reviews, 3 corrected already-reviewed with explicit prior hashes, 23 new historical DRAFT reviewed original JVM, 3 other previously marked verified non-DRAFT corrected. 3455 history rows remain without semantic review.",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1048.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1049.json: 203 immutable earlier reviews + 44 original-JVM-checked short UI literals + 5 corrected historical DRAFT/OPTIONAL entries. Offline only, 3406 remaining.",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1049.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 203,
-      "unresolved_count": 3455,
-      "gameplay_unverified_count": 3699,
-      "new_literal_count": 41
+      "reviewed_offline": 252,
+      "unresolved_count": 3406,
+      "gameplay_unverified_count": 3700,
+      "new_literal_count": 42
     },
     {
       "id": "rules_possessives",
@@ -110,14 +110,23 @@
       "pending_windows_ui": 29
     },
     {
+      "id": "api_grammar_1049",
+      "status": "in_progress",
+      "source": "tools/apply_1049.py, tools/verify_1049.py, docs/API_TEXT_CORRECTIONS_1049.json: 13 corrected class-scoped JVM text literals + 1 suffix s->empty in SalvorsTallyIntel; original JVM 6 ldc uses; native Windows not tested.",
+      "corrected_api_rows": 13,
+      "added_api_rows": 1,
+      "changed_classes": 7,
+      "pending_windows_ui": 14
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.48 corrected 29 dynamic numeric API sentences (credits, days, points, personnel, ships, seconds). 3455 historical API items remain unreviewed, 2275 raw gender tokens in 1139 rules.csv rows require context, full 1.1 remains unverified"
+      "source": "1.0.49: dynamic salvage plural suffix and 13 additional API contexts localized; 44 UI labels reviewed offline. 3406 historical API still require semantic reviews; 2275 raw gender placeholders in 1139 rules records and full 1.1 completeness remain unverified."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.48: 29 API quantity sentences + previous 14 economic sentences, 26 battle option captions, 253 rules rows, 81 story contexts and 219 getter sites require actual Windows UI verification",
+      "source": "1.0.49: new salvage/count contexts and 44 short reviewed UI labels plus all earlier text, 253 rules rows, 81 story contexts, and 219 JVM getter calls still need native Windows UI verification",
       "native_gameplay_tested": false
     }
   ]

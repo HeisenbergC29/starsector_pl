@@ -1,0 +1,13 @@
+{
+  "release": "1.0.49",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "original_obf_sha256": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8",
+  "prior_api_sha256": "65c308e455cdc2edadebab4af2a7ec1b6081c774826dd5e5074b7d5b6d12d1d7",
+  "fresh_api_sha256": "423fbd7c1afc5b1e0322c6c7c8aa64e0c4cfc84645cec37a92772a387bbdb9f6",
+  "upgraded_api_sha256": "423fbd7c1afc5b1e0322c6c7c8aa64e0c4cfc84645cec37a92772a387bbdb9f6",
+  "fresh_equals_upgrade": true,
+  "reapply_idempotent": true,
+  "corrupted_zip_metadata_rejected_unchanged": true,
+  "restore_exact_original_api": true,
+  "native_windows_gameplay_tested": false
+}

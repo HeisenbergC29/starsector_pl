@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.48. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.49. Cel 1.1 nadal otwarty.**
+
+**1.0.49 (2026-11-13):** 13 korekt tlumaczen JVM API i jedno nowe, class-scoped mapowanie `s` -> pusty string w `SalvorsTallyIntel` (angielska koncowka liczby mnogiej dopisywana do polskich tekstow). Patcher API: 5261 wpisow, 5259 realnych podmian, 938 klas; nowa mapa SHA `3ae9e6c3e8675139a9aa3bc91ca88f32fc2b65301f5b7657e8936c85d81c5420`. Na oryginalnym JVM zweryfikowano 58/58 literalow, 6 powiazan `s` (ldc #128), 7 zmienionych klas wzgledem 1.0.48, 0 zmian wykonywalnych instrukcji Java. 54 podstawienia liczb i 8 negatywnych testow map PASS; 8 testow falszywego domkniecia 1.1 PASS. Rejestr API: 203 + 44 nowe recenzje UI + 5 poprawionych historycznych = **252/3658**, do zrecenzowania 3406. Rzeczywisty upgrade 1.0.48->1.0.49 oryginalnego API JAR: PASS, fresh=upgrade, no-op, odmowa ZIP tamper, restore; API SHA `423fbd7c1afc5b1e0322c6c7c8aa64e0c4cfc84645cec37a92772a387bbdb9f6`. 870 danych oraz OBF bez zmian. Kolizja `her` i 186 JVM getterow nadal otwarte; natywnej rozgrywki Windows NIE przetestowano. Szczegoly `docs/RELEASE_1049.md`.
+
+
 
 **1.0.48 (2026-11-13):** 29 precyzyjnych korekt fraz z dynamicznymi liczbami w API (19 klas, 5260 wierszy mapy bez zmian klas/kluczy/statusow; OBF i 870 data bez zmian). Nowy SHA mapy `2f85b133be0d3087321d16dd71080f5214cf9e2932cc60381ecbab521b273289`. Oryginalny JVM: 29/29 literalow, 19 klas, shared 'her' nadal kolizja. 87 symulacji liczb 1/2/5 i 8 celowych regresji: PASS. 23 nowe recenzje historycznych DRAFT, 3 istniejace recenzje zaktualizowane i 3 nie-DRAFT skorygowane; 203/3658, do zrecenzowania 3455. **Prawdziwy upgrade 1.0.47->1.0.48** na komercyjnych oryginalnych JAR PASS (19 klas miedzy wydaniami, zero zmian metod JVM, swieza instalacja=upgrade, no-op, ZIP tamper refused, restore). Wynik API SHA `65c308e455cdc2edadebab4af2a7ec1b6081c774826dd5e5074b7d5b6d12d1d7`. 186 getterow nierozpatrzonych, natywna gra Windows NIE testowana. Raport `docs/RELEASE_1048.md`.
 

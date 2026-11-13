@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target_version": "1.1",
+  "gates": [
+    {
+      "id": "story_contexts",
+      "status": "in_progress",
+      "source": "tools/verify_story_1033.py: 81/81 static JVM contexts localized to PF offline; visually unverified on Windows",
+      "unresolved_count": 0,
+      "reviewed_offline": 81,
+      "pending_windows_ui": 81
+    },
+    {
+      "id": "pronoun_contexts",
+      "status": "blocked",
+      "source": "1.0.45: 44 reviewed text-only rules.csv rows, 80 fixes, 93 removed gender placeholders; 186 unreviewed JVM get-calls not modified",
+      "unresolved_count": 186,
+      "reviewed_rules_rows_offline": 253,
+      "removed_visible_gender_variable_refs": 420,
+      "pending_windows_ui_rules_rows": 253,
+      "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
+      "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
+      "latest_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1045.json",
+      "total_jvm_getter_calls": 219,
+      "reviewed_reflexive_calls_offline": 1,
+      "reviewed_subject_getter_calls_offline": 6,
+      "reviewed_historian_getter_calls_offline": 14,
+      "reviewed_base_get_commodity_man_or_woman_calls_offline": 12,
+      "pending_windows_ui_java_getter_calls": 219,
+      "shared_her_conflict_open": true,
+      "previous_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json"
+    },
+    {
+      "id": "draft_semantics",
+      "status": "blocked",
+      "source": "docs/API_SEMANTIC_REVIEW_1048.json: 180 previously recorded reviews, 3 corrected already-reviewed with explicit prior hashes, 23 new historical DRAFT reviewed original JVM, 3 other previously marked verified non-DRAFT corrected. 3455 history rows remain without semantic review.",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1048.json",
+      "total_draft_rows": 3658,
+      "reviewed_offline": 203,
+      "unresolved_count": 3455,
+      "gameplay_unverified_count": 3699,
+      "new_literal_count": 41
+    },
+    {
+      "id": "rules_possessives",
+      "status": "in_progress",
+      "source": "tools/apply_1043.py, tools/verify_1043.py; 31 text-only CSV rows and 36 grammatical possessive noun phrases verified offline, Windows not tested",
+      "reviewed_offline": 36,
+      "reviewed_rows_offline": 31,
+      "pending_windows_ui": 36
+    },
+    {
+      "id": "rules_gender_neutral_1044",
+      "status": "in_progress",
+      "source": "tools/apply_1044.py, tools/verify_1044.py, docs/RULES_GENDER_REVIEW_1044.json: 25 gender-neutral rules.csv rows, text-only offline",
+      "reviewed_rows_offline": 25,
+      "fragments_changed": 30,
+      "removed_visible_gender_variable_refs": 31,
+      "pending_windows_ui_rows": 25
+    },
+    {
+      "id": "rules_gender_neutral_1045",
+      "status": "in_progress",
+      "source": "tools/apply_1045.py, tools/verify_1045.py, docs/RULES_GENDER_REVIEW_1045.json; 44 records, 80 edits, 93 removed placeholders, offline only",
+      "reviewed_rows_offline": 44,
+      "fragments_changed": 80,
+      "removed_visible_gender_variable_refs": 93,
+      "pending_windows_ui_rows": 44
+    },
+    {
+      "id": "numeric_quantities",
+      "status": "in_progress",
+      "source": "tools/verify_1041.py: 77 active numeric quantity literals made grammar-neutral; not equivalent to full semantic review Maintained unchanged after 1.0.42 punctuation-only adjustment.",
+      "source_version": "1.0.41",
+      "reviewed_offline": 77,
+      "pending_windows_ui": 77,
+      "review_sha256": "8edfe27a4ce166d1dad5be44555ccdd13346b7f48c97013051be4321ea30456f"
+    },
+    {
+      "id": "punctuation_regression",
+      "status": "in_progress",
+      "source": "tools/verify_1042.py; 15 exact original JVM strings fixed; two dots after abbreviation removed, no other changes. This is not in-game verification.",
+      "reviewed_offline": 15,
+      "pending_windows_ui": 15,
+      "source_version": "1.0.42",
+      "plan_sha256": "fc7bf29cfc7f327342060c7a6eb36f3662d72d2cd097431c6141c9b32ff2a761"
+    },
+    {
+      "id": "api_contexts_1046",
+      "status": "in_progress",
+      "source": "tools/apply_1046.py / tools/verify_1046.py: 13 corrected API text literals plus 3 previously untranslated assembled-tooltip fragments in 8 classes; 16 original JVM constants verified offline, no native Windows gameplay",
+      "reviewed_offline": 16,
+      "pending_windows_ui": 16,
+      "changed_classes": 8
+    },
+    {
+      "id": "api_numeric_1047",
+      "status": "in_progress",
+      "source": "tools/apply_1047.py/verify_1047.py: 14 numeric economy UI literals in 11 classes fixed, original-JAR upgrade verified; no running Windows gameplay",
+      "corrected_api_rows": 14,
+      "changed_classes": 11,
+      "pending_windows_ui": 14
+    },
+    {
+      "id": "api_numeric_1048",
+      "status": "in_progress",
+      "source": "tools/apply_1048.py/verify_1048.py; 29 API numeric grammar corrections across 19 classes, original JVM and private original-JAR upgrade verified offline, native Windows still not tested",
+      "corrected_api_rows": 29,
+      "changed_classes": 19,
+      "pending_windows_ui": 29
+    },
+    {
+      "id": "text_completeness",
+      "status": "in_progress",
+      "source": "1.0.48 corrected 29 dynamic numeric API sentences (credits, days, points, personnel, ships, seconds). 3455 historical API items remain unreviewed, 2275 raw gender tokens in 1139 rules.csv rows require context, full 1.1 remains unverified"
+    },
+    {
+      "id": "windows_runtime",
+      "status": "blocked",
+      "source": "1.0.48: 29 API quantity sentences + previous 14 economic sentences, 26 battle option captions, 253 rules rows, 81 story contexts and 219 getter sites require actual Windows UI verification",
+      "native_gameplay_tested": false
+    }
+  ]
+}

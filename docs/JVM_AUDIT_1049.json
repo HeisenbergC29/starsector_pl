@@ -1,0 +1,20 @@
+{
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "patched_jar_sha256": "423fbd7c1afc5b1e0322c6c7c8aa64e0c4cfc84645cec37a92772a387bbdb9f6",
+  "verified_original_constant_strings": 58,
+  "patched_classes": 938,
+  "newly_changed_classes": 7,
+  "suffix_ldc_uses": 6,
+  "suffix_pl_translation": "",
+  "no_java_executable_code_changed": true,
+  "native_windows_gameplay_tested": false,
+  "changed_classes_from_1048": [
+    "com/fs/starfarer/api/impl/campaign/intel/events/ht/HyperspaceTopographyEventIntel.class",
+    "com/fs/starfarer/api/impl/campaign/intel/misc/HypershuntIntel.class",
+    "com/fs/starfarer/api/impl/campaign/intel/misc/SalvorsTallyIntel.class",
+    "com/fs/starfarer/api/impl/campaign/missions/CommodityProductionMission.class",
+    "com/fs/starfarer/api/impl/campaign/missions/RaidSecretOutpostMission.class",
+    "com/fs/starfarer/api/impl/campaign/missions/hub/BaseHubMission.class",
+    "com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD$2.class"
+  ]
+}

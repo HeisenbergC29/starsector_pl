@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "version": "1.0.49",
+  "basis": "Original starfarer.api.jar 0.98a-RC8, SHA a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "scope": "Only 44 isolated short UI literals; Polish ASCII wording reviewed offline, no native-game test",
+  "original_jvm_matches": 44,
+  "reviewed": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "english_literal": "Officer Promotion Candidate",
+      "row_sha256": "24dcb786fe94ea9cbb27c7c6a3dc59417cf748c4c1776c5e0aae8f9f5ddfc0ce",
+      "polish_ascii_reviewed": "Kandydat do awansu oficerskiego",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "english_literal": "Promote to ship command",
+      "row_sha256": "48716a9b6fbf1fdfef710bb71b04c5b8a49b96c2a6c9cc9b108ed91caf39a835",
+      "polish_ascii_reviewed": "Awansuj na dowodce okretu",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "english_literal": "Are you sure? This action can not be undone.",
+      "row_sha256": "eef32542a03f250c796d38e576f38d98d7308b0f56bd96186e153852cd3e569d",
+      "polish_ascii_reviewed": "Czy na pewno? Tej czynnosci nie mozna cofnac.",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "english_literal": "Promoted promising junior officer to ship command",
+      "row_sha256": "b08002f07183bafc7ab09c8c184e85c004dea5217643acbf2d519999b589efef",
+      "polish_ascii_reviewed": "Awansowano obiecujacego mlodszego oficera na dowodce okretu",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "Months remaining: %s",
+      "row_sha256": "ce211a0172728729155fe136d6afa1f5d4c4d06e26ffa9d77cd4cde1de1d9b7e",
+      "polish_ascii_reviewed": "Pozostale miesiace: %s",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "You are currently meeting the terms of the contract.",
+      "row_sha256": "13fc2ca2cbf67e5044686d9511204ca5b0ef548c3e46b7d85f957f2a466e4af7",
+      "polish_ascii_reviewed": "Obecnie spelniasz warunki kontraktu.",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "You are not currently meeting the terms of the contract.",
+      "row_sha256": "44f93c1a9f199267a3c6ce8b7a6a60ae371bd52ea850a1cb3ba578d14811291c",
+      "polish_ascii_reviewed": "Obecnie nie spelniasz warunkow kontraktu.",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "The contract is completed.",
+      "row_sha256": "99a0de4e89a6b7cebef044ff211811edb68efb22248ee92993cc4fe340ac8bd2",
+      "polish_ascii_reviewed": "Kontrakt zostal zrealizowany.",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "Receiving %s per month",
+      "row_sha256": "f180bc96cf32754449c59ad9eed532fcb7b8c3f786f044ebecf3fe810f1ee311",
+      "polish_ascii_reviewed": "Otrzymywanie %s miesiecznie",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "Terms of contract met",
+      "row_sha256": "0c1e3d762a427040ae1a09e7a2db80c3dd7e971c5d9354c0df504c60a4b79b6b",
+      "polish_ascii_reviewed": "Warunki kontraktu spelnione",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "Terms of contract not met",
+      "row_sha256": "0cba32cc52dd62f60c0a65b389b0f7f8bb9ff10367dbf7419271d6a480164e0b",
+      "polish_ascii_reviewed": "Warunki kontraktu niespelnione",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.NewMessagesIntel",
+      "english_literal": "New intel (%s)",
+      "row_sha256": "51d96a77639ba8f818157bd48698842be33f3c4aea4cb1935cd1ed4568d8dbb3",
+      "polish_ascii_reviewed": "Nowe informacje (%s)",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin",
+      "english_literal": "Base value: %s",
+      "row_sha256": "d4f05ef498be3f8a510fafe7615e04e9401085e015707af77c2f275f5079ad22",
+      "polish_ascii_reviewed": "Wartosc bazowa: %s",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin",
+      "english_literal": "Can not remove item",
+      "row_sha256": "1775275e5659beb24046e8b89684e90e6145802743597bc158a479ff3a72d9cd",
+      "polish_ascii_reviewed": "Nie mozna usunac przedmiotu",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.FighterBlueprintItemPlugin",
+      "english_literal": ": blueprint already known",
+      "row_sha256": "8576d2e8a98591f126bda61350f6cc53ccddf32b3d0084f70b0dc88b5754fb44",
+      "polish_ascii_reviewed": ": schemat juz znany",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.IndustryBlueprintItemPlugin",
+      "english_literal": ": blueprint already known",
+      "row_sha256": "afc18b7499b9e0c4c58381c6f332488dde3f1b7393e60851d655a1351dce1783",
+      "polish_ascii_reviewed": ": schemat juz znany",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.ModSpecItemPlugin",
+      "english_literal": ": already known",
+      "row_sha256": "791084850684481da2bb47cf97a6fa4ede898ec13fe35f3c388362a8af65d4c1",
+      "polish_ascii_reviewed": ": juz znane",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.ModSpecItemPlugin",
+      "english_literal": "Acquired hull mod: ",
+      "row_sha256": "1b0a3bfe093e846b1b792dbc3c2cc1745ce9d08c312e6c063cbb92762fb1df6b",
+      "polish_ascii_reviewed": "Pozyskana modyfikacja kadluba: ",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin",
+      "english_literal": "All blueprints in package already known",
+      "row_sha256": "a882ec3f88df95d657c58d47e059a193dca67efb00967aca2297b358e009ede9",
+      "polish_ascii_reviewed": "Wszystkie schematy w pakiecie sa juz znane",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.ShipBlueprintItemPlugin",
+      "english_literal": ": blueprint already known",
+      "row_sha256": "8fbc17ad6d733538d63fb9fdecbca328e0268c65fe4bf6bdcd559b6d10992908",
+      "polish_ascii_reviewed": ": schemat juz znany",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.WeaponBlueprintItemPlugin",
+      "english_literal": ": blueprint already known",
+      "row_sha256": "f2c4dd6dcc36d1d88d99ddaf98bd3b83184406e256d464479f72d3808fc95bd3",
+      "polish_ascii_reviewed": ": schemat juz znany",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.BaseCampaignObjectivePlugin",
+      "english_literal": "Disrupted by factory reset",
+      "row_sha256": "aadb0aadf04de8552d6cf6f4c068b763ab6b0614709c839f91e112963fe625b3",
+      "polish_ascii_reviewed": "Zaklocone przez przywrocenie ustawien fabrycznych",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CommRelayEntityPlugin",
+      "english_literal": "You have a comm sniffer running on this relay.",
+      "row_sha256": "60c6c1da3c58a02cd0a76ee6372817e190628c462a557df3f88a13548e9ab7ea",
+      "polish_ascii_reviewed": "Na tym przekazniku dziala twoje urzadzenie nasluchowe.",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CommRelayEntityPlugin",
+      "english_literal": "Comm sniffer installed",
+      "row_sha256": "3a835cc87b5a521ceb528f2168490760970a146306eb39990f53326dde7b95fc",
+      "polish_ascii_reviewed": "Zainstalowano urzadzenie nasluchowe",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CoreScript",
+      "english_literal": "Heavy Industry - Custom Production",
+      "row_sha256": "64aafcfa94ed76e0ff0ce0908c35e17d74f6d2b1796cf4df6fc229b27588666c",
+      "polish_ascii_reviewed": "Przemysl ciezki - produkcja na zamowienie",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CoreScript",
+      "english_literal": "Custom production orders",
+      "row_sha256": "9e1cb0aa9050fe643c8f25f5781c68817d7243ffd36e90508431b998bd7eaa4f",
+      "polish_ascii_reviewed": "Zamowienia produkcyjne",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CoreScript",
+      "english_literal": "Weapons & fighter LPCs for produced ships",
+      "row_sha256": "95e652684c0001e70cbca916667b79002c005d0779b3388c62f7d3c88a5508a7",
+      "polish_ascii_reviewed": "Uzbrojenie i schematy mysliwcow dla wyprodukowanych okretow",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.ExplosionEntityPlugin",
+      "english_literal": "Your fleet suffers damage from being caught in an explosion",
+      "row_sha256": "674d51b8cf09ff0d18c40d877f8a723c16817fad9c5b2f756c777c21d6ed78b1",
+      "polish_ascii_reviewed": "Twoja flota odnosi uszkodzenia wskutek eksplozji",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "Post engagement recovery",
+      "row_sha256": "085cf7cfaeca13ea51d0cc3dcedbe56df4972eef0910b43edf02549d22ffc79c",
+      "polish_ascii_reviewed": "Odzyskiwanie po starciu",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "harried while disengaging",
+      "row_sha256": "85432865665e1310021c0bb9d69a474e91166fd5cef381f63b6ca41fe7d27447",
+      "polish_ascii_reviewed": "ostrzelane podczas wycofywania",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "from losing s-modded ships",
+      "row_sha256": "c839608bbb19cf6d57c72455f132e3669412d524267446e7f17129c644e03770",
+      "polish_ascii_reviewed": "za utrate okretow z wbudowanymi modyfikacjami",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "wing deployed in combat",
+      "row_sha256": "8fef521b836b7c208fc53e61c9b40c31b8687d16de198bf4c359a5a233394f31",
+      "polish_ascii_reviewed": "skrzydlo wyslane do walki",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "retreated from lost engagement",
+      "row_sha256": "959f18ed0ff59ec619e4714b7aad927f652c1c315c43091f3ae3533ff898f387",
+      "polish_ascii_reviewed": "odwrot po przegranym starciu",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "deployed replacement chassis in combat",
+      "row_sha256": "5142574a92b8f1498654f4fc1fab30113fbe0eca629a63878ae496357bbe7a0e",
+      "polish_ascii_reviewed": "wyslanie zapasowych kadlubow podczas walki",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "hull damage sustained",
+      "row_sha256": "8c95e66708cf36f720b99bffd998f53cfa03c4a80274e0e93f45b13e671acb66",
+      "polish_ascii_reviewed": "odniesione uszkodzenia kadluba",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "weapon and engine damage sustained",
+      "row_sha256": "d1ce1f4571aa9b26784fd2be8d492eedc74eccea768b5fe4d0ca420813415e6f",
+      "polish_ascii_reviewed": "odniesione uszkodzenia broni i silnikow",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "english_literal": "missile weapons used in combat",
+      "row_sha256": "3936ddc7497855862dd9d887a2182156224cdd30b39c111e09394f7f6920eabb",
+      "polish_ascii_reviewed": "rakiety zuzyte podczas walki",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_literal": "You try to establish a comm link, but only get static.",
+      "row_sha256": "59e6893ddd0053c8e697b43ac66ea0d92307829ae627269c0537305df7f91807",
+      "polish_ascii_reviewed": "Probujesz nawiazac lacznosc, ale slyszysz tylko szum.",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_literal": "Select craft to send in pursuit",
+      "row_sha256": "dd327ed3f43d71267d1bf9305fef2f30ff8a659633836e890eee483fd92424f0",
+      "polish_ascii_reviewed": "Wybierz jednostki do poscigu",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_literal": "Select craft to crash-mothball",
+      "row_sha256": "83f55600e19c9cd538a5e9e3ffacb5b37baed7e767ce0167ae772db54e445570",
+      "polish_ascii_reviewed": "Wybierz jednostki do awaryjnego odstawienia",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_literal": "Select ships to recover",
+      "row_sha256": "9473ec33d6ad283af17f9e98f1e21a5de5ed025fb041948de63402329b6822ad",
+      "polish_ascii_reviewed": "Wybierz okrety do odzyskania",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_literal": "Select flagship for this engagement",
+      "row_sha256": "f79d603665520f7b7dfa92816a7b11c3b38eb76a62580675726bfec0f2d43903",
+      "polish_ascii_reviewed": "Wybierz okret flagowy do tego starcia",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_literal": "Pick through the wreckage",
+      "row_sha256": "ab700d3ce3b2fdd0b43307fa7d5dc6fbdc649acc510a6b7852c6dcfcf4b44f41",
+      "polish_ascii_reviewed": "Przeszukaj wraki",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "english_literal": "Additional XP due to overall battle difficulty: %s",
+      "row_sha256": "3e73724824098172b3ca8426058400a5a1ee39251ab8f2e9571ed2538ffc249a",
+      "polish_ascii_reviewed": "Dodatkowe PD za ogolny poziom trudnosci bitwy: %s",
+      "evidence": "exact_original_JVM_CONSTANT_String_single_match"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "version": "1.0.49",
+  "base_map_sha256": "2f85b133be0d3087321d16dd71080f5214cf9e2932cc60381ecbab521b273289",
+  "changes": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "Once these terms are met, you will receive %s per month for the next %s cycles, for a total of %s, as long as production is maintained.",
+      "previous_polish": "Po spelnieniu tych warunkow otrzymasz %s miesiecznie przez kolejne %s cykli, lacznie %s, pod warunkiem utrzymania produkcji.",
+      "new_polish": "Po spelnieniu tych warunkow otrzymasz %s miesiecznie. Liczba cykli: %s. Laczna wyplata: %s, pod warunkiem utrzymania produkcji.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "english_literal": "As long these terms are met, you will receive %s per month over %s cycles for a total payout of %s, assuming there is no interruption in production.",
+      "previous_polish": "Jesli warunki pozostana spelnione, bedziesz otrzymywac %s miesiecznie przez %s cykli, lacznie %s, o ile produkcja nie zostanie przerwana.",
+      "new_polish": "Jesli warunki pozostana spelnione, bedziesz otrzymywac %s miesiecznie. Liczba cykli: %s. Laczna wyplata: %s, o ile produkcja nie zostanie przerwana.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.HypershuntIntel",
+      "english_literal": "Allows colonies within %s light-years to build %s additional industry, provided they have a %s installed and have a steady supply of transplutonics.",
+      "previous_polish": "Pozwala koloniom w promieniu %s l. sw. zbudowac %s dodatkowy zaklad przemyslowy, jesli posiadaja zainstalowany %s i stale dostawy substancji transplutonowych.",
+      "new_polish": "Pozwala koloniom w promieniu %s l. sw. zwiekszyc liczbe zakladow przemyslowych o %s, jesli maja zainstalowany %s i stale dostawy substancji transplutonowych.",
+      "status": "OFFLINE_VERIFIED_OPTIONAL_PATCH",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.SalvorsTallyIntel",
+      "english_literal": "%s derelict ship",
+      "previous_polish": "%s porzucony okret",
+      "new_polish": "Wraki okretow: %s",
+      "status": "OFFLINE_VERIFIED_OPTIONAL_PATCH",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.SalvorsTallyIntel",
+      "english_literal": "%s orbital installation",
+      "previous_polish": "%s instalacja orbitalna",
+      "new_polish": "Instalacje orbitalne: %s",
+      "status": "OFFLINE_VERIFIED_OPTIONAL_PATCH",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.SalvorsTallyIntel",
+      "english_literal": "%s other source",
+      "previous_polish": "%s inne zrodlo",
+      "new_polish": "Inne miejsca odzysku: %s",
+      "status": "OFFLINE_VERIFIED_OPTIONAL_PATCH",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.SalvorsTallyIntel",
+      "english_literal": "%s unexplored debris field",
+      "previous_polish": "%s niezbadane pole szczatkow",
+      "new_polish": "Niezbadane pola szczatkow: %s",
+      "status": "OFFLINE_VERIFIED_OPTIONAL_PATCH",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.SalvorsTallyIntel",
+      "english_literal": "%s unexplored planetside ruin",
+      "previous_polish": "%s niezbadane ruiny na planecie",
+      "new_polish": "Niezbadane ruiny na planetach: %s",
+      "status": "OFFLINE_VERIFIED_OPTIONAL_PATCH",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.hub.BaseHubMission",
+      "english_literal": "The operation will require around %s marines, and the danger level is %s.",
+      "previous_polish": "Operacja wymaga okolo %s piechoty morskiej, a poziom zagrozenia wynosi %s.",
+      "new_polish": "Operacja wymaga okolo %s zoln. piechoty morskiej, a poziom zagrozenia wynosi %s.",
+      "status": "potwierdzone_CONST_String_0989",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.RaidSecretOutpostMission",
+      "english_literal": "Bring at least %s marines to ensure success.",
+      "previous_polish": "Zabierz co najmniej %s zolnierzy piechoty morskiej, aby zapewnic powodzenie.",
+      "new_polish": "Zabierz co najmniej %s zoln. piechoty morskiej, aby zapewnic powodzenie.",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD$2",
+      "english_literal": "The marines are ready to go, awaiting your final confirmation. There are a total of %s marines in your fleet.",
+      "previous_polish": "Piechota morska jest gotowa i czeka na potwierdzenie rozkazu. W twojej flocie jest lacznie %s zolnierzy piechoty morskiej.",
+      "new_polish": "Piechota morska jest gotowa i czeka na potwierdzenie rozkazu. W twojej flocie jest lacznie %s zoln. piechoty morskiej.",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.hub.BaseHubMission",
+      "english_literal": "will require around %s marines, and the ",
+      "previous_polish": "bedzie wymagac okolo %s zolnierzy piechoty morskiej, a ",
+      "new_polish": "bedzie wymagac okolo %s zoln. piechoty morskiej, a ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.ht.HyperspaceTopographyEventIntel",
+      "english_literal": "Allows a Spaceport to detect nearby slipstreams. Detection range increased for %s. Claimed sensor arrays within %s light-years provide extra detection range: %s ly for Domain-era arrays, and %s ly for makeshift ones. Up to %s sensor arrays can be used.",
+      "previous_polish": "Pozwala portowi kosmicznemu wykrywac pobliskie prady nadprzestrzenne. Zasieg wykrywania zwiekszony dla %s. Przejete macierze czujnikow w promieniu %s l. sw. zapewniaja dodatkowy zasieg: %s ls dla macierzy z epoki Domeny i %s ls dla prowizorycznych. Mozna wykorzystac do %s macierzy czujnikow.",
+      "new_polish": "Pozwala portowi kosmicznemu wykrywac pobliskie prady nadprzestrzenne. Zasieg wykrywania zwiekszony dla %s. Przejete macierze czujnikow w promieniu %s l. sw. zapewniaja dodatkowy zasieg: %s l. sw. dla macierzy z epoki Domeny i %s l. sw. dla prowizorycznych. Maksymalna liczba wykorzystywanych macierzy czujnikow: %s.",
+      "status": "REVIEWED_UI_VISIBLE",
+      "context": "Original JVM CONSTANT_String in expected class; dynamic quantity grammar neutralized"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.SalvorsTallyIntel",
+      "english_literal": "s",
+      "previous_polish": null,
+      "new_polish": "",
+      "status": "REVIEWED_PLURAL_SUFFIX_1049",
+      "context": "Exact JVM constant #128, used only as English plural suffix in 5 salvage counting rows (6 ldc instructions); remove without changing executable bytecode."
+    }
+  ]
+}
