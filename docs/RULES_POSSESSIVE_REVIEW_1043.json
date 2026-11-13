@@ -1,0 +1,275 @@
+{
+  "version": "1.0.43",
+  "stats": {
+    "modified_rows": 31,
+    "literal_replacements": 36,
+    "removed_gender_placeholders": 36,
+    "remaining_gender_placeholders_in_modified_rows": 0,
+    "sha256_before": "fd7697b869bc4951204a7e90583ab8526ae1d046ba715454048b7cbaedcd3751",
+    "sha256_after": "a43f8a4f5acf91e67c7331c7828e3152564f2e224ea2a6bb46e49b9d6374f8a0"
+  },
+  "approved": [
+    {
+      "id": "TTmarketPostWeirdHMbegin",
+      "before_text_sha256": "7c402cc41ed29d68e3252bee74338b72cadf81944b8e36f3496ec06a91eeca77",
+      "after_text_sha256": "d8ab7b632f36bc3cb40dfbbe98429472a8fb6a5f299227aa980f88bd77d339c2",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "PathFleetWeirdModsUnknownEnd",
+      "before_text_sha256": "ed71b939ec8a9cb201c1e5095216ec156913532dac6353a59f7da4285a3c25c8",
+      "after_text_sha256": "0c8197fa955d6507e2aab300d114eb78c8c18b490319da471c1754d455873aa3",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "PathFleetWeirdModsUnknownEndWeaker",
+      "before_text_sha256": "ed71b939ec8a9cb201c1e5095216ec156913532dac6353a59f7da4285a3c25c8",
+      "after_text_sha256": "0c8197fa955d6507e2aab300d114eb78c8c18b490319da471c1754d455873aa3",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "PathFleetWeirdModsUnknownEndTrade",
+      "before_text_sha256": "ed71b939ec8a9cb201c1e5095216ec156913532dac6353a59f7da4285a3c25c8",
+      "after_text_sha256": "0c8197fa955d6507e2aab300d114eb78c8c18b490319da471c1754d455873aa3",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "PathFleetWeirdModsEnd4",
+      "before_text_sha256": "060b1d87038f3d7bbe2017039563e812ebc053b1c365da0f2c8242e041fbad68",
+      "after_text_sha256": "1e4cc5cb2291229ef320816dd97dc0c82571d19c5860442d63fb05d4c5d9520b",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "convDefaultGreetingFaithful",
+      "before_text_sha256": "4f2aa06f36a568cb8515142e2fb9148e7ff4a2f6632dfa418c3bf6772ada7d3b",
+      "after_text_sha256": "a2651502d58d89bb4d9379e69b9fd9c226065c3bed899fbbd792d00cc3c155d9",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "lkeChalcedonVIPstartNeutral",
+      "before_text_sha256": "062cd29bd0b885122fd9ec5d5ad1eea131ecdb03e8d8c8496d2d7b12a1fc5533",
+      "after_text_sha256": "132688b7bddfbb68edaa1b319bc0de97ac033b38cbc0a7150d2a805b0667ec93",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "LKEpatherFleetServePath2",
+      "before_text_sha256": "5b7f554a5bcc2544ea7b2454c7b477a8a8ba4cfb7cdeb9e0c5689c4e164654d4",
+      "after_text_sha256": "4a7e7d5a8e2ba124f6e687fa8f6f10256acc964ebf819329e217077b0d0c99af",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "LKEpatherFleetSPOpt",
+      "before_text_sha256": "5dd867332ceaa9ed60fbf9861ffd305cf277469f2326e83e6705bcc1a962042d",
+      "after_text_sha256": "2fcc4c5dc6bd07e1d8805663205da6eb8a188323e57a6bcc9691eb3990f1a313",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "BFFIstationTalk2sedge",
+      "before_text_sha256": "a8eba6ffc1779b11b5c2545d1cb193582c17ffc84f04d4a151532a5971a3162c",
+      "after_text_sha256": "29afee93d9ed5a13c471fbb359fe940dc25460e02d65bccfd7ed69ea79e52cf8",
+      "before_placeholder_count": 2,
+      "after_placeholder_count": 0,
+      "replacements": 2
+    },
+    {
+      "id": "BFFIstationTalk2sedgeZ",
+      "before_text_sha256": "a8eba6ffc1779b11b5c2545d1cb193582c17ffc84f04d4a151532a5971a3162c",
+      "after_text_sha256": "29afee93d9ed5a13c471fbb359fe940dc25460e02d65bccfd7ed69ea79e52cf8",
+      "before_placeholder_count": 2,
+      "after_placeholder_count": 0,
+      "replacements": 2
+    },
+    {
+      "id": "gaKA_ttBusinessSel",
+      "before_text_sha256": "9c294331d416dfa504d964ad2e49b0eb7f5d4b7c36da08d20d06f3f733f4a6de",
+      "after_text_sha256": "3ef8f1a726d22271c318b8c4de6aaded9dedb20313f5958d326a831db12da02e",
+      "before_placeholder_count": 2,
+      "after_placeholder_count": 0,
+      "replacements": 2
+    },
+    {
+      "id": "gaFCArchonPLtellCavin",
+      "before_text_sha256": "453741b27a6c7c34583f5d452c489310a5ef950bf091dc4da3ce69748e7c7380",
+      "after_text_sha256": "705bbf8555635cf949c4a9a75246fd5f185749781fb037d8aa0ed3e2770c3b5c",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "gaFCArchonTellCavin",
+      "before_text_sha256": "3722bca8041efac273cc0960ab816fa09b751a71c4622df09eca018f66b2f819",
+      "after_text_sha256": "e9ccc937502e1ef447382290d3821ebf9577001ffa2c5acb71f95efb082e2863",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "gaFCArchonLetMeSeeHerGoad",
+      "before_text_sha256": "e7dcf4f31e4b8f5aded01d9f1cc14eb4846def7508ba7fd0c284946f9cae83d6",
+      "after_text_sha256": "267076791d2357f94c1e937b228218d83048d253003dcd9de17ddb77540c4cdf",
+      "before_placeholder_count": 2,
+      "after_placeholder_count": 0,
+      "replacements": 2
+    },
+    {
+      "id": "gaFCArchonLetMeSeeHerAppeal",
+      "before_text_sha256": "b2ac8f00b20ad02c5b1a01763ad604f89420aefdcb957b8eabdf13172b767d99",
+      "after_text_sha256": "207d4a3a9676a5b5e5086462c69f519a6dc2ac7b6033b499350c1453d7c22e0b",
+      "before_placeholder_count": 2,
+      "after_placeholder_count": 0,
+      "replacements": 2
+    },
+    {
+      "id": "gaPZTriTachEncounterNoZig",
+      "before_text_sha256": "a85e2db2f508f7490905aa58ade3c88f09d3cae517495ad4f3ddacc82dce7869",
+      "after_text_sha256": "6983fcb74b0fd079c3103c51edc421b0057af83d528ffcaafcf73b938555d329",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "gaPZDiktatEncounterStandard",
+      "before_text_sha256": "4b9b6e7426c1d2fddc95d35fce77fd04a35136354c6a9b5343c6c59acb440761",
+      "after_text_sha256": "9dc94af7e3e70602d5b74e53caf9ee74bb82cc6e0a3473bba47294f59be59cb9",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "gaPZDiktatEncounterOnlyZig2",
+      "before_text_sha256": "d2ad418629a59ac6871ef3fa528d865fe7f62c949e965b7bacacf0c42126d167",
+      "after_text_sha256": "d875fc10ed4f7b4bfe0f1c4ed6c8e9a24d47f9fd3b2c3e371088e59bf88ff5b1",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "gaATG_pirateScanThreaten1",
+      "before_text_sha256": "31347c46dbc1cf988a4777edb2c1e1353af891516b3175eee0e2ca47f3fd92cd",
+      "after_text_sha256": "964139e6fc7b13949af36db653f1771078b67d367b39171d853bcd71fdc0c87e",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "GARRPirateMainOptions",
+      "before_text_sha256": "a7229221333026fd2a2d2afc20b4e5b2c764f141e05a83f7f3facad076597cee",
+      "after_text_sha256": "ce07e97ebd510d4b48946ab446902a8bf0580b52f000399654e0b61a6c694781",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "proComDeliverGreetingUnderworld",
+      "before_text_sha256": "90bcb35093e00d3908b2b87d43bb8c0fdf104aac870d3fccb0582d65322483fa",
+      "after_text_sha256": "7358c95acc64a5af72c6e0c19652dcf75678ab2e8e3d825e03a9bed6c0fc89c5",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "LOCRLcontact1again",
+      "before_text_sha256": "b2158660b67e3461dd4b4dd2ca63c7852684e5683f746fdad4df4f9b91066ab0",
+      "after_text_sha256": "c6a24a3a2d9b22ffa02c454d98adee11b471441d7a2de662abe7a034d23b5c8f",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "LOCRLjudgeResponseF",
+      "before_text_sha256": "f92665a6a9d92cf06e5cb5a75cf6e49b5fb8fb121faae21ee9c167776db28862",
+      "after_text_sha256": "f10befacbaa26ea3024818a14fbb44c7a148dc31b34881a88f27a82d3e5ff5a4",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "sdtuMercReactWeaker",
+      "before_text_sha256": "876094a27d4e47460a07140903d3a7233e62c65777ebe847330d4eae3aab671d",
+      "after_text_sha256": "da99c56c83ee0707dfd140510445503d4eac0e01043d0b2c663f9b0169dad1b9",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "sdtuMercHegReact1onMyWay",
+      "before_text_sha256": "edef8351022e9378cb1fef6f7e25054cf6a87f4a0ffdad6267a271c7cccd03ac",
+      "after_text_sha256": "64b8687b3a76099ceefa6806d7825baedc4f1b638f93247cf2fa2381e9dd30e6",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "affkDeclineSel2",
+      "before_text_sha256": "51c0d46128a65c36fc880a9c89655bd2a0d859d5851360b5dd8f6b624b97af84",
+      "after_text_sha256": "77bc436625a4d37a0f0e62121644a0a90812d0def1f5d5d38f153a726b5e2840",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "plArmadaComms",
+      "before_text_sha256": "d1fa8cd146fcce5572a7da7c52991e96dcc0a6fbf931eaa8c63b2360a6fe36f9",
+      "after_text_sha256": "3347781d22cb5ea694882280cbdf3d6fcbbbab9654ad405d095d0e5515b8a969",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "LCP_complySel",
+      "before_text_sha256": "223baeb42bd7f19fa24b14bb6aa666909e36a31aa8e945dad0840a196226a0aa",
+      "after_text_sha256": "bbf5eda17c1fc1853e67c85b6d04bb23184ea0c07a79c5df4c6a227d2fb9e93d",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "KOLTHolyArmadaCommsA",
+      "before_text_sha256": "0461e5783c8da4f0ba78fab677fb51be5902fcbb4aae6be382443c8caa1f9df0",
+      "after_text_sha256": "6bcf9a73fcbd96c0049c049be97141946efa77a919bc5561c58d162f3857ddb7",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    },
+    {
+      "id": "sdPunExSayEconWar",
+      "before_text_sha256": "a9fe7884410f81d5fb354a6a3cfc07d574913ae952746968c127294288bb88bf",
+      "after_text_sha256": "9f4ca4a7a8782065ea64b5aaf58a1d5f9453d9d79c9b2a7f269a0d37426a1253",
+      "before_placeholder_count": 1,
+      "after_placeholder_count": 0,
+      "replacements": 1
+    }
+  ],
+  "schema_version": 1,
+  "installed_version": "1.0.43",
+  "source_release": "1.0.42",
+  "scope": "31 visible rules.csv text fields; grammatical noun references only, not full runtime scene or JVM getter implementations",
+  "prior_rules_ledgers": [
+    "docs/RULES_PRONOUN_REVIEW_1034.json",
+    "docs/RULES_PRONOUN_REVIEW_1035.json",
+    "docs/RULES_PRONOUN_REVIEW_1039.json"
+  ],
+  "cumulative_offline_rows": 184,
+  "cumulative_removed_references": 296,
+  "cumulative_pending_windows_ui_rows": 184,
+  "java_getter_calls_untouched": 219,
+  "note": "Approval covers only 36 changed possessive phrases; other grammar in the same dialogues and all runtime UI contexts remain open."
+}

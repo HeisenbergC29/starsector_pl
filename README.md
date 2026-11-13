@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.42):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.43):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.42** (snapshot 1.0.12 + overlaye 1013–1042; OBF 3534 podmiany/539 klas bez zmian, API 5257 map/5255 rzeczywistych podmian w 938 klasach; 870 danych identycznych z 1.0.41). Cel 1.1 nadal OTWARTY.
+**Aktualny stan roboczy: 1.0.43** (snapshot 1.0.12 + overlaye 1013–1043; OBF 3534 podmiany/539 klas, API 5257 map/5255 podmian w 938 klasach — bez zmian Java wzgledem 1.0.42; 870 danych, zmieniony wylacznie rules.csv). Cel 1.1 OTWARTY.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
@@ -143,3 +143,7 @@ W `data/campaign/rules.csv` poprawiono 62 wiersze i 68 fragmentow, eliminujac **
 ## Wydanie 1.0.42 — poprawiono 15 bledow interpunkcji z 1.0.41
 
 Wykryto **15** podwojnych kropek w tekstach API po wprowadzeniu skrotow liczbowych 1.0.41: 11 `%s jedn..` i 4 `%s l. sw..`. Poprawiono je w 15 klasach na `%s jedn.` i `%s l. sw.` bez dotykania innych map, statusow, technicznych ID i kodu Java. Audyt calej mapy **5257** tekstow: zero podobnych podwojnych kropek; 5255 podmian JVM w 938 klasach, zero zmian wykonywalnego bajtkodu. Prawdziwy upgrade 1.0.41->1.0.42 i fresh daja identyczny SHA; backup/restore, uszkodzony ZIP, 14 negatywnych map + 14 bramek, Go test/vet i Windows x64 build PASS offline. Ponadto ZIP 1.0.42 sprawdza bajtowo, czy oba patchery sa faktycznie osadzone w instalatorze (zapobiega regresji z nieaktualnym EXE). 870 danych bez zmian; nadal nie testowano na dzialajacym Windows. [Raport](docs/RELEASE_1042.md), [dokladne liczniki](docs/PUNCTUATION_1042_SUMMARY.json), [bramki 1.1](docs/RELEASE_GATES_11.json).
+
+## Wydanie 1.0.43 — 31 kontekstowych poprawek wyrazen dzierzawczych
+
+W `data/campaign/rules.csv` poprawiono **31** wierszy i **36** precyzyjnych konstrukcji z `$hisOrHer/$HisOrHer` (czesci ciala, wzrok, glos, zaloga), bez zmiany technicznych pol CSV ani kodu Java. Pozostale **869** danych i obie mapy JAR bajtowo niezmienione. Test odwracalny odtwarza rules.csv 1.0.42 co do bajtu; wszystkie 7371 opcji sa poprawne. Z zachowaniem 153 starszych recenzji: **184** wiersze z poprawkami offline i **296** usunietych odniesien do zmiennych; nadal wszystkie 184 wymagaja testu Windows. 219 getterow Java nie ubylo: 33 ocenione offline, **186** do kontroli, wspolne `her` nadal nie rozwiazane. Historia API **3536** do recenzji. [Raport](docs/RELEASE_1043.md), [31 zatwierdzonych fragmentow](docs/RULES_POSSESSIVE_REVIEW_1043.json), [bramki 1.1](docs/RELEASE_GATES_11.json). Brak native Windows gameplay, 1.1 nieukonczona.

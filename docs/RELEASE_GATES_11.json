@@ -13,14 +13,14 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_1040.py: 33/219 getter contexts checked offline; shared her #143 and #188 remain unresolved",
+      "source": "tools/verify_1043.py and docs/RULES_POSSESSIVE_REVIEW_1043.json: 31 additional noun-phrase rewrites, 36 removed variable placeholders; JVM getter bytecode unchanged and still 186 unreviewed",
       "unresolved_count": 186,
-      "reviewed_rules_rows_offline": 153,
-      "removed_visible_gender_variable_refs": 260,
-      "pending_windows_ui_rules_rows": 153,
+      "reviewed_rules_rows_offline": 184,
+      "removed_visible_gender_variable_refs": 296,
+      "pending_windows_ui_rules_rows": 184,
       "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
       "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
-      "latest_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1039.json",
+      "latest_rules_review_ledger": "docs/RULES_POSSESSIVE_REVIEW_1043.json",
       "total_jvm_getter_calls": 219,
       "reviewed_reflexive_calls_offline": 1,
       "reviewed_subject_getter_calls_offline": 6,
@@ -39,6 +39,14 @@
       "unresolved_count": 3536,
       "gameplay_unverified_count": 3696,
       "new_literal_count": 38
+    },
+    {
+      "id": "rules_possessives",
+      "status": "in_progress",
+      "source": "tools/apply_1043.py, tools/verify_1043.py; 31 text-only CSV rows and 36 grammatical possessive noun phrases verified offline, Windows not tested",
+      "reviewed_offline": 36,
+      "reviewed_rows_offline": 31,
+      "pending_windows_ui": 36
     },
     {
       "id": "numeric_quantities",
@@ -61,12 +69,12 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.42 repairs 15 double dots introduced in 1.0.41; full context coverage still open."
+      "source": "1.0.43 corrects 36 noun-phrase possessives in 31 rules.csv rows; 1.1 whole-game completeness still unverified"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.42 CI crossbuild and offline bytecode tests are not native Windows gameplay; 15 new punctuation fixes require actual UI confirmation.",
+      "source": "1.0.43 data-only 31 rows, 81 story contexts and 219 Java getters still lack native gameplay validation",
       "native_gameplay_tested": false
     }
   ]

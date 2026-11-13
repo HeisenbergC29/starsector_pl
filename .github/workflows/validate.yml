@@ -186,12 +186,19 @@ jobs:
           python3 tools/verify_1042.py worktree
           python3 tools/test_1042.py worktree
           python3 -m py_compile tools/test_noop_integrity_1042.py
-      - name: Release gate audit for 1.1 (current development version is 1.0.42)
+      - name: Apply 1.0.43 grammar-safe rules.csv noun-phrase fixes
+        run: python3 tools/apply_1043.py worktree
+      - name: Verify 31 strictly controlled dialogue fields and 153 protected older reviews
+        run: |
+          python3 tools/verify_1043.py worktree
+          python3 tools/verify_review_1043.py worktree --ledger34 docs/RULES_PRONOUN_REVIEW_1034.json --ledger35 docs/RULES_PRONOUN_REVIEW_1035.json --ledger39 docs/RULES_PRONOUN_REVIEW_1039.json --ledger docs/RULES_POSSESSIVE_REVIEW_1043.json
+          python3 tools/test_1043.py worktree
+      - name: Release gate audit for 1.1 (current development version is 1.0.43)
         run: |
           python3 tools/test_dynamic_1030.py
           python3 tools/audit_semantic_queue_1030.py worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/translations/TLUMACZENIA_JAR_1030.csv --private-out /tmp/ST_1030_PRIVATE_QUEUE.json --summary-out /tmp/ST_1030_SEMANTIC_SUMMARY.json
-          python3 tools/check_release_gates_1042.py worktree --gates docs/RELEASE_GATES_11.json
-          python3 tools/test_release_gates_1042.py worktree --gates docs/RELEASE_GATES_11.json
+          python3 tools/check_release_gates_1043.py worktree --gates docs/RELEASE_GATES_11.json
+          python3 tools/test_release_gates_1043.py worktree --gates docs/RELEASE_GATES_11.json
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -230,5 +237,5 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.42 minimal Windows installer
-        run: python3 tools/package_1042.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.42_MINIMALNY.zip
+      - name: Package and CRC-check 1.0.43 minimal Windows installer
+        run: python3 tools/package_1043.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.43_MINIMALNY.zip
