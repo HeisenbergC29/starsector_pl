@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "version": "1.0.50",
+  "source_game": "Starsector 0.98a-RC8",
+  "count": 60,
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "scope": "60 class-bound historical DRAFT/OPTIONAL labels and messages reviewed offline. No gametime UI tests; source-only text and placeholders are not claimed fixed.",
+  "reviewed": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Base value for colony size",
+      "polish_ascii_reviewed": "Wartosc bazowa dla wielkosci kolonii",
+      "row_sha256": "a99c9a1e3031b264c6ccaa3bdf0f74d53b5b9b906da646bd14fa277eba4e0d78",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Market income multiplier",
+      "polish_ascii_reviewed": "Mnoznik przychodow rynku",
+      "row_sha256": "74e8d5cd6bca548be809211efa460abd09f6baad4ac527c9822c4b3730fb5fff",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Market upkeep multiplier",
+      "polish_ascii_reviewed": "Mnoznik kosztow utrzymania rynku",
+      "row_sha256": "cdb04d8a6317d31889205ea89067f3cdf6a78edf523a8f6eb85a5bc5c231e045",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Can not be built",
+      "polish_ascii_reviewed": "Nie mozna wybudowac",
+      "row_sha256": "6090ead69c5019e9f5133862a07cfa2e0763ecb789462d2c9a70a13f3914249a",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Maximum number of industries reached",
+      "polish_ascii_reviewed": "Osiagnieto maksymalna liczbe obiektow przemyslowych",
+      "row_sha256": "b8e2d4f3759c2bf90d1cc87fb6584451364daa14ccd642ca7412332bd4c67667",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Currently queued for construction. Does not have any impact on the colony.",
+      "polish_ascii_reviewed": "Obiekt znajduje sie w kolejce budowy i na razie nie wplywa na kolonie.",
+      "row_sha256": "de54a911492e54e2de749e48330b9e41f93ea90ce81bd416f97cd92cc3910714",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Currently under construction and not producing anything or providing other benefits.",
+      "polish_ascii_reviewed": "Obiekt jest w budowie; nie produkuje jeszcze niczego ani nie zapewnia innych korzysci.",
+      "row_sha256": "aae46019715e18dfefb5f2a2b89336286436d8756f23c914c7de0fce766f0087",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "*Shown production and demand values are already adjusted based on current market size and local conditions.",
+      "polish_ascii_reviewed": "*Wyswietlane wartosci produkcji i zapotrzebowania uwzgledniaja juz wielkosc rynku oraz miejscowe warunki.",
+      "row_sha256": "742685437e279361af4c2a5c7cee0d2733a2277ac1b668dd53dc86964f957c13",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "No AI core currently assigned. Click to assign an AI core from your cargo.",
+      "polish_ascii_reviewed": "Nie przypisano rdzenia SI. Kliknij, aby przypisac rdzen SI z ladowni.",
+      "row_sha256": "a60050cabf9ded6da0ff8bc8c6a3d35ed11ed6bc35fb44d87621d8cfa52ca5da",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Alpha-level AI core currently assigned. ",
+      "polish_ascii_reviewed": "Przypisany rdzen SI poziomu alfa. ",
+      "row_sha256": "e5965943ba1ce350f04ee0e3de2695dc09bd229499e547eaa0b07d954afc02d4",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Alpha-level AI core. ",
+      "polish_ascii_reviewed": "Rdzen SI poziomu alfa. ",
+      "row_sha256": "2669bf5b88900b1a664a5fa2df9a8ee802a564a0fb650409eb2d0eb66f6f0867",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Beta-level AI core currently assigned. ",
+      "polish_ascii_reviewed": "Przypisany rdzen SI poziomu beta. ",
+      "row_sha256": "f4990c7fde86d3954771c163b18ba02fc12bdb3a79832726c9a6061676f9feb2",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Beta-level AI core. ",
+      "polish_ascii_reviewed": "Rdzen SI poziomu beta. ",
+      "row_sha256": "677c153e72a4a66b04366516af1cf7c8ab2b7880ad3bff35f32af040f5dd1c85",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Gamma-level AI core currently assigned. ",
+      "polish_ascii_reviewed": "Przypisany rdzen SI poziomu gamma. ",
+      "row_sha256": "60fa348fce2d27c697bcf564b7be15f528cdc95c1ca932ad859a79088ce80c44",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Gamma-level AI core. ",
+      "polish_ascii_reviewed": "Rdzen SI poziomu gamma. ",
+      "row_sha256": "a7125374cccc59f24e77d5768151e348272590bd7a85d7fcb05dc2fa1dd282fd",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Stability bonus: %s",
+      "polish_ascii_reviewed": "Premia do stabilnosci: %s",
+      "row_sha256": "f5f8fc88d73d3b03f30d3fb17e482938d34fae3f9f31ac90b3e0f7f2974921dd",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Stability penalty: %s",
+      "polish_ascii_reviewed": "Kara do stabilnosci: %s",
+      "row_sha256": "83c74e68712e8c43a6c820ad953ba5e5e9388191caeb84f0c7ecbd81e32e6518",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Ground defense strength: %s",
+      "polish_ascii_reviewed": "Sila obrony naziemnej: %s",
+      "row_sha256": "2395caebb23b7f94e8a6c44ebbdc921833efdb54d3f84bb67ac48c003f1fc639",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "%s refunded for downgrade.",
+      "polish_ascii_reviewed": "Zwrocono %s za obnizenie poziomu.",
+      "row_sha256": "d3ca5cd78e066af0736f356cb9767649bf3ebeb21fe790cdb3dffe77ff898122",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "    - %s refunded",
+      "polish_ascii_reviewed": "    - zwrocono %s",
+      "row_sha256": "84b513600730e26a728f4f8b140c8e33b87e125849ddb48890b434ac101a618b",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "    - Construction aborted",
+      "polish_ascii_reviewed": "    - budowe anulowano",
+      "row_sha256": "c963d04e9a3c95d9e3f28bcf1a0ec69697086c5eccbfbb83255133ae6bd5302f",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "    - Construction completed",
+      "polish_ascii_reviewed": "    - budowe ukonczono",
+      "row_sha256": "ca9fdb1efb7d623f28f031bdba21c0fd23db38b48a41217922e9180e48ad3cdf",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "    - Construction started",
+      "polish_ascii_reviewed": "    - rozpoczeto budowe",
+      "row_sha256": "6e0e18bd013e0dfa75308c01928396f9d74dc101cafad61edbca580eef1f0da1",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "AI Core assigned",
+      "polish_ascii_reviewed": "Przydzielono rdzen SI",
+      "row_sha256": "c78dc316611268576b073e8fbbdf2fdd5cbb0982726841d4fb705f5ddb1d386e",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Alpha Core assigned",
+      "polish_ascii_reviewed": "Przydzielono rdzen alfa",
+      "row_sha256": "1250471b11953c31f4002e62e2ff25bd2cde0b0ff52efed5d2242b244b5dffcd",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Alpha core",
+      "polish_ascii_reviewed": "Rdzen alfa",
+      "row_sha256": "e0a105aef5b951993c5fdae9804c5b4e89bf09dc3edfaacbbdb087a9461f3c22",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Base value",
+      "polish_ascii_reviewed": "Wartosc bazowa",
+      "row_sha256": "7a0bbc98568e71098c042c35d9fe957f1f592bdbc4cda4a4f08606df25e468fc",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Beta Core assigned",
+      "polish_ascii_reviewed": "Przydzielono rdzen beta",
+      "row_sha256": "665c488647cffddf7d27077f0685e26dd22639849c5262165cd8096c0708d224",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Beta core",
+      "polish_ascii_reviewed": "Rdzen beta",
+      "row_sha256": "4a6c53b79c0ba6b96ec388b6f552c6d36ba290891a2cfe44a07cfda5c5e8a4f5",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Click to manage",
+      "polish_ascii_reviewed": "Kliknij, aby zarzadzac",
+      "row_sha256": "59308a67aaddd4a9dd6c57db74556e2b842971adfbbde248e0f2a18d56521401",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Click to manage or upgrade",
+      "polish_ascii_reviewed": "Kliknij, aby zarzadzac lub ulepszyc",
+      "row_sha256": "1b845fcab6400b6a88b03137a90f25bbfaff8232411a04542178fda318948725",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Click to remove or adjust position in queue",
+      "polish_ascii_reviewed": "Kliknij, aby usunac lub zmienic pozycje w kolejce",
+      "row_sha256": "1ea7c3d13b122efb90909dc650ca99f3c50d761dd2d084c249193385795596c1",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Gamma Core assigned",
+      "polish_ascii_reviewed": "Przydzielono rdzen gamma",
+      "row_sha256": "bd4b42bf865ede009e63ca7cfeff518e2d0b941e140d11319f6fc41190f0fcf9",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Gamma core",
+      "polish_ascii_reviewed": "Rdzen gamma",
+      "row_sha256": "de6418d366784925a030eaff5b8df17b679ac3d92cdb28e382ba395b4f372871",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Improvements made",
+      "polish_ascii_reviewed": "Wykonane ulepszenia",
+      "row_sha256": "a25a9c639378199d9627d2abe890b08832dc240ff4ffdb95a243ca9eadd11d56",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Make improvements...",
+      "polish_ascii_reviewed": "Wprowadz ulepszenia...",
+      "row_sha256": "1d3993033b3766bcbd99434428dbba2531e9a7b3ea4f10ab880bee60c78335a2",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Monthly income: %s",
+      "polish_ascii_reviewed": "Miesieczny przychod: %s",
+      "row_sha256": "416ca5a83a43a5741f735d5ee2498e68c8ff19a2737056f35a9eb49768f54598",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Monthly upkeep: %s",
+      "polish_ascii_reviewed": "Miesieczny koszt utrzymania: %s",
+      "row_sha256": "d46d7cd1896f73f671db44ffeef03bd753c8ea8bc06f4ed2c562b560862c0cc1",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "No effect.",
+      "polish_ascii_reviewed": "Brak efektu.",
+      "row_sha256": "5de560c28b17177cee1baca69b2a5707b55a66fb105e0e64e1946a64f654bf0b",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "No items installed",
+      "polish_ascii_reviewed": "Brak zainstalowanych przedmiotow",
+      "row_sha256": "bdc9692c01b7d1efe3e69c47f336b42d2cdab68fc2bee2d2a7602961102edc90",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Operations disrupted! %s ",
+      "polish_ascii_reviewed": "Dzialalnosc zaklocona! %s ",
+      "row_sha256": "ae7de4f2c7399c67932e5d80a053ec5d1cc8ad7252df8f6a42069dd873082a89",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "english_literal": "Various shortages",
+      "polish_ascii_reviewed": "Rozne niedobory",
+      "row_sha256": "36d78745fbff0f4576148b745a45451539f4e6ecf95157164d4c23c40ed264e0",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_literal": "Are you sure you want to permanently delete this fleet log entry?",
+      "polish_ascii_reviewed": "Czy na pewno chcesz trwale usunac ten wpis z dziennika floty?",
+      "row_sha256": "1fc271ec706e4b2ba954b302b30482ee5247e3fbfe8fc00ad45916e2c36ce294",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_literal": "Delete log entry",
+      "polish_ascii_reviewed": "Usun wpis z dziennika",
+      "row_sha256": "b0813e89cc0569bd826851b46e0dbbc60b9a42d2dfae15882adf2a799866b9d6",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_literal": "Log entry added ",
+      "polish_ascii_reviewed": "Dodano wpis do dziennika ",
+      "row_sha256": "f15a707263f9fa9ce8f289d06aeca113cc8298579c074e602dd8de0c7cbf0807",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_literal": "Log entry added less than a day ago.",
+      "polish_ascii_reviewed": "Wpis dodano do dziennika niecaly dzien temu.",
+      "row_sha256": "26a5efdec201afadf802a4e87c1e5af5a49c45dea7dce927070f6056edfbb54a",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_literal": "Fleet log",
+      "polish_ascii_reviewed": "Dziennik floty",
+      "row_sha256": "b61725de55837391c063ec9dbd08ad17278e92e7fa93d6548db6cf845a8d4dd3",
+      "source_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The colony has no orbital station or nearby fleets to defend it.",
+      "polish_ascii_reviewed": "Kolonia nie ma stacji orbitalnej ani pobliskich flot, ktore moglyby jej bronic.",
+      "row_sha256": "737bb59f30e01ce4544c8bad9e3dedfe8c4e93265770eabe30d8b4156675c84a",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "There are no nearby fleets to defend the colony.",
+      "polish_ascii_reviewed": "W poblizu nie ma flot mogacych bronic kolonii.",
+      "row_sha256": "1df4844028bfde0554aca808bd7486f7286b4ac13ef2dabf6a275a215582eabc",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The presence of enemy fleets that are willing to offer battle makes a raid impossible.",
+      "polish_ascii_reviewed": "Obecnosc wrogich flot gotowych do walki uniemozliwia przeprowadzenie rajdu.",
+      "row_sha256": "4db4dd0417d5d579f65f80ec23ec643a45089716f711660c21851c15addb7597",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Your forces will be able to organize another raid within a day or so.",
+      "polish_ascii_reviewed": "Twoje oddzialy beda mogly zorganizowac kolejny rajd za mniej wiecej jeden dzien.",
+      "row_sha256": "a68285fecd749c45c9bb7e7161238de01618b2b3dcd75da49fc9bb317133a08c",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Are you sure you want to engage in open hostilities?",
+      "polish_ascii_reviewed": "Czy na pewno chcesz rozpoczac otwarte dzialania wojenne?",
+      "row_sha256": "dbda6972803dad15d98e4c8bbb04f3a1de3e994cda038a6500d0472be2dadb54",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The attackers are in disarray and not currently attempting to engage the station.",
+      "polish_ascii_reviewed": "Atakujacy sa zdezorganizowani i obecnie nie probuja atakowac stacji.",
+      "row_sha256": "287fb3259f795dfabb8efce21266cb7f7040511d465f40840020d0b05f86aabc",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "You're unable to join this battle.",
+      "polish_ascii_reviewed": "Nie mozesz dolaczyc do tej bitwy.",
+      "row_sha256": "37d5bf4fd783fdbdddeea5c9958bc4dd90deb4ff9a4afe3f89be88693ffcbcb7",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The defenders are refusing to give battle to defend the colony.",
+      "polish_ascii_reviewed": "Obroncy nie chca podjac walki w obronie kolonii.",
+      "row_sha256": "c53410c12f7b577aa7d691d68b5c0ce2dcd0e3fa4b40d95f05375b390b6cf061",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Marines on board",
+      "polish_ascii_reviewed": "Piechota morska na pokladzie",
+      "row_sha256": "44a19bf2229f33c46fc4a80cd62d2f7406b25f95f708eaec2f704529f5e42605",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Fleet capability for ground support",
+      "polish_ascii_reviewed": "Zdolnosc floty do wsparcia wojsk naziemnych",
+      "row_sha256": "577d52679e144977054beaf72752bd0e49b178ffd5d126ffd2d2b9b8ac980732",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "will only result in a minor penalty to your standing.",
+      "polish_ascii_reviewed": "spowoduje jedynie niewielka utrate reputacji.",
+      "row_sha256": "a56b7d12ff7a0cad51e1b4dabf40e94880f0dfcb129796e13dbaf61ad46ceb1d",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "You do not have the forces to carry out an effective raid.",
+      "polish_ascii_reviewed": "Nie masz wystarczajacych sil do przeprowadzenia skutecznego rajdu.",
+      "row_sha256": "5bddbbaa97a619d855295cd4969aae84144aae44089a8aa26dba90606d88fb56",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The ground defenses are too strong for your forces to be able to cause long-term disruption.",
+      "polish_ascii_reviewed": "Obrona naziemna jest zbyt silna, by twoje oddzialy mogly spowodowac dlugotrwale zaklocenia.",
+      "row_sha256": "d7ba375a9996ab44e6715681be689e1ac96b1b711b36c4ea8f0578745c1d5f3b",
+      "source_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "evidence": "exact_original_JVM_CONSTANT_String_one_match_1050",
+      "windows_gameplay": "not_tested"
+    }
+  ]
+}

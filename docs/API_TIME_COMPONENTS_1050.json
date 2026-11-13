@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "version": "1.0.50",
+  "original_game": "Starsector 0.98a-RC8",
+  "source_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "previous_translation_map_sha256": "3ae9e6c3e8675139a9aa3bc91ca88f32fc2b65301f5b7657e8936c85d81c5420",
+  "new_translation_map_sha256": "d2f6b355c58a8d2f0c9a5674e19bcaf7e24862ac4a3c28ad6ace97ce0024b41e",
+  "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+  "localized_fragments": 8,
+  "original_jvm_ldc_uses": 17,
+  "entries": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": "day",
+      "polish_ascii": "dzien",
+      "jvm_constant_pool_index": 590,
+      "jvm_ldc_uses": 4,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": "days",
+      "polish_ascii": "dni",
+      "jvm_constant_pool_index": 589,
+      "jvm_ldc_uses": 4,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": "month",
+      "polish_ascii": "mies.",
+      "jvm_constant_pool_index": 799,
+      "jvm_ldc_uses": 2,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": "months",
+      "polish_ascii": "mies.",
+      "jvm_constant_pool_index": 801,
+      "jvm_ldc_uses": 2,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": "cycle",
+      "polish_ascii": "cyk.",
+      "jvm_constant_pool_index": 805,
+      "jvm_ldc_uses": 1,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": "cycles",
+      "polish_ascii": "cyk.",
+      "jvm_constant_pool_index": 807,
+      "jvm_ldc_uses": 1,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": " and ",
+      "polish_ascii": " i ",
+      "jvm_constant_pool_index": 803,
+      "jvm_ldc_uses": 2,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "english_original": " ago.",
+      "polish_ascii": " temu.",
+      "jvm_constant_pool_index": 811,
+      "jvm_ldc_uses": 1,
+      "status": "REVIEWED_SHARED_DYNAMIC_DURATION_1050"
+    }
+  ],
+  "examples": [
+    "1 dzien",
+    "2 dni",
+    "5 dni",
+    "2 mies. i 1 dzien temu.",
+    "1 cyk. i 5 mies. temu."
+  ],
+  "scope": "Only class-scoped JVM strings, preserving original bytecode and IDs. Native Windows gameplay not tested."
+}

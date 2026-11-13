@@ -1,0 +1,36 @@
+{
+  "release": "1.0.50",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "patched_api_sha256": "35e086aed9380cf481bd6e48bfc29017cb5ee94012e5292953c9d53e44a540df",
+  "previous_patched_api_sha256": "423fbd7c1afc5b1e0322c6c7c8aa64e0c4cfc84645cec37a92772a387bbdb9f6",
+  "class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+  "original_string_constants": 8,
+  "class_string_constant_indices": {
+    "days": 589,
+    "day": 590,
+    "month": 799,
+    "months": 801,
+    " and ": 803,
+    "cycle": 805,
+    "cycles": 807,
+    " ago.": 811
+  },
+  "original_ldc_users_by_literal": {
+    "days": 4,
+    "day": 4,
+    "month": 2,
+    "months": 2,
+    " and ": 2,
+    "cycle": 1,
+    "cycles": 1,
+    " ago.": 1
+  },
+  "total_original_ldc_uses": 17,
+  "reviewed_static_original_jvm_matches": 60,
+  "newly_modified_api_classes": 1,
+  "new_class_vs_previous": [
+    "com/fs/starfarer/api/impl/campaign/intel/BaseIntelPlugin.class"
+  ],
+  "no_executable_java_changes": true,
+  "native_windows_gameplay_tested": false
+}

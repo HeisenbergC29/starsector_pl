@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.49. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.50. Cel 1.1 nadal otwarty.**
+
+**1.0.50 (2026-11-13):** 8 nowych klasowych translacji `BaseIntelPlugin` (day/days, month/months, cycle/cycles, ' and ', ' ago.') w oryginalnych 17 wywolaniach ldc_w. API mapa 5269 wierszy, 5267 rzeczywistych zmian w 938 klasach, SHA `d2f6b355c58a8d2f0c9a5674e19bcaf7e24862ac4a3c28ad6ace97ce0024b41e`; tylko 1 klasa JVM zmieniona wzgledem 1.0.49, kod wykonywalny identyczny. 60 kolejnych statycznych kontekstow API sprawdzono offline na oryginalnych JAR: stan **312/3658**, pozostaje **3346**. Swieza instalacja i upgrade 1.0.49->1.0.50 na prywatnych oryginalnych JAR: bajtowo ten sam API SHA `35e086aed9380cf481bd6e48bfc29017cb5ee94012e5292953c9d53e44a540df`; ponowne zastosowanie, odmowa uszkodzonego ZIP i restore PASS. 870 danych bez zmian. Wspolne 'her', 186 getterow, 2275 potencjalnych zmiennych w rules.csv oraz Windows runtime nadal nieprzetestowane. Szczegoly `docs/RELEASE_1050.md`.
+
+
 
 **1.0.49 (2026-11-13):** 13 korekt tlumaczen JVM API i jedno nowe, class-scoped mapowanie `s` -> pusty string w `SalvorsTallyIntel` (angielska koncowka liczby mnogiej dopisywana do polskich tekstow). Patcher API: 5261 wpisow, 5259 realnych podmian, 938 klas; nowa mapa SHA `3ae9e6c3e8675139a9aa3bc91ca88f32fc2b65301f5b7657e8936c85d81c5420`. Na oryginalnym JVM zweryfikowano 58/58 literalow, 6 powiazan `s` (ldc #128), 7 zmienionych klas wzgledem 1.0.48, 0 zmian wykonywalnych instrukcji Java. 54 podstawienia liczb i 8 negatywnych testow map PASS; 8 testow falszywego domkniecia 1.1 PASS. Rejestr API: 203 + 44 nowe recenzje UI + 5 poprawionych historycznych = **252/3658**, do zrecenzowania 3406. Rzeczywisty upgrade 1.0.48->1.0.49 oryginalnego API JAR: PASS, fresh=upgrade, no-op, odmowa ZIP tamper, restore; API SHA `423fbd7c1afc5b1e0322c6c7c8aa64e0c4cfc84645cec37a92772a387bbdb9f6`. 870 danych oraz OBF bez zmian. Kolizja `her` i 186 JVM getterow nadal otwarte; natywnej rozgrywki Windows NIE przetestowano. Szczegoly `docs/RELEASE_1049.md`.
 

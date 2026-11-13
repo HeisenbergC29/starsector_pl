@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.49):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.50):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.49** (snapshot 1.0.12 + overlaye 1013–1049; OBF 3534 podmiany w 539 klasach bez zmian, API 5261 wpisow mapy/5259 realnych podmian w 938 klasach, 13 zmian starych tekstow i 1 nowa koncowka liczby mnogiej w 7 klasach; wszystkie 870 data bez zmian). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.50** (snapshot 1.0.12 + overlaye 1013–1050; OBF 3534/539 klas bez zmian, API 5269 wierszy mapy/5267 faktycznych podmian w 938 klasach, 8 nowych tekstow czasu; 870 plikow data bez zmian wzgledem 1.0.49). Cel 1.1 OTWARTY.
 
 ## Etap 1.0.45
 
@@ -26,9 +26,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport i reprodukcja](docs/RELEASE_1048.md): 29 korekt gramatycznych dynamicznych liczb w tekstach Java API, 19 klas, brak zmian instrukcji metod i danych gry. Rzeczywisty [upgrade z 1.0.47](docs/UPGRADE_1048.json) na oryginalnych JAR — PASS. [Dowody original JVM](docs/JVM_ORIGINAL_1048_SUMMARY.json): wszystkie 29 literalow. Historyczne API: 23 NOWE recenzje, stan 203/3658, pozostalo 3455 (3 juz recenzowane zaktualizowane, 3 nie-DRAFT nie liczone ponownie). Wspolny literal 'her' i 186 getterow nadal OTWARTE; natywny test gry Windows NIE zostal wykonany.
 
-## Najnowszy etap 1.0.49
+## Etap 1.0.49
 
 [Raport wydania 1.0.49](docs/RELEASE_1049.md): naprawiono angielska koncowke `s` dopisywana do polskich etykiet odzysku w `SalvorsTallyIntel` (bez zmian kodu metod JVM) oraz 13 fraz dotyczacych liczby kolonii, cykli kontraktowych, zolnierzy i zasiegu czujnikow. 44 kolejne krotkie teksty UI i 5 poprawionych historycznych wierszy zatwierdzono offline na oryginalnym JVM; 252/3658 reviewed, 3406 do dalszej recenzji. [Oryginalny JVM](docs/JVM_AUDIT_1049.json) i [test prawdziwego upgrade](docs/PRIVATE_UPGRADE_1049.json) PASS. Natywny gameplay Windows NIE testowany; wersja 1.1 nadal otwarta.
+
+## Najnowszy etap 1.0.50
+
+[Raport 1.0.50](docs/RELEASE_1050.md): 8 brakujacych wspolnych fragmentow daty w `BaseIntelPlugin`, 17 oryginalnych wywolan `ldc_w`. Wersja 1.0.50 dotyka tylko jednej klasy JVM, zachowujac caly kod metod i wszystkie dane gry. Polskie daty dziennika floty i termin awansu oficera nie skladaja sie juz z angielskich dni/miesiecy. 60 kolejnych historycznych wpisow UI zrecenzowano na oryginalnym JVM: **312/3658**, 3346 do analizy. [Realny test aktualizacji](docs/PRIVATE_UPGRADE_1050.json) PASS; natywnej gry Windows nie przetestowano.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

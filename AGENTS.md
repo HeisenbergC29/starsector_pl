@@ -1,6 +1,6 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.49** (snapshot 1.0.12 + overlaye 1013–1049; OBF 3534/539 klas nietkniete; API 5261 wpisow mapy, 5259 trafien w 938 klasach; 13 korekt i 1 nowa class-scoped koncowka s->pusto w 7 klasach; 870 data bez zmian).
+**Aktualny stan roboczy: 1.0.50** (snapshot 1.0.12 + overlaye 1013–1050; OBF 3534/539 klas nietkniete, API 5269 wierszy/5267 podmian w 938 klasach, 8 nowych fragmentow daty w BaseIntelPlugin; 870 plikow data bez zmian).
 
 **1.0.44:** 25 dodatkowych wierszy rules.csv, 30 zmian i 31 usunietych problematycznych zmiennych plciowych. Lacznie 209 rekordow i 327 referencji skontrolowanych offline. Mapy OBF/API bez zmian; 186 getterow Java, 3536 historycznych API oraz testy Windows nadal otwarte. Szczegoly `docs/RELEASE_1044.md`.
 
@@ -15,6 +15,8 @@
 **1.0.48:** 29 korekt odmiany po dynamicznych liczbach: kredyty, dni/dniach, punkty, liczba osob i okretow, sekundy. Zmiany tylko tekstow mapy API, 19 klas, oryginalne 29/29 CONSTANT_String potwierdzone; 870 danych bez zmian. Historyczne API review: 180+23 nowe=203/3658, pozostalo 3455; 3 zrewidowane wczesniej wiersze zaktualizowane z zachowaniem starych SHA, 3 dawno oznaczone verified poza DRAFT. Test realnego upgrade 1.0.47->1.0.48 z prywatnym JAR PASS: 19 klas, 0 zmian kodu metod, no-op, odmowa uszkodzonego ZIP, restore. Wspolne 'her' w BaseBarEventWithPerson #143 i 186 nierozpatrzonych getterow pozostaja OTWARTE; nie zmieniaj globalnie 'her'. Raport `docs/RELEASE_1048.md`, test `docs/UPGRADE_1048.json`. Brak gameplay Windows.
 
 **1.0.49 (2026-11-13):** 13 poprawek tekstow API oraz 1 nowe, scisle klasowe mapowanie `SalvorsTallyIntel: s -> ""` (angielska koncowka liczby mnogiej). JVM: 6 `ldc #128` uzyc przy liczebnikach, wszystkie w jednym mechanizmie, 7 zmienionych klas wzgledem 1.0.48, 0 zmian instrukcji Java. Kumulatywna recenzja historycznych API: 203 + 44 statyczne UI + 5 poprawionych historycznych = 252/3658, **3406 pozostalo**. Fresh/upgrade 1.0.48->1.0.49, noop, ZIP-tamper refusal, restore na prywatnych oryginalnych JAR PASS, SHA API `423fbd7c1afc5b1e0322c6c7c8aa64e0c4cfc84645cec37a92772a387bbdb9f6`. **Kolizja `her` w `BaseBarEventWithPerson` NIE jest rozwiazana; 186 getterow pozostaje**, podobnie dynamiczne cechy `FactionPersonalityPickerPluginImpl`. Dokumentacja `docs/RELEASE_1049.md`; brak gameplay Windows.
+
+**1.0.50:** osiem brakujacych polskich fragmentow czasu w `BaseIntelPlugin` (day/days, month/months, cycle/cycles, and, ago), 17 zweryfikowanych wywolan ldc_w, zmiana tylko jednej klasy JVM, zero zmian instrukcji metod. Wplywa na wpisy dziennika floty i `getDaysString()` uzywane np. podczas awansu oficera. 60 nowych recenzji statycznych UI opartych na oryginalnym JVM: **312/3658** historycznych API reviewed, **3346** pozostalo. Na prywatnych JAR prawdziwy upgrade 1.0.49->1.0.50 = fresh, noop, ZIP tamper rejection i restore PASS; API SHA `35e086aed9380cf481bd6e48bfc29017cb5ee94012e5292953c9d53e44a540df`. Shared 'her'/186 getterow i natywna gra Windows nadal niezweryfikowane. `docs/RELEASE_1050.md`.
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 

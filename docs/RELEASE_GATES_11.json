@@ -33,11 +33,11 @@
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1049.json: 203 immutable earlier reviews + 44 original-JVM-checked short UI literals + 5 corrected historical DRAFT/OPTIONAL entries. Offline only, 3406 remaining.",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1049.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1050.json: 252 prior unchanged reviews plus 60 new original-JVM-confirmed static UI messages (42 BaseIndustry, 13 MarketCMD, 5 BaseIntelPlugin); 3346 historical API still unreviewed, Windows not tested",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1050.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 252,
-      "unresolved_count": 3406,
+      "reviewed_offline": 312,
+      "unresolved_count": 3346,
       "gameplay_unverified_count": 3700,
       "new_literal_count": 42
     },
@@ -119,14 +119,23 @@
       "pending_windows_ui": 14
     },
     {
+      "id": "api_time_fragments_1050",
+      "status": "in_progress",
+      "source": "tools/apply_1050.py, tools/verify_1050.py, docs/API_TIME_COMPONENTS_1050.json: 8 class-scoped BaseIntelPlugin time literals, 17 original ldc uses, one class changed, native Windows untested",
+      "added_api_rows": 8,
+      "changed_classes": 1,
+      "original_jvm_ldc_uses": 17,
+      "pending_windows_ui": 8
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.49: dynamic salvage plural suffix and 13 additional API contexts localized; 44 UI labels reviewed offline. 3406 historical API still require semantic reviews; 2275 raw gender placeholders in 1139 rules records and full 1.1 completeness remain unverified."
+      "source": "1.0.50: 8 BaseIntelPlugin time fragments localized and 60 static UI texts reviewed offline; 3346 historical API still unreviewed; 2275 raw gender markers in 1139 rules dialogues need contextual review; 1.1 incomplete"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.49: new salvage/count contexts and 44 short reviewed UI labels plus all earlier text, 253 rules rows, 81 story contexts, and 219 JVM getter calls still need native Windows UI verification",
+      "source": "1.0.50: 8 shared duration fragments plus 60 reviewed UI labels and earlier 253 dialogue rows, 81 story contexts and 219 getter calls need native Windows gameplay confirmation",
       "native_gameplay_tested": false
     }
   ]
