@@ -1,0 +1,17 @@
+{
+  "version": "1.0.41",
+  "game_version": "0.98a-RC8",
+  "audit": "numeric grammar of class-scoped Java API text literals",
+  "original_map_rows": 5257,
+  "new_map_rows": 5257,
+  "corrected_map_rows": 77,
+  "corrected_classes": 59,
+  "verified_original_jar_literals": 77,
+  "types": {"numbered_units": 40, "numbered_points": 25, "numbered_light_years": 12},
+  "replacement_examples": {"1_unit": "1 jedn.", "2_units": "2 jedn.", "1_point": "1 pkt", "2_points": "2 pkt", "1_light_year": "1 l. sw.", "2_light_years": "2 l. sw."},
+  "translation_plan_sha256": "8edfe27a4ce166d1dad5be44555ccdd13346b7f48c97013051be4321ea30456f",
+  "source_only_not_in_jar_rows_excluded": 1,
+  "remaining_full_semantic_reviews": 3536,
+  "native_windows_ui_confirmed": 0,
+  "gameplay_unverified": true
+}

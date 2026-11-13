@@ -5,7 +5,7 @@
     {
       "id": "story_contexts",
       "status": "in_progress",
-      "source": "tools/verify_story_1033.py; all 81 getstatic Misc.STORY sites checked offline in original and patched 1.0.33 JVM; 69 direct point suffixes translated; native Windows UI untested",
+      "source": "tools/verify_story_1033.py: 81/81 static JVM contexts localized to PF offline; visually unverified on Windows",
       "unresolved_count": 0,
       "reviewed_offline": 81,
       "pending_windows_ui": 81
@@ -13,26 +13,26 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_1040.py: 12 getManOrWoman callsites in 7 BaseGetCommodity subclasses checked in original and patched JVM; 24 gendered fragments. Other getters including shared her remain unresolved. 153 rules.csv rows from prior releases remain offline-only.",
+      "source": "tools/verify_1040.py: 33/219 getter contexts checked offline; shared her #143 and #188 remain unresolved",
       "unresolved_count": 186,
       "reviewed_rules_rows_offline": 153,
       "removed_visible_gender_variable_refs": 260,
       "pending_windows_ui_rules_rows": 153,
       "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
       "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
+      "latest_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1039.json",
       "total_jvm_getter_calls": 219,
       "reviewed_reflexive_calls_offline": 1,
-      "pending_windows_ui_java_getter_calls": 219,
-      "shared_her_conflict_open": true,
       "reviewed_subject_getter_calls_offline": 6,
       "reviewed_historian_getter_calls_offline": 14,
-      "latest_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1039.json",
-      "reviewed_base_get_commodity_man_or_woman_calls_offline": 12
+      "reviewed_base_get_commodity_man_or_woman_calls_offline": 12,
+      "pending_windows_ui_java_getter_calls": 219,
+      "shared_her_conflict_open": true
     },
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1040.json: 104 old immutable reviews plus 18 reviewed contextual texts, all still pending Windows; DRAFT flags do not prevent actual installation.",
+      "source": "docs/API_SEMANTIC_REVIEW_1040.json: 122 historical entries reviewed offline; 1.0.41 changes numeric suffixes only, NOT full semantic review",
       "review_ledger": "docs/API_SEMANTIC_REVIEW_1040.json",
       "total_draft_rows": 3658,
       "reviewed_offline": 122,
@@ -41,14 +41,24 @@
       "new_literal_count": 38
     },
     {
+      "id": "numeric_quantities",
+      "status": "in_progress",
+      "source": "tools/verify_1041.py: 77 active numeric quantity literals made grammar-neutral; not equivalent to full semantic review",
+      "source_version": "1.0.41",
+      "reviewed_offline": 77,
+      "pending_windows_ui": 77,
+      "review_sha256": "8edfe27a4ce166d1dad5be44555ccdd13346b7f48c97013051be4321ea30456f"
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "docs/RELEASE_1040.md: 12 BaseGetCommodity gender terms localized; other pronouns, mission text and UI audit open."
+      "source": "docs/RELEASE_1041.md: numeric inflection checked; remaining mission strings, pronouns and contextual UI audit still open"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "docs/RELEASE_1040.md: x64 crossbuild only, zero native Windows gameplay tests. 12 new gendered contexts also need UI confirmation."
+      "source": "docs/RELEASE_1041.md: cross-compiled Windows x64 executables, no native gameplay test",
+      "native_gameplay_tested": false
     }
   ]
 }
