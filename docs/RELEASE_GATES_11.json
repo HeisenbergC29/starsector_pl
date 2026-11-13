@@ -13,14 +13,14 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "tools/verify_1044.py + docs/RULES_GENDER_REVIEW_1044.json: 25 new rules.csv rows, 30 fragments, 31 gender placeholders removed; no Java getter bytecode changes",
+      "source": "1.0.45: 44 reviewed text-only rules.csv rows, 80 fixes, 93 removed gender placeholders; 186 unreviewed JVM get-calls not modified",
       "unresolved_count": 186,
-      "reviewed_rules_rows_offline": 209,
-      "removed_visible_gender_variable_refs": 327,
-      "pending_windows_ui_rules_rows": 209,
+      "reviewed_rules_rows_offline": 253,
+      "removed_visible_gender_variable_refs": 420,
+      "pending_windows_ui_rules_rows": 253,
       "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
       "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
-      "latest_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json",
+      "latest_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1045.json",
       "total_jvm_getter_calls": 219,
       "reviewed_reflexive_calls_offline": 1,
       "reviewed_subject_getter_calls_offline": 6,
@@ -28,7 +28,7 @@
       "reviewed_base_get_commodity_man_or_woman_calls_offline": 12,
       "pending_windows_ui_java_getter_calls": 219,
       "shared_her_conflict_open": true,
-      "previous_rules_review_ledger": "docs/RULES_POSSESSIVE_REVIEW_1043.json"
+      "previous_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json"
     },
     {
       "id": "draft_semantics",
@@ -59,6 +59,15 @@
       "pending_windows_ui_rows": 25
     },
     {
+      "id": "rules_gender_neutral_1045",
+      "status": "in_progress",
+      "source": "tools/apply_1045.py, tools/verify_1045.py, docs/RULES_GENDER_REVIEW_1045.json; 44 records, 80 edits, 93 removed placeholders, offline only",
+      "reviewed_rows_offline": 44,
+      "fragments_changed": 80,
+      "removed_visible_gender_variable_refs": 93,
+      "pending_windows_ui_rows": 44
+    },
+    {
       "id": "numeric_quantities",
       "status": "in_progress",
       "source": "tools/verify_1041.py: 77 active numeric quantity literals made grammar-neutral; not equivalent to full semantic review Maintained unchanged after 1.0.42 punctuation-only adjustment.",
@@ -79,12 +88,12 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.44 replaces 31 gender-variable refs in 25 further rules.csv rows; full game completeness not verified"
+      "source": "1.0.45 corrects 44 more rules.csv rows; 2275 raw gender tokens in 1139 records await contextual review; whole-game translation completeness unverified"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.44 209 reviewed dialogue rows, 81 story contexts, 219 JVM getter calls remain without native Windows gameplay validation",
+      "source": "1.0.45: 253 corrected rules rows, 81 story contexts, 219 original JVM getter calls remain untested in native Windows game",
       "native_gameplay_tested": false
     }
   ]

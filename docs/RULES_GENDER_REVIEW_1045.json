@@ -1,0 +1,320 @@
+{
+  "stats": {
+    "version": "1.0.45",
+    "rows_changed": 44,
+    "fragments_changed": 80,
+    "gender_references_removed": 93,
+    "before_sha256": "cf1e35899c5cebd42430cf45242662a6c59389e3330c493c6b667bf2eafb918b",
+    "after_sha256": "e9a6ad60da0caca6fa89af21370eddfa461de39324486368458aca2575e3b64a"
+  },
+  "approved": [
+    {
+      "id": "PathMarketWeird1",
+      "old_text_sha256": "ac529251d17189afbed89537e7cbfeae42c481646fcdfa2b0dd59f8da652e150",
+      "new_text_sha256": "8655f7393606558a74cc4740908f073186c08b8c34b7210abf910d41fa01fc56",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "PathMarketWeird2",
+      "old_text_sha256": "70c539296f73cdb443fdc769c545ccfa5806689c05a19ebcafed0ef872394584",
+      "new_text_sha256": "98e7d94318701835fe1125650e72374f1d5059889c71573b4a4ac15256819593",
+      "edits": 1,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "PathFleetWeirdMods0tithe",
+      "old_text_sha256": "d15a5f60e61ff875addf95eb109fedfbe16f03de265ea567f15a1beab5b5f423",
+      "new_text_sha256": "541476520d57bfcdaad387a5dde68f1a912b49eb23df575f78c49c131d825caa",
+      "edits": 3,
+      "removed_gender_references": 3
+    },
+    {
+      "id": "PathFleetWeirdMods0unknown",
+      "old_text_sha256": "644f9124398abcbe0ef08bf02382924cc0671252a645ffc6baa47556cf0c5b89",
+      "new_text_sha256": "5a390b0b8b319b499fefb9d64e4eda3780defdf4b76963e68743ea66432c2812",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "PathFleetWeirdMods1",
+      "old_text_sha256": "cada53cfd29a0f534c9ea8287789f8094782e8f6f3ed68925113b21b2f03f10f",
+      "new_text_sha256": "27f772a566e9a588b0d11e56c77399575c4e2af334c7f65df2f4551d4b50c793",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "PathFleetWeirdModsAgainStart",
+      "old_text_sha256": "d462052986be4be4607e92710489a500ed78f6b6a1d5ce61b5afc994161d58c1",
+      "new_text_sha256": "e99f9a818e3723fb7dd354ef58d15c792f440ec99b6f4282ac34cf6ded827925",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "PathFleetWeirdModsAgain2",
+      "old_text_sha256": "20df3dc78289dbfb6f12a0440e0368b1adb9d92f0f0407cf0800c7379ee04fd5",
+      "new_text_sha256": "5da8f69780fc9c735d98c5caf59d1c958021982f31049d8368f5d4ee6996a48f",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "greetingDefaultHostileWeakerDefiant",
+      "old_text_sha256": "a9389a0e3e55791b1bdf0ed98bcb677769cac4f39f631bccc12127e44950e063",
+      "new_text_sha256": "d05cc35e6085c3a263561bd7a63493d9c2ec92373138e690076220d62dd5e757",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "greetingDefaultInfamous",
+      "old_text_sha256": "26babf2249f63a0f0f76bd798d6d6a6c47bd5552faeedb2a99f61092537e8cc4",
+      "new_text_sha256": "7e8c9cf1e1b6adf87795341aedc4295ddcd57092b1d9c219733520141054849a",
+      "edits": 4,
+      "removed_gender_references": 7
+    },
+    {
+      "id": "greetingHegemonyHostileWeakerDefiant",
+      "old_text_sha256": "fdb4a1f4be1f636c05810039d32eeaecdc64a5eec884b57c6c10fb3e4cf8a14a",
+      "new_text_sha256": "6272a2aaf55df700def7cee2f3cca8fe729e864d274ab534efa91467d6a7167a",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "TTpatrolWeirdMods0",
+      "old_text_sha256": "aef7c6f4645b4f3fa17fa3a2ebf5abed176a454cd44407cba5a9c2f0a22b15cc",
+      "new_text_sha256": "131b367a915568f88c0bcbb807b75ddac7a3017872c8c4d36fb4588ebec568c0",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "TTpatrolWeirdMods2",
+      "old_text_sha256": "01ebd7f7c22863c6498c1c9e28bcb77a3de4d87d961c9e1d87fce7ce0322a3e0",
+      "new_text_sha256": "94caff114d3f10cafb181897f3aec7c5cb0e7e645e56544c01770da50c90a433",
+      "edits": 3,
+      "removed_gender_references": 3
+    },
+    {
+      "id": "TTpatrolWeirdMods2OMKI",
+      "old_text_sha256": "5cb07630363eae69f44ece969fa4cdf4708b5e2677a5e475ebd1798b4eec8e6b",
+      "new_text_sha256": "c32a5db78f6b7890fcd3424c18ac11e87c02008589eed7f437c42e34540469f3",
+      "edits": 3,
+      "removed_gender_references": 3
+    },
+    {
+      "id": "TTpatrolWeirdMods3b",
+      "old_text_sha256": "ae9de907a6535904965ace5aedd7991dcb24f313aff44a52d94c47e3d672eb53",
+      "new_text_sha256": "4760167f9bd493967e268f0ccd727ab0e4f4e1d5d06d9de17f57e34545f591f5",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "TTpatrolWeirdMods3OMKI",
+      "old_text_sha256": "477f03e43b7d8f171b7ff910bad6136916ec84f098db351fc8b1112202adb53a",
+      "new_text_sha256": "7842a7fc13aaf8b02c0ea7972694dd04aa15b1c7088011b3ae48dd668d62fcd7",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "TTpatrolWeirdMods4",
+      "old_text_sha256": "3f7bba4676dc919670df12af4a71404ba684de7e65c6b664704d4cba3f3111e3",
+      "new_text_sha256": "6cb7c71f4536e59e3a08d411f7ab4cc5fc29e71e5ff1ce5455db7e52cc8a3254",
+      "edits": 2,
+      "removed_gender_references": 3
+    },
+    {
+      "id": "TTpatrolWeirdMods5a",
+      "old_text_sha256": "9ada19e89e1e6412537a4abd9982a3649225c097fb33d59089b4eef5de7d0a63",
+      "new_text_sha256": "396082982e3008738ab7a8a04ac4ae498c5d4a02be027a6c251d67f5fafa5393",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "TTpatrolWeirdMods5b",
+      "old_text_sha256": "e48f1bc10f50c0a05bf15b786de409139931b96c1f3fd7c0c86076107f9a3cf4",
+      "new_text_sha256": "c09cdef4fe69d8a1c8d3160ee7a90898b87f26ec7f8f16127f7f9b857a130df7",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "greetingDiktatHostileWeakerDefiant",
+      "old_text_sha256": "39787965066f703272d232ece830f9b7647f899d6c5e35164f6707956416cf69",
+      "new_text_sha256": "7d8b9d5a578c0bfed709abd45147da8de7bf3aa0ef5f0170377a321521ba1df6",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "greetingLCHostileWeakerDefiant",
+      "old_text_sha256": "29b85c007b0059babf1f0a726b4b0cd8aca2555157838979e0d43ef7b6110ef4",
+      "new_text_sha256": "f50c9ee373ed906472f83925826b5835d1d4cdf8e77cfff993c01668c1333933",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "payMegaTitheSel",
+      "old_text_sha256": "a886ba4215610815f7fba29e5d6a38108674422e4752a6ed7abc6a6c09f90e0d",
+      "new_text_sha256": "14e51487ff6c32622f1cb233c519368062979988551da39b58dd408b19a1e8e7",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "payMegaTitheOtherSel",
+      "old_text_sha256": "9049a1b176b666fec56d08b2943098f1a78acf8773e18a6858dbb4521915b82f",
+      "new_text_sha256": "5e1c5dad72d1a65c7a3fb91edd1ad044e01f218214f221a6c39c8bdd16ea191d",
+      "edits": 4,
+      "removed_gender_references": 4
+    },
+    {
+      "id": "payMegaTitheConfirmSel",
+      "old_text_sha256": "86bd063acb27ca353ca299a1e04e5940d01379be1eebb4ea004fc49d6c0f5271",
+      "new_text_sha256": "90ad6b56f4c5804df315a9af00e6e5801783544be8135f615600530c935422f6",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "payMegaTitheNeverMindSel",
+      "old_text_sha256": "a7b65f340894cfa044381a8fda4208d49ca96555ac24d29a3909882471be401a",
+      "new_text_sha256": "2dd7718866b18a9d489a33518533cd1fff149646415778d0139dde41b8597f94",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "gaVIPWorkingForKanta1",
+      "old_text_sha256": "5fb2dec463d96af74efbeddb2eaf617cd5ff27afe96dabccdd52b65fb8727c69",
+      "new_text_sha256": "aa193f7fece98b392797c5346a136b0773de6adc72dfd538f2a1627d7ee41867",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "gaVIPWorkingForKanta2",
+      "old_text_sha256": "06c4417217a6aec2fbd6169cf8886187850348228d5fd641419d84f5afa63373",
+      "new_text_sha256": "110c48775c08d8f826cd34652757d7c169c2d4554af01af4f54afb8168a37d87",
+      "edits": 3,
+      "removed_gender_references": 3
+    },
+    {
+      "id": "lkePatherFleetOpenComm",
+      "old_text_sha256": "ee9d0e8b73cf484559a8488fb5cc672591abe818f51c4231d82ed5d4a9fa79cd",
+      "new_text_sha256": "4e37ae40a4680e7e5ab0d88264762db71e360ff6f756096e5d52b7dae7152fc8",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "lkePatherFleetStartLikePath",
+      "old_text_sha256": "5c455787f169769af87f96bae7c38bfd04e238edb74c18b7d28ce23d52d5c8f9",
+      "new_text_sha256": "a69446ce2af64cfc94b61320247fe91d943a5710194bdc515c948ff67c903592",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "lkePatherFleetStartJangSup",
+      "old_text_sha256": "184a03474a58b5d734cc37296b0e95ba499d08a7111ba75a9b6f19d8424b5498",
+      "new_text_sha256": "3bca295bacbf8fd9aa9798e12eaa1a29d8c82dd0bd41b91181742c67927bfc70",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "lkePatherFleetStartCotton",
+      "old_text_sha256": "34d07c59621554b603a32f80746688e0ed51d70e700bec76da3b2ddf97bdefb0",
+      "new_text_sha256": "f23f5e38e60378d86c7269159f32ffccb5e19d251a856bfd104c91e0d0f1066c",
+      "edits": 4,
+      "removed_gender_references": 5
+    },
+    {
+      "id": "LKEpatherFleetNotStoppingB",
+      "old_text_sha256": "830aba8c4c1f39d6d8c9f92dd6464630ec2c31eb1d4a1e6ba6643cf657b1890a",
+      "new_text_sha256": "74ed6b10dbf6c98f210ec692c75cd3b3c03a4e9fd21be5c50f4ba9b9ff0d2784",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "LKEpatherFleetAskCottonSay",
+      "old_text_sha256": "f275280f907d534f9d89b61d2e401505803553f6e954fee1d0dc9dcbe98856a2",
+      "new_text_sha256": "62b506643f807b526b2e722dd64a2f16bdf28e619c0a80492897010a1013b6be",
+      "edits": 1,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "LKEpatherFleetThreatNope",
+      "old_text_sha256": "5bca6b023293ec816775ec42d73821fd5f3c5e65a7a6b6c778c2c6828c8eca18",
+      "new_text_sha256": "20f59214977aea40675cb3817f3bdd6e9463bc5e84ac788c0cca11e0ced170cf",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "LKEpatherFleetThreatA",
+      "old_text_sha256": "815bccf91dd09ac908728c5977ffd3a00bd661bfbda49f28fd5780e1ea69a3e4",
+      "new_text_sha256": "e2cfee4ca13aaac94fcf37052033047bd95cf14fb1a0b810783c0970b2674330",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "LKEpatherFleetThreatB",
+      "old_text_sha256": "e2e767846906a3d939013b858530647ecdd458389a4d0cfe6f4d3c3bc2857031",
+      "new_text_sha256": "b73e3fad0152c200014c0b6238fe2ba391e73b11a4617e3ae009f1c10cb8593a",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "LKEpatherFleetCeaseLie",
+      "old_text_sha256": "e90ae5fbb921495bafd5f43484e72a224a1f63159bc32697c9c9ba1194623756",
+      "new_text_sha256": "ab6567c360791f156cfeea7acd1ad9c6684c72fb68936131cc9214dd8ea3abb3",
+      "edits": 1,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "LKEpatherFleetCeaseLie2",
+      "old_text_sha256": "4c33e1048110c04b744be6e142d4ef7d383c3f050703b5a2d98f1978e29c598d",
+      "new_text_sha256": "b3df58bff64cad2fdcdaa7af632d571b95d9c76e2c75f7ad8e72bc29b6742062",
+      "edits": 1,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "LKEpatherFleetCeaseLie3",
+      "old_text_sha256": "67546f1561912fe15c70a068cab05de6aa5703f01a4e8e15f30ab153c7d387fd",
+      "new_text_sha256": "af5ad3f81c9ad8ef25b51943428336bd95eb0fede22c24fcde557aacbbf8c16d",
+      "edits": 2,
+      "removed_gender_references": 4
+    },
+    {
+      "id": "LKEpatherFleetServeFaith",
+      "old_text_sha256": "5872c76ab5f3d360586ee2b6ca005d01578548b8a1b4a6cbdff3700280f1491b",
+      "new_text_sha256": "0d6547cc415565b616b46ce01e6af53dcb6cb15d493a265b5d1190bee1328e30",
+      "edits": 1,
+      "removed_gender_references": 1
+    },
+    {
+      "id": "LKEpatherFleetServeFaithA1",
+      "old_text_sha256": "a38fc4706b14fa787d95e732bdb010069d7d17e08d0515236b6a834731f65ef7",
+      "new_text_sha256": "1b0fa83b8a83be82803e43cb9b40e3cb27eb3e4666570a178f026ed051c61d2f",
+      "edits": 3,
+      "removed_gender_references": 3
+    },
+    {
+      "id": "LKEpatherFleetServeFaithB1",
+      "old_text_sha256": "26799de54f3cfc9d639497351a23a5f90a3a7f67638cf2eb89caa09a049357e1",
+      "new_text_sha256": "535a182469075b1fbf1681c683c3626836f396333dd957f8c47e201543e725ba",
+      "edits": 2,
+      "removed_gender_references": 2
+    },
+    {
+      "id": "LKEpatherFleetServePath",
+      "old_text_sha256": "802ebcc7f597af4fed9b4cffb02e114e7ba8fe90d385bb11029cdb6792be919c",
+      "new_text_sha256": "f1fc0906813bf045d9a683a0b0c604951ead78bf369a64465e66deff48ee1045",
+      "edits": 2,
+      "removed_gender_references": 3
+    },
+    {
+      "id": "LKEpatherFleetSPOpt2",
+      "old_text_sha256": "6f85f8fcbb2982a040cd54489be930507ec326cd01e87c1fae543a3787ce2e33",
+      "new_text_sha256": "42eb696335ae4e71f8cdf24e49d710e4cc200069cd076b60d2e7e622e202313a",
+      "edits": 3,
+      "removed_gender_references": 4
+    },
+    {
+      "id": "LKEpatherFleetSPOpt3",
+      "old_text_sha256": "1681556c1f04eba0fa48de5b8da2820191cd3a290af9ac54150695d84da05a10",
+      "new_text_sha256": "59306d6daadbdf69391ae44dae54f91f42db9e2f3e0f20b23826711f52436357",
+      "edits": 2,
+      "removed_gender_references": 2
+    }
+  ]
+}

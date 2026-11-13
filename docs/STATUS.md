@@ -1,6 +1,9 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.44. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.45. Cel 1.1 nadal otwarty.**
+
+**1.0.45 (2026-11-13):** 44 kolejnych wierszy rules.csv, 80 poprawek i 93 usuniete problematyczne zmienne plciowe; 253 rekordy i 420 odniesien lacznie od 1.0.34 (recenzja wybranych fraz offline). SHA rules.csv e9a6ad60da0caca6fa89af21370eddfa461de39324486368458aca2575e3b64a; 869 innych danych identycznych, 1.0.44 odtworzona bajtowo. OBF/API i Java bez zmian. Po zmianach 2275 surowych placeholderow w 1139 wierszach do analizy, nie automatycznie bledow. 186 getterow JVM, 3536 historycznych API i wszystkie natywne testy Windows nadal otwarte. Zobacz docs/RELEASE_1045.md.
+
 
 **Wersja 1.0.44 (2026-11-13):** 25 kolejnych wierszy `rules.csv`, 30 precyzyjnych poprawek i 31 usunietych odwolania do zmiennych plciowych; lacznie 209 dialogow i 327 usunietych wstawek (tylko offline). SHA `rules.csv`: `cf1e35899c5cebd42430cf45242662a6c59389e3330c493c6b667bf2eafb918b`; podmiana tylko kolumny `text`, 869 plikow danych bez zmian, mapy JAR i Java bez zmian. Odtworzenie 1.0.43 bajtowo PASS; testy negatywne 6/6 PASS lokalnie. 186 getterow Java, 3536 starszych API i natywne Windows wciaz do zrobienia. Dokument `docs/RELEASE_1044.md`, ledger `docs/RULES_GENDER_REVIEW_1044.json`.
 

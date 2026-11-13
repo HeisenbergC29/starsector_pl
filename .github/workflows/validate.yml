@@ -205,8 +205,21 @@ jobs:
         run: |
           python3 tools/verify_1044.py worktree
           python3 tools/test_1044.py worktree
-          python3 tools/check_release_gates_1044.py worktree --gates docs/RELEASE_GATES_11.json --ledger docs/RULES_GENDER_REVIEW_1044.json
+          python3 tools/check_release_gates_1044.py worktree --gates docs/RELEASE_GATES_1044.json --ledger docs/RULES_GENDER_REVIEW_1044.json
           diff -u docs/RULES_GENDER_REVIEW_1044.json /tmp/RULES_GENDER_1044_generated.json
+      - name: Apply 1.0.45 reviewed dialogue wording changes
+        run: python3 tools/apply_1045.py worktree --ledger-out /tmp/REVIEW_1045.json
+      - name: Verify exact 1.0.45 delta, protected older reviews, and negative mutations
+        run: |
+          python3 tools/verify_1045.py worktree --prior-ledger docs/RULES_PRONOUN_REVIEW_1034.json --prior-ledger docs/RULES_PRONOUN_REVIEW_1035.json --prior-ledger docs/RULES_PRONOUN_REVIEW_1039.json --prior-ledger docs/RULES_POSSESSIVE_REVIEW_1043.json --prior-ledger docs/RULES_GENDER_REVIEW_1044.json
+          python3 tools/test_1045.py worktree
+          diff -u docs/RULES_GENDER_REVIEW_1045.json /tmp/REVIEW_1045.json
+      - name: Audit full remaining pronoun token corpus and block premature 1.1
+        run: |
+          python3 tools/audit_rules_pronouns_1045.py worktree/mod/data/campaign/rules.csv --output /tmp/PRONOUN_1045.json
+          diff -u docs/PRONOUN_AUDIT_1045.json /tmp/PRONOUN_1045.json
+          python3 tools/check_release_gates_1045.py worktree --gates docs/RELEASE_GATES_11.json --ledger docs/RULES_GENDER_REVIEW_1045.json
+          python3 tools/test_release_gates_1045.py worktree --gates docs/RELEASE_GATES_11.json --ledger docs/RULES_GENDER_REVIEW_1045.json
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -245,12 +258,12 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.44 minimal Windows installer
-        run: python3 tools/package_1044.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.44_MINIMALNY.zip
-      - name: Upload the 1.0.44 Windows package
+      - name: Package and CRC-check 1.0.45 minimal Windows installer
+        run: python3 tools/package_1045.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.45_MINIMALNY.zip
+      - name: Upload the 1.0.45 Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_ASCII_1.0.44
-          path: Starsector_PL_ASCII_0.98a_RC8_1.0.44_MINIMALNY.zip
+          name: Starsector_PL_ASCII_1.0.45
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.45_MINIMALNY.zip
           if-no-files-found: error
           retention-days: 7
