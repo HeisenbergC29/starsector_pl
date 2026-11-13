@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "target_version": "1.1",
+  "gates": [
+    {
+      "id": "story_contexts",
+      "status": "in_progress",
+      "source": "tools/verify_story_1033.py: 81/81 static JVM contexts localized to PF offline; visually unverified on Windows",
+      "unresolved_count": 0,
+      "reviewed_offline": 81,
+      "pending_windows_ui": 81
+    },
+    {
+      "id": "pronoun_contexts",
+      "status": "blocked",
+      "source": "1.0.45: 44 reviewed text-only rules.csv rows, 80 fixes, 93 removed gender placeholders; 186 unreviewed JVM get-calls not modified",
+      "unresolved_count": 186,
+      "reviewed_rules_rows_offline": 253,
+      "removed_visible_gender_variable_refs": 420,
+      "pending_windows_ui_rules_rows": 253,
+      "rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1035.json",
+      "prior_rules_review_ledger": "docs/RULES_PRONOUN_REVIEW_1034.json",
+      "latest_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1045.json",
+      "total_jvm_getter_calls": 219,
+      "reviewed_reflexive_calls_offline": 1,
+      "reviewed_subject_getter_calls_offline": 6,
+      "reviewed_historian_getter_calls_offline": 14,
+      "reviewed_base_get_commodity_man_or_woman_calls_offline": 12,
+      "pending_windows_ui_java_getter_calls": 219,
+      "shared_her_conflict_open": true,
+      "previous_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json"
+    },
+    {
+      "id": "draft_semantics",
+      "status": "blocked",
+      "source": "docs/API_SEMANTIC_REVIEW_1051.json: 312 preceding immutable API reviews + 2 exact-original-JVM verified personality UI formats, 3344 historical semantics to review, Windows not tested",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1051.json",
+      "total_draft_rows": 3658,
+      "reviewed_offline": 314,
+      "unresolved_count": 3344,
+      "gameplay_unverified_count": 3700,
+      "new_literal_count": 42
+    },
+    {
+      "id": "rules_possessives",
+      "status": "in_progress",
+      "source": "tools/apply_1043.py, tools/verify_1043.py; 31 text-only CSV rows and 36 grammatical possessive noun phrases verified offline, Windows not tested",
+      "reviewed_offline": 36,
+      "reviewed_rows_offline": 31,
+      "pending_windows_ui": 36
+    },
+    {
+      "id": "rules_gender_neutral_1044",
+      "status": "in_progress",
+      "source": "tools/apply_1044.py, tools/verify_1044.py, docs/RULES_GENDER_REVIEW_1044.json: 25 gender-neutral rules.csv rows, text-only offline",
+      "reviewed_rows_offline": 25,
+      "fragments_changed": 30,
+      "removed_visible_gender_variable_refs": 31,
+      "pending_windows_ui_rows": 25
+    },
+    {
+      "id": "rules_gender_neutral_1045",
+      "status": "in_progress",
+      "source": "tools/apply_1045.py, tools/verify_1045.py, docs/RULES_GENDER_REVIEW_1045.json; 44 records, 80 edits, 93 removed placeholders, offline only",
+      "reviewed_rows_offline": 44,
+      "fragments_changed": 80,
+      "removed_visible_gender_variable_refs": 93,
+      "pending_windows_ui_rows": 44
+    },
+    {
+      "id": "numeric_quantities",
+      "status": "in_progress",
+      "source": "tools/verify_1041.py: 77 active numeric quantity literals made grammar-neutral; not equivalent to full semantic review Maintained unchanged after 1.0.42 punctuation-only adjustment.",
+      "source_version": "1.0.41",
+      "reviewed_offline": 77,
+      "pending_windows_ui": 77,
+      "review_sha256": "8edfe27a4ce166d1dad5be44555ccdd13346b7f48c97013051be4321ea30456f"
+    },
+    {
+      "id": "punctuation_regression",
+      "status": "in_progress",
+      "source": "tools/verify_1042.py; 15 exact original JVM strings fixed; two dots after abbreviation removed, no other changes. This is not in-game verification.",
+      "reviewed_offline": 15,
+      "pending_windows_ui": 15,
+      "source_version": "1.0.42",
+      "plan_sha256": "fc7bf29cfc7f327342060c7a6eb36f3662d72d2cd097431c6141c9b32ff2a761"
+    },
+    {
+      "id": "api_contexts_1046",
+      "status": "in_progress",
+      "source": "tools/apply_1046.py / tools/verify_1046.py: 13 corrected API text literals plus 3 previously untranslated assembled-tooltip fragments in 8 classes; 16 original JVM constants verified offline, no native Windows gameplay",
+      "reviewed_offline": 16,
+      "pending_windows_ui": 16,
+      "changed_classes": 8
+    },
+    {
+      "id": "api_numeric_1047",
+      "status": "in_progress",
+      "source": "tools/apply_1047.py/verify_1047.py: 14 numeric economy UI literals in 11 classes fixed, original-JAR upgrade verified; no running Windows gameplay",
+      "corrected_api_rows": 14,
+      "changed_classes": 11,
+      "pending_windows_ui": 14
+    },
+    {
+      "id": "api_numeric_1048",
+      "status": "in_progress",
+      "source": "tools/apply_1048.py/verify_1048.py; 29 API numeric grammar corrections across 19 classes, original JVM and private original-JAR upgrade verified offline, native Windows still not tested",
+      "corrected_api_rows": 29,
+      "changed_classes": 19,
+      "pending_windows_ui": 29
+    },
+    {
+      "id": "api_grammar_1049",
+      "status": "in_progress",
+      "source": "tools/apply_1049.py, tools/verify_1049.py, docs/API_TEXT_CORRECTIONS_1049.json: 13 corrected class-scoped JVM text literals + 1 suffix s->empty in SalvorsTallyIntel; original JVM 6 ldc uses; native Windows not tested.",
+      "corrected_api_rows": 13,
+      "added_api_rows": 1,
+      "changed_classes": 7,
+      "pending_windows_ui": 14
+    },
+    {
+      "id": "api_time_fragments_1050",
+      "status": "in_progress",
+      "source": "tools/apply_1050.py, tools/verify_1050.py, docs/API_TIME_COMPONENTS_1050.json: 8 class-scoped BaseIntelPlugin time literals, 17 original ldc uses, one class changed, native Windows untested",
+      "added_api_rows": 8,
+      "changed_classes": 1,
+      "original_jvm_ldc_uses": 17,
+      "pending_windows_ui": 8
+    },
+    {
+      "id": "personality_ui_1051",
+      "status": "in_progress",
+      "source": "tools/apply_1051.py, verify_1051.py, private_jvm_1051.py; two UI string templates and exactly two ldc operand bytes in addDescToTooltip, original-class SHA pinned; technical IDs unchanged, actual private JAR fresh/upgrade verified, native Windows UI pending",
+      "corrected_ui_rows": 2,
+      "changed_classes": 1,
+      "jvm_ldc_operand_changes": 2,
+      "pending_windows_ui": 2,
+      "technical_identity_constants_preserved": true
+    },
+    {
+      "id": "text_completeness",
+      "status": "in_progress",
+      "source": "1.0.51 resolves technical-ID/UI-label collision for mixed officer personality, 314/3658 historical API snippets reviewed offline; 3344 unreviewed, 2275 raw dynamic pronoun tokens in 1139 rules rows still pending contextual review, 1.1 incomplete"
+    },
+    {
+      "id": "windows_runtime",
+      "status": "blocked",
+      "source": "1.0.51: two personality tooltips (one strict JVM exception) plus previous 253 corrected rules rows, 81 story contexts, and 219 pronoun getters still need actual Windows UI testing",
+      "native_gameplay_tested": false
+    }
+  ]
+}

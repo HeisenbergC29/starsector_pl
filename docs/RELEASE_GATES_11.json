@@ -13,7 +13,7 @@
     {
       "id": "pronoun_contexts",
       "status": "blocked",
-      "source": "1.0.45: 44 reviewed text-only rules.csv rows, 80 fixes, 93 removed gender placeholders; 186 unreviewed JVM get-calls not modified",
+      "source": "1.0.52 original-JVM checked 11 direct BaseBarEventWithPerson inherited getHim/getHis getter callsites and 2 gender-label sites: shared her #143 maps to Polish jej both dative/possessive offline. Broader unreviewed Java corpus conservatively remains 186 until full audit, Windows test pending",
       "unresolved_count": 186,
       "reviewed_rules_rows_offline": 253,
       "removed_visible_gender_variable_refs": 420,
@@ -27,17 +27,20 @@
       "reviewed_historian_getter_calls_offline": 14,
       "reviewed_base_get_commodity_man_or_woman_calls_offline": 12,
       "pending_windows_ui_java_getter_calls": 219,
-      "shared_her_conflict_open": true,
-      "previous_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json"
+      "shared_her_conflict_open": false,
+      "previous_rules_review_ledger": "docs/RULES_GENDER_REVIEW_1044.json",
+      "base_bar_shared_her_resolved_offline_1052": true,
+      "shared_her_pending_native_windows_validation": true,
+      "base_bar_gender_getter_callsites_reviewed_1052": 13
     },
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1051.json: 312 preceding immutable API reviews + 2 exact-original-JVM verified personality UI formats, 3344 historical semantics to review, Windows not tested",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1051.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1052.json: 314 immutable prior reviews + 10 first-time reviewed DRAFT/OPTIONAL bar-dialogue text fragments; 3334 historical API remaining; 14 newly added class-scoped fragments not counted as historical DRAFT",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1052.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 314,
-      "unresolved_count": 3344,
+      "reviewed_offline": 324,
+      "unresolved_count": 3334,
       "gameplay_unverified_count": 3700,
       "new_literal_count": 42
     },
@@ -138,14 +141,26 @@
       "technical_identity_constants_preserved": true
     },
     {
+      "id": "bar_shared_her_1052",
+      "status": "in_progress",
+      "source": "tools/apply_1052.py, tools/private_jvm_1052.py: 14 new exact class-scoped literal maps and 10 corrected fragments in 3 classes; her #143 used safely as jej after original 11 getter callsite audit; no NEW method bytecode edits; Windows game still untested",
+      "new_api_rows": 14,
+      "corrected_existing_api_rows": 10,
+      "modified_java_classes": 3,
+      "shared_her_resolved_offline": true,
+      "new_executable_java_bytecode_changes": 0,
+      "reviewed_gender_getter_callsites": 13,
+      "pending_windows_ui": 24
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.51 resolves technical-ID/UI-label collision for mixed officer personality, 314/3658 historical API snippets reviewed offline; 3344 unreviewed, 2275 raw dynamic pronoun tokens in 1139 rules rows still pending contextual review, 1.1 incomplete"
+      "source": "1.0.52: original Java shared her mapped contextually, 14 new and 10 corrected bar strings; 324 historical API reviewed offline with 3334 pending, 2275 raw pronoun references in 1139 rules.csv rows pending detailed audit, 1.1 not complete"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.51: two personality tooltips (one strict JVM exception) plus previous 253 corrected rules rows, 81 story contexts, and 219 pronoun getters still need actual Windows UI testing",
+      "source": "1.0.52: 24 bar UI text fragments plus earlier 253 dialogue rows, 81 story contexts and 219 gender getter calls need actual running Windows game verification",
       "native_gameplay_tested": false
     }
   ]

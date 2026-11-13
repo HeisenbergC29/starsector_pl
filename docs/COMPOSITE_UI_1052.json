@@ -1,0 +1,42 @@
+{
+  "male_female_compositions": 20,
+  "contexts_each_gender": 10,
+  "negative_inventory_mutations_rejected": 8,
+  "negative_cases": {
+    "changed historical translation": "PASS",
+    "changed historical status": "PASS",
+    "removed expected historical row": "PASS",
+    "duplicated base map row": "PASS",
+    "wrong source key": "PASS",
+    "different source class": "PASS",
+    "unexpected pre-existing added literal": "PASS",
+    "unreviewed Unicode text": "PASS"
+  },
+  "rendered_samples": {
+    "male": {
+      "bar_open": "Widzisz, jak mezczyzna z tatuazami Sciezki Ludda wpatruje sie w ciebie z drugiej strony baru z rozpaczliwym blyskiem w jego oczach.",
+      "bar_terms_option": "Przystan na jego warunki",
+      "bar_terms_response": "Akceptujesz warunki, ktore stawia mezczyzna, i dokonujesz niezbednych ustalen.",
+      "bar_reject": "Zaproponuj: niech on sprobuje rozwiazac sytuacje, bo to jego prywatne sprawy.",
+      "bar_join": "Zamiast tego zaproponuj mu dolaczenie do swojej floty",
+      "apologize": "Przepros za nieporozumienie, stawiajac mu drinka",
+      "peaceful_exit": "Nie zaklocaj jego odpoczynku",
+      "temple": " odburkuje. Potem sie smieje i stuka w jego skron. ",
+      "shake": "on kreci glowa. Z jego ust pada: \"Kapitanie, ",
+      "voice": "atakowaly bez litosci. \"To nie byli piraci ani wojsko\" - w jego glosie gasnie entuzjazm opowiesci. \"Na piekla Ludda, przysiegam, to nie bylo nic ludzkiego.\""
+    },
+    "female": {
+      "bar_open": "Widzisz, jak kobieta z tatuazami Sciezki Ludda wpatruje sie w ciebie z drugiej strony baru z rozpaczliwym blyskiem w jej oczach.",
+      "bar_terms_option": "Przystan na jej warunki",
+      "bar_terms_response": "Akceptujesz warunki, ktore stawia kobieta, i dokonujesz niezbednych ustalen.",
+      "bar_reject": "Zaproponuj: niech ona sprobuje rozwiazac sytuacje, bo to jej prywatne sprawy.",
+      "bar_join": "Zamiast tego zaproponuj jej dolaczenie do swojej floty",
+      "apologize": "Przepros za nieporozumienie, stawiajac jej drinka",
+      "peaceful_exit": "Nie zaklocaj jej odpoczynku",
+      "temple": " odburkuje. Potem sie smieje i stuka w jej skron. ",
+      "shake": "ona kreci glowa. Z jej ust pada: \"Kapitanie, ",
+      "voice": "atakowaly bez litosci. \"To nie byli piraci ani wojsko\" - w jej glosie gasnie entuzjazm opowiesci. \"Na piekla Ludda, przysiegam, to nie bylo nic ludzkiego.\""
+    }
+  },
+  "map_source_verified": true
+}

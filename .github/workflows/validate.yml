@@ -291,9 +291,21 @@ jobs:
       - name: Verify 2 new semantic reviews and reject 10 invalid 1.1 release-gate states
         run: |
           python3 tools/verify_review_1051.py worktree --previous docs/API_SEMANTIC_REVIEW_1050.json --ledger docs/API_SEMANTIC_REVIEW_1051.json
-          python3 tools/check_release_gates_1051.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1050.json --ledger docs/API_SEMANTIC_REVIEW_1051.json
-          python3 tools/test_release_gates_1051.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1050.json --ledger docs/API_SEMANTIC_REVIEW_1051.json
+          python3 tools/check_release_gates_1051.py worktree --gates docs/RELEASE_GATES_1051.json --previous docs/API_SEMANTIC_REVIEW_1050.json --ledger docs/API_SEMANTIC_REVIEW_1051.json
+          python3 tools/test_release_gates_1051.py worktree --gates docs/RELEASE_GATES_1051.json --previous docs/API_SEMANTIC_REVIEW_1050.json --ledger docs/API_SEMANTIC_REVIEW_1051.json
           python3 -m py_compile tools/private_jvm_1051.py tools/private_upgrade_1051.py
+      - name: Apply 1.0.52 inherited bar-event feminine dative and possessive pronouns
+        run: python3 tools/apply_1052.py worktree
+      - name: Verify exact v1.0.52 class-scoped CSV delta, compositions and negative tests
+        run: |
+          python3 tools/verify_1052.py worktree
+          python3 tools/test_1052.py worktree
+      - name: Verify cumulative 324 API reviews and fail-closed 1.1 release gates
+        run: |
+          python3 tools/verify_review_1052.py worktree --previous docs/API_SEMANTIC_REVIEW_1051.json --ledger docs/API_SEMANTIC_REVIEW_1052.json
+          python3 tools/check_release_gates_1052.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1051.json --ledger docs/API_SEMANTIC_REVIEW_1052.json
+          python3 tools/test_release_gates_1052.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1051.json --ledger docs/API_SEMANTIC_REVIEW_1052.json
+          python3 -m py_compile tools/private_jvm_1052.py tools/private_upgrade_1052.py
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -334,18 +346,18 @@ jobs:
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
       - name: Cross-build Linux JVM patchers for private original-JAR regression
         run: |
-          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1051" .)
-          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1051" .)
-          file api_linux_1051 obf_linux_1051
-          file api_linux_1051 | grep -q 'ELF 64-bit'
-          file obf_linux_1051 | grep -q 'ELF 64-bit'
+          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1052" .)
+          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1052" .)
+          file api_linux_1052 obf_linux_1052
+          file api_linux_1052 | grep -q 'ELF 64-bit'
+          file obf_linux_1052 | grep -q 'ELF 64-bit'
       - name: Upload temporary Linux patchers (no commercial JAR)
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.51_private_JAR_audit_patchers
+          name: Starsector_PL_1.0.52_private_JAR_audit_patchers
           path: |
-            api_linux_1051
-            obf_linux_1051
+            api_linux_1052
+            obf_linux_1052
           retention-days: 1
           if-no-files-found: error
       - name: Validate private-JAR regression script is importable
@@ -353,16 +365,16 @@ jobs:
       - name: Export temporary API patcher sources for historical upgrade verification
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.51_API_source_for_private_upgrade
+          name: Starsector_PL_1.0.52_API_source_for_private_upgrade
           path: worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/
           retention-days: 1
           if-no-files-found: error
-      - name: Package and CRC-check 1.0.51 minimal Windows installer
-        run: python3 tools/package_1051.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.51_MINIMALNY.zip
-      - name: Upload the 1.0.51 Windows package
+      - name: Package and CRC-check 1.0.52 minimal Windows installer
+        run: python3 tools/package_1052.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.52_MINIMALNY.zip
+      - name: Upload the 1.0.52 Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_ASCII_1.0.51
-          path: Starsector_PL_ASCII_0.98a_RC8_1.0.51_MINIMALNY.zip
+          name: Starsector_PL_ASCII_1.0.52
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.52_MINIMALNY.zip
           if-no-files-found: error
           retention-days: 7

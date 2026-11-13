@@ -1,0 +1,13 @@
+{
+  "version": "1.0.52",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "original_obf_sha256": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8",
+  "previous_api_sha256": "cf26c3aa2885df954f4914b584ff1552b3b3c8f8d9290adfb8a03a9d6dff7a13",
+  "fresh_api_sha256": "5d53fa936ada275642a93b523f4a3e5ef45c10d3f16ed82465ed5476d27414c7",
+  "upgraded_api_sha256": "5d53fa936ada275642a93b523f4a3e5ef45c10d3f16ed82465ed5476d27414c7",
+  "clean_equals_upgrade": true,
+  "idempotent": true,
+  "corrupted_zip_rejected_without_overwrite": true,
+  "restore_exact_original": true,
+  "native_windows_gameplay_tested": false
+}
