@@ -1,0 +1,13 @@
+{
+  "version": "1.0.54",
+  "old_patched_api_sha256": "5d53fa936ada275642a93b523f4a3e5ef45c10d3f16ed82465ed5476d27414c7",
+  "patched_api_sha256": "b5c256c78f92fb174456cb297660945d81690c33d21d513627b0547ed783eb14",
+  "patched_obf_sha256_unchanged": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "fresh_and_upgrade_identical": true,
+  "repeat_api_and_obf_patchers_noop": true,
+  "damaged_api_refused_without_overwrite": true,
+  "both_private_original_JARs_restored_byte_identically": true,
+  "changed_java_classes_vs_1053": 6,
+  "new_executable_code_changes": 0,
+  "native_windows_gameplay_tested": false
+}

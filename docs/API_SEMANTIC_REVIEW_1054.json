@@ -1,0 +1,2312 @@
+{
+  "schema_version": 1,
+  "installed_version": "1.0.54",
+  "previous_ledger": "docs/API_SEMANTIC_REVIEW_1052.json",
+  "review_protocol": "324 prior immutable historical reviews, 19 new class-scoped and original-JVM-checked historical DRAFT/OPTIONAL UI rows (6 corrected); 7 new literal mappings not counted as historical; Windows not tested; 343/3658, 3315 remain",
+  "new_historical_reviews": 19,
+  "corrected_historical_rows": 6,
+  "added_nonhistorical_literal_rows": 7,
+  "reviewed": [
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "427de199ff58f14f00d0d41e32d83291c48d340fc2018a9aba18d2d913780bd3",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "993bd3f969ec2c52683715f1661e4d4e6b33a578f4b761280cb6f844a36f5f7b",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "6d28207f3d0722093194f8682bf7bd82f71234c9d391a5081df5f2eda71dd280",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "62c73ac26b8121d8c18fb53c969c0387cdee9c0424152703c774ce10a8ecf047",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "1c82ba35528b61cb16adad6344b3d0776ea2629e7632b55187f8be61a6fa3f14",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "8f03d6ed48d943a3a60895e166519a535ad71d124f18a7763b2d188d3ca8e784",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.econ.MonthlyReport",
+      "row_sha256": "7c634f27792ea3c1b819083331010e39ec56ae626344a45a4cbcdeb1abcc2eeb",
+      "evidence": "monthly_report_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.econ.MonthlyReport",
+      "row_sha256": "e9f97e5d892a86ed9306925f99c0fd3ec4d6a88ac2fdbbfd622f7837cf6f7124",
+      "evidence": "monthly_report_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.econ.MonthlyReport",
+      "row_sha256": "e3546ae4f8b72174c299d9620cda85f32ba6bf378df0ae7e33f999bd693a6241",
+      "evidence": "monthly_report_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "21b3324180cb9152dda38528294ad4a99b4a1bb0bd262c64f9e10913a6cce96e",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "550f3cab05b1234c7ddbc4cd227f9c57bed051dbb41ff4ccb046ea890d171c94",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "f08f24b04c4e9904d5fa44b470657b8d6cf04eb1584530841be054a59011933a",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "42b2a1519087198fc5072a180c6abb899af8cfe83e185b0da507db977ab45df4",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "b7fbfd8ba67e4d8aee33d2607026c97480158af87bebaf5ad243beac6019b486",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "3291506c8bafe9ec263a5b3cb72772d8e7198a35eb80eed070703332cfe45417",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "5325dfe060e65944db0abf7957f39836c6f1ac9fba166b3478283fe55d2f2d04",
+      "evidence": "tooltip_addPara",
+      "superseded_1047_row_sha256": "bf528085d58fc5450d51dd053ee0636786a8046e8f301587ee4c72e2010e44cd",
+      "correction_evidence_1048": "original_JVM_const_string_number_neutral_1048"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "c80e937591ad8c6e507020da0acac85846250fbd416fc149115d1d5a531a5bba",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "349dc53af88ffdade71e67722ff8e42b4ce361b07a77538690b0ea0e464ae52a",
+      "evidence": "tooltip_addPara",
+      "superseded_1047_row_sha256": "1d6ac7aa81717fc12269856ab9529d5096e14585948f7ca5b0a590e1bea469e2",
+      "correction_evidence_1048": "original_JVM_const_string_number_neutral_1048"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "5e7b1a41b3e32c7af9c17bbdd41868e117fcf776df256630207576a21f877f26",
+      "evidence": "tooltip_addPara",
+      "superseded_1047_row_sha256": "a411fddedc303baa202193528d65e49c128e189528c201af168f0fd77dff256b",
+      "correction_evidence_1048": "original_JVM_const_string_number_neutral_1048"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "b3d3b967abef5392bde3dd67469c4df0d4e0429ae95d44c40758d72219a00313",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "90bccf71a964210fe6b27c0bd1011a5a9d1cb8ec389a8b6278ea5a004412b60e",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "293dca57a96ba49157868569cd316d264cf6cff87ef60d444790203be63e5ebb",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "ef42cc8cce76732bd3ee14253f8bccab557cb25c559e8456f1f8701c4787ea48",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "f6addf9584e5226f285aa9b1b2174eb207da5564cf6a83630a47b2c92867c284",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "3e551796643dda14efc9f109078f5f4ca3eb5933259c6acce1e15d074794d7bd",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+      "row_sha256": "0932d4646b7def28db40f51c6dce29b75e15c9d3eacec4bba82be5a326fc2032",
+      "evidence": "tooltip_addPara"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "881aa24a9578dae1c0d72346d3c83f1283116cc34da74e6a71d608fe404620f1",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "d11e90855797de9df4f68915afcc26d84656f7377966f146f9af10398f06786d",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "a51d2c8f6ad10021b87048f7e2eff7f0e62169b927650fdb668749f63dd93db4",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.FleetAssignment",
+      "row_sha256": "4417261a0f235194198611fada6e8b007dfdb7b1fb8a52cce4f9ca3a12a42255",
+      "evidence": "enum_constructor_label"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "660956bedc707bf269d82d842ebafa4691ad72caf6e4b120c079a95fe95e73fc",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "6fded69878ff6046e338148c3350408032db695866e74962ac4192e66c75aed7",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "50dafeb8613065f9e1b638d67035292f5449a9bc3827c638c4c41b710f4b03d4",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.DurationAbilityWithCost2",
+      "row_sha256": "a09856337a0f4bad139843ad4749610022b6a28bc47c1f5fcec178cde1faa275",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "dc429c247f21b8da27bc080fb59e5482cda5b05757a71dca621b2eac0d8f66f5",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "eb6ccecf66c601dfb61c8d905eb2a5366929132613904139a1dbf9df968a8f74",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "fa092cbb85e0a50119854493833f17685ca9c1fef0ad885181e0aa72c6390700",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.EmergencyBurnAbility",
+      "row_sha256": "b491fa7770073e77687f55f0cc3adf5f7dc3dbf45572922f7224671e662d27a7",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.FractureJumpAbility",
+      "row_sha256": "4c97a04c68b38166989c5f909a9bb01a7885e952affbdda98eef33ca585bc3c4",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.FractureJumpAbility",
+      "row_sha256": "c7381a9b9764153a76dc3e2e5b8b9eafbd555005e0616684ecd857023589597d",
+      "evidence": "assembled_light_year_tooltip"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.abilities.FractureJumpAbility",
+      "row_sha256": "b0eb7099949943033abe9e611dc13fcbfd8eecde1229959618d6f3e285a43753",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "1fd024804ef1a8b19a0a4768dca9143477a667bdc8a463dcd08530f7afe1fa63",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "b65dceedc14e906629a6268f400e7fc11d470fedc00506b9babd073457e1d90e",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin",
+      "row_sha256": "719025fdc6a25bc68011daf96dc98cb03017ba7fe521617fbb11a08a78cdf1e1",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.ContainmentProcedures$Level4",
+      "row_sha256": "cdba8d9ff89429d1ad1fa9d2550e1677870f85777489a7d7b6e23468f43d037b",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.ContainmentProcedures$Level4",
+      "row_sha256": "fd4d5d8e24adef7a81a9433598653d54ed488eb637fbabb0e85b901fd6d37972",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.MakeshiftEquipment$Level3",
+      "row_sha256": "46a7de4797aceb25769ccc928b7a74fc44875979445d6fc967aec815bd94d9e7",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.MakeshiftEquipment$Level3",
+      "row_sha256": "e95e6f32c975371a3464192546855679a4bc6ec023770d3e805ba045d4692e31",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.Navigation$Level4",
+      "row_sha256": "46b9f3c202381fe5fd03e519b836b15db226c4354fa6866bb336e8f1bce78b46",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.Navigation$Level4",
+      "row_sha256": "7b4212ffd1e7f9e382e7d7bcc1f37d6a9b3896ff3b1da42fbb7f4e9c30668eb5",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "3c13751177178a1107f5668aa0801b46a18b9cf9c1ee5f7c7e22d89fed707828",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "169d0032eaa9ede9314dd4134afee5d56f3242cbce1dd7c49892685b0cea87b1",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "32aaa6a584b5574ef703966e86a5b42a21f75ba06b387a65310045899510c5ac",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "e2145c10d1413673d481dbf1c020a10d3171f2643dcaceaa2418ebde83ecd435",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryMissionIntel",
+      "row_sha256": "6ae7def9640e2f8b2ac2babc0c80ce9d353a5d17b4a9d9c01f4b19b8315e8b5a",
+      "evidence": "quantity_label_number_neutral"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "2bbbe22d0bf1056c4a70d3f7d04072cadbd9893855d832267bf034d9cc66dd82",
+      "evidence": "story_pf_81_callsites_offline"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.SetStoryOption$BaseOptionStoryPointActionDelegate",
+      "row_sha256": "f150c50b895eeaa2780cd7e156a8d87d54153e074ae586167c68753f39914f5b",
+      "evidence": "story_pf_81_callsites_offline"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.tutorial.TutorialLevelUpDialogPluginImpl",
+      "row_sha256": "301f5a76b430a81a31b2ab32cd22be4a0c810d17e18ab25e55556116698e884a",
+      "evidence": "story_pf_81_callsites_offline"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "693e9ae72ace7be2c8f92e5eea74a71bcb638931799beccb6cf8d21f2016ddd4",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "neutral statement about the pilot, independent of name gender",
+      "english_key_sha256": "e8fda873f75c2092a0b82cc8642e13e44f5b7d6d7974273e951364db7e8e1148"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "6070e85734be44e667f8a360975e5e166e4c73f16997a79986168b47e8ca10cb",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "comparative clause before gendered on/ona; both variants tested",
+      "english_key_sha256": "16dfb2f6fd798ab8416e3fffe4d839a13a774cf00b8b45d56c9aab54675a1e6c"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "393c465a9d98c068de6b79a0aa526e99618606dcbd6ce2fc69dee2ed43d48be6",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "comma and continuing clause, with a space before semi-retirement",
+      "english_key_sha256": "7a5a252ac0e2dc194e965e2eb0585dd3fcf2e81964703c8de48f74c5a078e293"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "08c8f51ea8cb8e3e1847d3023109e02803e441ac64d4653af263ab37346ecd8c",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "speaker-independent direct speech, no masculine conditional",
+      "english_key_sha256": "985f517858c4804c6c34774b8d39942086eb1dfee4bee19045a14c36cf5fd901"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "ab0de78c9bc249fe9a8bd232563ac0cb15e6900afae86c9a62f5876839a495cd",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "continuation toward the cryopod description",
+      "english_key_sha256": "b02861f705028319235ad21620ce367113227d17ac28d8e76f4012c7b0d8796a"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "e1d68226a926ca6a8a100f73192c8814a5f1d5137bb672eed59d4319cc3928c2",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "continuation of the cryopod description; unchanged quote",
+      "english_key_sha256": "b85b43b57f489dd28407af4139c6c5a46fc02ed2e11111bcb0d193367bac7fb1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "4df65db996db3c4909401c74b2a6ded9b0e8f95ffe1182efa3671053f314a3dc",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "speaker/target framing for the corrected sentence",
+      "english_key_sha256": "3cb5c466cb4bc64b98e236f95d15dd34281a4dc7b68cf469d0c25a7635ef3112"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "04792365d0084749fc19fa0c8bcf619405a866b22c84a553cb8e66b0d7cf9fb0",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "bar-event narrative after ordering drinks",
+      "english_key_sha256": "40109c20d29eac9c8c6589d965fed6eee510aaa21d5ee0c8bcd2a8a77eb3a02e"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "31a5e9d24da65dbc2e69c1fe7b425c1623ca6730009e4ed8dc3198134d6d97f2",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "narrative break, two newlines and trailing space preserved",
+      "english_key_sha256": "aee945ae9d64291f2b92324352db74d4ed706604a6a46f76e5413c24e67ddd3b"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "d1be66098359934dab67ce78f0b78da68f431af56d0023c4baae383aa6ce908c",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "planet discovery with quoted speech, ellipsis preserved",
+      "english_key_sha256": "6b709df5ea0185da4a6b38af52eae60edbcee929000721ca5ac244970fa305d7"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "5eaa1023049d8fc6b07866b085cd926d582aa9c7e1f4c6d55d9c1a3f169708bb",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "story denotes a tale here, NOT the Misc.STORY point currency",
+      "english_key_sha256": "65f06a42a3689f07e50f44de563f54ede44914200e59d482e177c21b653b13e4"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "af0b9f8fda75ce8985b3d0c34a1088cf0b231483ecdb14d05053f64d6afe40d5",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "past-tense salvage fleet description",
+      "english_key_sha256": "1b7017770bde6e9800a11f54962a2c47f54ad81e3f6c3d0dbdfb478e471d8e95"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "ee767037ad3c3bc61673d542a34d71b50a421527be51b4847628da5b4bc36b34",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "travel narrative, original two storms retained",
+      "english_key_sha256": "c577dd0db2bd3a0e88544ad5e14c8c580d4578bac2e22f7b03f08ce73e6d8643"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "fd60bca334111f6169f1220782cb42f4c57ec8f96ecb8d32d98dd329939054dc",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "salvage fleet, Core Worlds term, trailing delimiter",
+      "english_key_sha256": "f13bef4818a63780f081f3a21e2627875d09b272bdf40386ac505909a1132080"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "8d31aa03d6136c0820f5e4a912ce5abe332d3abcb8249bb3496f38aa3502686a",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "crew rumors leading into target world description",
+      "english_key_sha256": "5dc58384934c3b6d98f5e190696098a5f960aff5e80e606309bcfce56790bb53"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "a585b642f6f02ce763db21f600698d59451abb1a99d7c8df323aa4b9e06abbcf",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "asteroid belt and outer jump point, not a new system",
+      "english_key_sha256": "1bc4718698db75a1d8529be685e00bb1baf8661a4eb1aa0611af16a2671d5384"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "688d494c85d3c82d92ddb1f14c8f06db21a2e3e905ff8ef1007ca45154c2d91e",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "partially faulty escape pod, first-person quotation retained",
+      "english_key_sha256": "d3e075b76150e4ac291c4287339e0ea0380de99a65d189b53c36beb5a8a18396"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "b942f65cb77a3cf46de20f255f7e375a31ac1385770229cd27dc947124e6e4c3",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "Domain technology referenced without changing faction name",
+      "english_key_sha256": "50d91291b20244ddee17849690d64dbb0655b037bd98dada1e41d3c220937839"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "94682a3d662c916af56670a40c2ee247bc81cc314f8323ffaca2de769ba1e255",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "player option asking the location of the red planet",
+      "english_key_sha256": "ed608a3e3cc8af1fddc26fbf66e905a7781a383bc57de08b8341ff28b70216bf"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "c3fa67429824f399ea56e40e85e5d3867756239fac32e1c5f2ac4a5878c44786",
+      "evidence": "planetary_shield_contextual_original_and_patched_jvm",
+      "note": "option narrative introducing target destination",
+      "english_key_sha256": "37b69c40bcc5689da663e5e2562704de73d9d9d26bdb74083add2bd0df415b7e"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.contacts.ContactIntel",
+      "row_sha256": "ce676387c5ca28951639665a5874a27ae93d27188cf88c970c6b6806bbcdf949",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "createSmallDescription",
+      "jvm_offset": 911,
+      "english_key_sha256": "1a7040f1e1f145b203b131ddc795a5277ba8dc4abb999c8dbbffd71e2dd298be"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "4910acda2ede4369e9daae8130abc6b07e151da59cc48410e98ad324cf31e5cf",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "getNegotiatedText",
+      "jvm_offset": 11,
+      "english_key_sha256": "d44d1d7807bdc22e4e6e6a284d683d7eab1cf957b0808cc22ee00c03b81d79d9"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.ScientistAICoreBarEvent",
+      "row_sha256": "4af253047ee764c88a381460d71d701d9d823d747cae5b33a09fbdc9521f7433",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "getMainText",
+      "jvm_offset": 18,
+      "english_key_sha256": "26788ce8b3b177dfe7cae5679fa8d52ce20db243b9a8728fe391b192cf930b27"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.ScientistAICoreIntel",
+      "row_sha256": "a377113369512c233ef69403a0aed27a23797dbbeb9cb137d373da9d6d76747a",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "createSmallDescription",
+      "jvm_offset": 193,
+      "english_key_sha256": "13fcf042a301ae53eba68c5776727a2718542f291edd7e5996e316920efe2781"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "row_sha256": "aa8dc2a97c4b567603c31b7ff3049fba4971bee07b3f08c40ea2b2942a76d98c",
+      "evidence": "reviewed_both_genders_original_and_patched_jvm_1037",
+      "getter": "getHeOrShe",
+      "jvm_method": "getNegotiatedText",
+      "jvm_offset": 43,
+      "english_key_sha256": "3745aa6cebd8e133f5e7abc94e69e9d28e85ca5ff40d6aaecab9111375c94d88"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.DonationOffer",
+      "row_sha256": "8756b8c13758c7fd6899ff6ce29c03a961d46e178fab055d095f3a2a70559b04",
+      "english_key_sha256": "ebafa4b966bc2dc4528b03d2b9307aead0ff6c8fe574aaa3284ff43f620ee34d",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.DonationOffer",
+      "row_sha256": "e03fa34a59b6898a3c1c7d6e5d670185bffb3a8dca44ff0750d79a63169ed651",
+      "english_key_sha256": "da462724454db32708cb4f05f70d85107fa15cb2f1c22f4a6adeb395f3bcf211",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "24714cb34e3137892e5d4f4cb5f6393bd7bc250eed6027fb42e0d88edc196ae1",
+      "english_key_sha256": "d354c1edbe20d2e27d6f2dc26d70f9fe7804949d06aad44aa0dbe5f2f0d01a8c",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "1a35cf628697100a6d23d502198ab7c70a513be563d8a56696dc190c7db8a808",
+      "english_key_sha256": "a403991e209841af93b5ac6b71a5fff46d0afea28129e7812c5ef72f2f1f7e80",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "60f0862dc584907bed1aad0dc8e2147d2b55fd2ed467fbfac2b43af7a597024a",
+      "english_key_sha256": "84dc63900ebeeae13a06e6b9bef02f31f9faf35e726a3e0ed6ecf793091719e9",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "d3f65222f1014415166a3fe45a38433e6f64c944cf1707346844ec6ae851b64a",
+      "english_key_sha256": "4d0ef2dca1e82ac634838aacccf43f215d72e53595afe953d0ff28c1f906f438",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "4732e2115f311f2d131ecb3158d3ebb12c8a7ea585d79e04eaa6382d9222471b",
+      "english_key_sha256": "773d5b4789aca775322016b68c02123b8e3608bd06414c9e6b8f105292849084",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "691cfd31138044b5051dc61175bb1898b2f19a491d07f3d089c93383a0d0ef7f",
+      "english_key_sha256": "a6b9b2a56d187cbe6848191d383db76fe8c886027cc78ee8f1e23f5ac10583ab",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "72cbea9e1ffa31af66605f2fea3902ca32ab6eee6cf613ae5f0a21e77c7ead95",
+      "english_key_sha256": "d4957a9b4a709e846b9a65b6593a71f6317cc89c6b15464ee48e531b3a91ddfb",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "c717c9e5f4fdbfe0ff1bdf7a42aa01de195f390e191abcc2516b09f19a28c0c9",
+      "english_key_sha256": "f920cf7ebbbe8caeca85e36c281601556c61f4bfc84a00b3b29db8a183e4c5d7",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "3ecf71899707506474d139e6767fa2633c402ddc7bcd64442dafa8358a3b57d6",
+      "english_key_sha256": "6a0d0280d51d60e4bc25b44fafc2b14ccd5970199637bd3f7becd11aa28f6600",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "e1588377c89561cf9df4e4e06453d9171926cc3c4ae36873193fc313d3b02961",
+      "english_key_sha256": "73847bdf7b47177e46a112d163b686ef11775cde972a87675d44b06eba2afa77",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "f1f3b4eff64100f231593cde2abc896f2e3bf7f856958c00dcc1efa96f6647c1",
+      "english_key_sha256": "85c659e4d0b79ea9db5b3dc7397d4654ae7b793da4c1ca6c58dda822e15b0ac3",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "e5d4261399b40ee8605a618c545256d87cb42c1fb3ee2241a34261117e165d40",
+      "english_key_sha256": "2287e98a4e38660c04f5c69d448df63ccd787aaa70849a06904e069a4a85a1bf",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "814de7f8a6e6b0472f31156878ce83edda76b618da87dadef26c7ec3ceee3fcd",
+      "english_key_sha256": "42b0c4cba1a8f6d0fb1b098f1a4fe13b82ad2761ad4e0a9228bd872be001a2b1",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "bbf02cdb80df9ca91e2d0177f984c216d59c982ee89fc3b0742d5432be572cdc",
+      "english_key_sha256": "6de0d4642efe3db737495b3f22afda13aab3f55de5a6e5f2412a5af497e2a493",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "f7c88b3813eabe65d247a073f99b4ae6e89ced179e6b1f262e50071f4820ca5c",
+      "english_key_sha256": "0c133d4254af51c9eaa113a71c1c91a6db8eef23ebf762b08d0c7bf7fdcdde0e",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "7dadcbf69def25c84a8ef8cedbed9b13100d2a1a06f365e1eb7b8fef53437339",
+      "english_key_sha256": "15607b59b6008441183bee9081f772e367b2d1d98a742e9523118226823e6ac3",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "7405775fe4075f300cc46bd747541d89382887a0fc22ae5f19c71ab6ac2a9734",
+      "english_key_sha256": "122f573d56bff5991d06c982627e9cde5ba55d22ed1e96b673207847ec2876ec",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "d9380312eb5b69a8761a9f4f409175331ecf76c997e9601e3723327146742bd7",
+      "english_key_sha256": "b0f6217d19cbba269d6b60dd598dc75c0e03a43bcb94a56a53ee1da0c9a7591d",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.historian.HistorianBarEvent",
+      "row_sha256": "3fc32b1a6fa06aba1568a9b9efba7ff1d5fb231986e163bc5f658689f60ae71e",
+      "english_key_sha256": "93b3ff8b8578302e5d22da8ef90e4357feb91c485db2c5b83073f4bd33235fc8",
+      "evidence": "historian_gendered_context_original_and_patched_jvm_1038",
+      "review_status": "offline_only_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "650512e7ce4aa58b3dc1b6684a057ba7ab286888f4e44512f82048a5887e1838",
+      "english_key_sha256": "269fb2a3beb53b2a878593f6effcda865c2d5e139702fcc2045ba78ac9b974af",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "cef183604c1fb6e2f2bd9b05682a8dd83371cf3ecb34c43449cda37cb6197b20",
+      "english_key_sha256": "6297d7e8f118d0be2cbe8a53f1e4e505bc22ea16a32a8d7f0704cd24edf3a26c",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "4e27bbfb2fe7c05711309d45076330a066968b80484daa8ec4751e2b4255bf52",
+      "english_key_sha256": "1808b140199a8bb8345895e522ff389fcc5b88efe83aaf17295696756f1bdd06",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicCraftBarEvent",
+      "row_sha256": "c286ed8ae04e403511cea6d6022b0f2e7c87300ef1c4ebe091708475c5fb1bd5",
+      "english_key_sha256": "54c713e40564b599401cdfc2e25ed9a43a6eeffc3a78a5f1f99bc72ba199d30e",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicCraftBarEvent",
+      "row_sha256": "a8de3b0e6780f07344cb2544488fbcc192c6eab6f227b375554c5fea6677ba65",
+      "english_key_sha256": "6f3f5692bbfeef3f20919a0b9d7b502687b27452a6579b728e0ae601383fedbf",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicCraftBarEvent",
+      "row_sha256": "321fb402f7ec379afb3e8fb6d56994a77e14d762e805045117048b2c56a29c73",
+      "english_key_sha256": "ffb965407c2b41218871904b9fbe62d766647a74496f32553267d2e4d1658fcf",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicCraftBarEvent",
+      "row_sha256": "fb82bdec921004d4f988f9aabfbd2d5e04e86f238a8881b4970dee9fa84af5a6",
+      "english_key_sha256": "d1fcf744260b421141293f77711f1a3dd7323e236992662af745fd4bfc91da6d",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicFarmerBarEvent",
+      "row_sha256": "5691387edb548a28bbff8ff54b69b26a133891be236fa34f0280cb0e0243253b",
+      "english_key_sha256": "2586f0f0eec3eaff1e52cb34597a634c0e1d86171377e499c3e34cf64771a0d3",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicFarmerBarEvent",
+      "row_sha256": "376f9c16eaa1dfcead09e3ff3266f074dc4400ea06e1f705017ec3d2839fdae0",
+      "english_key_sha256": "6c39160697ec8355dd3a5d8cdf0b9076c706118f0c7a93213e24fcdcd22a21c6",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicFarmerBarEvent",
+      "row_sha256": "1d2a457d655014e636d677fbbfe19b0fce8fa77bce8aa1e3e7d4f820faf61d81",
+      "english_key_sha256": "a53d2a9dd07b777072e84ed9960f8eb9488109e5ed584d4df29cdc4a7b983bc4",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicFarmerBarEvent",
+      "row_sha256": "9c78f9c2a09fdb20b375b1ccc4b4e1080236f9f5fffcfe0e60d9d418f940e735",
+      "english_key_sha256": "992781be8a2d816651929be239d6e142845c65e487568261865fbf3fc67bbb3f",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.ScientistAICoreBarEvent",
+      "row_sha256": "e4cd1839cf04e5834370fdefdde2c942d4e6e23223f1e77fa28dfbe3e9103a6b",
+      "english_key_sha256": "509dbe1af0de62ec4979959751c9ae0bd356e11f41e8be2a4d9622c097d8b5d5",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.ScientistAICoreBarEvent",
+      "row_sha256": "5fb9909905b33c9f5765d47e118e8df2a3a356e01ed58e4f9646cfef9618d61b",
+      "english_key_sha256": "40b793ec6cafd0cb650c1004e46c7cbdba6d26c56fe43c9ff074713c745aee63",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "row_sha256": "5f2955216e86af050baead5f30cc029a6445ee6e038c49b3436461f9d99f3306",
+      "english_key_sha256": "c8c2cae69b1f2518e672a1c4ff73c99759f505b4baf4f0bd789b8198521c2a71",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "row_sha256": "912ddc3bd4a4acec36288934526b6356a18f6553baed243e4ef0c02328da4b56",
+      "english_key_sha256": "dc94f4a8fee982d36a842128db687c9daa1c9f998c00de76269a5bee7aceba84",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "row_sha256": "3f778b33071d3f615085abd4fab63089517126636ce13598dd0fccf8726955b5",
+      "english_key_sha256": "411c2bad082629d16990e1d022f71276df60cf4b260c4598c660a4e6a96f467b",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "row_sha256": "e9d8826cb7b609eb0924b49a0933411ed3aa7a5a6f3d51adb9f5123c229eebe8",
+      "english_key_sha256": "39462535ca2360d31cd94ac9b0c643c2ba6fd257e02e53453fa67918951cf618",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachMajorLoanBarEvent",
+      "row_sha256": "5af925fe550163a1debf78081b4f4e3feddc1f3c41adee18feb3cd84250527ce",
+      "english_key_sha256": "1ff049a3772c629e3a4ec8522fc2aefb74f9f4b3e1fefc4d50ac61d1eb215e90",
+      "evidence": "bar_gendered_man_or_woman_context_original_and_patched_jvm_1040",
+      "review_status": "offline_local_fragment_pending_other_pronouns_and_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "row_sha256": "d841c58d2642775656cb995b196b3c5d4772ee1ea77942ce531fb26d08a3db15",
+      "english_key_sha256": "d2e04e393cda2c1268efbae3970e00c4222bbb125a2f011458065cfa59e78bd5",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "row_sha256": "c15c2737be11fd7e559d4cd32a1b824a49376e8d07da23c15493f23ab6881cb1",
+      "english_key_sha256": "2fac7085e326a03a83162efeb330442537a90d665e2b8c67e861b1798c6a5bd9",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "row_sha256": "6a34e0bc44c46f6dd7f6c0cdaac9224cf203c85ae9072f3ebe518d067a339528",
+      "english_key_sha256": "dc61ecca719f2d24e43ff80079c9bf7fbfbeb9e50df6413c5db18747635accbb",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "row_sha256": "ceda0df439a7e5559f36c937faa2f4587560a154b014b3e8c31efb6c4f2d7619",
+      "english_key_sha256": "b4de0803c18d01a75e86b2f380310b0d9836115fc91f13dd64a567db7478b744",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.PiracyRespiteScript",
+      "row_sha256": "61a89d3f7056a7bf73668c6b60d0286bd4928b7e1f241d9ef100b6f2249a17c4",
+      "english_key_sha256": "ce1edc6bb17f903448f7848d22e0330e1939d10f40c5f1ca8a7a65b541d64b97",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.PiracyRespiteScript",
+      "row_sha256": "00f108895f88a184aee6e8e8f068114ff053709f5a4b1223d6770eec612fe57a",
+      "english_key_sha256": "681e67bb73624c201340478113389740fd8e88597cdb48b37724f65ed8bbc396",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.PiracyRespiteScript",
+      "row_sha256": "2c0d53ae5d5497cf7639a349de7252d590b4d6d0bb735329fdcb8872ee62d29b",
+      "english_key_sha256": "cd5a45da0bfd2c10b64437ce3df026738bbf828791b69b262dbe0064a12c8247",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.PiracyRespiteScript",
+      "row_sha256": "10750e9b64631f8d9c847d746e2d0c50bdcf17d6d84f8fc7595d3ac91fba8291",
+      "english_key_sha256": "407c6fd3c147b39ef75e24dc53e96a6dac0356a724031f2be0dde48aa6e12ebf",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.PiracyRespiteScript",
+      "row_sha256": "5c3742a34f4ba90a203d2796fa64bc4d66e717f8b51d9b82caaa26bfc2cdd1fb",
+      "english_key_sha256": "7ec0ec7edb97b6354846a41f8666140232ab15735346b17989f5e0d43de74ffb",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.DoCanAffordCheck$1",
+      "row_sha256": "6a3fc520c2ac91a57ddf0058451fbd68002e269deb7153db2f0914de6bea8dbd",
+      "english_key_sha256": "32fbaf8ec6009deaa1d0f7e355e7998dec2d9c71b4b9ffe37752b5042d506ea5",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.DoCanAffordCheck$1",
+      "row_sha256": "842bf670e3fa0191a682e137421c9be8f48653c7b719ea1bde44a3cc27ef8b2d",
+      "english_key_sha256": "92871ed79e99d9d665c9d510b9b87512428711f6d77a551065a59850b0c9e828",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.CrewTraining$Level2",
+      "row_sha256": "88536e4edf1cd63745d58143c311c1f2af10994ee4e14e0f0c89df737829aa6f",
+      "english_key_sha256": "e53384537fb2ad6ea6d1c9d1da520a7af24efa3fb27dc3ea633e375ae8afbf36",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.PhaseCorps$Level3",
+      "row_sha256": "5132d5680aa3a36403c41cb095c7304389155c8f99d5688c09dc3b81ff210631",
+      "english_key_sha256": "a8a33fd042c2b86610b4da98a57106ad9961fd0df8180b6e125e9d43f8967582",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.PhaseCorps$Level3",
+      "row_sha256": "34542abf1494b98b65e8929a2d5a13ab646153330e4c375d7829c97ade5dae8a",
+      "english_key_sha256": "c302e00d8cd888c0446edf778df3618a51986d2d3fd87d7eaa5a4e5143cfcb2c",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.skills.PhaseCorps$Level3",
+      "row_sha256": "068b0f482465daa88326a72425f4fa0310b91ecc618d24af6ae1b69b4eccbab6",
+      "english_key_sha256": "19740a7066b7182619f0651ae3679d08d7246a8424b48c27be347b087b70a745",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.tutorial.GalatianAcademyStipend",
+      "row_sha256": "c967b459d6c060b86e414d920974d16fa644103a611898f70b3b0eee8fbf5ac0",
+      "english_key_sha256": "d6d9c16f61abe380edd6be171bf95101d2de61da3444e1554b35fba0a0949a46",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.tutorial.GalatianAcademyStipend",
+      "row_sha256": "1c43ae190bf1ef3f05feac16100a845bb7d0e7ae9b10c667932ce1876f069669",
+      "english_key_sha256": "88e0834e32348737d0e3a729b9215419fa95e73cf7a56372db454e6bf301162d",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.tutorial.GalatianAcademyStipend",
+      "row_sha256": "e85879de86f59c6e78a212e2a13cc239bcc3b230860f996277aba7c41e8894dc",
+      "english_key_sha256": "49c37fbe39bdb21d21fe0fb9b7b119e11eb8c5d2bdd440644eded4c880e2982b",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.tutorial.GalatianAcademyStipend",
+      "row_sha256": "b8992d3d777debc48bf2864cfdfec0594c51fb838b8c98d06e59964522307a3c",
+      "english_key_sha256": "376f44045a4f4697d889df886aa2d67a9b9094e39614529ce3e8ae3cca92c176",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.MissileAutoloader",
+      "row_sha256": "6f9712669972b0396ca44c416ab0721c7247011b055dd7af90c87dd9397cfe07",
+      "english_key_sha256": "e0f860c3f0e2112bb7af5dff93e9151603a37c1397e7bd5fc24834888e19dce8",
+      "evidence": "original_jvm_constant_pool_and_contextual_polish_1046",
+      "review_status": "approved_offline_context_only_pending_native_windows_gameplay"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "70a101401a7004e53476659e1d6a6a60fc112e71167f188e57f09645d277f49c",
+      "english_key_sha256": "e65ea7703f3d862068501d5ceedc131feae048c376d32418a4c298a782b0d227",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "a1a2c2a3bf831dae695bf9f832cf8c8d4a04c95d9ad09b53b7f7280b3c21d1b9",
+      "english_key_sha256": "de5045e5ed877e4f03f8d20378ae4fc71116cbd0ba95359d2352dc7bdfd1550b",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "b936b1edf6505bc9f1126b9dec4dd2bc1539f6141f9ef78cc52429490e530eb9",
+      "english_key_sha256": "a24023c32989fc135cda8bc91581d9f60cab4a2f22548145333f6fd6d9a37647",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "8460527fb4df1d38b46777669ef5dbb23694ecd0e5eeab8b2f5baf6d85c8babf",
+      "english_key_sha256": "b03daea8f7f4d176a94954b46800774d346ad0feaf55de7ee25e265758398703",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "7700fba8b9401047abcc6775153aec127e8858962044727405cb7ec0a61ba7a1",
+      "english_key_sha256": "cbc815699ada2864012d7aa3621983932b7d8f705860587475ef00ff8f5029eb",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "1ca4635070bbfd8733e3c687f0965334d1582c04b0376616f48a0ed5105064f5",
+      "english_key_sha256": "193d63c053b6ec2256c721d1c701915c2a017ccbcfb5ce0887bf6a12c5e2ece1",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "a403a5679e7cf550d4a512484ce57a8f4d2547fafba8492be292b001e654fc0f",
+      "english_key_sha256": "e51b9804955278f024505393dc80734af95bee1e86c86615eff552fef4257ee3",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "6f889e4291b2c03e9c7f2064b353532fadc95977dbcce55f1b41e3f8e3caa565",
+      "english_key_sha256": "9245e1cfa9ff545edbff5bbc698d63d3bdbe6ad2132cbcefe05064fb7a2ada9c",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "e7a64337c3c799b68ea5cbbbe0a770966883020aeadeb1015fac4f77ceb1a94c",
+      "english_key_sha256": "ac68014fc181238892810d2dcf8cf0a7204b89c7a61e90eb1ea42e37576cf826",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "77a32ead3ef351f57a340abb873541631d8a47b76416747c9c1dd2f794df0b68",
+      "english_key_sha256": "ee63ee99ecbdeb7659797d72f5995e95064d0cd56f0467016ee89b2115d0f2cf",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "73094da1ac12595295d3adfd2e972af152ed77f4e66bf06425868a2c32bb0257",
+      "english_key_sha256": "0d485a694bf597ee867bed144576d65665976710941bdf578c9b2049ab1e7ad5",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "6a1495d54536f2452d76f8c8da749f11b25fca7e810518872168a3f06862cda8",
+      "english_key_sha256": "7a0cbb1086306aa10547efd6b0600493f16bcc70271b06c1e0ae4f4668a9cfea",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "24534895be3a92b887904a34df63fbff8d6b6460ae9bcff6160c92c5b44e6426",
+      "english_key_sha256": "87604ee651f76e8cdf48dfa71767010063ac3b8315ed90877d07056461305c0c",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "b0a2415d96ffe0019113574c29443b88629b784420e77573c53c5a7efec5037a",
+      "english_key_sha256": "4b7902a3a7a1ddf1418ad98065b2c006fba8440784ecf1d6235da041efbfa863",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "8d9dbd2fdec84c33645e584636899ec81c482534c05d9b5ef7428293fc00dfd4",
+      "english_key_sha256": "bcd671e57fca81926288389eefd2c7946e6d9952fa21d4312f0c236a55de0bff",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "f4a5bb919fd29849d4aba99b2e78c13532fcae3d3715835446d20bbb882b663e",
+      "english_key_sha256": "0d24e4cf0b14ec94ec3b843ddd718637cb1315da9ec954005812af16cd871478",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "f855fb12449422a33033bba28e4ec78b30b077e362bd902ec34a127a89193e4d",
+      "english_key_sha256": "c089807f7a724421da4b223159712c1ce5d5c9def2376ded34f065ed58d8043d",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "be38420b031565f7222c5f0ded358e157cba01d8819bb8d09c513dcc9aa123d5",
+      "english_key_sha256": "3589efd13ac157ffc20eb3f6e7430f09ca296492b09e29e8319f5139d0d09867",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "68471851ab68a97e142e1b24f6833cbbb5afff57a269d982debe81c5cdb01f19",
+      "english_key_sha256": "ce9de98d91c73072242a4caa01de9b847cd4952f374a391396452ad76314b3d6",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "ec309003295118079e23f352e2721e402f0e0c80ec5d84f803efa4cde034e29d",
+      "english_key_sha256": "c399a5dc4b269ab816037343ed7ad74805366f5bd10a67265a6690059790df8e",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "6ebdea1a50f05b60b13f1f63cf8845b17b87232ded825835fec62107733b5e74",
+      "english_key_sha256": "55815998aa4199640597d75fadf639feb36674e2343ca5318c2dbcffb421f9aa",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "a10ab4d869d29c8b0f6f694431770528825ec59808aa19e6b6460ff9f85844dc",
+      "english_key_sha256": "08716036df6629aff1a94002d596737ecf519b5f8155a48753899229f2a3658a",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "6cd4fb5e8cb171e826107389eccdea4c0ada59d78bf0d7fb5c018ae70bc0e45b",
+      "english_key_sha256": "fc575faf02a233215dcedb0b3877bc77de7d2e38a2cfc3f8826d6dba39b5db0c",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "976c6bfdc92a21dc92899694384a8199bef7c70b00dd7670ed753cd4f0c38260",
+      "english_key_sha256": "f5a858c006240be073708148bef55a70ceb4e9170549794e74bd279f6ef262f8",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "81f6fc2adaf76940de43aae4ba853fcdbe98c045d22550f6ff9bf255df5b89b8",
+      "english_key_sha256": "7ebabde3cc14b2a5a4ceda6ab63fa96c01375dbb63fdc6fc97c8977f9375548f",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "41c8f950c07c4191cd30806b4eede4131290c742e99f0f08ebb02d1f4a360e2b",
+      "english_key_sha256": "6250c88f2fe58e0498cca5b0e6395df4d7f0dba33706fb8a5c85ce3e0bba2543",
+      "evidence": "combat_option_panel_addOption_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "9c070ad9dfdd9cc0755ecf7736ccaf7de4322a3ec2d2934d6edee6bb1fe88d64",
+      "english_key_sha256": "f23706f9b3db6660526297aa470ac17be5ec0cb74903078a6f9fc18862487fb3",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "5bab1b82f97258bb2f391aefaa4e37e86fba843b23fce30145789f402c947113",
+      "english_key_sha256": "725d20ad7e7a9f40e1e3f842d79a4c60cded61b8ce1ea05871bbca1e2e012083",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "762fbd74ad96c8b96a52015eac7491cdd0810d708b40b4431ccc017f267c98a5",
+      "english_key_sha256": "43cf43303acdaf89a80e7432987480c46100e45d9faf41ce801845deb69064b9",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.Cryorevival",
+      "row_sha256": "7c07b4abcf8b60b0c5552b5e7f58bdf8ed5114ee5c8b46b948e71cca0ccdbe93",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.GroundDefenses",
+      "row_sha256": "00416b192d2808b006e2a4e2828be81f4b665ea0a6e59392cb982b54ac33c827",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.MilitaryBase",
+      "row_sha256": "8becfd3091c7d514638f28bce0d4eb52dd915fce468296534ecb5c16337a0957",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation",
+      "row_sha256": "4d6cffe0a4c19f052d18096649277a00eb668730df64f2171a3bb1fe38167c34",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.PlanetaryShield",
+      "row_sha256": "f97cadce3d6625b3bc982e6db1e76e1a5ad579091f68dcf3542d354530a5a112",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.Spaceport",
+      "row_sha256": "5c16afd265e134425a84bd5d4d94567eb1d3a37e81e5655f6d12f8a45352dfd5",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.TechMining",
+      "row_sha256": "550054f075b9dd01393c42182366538f3171222e051eb2281b97fcda14892833",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.TradeCenter",
+      "row_sha256": "a8ee5692b7278483e9ae3dec08a25263825de75ec8775c47cedc0df66fb38838",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.Waystation",
+      "row_sha256": "20bfb9b2bfd30b95dc76d7507ba8b55958de7fbfda06c7416f3ea81926462a42",
+      "english_key_sha256": "9df18382c58b7a40cd4028d2cfc56e82e575d3a97efeaf9cf9d93acfaa124214",
+      "evidence": "colony_numeric_unit_grammar_1047",
+      "review_status": "reviewed_contextual_polish_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.characters.SkillsChangeOfficerEffect$2",
+      "row_sha256": "608790dcbb359bf10fe50651a8e91735168eae9276390864915b568799edeb94",
+      "english_key_sha256": "2a3380c29fed90b9bba1d632fbdfc43d14c2fc875f6f9e3cf556f30b69680567",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.StabilizeMarketPluginImpl",
+      "row_sha256": "a85683f41d2edbebf7d9167771f774a68aa2af9a919151b59936e2ef882f355f",
+      "english_key_sha256": "5372dfee8063df698f7c710e465d24685fbe29213ad8b69de5c7f46fc911fd5c",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "row_sha256": "a911a68eecf1423c06141cfc6aa290cddaa1d5c0448c14e15bcebecab50bedd1",
+      "english_key_sha256": "f4e91917156571ab65b55d3bc4e3b4df8fed07fffcfec2a40b947ddd7550c5a8",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "row_sha256": "1b482c2a591fac1b7fb7dcbc5d8a4e21e1deaebde2a4f2b5aeb82e5c171a4e29",
+      "english_key_sha256": "f34194bf2ddb6f7071d2a9a310e3dedac4b4c20f37dd7f6b400e0b8e12e58612",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "row_sha256": "2835fe4737db8c5e8983e70c939190fb705a2f4aa593bc010e51728af512a486",
+      "english_key_sha256": "e3b7a1f48fb8840eed5c65db8c9d315fe0c1506b587b02223154b3d3aec9d22f",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "row_sha256": "ad75ec147d6319ce8cb6c4507580d6376693c3350dc6361d92296745395dbc0d",
+      "english_key_sha256": "8b2d32fc90b9cec5ed72d22917494d6fab7112e116db71931be3d4e378cb4fd1",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "row_sha256": "d24f624cc7a621c31db59b0cb86899a30e111c51520ed2a21c8c6b377a444d56",
+      "english_key_sha256": "62d232ffff3f1e3437527f1e991be36917d04fece9eb0f6db0e47f660fba71f3",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.FreeMarket",
+      "row_sha256": "adff4838825acd109a062ef6d857009d3b692f35063f195ffd368d6a33683ea6",
+      "english_key_sha256": "123da8d9abacf7a72e28daee788c13de5e36e19ec394ab0fece4bef3816a2f10",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.RecentUnrest",
+      "row_sha256": "1bfc131b387b62284e62597c5478b6a6a18cff8502d44955c16c37d58c204b45",
+      "english_key_sha256": "c1fe1180401c1e122b0d903f0bede6f77b4670da09d1a8c6daa308cf09f19c9a",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.graid.DisruptIndustryRaidObjectivePluginImpl",
+      "row_sha256": "621eb4bdd45f9ce9cd01edcc0e6c22bc16daef8ce6c750f8d3c339a0887e6934",
+      "english_key_sha256": "980e51a29763498935f7ffac9c1beaa694ac50a5f130a06c44e5af629627c7ce",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.BaseGetCommodityBarEvent",
+      "row_sha256": "b47ac9264e6f47ce084f6688d95b08d13d06c65a244f9196174d98508745e029",
+      "english_key_sha256": "24744fbf00513c2e9c8a432856aa7d88e841d6d91640902f6064b7b5a2a58d9f",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "71375fd46e23045f64dab04fa8c8620834f4fdb36f5c489055ed41ca8b66d557",
+      "english_key_sha256": "d5788ed69f119a7c3c1a1565ea92f3f5ba3784718dff325ee061fd1b44e439a0",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "3c84c99ce117b92f0a2031427f7e95aea2dae91e3f48b3bd5e64d2a2e78aea86",
+      "english_key_sha256": "efb93e8457e08145e0c4ce61dc231ff64dbd85d9dae2a822825b4e256522b91e",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.DeliveryBarEvent",
+      "row_sha256": "f65c66ff80ef218fb268dc3b80ab046c3d8a96a224fbd9a732d90c9786b7ae2b",
+      "english_key_sha256": "e1ecd68a8f1e1a68247b10651707433a55b949bff4acbce827f7bf97944c7a98",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachLoanBarEvent",
+      "row_sha256": "23e5a154b2c103f8f992e6a8e6dd244e68be729ad8767a14c4c3f1eda0002092",
+      "english_key_sha256": "817594d6332e9aa5a6784aaf6b5773ebb56e2d7127247d498a23d6be0ff44042",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.TriTachMajorLoanBarEvent",
+      "row_sha256": "84bd5ceaa7c4a3b612c367c0f9c35993672f46e637d0854f5ea9b8c46d0ad0b9",
+      "english_key_sha256": "0665b41461a1eea8b9a161c3de2f7225cba7d7c21155e8fca61d4af9d6d58c8b",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.punitive.PEActionStage",
+      "row_sha256": "64e1cd8fe21eaeca66bae4e552034d077d1ff180341de9b8aa6e7499f63c41aa",
+      "english_key_sha256": "e7127f39f38af202b27c253606474e15bbb84e57c5912406368c8ae6baf7fa8e",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.punitive.PunitiveExpeditionIntel",
+      "row_sha256": "83b6858097af34bf44596c5e63ead3a958470f50bd0cb7e56da34266202f3efe",
+      "english_key_sha256": "8470f2a5a5743ac920cf86333ff8e48ff41974add4cb6a9da4e2274df4f0b53e",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.hub.BaseHubMission",
+      "row_sha256": "f54e4deba489032e571e499351ec59382cf5d71c86c891cd43669787c305ec4d",
+      "english_key_sha256": "5e408709541fb7537513230da3d46ddd16a6110f244a4d54cb93662e353ad658",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.ShowRemainingCapacity",
+      "row_sha256": "55ea1cd855decb54612d87ae7dc9515ba3231ca2fb168be421f5e86254508276",
+      "english_key_sha256": "24744fbf00513c2e9c8a432856aa7d88e841d6d91640902f6064b7b5a2a58d9f",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "cc07b8c9722892688caa1ffdcd2f37fa457dbace89f1442ffaa6696f2d66184c",
+      "english_key_sha256": "379e1888d2179050c2ba2e1c17cb14eaab5f72ac1f1ca682391d75444aef7a14",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "4ee9c6d61926420599abc5a11662f8f5538bad59bf1e337777bd1a3f9dc720fa",
+      "english_key_sha256": "db31de85d57596dfa7101bda71b42e0fd9ba49446874b8a696fe9c389bfd8e52",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.tutorial.TutorialMissionIntel",
+      "row_sha256": "a8752a8476d6a24111db5cef8201df7f760a8497bdd7e3fe0da25ae1096142a8",
+      "english_key_sha256": "be538709197f8b2064568ca286f2dc0b4ad65557917136f26790e74c6f3602ff",
+      "evidence": "original_JVM_const_string_number_neutral_1048",
+      "review_status": "reviewed_numeric_grammar_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "row_sha256": "24dcb786fe94ea9cbb27c7c6a3dc59417cf748c4c1776c5e0aae8f9f5ddfc0ce",
+      "english_key_sha256": "3ecbf69e27603dbbb33307e65e0fb7159b1117fabc42ddf68392ce9adb2e0ac0",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "row_sha256": "48716a9b6fbf1fdfef710bb71b04c5b8a49b96c2a6c9cc9b108ed91caf39a835",
+      "english_key_sha256": "6a3cb29bd09324d26d22b665cfff2f2e386363914b300a2b84ebead37a3492d8",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "row_sha256": "eef32542a03f250c796d38e576f38d98d7308b0f56bd96186e153852cd3e569d",
+      "english_key_sha256": "fc3bcccaacfe8fefca032f17df2ed3f70f49be3d9e2156977a1f994480095d25",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.PromoteOfficerIntel",
+      "row_sha256": "b08002f07183bafc7ab09c8c184e85c004dea5217643acbf2d519999b589efef",
+      "english_key_sha256": "e75a5186406673e26c9d55997c57ac0c2054229a05718b9b8db4d908a76dc580",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "ce211a0172728729155fe136d6afa1f5d4c4d06e26ffa9d77cd4cde1de1d9b7e",
+      "english_key_sha256": "8c8094bc04569dbb82aa9c41e024800dc51e9824cf9f3c027ef265d9fff1c6f4",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "13fc2ca2cbf67e5044686d9511204ca5b0ef548c3e46b7d85f957f2a466e4af7",
+      "english_key_sha256": "1162d1165e4eabc8619e71c54f082cbaae0784300b325825d65db970bdf4fb02",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "44f93c1a9f199267a3c6ce8b7a6a60ae371bd52ea850a1cb3ba578d14811291c",
+      "english_key_sha256": "7db703a035ea0047b83636d4b6a4f1361a1a6182f7ca86319d79f0348a26518e",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "99a0de4e89a6b7cebef044ff211811edb68efb22248ee92993cc4fe340ac8bd2",
+      "english_key_sha256": "38afa0503d8a546e880490e270a21d4c44d3853a4a28bcac223f68201f447747",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "f180bc96cf32754449c59ad9eed532fcb7b8c3f786f044ebecf3fe810f1ee311",
+      "english_key_sha256": "ddc7f0b393f5172f4e92db82fd7057a5994b09141abfee2ffb5a720883015416",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "0c1e3d762a427040ae1a09e7a2db80c3dd7e971c5d9354c0df504c60a4b79b6b",
+      "english_key_sha256": "69e5f1b77a278bd26ae87000aa31edb7c5e4383ba8d8cce7424daa7597a731b1",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "0cba32cc52dd62f60c0a65b389b0f7f8bb9ff10367dbf7419271d6a480164e0b",
+      "english_key_sha256": "ea8445c67ebec14d7d5d4c39dffffa7002e6328cd137f967b968816bca558b51",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.NewMessagesIntel",
+      "row_sha256": "51d96a77639ba8f818157bd48698842be33f3c4aea4cb1935cd1ed4568d8dbb3",
+      "english_key_sha256": "7046eaca152bd2e499cb8b010f21d5d5097be08920d34bd0cad93d5bba37d282",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin",
+      "row_sha256": "d4f05ef498be3f8a510fafe7615e04e9401085e015707af77c2f275f5079ad22",
+      "english_key_sha256": "5ae75bce8cc878a41936b4623e40a80925470acbf40133c9efb53f3fd9b1eb90",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.BaseSpecialItemPlugin",
+      "row_sha256": "1775275e5659beb24046e8b89684e90e6145802743597bc158a479ff3a72d9cd",
+      "english_key_sha256": "b244469ad4cbe0230cf0002e3ba5bb9fe73564b6b4f5cc7b03a8d61fc04f4679",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.FighterBlueprintItemPlugin",
+      "row_sha256": "8576d2e8a98591f126bda61350f6cc53ccddf32b3d0084f70b0dc88b5754fb44",
+      "english_key_sha256": "49d76544376f3f3b944707139ac23fabe0cc220358a45f653bf62c78e647c8bd",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.IndustryBlueprintItemPlugin",
+      "row_sha256": "afc18b7499b9e0c4c58381c6f332488dde3f1b7393e60851d655a1351dce1783",
+      "english_key_sha256": "49d76544376f3f3b944707139ac23fabe0cc220358a45f653bf62c78e647c8bd",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.ModSpecItemPlugin",
+      "row_sha256": "791084850684481da2bb47cf97a6fa4ede898ec13fe35f3c388362a8af65d4c1",
+      "english_key_sha256": "4cc44effb011ca72b83c3d1d5e7055883b1b80cd84203a31737e2a119bf21b1c",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.ModSpecItemPlugin",
+      "row_sha256": "1b0a3bfe093e846b1b792dbc3c2cc1745ce9d08c312e6c063cbb92762fb1df6b",
+      "english_key_sha256": "3c881ee6b4abbde7a1d1edb35877d54a425469ad8e2395658e580486216aefaf",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin",
+      "row_sha256": "a882ec3f88df95d657c58d47e059a193dca67efb00967aca2297b358e009ede9",
+      "english_key_sha256": "d854a41b2dacea31ee822e1f581723eaa66a544b758da169f270033d3daa20a6",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.ShipBlueprintItemPlugin",
+      "row_sha256": "8fbc17ad6d733538d63fb9fdecbca328e0268c65fe4bf6bdcd559b6d10992908",
+      "english_key_sha256": "49d76544376f3f3b944707139ac23fabe0cc220358a45f653bf62c78e647c8bd",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.campaign.impl.items.WeaponBlueprintItemPlugin",
+      "row_sha256": "f2c4dd6dcc36d1d88d99ddaf98bd3b83184406e256d464479f72d3808fc95bd3",
+      "english_key_sha256": "49d76544376f3f3b944707139ac23fabe0cc220358a45f653bf62c78e647c8bd",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.BaseCampaignObjectivePlugin",
+      "row_sha256": "aadb0aadf04de8552d6cf6f4c068b763ab6b0614709c839f91e112963fe625b3",
+      "english_key_sha256": "ce7c05d5201b1012e3a0a5d33552ecac52f4ca47709006dcbc16218de18aa03f",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CommRelayEntityPlugin",
+      "row_sha256": "60c6c1da3c58a02cd0a76ee6372817e190628c462a557df3f88a13548e9ab7ea",
+      "english_key_sha256": "e91f6fcd445f7639be689ab5f1283bd36bfd0b7c320e55ba0c511bcd002c4efd",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CommRelayEntityPlugin",
+      "row_sha256": "3a835cc87b5a521ceb528f2168490760970a146306eb39990f53326dde7b95fc",
+      "english_key_sha256": "fa38f48aaf9e9778edf9d4d4f9274048cc627b217e253a8b97d5475e5b96c86c",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CoreScript",
+      "row_sha256": "64aafcfa94ed76e0ff0ce0908c35e17d74f6d2b1796cf4df6fc229b27588666c",
+      "english_key_sha256": "a1052b9d2d243f3de4ef8a624e7b391fa6a73ed08e1bfff39d8b6a5d7387268e",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CoreScript",
+      "row_sha256": "9e1cb0aa9050fe643c8f25f5781c68817d7243ffd36e90508431b998bd7eaa4f",
+      "english_key_sha256": "c7e13cb1aab06ace2b63d2754b49266dcfe71d30507d64f6adb44a089962018b",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.CoreScript",
+      "row_sha256": "95e652684c0001e70cbca916667b79002c005d0779b3388c62f7d3c88a5508a7",
+      "english_key_sha256": "f97c368f99c123714a81688611c189a24c6891acd728e62a56a6ae56a98d5719",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.ExplosionEntityPlugin",
+      "row_sha256": "674d51b8cf09ff0d18c40d877f8a723c16817fad9c5b2f756c777c21d6ed78b1",
+      "english_key_sha256": "b11e0985d7d13c1879914f8b2cd2667c27c537439d17db95f155fe9e7c20418c",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "085cf7cfaeca13ea51d0cc3dcedbe56df4972eef0910b43edf02549d22ffc79c",
+      "english_key_sha256": "f5fe2a051c1ef9c50225aa05fd9eee985237014400fe8d94c86a30d0f89a6cb0",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "85432865665e1310021c0bb9d69a474e91166fd5cef381f63b6ca41fe7d27447",
+      "english_key_sha256": "26b2901160fa7df39d48a8a404c691bb56822ac0fc7ea13e625f906526039aa7",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "c839608bbb19cf6d57c72455f132e3669412d524267446e7f17129c644e03770",
+      "english_key_sha256": "09b450f9841729e3ee8cac236aa189ab762e1641e2290a862e7693e7ce7eb3d8",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "8fef521b836b7c208fc53e61c9b40c31b8687d16de198bf4c359a5a233394f31",
+      "english_key_sha256": "b3c72e56923a1e995032fb2729dbbdf17884f6ca56536c24311de7923e89e428",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "959f18ed0ff59ec619e4714b7aad927f652c1c315c43091f3ae3533ff898f387",
+      "english_key_sha256": "6ab0a81b6011031122ce3d6e807c5fb9115f7d88a3261893f13add611b7a6856",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "5142574a92b8f1498654f4fc1fab30113fbe0eca629a63878ae496357bbe7a0e",
+      "english_key_sha256": "17b9cd5b3b8a01f874fd1f1996788a6e538b1247b7a65f87ada206cf6c373218",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "8c95e66708cf36f720b99bffd998f53cfa03c4a80274e0e93f45b13e671acb66",
+      "english_key_sha256": "72bcbe511ce0beda43a909cd8f115b403cbfc2727663492ae5f611583b79e23c",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "d1ce1f4571aa9b26784fd2be8d492eedc74eccea768b5fe4d0ca420813415e6f",
+      "english_key_sha256": "c28843edf9cfd24da7862f087bf73f62bd54136b89c2c24a1fa310a7ddd438d1",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetEncounterContext",
+      "row_sha256": "3936ddc7497855862dd9d887a2182156224cdd30b39c111e09394f7f6920eabb",
+      "english_key_sha256": "3ad37d6042831f3755164777f44e29eaf09885b3dfb88238718352dc4b142b45",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "59e6893ddd0053c8e697b43ac66ea0d92307829ae627269c0537305df7f91807",
+      "english_key_sha256": "be36a933aa21e514ea27bc35a29877474f5f07e1ec6f1619fb6c5b9c3c1a68cf",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "dd327ed3f43d71267d1bf9305fef2f30ff8a659633836e890eee483fd92424f0",
+      "english_key_sha256": "5ed99a39f68ab2febc64b710c97abf172c7344eeff906d0817d3ea0888101736",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "83f55600e19c9cd538a5e9e3ffacb5b37baed7e767ce0167ae772db54e445570",
+      "english_key_sha256": "c3b5db9183c9d7883b4422670e87716b030f5ba19a27d34867e8769c5593bcda",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "9473ec33d6ad283af17f9e98f1e21a5de5ed025fb041948de63402329b6822ad",
+      "english_key_sha256": "ba1c7bd32e23232f0e53d9d129194a7f68524bf2ec84a7ebae3937d9e448e057",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "f79d603665520f7b7dfa92816a7b11c3b38eb76a62580675726bfec0f2d43903",
+      "english_key_sha256": "8a530d95604ec548474acf5d673b93e738e0164ee719ced56ba719aaa07afdb1",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "ab700d3ce3b2fdd0b43307fa7d5dc6fbdc649acc510a6b7852c6dcfcf4b44f41",
+      "english_key_sha256": "f28cb967eee71bdd525ac0fde5ffab537c0b3c951554d43e8e91cb965e94b82b",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl",
+      "row_sha256": "3e73724824098172b3ca8426058400a5a1ee39251ab8f2e9571ed2538ffc249a",
+      "english_key_sha256": "dd5dd56fb31625d1bb24a5f86f91c86fe2a3b2d75e3f98dd34113b1d7cba3223",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_short_ui_literal_original_jvm_1049_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "c9c490b2bb9e769b8fd652986c10bec07a9adf0a68c5ec898766c6819d08a9eb",
+      "english_key_sha256": "e8b142376c1388813e06ca17a10a103d1b4d30d0552413c895db9feba5b3086d",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_1049_gender_and_number_grammar_original_jvm_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.CommodityProductionMission",
+      "row_sha256": "acf920a55d6e8ceac07ddb90e222d1af900de04fb9682684a4044c40433ee623",
+      "english_key_sha256": "16ec44a02fb60c5c2df4ef935909a909a5c90aa09887b556d376ab05e672f74c",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_1049_gender_and_number_grammar_original_jvm_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.RaidSecretOutpostMission",
+      "row_sha256": "cfbb81b00f1bf05ae63ed858cc0e071af90c2632ffa520006e439fc158f09820",
+      "english_key_sha256": "642deb8323415420625a4ba914cde0d80c2d96cde63bd76ed92ac93356280c2f",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_1049_gender_and_number_grammar_original_jvm_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD$2",
+      "row_sha256": "cb7eb944d0c831a4eb5e9e17a2d048fa03e42d3439ce728484013fd08af695b9",
+      "english_key_sha256": "6c73ad12d54210de4a2de702b0559d1b3d70791fbae8db9eeab4044fcd7cd813",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_1049_gender_and_number_grammar_original_jvm_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.missions.hub.BaseHubMission",
+      "row_sha256": "6aeca2377d4fe85b712109000aec7b21404fbeb6c6ca517cef2e767689ddee1c",
+      "english_key_sha256": "3bc9f75209f3163c979794124b510e144d5c102bdfb0be8aa6c08c5effdcffcb",
+      "evidence": "original_JVM_constant_string_1049",
+      "review_status": "reviewed_1049_gender_and_number_grammar_original_jvm_pending_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "a99c9a1e3031b264c6ccaa3bdf0f74d53b5b9b906da646bd14fa277eba4e0d78",
+      "english_key_sha256": "84de816f5f12dd3cd32968892e4059da0593fec59e6311822957b580e14593a2",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "74e8d5cd6bca548be809211efa460abd09f6baad4ac527c9822c4b3730fb5fff",
+      "english_key_sha256": "60b3186b34538518efbc6971714e46574e31914bb79fcf69930075199ca7fa14",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "cdb04d8a6317d31889205ea89067f3cdf6a78edf523a8f6eb85a5bc5c231e045",
+      "english_key_sha256": "c7d3d7dba412f068d1b111606eaab5fbe5de344db8e65fa1ae0d9145a500313b",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "6090ead69c5019e9f5133862a07cfa2e0763ecb789462d2c9a70a13f3914249a",
+      "english_key_sha256": "66fca11ab8b5df3b402b376885299f03768abb75916dcc2636f9011abb396f1b",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "b8e2d4f3759c2bf90d1cc87fb6584451364daa14ccd642ca7412332bd4c67667",
+      "english_key_sha256": "8a443c2e31c7cbb600e717317beb482e5ddc226baba780b18f61a6686211d360",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "de54a911492e54e2de749e48330b9e41f93ea90ce81bd416f97cd92cc3910714",
+      "english_key_sha256": "ce64552cc93ef05d58b95ae65927ce7378068fdfd6c360b0b1a02ee55741e5f4",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "aae46019715e18dfefb5f2a2b89336286436d8756f23c914c7de0fce766f0087",
+      "english_key_sha256": "3eb8bbb4203ad2c2ae3009adfb8d502f898bf2a90242ed029ab828bc93d0b49d",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "742685437e279361af4c2a5c7cee0d2733a2277ac1b668dd53dc86964f957c13",
+      "english_key_sha256": "859de6c5aa6f5b0f72a39b66892802bb6dde0eefd467969fad72a4edbc9593f6",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "a60050cabf9ded6da0ff8bc8c6a3d35ed11ed6bc35fb44d87621d8cfa52ca5da",
+      "english_key_sha256": "6846b36354c25e9e69703dd4e961a42508974ae03d2b0cf807b4cb8bdb5145a0",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "e5965943ba1ce350f04ee0e3de2695dc09bd229499e547eaa0b07d954afc02d4",
+      "english_key_sha256": "4f06d4606b015749e7651b6ea578a0f16399428ad1a67d28c0547e6ba878399a",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "2669bf5b88900b1a664a5fa2df9a8ee802a564a0fb650409eb2d0eb66f6f0867",
+      "english_key_sha256": "e58b3b425dd026bd2a970dff4205f441a043281ba2bf8d4977abd15495c8c2f8",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "f4990c7fde86d3954771c163b18ba02fc12bdb3a79832726c9a6061676f9feb2",
+      "english_key_sha256": "793dee860a8e1fbf4c3878111d67b3d46945a5e99c26fff33e730b97b89b9321",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "677c153e72a4a66b04366516af1cf7c8ab2b7880ad3bff35f32af040f5dd1c85",
+      "english_key_sha256": "06f92c1b6372f46b7a7a9379a032aeefb2d5ecd688c908512c115dcc44c81b76",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "60fa348fce2d27c697bcf564b7be15f528cdc95c1ca932ad859a79088ce80c44",
+      "english_key_sha256": "c693d9b731f535e039832ea73a8e5c747d7bf2208f9df741ce0def4adc9e1bca",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "a7125374cccc59f24e77d5768151e348272590bd7a85d7fcb05dc2fa1dd282fd",
+      "english_key_sha256": "76adb3e64d7a54d5f504b45b3680e3aa56e97e9cb841a264fc9a084b8ef55a95",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "f5f8fc88d73d3b03f30d3fb17e482938d34fae3f9f31ac90b3e0f7f2974921dd",
+      "english_key_sha256": "4d1cfe5234a0174a7a49d2ef1c09b1afe1cc20c33496e4c35f5b4b63b9bd93eb",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "83c74e68712e8c43a6c820ad953ba5e5e9388191caeb84f0c7ecbd81e32e6518",
+      "english_key_sha256": "b85c16f4d3ee9384f47820b775c55e1c41ea2a9dc8e26678e3da4168db3a21c9",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "2395caebb23b7f94e8a6c44ebbdc921833efdb54d3f84bb67ac48c003f1fc639",
+      "english_key_sha256": "982b5e63b06911023f25219b8e6bb0b32dc1100f7a88ce3275c643beecb3aa60",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "d3ca5cd78e066af0736f356cb9767649bf3ebeb21fe790cdb3dffe77ff898122",
+      "english_key_sha256": "cd9a8922a25b228639acefe3e3858d2eb19f5c50eb8707e8d6d801866c3a98fc",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "84b513600730e26a728f4f8b140c8e33b87e125849ddb48890b434ac101a618b",
+      "english_key_sha256": "ee48e0882730f11aaef3478024a69436d235b6e1ca22889bcb153c63aeffd647",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "c963d04e9a3c95d9e3f28bcf1a0ec69697086c5eccbfbb83255133ae6bd5302f",
+      "english_key_sha256": "5a57ec1b273586d79478deaba10685e2633184f1f8b60baae234cdbd9ed155ad",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "ca9fdb1efb7d623f28f031bdba21c0fd23db38b48a41217922e9180e48ad3cdf",
+      "english_key_sha256": "99b8d9a102574a8f8a40847bd4a15b1cac0f521a363d4675471896e0614a7b31",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "6e0e18bd013e0dfa75308c01928396f9d74dc101cafad61edbca580eef1f0da1",
+      "english_key_sha256": "265590c28c82579b6c6f7a78ab7d31b291a041e4046bc8ff25762502661a3d34",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "c78dc316611268576b073e8fbbdf2fdd5cbb0982726841d4fb705f5ddb1d386e",
+      "english_key_sha256": "e5fc6430d299e1077fb7019ecb044b5902afe9f1dac32ad8958ced1b72cf521b",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "1250471b11953c31f4002e62e2ff25bd2cde0b0ff52efed5d2242b244b5dffcd",
+      "english_key_sha256": "356a4d0dda28256ab2c9b03a4f4f88d010989bf1d5b324308fd3764f6a05c6a3",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "e0a105aef5b951993c5fdae9804c5b4e89bf09dc3edfaacbbdb087a9461f3c22",
+      "english_key_sha256": "a82b42610558c87471fe1dae9af911dbb48f5325f77998da94a9b628ce2a32fc",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "7a0bbc98568e71098c042c35d9fe957f1f592bdbc4cda4a4f08606df25e468fc",
+      "english_key_sha256": "6eada24ff447a65f044fa10b4225144ea5f50ed781717b672329c649747414a8",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "665c488647cffddf7d27077f0685e26dd22639849c5262165cd8096c0708d224",
+      "english_key_sha256": "19cdd964c1c4fffc2b0896d16f35f6746c65d6a809899b43a5ff4c046d12b39f",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "4a6c53b79c0ba6b96ec388b6f552c6d36ba290891a2cfe44a07cfda5c5e8a4f5",
+      "english_key_sha256": "924f5baa6543e0f5cbe3cdd23a113309804f952758f5638f2deff9888db72e5c",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "59308a67aaddd4a9dd6c57db74556e2b842971adfbbde248e0f2a18d56521401",
+      "english_key_sha256": "2f24c917fe2cdf5aecc303a105bdd9d5a5412bd60ae4cb3d9cc3be278ad19384",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "1b845fcab6400b6a88b03137a90f25bbfaff8232411a04542178fda318948725",
+      "english_key_sha256": "8eea090e9cfd0c8a21b342b264feebe5f5ee531a64492bda1a15affd4a446a01",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "1ea7c3d13b122efb90909dc650ca99f3c50d761dd2d084c249193385795596c1",
+      "english_key_sha256": "c37885ce9f988e4ce739eb2ce249506776a8ad635c96fceaf3a65d59e791a7b5",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "bd4b42bf865ede009e63ca7cfeff518e2d0b941e140d11319f6fc41190f0fcf9",
+      "english_key_sha256": "95b351f53895d4c3d6fd5a19d306ab974b09b6ca145283b829f1b6b93f408051",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "de6418d366784925a030eaff5b8df17b679ac3d92cdb28e382ba395b4f372871",
+      "english_key_sha256": "7e4195581db46d4aaae6c181f02d25ed9eedc99abca12b4908f186a78a027e1c",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "a25a9c639378199d9627d2abe890b08832dc240ff4ffdb95a243ca9eadd11d56",
+      "english_key_sha256": "f82b783b9654568f9f4977bb1bb10c1e1a5f2a6fa2032cdea5feac9c09948598",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "1d3993033b3766bcbd99434428dbba2531e9a7b3ea4f10ab880bee60c78335a2",
+      "english_key_sha256": "2d2baf5cf852825c2897ce94f4db4f570e29877289c4000bfdd3d69c375a1033",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "416ca5a83a43a5741f735d5ee2498e68c8ff19a2737056f35a9eb49768f54598",
+      "english_key_sha256": "47e9aa496b9e090fe9f3dc3865a62aa4c0619cd594a7a12cf4a8216f66627399",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "d46d7cd1896f73f671db44ffeef03bd753c8ea8bc06f4ed2c562b560862c0cc1",
+      "english_key_sha256": "3915dbf8f624fa3b871859e669160914f9d289600fa12fb4aced7530fd54d96e",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "5de560c28b17177cee1baca69b2a5707b55a66fb105e0e64e1946a64f654bf0b",
+      "english_key_sha256": "7324f89d7d140153f8dcbb302c50dc3e26aafe785d21b284c861385bfeadad37",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "bdc9692c01b7d1efe3e69c47f336b42d2cdab68fc2bee2d2a7602961102edc90",
+      "english_key_sha256": "2e3d6a0d46c9bf0c62b40fc632f9e8ed94f4c47776fb49ca632079361e8e7a5e",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "ae7de4f2c7399c67932e5d80a053ec5d1cc8ad7252df8f6a42069dd873082a89",
+      "english_key_sha256": "da918db586f982797741d90b098b129038af351a8160216da06d61165f1223a8",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry",
+      "row_sha256": "36d78745fbff0f4576148b745a45451539f4e6ecf95157164d4c23c40ed264e0",
+      "english_key_sha256": "a67869eb9f5ab8b9022c30ac276df3228a17c3eb5fccee0632b4b62e7d19a643",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "row_sha256": "1fc271ec706e4b2ba954b302b30482ee5247e3fbfe8fc00ad45916e2c36ce294",
+      "english_key_sha256": "6601c24e7e92059381cdd0b9e3912415271d2382cae840a6506f23790201d2dd",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "row_sha256": "b0813e89cc0569bd826851b46e0dbbc60b9a42d2dfae15882adf2a799866b9d6",
+      "english_key_sha256": "b1a0550d6a7bdc5c54bea429efbb1d85c9ccc99ec1225f1cbeb189ba67c511a8",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "row_sha256": "f15a707263f9fa9ce8f289d06aeca113cc8298579c074e602dd8de0c7cbf0807",
+      "english_key_sha256": "e77250af59285e753a3cf4ccc7249f5af4af85ed3950a67df830d6192da49c5d",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "row_sha256": "26a5efdec201afadf802a4e87c1e5af5a49c45dea7dce927070f6056edfbb54a",
+      "english_key_sha256": "97545fcdcead5b3564765fe8aa9cdd9da9baf6f66f39154e3e71000a80008ad1",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.BaseIntelPlugin",
+      "row_sha256": "b61725de55837391c063ec9dbd08ad17278e92e7fa93d6548db6cf845a8d4dd3",
+      "english_key_sha256": "839873b91a3e7702b1eff3c2d512ea77ee3da271c0e7b25185a40d6c44bab938",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "737bb59f30e01ce4544c8bad9e3dedfe8c4e93265770eabe30d8b4156675c84a",
+      "english_key_sha256": "fa801682dc28fd0b467da31bcdb77eb037d675835afd77d8af7c7cb21610aebc",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "1df4844028bfde0554aca808bd7486f7286b4ac13ef2dabf6a275a215582eabc",
+      "english_key_sha256": "bb12519c24aae2774967b51c7922da7ba2b61336b83759da87b3e7cdbb76cb52",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "4db4dd0417d5d579f65f80ec23ec643a45089716f711660c21851c15addb7597",
+      "english_key_sha256": "f793e234d2d74c737842c76349d7ec572b6104ff11fb4b67bf5225b2161236a1",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "a68285fecd749c45c9bb7e7161238de01618b2b3dcd75da49fc9bb317133a08c",
+      "english_key_sha256": "5423819de17b06b504b03410dfca4d54a22f3a40d4288c4d98b1936ceb4d1d4b",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "dbda6972803dad15d98e4c8bbb04f3a1de3e994cda038a6500d0472be2dadb54",
+      "english_key_sha256": "55ea678f29b03c5fefda3ee85a4d565e9919e7c710bac983c66c90076413c1bd",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "287fb3259f795dfabb8efce21266cb7f7040511d465f40840020d0b05f86aabc",
+      "english_key_sha256": "2144d5fd1951015a4f1a555d8988458a68c5894ee26db591262a7099ca3bb673",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "37d5bf4fd783fdbdddeea5c9958bc4dd90deb4ff9a4afe3f89be88693ffcbcb7",
+      "english_key_sha256": "99d8f0df3daa737630818bc05b0e3ad37db7efdf9abc2eebd4fa9c246a1271d4",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "c53410c12f7b577aa7d691d68b5c0ce2dcd0e3fa4b40d95f05375b390b6cf061",
+      "english_key_sha256": "c262ce6680f2b41ec57cdfa9a7237c5f632b444766d01cd76af6528cc557e0f9",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "44a19bf2229f33c46fc4a80cd62d2f7406b25f95f708eaec2f704529f5e42605",
+      "english_key_sha256": "d0c1c0d97b3c611cad9011ffd74e83b0e2e8c2f3d6448fd16327bb1bcd533b48",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "577d52679e144977054beaf72752bd0e49b178ffd5d126ffd2d2b9b8ac980732",
+      "english_key_sha256": "8f531addd0eaca9b6250f85f1826b28dce9628130e1695075baf0311ba03d11f",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "a56b7d12ff7a0cad51e1b4dabf40e94880f0dfcb129796e13dbaf61ad46ceb1d",
+      "english_key_sha256": "5cad27fa45b3d59cf142ff0da2ce8fb3fe1cddefa28804e24a3173e23bb235b2",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "5bddbbaa97a619d855295cd4969aae84144aae44089a8aa26dba90606d88fb56",
+      "english_key_sha256": "148416b6bebe2ca88e42561f6ea73448c27005a73d0a0d3edeff5746d50a957e",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "row_sha256": "d7ba375a9996ab44e6715681be689e1ac96b1b711b36c4ea8f0578745c1d5f3b",
+      "english_key_sha256": "d6f4dbba099dfa39c5f49e3a5ac36ec75f2a0e85a26330acdcd9d6cecb12cdd9",
+      "evidence": "original_JVM_CONSTANT_String_1050",
+      "review_status": "short_UI_label_original_JVM_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FactionPersonalityPickerPluginImpl",
+      "row_sha256": "65d0a42ce4bc9f59c975a01c977c31176db68442703c75fdc023e1c44b8160bc",
+      "english_key_sha256": "6ffbc7f961e55bb39671cafc8aa1b5fe1a0ccfe8943f6c011b07029fdd5f53ac",
+      "evidence": "original_jvm_addDescToTooltip_ldc_and_exact_two_byte_operand_exception_1051",
+      "review_status": "context_reviewed_personality_UI_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.FactionPersonalityPickerPluginImpl",
+      "row_sha256": "d4493120bb7c834b7ad3cc12cc3bb2913d984791f4c4510dec0360b566c42f42",
+      "english_key_sha256": "a157445b6c55656e2131f12b87d4f2edfb9084b18996c480d88b0074c70185f2",
+      "evidence": "original_jvm_addDescToTooltip_ldc_and_exact_two_byte_operand_exception_1051",
+      "review_status": "context_reviewed_personality_UI_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicPathBaseBarEvent",
+      "row_sha256": "5abd18580150be2a047cbde40dceae663826070ddb042fe583005648aab03cdf",
+      "english_key_sha256": "08441e88813d89bcd108567094d63d6c48d649590acf896e142445c389c38142",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicPathBaseBarEvent",
+      "row_sha256": "eafbfd51a5ae818f976860a1d7adc6ff2bdeceb4bdaf578315be8f5f6a6ecf07",
+      "english_key_sha256": "74874b0b95f7d1a17585fe71c7f1c3918adecbc3c7bba78b9bdaeb9025a37142",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicPathBaseBarEvent",
+      "row_sha256": "dc07285105ce1e63a22d1a6e410161ef3017e24d2262c3830a89e33ce088e257",
+      "english_key_sha256": "5e6eb724dcb851c577f6e34a3e8d8807c6c27eaf1ee9ec56f3f99091705427d6",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicPathBaseBarEvent",
+      "row_sha256": "aea57e2b5102a75fee6c751e469a9fc5981d3b2a0136a040e2ef986da64b70e4",
+      "english_key_sha256": "fe00ea3323ece255b53f620ca4e725c580e719c94aef248e28f8da69dd7a37f6",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicPathBaseBarEvent",
+      "row_sha256": "35a7a97601b661846df880cb3523515810fe29bc7a06eb5500e278f757c04c88",
+      "english_key_sha256": "bb680a936236f2156ac4318b7cb13766b4e2746da352b83f561d26a283ea8f36",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.LuddicPathBaseBarEvent",
+      "row_sha256": "4607004943743035465bae8a4e119a890b595f5dd3f93dd9b8fa4ffaf09901bc",
+      "english_key_sha256": "1107aeaea48efb2b361737d660e35f78b4f1afc15a01f865422ba758dcfb7e8d",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "7804cae2e6b7d84fa2d675ae7e6175cdc61796fd2795162d2af5bfaa19fdea29",
+      "english_key_sha256": "559311485c321f2d1edc56118a881cb01d7e64c8914abfaa76f1764b960dbec3",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "68f7c0a87e8feb0c33a09c4fa34805551a89598576c1354f80f2d11d3e01db37",
+      "english_key_sha256": "41be2abe03bce635bc9ee9c2b04319ec21fc2daebadf6138b2390d7e0a6241bb",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "76aaf6bfd72cb481a35ce2704d0c6247b8f39f174cb4c386c366c3c3523d4cbf",
+      "english_key_sha256": "8b60ad221a861d7fe3917c23fedd5b70c1c596dabcd61917b6808bfca03df38b",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bar.events.PlanetaryShieldBarEvent",
+      "row_sha256": "fa6b50626cc1f42cf4273ace474db16e7e06344c88840120eac674d9a75f3899",
+      "english_key_sha256": "81fc2d49cf21919396a0bfe921606503b3731e470f282de8cc2523e1ad4bf05c",
+      "evidence": "original_JVM_CONSTANT_String_and_11_gender_getter_callsites_1052",
+      "review_status": "context_grammar_reviewed_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "row_sha256": "1323aca32972976be089907e3202747edc8310c3834fff9ae7685b2f1e6fd3ca",
+      "english_key_sha256": "e272f0eba5e7dbe6697e92731bba21c60baa03e001c4ac903e322295d6c6d30d",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "row_sha256": "987d5be4976c138639a630d13b24154bc6c3c3528f62bd2177c12be07d277aab",
+      "english_key_sha256": "1a186f8f5901a75af3e670410be42b1d4857da3dc99e5bc234387c2e5c075dce",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "row_sha256": "2050fcf891cf78ca4ee272cc419dc60d62627153f68eb95f7183b9909ee61ab7",
+      "english_key_sha256": "3c6edb877f187254a99217854472eaa11f3793b4438f0a741c630f14f85c424a",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "row_sha256": "e49c6277d6b86407085e970c19c7b36ad67782e58c388006e4944d55b202bdd9",
+      "english_key_sha256": "1a653391d9e2ba33866b9c12b5251c2a76832e9e9bff7cde18840e7017660530",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "row_sha256": "dbddb5569f58c378afde55b82417444595f8b9fa9be25dbe2845ad6ef9c4bfd5",
+      "english_key_sha256": "7c80411940a7c895faca509b7ddbfb58d6c02a0457b076e102c6a18ec7f97c21",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "row_sha256": "ba9963d43668b492aaf36dbbed534cc9bf34a08f964fc9e12a03c8027ce2bd0e",
+      "english_key_sha256": "469b39cc5576a1b472769325c5bdf88ddd836e384f2f0034aca582dfbfc9eb5a",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "row_sha256": "9f8d0fea0c99fa8665dcca4b8efbb32ea6520550eb3335e1e72580c83b39200c",
+      "english_key_sha256": "3d2ffff3b7701d458e65134e2fc84831e4633b5709edb11ce5f62396286f9b5d",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.PlanetSearchData$5",
+      "row_sha256": "814c1e02752ddc4569f4df4c1c00eed482e838b7f7bf8503a63748bd651c522d",
+      "english_key_sha256": "3731a609cbea2978976dff560413a5136ae67c7a23e80963a0b15ebeb2dc13b2",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.PlanetSearchData$5",
+      "row_sha256": "12fe4b9d7153ba4a94a803bf03182a9777739d46f7efc54095b4be2cb315a021",
+      "english_key_sha256": "9e262879950806dd25a32d67dc6780ea69bced551f6b183cf553073374cf561b",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.PlanetSearchData$5",
+      "row_sha256": "7c13ed30f5e429dd05d791f91856a9f0ba4beae9b1f8b0933fa9dde648055c85",
+      "english_key_sha256": "b1568a5badece373cf62cca4b527dcd008d2c0850f9e0460384d217eb66d1aac",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.StandardPerseanLeagueActivityCause$1",
+      "row_sha256": "18cf235a351d9fb095c24bb29e29306aedd88623f62495afd4fdfd080d6d2164",
+      "english_key_sha256": "e0b38e4877bcee2703cc0b9f923a1f42810e7327120ac550bd2960aa6ededb14",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.StandardPerseanLeagueActivityCause$1",
+      "row_sha256": "de7004137e03fb4effec8892924d245e79d43f88ab785b7826042313259b36e6",
+      "english_key_sha256": "b408ae0e15da144c6f84380a116427569540a754b7f215456d0a512f41b3529f",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.events.StandardPerseanLeagueActivityCause$1",
+      "row_sha256": "8b8ade5b4b57bb4179573af588bcc78c2f7fef79eabaa0cb873cd606d6f1cfdf",
+      "english_key_sha256": "fa3922fdec6e3f7afcf7cab6aec9f04ab7fd1febe2cd0323e64e64117cb7a30b",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.codex.CodexUpdateIntel",
+      "row_sha256": "0275019af8fa1552e3711ab1d0eaeff40a67cddf2e122b759c57931b5de2549a",
+      "english_key_sha256": "a55bdca70a1529ac6ccaa3861b6d016ee040c9cc4f7cf9e682e6ee51323b0216",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.codex.CodexUpdateIntel",
+      "row_sha256": "418bac99890835e482f2f22edc082d32b5ef437c61d77865a0491299a6c0e0ca",
+      "english_key_sha256": "291bb2005de8bf361e216f1202e7d75ccf273d4f026bcc204258ef9001fb9dcc",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.codex.CodexUpdateIntel",
+      "row_sha256": "85d3e3f7eaab01d7abcde16ebe21168042c7d0bdce9d8f71cf2614fd32976662",
+      "english_key_sha256": "619d540b30c33710e7a38bfa893c6a9b7f519ea4d5dc4aee70602853ca3f4378",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "row_sha256": "efd5b636c966dc944b475ade148ab83d4ca57a9600f365d4fd25113c44530220",
+      "english_key_sha256": "0044a48e091f0300eba2cb0855fd7d7ba7fddb80c9009036e76fd01313aa7869",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.misc.SimUpdateIntel",
+      "row_sha256": "82027a22a4d476813b7bfef541f55e4674a333857ba05058934991a684fab3f5",
+      "english_key_sha256": "c635655c15427154b7d00170d1ad8f8c90fbe34d794d44985786070f7e698908",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.codex.CodexUpdateIntel",
+      "row_sha256": "9ddb374511e6476d706066c9b2a99402d1aefd3aa2f5464e236b14e5b9b895a9",
+      "english_key_sha256": "ab79d4ef01f272b3e0a6de527fd0880fd5f5163623951836d5028ff84aedfb7f",
+      "evidence": "original_JVM_CONST_String_ldc_and_contextual_UI_review_1054",
+      "review_status": "reviewed_static_UI_or_dynamic_composition_offline_pending_native_windows"
+    }
+  ]
+}

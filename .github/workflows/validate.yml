@@ -314,9 +314,21 @@ jobs:
           python3 tools/test_1053.py worktree
       - name: Verify fail-closed 1.1 gates and prior 324 API reviews remain unchanged
         run: |
-          python3 tools/check_release_gates_1053.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1051.json --ledger docs/API_SEMANTIC_REVIEW_1052.json
-          python3 tools/test_release_gates_1053.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1051.json --ledger docs/API_SEMANTIC_REVIEW_1052.json
+          python3 tools/check_release_gates_1053.py worktree --gates docs/RELEASE_GATES_1053.json --previous docs/API_SEMANTIC_REVIEW_1051.json --ledger docs/API_SEMANTIC_REVIEW_1052.json
+          python3 tools/test_release_gates_1053.py worktree --gates docs/RELEASE_GATES_1053.json --previous docs/API_SEMANTIC_REVIEW_1051.json --ledger docs/API_SEMANTIC_REVIEW_1052.json
           python3 -m py_compile tools/private_integration_1053.py
+      - name: Apply 1.0.54 class-scoped dynamic simulator Codex and quantity grammar
+        run: python3 tools/apply_1054.py worktree
+      - name: Verify exact 1.0.54 API map delta and 35 composed numeric scenarios
+        run: |
+          python3 tools/verify_1054.py worktree
+          python3 tools/test_1054.py worktree
+      - name: Verify append-only 343 historical API reviews and deny invalid 1.1 states
+        run: |
+          python3 tools/verify_review_1054.py worktree --previous docs/API_SEMANTIC_REVIEW_1052.json --ledger docs/API_SEMANTIC_REVIEW_1054.json
+          python3 tools/check_release_gates_1054.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1052.json --ledger docs/API_SEMANTIC_REVIEW_1054.json
+          python3 tools/test_release_gates_1054.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1052.json --ledger docs/API_SEMANTIC_REVIEW_1054.json
+          python3 -m py_compile tools/audit_jvm_1054.py tools/audit_review_1054.py tools/private_upgrade_1054.py
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -357,18 +369,18 @@ jobs:
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
       - name: Cross-build Linux JVM patchers for private original-JAR regression
         run: |
-          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1053" .)
-          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1053" .)
-          file api_linux_1053 obf_linux_1053
-          file api_linux_1053 | grep -q 'ELF 64-bit'
-          file obf_linux_1053 | grep -q 'ELF 64-bit'
+          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1054" .)
+          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1054" .)
+          file api_linux_1054 obf_linux_1054
+          file api_linux_1054 | grep -q 'ELF 64-bit'
+          file obf_linux_1054 | grep -q 'ELF 64-bit'
       - name: Upload temporary Linux patchers (no commercial JAR)
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.53_private_JAR_audit_patchers
+          name: Starsector_PL_1.0.54_private_JAR_audit_patchers
           path: |
-            api_linux_1053
-            obf_linux_1053
+            api_linux_1054
+            obf_linux_1054
           retention-days: 1
           if-no-files-found: error
       - name: Validate private-JAR regression script is importable
@@ -376,23 +388,23 @@ jobs:
       - name: Export temporary API patcher sources for historical upgrade verification
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.53_API_source_for_private_upgrade
+          name: Starsector_PL_1.0.54_API_source_for_private_upgrade
           path: worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/
           retention-days: 1
           if-no-files-found: error
       - name: Export OBF patcher source for targeted original-JAR issue audit
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.53_OBF_source_for_private_audit
+          name: Starsector_PL_1.0.54_OBF_source_for_private_audit
           path: worktree/buildtools/NARZEDZIA_OBF/
           if-no-files-found: error
           retention-days: 2
-      - name: Package and CRC-check 1.0.53 minimal Windows installer
-        run: python3 tools/package_1053.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.53_MINIMALNY.zip
-      - name: Upload the 1.0.53 Windows package
+      - name: Package and CRC-check 1.0.54 minimal Windows installer
+        run: python3 tools/package_1054.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.54_MINIMALNY.zip
+      - name: Upload the 1.0.54 Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_ASCII_1.0.53
-          path: Starsector_PL_ASCII_0.98a_RC8_1.0.53_MINIMALNY.zip
+          name: Starsector_PL_ASCII_1.0.54
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.54_MINIMALNY.zip
           if-no-files-found: error
           retention-days: 7

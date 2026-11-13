@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.53):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.54):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.53** (snapshot 1.0.12 + overlaye 1013–1053; OBF 3537 klasowych podmian/539 klas, API 5283 wierszy mapy/5281 realnych podmian w 938 klasach; 3 poprawki liczb okretow w FleetMemberRecoveryDialog, 870 data identyczne). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.54** (snapshot 1.0.12 + overlaye 1013–1054; OBF 3537 podmian w 539 klasach bez zmian, API 5290 wierszy mapy/5288 skutecznych podmian w 938 klasach; 13 poprawek i dodanych fragmentow w 6 klasach; 870 data bez zmian). Cel 1.1 OTWARTY.
 
 ## Etap 1.0.45
 
@@ -42,9 +42,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport 1.0.52](docs/RELEASE_1052.md): wspolna stala `her` #143 w dziedziczonych getterach `BaseBarEventWithPerson` obsluguje poprawnie rozpatrzone **mu/jej** (dative) oraz **jego/jej** (possessive), bez bytecode patch. Dodano 14 klasowych brakujacych literalow i poprawiono 10 starych tekstow; wszystkie **24** sprawdzono w oryginalnej puli stalych. 20 renderowanych kombinacji plci, [audyt original JAR](docs/JVM_AUDIT_1052.json) i [realny upgrade 1.0.51->1.0.52](docs/UPGRADE_1052.json) PASS. Historyczne API **324/3658** reviewed offline, 3334 nadal otwarte. Szersze 186 getterow konserwatywnie nadal niezrecenzowane; **brak native Windows gameplay**.
 
-## Najnowszy etap 1.0.53
+## Etap 1.0.53
 
 [Raport i reprodukcja](docs/RELEASE_1053.md): audyt wszystkich 5283 wpisow mapy API ujawnil tylko dwa pseudo-wpisy w zlej warstwie, ktorych tlumaczenia juz dzialaja z mod/data i OBF. **Realnie nieprzetlumaczone** `ship/ships/ ships` znaleziono w `FleetMemberRecoveryDialog` w oryginalnym OBF; nowe 3 mapowania daja poprawne liczebniki `okr.` dla 1/2/5. OBF 3537 trafien, 539 klas; API map 5283, 5281 trafien bez zmian. [Oryginalny JAR oraz test aktualizacji](docs/JVM_OBF_RECOVERY_1053.json): fresh=upgrade PASS, 1 zmieniona klasa OBF oraz jej digest w manifeście, 0 nowych zmian wykonywalnego kodu. Wszystkie 870 danych identyczne; 1.1 i native gameplay Windows nadal niegotowe.
+
+## Najnowszy etap 1.0.54
+
+[Raport 1.0.54](docs/RELEASE_1054.md): polskie powiadomienia symulatora i kodeksu nie doklejaja juz angielskich `faction(s)/variant(s)/entry/entries` po dynamicznej liczbie. 7 nowych dokladnych mapowan i 6 poprawionych istniejacych API; wliczajac PhaseField, filtr planet, blokade kolonii i aktywnosc Ligi Persea. Wszystkie 13 `CONSTANT_String` i uzycia `ldc` zweryfikowano na oryginalnym JVM. [Audyt binarny](docs/JVM_AUDIT_1054.json): tylko 6 klas zmienionych wzgledem 1.0.53, zadnych nowych zmian wykonywalnego kodu. [Prawdziwy upgrade JAR](docs/UPGRADE_1054.json): fresh=upgrade, no-op, tamper refusal i restore PASS. **343/3658** historycznych API zweryfikowanych offline, **3315** pozostalych; 186 innych getterow i natywny gameplay Windows nadal otwarte.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

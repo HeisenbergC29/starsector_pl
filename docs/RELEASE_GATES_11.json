@@ -24,10 +24,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 324,
-      "unresolved_count": 3334,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1052.json",
-      "source": "docs/API_SEMANTIC_REVIEW_1052.json: 314 immutable prior reviews + 10 new DRAFT/OPTIONAL bar-dialogue fragments checked in original Java, 3334 historical unreviewed; 14 added class-scoped new literals not counted as historical DRAFT"
+      "reviewed_offline": 343,
+      "unresolved_count": 3315,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1054.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1054.json: previous 324 reviewed, 19 newly checked original JVM UI strings (including 6 corrected DRAFT); new 7 class scoped strings are not historical DRAFT; 3315 awaiting review"
     },
     {
       "id": "rules_possessives",
@@ -115,15 +115,24 @@
       "api_map_changed": false
     },
     {
+      "id": "api_dynamic_fragments_1054",
+      "status": "in_progress",
+      "source": "tools/apply_1054.py, verify_1054.py; seven original class-scoped strings added, six numeric/assembled UI texts corrected in six API JVM classes; no executable code changes; actual original JAR upgrade checked offline",
+      "new_api_rows": 7,
+      "corrected_api_rows": 6,
+      "changed_classes": 6,
+      "pending_windows_ui": 13
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.53: fixes 3 untranslated numeric ship count suffixes in FleetMemberRecoveryDialog (OBF). 3334 historical API translations still pending semantic review; 186 other Java getter calls and 2275 raw gender placeholders need contextual assessment; release 1.1 unfinished."
+      "source": "1.0.54: neutral dynamic simulator/Codex UI plus six numerical descriptions, 343/3658 historical API reviewed offline, 3315 remain, 2275 raw pronoun tokens in 1139 rules records not yet fully assessed; full 1.1 not verified"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.53: 3 count strings in recovery screen + prior 24 bar fragments, 253 rules rows, 81 story contexts and 219 getter sites still require running Windows UI verification; only offline JAR patcher checked."
+      "source": "1.0.54: 13 modified/new API strings in simulator/Codex, fleet calculations, planet search, blockade and faction activities; 19 historical reviews; plus older 253 dialogue rows, 81 story contexts and 219 pronoun getter calls require native Windows UI verification"
     }
   ]
 }

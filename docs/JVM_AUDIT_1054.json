@@ -1,0 +1,118 @@
+{
+  "version": "1.0.54",
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "previous_api_sha256": "5d53fa936ada275642a93b523f4a3e5ef45c10d3f16ed82465ed5476d27414c7",
+  "new_api_sha256": "b5c256c78f92fb174456cb297660945d81690c33d21d513627b0547ed783eb14",
+  "changed_class_count": 6,
+  "added_class_scoped_literals": 7,
+  "corrected_previous_literals": 6,
+  "new_executable_code_changes": 0,
+  "original_ldc_use_count": 13,
+  "evidence": [
+    {
+      "class": "com.fs.starfarer.api.impl.PlanetSearchData$5",
+      "original_class_sha256": "79a836a0a6dcf75d2816547a361b8bff11d4d379d9793e22535c42f471ad23b1",
+      "english_literal": "Only show planets with %s or more stable locations in the star system they're in, including locations already in use by objectives or similar.",
+      "polish_ascii": "Pokaz tylko planety w ukladach, gdzie liczba stabilnych lokalizacji wynosi co najmniej %s. Uwzglednij tez lokalizacje zajete przez obiekty i instalacje.",
+      "original_cp_index": 124,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.events.StandardPerseanLeagueActivityCause$1",
+      "original_class_sha256": "512c46b6767591fc65841d00f3ddfacf067d81232fdbf77f40bdc8f7c9e7df2a",
+      "english_literal": "Event progress value is based on the number and size of colonies under your control. Requires one size %s colony, or at least %s colonies with one being at least size %s.",
+      "polish_ascii": "Wartosc postepu wydarzenia zalezy od liczby i wielkosci twoich kolonii. Warunek spelnia kolonia wielkosci %s albo grupa kolonii (liczba: co najmniej %s), z ktorych jedna ma wielkosc przynajmniej %s.",
+      "original_cp_index": 40,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.group.BlockadeFGI",
+      "original_class_sha256": "b744aea70b3ed9df0bd13fa88dc3ecfff55529dec3429bd893a98d4b27bef835",
+      "english_literal": "for all %s colonies in the ",
+      "polish_ascii": "dla wszystkich kolonii (liczba: %s) w ",
+      "original_cp_index": 344,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.misc.SimUpdateIntel",
+      "original_class_sha256": "d250616f8d7238acd6c988272923e6b0525fa35192830091ff72d9b28754c153",
+      "english_literal": "%s new ",
+      "polish_ascii": "Nowe frakcje w symulatorze: %s",
+      "original_cp_index": 77,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.misc.SimUpdateIntel",
+      "original_class_sha256": "d250616f8d7238acd6c988272923e6b0525fa35192830091ff72d9b28754c153",
+      "english_literal": "%s new hull ",
+      "polish_ascii": "Nowe warianty okretow w symulatorze: %s",
+      "original_cp_index": 106,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.misc.SimUpdateIntel",
+      "original_class_sha256": "d250616f8d7238acd6c988272923e6b0525fa35192830091ff72d9b28754c153",
+      "english_literal": "faction",
+      "polish_ascii": "",
+      "original_cp_index": 71,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.misc.SimUpdateIntel",
+      "original_class_sha256": "d250616f8d7238acd6c988272923e6b0525fa35192830091ff72d9b28754c153",
+      "english_literal": "factions",
+      "polish_ascii": "",
+      "original_cp_index": 73,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.misc.SimUpdateIntel",
+      "original_class_sha256": "d250616f8d7238acd6c988272923e6b0525fa35192830091ff72d9b28754c153",
+      "english_literal": "variant",
+      "polish_ascii": "",
+      "original_cp_index": 102,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.misc.SimUpdateIntel",
+      "original_class_sha256": "d250616f8d7238acd6c988272923e6b0525fa35192830091ff72d9b28754c153",
+      "english_literal": "variants",
+      "polish_ascii": "",
+      "original_cp_index": 104,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.codex.CodexUpdateIntel",
+      "original_class_sha256": "9149c10a19ebc8e0c4a899ad67cb93cb3f9a73addb0874cbeccf56aa7b57693e",
+      "english_literal": "%s new Codex ",
+      "polish_ascii": "Nowe wpisy w kodeksie: %s",
+      "original_cp_index": 74,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.codex.CodexUpdateIntel",
+      "original_class_sha256": "9149c10a19ebc8e0c4a899ad67cb93cb3f9a73addb0874cbeccf56aa7b57693e",
+      "english_literal": "entries",
+      "polish_ascii": "",
+      "original_cp_index": 70,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.codex.CodexUpdateIntel",
+      "original_class_sha256": "9149c10a19ebc8e0c4a899ad67cb93cb3f9a73addb0874cbeccf56aa7b57693e",
+      "english_literal": "entry",
+      "polish_ascii": "",
+      "original_cp_index": 68,
+      "original_ldc_instructions": 1
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.hullmods.PhaseField",
+      "original_class_sha256": "4f714ecc1f6c0382752e7757b69e343747a3170f5e8b53a5a5b0567a18169364",
+      "english_literal": "The sensor profile of the %s top ships in your fleet is %s. The sensor strength of the top %s phase ships is %s.",
+      "polish_ascii": "Laczna sygnatura %s okr. o najwiekszej sygnaturze we flocie wynosi %s. Laczna sila czujnikow %s okr. fazowych o najwyzszej sile czujnikow wynosi %s.",
+      "original_cp_index": 224,
+      "original_ldc_instructions": 1
+    }
+  ],
+  "native_gameplay_windows_tested": false
+}
