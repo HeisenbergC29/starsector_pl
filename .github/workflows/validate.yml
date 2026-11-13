@@ -369,6 +369,13 @@ jobs:
           path: worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/
           retention-days: 1
           if-no-files-found: error
+      - name: Export OBF patcher source for targeted original-JAR issue audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: Starsector_PL_1.0.52_OBF_source_for_private_audit
+          path: worktree/buildtools/NARZEDZIA_OBF/
+          if-no-files-found: error
+          retention-days: 2
       - name: Package and CRC-check 1.0.52 minimal Windows installer
         run: python3 tools/package_1052.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.52_MINIMALNY.zip
       - name: Upload the 1.0.52 Windows package
