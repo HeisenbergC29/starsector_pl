@@ -1,0 +1,88 @@
+{
+  "checked_class_scoped_literals": 16,
+  "classes": 8,
+  "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "all_constants_verified": true,
+  "details": [
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "english_sha256": "c686531bf02d9eab68e6c07058346354cc2a6b509925e6084004c663f0d10647",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "english_sha256": "d2e04e393cda2c1268efbae3970e00c4222bbb125a2f011458065cfa59e78bd5",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "english_sha256": "2fac7085e326a03a83162efeb330442537a90d665e2b8c67e861b1798c6a5bd9",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "english_sha256": "b4de0803c18d01a75e86b2f380310b0d9836115fc91f13dd64a567db7478b744",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "english_sha256": "9f82f7b375f4aa1bd7d50abe0f760c4ca5a8f0208aa68555489c39dd7c7aeeaa",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.AbandonMarketPluginImpl",
+      "english_sha256": "04dc4f3db0e1d5ced709482dc7b86ade6e16a0503c5cab4bc0d9e5ab539a7fc1",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.abilities.InterdictionPulseAbility",
+      "english_sha256": "025dcdd6c846c29639ba91baa1866fcc96e78e0aeaa120a8dd33eb8a73a339a2",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.events.PiracyRespiteScript",
+      "english_sha256": "ce1edc6bb17f903448f7848d22e0330e1939d10f40c5f1ca8a7a65b541d64b97",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.intel.events.PiracyRespiteScript",
+      "english_sha256": "681e67bb73624c201340478113389740fd8e88597cdb48b37724f65ed8bbc396",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.rulecmd.DoCanAffordCheck$1",
+      "english_sha256": "32fbaf8ec6009deaa1d0f7e355e7998dec2d9c71b4b9ffe37752b5042d506ea5",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.rulecmd.DoCanAffordCheck$1",
+      "english_sha256": "92871ed79e99d9d665c9d510b9b87512428711f6d77a551065a59850b0c9e828",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.skills.CrewTraining$Level2",
+      "english_sha256": "e53384537fb2ad6ea6d1c9d1da520a7af24efa3fb27dc3ea633e375ae8afbf36",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.skills.PhaseCorps$Level3",
+      "english_sha256": "a8a33fd042c2b86610b4da98a57106ad9961fd0df8180b6e125e9d43f8967582",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.campaign.tutorial.GalatianAcademyStipend",
+      "english_sha256": "376f44045a4f4697d889df886aa2d67a9b9094e39614529ce3e8ae3cca92c176",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.hullmods.MissileAutoloader",
+      "english_sha256": "e0f860c3f0e2112bb7af5dff93e9151603a37c1397e7bd5fc24834888e19dce8",
+      "found_in_original_jvm_string_pool": true
+    },
+    {
+      "class": "com.fs.starfarer.api.impl.hullmods.MissileAutoloader",
+      "english_sha256": "53516bbd78244e6edb5c7d9aa941d1490884c7d5b9fdad9084af356535f872af",
+      "found_in_original_jvm_string_pool": true
+    }
+  ]
+}

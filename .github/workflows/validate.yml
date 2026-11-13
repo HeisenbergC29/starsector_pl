@@ -218,8 +218,20 @@ jobs:
         run: |
           python3 tools/audit_rules_pronouns_1045.py worktree/mod/data/campaign/rules.csv --output /tmp/PRONOUN_1045.json
           diff -u docs/PRONOUN_AUDIT_1045.json /tmp/PRONOUN_1045.json
-          python3 tools/check_release_gates_1045.py worktree --gates docs/RELEASE_GATES_11.json --ledger docs/RULES_GENDER_REVIEW_1045.json
-          python3 tools/test_release_gates_1045.py worktree --gates docs/RELEASE_GATES_11.json --ledger docs/RULES_GENDER_REVIEW_1045.json
+          python3 tools/check_release_gates_1045.py worktree --gates docs/RELEASE_GATES_1045.json --ledger docs/RULES_GENDER_REVIEW_1045.json
+          python3 tools/test_release_gates_1045.py worktree --gates docs/RELEASE_GATES_1045.json --ledger docs/RULES_GENDER_REVIEW_1045.json
+      - name: Apply 1.0.46 class-scoped Java API corrections and three new assembled fragments
+        run: python3 tools/apply_1046.py worktree
+      - name: Verify 1.0.46 exact API delta and 8 negative mapping mutations
+        run: |
+          python3 tools/verify_1046.py worktree
+          python3 tools/test_1046.py worktree
+          python3 -m py_compile tools/audit_1046_jvm.py
+      - name: Audit 20 newly reviewed API translations and 1.1 release gates
+        run: |
+          python3 tools/verify_review_1046.py worktree --previous docs/API_SEMANTIC_REVIEW_1040.json --ledger docs/API_SEMANTIC_REVIEW_1046.json
+          python3 tools/check_release_gates_1046.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1040.json --ledger docs/API_SEMANTIC_REVIEW_1046.json
+          python3 tools/test_release_gates_1046.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/API_SEMANTIC_REVIEW_1040.json --ledger docs/API_SEMANTIC_REVIEW_1046.json
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -258,12 +270,12 @@ jobs:
           file worktree/obf_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/api_windows.exe | grep -q 'PE32+ executable.*x86-64'
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
-      - name: Package and CRC-check 1.0.45 minimal Windows installer
-        run: python3 tools/package_1045.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.45_MINIMALNY.zip
-      - name: Upload the 1.0.45 Windows package
+      - name: Package and CRC-check 1.0.46 minimal Windows installer
+        run: python3 tools/package_1046.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.46_MINIMALNY.zip
+      - name: Upload the 1.0.46 Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_ASCII_1.0.45
-          path: Starsector_PL_ASCII_0.98a_RC8_1.0.45_MINIMALNY.zip
+          name: Starsector_PL_ASCII_1.0.46
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.46_MINIMALNY.zip
           if-no-files-found: error
           retention-days: 7

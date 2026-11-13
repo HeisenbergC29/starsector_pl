@@ -1,14 +1,18 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.45):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.46):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.45** (snapshot 1.0.12 + overlaye 1013–1045; OBF 3534 podmiany/539 klas, API 5257 map/5255 podmian w 938 klasach — bez zmian Java wzgledem 1.0.42; 870 danych, zmieniony wylacznie rules.csv; 44 nowe rekordy po 1.0.44). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.46** (snapshot 1.0.12 + overlaye 1013–1046; OBF 3534 podmiany/539 klas, API 5260 map (5257 poprzednich plus 3 nowe) w 938 klasach — bez zmian Java wzgledem 1.0.42; 870 danych, zmieniony wylacznie rules.csv; 44 nowe rekordy po 1.0.44). Cel 1.1 OTWARTY.
 
-## Najnowszy etap 1.0.45
+## Etap 1.0.45
 
 [Raport i reprodukcja](docs/RELEASE_1045.md): 44 wiersze rules.csv, 80 poprawek, 93 usuniete zmienne plciowe; lacznie 253 rekordy i 420 usunietych referencji. [Audyt surowych zmiennych](docs/PRONOUN_AUDIT_1045.json): 2275 wystapien w 1139 rekordach do dalszej oceny. Mapy Java bez zmian. Brak gameplay Windows, 1.1 nieukonczona.
+
+## Najnowszy etap 1.0.46
+
+[Raport i reprodukcja](docs/RELEASE_1046.md): 13 poprawek i 3 nowe literalne tłumaczenia API w 8 klasach, naprawa skladanych tekstow rozliczenia kolonii, dynamiczna odmiana czasu i kredytow. 20 nowych semantycznych recenzji API, lacznie 142/3658 offline; 3516 pozostaje otwarte. 870 danych gry nietknietych. Brak natywnego testu Windows, wersja 1.1 nadal NIE jest gotowa.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

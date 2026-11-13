@@ -1,10 +1,12 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.45** (snapshot 1.0.12 + overlaye 1013–1045; OBF 3534/539 klas bez zmian, API 5257 map/5255 podmian/938 klas bez zmian, 870 danych, tylko rules.csv zmieniony).
+**Aktualny stan roboczy: 1.0.46** (snapshot 1.0.12 + overlaye 1013–1046; OBF 3534/539 klas bez zmian, API 5260 wpisow mapy, 13 poprawek i 3 nowe literały w 8 klasach, 870 plikow danych bez zmian).
 
 **1.0.44:** 25 dodatkowych wierszy rules.csv, 30 zmian i 31 usunietych problematycznych zmiennych plciowych. Lacznie 209 rekordow i 327 referencji skontrolowanych offline. Mapy OBF/API bez zmian; 186 getterow Java, 3536 historycznych API oraz testy Windows nadal otwarte. Szczegoly `docs/RELEASE_1044.md`.
 
 **1.0.45:** 44 dialogi rules.csv, 80 zmian, 93 usuniete zmienne plciowe; lacznie 253 rekordy i 420 referencji sprawdzonych pod katem tych fragmentow offline. Audyt: 2275 pozostalych surowych placeholderow w 1139 wierszach, niepotwierdzonych jako bledy. OBF/API nietkniete, 186 getterow Java i 3536 historycznych API do recenzji. Natywny gameplay Windows niewykonany. `docs/RELEASE_1045.md`.
+
+**1.0.46:** 13 poprawionych i 3 nowe teksty Java API, oryginalne JVM 16/16 zweryfikowane offline; naprawione skladanie bilansu porzucenia kolonii (cost/payout + of %s). Dodatkowe 20 recenzji API podnosi liczniki 122->142 i zmniejsza zaleglosci 3536->3516. 186 getterow zaimkowych Java oraz natywne Windows pozostaja otwarte. Raport `docs/RELEASE_1046.md`.
 
 **Cel 1.1:** pelna polonizacja wszystkich wyswietlanych pol gry Starsector 0.98a-RC8. Wersje 1.0.x NIE oznaczaja ukonczonego tlumaczenia.
 

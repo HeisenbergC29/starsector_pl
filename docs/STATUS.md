@@ -1,6 +1,9 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
 
-**Wydanie robocze 1.0.45. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.46. Cel 1.1 nadal otwarty.**
+
+**1.0.46 (2026-11-13):** 13 korekt API oraz 3 nowe literały dynamicznego bilansu porzucania kolonii w 8 klasach; API 5260 wierszy mapy, poprzednie 5257 zachowane w tej samej kolejnosci. Na oryginalnym JAR potwierdzono 16/16 literałów; 20 nowych kontekstowych recenzji API podnosi stan 122 do 142, pozostawiajac 3516/3658 historycznych bez recenzji. Dynamiczna odmiana czasu, stypendium, kredytow, podpowiedzi koloni i zapasu rakiet; 870 danych nietknietych, OBF niezmienione. Nowy SHA mapy `8c09fa12c41199e92008551cf89e86a30e59329531ad6ba40731c9d697a73a93`. Test rzeczywistego gameplay Windows nadal brak, 186 wywolan getterow Java nierozpatrzone. Raport `docs/RELEASE_1046.md`.
+
 
 **1.0.45 (2026-11-13):** 44 kolejnych wierszy rules.csv, 80 poprawek i 93 usuniete problematyczne zmienne plciowe; 253 rekordy i 420 odniesien lacznie od 1.0.34 (recenzja wybranych fraz offline). SHA rules.csv e9a6ad60da0caca6fa89af21370eddfa461de39324486368458aca2575e3b64a; 869 innych danych identycznych, 1.0.44 odtworzona bajtowo. OBF/API i Java bez zmian. Po zmianach 2275 surowych placeholderow w 1139 wierszach do analizy, nie automatycznie bledow. 186 getterow JVM, 3536 historycznych API i wszystkie natywne testy Windows nadal otwarte. Zobacz docs/RELEASE_1045.md.
 

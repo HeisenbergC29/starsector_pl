@@ -33,13 +33,13 @@
     {
       "id": "draft_semantics",
       "status": "blocked",
-      "source": "docs/API_SEMANTIC_REVIEW_1040.json: 122 historical entries reviewed offline; 1.0.41 changes numeric suffixes only, NOT full semantic review",
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1040.json",
+      "source": "docs/API_SEMANTIC_REVIEW_1046.json: 122 inherited verified rows and 20 new original-JVM/context-reviewed API rows; 3516 historical DRAFT/OPTIONAL entries still pending",
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1046.json",
       "total_draft_rows": 3658,
-      "reviewed_offline": 122,
-      "unresolved_count": 3536,
-      "gameplay_unverified_count": 3696,
-      "new_literal_count": 38
+      "reviewed_offline": 142,
+      "unresolved_count": 3516,
+      "gameplay_unverified_count": 3699,
+      "new_literal_count": 41
     },
     {
       "id": "rules_possessives",
@@ -86,14 +86,22 @@
       "plan_sha256": "fc7bf29cfc7f327342060c7a6eb36f3662d72d2cd097431c6141c9b32ff2a761"
     },
     {
+      "id": "api_contexts_1046",
+      "status": "in_progress",
+      "source": "tools/apply_1046.py / tools/verify_1046.py: 13 corrected API text literals plus 3 previously untranslated assembled-tooltip fragments in 8 classes; 16 original JVM constants verified offline, no native Windows gameplay",
+      "reviewed_offline": 16,
+      "pending_windows_ui": 16,
+      "changed_classes": 8
+    },
+    {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.45 corrects 44 more rules.csv rows; 2275 raw gender tokens in 1139 records await contextual review; whole-game translation completeness unverified"
+      "source": "1.0.46 fixes 13 mapped API texts and adds 3 class-scoped dynamic-tooltip fragments; 1.1 whole-game completeness remains unverified; 2275 raw gender placeholders in 1139 rules.csv records still require contextual review"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
-      "source": "1.0.45: 253 corrected rules rows, 81 story contexts, 219 original JVM getter calls remain untested in native Windows game",
+      "source": "1.0.46 adds 16 API contexts needing native Windows UI tests; 253 prior reviewed rules dialogues, 81 PF and 219 JVM getter-calls remain without full native UI verification",
       "native_gameplay_tested": false
     }
   ]
