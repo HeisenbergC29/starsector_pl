@@ -152,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.58: 122 new contextual speech attribution corrections; 1953 gender placeholders across 1006 rows, 3267 historical API strings and 186 JVM getters still unreviewed; native Windows gameplay not tested."
+      "source": "1.0.59: six newly mapped original-JVM UI fragments and one corrected monthly report tooltip composition; 1953 dynamic gender placeholders in 1006 rules, 3267 historical API reviews and 186 getter calls remain open; Windows gameplay not tested."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.58: 555 unique rule records reviewed for selected fragments offline, plus prior Java UI texts, still require native Windows gameplay testing; no native game was run."
+      "source": "1.0.59: 555 unique dialogue rules and selected original-JVM UI corrections verified offline; 10 MonthlyReportNodeTooltipCreator callsites require native Windows visual confirmation; no actual game was run."
     },
     {
       "id": "rules_reflexive_1057",
@@ -189,6 +189,19 @@
       "protected_prior_reviewed_ids": 433,
       "changes_to_conditions_scripts_ids_options": 0,
       "pending_windows_ui": 122,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "monthly_report_ui_1059",
+      "status": "in_progress",
+      "source": "tools/apply_1059.py + tools/audit_original_jvm_1059.py + docs/JVM_AUDIT_1059.json: MonthlyReportNodeTooltipCreator 6 missing active UI literals and 1 corrected assembled quantity text; 10 original JVM callsites verified offline; 15 quantity/commodity combinations tested; original-JAR fresh=upgrade and restore PASS. Previously reviewed 17 class rows do not add to historical review count.",
+      "new_class_scoped_literals": 6,
+      "revised_previously_reviewed_literal": 1,
+      "jvm_callsites_verified_original": 10,
+      "affected_classes": 1,
+      "prior_historical_api_reviews": 391,
+      "data_file_changes": 0,
+      "new_executable_bytecode_changes": 0,
       "native_windows_gameplay_tested": false
     }
   ]

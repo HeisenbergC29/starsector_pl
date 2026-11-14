@@ -1,0 +1,34 @@
+{
+  "release": "1.0.59",
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "class": "com.fs.starfarer.api.impl.campaign.MonthlyReportNodeTooltipCreator",
+  "confirmed_java_ldc_callsites": 10,
+  "literal_callsites": {
+    "Equipment": [
+      255
+    ],
+    "Ships": [
+      329,
+      561,
+      720
+    ],
+    "Resources": [
+      491,
+      650
+    ],
+    "units": [
+      1210
+    ],
+    "unit": [
+      1222
+    ],
+    "Approximately %s ": [
+      1242
+    ],
+    " of ": [
+      1253
+    ]
+  },
+  "technical_settings_keys_replaced": 0,
+  "native_windows_gameplay_tested": false
+}

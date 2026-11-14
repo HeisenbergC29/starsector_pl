@@ -375,9 +375,21 @@ jobs:
           python3 tools/test_package_contract_1058.py worktree
       - name: Preserve all v1.1 release gates and reject fabricated completion after 1.0.58
         run: |
-          python3 tools/check_release_gates_1058.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1057.json
-          python3 tools/test_release_gates_1058.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1057.json
+          python3 tools/check_release_gates_1058.py worktree --gates docs/RELEASE_GATES_1058.json --previous docs/RELEASE_GATES_1057.json
+          python3 tools/test_release_gates_1058.py worktree --gates docs/RELEASE_GATES_1058.json --previous docs/RELEASE_GATES_1057.json
           python3 -m py_compile tools/private_upgrade_1058.py tools/package_1058.py
+      - name: Apply 1.0.59 monthly report UI text-only Java API translations
+        run: python3 tools/apply_1059.py worktree
+      - name: Verify six new literals and one corrected dynamic monthly quantity tooltip
+        run: |
+          python3 tools/verify_1059.py worktree
+          python3 tools/test_1059.py worktree
+          python3 tools/test_package_contract_1059.py worktree
+      - name: Keep 1.1 blocked: preserve 391 historical API reviews and Windows test gate
+        run: |
+          python3 tools/check_release_gates_1059.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1058.json
+          python3 tools/test_release_gates_1059.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1058.json
+          python3 -m py_compile tools/private_upgrade_1059.py tools/audit_original_jvm_1059.py tools/package_1059.py
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -418,18 +430,18 @@ jobs:
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
       - name: Cross-build Linux JVM patchers for private original-JAR regression
         run: |
-          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1058" .)
-          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1058" .)
-          file api_linux_1058 obf_linux_1058
-          file api_linux_1058 | grep -q 'ELF 64-bit'
-          file obf_linux_1058 | grep -q 'ELF 64-bit'
+          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1059" .)
+          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1059" .)
+          file api_linux_1059 obf_linux_1059
+          file api_linux_1059 | grep -q 'ELF 64-bit'
+          file obf_linux_1059 | grep -q 'ELF 64-bit'
       - name: Upload temporary Linux patchers (no commercial JAR)
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.58_private_JAR_audit_patchers
+          name: Starsector_PL_1.0.59_private_JAR_audit_patchers
           path: |
-            api_linux_1058
-            obf_linux_1058
+            api_linux_1059
+            obf_linux_1059
           retention-days: 1
           if-no-files-found: error
       - name: Validate private-JAR regression script is importable
@@ -437,23 +449,23 @@ jobs:
       - name: Export temporary API patcher sources for historical upgrade verification
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.58_API_source_for_private_upgrade
+          name: Starsector_PL_1.0.59_API_source_for_private_upgrade
           path: worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/
           retention-days: 1
           if-no-files-found: error
       - name: Export OBF patcher source for targeted original-JAR issue audit
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.58_OBF_source_for_private_audit
+          name: Starsector_PL_1.0.59_OBF_source_for_private_audit
           path: worktree/buildtools/NARZEDZIA_OBF/
           if-no-files-found: error
           retention-days: 2
-      - name: Package and CRC-check 1.0.58 minimal Windows installer
-        run: python3 tools/package_1058.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.58_MINIMALNY.zip
-      - name: Upload the 1.0.58 Windows package
+      - name: Package and CRC-check 1.0.59 minimal Windows installer
+        run: python3 tools/package_1059.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.59_MINIMALNY.zip
+      - name: Upload the 1.0.59 Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_ASCII_1.0.58
-          path: Starsector_PL_ASCII_0.98a_RC8_1.0.58_MINIMALNY.zip
+          name: Starsector_PL_ASCII_1.0.59
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.59_MINIMALNY.zip
           if-no-files-found: error
           retention-days: 7

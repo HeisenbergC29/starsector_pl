@@ -1,0 +1,12 @@
+{
+  "release": "1.0.59",
+  "fresh_equal_upgrade": true,
+  "repeat_apply_noop": true,
+  "original_restore_byte_exact": true,
+  "corrupted_API_rejected": true,
+  "changed_class_count": 1,
+  "only_class": "com/fs/starfarer/api/impl/campaign/MonthlyReportNodeTooltipCreator.class",
+  "new_api_sha256": "9d7424d40ae88d62cf85c09cc1ff99a4e3abeba6cad896683b68d8ac74afcf3e",
+  "obf_unchanged_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "native_windows_gameplay_tested": false
+}
