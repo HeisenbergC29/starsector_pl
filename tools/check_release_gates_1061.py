@@ -45,7 +45,7 @@ def audit(root:Path,current:Path,previous:Path,prior_semantic:Path,new_semantic:
  actual=source_check(root)
  if (actual['reviewed_historical_rows'],actual['new_literals'],actual['grammar_combinations'])!=(25,3,93):
   raise ValueError('Gate accounting unsupported by actual files')
- review_check(root,Path(root)/'docs/GATE_HAULER_REVIEW_1061.json',prior_semantic,new_semantic)
+ review_check(root,Path(__file__).resolve().parent.parent/'docs/GATE_HAULER_REVIEW_1061.json',prior_semantic,new_semantic)
  return r
 
 if __name__=='__main__':
