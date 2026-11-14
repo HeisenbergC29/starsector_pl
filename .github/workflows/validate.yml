@@ -385,7 +385,7 @@ jobs:
           python3 tools/verify_1059.py worktree
           python3 tools/test_1059.py worktree
           python3 tools/test_package_contract_1059.py worktree
-      - name: Keep 1.1 blocked: preserve 391 historical API reviews and Windows test gate
+      - name: 'Keep 1.1 blocked: preserve 391 historical API reviews and Windows test gate'
         run: |
           python3 tools/check_release_gates_1059.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1058.json
           python3 tools/test_release_gates_1059.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1058.json
