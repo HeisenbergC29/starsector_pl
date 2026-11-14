@@ -1,0 +1,1152 @@
+{
+  "schema_version": 1,
+  "source_release": "1.0.56",
+  "proposed_release": "1.0.57",
+  "base_rules_sha256": "a08330e67de037fc0df66447c039ec7ac6792340405d2983c04e31f2bfef4810",
+  "scope": "70 previously unreviewed player-visible text fields only; 15 exact gesture patterns; technical CSV fields unchanged",
+  "patterns": [
+    {
+      "before": "kreci $hisOrHer glowa",
+      "after": "kreci glowa",
+      "occurrences": 15
+    },
+    {
+      "before": "przewraca $hisOrHer oczami",
+      "after": "przewraca oczami",
+      "occurrences": 7
+    },
+    {
+      "before": "przewraca oczami $hisOrHer",
+      "after": "przewraca oczami",
+      "occurrences": 1
+    },
+    {
+      "before": "krzyzuje $hisOrHer ramiona",
+      "after": "krzyzuje ramiona",
+      "occurrences": 6
+    },
+    {
+      "before": "krzyzuje rece $hisOrHer",
+      "after": "krzyzuje rece",
+      "occurrences": 1
+    },
+    {
+      "before": "rozklada $hisOrHer rece",
+      "after": "rozklada rece",
+      "occurrences": 5
+    },
+    {
+      "before": "unosi $hisOrHer brwi",
+      "after": "unosi brwi",
+      "occurrences": 5
+    },
+    {
+      "before": "sklada $hisOrHer dlonie",
+      "after": "sklada dlonie",
+      "occurrences": 13
+    },
+    {
+      "before": "splata $hisOrHer dlonie",
+      "after": "splata dlonie",
+      "occurrences": 3
+    },
+    {
+      "before": "chowa $hisOrHer glowe w $hisOrHer dloniach",
+      "after": "chowa glowe w dloniach",
+      "occurrences": 2
+    },
+    {
+      "before": "kiwa $hisOrHer glowa",
+      "after": "kiwa glowa",
+      "occurrences": 2
+    },
+    {
+      "before": "zaciska $hisOrHer szczeke",
+      "after": "zaciska szczeke",
+      "occurrences": 4
+    },
+    {
+      "before": "oblizuje $hisOrHer wargi",
+      "after": "oblizuje wargi",
+      "occurrences": 3
+    },
+    {
+      "before": "zamyka $hisOrHer oczy",
+      "after": "zamyka oczy",
+      "occurrences": 5
+    },
+    {
+      "before": "kreci glowa $hisOrHer",
+      "after": "kreci glowa",
+      "occurrences": 2
+    }
+  ],
+  "records": [
+    {
+      "id": "BFFIpsRuseOpenMeanDone",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "0c34716c0d6997108fd7096fcfeb8f8c70519dba219711732b8ae92863a34f2e",
+      "new_text_sha256": "cb6ea56de32927b0e0b40ec42320c141b6c3ca4bb33d97b27294959b321a43d1",
+      "removed_gender_placeholders": 2,
+      "edits": [
+        [
+          "chowa $hisOrHer glowe w $hisOrHer dloniach",
+          "chowa glowe w dloniach"
+        ]
+      ],
+      "original_text": "\"Dosyc grozb!\" $HeOrShe chowa $hisOrHer glowe w $hisOrHer dloniach. \"Jestes potworem z piekiel i zapewne tam trafie za zawarcie tej umowy... Ale to trwa juz zbyt dlugo. Musze chronic swoich ludzi.\"\r\n\r\n\"Musze przyjac twoje warunki\", mowi pokonany $heOrShe. \"Modle sie, by to byla wlasciwa Sciezka.\"",
+      "revised_text": "\"Dosyc grozb!\" $HeOrShe chowa glowe w dloniach. \"Jestes potworem z piekiel i zapewne tam trafie za zawarcie tej umowy... Ale to trwa juz zbyt dlugo. Musze chronic swoich ludzi.\"\r\n\r\n\"Musze przyjac twoje warunki\", mowi pokonany $heOrShe. \"Modle sie, by to byla wlasciwa Sciezka.\""
+    },
+    {
+      "id": "BFFIpsRuseOpenNiceDone",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "ef70a5af2a1042059302d8988f653ba3d0837f8d3d25fdd3f40e556b6bf162b7",
+      "new_text_sha256": "b1f592ee20117a5234ad0d07feea8ecfc8a716a82e97102018cfaf3c872ef5a0",
+      "removed_gender_placeholders": 2,
+      "edits": [
+        [
+          "chowa $hisOrHer glowe w $hisOrHer dloniach",
+          "chowa glowe w dloniach"
+        ]
+      ],
+      "original_text": "\"Przestan, blagam.\" $HeOrShe chowa $hisOrHer glowe w $hisOrHer dloniach. \"Modle sie, by byla to wlasciwa Sciezka i bys nie byl potworem, na jakiego wygladasz.\"\r\n\r\n\"Musze przyjac twoje warunki\", mowi $heOrShe. \"Bede modlic sie o przebaczenie. Niech ogien piekielny tego swiata lub nastepnego spadnie najpierw na mnie, nie na tych, ktorych chce chronic.\"",
+      "revised_text": "\"Przestan, blagam.\" $HeOrShe chowa glowe w dloniach. \"Modle sie, by byla to wlasciwa Sciezka i bys nie byl potworem, na jakiego wygladasz.\"\r\n\r\n\"Musze przyjac twoje warunki\", mowi $heOrShe. \"Bede modlic sie o przebaczenie. Niech ogien piekielny tego swiata lub nastepnego spadnie najpierw na mnie, nie na tych, ktorych chce chronic.\""
+    },
+    {
+      "id": "CBPatrol",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "368bf805c35d7d7b863e0f34c729596f82f78b43bd28ba9ffea38a0e62b4a068",
+      "new_text_sha256": "4619f3398af0003bff1adc0bbe3ce3712f088d3aea763b72769a0f72d1cf8987",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Tylko popatrz na tego dobroczynce\". $HeOrShe wyswietla standardowy hologram identyfikacyjny oficera w mundurze. \"Zbyt uczciwy i zasadniczy, by wiedziec, kiedy nalezy pojsc na kompromis dla wspolnego dobra. Wziac zaplate, odwrocic wzrok... nikomu, kto na to nie zasluzyl, nie stanie sie krzywda, prawda?\" $personName kreci $hisOrHer glowa nad uporem praworzadnych obywateli.\r\n\r\n\"$bcb_TargetHeOrShe dowodzi flota patrolowa $bcb_patrolFaction, operujaca z $bcb_targetMarketName w ukladzie $bcb_systemName, oddalonym o $bcb_dist lat swietlnych. Znajdziesz $bcb_targetHimOrHer na patrolu w poblizu tego miejsca, punktu skoku albo strategicznego obiektu orbitalnego, takiego jak przekaznik lacznosci\".\r\n\r\n$HeOrShe z pogarda zamyka hologram. \"Zlikwiduj $bcb_targetHimOrHer. Otrzymasz $bcb_reward kredytow. Masz $bcb_days dni na wykonanie zadania. Dasz sobie rade?\"",
+      "revised_text": "\"Tylko popatrz na tego dobroczynce\". $HeOrShe wyswietla standardowy hologram identyfikacyjny oficera w mundurze. \"Zbyt uczciwy i zasadniczy, by wiedziec, kiedy nalezy pojsc na kompromis dla wspolnego dobra. Wziac zaplate, odwrocic wzrok... nikomu, kto na to nie zasluzyl, nie stanie sie krzywda, prawda?\" $personName kreci glowa nad uporem praworzadnych obywateli.\r\n\r\n\"$bcb_TargetHeOrShe dowodzi flota patrolowa $bcb_patrolFaction, operujaca z $bcb_targetMarketName w ukladzie $bcb_systemName, oddalonym o $bcb_dist lat swietlnych. Znajdziesz $bcb_targetHimOrHer na patrolu w poblizu tego miejsca, punktu skoku albo strategicznego obiektu orbitalnego, takiego jak przekaznik lacznosci\".\r\n\r\n$HeOrShe z pogarda zamyka hologram. \"Zlikwiduj $bcb_targetHimOrHer. Otrzymasz $bcb_reward kredytow. Masz $bcb_days dni na wykonanie zadania. Dasz sobie rade?\""
+    },
+    {
+      "id": "HistorianBackstoryBlurb17",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "9723ad1f02460ae5f959d4241a73942854b8bd195efb4551a2623d4dca6f2f46",
+      "new_text_sha256": "53886d3d810217ce492e544bd953ee75e860d2e30865aefdc98e33f567507b82",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Wspolczesny Kosciol Galaktycznego Odkupienia okazal sie zaskakujaco stabilny, pomimo - a moze wlasnie za sprawa - politycznego chaosu panujacego w Sektorze Perseusza bezposrednio po Upadku.\"\r\n\r\nHistoryk sklada $hisOrHer dlonie, nieswiadomie powtarzajac stare gesty wykladowcy.\r\n\r\n\"Swieta Rada Ekumeniczna Archikuratorow rozstrzyga kwestie kanonu, zatwierdza i przekazuje kompetencje wykonawcze oraz sprawuje niektore sakramenty zastrzezone wylacznie dla niej. Jednak archikuratorzy moga zostac upomnieni, a nawet pozbawieni stanu duchownego kwalifikowana wiekszoscia glosow kuratorow ludowych! Czlonkowie piastujacy te zwyklejsze urzedy sa zatwierdzani przez miejscowe zgromadzenia, ale musza otrzymac swiecenia od archikuratora cieszacego sie dobra opinia.\"\r\n\r\n$HeOrShe pije lyk herbaty, po czym marszczy brwi i przyglada sie $hisOrHer filizance, jakby napoj nagle wystygl. \"Oczywiscie w praktyce wszystko jest znacznie bardziej skomplikowane...\"",
+      "revised_text": "\"Wspolczesny Kosciol Galaktycznego Odkupienia okazal sie zaskakujaco stabilny, pomimo - a moze wlasnie za sprawa - politycznego chaosu panujacego w Sektorze Perseusza bezposrednio po Upadku.\"\r\n\r\nHistoryk sklada dlonie, nieswiadomie powtarzajac stare gesty wykladowcy.\r\n\r\n\"Swieta Rada Ekumeniczna Archikuratorow rozstrzyga kwestie kanonu, zatwierdza i przekazuje kompetencje wykonawcze oraz sprawuje niektore sakramenty zastrzezone wylacznie dla niej. Jednak archikuratorzy moga zostac upomnieni, a nawet pozbawieni stanu duchownego kwalifikowana wiekszoscia glosow kuratorow ludowych! Czlonkowie piastujacy te zwyklejsze urzedy sa zatwierdzani przez miejscowe zgromadzenia, ale musza otrzymac swiecenia od archikuratora cieszacego sie dobra opinia.\"\r\n\r\n$HeOrShe pije lyk herbaty, po czym marszczy brwi i przyglada sie $hisOrHer filizance, jakby napoj nagle wystygl. \"Oczywiscie w praktyce wszystko jest znacznie bardziej skomplikowane...\""
+    },
+    {
+      "id": "HistorianBackstoryBlurb18",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "66920ea711dc1b73411f74fdfb2f1086aef0c6a4ff4dfdb89065003b8509bb2d",
+      "new_text_sha256": "effd16249fb3374c73686194fd0a4c82608ffa2fe1ead2b0bea47f8faaae506d",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "unosi $hisOrHer brwi",
+          "unosi brwi"
+        ]
+      ],
+      "original_text": "\"Wsrod czlonkow Kosciola Galaktycznego Odkupienia, potocznie zwanych luddystami, sa tacy, ktorzy uwazaja Rycerzy Ludda za wypaczenie pierwotnej wizji Kosciola. Niewatpliwie maja racje\", historyk unosi $hisOrHer brwi na znak swiadomosci, ze glosi drobna herezje. \"Analiza fragmentow Ksiegi Ludda, ktore uczeni uwazaja za najbardziej autentyczne, sugeruje, ze motywy wojowniczosci i 'rycerstwa wiary' byly raczej abstrakcyjnymi odniesieniami do na poly sakralnego, bojowego wolontariatu, ktory w praktyce mogl przybierac postac od obywatelskich protestow az, byc moze, po dzialalnosc powstancza.\"\r\n\r\n\"Trzeba jednak przyznac, ze staly zakon zbrojny przyniosl wymierne korzysci w chaosie po Upadku i podczas pozniejszych wojen\", $heOrShe odchyla sie na $hisOrHer siedzeniu w zamysleniu. \"A najbardziej glosni krytycy w samym Kosciele twierdza, ze Rycerze bladza raczej w stopniu niz w samej istocie swojej misji. A mniej glosni przeciwnicy? Calkiem mozliwe, ze przez wiele, wiele cykli nie poznamy ich zdania. Rycerze o to dbaja.\"",
+      "revised_text": "\"Wsrod czlonkow Kosciola Galaktycznego Odkupienia, potocznie zwanych luddystami, sa tacy, ktorzy uwazaja Rycerzy Ludda za wypaczenie pierwotnej wizji Kosciola. Niewatpliwie maja racje\", historyk unosi brwi na znak swiadomosci, ze glosi drobna herezje. \"Analiza fragmentow Ksiegi Ludda, ktore uczeni uwazaja za najbardziej autentyczne, sugeruje, ze motywy wojowniczosci i 'rycerstwa wiary' byly raczej abstrakcyjnymi odniesieniami do na poly sakralnego, bojowego wolontariatu, ktory w praktyce mogl przybierac postac od obywatelskich protestow az, byc moze, po dzialalnosc powstancza.\"\r\n\r\n\"Trzeba jednak przyznac, ze staly zakon zbrojny przyniosl wymierne korzysci w chaosie po Upadku i podczas pozniejszych wojen\", $heOrShe odchyla sie na $hisOrHer siedzeniu w zamysleniu. \"A najbardziej glosni krytycy w samym Kosciele twierdza, ze Rycerze bladza raczej w stopniu niz w samej istocie swojej misji. A mniej glosni przeciwnicy? Calkiem mozliwe, ze przez wiele, wiele cykli nie poznamy ich zdania. Rycerze o to dbaja.\""
+    },
+    {
+      "id": "HistorianBackstoryBlurb27",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "eabf0e52ddee2c6017e879aec0ab0636e92926a4ff5633925af6d63d02eaf6db",
+      "new_text_sha256": "033a2011141d0bc4e268e0c53b78b572dff082c0e21af42a16a5dce332623206",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "unosi $hisOrHer brwi",
+          "unosi brwi"
+        ]
+      ],
+      "original_text": "\"Ach, tragedia Opis. Skala strat przerasta ludzki umysl. Do dzis ludzie kloca sie i zabijaja o szczegoly tego, kto byl winny. Mam wlasne zdanie, ale ten spor przeslania historie samego panstwa Opis. Dlaczego niezliczone ofiary mamy definiowac przez pryzmat ich mordercy? Uwazam, ze zeby pojac koniec opowiesci, trzeba poznac jej poczatek. Zgadzasz sie?\"\r\n\r\n$HeOrShe nie czeka na odpowiedz i rozpoczyna wyklad. \"Opis bylo centrum ludnosci, sztuki i handlu. Ciezki przemysl - niekoniecznie; jego wiekszosc przeniesiono do Sindrii, a rolnictwo na Volturn. Co z oczu, to z serca. Wladcy Karty Opis coraz mniej potrzebowali wzgledow kogokolwiek poza miejscowymi sieciami klienteli. Bogactwo plynelo do centrum, gdzie skupialy sie wplywy, a obrzeza zapomniano.\"\r\n\r\n\"Czy grzech Domeny ponownie odegrano na mniejszej scenie?\" $HeOrShe unosi $hisOrHer brwi.",
+      "revised_text": "\"Ach, tragedia Opis. Skala strat przerasta ludzki umysl. Do dzis ludzie kloca sie i zabijaja o szczegoly tego, kto byl winny. Mam wlasne zdanie, ale ten spor przeslania historie samego panstwa Opis. Dlaczego niezliczone ofiary mamy definiowac przez pryzmat ich mordercy? Uwazam, ze zeby pojac koniec opowiesci, trzeba poznac jej poczatek. Zgadzasz sie?\"\r\n\r\n$HeOrShe nie czeka na odpowiedz i rozpoczyna wyklad. \"Opis bylo centrum ludnosci, sztuki i handlu. Ciezki przemysl - niekoniecznie; jego wiekszosc przeniesiono do Sindrii, a rolnictwo na Volturn. Co z oczu, to z serca. Wladcy Karty Opis coraz mniej potrzebowali wzgledow kogokolwiek poza miejscowymi sieciami klienteli. Bogactwo plynelo do centrum, gdzie skupialy sie wplywy, a obrzeza zapomniano.\"\r\n\r\n\"Czy grzech Domeny ponownie odegrano na mniejszej scenie?\" $HeOrShe unosi brwi."
+    },
+    {
+      "id": "KOLTHolyArmadaComms",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "c9c0925c3c41553fcf3fe6a037c99b57e6199b7ebd307ace21e89ab81cdad9a2",
+      "new_text_sha256": "8743335b3c55c3803c167e99894e5bb2ac6b43d040fd92a4815dea3b8555c333",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "splata $hisOrHer dlonie",
+          "splata dlonie"
+        ]
+      ],
+      "original_text": "\"Blogoslawionego dnia, kapitanie... $playerName. Oczywiscie\". $post zachowuje sie tak, jakby $heOrShe wyswiadczyl ci przysluge, pamietajac twoje imie, splata $hisOrHer dlonie i lekko kiwa glowa.\r\n\r\n\"Wykonujemy tu swieta misje ochrony Wiernych i sprowadzenia zagubionej trzody $KOLT_target pod skrzydla Kosciola Galaktycznego Odkupienia, aby ich ciala i dusze otrzymaly opieke i milosc Matki Kosciola\".\r\n\r\n\"Przekonasz sie, ze taka jest ich wola. Jest to rowniez wola Opatrznosci, aby Kosciol zatroszczyl sie o ich obroncow. My jestesmy jedynie narzedziem tego swietego zadania\".",
+      "revised_text": "\"Blogoslawionego dnia, kapitanie... $playerName. Oczywiscie\". $post zachowuje sie tak, jakby $heOrShe wyswiadczyl ci przysluge, pamietajac twoje imie, splata dlonie i lekko kiwa glowa.\r\n\r\n\"Wykonujemy tu swieta misje ochrony Wiernych i sprowadzenia zagubionej trzody $KOLT_target pod skrzydla Kosciola Galaktycznego Odkupienia, aby ich ciala i dusze otrzymaly opieke i milosc Matki Kosciola\".\r\n\r\n\"Przekonasz sie, ze taka jest ich wola. Jest to rowniez wola Opatrznosci, aby Kosciol zatroszczyl sie o ich obroncow. My jestesmy jedynie narzedziem tego swietego zadania\"."
+    },
+    {
+      "id": "LCmakeDealFreeWill",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "057636caf59d7f1c11bb174d18f96b10ef2b1685cf3b0d4947b12946870cce5e",
+      "new_text_sha256": "600438babb9cffcd8a825c5f12c01cae251dc36a7a2d7332e39777ad89c8cd8a",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci glowa $hisOrHer",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Z pewnoscia\" - odpowiada $post, marszczac brwi. \"Czy nawet prawy wedrowiec nie moze dac sie zwiesc podstepowi? Albo wlasnej upadlej naturze?\"\r\n\r\n$HeOrShe kreci glowa $hisOrHer, jakby chcial sie otrzasnac z tych sofizmatow. \"Niemniej nie zamierzam spierac sie z toba o kanon; od tego sa kuratorzy. Mnie zajmuje obowiazek Kosciola, by opiekowac sie jego trzoda. Zwlaszcza...\" $heOrShe rzuca ci niecierpliwe spojrzenie. \"...w sprawach duchowych\".",
+      "revised_text": "\"Z pewnoscia\" - odpowiada $post, marszczac brwi. \"Czy nawet prawy wedrowiec nie moze dac sie zwiesc podstepowi? Albo wlasnej upadlej naturze?\"\r\n\r\n$HeOrShe kreci glowa, jakby chcial sie otrzasnac z tych sofizmatow. \"Niemniej nie zamierzam spierac sie z toba o kanon; od tego sa kuratorzy. Mnie zajmuje obowiazek Kosciola, by opiekowac sie jego trzoda. Zwlaszcza...\" $heOrShe rzuca ci niecierpliwe spojrzenie. \"...w sprawach duchowych\"."
+    },
+    {
+      "id": "LKEmazAdminAskBornanewPL1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "470cb41dff1634641ce44097207395b0e6d6458636fa6ae2ee3a25614f769f81",
+      "new_text_sha256": "9f6fbfd05c8597883c60bae7845daef02c12a7fd8414d474afe70a3b3ab767fd",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Naprawde chcesz sie w to pakowac?\" $HeOrShe przez chwile na ciebie patrzy, po czym kreci $hisOrHer glowa, gdy nie dajesz za wygrana.\r\n\r\n\"No dobrze. Jest taki czlowiek, Nile Virens. Jakis wazniak w Sciezce. Przysiegam, ze stoi za polowa zamachow bombowych w tutejszych ukladach, ale nie moge niczego mu udowodnic. Wiesz, od strony prawnej. Jesli go tkne, luddysci podniosa bunt, a wszyscy pamietamy, co stalo sie ostatnim razem\".\r\n\r\nZauwazasz, ze $personName wyglada na naprawde wykonczona osobe. $HeOrShe przydaloby sie wiecej snu i mniej stymulantow.",
+      "revised_text": "\"Naprawde chcesz sie w to pakowac?\" $HeOrShe przez chwile na ciebie patrzy, po czym kreci glowa, gdy nie dajesz za wygrana.\r\n\r\n\"No dobrze. Jest taki czlowiek, Nile Virens. Jakis wazniak w Sciezce. Przysiegam, ze stoi za polowa zamachow bombowych w tutejszych ukladach, ale nie moge niczego mu udowodnic. Wiesz, od strony prawnej. Jesli go tkne, luddysci podniosa bunt, a wszyscy pamietamy, co stalo sie ostatnim razem\".\r\n\r\nZauwazasz, ze $personName wyglada na naprawde wykonczona osobe. $HeOrShe przydaloby sie wiecej snu i mniej stymulantow."
+    },
+    {
+      "id": "LKEmazAdminAskBugB",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "69da061034a52d408d5e8eced8ba24c7e847957971bb10babd23a6862e5656c0",
+      "new_text_sha256": "0fae8cd1f0977e31e025e6fb767e034b284cf9ef922375e56ce29c1b6ee782b7",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca oczami $hisOrHer",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "$HeOrShe przewraca oczami $hisOrHer. \"Nie? Przeciez wlasnie tym sa.\"\r\n\r\n\"W kazdym razie nie wiem, gdzie jest ten twoj luddyta, wiec nawet nie pytaj. Mam z nimi dosc klopotow, a ostatnie, czego mi trzeba, to kolejny 'incydent', ktory podburzy tlum.\"",
+      "revised_text": "$HeOrShe przewraca oczami. \"Nie? Przeciez wlasnie tym sa.\"\r\n\r\n\"W kazdym razie nie wiem, gdzie jest ten twoj luddyta, wiec nawet nie pytaj. Mam z nimi dosc klopotow, a ostatnie, czego mi trzeba, to kolejny 'incydent', ktory podburzy tlum.\""
+    },
+    {
+      "id": "LKEmazAdminAskPath1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "756c193e0c5e9ee2745c16f38abee0c02b2ae5c2ba9d75a5a5ac705c2e97c939",
+      "new_text_sha256": "904176e6ad64287bfb83ffbb02ce7d667a8469f25deaedd9ddd458983000bf22",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca $hisOrHer oczami",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "$PersonName spoglada na ciebie z niedowierzaniem, po czym smieje sie gorzko.\r\n\r\n\"Aha, czyli to ty. Swietnie\". $heOrShe przewraca $hisOrHer oczami. \"Wlasnie tego mi trzeba: samozwanczego stroza prawa. Albo najemnika?\"\r\n\r\n\"Sluchaj, tak czy inaczej mowie ci, a wlasciwie rozkazuje: nie wywoluj problemow z luddystami. Ostatnia rzecz, jakiej potrzebuje na swojej zmianie, to kolejny 'incydent', ktory da im pretekst do wiekszych klopotow\".\r\n\r\n$HeOrShe patrzy na ciebie z wielkim sceptycyzmem. \"Skonczylismy?\"",
+      "revised_text": "$PersonName spoglada na ciebie z niedowierzaniem, po czym smieje sie gorzko.\r\n\r\n\"Aha, czyli to ty. Swietnie\". $heOrShe przewraca oczami. \"Wlasnie tego mi trzeba: samozwanczego stroza prawa. Albo najemnika?\"\r\n\r\n\"Sluchaj, tak czy inaczej mowie ci, a wlasciwie rozkazuje: nie wywoluj problemow z luddystami. Ostatnia rzecz, jakiej potrzebuje na swojej zmianie, to kolejny 'incydent', ktory da im pretekst do wiekszych klopotow\".\r\n\r\n$HeOrShe patrzy na ciebie z wielkim sceptycyzmem. \"Skonczylismy?\""
+    },
+    {
+      "id": "LKEmazalotAskQMPath2b",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "0f11eaa640e85fe95d63ae8b73eb9719aa625c5f9e08fad13f121e9706020551",
+      "new_text_sha256": "343b212e0afdde9d06222f2b8f99b70eb67c2e18bbf5cbbdf46a09b9e522188a",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"No daj spokoj\". $HeOrShe kreci $hisOrHer glowa z irytacja.\r\n\r\n\"Przeciez tylko gadam. To tylko slowa. Zapytaj kogokolwiek. Przyjdzie taki podejrzany typ, skrada sie i mowi, ze ma oferte. Kupa kredytow. A ja mu na to: nie ma mowy, nie interesuje mnie, nie potrzebuje klopotow. Pol na pol, ze to agent Wladz. Albo bezpieki floty, kto wie. Tak sprawdzaja lojalnosc\".\r\n\r\n\"Gdyby Wladze Zjednoczenia Mazalot przesluchiwaly kazdego luddyste, ktory krytykuje ustroj, musialyby zamknac pol planety. Wybuchloby kolejne powstanie! Nikt tego nie chce\".",
+      "revised_text": "\"No daj spokoj\". $HeOrShe kreci glowa z irytacja.\r\n\r\n\"Przeciez tylko gadam. To tylko slowa. Zapytaj kogokolwiek. Przyjdzie taki podejrzany typ, skrada sie i mowi, ze ma oferte. Kupa kredytow. A ja mu na to: nie ma mowy, nie interesuje mnie, nie potrzebuje klopotow. Pol na pol, ze to agent Wladz. Albo bezpieki floty, kto wie. Tak sprawdzaja lojalnosc\".\r\n\r\n\"Gdyby Wladze Zjednoczenia Mazalot przesluchiwaly kazdego luddyste, ktory krytykuje ustroj, musialyby zamknac pol planety. Wybuchloby kolejne powstanie! Nikt tego nie chce\"."
+    },
+    {
+      "id": "LOCRLcontact1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "adb668e93fbc628cec2d78386d57f57ec3dcb429083fb0886f7d0e945da3e842",
+      "new_text_sha256": "2de75bee4aa3aade2aa2f9131d6e0d890e1ab781c20f9deae17af5dc87b7c1ad",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"-lo? Och, och, niech Ludd bedzie blogoslawiony! Dzieki Opatrznosci odbieracie! Jestesmy wspolnota, wspolnota wiernych osadnikow, ktorzy... zboczyli z drogi prawdziwego Kosciola Galaktycznego Odkupienia.\"\r\n\r\n$HeOrShe sklada $hisOrHer dlonie. \"Pragniemy teraz okazac skruche, powrocic i blagac swiety Kosciol o przebaczenie.\"",
+      "revised_text": "\"-lo? Och, och, niech Ludd bedzie blogoslawiony! Dzieki Opatrznosci odbieracie! Jestesmy wspolnota, wspolnota wiernych osadnikow, ktorzy... zboczyli z drogi prawdziwego Kosciola Galaktycznego Odkupienia.\"\r\n\r\n$HeOrShe sklada dlonie. \"Pragniemy teraz okazac skruche, powrocic i blagac swiety Kosciol o przebaczenie.\""
+    },
+    {
+      "id": "LOCRLoffloadToPath1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "17a0e330e1147096b4756f67738dd1bd9956ed26d659ec79bdcdbfc9b98f2088",
+      "new_text_sha256": "de74f7163103c744b7389ac53baf62ba41039af982343f93d2c0dc0f94820350",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Heretycy?\" $Post $personLastName prostuje sie, kiedy wyjasniasz sprawe, zafascynowany wyzwaniem sprowadzenia kolejnych Wiernych na prawdziwa Sciezke Ludda.\r\n\r\n\"Jakze bardzo zboczyli z drogi\", $heOrShe kreci $hisOrHer glowa, mowi $heOrShe, \"najpierw przez zepsucie i slabosc Kosciola, a pozniej przez demoniczne brednie szalenca\".\r\n\r\n\"Slusznie postapiles, $playerBrotherOrSister, sprowadzajac ich do nas. Pierwsze kroki na Sciezce beda bolesne, ale bedziemy przy nich, by ich prowadzic i dawac im duchowa sile\".",
+      "revised_text": "\"Heretycy?\" $Post $personLastName prostuje sie, kiedy wyjasniasz sprawe, zafascynowany wyzwaniem sprowadzenia kolejnych Wiernych na prawdziwa Sciezke Ludda.\r\n\r\n\"Jakze bardzo zboczyli z drogi\", $heOrShe kreci glowa, mowi $heOrShe, \"najpierw przez zepsucie i slabosc Kosciola, a pozniej przez demoniczne brednie szalenca\".\r\n\r\n\"Slusznie postapiles, $playerBrotherOrSister, sprowadzajac ich do nas. Pierwsze kroki na Sciezce beda bolesne, ale bedziemy przy nich, by ich prowadzic i dawac im duchowa sile\"."
+    },
+    {
+      "id": "LOCRLsayPatherYes",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "7075003ad7cc3d75d66ab1fe143b37788f244f46fe153e912bf4f7df979e6705",
+      "new_text_sha256": "002a0a383ebd0d4f013105600abfbfad5a356daa2ce30f464a4b0d6408ca7a73",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "splata $hisOrHer dlonie",
+          "splata dlonie"
+        ]
+      ],
+      "original_text": "Z ponura mina $heOrShe splata $hisOrHer dlonie i pochyla glowe w gescie poddania.\r\n\r\n\"Wszystko, byle uwolnic nas od tego falszywego raju.\"",
+      "revised_text": "Z ponura mina $heOrShe splata dlonie i pochyla glowe w gescie poddania.\r\n\r\n\"Wszystko, byle uwolnic nas od tego falszywego raju.\""
+    },
+    {
+      "id": "LOCRMcontact1again",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "445655be68c0323c08eaee14b0cf1e31ce2f60805b9a392a0f424d1bad65d1a1",
+      "new_text_sha256": "5d3ab80e558fabe9dc7f28237fbe0d007c8e42ab17677f2907de334237765529",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "krzyzuje $hisOrHer ramiona",
+          "krzyzuje ramiona"
+        ]
+      ],
+      "original_text": "\"Kapitanie!\" Gorniczy $post wyglada na pelnego nadziei, ale i zatroskanego. \"Pytam raz jeszcze: pomozesz nam wrocic do centrum? Nasze systemy podtrzymywania zycia wystarcza na wiele cykli, lecz tutaj jest potwornie nudno.\" $HeOrShe krzyzuje $hisOrHer ramiona. \"I nikt nam nie placi.\"",
+      "revised_text": "\"Kapitanie!\" Gorniczy $post wyglada na pelnego nadziei, ale i zatroskanego. \"Pytam raz jeszcze: pomozesz nam wrocic do centrum? Nasze systemy podtrzymywania zycia wystarcza na wiele cykli, lecz tutaj jest potwornie nudno.\" $HeOrShe krzyzuje ramiona. \"I nikt nam nie placi.\""
+    },
+    {
+      "id": "LOCRMcontact1againIonStorm",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "799693895960dff2df3af120ed300358fdea76d4b5df9e3a8c15cbfc05d4e8e3",
+      "new_text_sha256": "528dae5ff7ec241634208efaa9f422e5a0794d160316ddb23b008c4c2c1cf291",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "krzyzuje $hisOrHer ramiona",
+          "krzyzuje ramiona"
+        ]
+      ],
+      "original_text": "\"Kapitanie\", gorniczy $post wyglada na niezdecydowanego. \"Wrociles. Mam nadzieje, ze... burza jonowa... nie okazala sie zbyt dokuczliwa? Pytam ponownie: pomozesz nam? Nasze systemy podtrzymywania zycia wystarcza na wiele cykli, lecz tutaj jest potwornie nudno.\" $HeOrShe krzyzuje $hisOrHer ramiona. \"I nikt nam nie placi.\"",
+      "revised_text": "\"Kapitanie\", gorniczy $post wyglada na niezdecydowanego. \"Wrociles. Mam nadzieje, ze... burza jonowa... nie okazala sie zbyt dokuczliwa? Pytam ponownie: pomozesz nam? Nasze systemy podtrzymywania zycia wystarcza na wiele cykli, lecz tutaj jest potwornie nudno.\" $HeOrShe krzyzuje ramiona. \"I nikt nam nie placi.\""
+    },
+    {
+      "id": "LOCRPofferToPrison",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "5fe765cc1432281427ec9b207c440e8b48d13198942e34601307b45fdb7b4666",
+      "new_text_sha256": "5e6f8cb40c0e0990cf4021de99b9ba9f82faa21a31321d2a0da096d42d8fe7ef",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "Pirat wybucha smiechem, lecz nagle milknie.\r\n\r\n\"Serio?\" $HeOrShe kreci $hisOrHer glowa. \"Nie, nie. My jestesmy wolnymi duchami, rozumiesz. W wiezieniu nasza, eee, ludzka istota nie mialaby szans, zeby... eee... rozkwitnac\".\r\n\r\n\"Lepiej utknac na skale niz W skale, z Hegemoncem zagladajacym ci w kazda prywatna sprawe, nie? Ja tak uwazam\".",
+      "revised_text": "Pirat wybucha smiechem, lecz nagle milknie.\r\n\r\n\"Serio?\" $HeOrShe kreci glowa. \"Nie, nie. My jestesmy wolnymi duchami, rozumiesz. W wiezieniu nasza, eee, ludzka istota nie mialaby szans, zeby... eee... rozkwitnac\".\r\n\r\n\"Lepiej utknac na skale niz W skale, z Hegemoncem zagladajacym ci w kazda prywatna sprawe, nie? Ja tak uwazam\"."
+    },
+    {
+      "id": "PLArmadaThisIsPiracy2c",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "a95c7141cc361afe9ba969dd616095d370330a1f8b906b052d965fe0d26d07d3",
+      "new_text_sha256": "fc93c53b585e2db04f12cf36024fa4a122ff66b597edc941c1eb5bf5ee74a0ef",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca $hisOrHer oczami",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "$HeOrShe przewraca $hisOrHer oczami. \"Jakze ci milo\" - cedzi $heOrShe.\r\n\r\n\"Wyjasnie ci, jak dziala sektor, kapitanie. A pozostaniesz tylko kapitanem, jesli tego nie pojmiesz. Wolnosc i prawa istnieja w ramach cywilizacji; sa konstruktem spolecznym. Mozesz dolaczyc do naszego spoleczenstwa albo poniesc konsekwencje barbarzynstwa.\"",
+      "revised_text": "$HeOrShe przewraca oczami. \"Jakze ci milo\" - cedzi $heOrShe.\r\n\r\n\"Wyjasnie ci, jak dziala sektor, kapitanie. A pozostaniesz tylko kapitanem, jesli tego nie pojmiesz. Wolnosc i prawa istnieja w ramach cywilizacji; sa konstruktem spolecznym. Mozesz dolaczyc do naszego spoleczenstwa albo poniesc konsekwencje barbarzynstwa.\""
+    },
+    {
+      "id": "SDMakeDealSelCom",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "7f50d5f01b2cdd748cc53125e70198d00ca978f3eab4aaa6eec608600207a8e6",
+      "new_text_sha256": "d11795a65127c936407b77675c4a8efc2326d42490a40407f9fa1015debf4242",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Oczywiscie, oczywiscie\" - $post przybiera sztuczny usmiech, wpisujac cos na konsoli. \"Znam twoja sytuacje, zobaczmy... tak, bardzo niefortunny zbieg okolicznosci.\"\r\n\r\n$HisOrHer spojrzenie odrywa sie od $hisOrHer konsoli. $heOrShe kreci $hisOrHer glowa, kiedy $heOrShe mowi. \"Naprawde narobiles sobie klopotow, kapitanie. Trzeba bylo wiedziec, ze nie staje sie na drodze wizji Najwyzszego Egzekutora.\"\r\n\r\nKolejne stukniecia w klawisze.\r\n\r\n\"Dziwi mnie, ze Naczelny Wysoki Inspektor Generalny jeszcze cie z tego powodu nie zatrzymal. Chociaz slyszalem, ze zajmowal sie ostatnio... niewazne. Sprobujmy uporzadkowac twoja sprawe.\"",
+      "revised_text": "\"Oczywiscie, oczywiscie\" - $post przybiera sztuczny usmiech, wpisujac cos na konsoli. \"Znam twoja sytuacje, zobaczmy... tak, bardzo niefortunny zbieg okolicznosci.\"\r\n\r\n$HisOrHer spojrzenie odrywa sie od $hisOrHer konsoli. $heOrShe kreci glowa, kiedy $heOrShe mowi. \"Naprawde narobiles sobie klopotow, kapitanie. Trzeba bylo wiedziec, ze nie staje sie na drodze wizji Najwyzszego Egzekutora.\"\r\n\r\nKolejne stukniecia w klawisze.\r\n\r\n\"Dziwi mnie, ze Naczelny Wysoki Inspektor Generalny jeszcze cie z tego powodu nie zatrzymal. Chociaz slyszalem, ze zajmowal sie ostatnio... niewazne. Sprobujmy uporzadkowac twoja sprawe.\""
+    },
+    {
+      "id": "TTMACommandGreeting1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "f1d3fb03d7581f8ad2cdf1468423a790b34af69987fa46e1256c82060933b198",
+      "new_text_sha256": "7fc54c3e860a98f9169f3c2564411d36f5f4d0b734e1be3531aaeff1a0986345",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "unosi $hisOrHer brwi",
+          "unosi brwi"
+        ]
+      ],
+      "original_text": "\"Potwierdza Flota Dowodztwa Operacyjnego Tactistar\". $post spoglada na wyswietlacz. \"$ShipOrFleet kapitana $playerName\".\r\n\r\n$HeOrShe unosi $hisOrHer brwi. \"Dla twojej informacji: twoj identyfikator figuruje w naszym kontrakcie operacyjnym. $heOrShe nie ma zwyczaju omawiac warunkow realizacji kontraktow z, eee, celami operacji. Ale...\"\r\n\r\n$post Tactistar urywa, zanim zdazy zlozyc jakas propozycje. Przypuszczalnie byloby to sprzeczne z warunkami $hisOrHer kontraktu. $heOrShe wyglada jednak na kogos, kto oczekuje oferty od ciebie.",
+      "revised_text": "\"Potwierdza Flota Dowodztwa Operacyjnego Tactistar\". $post spoglada na wyswietlacz. \"$ShipOrFleet kapitana $playerName\".\r\n\r\n$HeOrShe unosi brwi. \"Dla twojej informacji: twoj identyfikator figuruje w naszym kontrakcie operacyjnym. $heOrShe nie ma zwyczaju omawiac warunkow realizacji kontraktow z, eee, celami operacji. Ale...\"\r\n\r\n$post Tactistar urywa, zanim zdazy zlozyc jakas propozycje. Przypuszczalnie byloby to sprzeczne z warunkami $hisOrHer kontraktu. $heOrShe wyglada jednak na kogos, kto oczekuje oferty od ciebie."
+    },
+    {
+      "id": "TTMACommandGreeting2",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "6b45356a649101de8f242a43e576c5556f6f27fbfa17473ab4297afe59d9d1d6",
+      "new_text_sha256": "2c4b44d5d35f4b5c7a688e85342af41be7cba5c35f4d1bf6e619ce3b92781dd1",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "unosi $hisOrHer brwi",
+          "unosi brwi"
+        ]
+      ],
+      "original_text": "\"Potwierdza Flota Dowodztwa Operacyjnego Tactistar\". $post spoglada na wyswietlacz. \"$ShipOrFleet kapitana $playerName\".\r\n\r\n$HeOrShe unosi $hisOrHer brwi. \"Twoj profil jest objety naszym kontraktem. Nie wolno mi omawiac szczegolow z, eee, celami operacji. Uprzedzam jednak, ze Tactistar bedzie prowadzic wrogie dzialania przeciw tobie i twojemu $shipOrFleet przez caly czas trwania naszego prywatnego zobowiazania operacyjnego\".\r\n\r\n$post Tactistar zachowuje zimny profesjonalizm. Jest chlodny jak proznia, a dla $himOrHer jestes tylko celem projektu.",
+      "revised_text": "\"Potwierdza Flota Dowodztwa Operacyjnego Tactistar\". $post spoglada na wyswietlacz. \"$ShipOrFleet kapitana $playerName\".\r\n\r\n$HeOrShe unosi brwi. \"Twoj profil jest objety naszym kontraktem. Nie wolno mi omawiac szczegolow z, eee, celami operacji. Uprzedzam jednak, ze Tactistar bedzie prowadzic wrogie dzialania przeciw tobie i twojemu $shipOrFleet przez caly czas trwania naszego prywatnego zobowiazania operacyjnego\".\r\n\r\n$post Tactistar zachowuje zimny profesjonalizm. Jest chlodny jak proznia, a dla $himOrHer jestes tylko celem projektu."
+    },
+    {
+      "id": "academyFleetConvEnki",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "0df36c11f43cf9b0a546037af63c03d0e8d30be3085e79175a924e5b443b753b",
+      "new_text_sha256": "ca0484360ff8134515af6c77fa777b6200478f7fe8c445f4e9892a5e9ed813cd",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "zamyka $hisOrHer oczy",
+          "zamyka oczy"
+        ]
+      ],
+      "original_text": "\"Ach...\" $hisOrHer wzrok bladzi, ale nie znajduje sposobu, by uniknac niewygodnego tematu.\r\n\r\n\"To bylo podczas Drugiej Wojny z SI. Dwanascie, trzynascie cykli temu? Flotylla badawcza Akademii Galatia natknela sie na tajny projekt Hegemonii w ukladzie Tia-Taxet. Paranoja wojenna, napastnicy korzystajacy z fazowania, ogolne zalamanie lacznosci hiperfalowej...\" $heOrShe zamyka $hisOrHer oczy. \"Hegemonia zaatakowala. Zaden okret Akademii nie przetrwal. Straszliwa strata. Ocaleli jednak ludzie. Rozmawialem nawet z jedna z takich osob na Syrinx. Trafili do wieziennego habitatu na reszte wojny.\"\r\n\r\n\"Niewiele sie o tym mowi, przynajmniej w Hegemonii. Ale nawet Akademia nie zabiegala o odszkodowania tak stanowczo, jak mogla...\" $HeOrShe urywa i podnosi wzrok. \"W kazdym razie to juz przeszlosc.\"",
+      "revised_text": "\"Ach...\" $hisOrHer wzrok bladzi, ale nie znajduje sposobu, by uniknac niewygodnego tematu.\r\n\r\n\"To bylo podczas Drugiej Wojny z SI. Dwanascie, trzynascie cykli temu? Flotylla badawcza Akademii Galatia natknela sie na tajny projekt Hegemonii w ukladzie Tia-Taxet. Paranoja wojenna, napastnicy korzystajacy z fazowania, ogolne zalamanie lacznosci hiperfalowej...\" $heOrShe zamyka oczy. \"Hegemonia zaatakowala. Zaden okret Akademii nie przetrwal. Straszliwa strata. Ocaleli jednak ludzie. Rozmawialem nawet z jedna z takich osob na Syrinx. Trafili do wieziennego habitatu na reszte wojny.\"\r\n\r\n\"Niewiele sie o tym mowi, przynajmniej w Hegemonii. Ale nawet Akademia nie zabiegala o odszkodowania tak stanowczo, jak mogla...\" $HeOrShe urywa i podnosi wzrok. \"W kazdym razie to juz przeszlosc.\""
+    },
+    {
+      "id": "contactPrintAcceptTextFaithful",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "1425e9b943e70cc0b33a39fb07103f4318664c38c580bd682ed00d41878ee4aa",
+      "new_text_sha256": "c0966437ea2f3e363a7b371f08cfde1b8dc396bb2fb809cc83d4a98a7d4c922e",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "$HeOrShe usmiecha sie. \"Blogoslawienstwo Ludda z toba, kapitanie\".\r\nOR\r\n\"Niech ta umowa bedzie blogoslawiona\" - mowi cicho $heOrShe.\r\nOR\r\n$HeOrShe usmiecha sie i sklada $hisOrHer dlonie. \"Niech nasza praca wyda slodki owoc\".\r\nOR\r\n\"Niech nasze dziela przyniosa owoc zgody\" - mowi $heOrShe, na chwile pochylajac $hisOrHer glowe.\r\nOR\r\n\"Ludd blogoslawi\" - mowi $heOrShe.\r\nOR\r\n$HeOrShe kiwa glowa. \"Blogoslawienstwa\".",
+      "revised_text": "$HeOrShe usmiecha sie. \"Blogoslawienstwo Ludda z toba, kapitanie\".\r\nOR\r\n\"Niech ta umowa bedzie blogoslawiona\" - mowi cicho $heOrShe.\r\nOR\r\n$HeOrShe usmiecha sie i sklada dlonie. \"Niech nasza praca wyda slodki owoc\".\r\nOR\r\n\"Niech nasze dziela przyniosa owoc zgody\" - mowi $heOrShe, na chwile pochylajac $hisOrHer glowe.\r\nOR\r\n\"Ludd blogoslawi\" - mowi $heOrShe.\r\nOR\r\n$HeOrShe kiwa glowa. \"Blogoslawienstwa\"."
+    },
+    {
+      "id": "convDefaultGreetingPather",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "e902c3e1edfc537418514c7b3fd814bdcf0e1e7ba09dcaa768ddb147a302584b",
+      "new_text_sha256": "2d4823fd592897fb242e74a14534c1993a464f2af6ac1ea6765ce210729623ca",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "Po krotkim oczekiwaniu twoja prosba o polaczenie zostaje przyjeta.\r\n\r\n\"Blogoslawiony ten dzien, bo przybliza nas do Armagedonu.\"\r\nOR\r\nObraz lacznosci stabilizuje sie, ukazujac $personName, ktory sklada $hisOrHer dlonie na powitanie.\r\n\r\n\"Blogoslawiona niech bedzie nasza Sciezka, a nienawisc do grzechu niech bedzie sprawiedliwa\", mowi $heOrShe, po czym podnosi wzrok.\r\nOR\r\nPolaczenie na przemian pojawia sie, zanika i rwie, nim wreszcie udaje sie je ustabilizowac przez przestarzaly sprzet, ktorego uzywa $post.\r\n\r\n$HeOrShe podnosi wzrok. \"Witam cie mlotem i ognistym mieczem.\"\r\nOR\r\nPo krotkim oczekiwaniu twoja prosba o polaczenie zostaje przyjeta, mimo licznych ostrzezen o niezgodnosci protokolow.\r\n\r\n\"Chwala czasom ostatecznym, z mlotem w dloni!\" - wita cie $post.",
+      "revised_text": "Po krotkim oczekiwaniu twoja prosba o polaczenie zostaje przyjeta.\r\n\r\n\"Blogoslawiony ten dzien, bo przybliza nas do Armagedonu.\"\r\nOR\r\nObraz lacznosci stabilizuje sie, ukazujac $personName, ktory sklada dlonie na powitanie.\r\n\r\n\"Blogoslawiona niech bedzie nasza Sciezka, a nienawisc do grzechu niech bedzie sprawiedliwa\", mowi $heOrShe, po czym podnosi wzrok.\r\nOR\r\nPolaczenie na przemian pojawia sie, zanika i rwie, nim wreszcie udaje sie je ustabilizowac przez przestarzaly sprzet, ktorego uzywa $post.\r\n\r\n$HeOrShe podnosi wzrok. \"Witam cie mlotem i ognistym mieczem.\"\r\nOR\r\nPo krotkim oczekiwaniu twoja prosba o polaczenie zostaje przyjeta, mimo licznych ostrzezen o niezgodnosci protokolow.\r\n\r\n\"Chwala czasom ostatecznym, z mlotem w dloni!\" - wita cie $post."
+    },
+    {
+      "id": "cpcOfferTextBar2",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "46a8316a249845e243eae75de06e056418a0f4502084d4dd0a37feb10ce6c069",
+      "new_text_sha256": "1a10cf7d00f927d325fd5b2a6e51bc06e77e5a9b6f74a76929eddbfceb72933e",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca $hisOrHer oczami",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "Drugi gosc kreci glowa i wstaje, gdy podchodzisz, probujac po cywilnemu zasalutowac na odchodnym.\r\n\r\n$personRank przewraca $hisOrHer oczami i proponuje ci miejsce przy stole. \"Interesuja cie moce produkcyjne, kapitanie\" - mowi $heOrShe bez powitania.\r\n\r\n\"Uwazam za ponizajace zachwalanie towaru, wiec podam tylko warunki. Produkcja wojskowa w nanokuzni o wartosci do $cpc_maxCapacity kredytow, za $cpc_costPercent kosztu bazowego. Dostawa gotowych wyrobow w ciagu $cpc_days dni. Mozesz wykupic sloty i dostarczyc wlasne plany albo zlecic zamowienie z mojego upowaznienia, a wtedy wykorzystamy moje. Jedno albo drugie.\"",
+      "revised_text": "Drugi gosc kreci glowa i wstaje, gdy podchodzisz, probujac po cywilnemu zasalutowac na odchodnym.\r\n\r\n$personRank przewraca oczami i proponuje ci miejsce przy stole. \"Interesuja cie moce produkcyjne, kapitanie\" - mowi $heOrShe bez powitania.\r\n\r\n\"Uwazam za ponizajace zachwalanie towaru, wiec podam tylko warunki. Produkcja wojskowa w nanokuzni o wartosci do $cpc_maxCapacity kredytow, za $cpc_costPercent kosztu bazowego. Dostawa gotowych wyrobow w ciagu $cpc_days dni. Mozesz wykupic sloty i dostarczyc wlasne plany albo zlecic zamowienie z mojego upowaznienia, a wtedy wykorzystamy moje. Jedno albo drugie.\""
+    },
+    {
+      "id": "cpcOfferTextBarCoilGun3c",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "39898965e66894badd94ada80b2346f30380b0aaffe29d858cd0519a659798c7",
+      "new_text_sha256": "f55833a1087cf714f694e4deaeb52cb29de863e2c5dcd033b607df49b526261d",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "$HeOrShe kreci $hisOrHer glowa z powodu niewiedzy tego swiata, a potem wyciaga i odblokowuje $hisOrHer terminal. Wyglada na nieuszkodzony.",
+      "revised_text": "$HeOrShe kreci glowa z powodu niewiedzy tego swiata, a potem wyciaga i odblokowuje $hisOrHer terminal. Wyglada na nieuszkodzony."
+    },
+    {
+      "id": "extrMissionReturn3",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "be464123a5d5b31ee572007f856606593907a52dac7c078589f84ced6cf9e593",
+      "new_text_sha256": "068b8d0acf6006decdb8fb237ace495bbf22dc4e874155fc80cab8bf4be367d2",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci glowa $hisOrHer",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Dobra robota, kapitanie\" - mowi $rank z $faction. \"Przyznam, ze nie bylem do konca przekonany, czy naszego agenta uda sie bezpiecznie ewakuowac. Ludzie Sciezki... z nimi nigdy nie ma uczciwej bitwy\". $HeOrShe kreci glowa $hisOrHer.\r\n\r\n\"Wywiad twierdzi, ze agent dostarczy informacje pozwalajace rozbic wiele siatek infiltratorow Sciezki. Oczywiscie bez szczegolow, znasz te sprawy. Nie musze ci chyba mowic, ile istnien ocaliles\".",
+      "revised_text": "\"Dobra robota, kapitanie\" - mowi $rank z $faction. \"Przyznam, ze nie bylem do konca przekonany, czy naszego agenta uda sie bezpiecznie ewakuowac. Ludzie Sciezki... z nimi nigdy nie ma uczciwej bitwy\". $HeOrShe kreci glowa.\r\n\r\n\"Wywiad twierdzi, ze agent dostarczy informacje pozwalajace rozbic wiele siatek infiltratorow Sciezki. Oczywiscie bez szczegolow, znasz te sprawy. Nie musze ci chyba mowic, ile istnien ocaliles\"."
+    },
+    {
+      "id": "fwt_acceptMercSelNoPay",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "b7e9662101d40c26721b9549c99c3069ad41ae59e106570b79e8c1b254fd6118",
+      "new_text_sha256": "ee7cdb4e11fe199775d1312afb52b6b84b3fc75f8463868eae9af5a8f4e1dca6",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "Najemnik $personRank wydaje sie nieco zaskoczony, ze przyjmujesz $hisOrHer warunki.\r\n\r\n\"Mila niespodzianka, kapitanie. Dzis wszystkim bardzo ulatwiles zycie. Gdyby tylko kazdy byl tak chetny do wspolpracy...\" $heOrShe zastanawia sie przez chwile nad takim swiatem, po czym kreci $hisOrHer glowa.\r\n\r\n\"Dziekuje i zegnam\".\r\n\r\nPolaczenie urywa sie. Rozwazasz nastepny ruch.",
+      "revised_text": "Najemnik $personRank wydaje sie nieco zaskoczony, ze przyjmujesz $hisOrHer warunki.\r\n\r\n\"Mila niespodzianka, kapitanie. Dzis wszystkim bardzo ulatwiles zycie. Gdyby tylko kazdy byl tak chetny do wspolpracy...\" $heOrShe zastanawia sie przez chwile nad takim swiatem, po czym kreci glowa.\r\n\r\n\"Dziekuje i zegnam\".\r\n\r\nPolaczenie urywa sie. Rozwazasz nastepny ruch."
+    },
+    {
+      "id": "gaATGhegFleetCom1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "6f594ee76dc1a57941945f95977cb0a3c9f738bf6abc4dab82c2906cfae577bd",
+      "new_text_sha256": "0a2fe17797bd49122d93a96f3c0c801ca3a47726a9b3d40c8698bd93512af92f",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Prosze przeslac kody patentu\", mowi $heOrShe, nieco lagodzac wladczy ton. \"Kapitanie\".\r\n\r\nPrzesylasz kody, ktore zostaja potwierdzone.\r\n\r\nZachowanie $rank Hegemonii zmienia sie radykalnie.\r\n\r\n\"Przepraszam za ostry ton, kapitanie\", mowi $heOrShe. \"Dowodztwo strasznie mnie cisnie w tej sprawie. Wszystko jest scisle tajne, tylko dla wtajemniczonych jajoglowych z ministerstwa technologii\". $HeOrShe kreci $hisOrHer glowa, wyraznie sugerujac, ze ci wscibscy naukowcy w ogole nie doceniaja hartu ducha i elastycznosci, jakiej potrzebuja prawdziwi oficerowie wojskowi.",
+      "revised_text": "\"Prosze przeslac kody patentu\", mowi $heOrShe, nieco lagodzac wladczy ton. \"Kapitanie\".\r\n\r\nPrzesylasz kody, ktore zostaja potwierdzone.\r\n\r\nZachowanie $rank Hegemonii zmienia sie radykalnie.\r\n\r\n\"Przepraszam za ostry ton, kapitanie\", mowi $heOrShe. \"Dowodztwo strasznie mnie cisnie w tej sprawie. Wszystko jest scisle tajne, tylko dla wtajemniczonych jajoglowych z ministerstwa technologii\". $HeOrShe kreci glowa, wyraznie sugerujac, ze ci wscibscy naukowcy w ogole nie doceniaja hartu ducha i elastycznosci, jakiej potrzebuja prawdziwi oficerowie wojskowi."
+    },
+    {
+      "id": "gaATGscavScanDialog1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "2cdae4fbefe29037e91a3ba1aea4b23b62ac50fa1d0536bf1d2f96e46862e738",
+      "new_text_sha256": "07725d82aefed2c261ece6301d1b80fb0912cac78d85951723bdb9bdf532d9a7",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "oblizuje $hisOrHer wargi",
+          "oblizuje wargi"
+        ]
+      ],
+      "original_text": "\"Szkoda, szkoda\" - mowi $heOrShe. Po chwili niezrecznej ciszy $heOrShe oblizuje $hisOrHer wargi i dodaje: \"No wiec... czy moge cos dla ciebie zrobic, kapitanie?\"",
+      "revised_text": "\"Szkoda, szkoda\" - mowi $heOrShe. Po chwili niezrecznej ciszy $heOrShe oblizuje wargi i dodaje: \"No wiec... czy moge cos dla ciebie zrobic, kapitanie?\""
+    },
+    {
+      "id": "gaATGttScanFleet1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "16b0e61f02c652f9da02f303dd18173713fe3157fee2341185a373efb37b4360",
+      "new_text_sha256": "c42ecb8857390e5f3b97765ee255a86cdb08b7d9005889a7108caea8bae52112",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "krzyzuje rece $hisOrHer",
+          "krzyzuje rece"
+        ]
+      ],
+      "original_text": "$personLastName spoglada na ciebie z uprzejmie skrywanym zaskoczeniem. \"Przykro mi\" - mowi $heOrShe bez cienia skruchy - \"ale musimy odrzucic prosbe. Wykonujemy zadania Tri-Tachyonu i prosze, abys zamiast tego odsunal swoja flote od Bramy.\"\r\n\r\n$HeOrShe krzyzuje rece $hisOrHer i czeka na odpowiedz.",
+      "revised_text": "$personLastName spoglada na ciebie z uprzejmie skrywanym zaskoczeniem. \"Przykro mi\" - mowi $heOrShe bez cienia skruchy - \"ale musimy odrzucic prosbe. Wykonujemy zadania Tri-Tachyonu i prosze, abys zamiast tego odsunal swoja flote od Bramy.\"\r\n\r\n$HeOrShe krzyzuje rece i czeka na odpowiedz."
+    },
+    {
+      "id": "gaDAMissionReturn",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "23a95bd0b40869ddc8f80b381e3ace83e44b8fd83fb6b33a3ade32f66b8947fc",
+      "new_text_sha256": "27bc0573124a23b21d5236bc175c8475b40b3a2b77d6c03bb32ba5ef25efad81",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca $hisOrHer oczami",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "\"Och, znalazles to cos, czym tak martwil sie Wydzial $gaDA_department, hm... '$gaDA_widget', oczywiscie.\"\r\n\r\n$HeOrShe przewraca $hisOrHer oczami. \"Nie uwierzysz, jak bardzo byli tym upierdliwi. To wspaniale, od razu zlece przelew twojego wynagrodzenia.\"\r\nOR\r\nAkademik $personLastName spoglada na dwa datapady, ktore trzyma, po jednym w kazdej rece.\r\n\r\n\"Kapitanie, nie masz pojecia, jak bardzo $gaDA_department martwil sie o to... hm.\" Zastanawia sie chwile. \"'$gaDA_widget', wlasnie! Beda zachwyceni, kiedy powiem im, ze to znalazles!\"\r\n\r\n\"Najpierw jednak powiadomie dzial finansowy, zeby wyplacil ci naleznosc.\"",
+      "revised_text": "\"Och, znalazles to cos, czym tak martwil sie Wydzial $gaDA_department, hm... '$gaDA_widget', oczywiscie.\"\r\n\r\n$HeOrShe przewraca oczami. \"Nie uwierzysz, jak bardzo byli tym upierdliwi. To wspaniale, od razu zlece przelew twojego wynagrodzenia.\"\r\nOR\r\nAkademik $personLastName spoglada na dwa datapady, ktore trzyma, po jednym w kazdej rece.\r\n\r\n\"Kapitanie, nie masz pojecia, jak bardzo $gaDA_department martwil sie o to... hm.\" Zastanawia sie chwile. \"'$gaDA_widget', wlasnie! Beda zachwyceni, kiedy powiem im, ze to znalazles!\"\r\n\r\n\"Najpierw jednak powiadomie dzial finansowy, zeby wyplacil ci naleznosc.\""
+    },
+    {
+      "id": "gaDAScavThreatenScavSame",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "983b1f5bef80ae28b9f160c2a9fe7adfc4fbb335f1130742a0d53367f4838182",
+      "new_text_sha256": "eb0b18c0adcf31d3eda47f5737b9c2287291517c6329dce42ad2e988276dc664",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "krzyzuje $hisOrHer ramiona",
+          "krzyzuje ramiona"
+        ]
+      ],
+      "original_text": "Kapitan zbieraczy zlomu krzyzuje $hisOrHer ramiona i ledwie zauwazalnie kiwa glowa komus poza kadrem. \"Rozumiem\", mowi $heOrShe. \"Wiec tak bedziemy sie bawic. Nie marnujmy czasu. Czas to pieniadz, a walka to znakomity sposob, zeby kazdy stracil jedno i drugie\".\r\n\r\n\"Mozesz zaplacic mi $gaDA_scavPaymentHigh kredytow za moja prace, a wtedy oddam ci to 'cos'. Albo zaatakuj moja flote i strac duzo wiecej pieniedzy niz ta kwota. Moje prognozy taktyczne nie daja twojemu $shipOrFleet duzych szans zwyciestwa\".\r\n\r\n\"No wiec jak bedzie?\"",
+      "revised_text": "Kapitan zbieraczy zlomu krzyzuje ramiona i ledwie zauwazalnie kiwa glowa komus poza kadrem. \"Rozumiem\", mowi $heOrShe. \"Wiec tak bedziemy sie bawic. Nie marnujmy czasu. Czas to pieniadz, a walka to znakomity sposob, zeby kazdy stracil jedno i drugie\".\r\n\r\n\"Mozesz zaplacic mi $gaDA_scavPaymentHigh kredytow za moja prace, a wtedy oddam ci to 'cos'. Albo zaatakuj moja flote i strac duzo wiecej pieniedzy niz ta kwota. Moje prognozy taktyczne nie daja twojemu $shipOrFleet duzych szans zwyciestwa\".\r\n\r\n\"No wiec jak bedzie?\""
+    },
+    {
+      "id": "gaDAScavThreatenScavStronger",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "983b1f5bef80ae28b9f160c2a9fe7adfc4fbb335f1130742a0d53367f4838182",
+      "new_text_sha256": "eb0b18c0adcf31d3eda47f5737b9c2287291517c6329dce42ad2e988276dc664",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "krzyzuje $hisOrHer ramiona",
+          "krzyzuje ramiona"
+        ]
+      ],
+      "original_text": "Kapitan zbieraczy zlomu krzyzuje $hisOrHer ramiona i ledwie zauwazalnie kiwa glowa komus poza kadrem. \"Rozumiem\", mowi $heOrShe. \"Wiec tak bedziemy sie bawic. Nie marnujmy czasu. Czas to pieniadz, a walka to znakomity sposob, zeby kazdy stracil jedno i drugie\".\r\n\r\n\"Mozesz zaplacic mi $gaDA_scavPaymentHigh kredytow za moja prace, a wtedy oddam ci to 'cos'. Albo zaatakuj moja flote i strac duzo wiecej pieniedzy niz ta kwota. Moje prognozy taktyczne nie daja twojemu $shipOrFleet duzych szans zwyciestwa\".\r\n\r\n\"No wiec jak bedzie?\"",
+      "revised_text": "Kapitan zbieraczy zlomu krzyzuje ramiona i ledwie zauwazalnie kiwa glowa komus poza kadrem. \"Rozumiem\", mowi $heOrShe. \"Wiec tak bedziemy sie bawic. Nie marnujmy czasu. Czas to pieniadz, a walka to znakomity sposob, zeby kazdy stracil jedno i drugie\".\r\n\r\n\"Mozesz zaplacic mi $gaDA_scavPaymentHigh kredytow za moja prace, a wtedy oddam ci to 'cos'. Albo zaatakuj moja flote i strac duzo wiecej pieniedzy niz ta kwota. Moje prognozy taktyczne nie daja twojemu $shipOrFleet duzych szans zwyciestwa\".\r\n\r\n\"No wiec jak bedzie?\""
+    },
+    {
+      "id": "gaDuringTutorialMoreInfo1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "a836f889c9b70cdaa69977fa2d4e7550727f269ed2e0a3becb203dc5f2f7786a",
+      "new_text_sha256": "7e40f7cf9ced4a8c2e5d8303439e453eb529002c60cb66e95c4533b8811ec3d1",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "zaciska $hisOrHer szczeke",
+          "zaciska szczeke"
+        ]
+      ],
+      "original_text": "$HeOrShe zastanawia sie, czy odpowiedziec na twoje pytanie.\r\n\r\n\"W zasadzie jako pomocnik nalezysz do lancucha dowodzenia. Dobrze. Aresztowalismy rektora Akademii pod cala lista zarzutow: zagrazanie infrastrukturze kosmicznej, zaniedbanie procedur zapewnienia warunkow do zycia, powazny spisek zwiazany z manipulacja niedozwolonymi technologiami. I tak dalej\".\r\n\r\n\"I na Stara Ziemie\" - dostrzegasz, ze zaciska $hisOrHer szczeke - \"zasluzyl sobie na to\".",
+      "revised_text": "$HeOrShe zastanawia sie, czy odpowiedziec na twoje pytanie.\r\n\r\n\"W zasadzie jako pomocnik nalezysz do lancucha dowodzenia. Dobrze. Aresztowalismy rektora Akademii pod cala lista zarzutow: zagrazanie infrastrukturze kosmicznej, zaniedbanie procedur zapewnienia warunkow do zycia, powazny spisek zwiazany z manipulacja niedozwolonymi technologiami. I tak dalej\".\r\n\r\n\"I na Stara Ziemie\" - dostrzegasz, ze zaciska szczeke - \"zasluzyl sobie na to\"."
+    },
+    {
+      "id": "gaFCArchonPLtellIntel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "c80b906566716876e01e098da5ff54a66ea0e1276faef914c4c93556b91b60c0",
+      "new_text_sha256": "83d6daee7d0505b6ac4162465ffd782c0501303a99b68638360b73ae74a44df7",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "zaciska $hisOrHer szczeke",
+          "zaciska szczeke"
+        ]
+      ],
+      "original_text": "Wyjasniasz archontowi $personLastName, ze masz pelna dokumentacje struktury organizacyjnej, budzetu i harmonogramu wacht operacji wywiadu Floty Ligi na Laicaille. Znajduje sie w niej nawet osobna pozycja na lokal konspiracyjny, a jej daty podejrzanie dobrze pasuja do przerwania poszukiwan Scylli Coureuse przez wywiad Floty.\r\n\r\nPrzesylasz zdobyte dokumenty, aby podkreslic, ze wszystkie te informacje o niechlujnej operacji uzyskales, rzucajac zaledwie kilka kredytow miejscowym kontaktom. Napomykasz, co z tymi danymi moglaby zrobic komorka Sciezki Ludda. Liga Perseanska najwyrazniej nie traktuje bezpieczenstwa Habitatu Laicaille powaznie.\r\n\r\nArchont zaciska $hisOrHer szczeke. \"Zapewniano mnie...\"",
+      "revised_text": "Wyjasniasz archontowi $personLastName, ze masz pelna dokumentacje struktury organizacyjnej, budzetu i harmonogramu wacht operacji wywiadu Floty Ligi na Laicaille. Znajduje sie w niej nawet osobna pozycja na lokal konspiracyjny, a jej daty podejrzanie dobrze pasuja do przerwania poszukiwan Scylli Coureuse przez wywiad Floty.\r\n\r\nPrzesylasz zdobyte dokumenty, aby podkreslic, ze wszystkie te informacje o niechlujnej operacji uzyskales, rzucajac zaledwie kilka kredytow miejscowym kontaktom. Napomykasz, co z tymi danymi moglaby zrobic komorka Sciezki Ludda. Liga Perseanska najwyrazniej nie traktuje bezpieczenstwa Habitatu Laicaille powaznie.\r\n\r\nArchont zaciska szczeke. \"Zapewniano mnie...\""
+    },
+    {
+      "id": "gaFCArchonTellIntel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "4c294c281237fdc4f827d69d29a1c90fd18af83203872a776a98638ec5e6eda1",
+      "new_text_sha256": "6f5ecf6e552cee802f08829b77b2505adcbe03316de14038c02c7ed29e2d2807",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "zaciska $hisOrHer szczeke",
+          "zaciska szczeke"
+        ]
+      ],
+      "original_text": "Wyjasniasz archontowi $personLastName, ze masz kompletna dokumentacje struktury organizacyjnej, budzetu i rozkladu wart operacji wywiadu Floty Ligi na Laicaille. Znajduje sie tam nawet osobna pozycja na lokal konspiracyjny. Wszystko podejrzanie dobrze zbiega sie z przerwaniem poszukiwan Scylli Coureuse przez wywiad Floty.\r\n\r\nPrzesylasz dokumenty, by pokazac, ze zdobyles wszystkie dane o tej niechlujnej operacji, wydajac w ukladzie zaledwie kilka kredytow. Napomykasz, co komorka Sciezki Ludda moglaby zrobic z takimi informacjami. Liga Perseanska najwyrazniej nie traktuje bezpieczenstwa Habitatu Laicaille zbyt powaznie.\r\n\r\nArchont zaciska $hisOrHer szczeke i mamrocze pod $hisOrHer nosem: \"Zapewniali mnie, ze nie bedzie zadnych klopotow. Obiecali...\"",
+      "revised_text": "Wyjasniasz archontowi $personLastName, ze masz kompletna dokumentacje struktury organizacyjnej, budzetu i rozkladu wart operacji wywiadu Floty Ligi na Laicaille. Znajduje sie tam nawet osobna pozycja na lokal konspiracyjny. Wszystko podejrzanie dobrze zbiega sie z przerwaniem poszukiwan Scylli Coureuse przez wywiad Floty.\r\n\r\nPrzesylasz dokumenty, by pokazac, ze zdobyles wszystkie dane o tej niechlujnej operacji, wydajac w ukladzie zaledwie kilka kredytow. Napomykasz, co komorka Sciezki Ludda moglaby zrobic z takimi informacjami. Liga Perseanska najwyrazniej nie traktuje bezpieczenstwa Habitatu Laicaille zbyt powaznie.\r\n\r\nArchont zaciska szczeke i mamrocze pod $hisOrHer nosem: \"Zapewniali mnie, ze nie bedzie zadnych klopotow. Obiecali...\""
+    },
+    {
+      "id": "gaFCIsirahMercGetNothing",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "9eb999d44b6e4996afaa018d6dcded026a19d095b799cb7df66c224af33bc2fa",
+      "new_text_sha256": "708cfb0d4a005b9a64a0aefc345ccb95c4f3150993ca6c2e9c9bc81991220e0b",
+      "removed_gender_placeholders": 2,
+      "edits": [
+        [
+          "kiwa $hisOrHer glowa",
+          "kiwa glowa"
+        ],
+        [
+          "zamyka $hisOrHer oczy",
+          "zamyka oczy"
+        ]
+      ],
+      "original_text": "Po twojej odpowiedzi najemnik przez pelne dziesiec sekund siedzi bez ruchu.\r\n\r\nPotem $heOrShe zamyka $hisOrHer oczy i kiwa $hisOrHer glowa. \"Rozumiem.\"\r\n\r\nNajemnik znow otwiera $hisOrHer oczy i patrzy na ciebie bez mrugniecia. \"Jakiez rozczarowanie. Milej zmiany, kapitanie.\"",
+      "revised_text": "Po twojej odpowiedzi najemnik przez pelne dziesiec sekund siedzi bez ruchu.\r\n\r\nPotem $heOrShe zamyka oczy i kiwa glowa. \"Rozumiem.\"\r\n\r\nNajemnik znow otwiera $hisOrHer oczy i patrzy na ciebie bez mrugniecia. \"Jakiez rozczarowanie. Milej zmiany, kapitanie.\""
+    },
+    {
+      "id": "gaFCIsirahMercWhatInfo",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "de8244a021953ef265ab27442b2da62c5fe5dcc7885bc130db9e86b0c08fe14e",
+      "new_text_sha256": "ec228beafbc930ea239b4f0190b8a4bce81ac8e388e9fb83633f6cfde596d041",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "unosi $hisOrHer brwi",
+          "unosi brwi"
+        ]
+      ],
+      "original_text": "$HeOrShe unosi $hisOrHer brwi. \"Mysle, ze doskonale wiesz. Przybyles tu cos znalezc\". Na twarzy pojawia sie lekki usmiech. \"Albo kogos\".\r\n\r\n\"Wyglada na to, ze po dzialaniach sledczych w poprzednim porcie podrozujesz w konkretnym celu. Moj pracodawca wierzy, ze odnalazles to, czego szukales, i chcialby uzyskac te informacje na wylacznosc\".",
+      "revised_text": "$HeOrShe unosi brwi. \"Mysle, ze doskonale wiesz. Przybyles tu cos znalezc\". Na twarzy pojawia sie lekki usmiech. \"Albo kogos\".\r\n\r\n\"Wyglada na to, ze po dzialaniach sledczych w poprzednim porcie podrozujesz w konkretnym celu. Moj pracodawca wierzy, ze odnalazles to, czego szukales, i chcialby uzyskac te informacje na wylacznosc\"."
+    },
+    {
+      "id": "gaFCIsirahMercWhoWorkFor",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "dcad26c3d0cbf61e329ab350df9abca2983771b0a8cf4c1b0f1a661918fff406",
+      "new_text_sha256": "b2bece14fab6c427361bf42149c165d9c2c8f54f29004c99c70bd139a1e13613",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "krzyzuje $hisOrHer ramiona",
+          "krzyzuje ramiona"
+        ]
+      ],
+      "original_text": "\"Moj pracodawca.\" Najemnik krzyzuje $hisOrHer ramiona.\r\n\r\n\"Ktory pragnie wylacznego dostepu do twoich informacji. I ktory... bardzo ceni dyskrecje, wiec nie musisz martwic sie o reputacje, jesli zdradzisz swojego pracodawce.\" $HeOrShe zastanawia sie. \"Zbytnio.\"",
+      "revised_text": "\"Moj pracodawca.\" Najemnik krzyzuje ramiona.\r\n\r\n\"Ktory pragnie wylacznego dostepu do twoich informacji. I ktory... bardzo ceni dyskrecje, wiec nie musisz martwic sie o reputacje, jesli zdradzisz swojego pracodawce.\" $HeOrShe zastanawia sie. \"Zbytnio.\""
+    },
+    {
+      "id": "gaFCKapteynBossBother1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "fc658cba2d054782b40882b33d172d4479aff3b02dec23c1acda8745c314ab56",
+      "new_text_sha256": "f33e60c5663ecc537084ed4984cc5f20b25ce1b97ab163589a73ec9a8ee573f2",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "oblizuje $hisOrHer wargi",
+          "oblizuje wargi"
+        ]
+      ],
+      "original_text": "$HeOrShe przyglada ci sie, oblizuje $hisOrHer wargi i przez chwile rozwaza pytanie. \r\n\r\n\"Moze znam kogos o tym nazwisku, a moze nie. Dlaczego mialbym ci powiedziec?\"",
+      "revised_text": "$HeOrShe przyglada ci sie, oblizuje wargi i przez chwile rozwaza pytanie. \r\n\r\n\"Moze znam kogos o tym nazwisku, a moze nie. Dlaczego mialbym ci powiedziec?\""
+    },
+    {
+      "id": "gaFCarchVoteOutReynard",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "f739bfee93eb88b74dd0426c918737d4dbe6327cf5f21e2e6f03fbd5f621f9f7",
+      "new_text_sha256": "a56f13488e6e29968195f0a37440f6506aaee4a5fc22a530320d825c17119a0a",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Ha!\"\r\n\r\n$HeOrShe kreci $hisOrHer glowa. Na $hisOrHer twarzy pojawia sie ponury usmiech, ktory powoli gasnie.\r\n\r\nPo chwili milczenia $heOrShe mowi: \"Wiesz co? Tak. Zrobilbym to. Kazalby mi za to zaplacic, kazalby zaplacic calej Laicaille. Ale warto byloby choc raz zobaczyc, jak przegrywa.\"",
+      "revised_text": "\"Ha!\"\r\n\r\n$HeOrShe kreci glowa. Na $hisOrHer twarzy pojawia sie ponury usmiech, ktory powoli gasnie.\r\n\r\nPo chwili milczenia $heOrShe mowi: \"Wiesz co? Tak. Zrobilbym to. Kazalby mi za to zaplacic, kazalby zaplacic calej Laicaille. Ale warto byloby choc raz zobaczyc, jak przegrywa.\""
+    },
+    {
+      "id": "gaFCarchonAskDemOptsBsel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "21253afabcded0b5ec69816fff1889fd8e4e6ea022116ef2e25de5e51c65a68b",
+      "new_text_sha256": "ac82ca0a8321a5528b3f9191542430b1c1e1188db81869bcb571949a72c871a5",
+      "removed_gender_placeholders": 2,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ],
+        [
+          "zaciska $hisOrHer szczeke",
+          "zaciska szczeke"
+        ]
+      ],
+      "original_text": "\"Teraz sobie przypominam\". $HeOrShe kreci $hisOrHer glowa. \"Ze wstydem przyznaje, ze Laicaille glosowalo za przyjeciem tej uchwaly. Rod Hannan... coz, nie moglismy odmowic. Nasz glos moze niewiele znaczyc, ale symbolizowal 'poparcie pomniejszych wspolnot Ligi'\".\r\n\r\n\"Pomniejsze wspolnoty!\" Archont zaciska $hisOrHer szczeke, po czym milknie, z wyrazem zaklopotania na $hisOrHer twarzy.\r\n\r\n\"Chcialbym ci to wynagrodzic\", mowi $heOrShe. \"I nam samym. Cokolwiek, byle chociaz raz utrzec nosa Reynardowi Hannanowi\".",
+      "revised_text": "\"Teraz sobie przypominam\". $HeOrShe kreci glowa. \"Ze wstydem przyznaje, ze Laicaille glosowalo za przyjeciem tej uchwaly. Rod Hannan... coz, nie moglismy odmowic. Nasz glos moze niewiele znaczyc, ale symbolizowal 'poparcie pomniejszych wspolnot Ligi'\".\r\n\r\n\"Pomniejsze wspolnoty!\" Archont zaciska szczeke, po czym milknie, z wyrazem zaklopotania na $hisOrHer twarzy.\r\n\r\n\"Chcialbym ci to wynagrodzic\", mowi $heOrShe. \"I nam samym. Cokolwiek, byle chociaz raz utrzec nosa Reynardowi Hannanowi\"."
+    },
+    {
+      "id": "gaFCfikenhildBotherVIPoptAsel2",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "e50866c3139708091eba16e5960458499b4032ec7a787c8ee4b0a2212396ccc6",
+      "new_text_sha256": "e79711531914ca83c0425509ede8c47bb3d6e65f7b069a566daa2008b44b2cd4",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "rozklada $hisOrHer rece",
+          "rozklada rece"
+        ]
+      ],
+      "original_text": "\"Jak zapewne wiesz, demarchon, obowiazuja nas pewne procedury. Obywatel Ligi na planecie Ligi? Bez nakazu aresztowania, rozkazow Floty ani zgody Rady?\"\r\n\r\n\"Gdyby Krol wydal rozkaz, wiedzialbym o tym. Tak wiec...\" $HeOrShe rozklada $hisOrHer rece. \"Chce pomoc, ale moj urzad nie moze tego zrobic bez zachowania procedur. Przykro mi\".\r\n\r\n$post odwraca wzrok. \"Chyba ze...\"",
+      "revised_text": "\"Jak zapewne wiesz, demarchon, obowiazuja nas pewne procedury. Obywatel Ligi na planecie Ligi? Bez nakazu aresztowania, rozkazow Floty ani zgody Rady?\"\r\n\r\n\"Gdyby Krol wydal rozkaz, wiedzialbym o tym. Tak wiec...\" $HeOrShe rozklada rece. \"Chce pomoc, ale moj urzad nie moze tego zrobic bez zachowania procedur. Przykro mi\".\r\n\r\n$post odwraca wzrok. \"Chyba ze...\""
+    },
+    {
+      "id": "gaFCfikenhildBotherVIPoptPLcom",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "a7f0c0739416fe515df1d0a4596695f2836b0dbb764cacc7e5743e7d734700df",
+      "new_text_sha256": "49f78a74b7aaf039377f1fbf0f464be9aa1008936d5247eafdacec0234142926",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "rozklada $hisOrHer rece",
+          "rozklada rece"
+        ]
+      ],
+      "original_text": "$HeOrShe mruga. \"Kapitanie\".\r\n\r\nSlyszysz stukanie klawiszy, a rozmowca szybko zerka w bok.\r\n\r\n\"Tak, potwierdzam\". $HeOrShe usmiecha sie krotko i bez entuzjazmu.\r\n\r\n\"Jednak nie wolno mi udzielac informacji o obywatelu Ligi na planecie Ligi bez odpowiedniego upowaznienia, uzasadnionej przyczyny lub rozkazu Krola albo Pierwszego Demarchona\". $HeOrShe rozklada $hisOrHer rece. \"Chce pomoc, ale...\"",
+      "revised_text": "$HeOrShe mruga. \"Kapitanie\".\r\n\r\nSlyszysz stukanie klawiszy, a rozmowca szybko zerka w bok.\r\n\r\n\"Tak, potwierdzam\". $HeOrShe usmiecha sie krotko i bez entuzjazmu.\r\n\r\n\"Jednak nie wolno mi udzielac informacji o obywatelu Ligi na planecie Ligi bez odpowiedniego upowaznienia, uzasadnionej przyczyny lub rozkazu Krola albo Pierwszego Demarchona\". $HeOrShe rozklada rece. \"Chce pomoc, ale...\""
+    },
+    {
+      "id": "gaRRPirateGreeting",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "d5ff38a798e74dc4c499bb688c762c331344d3a85d2c55252e93670833202c2b",
+      "new_text_sha256": "a44f08db23c67314d3144e7261cc3bc6630e28705fa6be65bc331529907f257b",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca $hisOrHer oczami",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "Sygnal lacznosci z trudem przebija sie przez zaniedbana siec lokalna. Mija kilka sekund, zanim zaklocenia i bledy deszyfrowania zloza sie w twarz pirata, z ktorym nakazano ci sie skontaktowac.\r\n\r\nPozdrawiasz rozmowce zdawkowo, a pirat usmiecha sie bez cienia ciepla. \"Ach, jestes tu po zagubione dziecko Akademii. Oboje bedziemy szczesliwi, gdy juz pozbedziemy sie siebie nawzajem\", $heOrShe przewraca $hisOrHer oczami. \"Te pytania! Tyle pytan\".",
+      "revised_text": "Sygnal lacznosci z trudem przebija sie przez zaniedbana siec lokalna. Mija kilka sekund, zanim zaklocenia i bledy deszyfrowania zloza sie w twarz pirata, z ktorym nakazano ci sie skontaktowac.\r\n\r\nPozdrawiasz rozmowce zdawkowo, a pirat usmiecha sie bez cienia ciepla. \"Ach, jestes tu po zagubione dziecko Akademii. Oboje bedziemy szczesliwi, gdy juz pozbedziemy sie siebie nawzajem\", $heOrShe przewraca oczami. \"Te pytania! Tyle pytan\"."
+    },
+    {
+      "id": "kdOtherPostAskKanta",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "4a91ae1107f4f6da1d2e2f01668c3675bb3fd735e7c5fdef0ee2c5cb24d494c6",
+      "new_text_sha256": "5e4bc15007f40f87dd73d02c62d44499c9a9626ba6f29c62af5c144829a9e4eb",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "krzyzuje $hisOrHer ramiona",
+          "krzyzuje ramiona"
+        ]
+      ],
+      "original_text": "$HeOrShe mruga ze zdumienia.\r\n\r\n\"To po co ze mna gadasz? Sam do niej zadzwon\" - prycha $heOrShe.\r\nOR\r\n\"Kanta? Ha, ha. Zaraz spytam, czy ma wolna chwile.\"\r\n\r\n$HeOrShe pozwala, by przez chwile trwala niezreczna cisza.\r\n\r\n\"Dostales w leb? Nie mozna tak po prostu... rozmawiac... z Wladczynia Wojny. Musisz miec naprawde dobry powod. Zreszta to nie moja sprawa\" - $heOrShe krzyzuje $hisOrHer ramiona. \"Zapytaj krola stacji.\"\r\nOR\r\n\"Tak? No to masz pecha, bo ja robie tylko swoje. Jesli ona czegos chce, ktos mi o tym mowi. To dziala tylko w jedna strone.\"\r\n\r\n$HeOrShe odchyla sie, zadowolony ze swojego wyjasnienia.\r\nOR\r\n\"Gadaj z krolem stacji\" - rzuca szorstko $heOrShe. \"Nie ja decyduje, kto moze widziec sie z krolowa piratow.\"",
+      "revised_text": "$HeOrShe mruga ze zdumienia.\r\n\r\n\"To po co ze mna gadasz? Sam do niej zadzwon\" - prycha $heOrShe.\r\nOR\r\n\"Kanta? Ha, ha. Zaraz spytam, czy ma wolna chwile.\"\r\n\r\n$HeOrShe pozwala, by przez chwile trwala niezreczna cisza.\r\n\r\n\"Dostales w leb? Nie mozna tak po prostu... rozmawiac... z Wladczynia Wojny. Musisz miec naprawde dobry powod. Zreszta to nie moja sprawa\" - $heOrShe krzyzuje ramiona. \"Zapytaj krola stacji.\"\r\nOR\r\n\"Tak? No to masz pecha, bo ja robie tylko swoje. Jesli ona czegos chce, ktos mi o tym mowi. To dziala tylko w jedna strone.\"\r\n\r\n$HeOrShe odchyla sie, zadowolony ze swojego wyjasnienia.\r\nOR\r\n\"Gadaj z krolem stacji\" - rzuca szorstko $heOrShe. \"Nie ja decyduje, kto moze widziec sie z krolowa piratow.\""
+    },
+    {
+      "id": "lcMakeDealSel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "3be75be8a64b6f6322f31c5690013731e4039c64718afb03711766804d9fdecc",
+      "new_text_sha256": "a0007d845513cee7d18f2b23b3d9b448b9caae916ed867f949ce3528e98ecdbd",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Ach.\" $HeOrShe sklada $hisOrHer dlonie z przesadna pogoda ducha.\r\n\r\n\"Rycerze Ludda pelnia swieta misje ochrony Wiernych i, owszem, pragna dawac swiadectwo swojej wierze. Nie mozemy jednak pozwolic, aby Pycha zrodzila Gniew, prawda?\"\r\n\r\n\"Kompromis, konkordat, moglby rozwiazac te sytuacje.\"",
+      "revised_text": "\"Ach.\" $HeOrShe sklada dlonie z przesadna pogoda ducha.\r\n\r\n\"Rycerze Ludda pelnia swieta misje ochrony Wiernych i, owszem, pragna dawac swiadectwo swojej wierze. Nie mozemy jednak pozwolic, aby Pycha zrodzila Gniew, prawda?\"\r\n\r\n\"Kompromis, konkordat, moglby rozwiazac te sytuacje.\""
+    },
+    {
+      "id": "lcMakeDealSelAgain",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "897c90d3633bdc73e4b9ede578f5d24aee8888cfb6eace8f5c59e7db6ee6a7b2",
+      "new_text_sha256": "2c9e162ba7f308cd3bad86641e8cbeb4e50447e66af3f278fcbf767e4c8aaded",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Ach.\" $HeOrShe sklada $hisOrHer dlonie z przesadna pogoda ducha. \"Tak, pamietam, ze rozmawialismy juz z toba na ten temat, niestety poprzednim razem bez porozumienia.\"\r\n\r\n\"Modle sie, by ten blogoslawiony dzien przyniosl nam konstruktywny kompromis, ktory zapewni wszystkim stronom bezpieczenstwo cielesne i duchowe.\"",
+      "revised_text": "\"Ach.\" $HeOrShe sklada dlonie z przesadna pogoda ducha. \"Tak, pamietam, ze rozmawialismy juz z toba na ten temat, niestety poprzednim razem bez porozumienia.\"\r\n\r\n\"Modle sie, by ten blogoslawiony dzien przyniosl nam konstruktywny kompromis, ktory zapewni wszystkim stronom bezpieczenstwo cielesne i duchowe.\""
+    },
+    {
+      "id": "lcMakeDealSelConfirm",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "826e5a7c5711ee9059e45799e090f2bdf2ffeaea19036839e5744a993851eafa",
+      "new_text_sha256": "67406cb20494fc3129fdcd8d05f511591c2844df52637a38e3b3ea1a71ead39a",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Zaprawde, to blogoslawiony dzien\". $heOrShe sklada $hisOrHer dlonie w poboznym gescie i szybko dziekuje Stworcy.\r\n\r\nMimo warstwy przesadnej religijnosci warunki porozumienia sa dosc proste. Ty i $Post $PersonName przedkladacie wizualne potwierdzenia zgody, ktore zostana utrwalone na papierowym egzemplarzu konkordatu. Dokument zostanie potem recznie skopiowany i przeslany do kilku roznych archiwow Koscielnych w ramach jakiegos dziwnego analogowego systemu bezpieczenstwa.",
+      "revised_text": "\"Zaprawde, to blogoslawiony dzien\". $heOrShe sklada dlonie w poboznym gescie i szybko dziekuje Stworcy.\r\n\r\nMimo warstwy przesadnej religijnosci warunki porozumienia sa dosc proste. Ty i $Post $PersonName przedkladacie wizualne potwierdzenia zgody, ktore zostana utrwalone na papierowym egzemplarzu konkordatu. Dokument zostanie potem recznie skopiowany i przeslany do kilku roznych archiwow Koscielnych w ramach jakiegos dziwnego analogowego systemu bezpieczenstwa."
+    },
+    {
+      "id": "lkeChalcedonGreetJangalaCrush",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "c7a5638596fd1e2744d09237bf297f9455e98e8bd933ed89506a98f354f38fd2",
+      "new_text_sha256": "37f6932a9cfa63abba36e13ab261eab6856971b49a9b30294016ff5d8b850184",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Blogoslawieni...\" $heOrShe milknie z otwartymi ustami i mruga. \"$PlayerName.\"\r\n\r\n\"Smiesz sie tu pokazywac po ataku na Wiernych na Jangali? Ty, ktory masz na rekach krew niewinnych!\"\r\nOR\r\n$HeOrShe sklada $hisOrHer dlonie. \"Opatrznosc zapewnia\", zaczyna i urywa, gdy $heOrShe spoglada na ciebie.\r\n\r\n\"Kapitan $PlayerName\", usta $hisOrHer wykrzywiaja sie, jakby wypowiadaly przeklenstwo. \"Ty. Oprawca z Jangali. Ty, ktory depczesz Wiernych proszacych tylko o mozliwosc modlitwy w swietym miejscu. Sama twoja obecnosc jest obraza.\"",
+      "revised_text": "\"Blogoslawieni...\" $heOrShe milknie z otwartymi ustami i mruga. \"$PlayerName.\"\r\n\r\n\"Smiesz sie tu pokazywac po ataku na Wiernych na Jangali? Ty, ktory masz na rekach krew niewinnych!\"\r\nOR\r\n$HeOrShe sklada dlonie. \"Opatrznosc zapewnia\", zaczyna i urywa, gdy $heOrShe spoglada na ciebie.\r\n\r\n\"Kapitan $PlayerName\", usta $hisOrHer wykrzywiaja sie, jakby wypowiadaly przeklenstwo. \"Ty. Oprawca z Jangali. Ty, ktory depczesz Wiernych proszacych tylko o mozliwosc modlitwy w swietym miejscu. Sama twoja obecnosc jest obraza.\""
+    },
+    {
+      "id": "lkeChalcedonGreetLokeRaid",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "02fc271e4ad17d238fecd8f777f6e76bedf2191edf81a4113520801a7fcafb4c",
+      "new_text_sha256": "215531089d5e5397181b527c85c1dfc37baf69b5d33b439185ebcf15408cc9ca",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Blogoslawiony...\" $heOrShe milknie z otwartymi ustami, po czym mruga. \"$PlayerName.\"\r\n\r\n\"Smiesz pokazac sie tutaj po napadzie na Epiphany? Ty, ktory masz na rekach krew niewinnych? Dlugo modlilem sie o twoja zaglade.\"\r\nOR\r\n$HeOrShe sklada $hisOrHer dlonie. \"Opatrznosc czuwa\" - zaczyna, lecz urywa, gdy $heOrShe podnosi na ciebie wzrok.\r\n\r\n\"Kapitan $PlayerName\" - $hisOrHer usta wyginaja sie, jakby wypowiadaly przeklenstwo. \"Brutalny najezdzco, bezczescicielu Epiphany! Atakujesz Wiernych i uprowadzasz tych, ktorzy oddali serce Luddowi, na rozkaz tej ociekajacej krwia krolowej piratow. Sam widok twojej twarzy obraza moje oczy.\"",
+      "revised_text": "\"Blogoslawiony...\" $heOrShe milknie z otwartymi ustami, po czym mruga. \"$PlayerName.\"\r\n\r\n\"Smiesz pokazac sie tutaj po napadzie na Epiphany? Ty, ktory masz na rekach krew niewinnych? Dlugo modlilem sie o twoja zaglade.\"\r\nOR\r\n$HeOrShe sklada dlonie. \"Opatrznosc czuwa\" - zaczyna, lecz urywa, gdy $heOrShe podnosi na ciebie wzrok.\r\n\r\n\"Kapitan $PlayerName\" - $hisOrHer usta wyginaja sie, jakby wypowiadaly przeklenstwo. \"Brutalny najezdzco, bezczescicielu Epiphany! Atakujesz Wiernych i uprowadzasz tych, ktorzy oddali serce Luddowi, na rozkaz tej ociekajacej krwia krolowej piratow. Sam widok twojej twarzy obraza moje oczy.\""
+    },
+    {
+      "id": "lkeChalcedonLookingRecD2c",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "605b2ffb1e7859a451c0568ae5e66257380bed9e68c399ea0ec154b4e7a6ba59",
+      "new_text_sha256": "3069138684268670dc02f669b2d64070bc5ff784334c7cfeacac6cfed8e5f61b",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "splata $hisOrHer dlonie",
+          "splata dlonie"
+        ]
+      ],
+      "original_text": "$PersonName splata $hisOrHer dlonie, a na $hisOrHer twarzy pojawia sie napiety usmiech.\r\n\r\n\"Co tak naprawde o nas myslisz? Ze jestesmy ciemnymi fanatykami, ktorzy boja sie maszyn i uciekaja przed twoja potega? Twoja pycha mnie zdumiewa\".\r\n\r\n$personPost dotyka czegos na panelu sterowania.\r\nOR\r\n\"Mozesz tego nie dostrzegac, ale probuje ci pomoc\".\r\n\r\nCos napina sie w $hisOrHer wyrazie twarzy. \"Gdybys nie zamykal oczu na swiatlo Ludda, moze bys to pojal. Ale falszywy plomien pychy i wladzy sprowadza cie na manowce\".\r\n\r\n$personPost dotyka czegos na panelu sterowania.",
+      "revised_text": "$PersonName splata dlonie, a na $hisOrHer twarzy pojawia sie napiety usmiech.\r\n\r\n\"Co tak naprawde o nas myslisz? Ze jestesmy ciemnymi fanatykami, ktorzy boja sie maszyn i uciekaja przed twoja potega? Twoja pycha mnie zdumiewa\".\r\n\r\n$personPost dotyka czegos na panelu sterowania.\r\nOR\r\n\"Mozesz tego nie dostrzegac, ale probuje ci pomoc\".\r\n\r\nCos napina sie w $hisOrHer wyrazie twarzy. \"Gdybys nie zamykal oczu na swiatlo Ludda, moze bys to pojal. Ale falszywy plomien pychy i wladzy sprowadza cie na manowce\".\r\n\r\n$personPost dotyka czegos na panelu sterowania."
+    },
+    {
+      "id": "lkeChalcedonVIPoptHostileSP3",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "42b670e344a30a3b0a95aec57d30a81b0f905219a061ab778f0ff8b278bdb62a",
+      "new_text_sha256": "fa8963c2d6d64369184eee2636fc1f357f02c337b7191c3871592408f31e1c5f",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Prosze, $playerBrotherOrSister, zacznijmy od nowa\" - mowi $heOrShe. \"Nazywam sie $personName i podazamy za blogoslawionym Luddem.\"\r\n\r\n$HeOrShe sklada $hisOrHer dlonie, odmawia krotka modlitwe, a potem znow patrzy na ciebie.\r\n\r\n\"Przybyles na Chalcedon czegos szukac. Powiedz, w czym moge pomoc?\"",
+      "revised_text": "\"Prosze, $playerBrotherOrSister, zacznijmy od nowa\" - mowi $heOrShe. \"Nazywam sie $personName i podazamy za blogoslawionym Luddem.\"\r\n\r\n$HeOrShe sklada dlonie, odmawia krotka modlitwe, a potem znow patrzy na ciebie.\r\n\r\n\"Przybyles na Chalcedon czegos szukac. Powiedz, w czym moge pomoc?\""
+    },
+    {
+      "id": "lppJangalaProtestInfo",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "f2c97297de5bbf4e14be2c58c05c2cc57d4d6cfdb5c07f6a3dada5219818f71a",
+      "new_text_sha256": "607d82817a04430f2d88ab09163f584f8a8419732c52e792cecfe97de50931ad",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Nie tutaj\" - odpowiada $heOrShe, nie odrywajac wzroku od protestujacych. \"Na powierzchni. Zeby podziwiac tutejsza roslinnosc. Nie rozumiem po co. Nie uwierzysz, jak toksyczne jest to paskudztwo. Odtruwanie po kontakcie to jak tydzien kaca scisniety w dzien albo dwa.\"\r\n\r\n$HeOrShe kreci $hisOrHer glowa. \"Przynajmniej tak to odczulem. Chyba lubia cierpiec. Typowi luddyci. Dowodztwo kaze nam sie z nimi cackac. Polityka, nie?\"\r\n\r\nZ lacznosci dobiega krotka seria zaszyfrowanych trzaskow, a $post odpowiada kilkoma slowami. \"Zandarmeria zaraz tu bedzie, jesli chcesz zostac na widowisko\" - mowi $heOrShe.",
+      "revised_text": "\"Nie tutaj\" - odpowiada $heOrShe, nie odrywajac wzroku od protestujacych. \"Na powierzchni. Zeby podziwiac tutejsza roslinnosc. Nie rozumiem po co. Nie uwierzysz, jak toksyczne jest to paskudztwo. Odtruwanie po kontakcie to jak tydzien kaca scisniety w dzien albo dwa.\"\r\n\r\n$HeOrShe kreci glowa. \"Przynajmniej tak to odczulem. Chyba lubia cierpiec. Typowi luddyci. Dowodztwo kaze nam sie z nimi cackac. Polityka, nie?\"\r\n\r\nZ lacznosci dobiega krotka seria zaszyfrowanych trzaskow, a $post odpowiada kilkoma slowami. \"Zandarmeria zaraz tu bedzie, jesli chcesz zostac na widowisko\" - mowi $heOrShe."
+    },
+    {
+      "id": "notRH_joinLeagueSel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "684ead57df34fa95c487ed737907b04b552bbc53139cb44ea4be44aa940949f7",
+      "new_text_sha256": "ddddb8911c669ded0f7c551d3eeec8dc88c3987a76a6aa5bfda9c90b85106d4a",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "\"Rozumiem, rozumiem\". $heOrShe sklada $hisOrHer dlonie, namyslajac sie nad $hisOrHer kolejnymi slowami.\r\n\r\n\"Istnieje oficjalna procedura. Znalezc patrona, wyslac delegacje na spotkanie z Rada Ligi, okres pytan, glosowanie\". $HisOrHer oczy zwracaja sie ku tobie, jakby potrafily spotkac twoje spojrzenie przez lacznosc. \"Ale najlepiej bedzie, jesli porozmawiasz z Reynardem Hannanem. Nic nie przejdzie przez Rade Ligi bez zgody rodu Hannan\". $HisOrHer wzrok ponownie ucieka, a $heOrShe lekko wzrusza ramionami.\r\n\r\n\"Witaj na Kazeronie\".",
+      "revised_text": "\"Rozumiem, rozumiem\". $heOrShe sklada dlonie, namyslajac sie nad $hisOrHer kolejnymi slowami.\r\n\r\n\"Istnieje oficjalna procedura. Znalezc patrona, wyslac delegacje na spotkanie z Rada Ligi, okres pytan, glosowanie\". $HisOrHer oczy zwracaja sie ku tobie, jakby potrafily spotkac twoje spojrzenie przez lacznosc. \"Ale najlepiej bedzie, jesli porozmawiasz z Reynardem Hannanem. Nic nie przejdzie przez Rade Ligi bez zgody rodu Hannan\". $HisOrHer wzrok ponownie ucieka, a $heOrShe lekko wzrusza ramionami.\r\n\r\n\"Witaj na Kazeronie\"."
+    },
+    {
+      "id": "pirateStationKingBusinessSelEndedFaceToFace",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "b1277261f55eeaf55331c2ab4f7965104f6781722a1f63d92b397f79be7994f3",
+      "new_text_sha256": "2536a27a9a6f85693e24a3946094a33037b1473e908cc108e8493252b87a5376",
+      "removed_gender_placeholders": 2,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ],
+        [
+          "rozklada $hisOrHer rece",
+          "rozklada rece"
+        ]
+      ],
+      "original_text": "\"Daj spokoj\" - mowi $heOrShe. \"Szanuje, ze... osobiscie zakonczyles nasz poprzedni, hm, uklad. Nie jestes tchorzem, przyznam ci tyle.\"\r\n\r\n$HeOrShe wzdycha i kreci $hisOrHer glowa. \"Tchorz czy nie, zaufac ci tez nie mozna.\" $HeOrShe rozklada $hisOrHer rece, udajac rozwaznego zarzadce. \"Musze zadbac o ludzi. Jak mam to zrobic, jesli jutro mozesz przyjsc i powiedziec, ze umowa nieaktualna? Tak sie nie prowadzi interesow.\"",
+      "revised_text": "\"Daj spokoj\" - mowi $heOrShe. \"Szanuje, ze... osobiscie zakonczyles nasz poprzedni, hm, uklad. Nie jestes tchorzem, przyznam ci tyle.\"\r\n\r\n$HeOrShe wzdycha i kreci glowa. \"Tchorz czy nie, zaufac ci tez nie mozna.\" $HeOrShe rozklada rece, udajac rozwaznego zarzadce. \"Musze zadbac o ludzi. Jak mam to zrobic, jesli jutro mozesz przyjsc i powiedziec, ze umowa nieaktualna? Tak sie nie prowadzi interesow.\""
+    },
+    {
+      "id": "pk_givePKPatherSel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "56979958a437eb99de5519c2593953a84fb155e58aced00355f8bba5165a9304",
+      "new_text_sha256": "409f081a02ebc91314738dd9aafada46b14e0bcab2b50dae76a59ea36615ee97",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ]
+      ],
+      "original_text": "Uzgadniasz z wyznawcami Sciezki szczegoly przekazania niszczyciela planet pod ich piecze.\r\n\r\n\"To czyn godny pochwaly, $playerSirOrMadam, sluzacy wizji Ludda, choc droga, ktora wspolnie kroczymy, jest kreta i mroczna.\"\r\n\r\n\"Wiesc o twojej... wspolpracy rozejdzie sie wsrod Prawdziwie Wiernych.\" $HeOrShe ponownie sklada $hisOrHer dlonie. \"Niech swiety pokoj bedzie z toba, $playerName, az do Konca Dni, gdy wszyscy stana przed sadem.\"",
+      "revised_text": "Uzgadniasz z wyznawcami Sciezki szczegoly przekazania niszczyciela planet pod ich piecze.\r\n\r\n\"To czyn godny pochwaly, $playerSirOrMadam, sluzacy wizji Ludda, choc droga, ktora wspolnie kroczymy, jest kreta i mroczna.\"\r\n\r\n\"Wiesc o twojej... wspolpracy rozejdzie sie wsrod Prawdziwie Wiernych.\" $HeOrShe ponownie sklada dlonie. \"Niech swiety pokoj bedzie z toba, $playerName, az do Konca Dni, gdy wszyscy stana przed sadem.\""
+    },
+    {
+      "id": "pk_turnInPatherSel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "f7bd8624ebb43992b61fa694aab35f34d43e17c969dc49dfc85febc74cf433c4",
+      "new_text_sha256": "65b89307f842c15039693eb4f5d0cafd3a067e0a20954572bc807bc3700c4833",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "zamyka $hisOrHer oczy",
+          "zamyka oczy"
+        ]
+      ],
+      "original_text": "$PersonName sklada dlonie, a $heOrShe zamyka $hisOrHer oczy, mamroczac cos, co brzmi jak podziekowanie Opatrznosci.\r\n\r\n\"Przyznam, kapitanie, ze nie spodziewalem sie twojego powrotu\", mowi $heOrShe.",
+      "revised_text": "$PersonName sklada dlonie, a $heOrShe zamyka oczy, mamroczac cos, co brzmi jak podziekowanie Opatrznosci.\r\n\r\n\"Przyznam, kapitanie, ze nie spodziewalem sie twojego powrotu\", mowi $heOrShe."
+    },
+    {
+      "id": "postGAFCNewArchon2",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "49236543dbc90697cd4e3b985695e414b7da9f1bb9eb7ad386caebd670918b59",
+      "new_text_sha256": "ff2286e7e2d32b1adead8c305774a70585ed1bda29baa94aedaca73ba27848d3",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "rozklada $hisOrHer rece",
+          "rozklada rece"
+        ]
+      ],
+      "original_text": "$PersonName spoglada na ciebie z gory. \"Jestem pewien, ze ktos twojego stanu nie potrafi tego pojac, kapitanie. Naleze do rodu Hannanow. Ciaza na mnie obowiazki\" - $heOrShe wymawia to slowo z osobliwym naciskiem, z arystokratycznym poczuciem powinnosci.\r\n\r\n\"Odbede swoja sluzbe, jak wymaga rod, a potem, zgodnie z ustaleniami, obejme odpowiedniejszy urzad. Moze zostane wiceministrem czegos? Albo nawarcha?\" $HeOrShe usmiecha sie. \"To bylby dopiero poczatek. W odroznieniu od wielu drogich kuzynow mam wieksze ambicje, a ich spelnienie wymaga ofiar... takich jak ta.\" $PersonName rozklada $hisOrHer rece, wskazujac Habitat Laicaille.",
+      "revised_text": "$PersonName spoglada na ciebie z gory. \"Jestem pewien, ze ktos twojego stanu nie potrafi tego pojac, kapitanie. Naleze do rodu Hannanow. Ciaza na mnie obowiazki\" - $heOrShe wymawia to slowo z osobliwym naciskiem, z arystokratycznym poczuciem powinnosci.\r\n\r\n\"Odbede swoja sluzbe, jak wymaga rod, a potem, zgodnie z ustaleniami, obejme odpowiedniejszy urzad. Moze zostane wiceministrem czegos? Albo nawarcha?\" $HeOrShe usmiecha sie. \"To bylby dopiero poczatek. W odroznieniu od wielu drogich kuzynow mam wieksze ambicje, a ich spelnienie wymaga ofiar... takich jak ta.\" $PersonName rozklada rece, wskazujac Habitat Laicaille."
+    },
+    {
+      "id": "postGAFCretiredArchon1",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "fcdfab239763a413c18b2d2790b70b64a7f5c53f584fa7ceb9629c69165fc646",
+      "new_text_sha256": "cf5a4dc9149e77089a9346d411bf67115d06018f0f05a0cfbebdf6496b682c47",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Owszem, bylem\". $HeOrShe milknie na chwile. \"Nie chcialem grac wedlug ich zasad i ja... my zawstydzilismy kilku waznych ludzi w Lidze. Narobilismy sobie poteznych wrogow. Nastawili przeciwko mnie rade wykonawcza i na tym sie skonczylo\".\r\n\r\n\"Nie mam do ciebie zalu, kapitanie. Wygrali\", mowi $heOrShe, po czym kreci $hisOrHer glowa. \"Habitat Laicaille jest maly i biedny w skali Ligi Perseanskiej. Wbrew temu, co zapisano w karcie, tylko to sie liczy\".",
+      "revised_text": "\"Owszem, bylem\". $HeOrShe milknie na chwile. \"Nie chcialem grac wedlug ich zasad i ja... my zawstydzilismy kilku waznych ludzi w Lidze. Narobilismy sobie poteznych wrogow. Nastawili przeciwko mnie rade wykonawcza i na tym sie skonczylo\".\r\n\r\n\"Nie mam do ciebie zalu, kapitanie. Wygrali\", mowi $heOrShe, po czym kreci glowa. \"Habitat Laicaille jest maly i biedny w skali Ligi Perseanskiej. Wbrew temu, co zapisano w karcie, tylko to sie liczy\"."
+    },
+    {
+      "id": "proComTextLocalBarUnderworld",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "4431336ae4c48943368db734c71ca966c580f8e13de7f891bdf5c94950e28395",
+      "new_text_sha256": "cecfbcc1052b3556635806cfd1eb4a5a41d8c579a43d822f7188a3627da5434d",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca $hisOrHer oczami",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "$HeOrShe strzepuje kurz z $hisOrHer plaszcza, mamroczac \"Oni nie wiedza, z kim...\" - po czym nagle usmiecha sie na twoj widok.\r\n\r\n\"Nareszcie ktos rozsadny.\" $HeOrShe odciaga cie na bok, jakbyscie byli starymi wspolnikami, i mowi cicho: \"Szukam $proCom_quantity jednostek $proCom_commodityName. Dostawa tutaj, jak najszybciej. Nie obchodzi mnie jak, byle zostalo zrobione, rozumiesz? Zaplace $proCom_pricePerUnit za jednostke, czyz to nie hojne? Bo szanuje twoje mozliwosci.\"\r\n\r\n$HeOrShe przewraca $hisOrHer oczami w strone pobliskiej grupy i wzrusza jednym ramieniem. \"Niektorzy nie maja za grosz szacunku. Jeszcze sie naucza. Co ty na to?\"",
+      "revised_text": "$HeOrShe strzepuje kurz z $hisOrHer plaszcza, mamroczac \"Oni nie wiedza, z kim...\" - po czym nagle usmiecha sie na twoj widok.\r\n\r\n\"Nareszcie ktos rozsadny.\" $HeOrShe odciaga cie na bok, jakbyscie byli starymi wspolnikami, i mowi cicho: \"Szukam $proCom_quantity jednostek $proCom_commodityName. Dostawa tutaj, jak najszybciej. Nie obchodzi mnie jak, byle zostalo zrobione, rozumiesz? Zaplace $proCom_pricePerUnit za jednostke, czyz to nie hojne? Bo szanuje twoje mozliwosci.\"\r\n\r\n$HeOrShe przewraca oczami w strone pobliskiej grupy i wzrusza jednym ramieniem. \"Niektorzy nie maja za grosz szacunku. Jeszcze sie naucza. Co ty na to?\""
+    },
+    {
+      "id": "psk_acceptStorySel",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "9b6b15a235933523032accb5fcf0513aad24afb7638e91690b3ec209ae46c9f8",
+      "new_text_sha256": "9d6db49272a7254fb110e3603f1c6814beed4d59aa24fabf12968f4403761872",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "oblizuje $hisOrHer wargi",
+          "oblizuje wargi"
+        ]
+      ],
+      "original_text": "Pirat prycha i krzyzuje $hisOrHer rece. \"Slucham.\"\r\n\r\nWywolujesz raport przygotowany przez kwatermistrza i zaczynasz od streszczenia dla kierownictwa, wyraznie akcentujac ogromne liczby opisujace przeplyw kredytow przez twoje posiadlosci.\r\n\r\nNiewiele trzeba, by rozpalic chciwosc pirata. Robisz dramatyczna pauze i spogladasz znad TriPada. $personName oblizuje $hisOrHer wargi i mowi: \"Mamy umowe.\"",
+      "revised_text": "Pirat prycha i krzyzuje $hisOrHer rece. \"Slucham.\"\r\n\r\nWywolujesz raport przygotowany przez kwatermistrza i zaczynasz od streszczenia dla kierownictwa, wyraznie akcentujac ogromne liczby opisujace przeplyw kredytow przez twoje posiadlosci.\r\n\r\nNiewiele trzeba, by rozpalic chciwosc pirata. Robisz dramatyczna pauze i spogladasz znad TriPada. $personName oblizuje wargi i mowi: \"Mamy umowe.\""
+    },
+    {
+      "id": "rdsmOfferAsk2",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "af046aead1034ca1036ef1f81a15ce3b9a823d063c1870e2c3555b45b171f4c1",
+      "new_text_sha256": "57db7084f0376ffe2744d6a785991cc7df064adfd838f3103d6b2f2535fdca57",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "przewraca $hisOrHer oczami",
+          "przewraca oczami"
+        ]
+      ],
+      "original_text": "$HeOrShe przewraca $hisOrHer oczami. \"Zeby zapisany w nim proces wygladal na nowy wynalazek\" - mowi $heOrShe powoli, jak do nierozgarnietego dziecka.\r\n\r\n\"Podmieniony rdzen wkrotce odnajdzie jakis zbieracz zlomu i zobaczy, ze zawiera powszechnie znany proces, a nie ten unikatowy, opracowany naprawde przez $rdsm_megacorpName. Stworzy to istotny dowod, ktory 'potwierdzi', ze proces jest samodzielnym, nowym odkryciem. Dzieki temu bedzie mozna znacznie korzystniej opatentowac go w tych panstewkach Sektora, ktore w ogole sie w takie rzeczy bawia.\"\r\n\r\n\"Chodzi o kredyty, $playerName. Z twojego punktu widzenia o $rdsm_reward kredytow. I tylko to powinno cie obchodzic. Rozumiesz?\"",
+      "revised_text": "$HeOrShe przewraca oczami. \"Zeby zapisany w nim proces wygladal na nowy wynalazek\" - mowi $heOrShe powoli, jak do nierozgarnietego dziecka.\r\n\r\n\"Podmieniony rdzen wkrotce odnajdzie jakis zbieracz zlomu i zobaczy, ze zawiera powszechnie znany proces, a nie ten unikatowy, opracowany naprawde przez $rdsm_megacorpName. Stworzy to istotny dowod, ktory 'potwierdzi', ze proces jest samodzielnym, nowym odkryciem. Dzieki temu bedzie mozna znacznie korzystniej opatentowac go w tych panstewkach Sektora, ktore w ogole sie w takie rzeczy bawia.\"\r\n\r\n\"Chodzi o kredyty, $playerName. Z twojego punktu widzenia o $rdsm_reward kredytow. I tylko to powinno cie obchodzic. Rozumiesz?\""
+    },
+    {
+      "id": "secoOfferTextContact",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "8a7060817114d3cf18a7316c2ddb9298ba25a2bec4612cdc394ec0427b60c154",
+      "new_text_sha256": "c7ed6cc5468acf0b2fa173f6ff1d62c08c73356d8c0c85e530f21645e132e8f6",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kiwa $hisOrHer glowa",
+          "kiwa glowa"
+        ]
+      ],
+      "original_text": "$HeOrShe kiwa $hisOrHer glowa konspiracyjnie. \"Widzisz, pewien 'przyjaciel' zdobyl kody bezpieczenstwa $seco_faction, dzieki ktorym uzyskasz przewage w jednej operacji naziemnej. Oczywiscie potem kody zmienia. Moglbym je odstapic za $seco_price kredytow. Trzeba pokryc ryzyko mojego 'przyjaciela' i doliczyc rozsadna marze posrednika\". Kody zachowaja waznosc przez $seco_days dni.",
+      "revised_text": "$HeOrShe kiwa glowa konspiracyjnie. \"Widzisz, pewien 'przyjaciel' zdobyl kody bezpieczenstwa $seco_faction, dzieki ktorym uzyskasz przewage w jednej operacji naziemnej. Oczywiscie potem kody zmienia. Moglbym je odstapic za $seco_price kredytow. Trzeba pokryc ryzyko mojego 'przyjaciela' i doliczyc rozsadna marze posrednika\". Kody zachowaja waznosc przez $seco_days dni."
+    },
+    {
+      "id": "ttContactBribeRep1mOffer",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "b90530b993a8f9a7ec899e8807a07a2ca43a3a47914e048d1e25d45f4d836390",
+      "new_text_sha256": "8fea713131afbae8edd6d14b53f1976878bc4240fcbf76be54d73ac1701b76c3",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "kreci $hisOrHer glowa",
+          "kreci glowa"
+        ]
+      ],
+      "original_text": "\"Juz wczesniej sprawiales problemy, $playerName\", $heOrShe kreci $hisOrHer glowa. \"Za mniej niz 1 000 000 kredytow nie da sie tego zalatwic\".",
+      "revised_text": "\"Juz wczesniej sprawiales problemy, $playerName\", $heOrShe kreci glowa. \"Za mniej niz 1 000 000 kredytow nie da sie tego zalatwic\"."
+    },
+    {
+      "id": "ttContactBribeRepIntroButWarNotTT",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "543663588c60269ac658bc9d408a67f6f35d06f7eba6667d7ab1ee27adecca0a",
+      "new_text_sha256": "593160f7b22655dabba306ce66d86b40f8bce44c0deb41dac260b257560dc958",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "rozklada $hisOrHer rece",
+          "rozklada rece"
+        ]
+      ],
+      "original_text": "$HeOrShe spoglada na ciebie sceptycznie i mowi: \"Problem polega na tym, ze masz patent oficerski od $theOtherCommissionFaction. A oni prowadza wojne z Korporacja Tri-Tachyon\".\r\n\r\n\"Chcesz przestac walczyc i znow robic interesy?\" $HeOrShe rozklada $hisOrHer rece. \"Zrezygnuj z patentu. Taka jest moja rada\".\r\n\r\n\"I przy okazji: rozmawianie z toba raczej nie poprawi mojej reputacji wsrod kontaktow w Firmie. Mam nadzieje, ze masz dobre szyfrowanie\".",
+      "revised_text": "$HeOrShe spoglada na ciebie sceptycznie i mowi: \"Problem polega na tym, ze masz patent oficerski od $theOtherCommissionFaction. A oni prowadza wojne z Korporacja Tri-Tachyon\".\r\n\r\n\"Chcesz przestac walczyc i znow robic interesy?\" $HeOrShe rozklada rece. \"Zrezygnuj z patentu. Taka jest moja rada\".\r\n\r\n\"I przy okazji: rozmawianie z toba raczej nie poprawi mojej reputacji wsrod kontaktow w Firmie. Mam nadzieje, ze masz dobre szyfrowanie\"."
+    },
+    {
+      "id": "ttContactBribeRepNope",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "3fff824991d576441e445b888f01bea14171fdefe4e226d7386cfaa5b997cd32",
+      "new_text_sha256": "7c5b5794e822efa414a1bc71d027d8d7cb5ce422add8f3f5f9b83d8294eb872c",
+      "removed_gender_placeholders": 1,
+      "edits": [
+        [
+          "zamyka $hisOrHer oczy",
+          "zamyka oczy"
+        ]
+      ],
+      "original_text": "\"Nie\", mowi $heOrShe gwaltownie. \"Za bardzo sie dla ciebie narazalem... zdecydowanie za bardzo. Kredyty sa dobre, ale... nie wierze, ze to mowie\". $heOrShe zamyka $hisOrHer oczy.\r\n\r\n\"Kredyty nie wystarcza\", przyznaje $heOrShe, po czym wbija w ciebie wsciekle spojrzenie.\r\n\r\n\"Doprowadziles do calkowitego rozpadu... wszystkiego! Raz za razem! Jestes doslownie radioaktywny! Nie zrobie tego. Nie bede nadstawial za ciebie karku. Zadna suma kredytow mnie nie przekona. Rozmowa skonczona\".\r\n\r\n$PersonName przerywa polaczenie.",
+      "revised_text": "\"Nie\", mowi $heOrShe gwaltownie. \"Za bardzo sie dla ciebie narazalem... zdecydowanie za bardzo. Kredyty sa dobre, ale... nie wierze, ze to mowie\". $heOrShe zamyka oczy.\r\n\r\n\"Kredyty nie wystarcza\", przyznaje $heOrShe, po czym wbija w ciebie wsciekle spojrzenie.\r\n\r\n\"Doprowadziles do calkowitego rozpadu... wszystkiego! Raz za razem! Jestes doslownie radioaktywny! Nie zrobie tego. Nie bede nadstawial za ciebie karku. Zadna suma kredytow mnie nie przekona. Rozmowa skonczona\".\r\n\r\n$PersonName przerywa polaczenie."
+    },
+    {
+      "id": "ttcrBH_butSelDerelictFaith",
+      "kind": "reflexive_body_gesture",
+      "old_text_sha256": "cab64f0304ce0bb7cda8b7c3697c4f0488d91ca6367b9a653e32450f14f9a492",
+      "new_text_sha256": "93c8568a85c260fd0d0bb34d99e09560a13a6c794b418e34b38a35fcb4ea92ab",
+      "removed_gender_placeholders": 2,
+      "edits": [
+        [
+          "sklada $hisOrHer dlonie",
+          "sklada dlonie"
+        ],
+        [
+          "zamyka $hisOrHer oczy",
+          "zamyka oczy"
+        ]
+      ],
+      "original_text": "$HeOrShe nawet nie wydaje sie zaskoczony. \"Za odpowiednio wysoka nagrode? Oczywiscie!\"\r\n\r\n\"Mam rodzine, $playerBrotherOrSister. Bardzo liczna rodzine. I pomysl o dobrych uczynkach! Mamona potrafi przeciez ulzyc tylu cierpieniom.\"\r\n\r\n$PersonName sklada $hisOrHer dlonie poboznie. \"Mysle... nie, wierze! ...ze Ludd zrozumie.\" $HeOrShe zamyka $hisOrHer oczy i mamrocze modlitwe z blogim usmiechem.",
+      "revised_text": "$HeOrShe nawet nie wydaje sie zaskoczony. \"Za odpowiednio wysoka nagrode? Oczywiscie!\"\r\n\r\n\"Mam rodzine, $playerBrotherOrSister. Bardzo liczna rodzine. I pomysl o dobrych uczynkach! Mamona potrafi przeciez ulzyc tylu cierpieniom.\"\r\n\r\n$PersonName sklada dlonie poboznie. \"Mysle... nie, wierze! ...ze Ludd zrozumie.\" $HeOrShe zamyka oczy i mamrocze modlitwe z blogim usmiechem."
+    }
+  ]
+}

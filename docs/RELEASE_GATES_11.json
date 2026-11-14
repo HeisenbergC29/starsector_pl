@@ -13,13 +13,13 @@
       "unresolved_count": 186,
       "total_jvm_getter_calls": 219,
       "shared_her_conflict_open": false,
-      "reviewed_rules_rows_offline": 363,
-      "removed_visible_gender_variable_refs": 530,
-      "source": "1.0.56: 110 new exact text-only neutralizations in rules.csv, with all 253 prior reviewed rule IDs protected; 110 fewer raw variable uses, 1029 affected rows and 2165 raw occurrences remain, 186 JVM getter callsites still unreviewed; native Windows UI not tested",
+      "reviewed_rules_rows_offline": 433,
+      "removed_visible_gender_variable_refs": 606,
+      "source": "1.0.57: 70 new unique grammar-reviewed dialogue rows (74 gesture fragments, 76 removed possessive markers); 2089 raw gender tokens remain in 1028 rows. JVM 186 getter contexts not yet reviewed; native Windows UI not tested.",
       "base_bar_shared_her_resolved_offline_1052": true,
       "shared_her_pending_native_windows_validation": true,
       "base_bar_gender_getter_callsites_reviewed_1052": 13,
-      "pending_windows_ui_rules_rows": 363
+      "pending_windows_ui_rules_rows": 433
     },
     {
       "id": "draft_semantics",
@@ -152,13 +152,29 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.56: 110 narrative dialogue sentences neutralized without script changes; raw potential gender tokens down to 2165 across 1029 rules.csv records. Full completeness still not verified: 3267 historical API rows and 186 JVM getter callsites unreviewed; native gameplay Windows untested"
+      "source": "1.0.57: 70 new contextual gesture corrections, 2089 remaining dynamic gender tokens in 1028 dialogue rows, 3267 API histories and 186 JVM getter calls not fully reviewed; native Windows gameplay not tested."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.56: 110 new dialogue text revisions plus prior 253 reviewed rules rows, 391 reviewed historical API strings, 81 story contexts and 219 gender getter uses require actual Windows game UI verification; native game not run"
+      "source": "1.0.57: 433 unique rules records reviewed offline plus prior dynamic Java texts need native Windows gameplay verification. Native gameplay has not been tested."
+    },
+    {
+      "id": "rules_reflexive_1057",
+      "status": "in_progress",
+      "source": "tools/apply_1057.py + docs/RULES_REFLEXIVE_REVIEW_1057.json: 70 exact ID+SHA-pinned dialogue fields; 74 body-gesture phrases; 76 removed redundant possessive variables; 869 other data files unchanged; no script, condition, option or technical ID mutations",
+      "corrected_rules_rows": 70,
+      "corrected_grammar_fragments": 74,
+      "removed_dynamic_gender_refs": 76,
+      "previous_affected_rows": 1029,
+      "remaining_affected_rows": 1028,
+      "previous_placeholder_occurrences": 2165,
+      "remaining_placeholder_occurrences": 2089,
+      "protected_prior_reviewed_ids": 363,
+      "changes_to_conditions_scripts_ids_options": 0,
+      "pending_windows_ui": 70,
+      "native_windows_gameplay_tested": false
     }
   ]
 }

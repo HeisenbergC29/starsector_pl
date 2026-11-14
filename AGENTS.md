@@ -1,6 +1,8 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.56** (snapshot 1.0.12 + overlaye 1013–1056; OBF 3537 podmian/539 klas i API 5296 podmian/938 klas bez zmian; 110 rzeczywistych korekt tekstow rules.csv, 110 mniej zaimkow dynamicznych, 870 plikow data nadal obecnych, 869 identycznych bajtowo z 1.0.55).
+**Aktualny stan roboczy: 1.0.57** (snapshot 1.0.12 + overlaye 1013–1057; 70 nowych poprawek w 74 gestach, 76 usunietych zbednych zaimkow, 433 unikatowe dialogi po review, 2089 pozostalych surowych zmiennych w 1028 wierszach; mapy JVM nadal 3537 OBF w 539 klasach i 5296 API w 938 klasach; 869 innych plikow data bajtowo niezmienionych). Cel 1.1 wciaz OTWARTY.
+
+**1.0.57:** Oryginalny rules.csv 1.0.56 i 70 SHA-pinned niepowtarzajacych sie dialogow. 74 poprawek gestow (`kreci glowa`, `przewraca oczami`, `sklada dlonie` itd.); 76 mniej zbednych `$hisOrHer`. 10 negatywnych testow i bajtowa rekonstruowalnosc 1.0.56 PASS, 869 pozostalych danych identyczne. Rzeczywisty original-JAR upgrade 1.0.56->1.0.57, idempotencja, tamper rejection, restore PASS. Natywne Windows gameplay NIEWYKONANE. Szczegoly `docs/RELEASE_1057.md`; dziedziczonym testom 1.0.56 podawaj `docs/RELEASE_GATES_1056.json`, a aktualnym 1.0.57 najnowszy `docs/RELEASE_GATES_11.json`.
 
 **1.0.44:** 25 dodatkowych wierszy rules.csv, 30 zmian i 31 usunietych problematycznych zmiennych plciowych. Lacznie 209 rekordow i 327 referencji skontrolowanych offline. Mapy OBF/API bez zmian; 186 getterow Java, 3536 historycznych API oraz testy Windows nadal otwarte. Szczegoly `docs/RELEASE_1044.md`.
 

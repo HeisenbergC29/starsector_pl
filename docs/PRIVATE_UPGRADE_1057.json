@@ -1,0 +1,22 @@
+{
+  "release": "1.0.57",
+  "game_version": "0.98a-RC8",
+  "test_results": {
+    "fresh": {
+      "fresh_equals_upgrade": true,
+      "idempotent": true,
+      "restore_original_SHA": true
+    },
+    "upgrade_1056_to_1057": {
+      "fresh_equals_upgrade": true,
+      "idempotent": true,
+      "restore_original_SHA": true
+    }
+  },
+  "tampered_API_refused": true,
+  "original_API_SHA256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "original_OBF_SHA256": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8",
+  "patched_API_SHA256": "57004e66715ce8ccaec236a85d73961290cb4ebbbdc0282abd12a31c9b0c6be8",
+  "patched_OBF_SHA256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "native_windows_gameplay_tested": false
+}

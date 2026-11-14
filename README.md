@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.56):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.57):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.56** (snapshot 1.0.12 + overlaye 1013–1056; OBF 3537/539 i API 5296/938 bez nowych zmian; 110 skorygowanych dialogow w rules.csv, 110 mniej surowych zmiennych plci, 870 data plikow). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.57** (snapshot 1.0.12 + overlaye 1013–1057; OBF 3537/539 i API 5296/938 bez nowych zmian; 70 dalszych dialogow, 74 korekty gestow i 76 usunietych zbednych zmiennych dzierzawczych; 433 unikatowe dialogi po review, 2089 zmiennych do dalszej oceny w 1028 rekordach). Cel 1.1 OTWARTY.
 
 ## Etap 1.0.45
 
@@ -54,9 +54,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport 1.0.55](docs/RELEASE_1055.md): dwie klasy blokad mialy nieprzetlumaczone jednostki `day/days`, dodatkowe `more ` i naglowki `Assessment` mimo polskich fraz otaczajacych. Dodano osiem class-scoped literalow, poprawiono dwa skladane fragmenty `GenericRaidFGI` o braku celow. 20 testow liczb i stanow blokady, 4 przykladowe nazwy operacji, 7 testow mapy, 10 bramek 1.1 PASS. [JVM original proof](docs/JVM_AUDIT_1055.json) i [realny JAR upgrade](docs/UPGRADE_1055.json): 3 zmienione klasy, zero nowych metodowych instrukcji, swieza instalacja=upgrade 1.0.54->1.0.55. Historyczna recenzja **391/3658**, **3267** nadal otwartych. Nie przetestowano wizualnie w dzialajacej grze Windows; 1.1 nieukonczona.
 
-## Najnowszy etap 1.0.56
+## Etap 1.0.56
 
 [Raport 1.0.56](docs/RELEASE_1056.md): **110 zatwierdzonych korekt dialogow** w 11 107 rekordach `data/campaign/rules.csv`: 71 opuszczen zbednego zaimka po `mowi/odpowiada`, 39 neutralizacji wyrazen dzierzawczych. Wszystkie oryginalne skrypty, identyfikatory i opcje pozostaly bajtowo identyczne; walidator odwraca caly 110-pozycyjny plan i odtwarza oryginalny rules.csv SHA. Pozostaje **2165** wystapien dynamicznych form plci w **1029** dialogach (to kandydaci, nie kazdy jest realnym bledem). Recenzje dialogow: **363 offline**, historyczne API **391/3658** bez zmian. [Rzeczywisty upgrade oryginalnych JAR](docs/PRIVATE_UPGRADE_1056.json) PASS bez jakiejkolwiek zmiany API/OBF. **1.1 NIE jest skonczona**, w szczegolnosci brak native Windows gameplay.
+
+## Najnowszy etap 1.0.57
+
+[Raport, dokumentacja i testy](docs/RELEASE_1057.md): 70 nowych SHA-pinned dialogow (74 idiomatyczne poprawki opisow gestow), 76 usunietych zbednych zmiennych `$hisOrHer`, 869 innych plikow danych bez zmian. Poprzednie 363 dialogi zrecenzowane offline pozostaja chronione; licznik 433. Pozostalo 2089 potencjalnych dynamicznych zmiennych w 1028 dialogach. Bez zmiany map OBF/API i mechaniki gry. Odtworzenie poprzedniego `rules.csv` bajtowo, 20 negatywnych testow CSV/bramek i 5 testow metadanych pakietu PASS. Na oryginalnych JAR: fresh=upgrade 1.0.56->1.0.57, idempotencja, odmowa uszkodzonego JAR i restore PASS. Natywnego gameplay Windows nadal NIE przetestowano; 1.1 NIE gotowa.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

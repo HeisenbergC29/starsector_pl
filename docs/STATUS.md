@@ -1,6 +1,10 @@
-# Stan projektu — Starsector PL 0.98a-RC8, 2026-11-13
+# Stan projektu — Starsector PL 0.98a-RC8, 2026-11-14
 
-**Wydanie robocze 1.0.56. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.57. Cel 1.1 nadal otwarty.**
+
+**1.0.57 (2026-11-14):** Przygotowano i zweryfikowano 70 unikatowych nowych korekt w `rules.csv`: 74 idiomatyczne gesty ciala, 76 usunietych niepotrzebnych `$hisOrHer`. 363 wczesniejsze recenzje zachowane, lacznie 433/11107 dialogow przeanalizowanych offline, pozostaly 1028 rekordow zawierajacych 2089 potencjalnych zmiennych plciowych. SHA rules `693b874b6738d792bbf5b74a9e247e594c607c1834a2822823a228511a311f6c`. Pelny rejestr kazdego ID, oryginalnego i poprawionego tekstu i SHA: `docs/RULES_REFLEXIVE_REVIEW_1057.json`. Cofniecie zmian daje bajtowo oryginalna 1.0.56; pozostale 869 plikow data, mapy OBF/API, skrypty i opcje dialogowe sa niezmienione. Cross-build Windows x64, testy Go, 10 negatywnych mutacji, 10 falszywych bramek, 5 prob falsyfikacji metadanych paczki, prywatny test original JAR fresh=upgrade 1.0.56->1.0.57 i restore: PASS. Historyczne API 391/3658 (3267 otwartych), JVM getters 186 bez zmian. Windows gameplay NIEWYKONANY; 1.1 niekompletna. Patrz `docs/RELEASE_1057.md` i bramki 1.1.
+
+
 
 **1.0.56 (2026-11-14):** 110 niezaleznie zidentyfikowanych id w `rules.csv` (71 neutralnych wtracen `mowi`/`odpowiada`, 39 opisow dzierzawczych). Dla kazdego: identyfikator, pelny stary i nowy tekst, skroty SHA oraz dokladne zamiany. Zmienione tylko 110 pol `text`; IDs, trigger, conditions, script, options, notes bajtowo bez zmian; 869 pozostalych data takich samych jak 1.0.55. Pierwotny rules SHA `e9a6ad60da0caca6fa89af21370eddfa461de39324486368458aca2575e3b64a`, nowy `a08330e67de037fc0df66447c039ec7ac6792340405d2983c04e31f2bfef4810`; odtworzono dokladnie pierwotne bajty odwracajac 110 poprawek. Pozostale surowe dynamiczne zmienne: 1029 rekordow/2165 wystapien z 1139/2275. Poprzednie 253 review bez powtorzen +110=**363 rekordy rules reviewed offline**, wszystkie nadal wymagaja rzeczywistego Windows UI. API 5298 map/5296 trafien w 938 klasach oraz OBF 3537 w 539 klasach **bez zadnych JVM zmian**; nowy API Go akceptuje juz patch 1055. Historyczne API 391/3658 i pozostale 3267 bez zmian. Prawdziwy original-JAR fresh vs upgrade API/OBF, idempotencja, odmowa uszkodzonego JAR, backup/restore PASS. 10 testow negatywnych CSV, 4 kontraktu instalatora, 10 bramek 1.1. Java 186 getterow nadal otwartych; native Windows nieprzetestowany. Zobacz `docs/RELEASE_1056.md`.
 
