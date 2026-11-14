@@ -1,0 +1,685 @@
+{
+  "release": "1.0.63",
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "class_name": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathCellsIntel",
+  "original_class_sha256": "d2bdbbdb250692bd93694ec31624a4dfd3672d07c679a05d399f0bc17f262dbf",
+  "original_class_utf8_strings_loaded": 71,
+  "original_java_ldc_string_uses": 83,
+  "all_47_existing_mapped_strings_confirmed": true,
+  "historical_unreviewed_rows": 35,
+  "approved_repairs": 14,
+  "technical_category_guard": {
+    "literal": "Colony threats",
+    "method": "getIntelTags",
+    "ldc_offset": 36,
+    "set_add_offset": 39
+  },
+  "unresolved_dynamic_english_getter": "MarketAPI.getOnOrAt() returns on/at, cannot safely translate by class literal mapping",
+  "mapped_source_literals": [
+    {
+      "english_literal": "AI core administrator (%s)",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "79e67dfbd243ebefb81a9813567052a55373ec3a4c0cf5405d68e170df8265bf",
+      "uses": [
+        {
+          "method": "public void addInterestInfo(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 270,
+          "opcode": "ldc_w",
+          "constant_pool_index": 575
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "Colony destroyed by planetbuster",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "107660ae8abc9763dfe4e6f4e49f7057520fc7d6ca7b9d9a5968076cd45ff3d5",
+      "uses": [
+        {
+          "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+          "offset": 291,
+          "opcode": "ldc_w",
+          "constant_pool_index": 447
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "Colony threats",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "21191aa3a68c451a76ebe949f12e79cc43ebbdaadbe304c6a52435d321f9e903",
+      "uses": [
+        {
+          "method": "public java.util.Set<java.lang.String> getIntelTags(com.fs.starfarer.api.ui.SectorMapAPI);",
+          "offset": 36,
+          "opcode": "ldc_w",
+          "constant_pool_index": 763
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "Incident averted by local security forces",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "a151fd06b1c97e1db5acbd2a3d76b2ce64a649ae4d5fb38a38f55ff3f8dfe039",
+      "uses": [
+        {
+          "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+          "offset": 105,
+          "opcode": "ldc_w",
+          "constant_pool_index": 388
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "Luddic Path Cells",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "5c6dbe83c87ef85b2d16209e72e425d746c2e8957bc98a505cce238d76f27861",
+      "uses": [
+        {
+          "method": "public java.lang.String getName();",
+          "offset": 0,
+          "opcode": "ldc_w",
+          "constant_pool_index": 780
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "No impact on operations due to lack of material support.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "8e56b6d90fd07ecbf41ae42863b0becb08ab449103ea6207d42254864059fe82",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 590,
+          "opcode": "ldc_w",
+          "constant_pool_index": 675
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "No perceptible impact on operations as of yet.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "f89c87d45dfe0855b933ee6874a037d9158ebd9aa21e3bc9d81a6b3a034bc76c",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 575,
+          "opcode": "ldc_w",
+          "constant_pool_index": 673
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "Pather interest",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "ccb9f6e163d658abb49f36d313d2d7d8de7fa4e3b0c4fa226f8b2372b5a4f232",
+      "uses": [
+        {
+          "method": "public void addInterestInfo(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 11,
+          "opcode": "ldc_w",
+          "constant_pool_index": 486
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "Recent events",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "8ecce94dc301d0336d39467026263e67a76b51f6e3c66c7e4c029428a184561c",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 619,
+          "opcode": "ldc_w",
+          "constant_pool_index": 680
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "Stability reduced by %s",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "4a038e8379fbec333167579cc1a7cd8c070bb9258bc55f68a222db79673d4b4f",
+      "uses": [
+        {
+          "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+          "offset": 246,
+          "opcode": "ldc_w",
+          "constant_pool_index": 441
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "Suspected AI core administrator (%s)",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "beb5ffa6294aa304478e85bccf8d13fb18d6d73efae28582de022056229fa152",
+      "uses": [
+        {
+          "method": "public void addInterestInfo(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 213,
+          "opcode": "ldc_w",
+          "constant_pool_index": 570
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "The Pather cells have conducted low-level attacks on various industrial, military, and civilian targets, reducing stability by %s.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "d3e7c52edcf64318b786cfef8fa19fe7651186cfefad794aed6ab31b382a1122",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 880,
+          "opcode": "ldc_w",
+          "constant_pool_index": 692
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "You do not know the location of the Pather base providing support to these cells.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "f9dfc5610dcae9be1b8b61ec9baf6db52f1da6bc10576d788fd6d5a8e88aea02",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 446,
+          "opcode": "ldc_w",
+          "constant_pool_index": 658
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "saving the colony.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "51bf1be23c747de8e629c650c1725faed1250790dc312b0cce58bd2ca491c11f",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 1116,
+          "opcode": "ldc_w",
+          "constant_pool_index": 706
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "If they succeed, the colony will effectively be destroyed.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "ac2a189256bcc058ade226ac42dfb9da5a2e530aa99f48cdd7b645bd0a7599a0",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 697,
+          "opcode": "ldc_w",
+          "constant_pool_index": 686
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "The following activity is attracting Pather interest, whether due to AI core use or the inherent nature of the industry:",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "f75f07d39d42c0585e8d778528cac045994d18de736f342ffebb9efe4dfe20be",
+      "uses": [
+        {
+          "method": "public void addInterestInfo(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 44,
+          "opcode": "ldc_w",
+          "constant_pool_index": 510
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "You defeated a Luddic Path armada sent against you, and they are now more reluctant to take active measures against your colonies.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "92826c69f8ea22de5f8eb2137c89c7a9b9c8a7198eca5830669f2e2d80ff9d9c",
+      "uses": [
+        {
+          "method": "public void addInterestInfo(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 503,
+          "opcode": "ldc_w",
+          "constant_pool_index": 589
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "If the base is destroyed, it will take some time to organize support from another base, and both ground and fleet operations will be disrupted.",
+      "status": "DRAFT_ONLY_NOT_INSTALLED",
+      "source_sha256": "930e18a4a190eece44735db92303c707bcb5bac18bf39f7be9695ecc37647bfe",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 458,
+          "opcode": "ldc_w",
+          "constant_pool_index": 660
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "%s stability.",
+      "status": "potwierdzone_CONST_String_0989",
+      "source_sha256": "496b43ca152e6d78a608faa7f5bcf97c02f9d68a67433f215b08bc82f2941a3d",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 523,
+          "opcode": "ldc_w",
+          "constant_pool_index": 669
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": ", provided another base exists.",
+      "status": "potwierdzone_CONST_String_0989",
+      "source_sha256": "f19e95ddc4e6d677babd2f9b4baffbab66b8911856cd01dddd106d3289889923",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 330,
+          "opcode": "ldc_w",
+          "constant_pool_index": 640
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "Multiple planned attacks against various industrial, military, and civilian targets  were averted by the local security forces.",
+      "status": "potwierdzone_CONST_String_0989",
+      "source_sha256": "43cd8757d7fb7d689aa199ad323d06e288e941033b53b50cd5918b1868b6a8b8",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 1073,
+          "opcode": "ldc_w",
+          "constant_pool_index": 702
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "The Pathers have not made any significant moves, but are apparently preparing to do so if whatever activity they object to - industrial development, or the suspected use of AI cores, and other such - continues.",
+      "status": "potwierdzone_CONST_String_0989",
+      "source_sha256": "6815fac7863d6509bada6029a627d0452d51ac056d35b83a1b2bda009d2cc204",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 195,
+          "opcode": "ldc_w",
+          "constant_pool_index": 632
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": ", but the local security forces were able to locate and disarm it, thereby ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "e96f696e1577755f87050d3a1de5ab0249bb7c7af5e30971e7229843300f3882",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 1110,
+          "opcode": "ldc_w",
+          "constant_pool_index": 704
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": " - Incident Averted",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "c0614e2bd8616efdabd36f335583af9896151e1cfe209c2491d77e7d0f411641",
+      "uses": [
+        {
+          "method": "public java.lang.String getName();",
+          "offset": 60,
+          "opcode": "ldc_w",
+          "constant_pool_index": 787
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "An attempted act of sabotage against ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "b270fd279f0d515e2a89ddcefc7429622dc0f0f48728a8826dda4b8dd92d67f9",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 1036,
+          "opcode": "ldc_w",
+          "constant_pool_index": 698
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "However, the base supporting these cells is no longer operational. It is projected that establishing a new support network will take at least %s ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "ae504db86a1ab2fa51d6bb2d8d1349f090d43d95fb06ad51c1c95f14c61b3c02",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 319,
+          "opcode": "ldc_w",
+          "constant_pool_index": 638
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "The Pather base at the ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "c0128ea6d579182426e1b83de6be1f2e015ceeee8dd3eba2eb99ffba36318fcd",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 401,
+          "opcode": "ldc_w",
+          "constant_pool_index": 645
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "The Pather cells ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "328536c35cc11f3d3597eb4282a0826653cba5015ac88ee16f55175453f909a3",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 64,
+          "opcode": "ldc_w",
+          "constant_pool_index": 618
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "The Pather cells have conducted a successful act of sabotage, disrupting ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "c83d7e76e378bc75f710e2a155f29c45144d808d0977c247307e66f7a6a5d24b",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 821,
+          "opcode": "ldc_w",
+          "constant_pool_index": 688
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "The Pather cells have smuggled a planetbuster onto ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "65244db7f32af62ae17849f7dc66a3f783f63e3408aa8b8aa14fa96f4ca16d02",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 928,
+          "opcode": "ldc_w",
+          "constant_pool_index": 694
+        },
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 1092,
+          "opcode": "ldc_w",
+          "constant_pool_index": 694
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "There are active Luddic Path cells ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "0aa869e0e9ad77df721b9d94ce15d324ecb1067fbe95debdbff2c8d3b02f8fdc",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 214,
+          "opcode": "ldc_w",
+          "constant_pool_index": 634
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "There are indications that sleeper Luddic Path cells are being organized ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "47c3c42c62c7a28f235d6f7584da50e33fbc916e6dd10171ed407916246b2124",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 141,
+          "opcode": "ldc_w",
+          "constant_pool_index": 628
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "There are indications that the Pather cells are preparing to sneak a planetbuster onto ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "59db6e7c070674e2b31b72c8b0cb03c617035e604fb3a7f7cd10c91e5340497a",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 673,
+          "opcode": "ldc_w",
+          "constant_pool_index": 682
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": " and detonated it. The colony has been effectively destroyed.",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "18ac02af07a9c76ce6eefd56e6b06c384aa06726ff935eef6f22d8fb09d9f31b",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 946,
+          "opcode": "ldc_w",
+          "constant_pool_index": 696
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": " have been dissolved.",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "8b5e7e3df71e406fce4d9f409551350bfd994fa7caa22fa956eaa892d13a5b78",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 100,
+          "opcode": "ldc_w",
+          "constant_pool_index": 626
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": " is providing support to these cells.",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "a3ccc997ba25a817353b4490ac2d5d49617793f59ad8979450f2056ff631d4ac",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 425,
+          "opcode": "ldc_w",
+          "constant_pool_index": 656
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": " operations disrupted for %s ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "2c93608e0e0676c423f66abb5c76768058d1c03fa7e806a08606e1fd41d8ef0d",
+      "uses": [
+        {
+          "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+          "offset": 208,
+          "opcode": "ldc_w",
+          "constant_pool_index": 429
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": " operations for %s ",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "f30c5160a3788f8d4571b45a650b903306225883f7b20e4c4268c6b48cdb51ec",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 837,
+          "opcode": "ldc_w",
+          "constant_pool_index": 690
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": " operations was averted by the local security forces.",
+      "status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "source_sha256": "df5dc613a63cf85d598ac3ce72642a2841df41397980853ead79b6070a4306ca",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 1052,
+          "opcode": "ldc_w",
+          "constant_pool_index": 700
+        }
+      ],
+      "repair_1063": true
+    },
+    {
+      "english_literal": "Impact",
+      "status": "REVIEWED_VISIBLE_UI_1004",
+      "source_sha256": "d1f23f0d13613e27a88662a70ea79ccf4554ff8ee1d7d66b08c1c5d7cd60d718",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 477,
+          "opcode": "ldc_w",
+          "constant_pool_index": 662
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": " - Incident",
+      "status": "REVIEWED_VISIBLE_UI_1004",
+      "source_sha256": "5421e6691eb40279e218110bf65f5160ddd771b0f1bfb1bd7fdada8ef7a4408d",
+      "uses": [
+        {
+          "method": "public java.lang.String getName();",
+          "offset": 39,
+          "opcode": "ldc_w",
+          "constant_pool_index": 785
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": " - Dissolved",
+      "status": "REVIEWED_VISIBLE_UI_1004",
+      "source_sha256": "8b7600ab6f458d1e8169e16c3b082591a41ce2dd56a76f285942d58935a46fe5",
+      "uses": [
+        {
+          "method": "public java.lang.String getName();",
+          "offset": 88,
+          "opcode": "ldc_w",
+          "constant_pool_index": 789
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": " - Disrupted",
+      "status": "REVIEWED_VISIBLE_UI_1004",
+      "source_sha256": "91443c2c9813e0b36461a79b6693fd0e462dfc39653c623dd740d014bd84dd35",
+      "uses": [
+        {
+          "method": "public java.lang.String getName();",
+          "offset": 118,
+          "opcode": "ldc_w",
+          "constant_pool_index": 791
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": " - Sleeper",
+      "status": "REVIEWED_VISIBLE_UI_1004",
+      "source_sha256": "cd8d5b49e4803bcd084de18f3d9cf75fa77cf8134b1cd8ffd9e50e781127f95e",
+      "uses": [
+        {
+          "method": "public java.lang.String getName();",
+          "offset": 146,
+          "opcode": "ldc_w",
+          "constant_pool_index": 793
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": " - Active",
+      "status": "REVIEWED_VISIBLE_UI_1004",
+      "source_sha256": "ad5ddecb3e918d53e0e1c9e4ed5e0c2dfa48289840ada5fca429d6323d4baf29",
+      "uses": [
+        {
+          "method": "public java.lang.String getName();",
+          "offset": 167,
+          "opcode": "ldc_w",
+          "constant_pool_index": 795
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": " sabotage",
+      "status": "REVIEWED_UI_LITERAL_1005",
+      "source_sha256": "515ed1cb3ce002709c4ff383678583d210370ea2927a4ede3badb4c30eb22428",
+      "uses": [
+        {
+          "method": "public void doIncident();",
+          "offset": 69,
+          "opcode": "ldc_w",
+          "constant_pool_index": 889
+        }
+      ],
+      "repair_1063": false
+    },
+    {
+      "english_literal": "They are engaged in planning acts of terror and industrial sabotage, but are unlikely to carry them off unless the overal level of hostile activity in the system provides sufficient cover. The cells also provide intel to Pather fleets operating in-system.",
+      "status": "REVIEWED_UI_VISIBLE",
+      "source_sha256": "0e674f89731e5138faee516a331e670055812e844ab3d6143e97e2cf1761ec88",
+      "uses": [
+        {
+          "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+          "offset": 268,
+          "opcode": "ldc_w",
+          "constant_pool_index": 636
+        }
+      ],
+      "repair_1063": false
+    }
+  ],
+  "native_windows_gameplay_tested": false
+}

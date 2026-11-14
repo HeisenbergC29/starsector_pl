@@ -25,10 +25,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 447,
-      "unresolved_count": 3211,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1062.json",
-      "source": "1.0.62: all 416 prior verified historical API fingerprints preserved, plus 31 PirateBaseIntel DRAFT/OPTIONAL original-JVM-scoped reviews. Two newly mapped original literals are not counted as historic. 3211 entries await review; Windows gameplay untested."
+      "reviewed_offline": 482,
+      "unresolved_count": 3176,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1063.json",
+      "source": "1.0.63: preserved 447 previous original-JVM historical API reviews byte-for-byte and added 35 LuddicPathCellsIntel draft class-scoped reviews, 14 corrected UI/technical fragments. 3176 historical API entries remain. Native Windows gameplay not tested."
     },
     {
       "id": "rules_possessives",
@@ -152,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.62: 31 historical PirateBaseIntel API mappings reviewed offline, 5 class-scoped fixes including restoring two technical category keys and two newly mapped UI highlighter literals; 1953 gender markers in 1006 rules, 3211 historic API entries, 186 JVM getters remain unreviewed. Native Windows gameplay missing."
+      "source": "1.0.63: 35 historical LuddicPathCellsIntel API drafts newly reviewed offline, 14 string repairs, 83 JVM uses checked. 1953 raw gender markers across 1006 rules remain; 3176 historical API rows and 186 getter calls pending. Some English dynamic getters on/at, has/have need bytecode-aware treatment. Windows gameplay untested."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.62: 42 PirateBaseIntel original-JVM ldc callsites checked offline. Private original-JAR fresh=upgrade 1.0.61->1.0.62; no native Windows gameplay UI test."
+      "source": "1.0.63: 83 original JVM LuddicPathCellsIntel string loads verified offline, 60 simulated render variants; private original-JAR fresh equals 1.0.62->1.0.63 upgrade, but no native Windows game or UI test."
     },
     {
       "id": "rules_reflexive_1057",
@@ -248,6 +248,23 @@
       "restored_technical_category_strings": 2,
       "changed_game_data_files": 0,
       "changed_jvm_executable_instructions": 0,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "luddic_path_cells_jvm_1063",
+      "status": "in_progress",
+      "source": "tools/apply_1063.py, docs/LUDDIC_CELLS_REVIEW_1063.json, docs/JVM_AUDIT_1063.json, docs/API_SEMANTIC_REVIEW_1063.json: 35 historical DRAFT/OPTIONAL rows verified in original JVM, 14 scoped grammar and technical-tag fixes, 83 ldc uses, 60 dynamic render checks, original commercial JAR fresh=upgrade with exactly one class changed; no JVM executable instruction changes.",
+      "previous_historical_reviews": 447,
+      "new_historical_reviews": 35,
+      "total_historical_reviews": 482,
+      "repaired_existing_literals": 14,
+      "mapped_source_literals": 47,
+      "original_jvm_ldc_uses": 83,
+      "rendered_dynamic_variants": 60,
+      "technical_category_keys_restored": 1,
+      "changed_classes": 1,
+      "game_data_changed": 0,
+      "new_jvm_instruction_changes": 0,
       "native_windows_gameplay_tested": false
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "release": "1.0.63",
+  "fresh_equal_upgrade": true,
+  "repeat_apply_noop": true,
+  "original_restore_byte_exact": true,
+  "tampered_jar_rejected": true,
+  "changed_class_count": 1,
+  "changed_classes": [
+    "com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+  ],
+  "java_instruction_offsets_opcodes_identical": true,
+  "new_api_sha256": "64c62c940264e4bd386503c68b2784f775fc1275bab8a812b2812431e31f45f4",
+  "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "native_windows_gameplay_tested": false
+}

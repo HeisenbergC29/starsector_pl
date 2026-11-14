@@ -1,0 +1,92 @@
+{
+  "version": "1.0.63",
+  "mapping": {
+    "release": "1.0.63",
+    "historical_api_reviewed_new": 35,
+    "historical_api_reviewed_total": 482,
+    "historical_api_unreviewed": 3176,
+    "source_class_count": 1,
+    "mapped_literals": 47,
+    "original_jvm_ldc_uses": 83,
+    "original_jvm_unique_source_strings": 71,
+    "repaired_literals": 14,
+    "game_data_files_byte_identical": 870,
+    "old_mapping_sha256": "1f85680ff856b858f2f4db342aa98754c085a35bec6e9d0538113a55f9471f01",
+    "new_mapping_sha256": "5443294fa1cdf96b21fb7bba3e5a92b96f8f1b6cec6807203dd7e3e74e1d58fc",
+    "windows_gameplay_tested": false,
+    "rendered_combinations": 60,
+    "categories": [
+      "bullet_disruption_duration",
+      "industrial_sabotage_averted",
+      "planetbuster_defused",
+      "planetbuster_detonation",
+      "planetbuster_warning",
+      "sabotage_duration",
+      "support_base"
+    ],
+    "dynamic_market_industry_system_names_tested": 12,
+    "numeric_forms_tested": 5,
+    "technical_keys_protected": 1
+  },
+  "negative_mapping_tests": {
+    "release": "1.0.63",
+    "rejected_corrupted_map_and_composition_cases": 12,
+    "rechecked_approved_compositions": 60,
+    "cases": {
+      "delete reviewed original row": "REJECTED",
+      "duplicate original mapping": "REJECTED",
+      "review status rewritten before approval": "REJECTED",
+      "unknown previous Polish text": "REJECTED",
+      "previously protected mapping changed": "REJECTED",
+      "missing %s highlight placeholder": "REJECTED",
+      "technical category tag translated": "REJECTED",
+      "destroyed colony with English label": "REJECTED",
+      "warning loses required space": "REJECTED",
+      "bad support-base composition": "REJECTED",
+      "grammatically invalid averted industrial target": "REJECTED",
+      "double space injected into planetbuster line": "REJECTED"
+    }
+  },
+  "contract_tests": {
+    "version": "1.0.63",
+    "preflight_passed": true,
+    "invalid_metadata_cases_rejected": [
+      "fake completed history",
+      "wrong new historical row count",
+      "inflate compositions",
+      "fabricate changed data",
+      "technical tag protection missing",
+      "inflate repair count"
+    ]
+  },
+  "private_original_jar": {
+    "release": "1.0.63",
+    "fresh_equal_upgrade": true,
+    "repeat_apply_noop": true,
+    "original_restore_byte_exact": true,
+    "tampered_jar_rejected": true,
+    "changed_class_count": 1,
+    "changed_classes": [
+      "com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathCellsIntel.class"
+    ],
+    "java_instruction_offsets_opcodes_identical": true,
+    "new_api_sha256": "64c62c940264e4bd386503c68b2784f775fc1275bab8a812b2812431e31f45f4",
+    "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "native_windows_gameplay_tested": false
+  },
+  "go_test_and_vet": {
+    "api": "PASS",
+    "obf": "PASS",
+    "installer": "PASS"
+  },
+  "options": {
+    "inspected": 7371,
+    "invalid": 0
+  },
+  "windows_crossbuild": {
+    "api_x64": "PASS",
+    "obf_x64": "PASS",
+    "installer_x64": "PASS"
+  },
+  "native_windows_gameplay_tested": false
+}

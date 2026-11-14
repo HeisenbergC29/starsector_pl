@@ -429,9 +429,24 @@ jobs:
           python3 tools/build_review_1062.py worktree --record docs/PIRATE_BASE_REVIEW_1062.json --previous docs/API_SEMANTIC_REVIEW_1061.json --ledger docs/API_SEMANTIC_REVIEW_1062.json
       - name: 'Reject unsupported 1.1 release claims and require native Windows game testing'
         run: |
-          python3 tools/check_release_gates_1062.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1061.json --prior-semantic docs/API_SEMANTIC_REVIEW_1061.json --semantic docs/API_SEMANTIC_REVIEW_1062.json
-          python3 tools/test_release_gates_1062.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1061.json --prior-semantic docs/API_SEMANTIC_REVIEW_1061.json --semantic docs/API_SEMANTIC_REVIEW_1062.json
+          python3 tools/check_release_gates_1062.py worktree --gates docs/RELEASE_GATES_1062.json --previous docs/RELEASE_GATES_1061.json --prior-semantic docs/API_SEMANTIC_REVIEW_1061.json --semantic docs/API_SEMANTIC_REVIEW_1062.json
+          python3 tools/test_release_gates_1062.py worktree --gates docs/RELEASE_GATES_1062.json --previous docs/RELEASE_GATES_1061.json --prior-semantic docs/API_SEMANTIC_REVIEW_1061.json --semantic docs/API_SEMANTIC_REVIEW_1062.json
           python3 -m py_compile tools/private_upgrade_1062.py tools/audit_original_jvm_1062.py tools/package_1062.py
+      - name: Apply v1.0.63 exactly 14 Luddic Path Cells original-JVM scoped corrections
+        run: python3 tools/apply_1063.py worktree
+      - name: Verify 35 new historical rows, 83 JVM usages, 60 grammar examples and tamper rejection
+        run: |
+          python3 tools/verify_1063.py worktree
+          python3 tools/test_1063.py worktree
+          python3 tools/test_package_contract_1063.py worktree
+      - name: Preserve all 447 previous semantic fingerprints and verify 35 new API reviews
+        run: |
+          python3 tools/build_review_1063.py worktree --record docs/LUDDIC_CELLS_REVIEW_1063.json --previous docs/API_SEMANTIC_REVIEW_1062.json --ledger docs/API_SEMANTIC_REVIEW_1063.json
+      - name: 'Fail closed on v1.1: require native Windows game testing and 3176 remaining reviews'
+        run: |
+          python3 tools/check_release_gates_1063.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1062.json --prior-semantic docs/API_SEMANTIC_REVIEW_1062.json --semantic docs/API_SEMANTIC_REVIEW_1063.json
+          python3 tools/test_release_gates_1063.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1062.json --prior-semantic docs/API_SEMANTIC_REVIEW_1062.json --semantic docs/API_SEMANTIC_REVIEW_1063.json
+          python3 -m py_compile tools/private_upgrade_1063.py tools/audit_original_jvm_1063.py tools/package_1063.py
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -472,18 +487,18 @@ jobs:
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
       - name: Cross-build Linux JVM patchers for private original-JAR regression
         run: |
-          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1062" .)
-          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1062" .)
-          file api_linux_1062 obf_linux_1062
-          file api_linux_1062 | grep -q 'ELF 64-bit'
-          file obf_linux_1062 | grep -q 'ELF 64-bit'
+          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1063" .)
+          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1063" .)
+          file api_linux_1063 obf_linux_1063
+          file api_linux_1063 | grep -q 'ELF 64-bit'
+          file obf_linux_1063 | grep -q 'ELF 64-bit'
       - name: Upload temporary Linux patchers (no commercial JAR)
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.62_private_JAR_audit_patchers
+          name: Starsector_PL_1.0.63_private_JAR_audit_patchers
           path: |
-            api_linux_1062
-            obf_linux_1062
+            api_linux_1063
+            obf_linux_1063
           retention-days: 1
           if-no-files-found: error
       - name: Validate private-JAR regression script is importable
@@ -491,23 +506,23 @@ jobs:
       - name: Export temporary API patcher sources for historical upgrade verification
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.62_API_source_for_private_upgrade
+          name: Starsector_PL_1.0.63_API_source_for_private_upgrade
           path: worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/
           retention-days: 1
           if-no-files-found: error
       - name: Export OBF patcher source for targeted original-JAR issue audit
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.62_OBF_source_for_private_audit
+          name: Starsector_PL_1.0.63_OBF_source_for_private_audit
           path: worktree/buildtools/NARZEDZIA_OBF/
           if-no-files-found: error
           retention-days: 2
-      - name: Package and CRC-check 1.0.62 minimal Windows installer
-        run: python3 tools/package_1062.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.62_MINIMALNY.zip
-      - name: Upload the 1.0.62 Windows package
+      - name: Package and CRC-check 1.0.63 minimal Windows installer
+        run: python3 tools/package_1063.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.63_MINIMALNY.zip
+      - name: Upload the 1.0.63 Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_ASCII_1.0.62
-          path: Starsector_PL_ASCII_0.98a_RC8_1.0.62_MINIMALNY.zip
+          name: Starsector_PL_ASCII_1.0.63
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.63_MINIMALNY.zip
           if-no-files-found: error
           retention-days: 7

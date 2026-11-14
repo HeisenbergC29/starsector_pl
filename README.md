@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.62):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.63):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.62** (snapshot 1.0.12 + nakladki 1013-1062; 31 dodatkowych historycznych recenzji API PirateBaseIntel, 5 naprawionych tlumaczen, 2 brakujace UI highlighter literals; 42 original-JVM ldc sites. API 5314 mapowanych wierszy. Dwa techniczne klucze kategorii sa chronione; 870 mod/data niezmienionych. Docelowa 1.1 nadal NIE GOTOWA).
+**Aktualny stan roboczy: 1.0.63** (snapshot 1.0.12 + overlaye 1013–1063; 35 nowych historycznych API recenzji w LuddicPathCellsIntel i 14 poprawek tekstowych/technicznych, 83 JVM ldc usages, 60 renderow dynamicznych; API 5314 wierszy, 870 danych gry niezmienione. Historia API 482/3658, jeszcze 3176 do recenzji. Cel 1.1 nadal NIE GOTOWY).
 
 ## Etap 1.0.45
 
@@ -78,9 +78,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Dokumentacja, audit i odtwarzalne testy](docs/RELEASE_1061.md): w `GateHaulerIntel` poprawiono polskie czasy `dzien/dni`, statusy Holownika Bram, skladanie docelowych ukladow i czasow lotu. **25** starych DRAFT/OPTIONAL wierszy zweryfikowano semantycznie po sprawdzeniu **49** odczytow `ldc` w oryginalnym JVM. 15 wczesniejszych tekstow poprawiono, 3 nowe dodano, 93 warianty zdan przetestowano. Historyczna recenzja API: **416/3658** (3242 nadal otwarte). Original-JAR fresh=upgrade 1.0.60->1.0.61, jedna klasa zmieniona, kod JVM identyczny. Wszystkie 870 plikow gry i 7371 opcji dialogowych niezmienione. **Brak testu natywnej rozgrywki Windows. Wersja 1.1 NIE jest jeszcze ukonczona.**
 
-## Najnowszy etap 1.0.62
+## Etap 1.0.62
 
 [Dokumentacja i dowody](docs/RELEASE_1062.md): **31** historycznych DRAFT/OPTIONAL wierszy klasy `PirateBaseIntel` zrecenzowano na podstawie **42** wywolan oryginalnego JVM; 5 korekt, 2 nowe literaly `Agreement` i `agreement`, 18 testow skladanych powiadomien. Przywrocono oryginalne techniczne znaczniki `Fleet log` i `Colony threats` uzywane przez `Set.contains` i `Set.add` (nie sa to zwykle etykiety interfejsu). 416 starszych odciskow recenzji zachowano, razem **447/3658**, pozostaje **3211**. Fresh original-JAR 1.0.62 = upgrade 1.0.61->1.0.62; tylko jedna klasa Java zmieniona, opcode niezmieniony. 870 plikow danych identycznych. Otwarty problem dynamicznego angielskiego `has/have` i tytulow baz. Natywnego testu gry Windows nie przeprowadzono. Wersja 1.1 NIEUKONCZONA.
+
+## Najnowszy etap 1.0.63
+
+[Raport, dowody JVM i reprodukcja](docs/RELEASE_1063.md): **35** wczesniej niezweryfikowanych historycznych API wpisow klasy `LuddicPathCellsIntel` zrecenzowano przez **83** original-JVM `ldc/ldc_w` (71 unikatowych stalych), **14** naprawionych tekstow w raportach sabotażu i broni planetobojczej, techniczny klucz `Colony threats` przywrocony na podstawie `Set.add()`. **60** przetestowanych skladanych komunikatow i 12 odrzuconych uszkodzonych mapowan. Oryginalne JAR: fresh 1.0.63 = upgrade 1.0.62->1.0.63, tylko jedna klasa JVM zmieniona, bytecode instrukcje nienaruszone. 447 poprzednich recenzji API zachowane: lacznie **482/3658**, 3176 otwartych. Dynamiczne getOnOrAt i hasOrHave wymagaja osobnej pracy, natywny gameplay Windows niezweryfikowany. **1.1 NIE GOTOWA.**
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
