@@ -87,7 +87,8 @@ def check(root:Path)->dict:
  digest=sha('\n'.join(f'{p.relative_to(data).as_posix()}:{sha(p.read_bytes())}' for p in files).encode())
  if len(files)!=870 or digest!=DATA_SHA or sha((data/'campaign/rules.csv').read_bytes())!=RULES_SHA:
   raise ValueError('Localized game data changed unexpectedly')
- record=root/'docs/GATE_HAULER_REVIEW_1061.json';ev=root/'docs/JVM_AUDIT_1061.json'
+ repo=Path(__file__).resolve().parent.parent
+ record=repo/'docs/GATE_HAULER_REVIEW_1061.json';ev=repo/'docs/JVM_AUDIT_1061.json'
  if sha(record.read_bytes())!=REVIEW_SHA or sha(ev.read_bytes())!=JVM_EVIDENCE_SHA:raise ValueError('Original-JVM evidence or manual review ledger changed')
  review=check_review(root,record)
  audit=json.loads(ev.read_text('utf8'))
