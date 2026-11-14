@@ -1,0 +1,90 @@
+{
+  "release": "1.0.64",
+  "source_audit": {
+    "release": "1.0.64",
+    "historical_api_reviewed_new": 48,
+    "historical_api_reviewed_total": 530,
+    "historical_api_unreviewed": 3128,
+    "source_classes": 2,
+    "mapped_literals": 56,
+    "original_jvm_ldc_uses": 150,
+    "corrected_literals": 9,
+    "unchanged_game_data_files": 870,
+    "new_map_sha256": "080333ba3c5d89f79a27e83737be8eb940c21a10446901ae01de98ef735a7588",
+    "native_windows_gameplay_tested": false,
+    "rendered_combinations": 25,
+    "classes": 2,
+    "dynamic_names_tested": 10,
+    "technical_keys_protected": 3,
+    "kinds": [
+      "forces_arrival",
+      "inspection_compliance",
+      "inspection_disruption",
+      "path_base_support",
+      "path_base_unknown_support"
+    ]
+  },
+  "negative_tests": {
+    "release": "1.0.64",
+    "rejected_invalid_cases": 12,
+    "original_25_rendered_combinations_valid": 25,
+    "cases": {
+      "missing original source row": "REJECTED",
+      "duplicated original row": "REJECTED",
+      "unapproved status advance": "REJECTED",
+      "unexpected original text": "REJECTED",
+      "non-targeted translation altered": "REJECTED",
+      "Hegemony technical tag translated": "REJECTED",
+      "Path base Colony threats translated": "REJECTED",
+      "Path base Fleet log sorting key translated": "REJECTED",
+      "Hegemony target placeholder removed": "REJECTED",
+      "inspection decision lacks punctuation": "REJECTED",
+      "Path base invalid faction grammar": "REJECTED",
+      "Path base status untranslated": "REJECTED"
+    }
+  },
+  "package_contract": {
+    "version": "1.0.64",
+    "preflight_passed": true,
+    "invalid_metadata_cases_rejected": [
+      "fake completed history",
+      "wrong new historical row count",
+      "inflate compositions",
+      "fabricate changed data",
+      "technical tag protection missing",
+      "inflate repair count"
+    ]
+  },
+  "private_original_JAR": {
+    "release": "1.0.64",
+    "fresh_equal_upgrade": true,
+    "repeat_apply_noop": true,
+    "original_restore_byte_exact": true,
+    "tampered_jar_rejected": true,
+    "changed_class_count": 2,
+    "changed_classes": [
+      "com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class",
+      "com/fs/starfarer/api/impl/campaign/intel/inspection/HegemonyInspectionIntel.class"
+    ],
+    "java_instruction_offsets_opcodes_identical": true,
+    "new_api_sha256": "083160c303470a51f7d8cdfb1567499957f971612217c9a0b4706830b297337e",
+    "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "native_windows_gameplay_tested": false
+  },
+  "go_test_and_vet": {
+    "api": "PASS",
+    "obf": "PASS",
+    "installer": "PASS"
+  },
+  "windows_build": "PASS",
+  "dialogue_options": {
+    "inspected": 7371,
+    "invalid": 0
+  },
+  "package": {
+    "path": "Starsector_PL_ASCII_0.98a_RC8_1.0.64_LOCAL.zip",
+    "bytes": 19804664,
+    "sha256": "0e825aa43f92789d8d7ce54efc71b70fd1e360df2e72a17dd416b59796d929e2"
+  },
+  "native_windows_gameplay_tested": false
+}

@@ -1,0 +1,920 @@
+{
+  "release": "1.0.64",
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "mapped_classes": 2,
+  "original_jvm_ldc_uses": 150,
+  "mapped_literals": 56,
+  "historic_draft_reviews": 48,
+  "repaired_literals": 9,
+  "technical_tags": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "source_literal": "Colony threats",
+      "method": "getIntelTags(",
+      "ldc_offset": 17,
+      "set_opcode_offset": 20,
+      "set_operation": "Set.add:"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "source_literal": "Colony threats",
+      "method": "getIntelTags(",
+      "ldc_offset": 79,
+      "set_opcode_offset": 82,
+      "set_operation": "Set.add:"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "source_literal": "Fleet log",
+      "method": "getSortString(",
+      "ldc_offset": 4,
+      "set_opcode_offset": 7,
+      "set_operation": "Set.contains:"
+    }
+  ],
+  "classes": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "original_class_sha256": "be32379adad51bd350e2759140a813cbd3af73715e6d3d6f22e42d830b8f3304",
+      "total_ldc_uses": 56,
+      "unique_ldc_literals": 45,
+      "mapped_source_literals": 28,
+      "new_historical_reviews": 24,
+      "literal_evidence": [
+        {
+          "english_literal": ". Your forces will attempt to resist the inspection.",
+          "source_sha256": "51810b3ef145e0ed7c3dfda4b2f1d0bd47137485edc5ca6275ff5b0424b00661",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 544,
+              "opcode": "ldc_w",
+              "cp_index": 683
+            }
+          ]
+        },
+        {
+          "english_literal": "Arrived in-system",
+          "source_sha256": "50821191743fe44bf6b7757ac7d75a8b8385fb27148218e26ac3703df0c28a7f",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 300,
+              "opcode": "ldc_w",
+              "cp_index": 486
+            }
+          ]
+        },
+        {
+          "english_literal": "Change orders",
+          "source_sha256": "965ad215e368e19c188ad44e32a267a172afedf2a1d9d3edfd281ab4cfa14952",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 752,
+              "opcode": "ldc_w",
+              "cp_index": 704
+            }
+          ]
+        },
+        {
+          "english_literal": "Colony threats",
+          "source_sha256": "21191aa3a68c451a76ebe949f12e79cc43ebbdaadbe304c6a52435d321f9e903",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "public java.util.Set<java.lang.String> getIntelTags(com.fs.starfarer.api.ui.SectorMapAPI);",
+              "offset": 17,
+              "opcode": "ldc_w",
+              "cp_index": 748
+            }
+          ]
+        },
+        {
+          "english_literal": "Defenders will comply",
+          "source_sha256": "3cf4fcfd8c3af0f8f04caca36a10ae94b0ddf8a2214095d8fa7f0ffaec7ccfe3",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 755,
+              "opcode": "ldc_w",
+              "cp_index": 543
+            }
+          ]
+        },
+        {
+          "english_literal": "Defenders will resist",
+          "source_sha256": "063f12d190d723fbc07ef29e0beb6478bab669ba06f9244a6864187d5e73fc89",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 728,
+              "opcode": "ldc_w",
+              "cp_index": 541
+            }
+          ]
+        },
+        {
+          "english_literal": "Funds allocated for bribe",
+          "source_sha256": "29e37ac94499b2a4c7af671e4083245f4da32e4565dc76b282437e17c17655ae",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 782,
+              "opcode": "ldc_w",
+              "cp_index": 548
+            }
+          ]
+        },
+        {
+          "english_literal": "Hegemony AI Inspection",
+          "source_sha256": "b3cecc9c1a6a675d58ea538260d9638c0fb9bd3dbebf5398de8803c83d6e3124",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 0,
+              "opcode": "ldc_w",
+              "cp_index": 393
+            }
+          ]
+        },
+        {
+          "english_literal": "Inspection under way",
+          "source_sha256": "6ae25feb636da92373feb044e71b8d8518b407e7fba0855cf98b39e18f5a9aa2",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 818,
+              "opcode": "ldc_w",
+              "cp_index": 553
+            }
+          ]
+        },
+        {
+          "english_literal": "It is certain to find any AI cores currently in use.",
+          "source_sha256": "061d22cceda941ab8e67c46d39e12318844a8311df32173673644bd9c65dd68e",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 697,
+              "opcode": "ldc_w",
+              "cp_index": 698
+            }
+          ]
+        },
+        {
+          "english_literal": "No AI cores found",
+          "source_sha256": "01011629cd5604ad15932d82c682ce60b75d9b1cc5de4519ae21894aef892974",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 431,
+              "opcode": "ldc_w",
+              "cp_index": 515
+            }
+          ]
+        },
+        {
+          "english_literal": "Operations at %s disrupted",
+          "source_sha256": "c7dc79dab5a10d220e607e3d3395c25d33a68c92ff83727e84566e5f8ddfb2d6",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 492,
+              "opcode": "ldc_w",
+              "cp_index": 520
+            }
+          ]
+        },
+        {
+          "english_literal": "The inspection task force is in-system and there's no time to implement new orders.",
+          "source_sha256": "2e33612223c440a10facfe295bc61bd6f353ab975ed43cdfb8761402f25d8e5b",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 801,
+              "opcode": "ldc_w",
+              "cp_index": 716
+            }
+          ]
+        },
+        {
+          "english_literal": "You've allocated enough funds to ensure the inspection will produce a satisfactory outcome all around.",
+          "source_sha256": "caa52ad5d0e2d9f186ed5fedf91339ae5542f70935e66b3f5e863ca9b4c5f609",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 718,
+              "opcode": "ldc_w",
+              "cp_index": 700
+            }
+          ]
+        },
+        {
+          "english_literal": "Your orders",
+          "source_sha256": "9000c7d9c98befa4d29ab913d8701703c7ef441e383e58ab04865c2ec46449fc",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 449,
+              "opcode": "ldc_w",
+              "cp_index": 679
+            }
+          ]
+        },
+        {
+          "english_literal": "Your space and ground forces will attempt to resist the inspection.",
+          "source_sha256": "afc314e4f74ef84690c37238c7ea87851befe5634fddae8ea87a65907d9a62c9",
+          "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 733,
+              "opcode": "ldc_w",
+              "cp_index": 702
+            }
+          ]
+        },
+        {
+          "english_literal": "The authorities at ",
+          "source_sha256": "f6ddea2bae6276035fa9971f5c4759f026eb50f0cde1b1ce02165bb001812e99",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 673,
+              "opcode": "ldc_w",
+              "cp_index": 694
+            }
+          ]
+        },
+        {
+          "english_literal": " The task force is projected to be ",
+          "source_sha256": "2ecc7479a7f4eac661ec7020545c4af6ed0de5eab939fdf857449ab107b313e2",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 136,
+              "opcode": "ldc_w",
+              "cp_index": 624
+            }
+          ]
+        },
+        {
+          "english_literal": " and is likely comprised of ",
+          "source_sha256": "dd0fa003e9b8533b5557cbdd923c026e6a1ccd599edf4985515cda117a33ad57",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 147,
+              "opcode": "ldc_w",
+              "cp_index": 626
+            }
+          ]
+        },
+        {
+          "english_literal": " forces arrive in-system and encounter resistance",
+          "source_sha256": "db5430e7c06fb7d5347a70907f96bd8ee690eb4ba67813f5058ceeb362dd8c4a",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 166,
+              "opcode": "ldc_w",
+              "cp_index": 475
+            }
+          ]
+        },
+        {
+          "english_literal": " hostile towards ",
+          "source_sha256": "84f8ca619619d2da3ffc5976495dc77ba6bf12e6a6c4ba513f5c1ec913b7093e",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 528,
+              "opcode": "ldc_w",
+              "cp_index": 681
+            }
+          ]
+        },
+        {
+          "english_literal": " targeting %s for an inspection due to the suspected use of AI cores there.",
+          "source_sha256": "3c98f8d2206dffd6be2a235baab834405e0837c894036bafead8ae85ae973fe4",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 130,
+              "opcode": "ldc_w",
+              "cp_index": 622
+            }
+          ]
+        },
+        {
+          "english_literal": " until arrival",
+          "source_sha256": "22b95f1b629c5bc280cf8dfc4049f19690ccf233bc09b89e86245f2df0303cb9",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 664,
+              "opcode": "ldc_w",
+              "cp_index": 535
+            }
+          ]
+        },
+        {
+          "english_literal": " will comply with the inspection. ",
+          "source_sha256": "1689058fc5190819fa4912b64dfc2483bd3858265219a6b79fe8977c6a703e9d",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 691,
+              "opcode": "ldc_w",
+              "cp_index": 696
+            }
+          ]
+        },
+        {
+          "english_literal": " - Failed",
+          "source_sha256": "e6ff8363fd8c25727873927072de67ea93ad7813a4eb12537c4019a732384d6d",
+          "old_status": "REVIEWED_VISIBLE_UI_1004",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 35,
+              "opcode": "ldc_w",
+              "cp_index": 411
+            }
+          ]
+        },
+        {
+          "english_literal": " - Completed",
+          "source_sha256": "4815a547047ebb2d0527bc9c4dea7ec96dedc39534a26e5d2b6165bde6349c2f",
+          "old_status": "REVIEWED_VISIBLE_UI_1004",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 63,
+              "opcode": "ldc_w",
+              "cp_index": 420
+            }
+          ]
+        },
+        {
+          "english_literal": "Target: %s",
+          "source_sha256": "276300dc0c3414777d93ac03dacb5c691a142168c0c1deb9b5036623f6d81e23",
+          "old_status": "REVIEWED_VISIBLE_UI_1004",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 107,
+              "opcode": "ldc_w",
+              "cp_index": 455
+            },
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 260,
+              "opcode": "ldc_w",
+              "cp_index": 455
+            },
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 588,
+              "opcode": "ldc_w",
+              "cp_index": 455
+            }
+          ]
+        },
+        {
+          "english_literal": "Estimated %s ",
+          "source_sha256": "386dce608559b6b6573411c31809a50a84c715ee9efd262ba95dd5cd57f6cc9e",
+          "old_status": "VERIFIED_ORIGINAL_LITERAL_1008",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 653,
+              "opcode": "ldc_w",
+              "cp_index": 533
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "original_class_sha256": "fd73a6a0d3ee43befdb30272a2086b08857214adaa05ac17f7ec64249cd03cac",
+      "total_ldc_uses": 94,
+      "unique_ldc_literals": 89,
+      "mapped_source_literals": 28,
+      "new_historical_reviews": 24,
+      "literal_evidence": [
+        {
+          "english_literal": "%s received",
+          "source_sha256": "8e9a5693d2c9409937467b95222271342920936377edc9108289dc995c9269da",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 285,
+              "opcode": "ldc_w",
+              "cp_index": 1016
+            }
+          ]
+        },
+        {
+          "english_literal": "%s reward",
+          "source_sha256": "42e9f239a75d7c163ccc49616720e4917b689e90aa0037cc60f033af89461496",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "protected void addBulletPoints(com.fs.starfarer.api.ui.TooltipMakerAPI, com.fs.starfarer.api.campaign.comm.IntelInfoPlugin$ListInfoMode);",
+              "offset": 164,
+              "opcode": "ldc_w",
+              "cp_index": 998
+            }
+          ]
+        },
+        {
+          "english_literal": "Brought in by smugglers",
+          "source_sha256": "27ed8dce87b86e3f09975a35b67e054e886f54c7cb8b8b53d72127b0d6defdba",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void commodityUpdated(java.lang.String);",
+              "offset": 188,
+              "opcode": "ldc_w",
+              "cp_index": 1371
+            }
+          ]
+        },
+        {
+          "english_literal": "Colony threats",
+          "source_sha256": "21191aa3a68c451a76ebe949f12e79cc43ebbdaadbe304c6a52435d321f9e903",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "public java.util.Set<java.lang.String> getIntelTags(com.fs.starfarer.api.ui.SectorMapAPI);",
+              "offset": 79,
+              "opcode": "ldc_w",
+              "cp_index": 1220
+            }
+          ]
+        },
+        {
+          "english_literal": "Development level",
+          "source_sha256": "41310ee9baf2cd2645287f3afb9c6edf093edc685aaebade1d926b703ac7ccde",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void economyUpdated();",
+              "offset": 71,
+              "opcode": "ldc_w",
+              "cp_index": 1406
+            },
+            {
+              "method": "public void economyUpdated();",
+              "offset": 125,
+              "opcode": "ldc_w",
+              "cp_index": 1406
+            }
+          ]
+        },
+        {
+          "english_literal": "Fleet log",
+          "source_sha256": "839873b91a3e7702b1eff3c2d512ea77ee3da271c0e7b25185a40d6c44bab938",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "public java.lang.String getSortString();",
+              "offset": 4,
+              "opcode": "ldc_w",
+              "cp_index": 1063
+            }
+          ]
+        },
+        {
+          "english_literal": "It has extremely well-developed defensive capabilities and is protected by a large number of fleets.",
+          "source_sha256": "4c560cf9076488ed5bdc1b43fb57e2ed462f054225dab4912112ff4b3bca21e3",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 189,
+              "opcode": "ldc_w",
+              "cp_index": 1153
+            }
+          ]
+        },
+        {
+          "english_literal": "It has well-developed defensive capabilities and is protected by a large number of fleets.",
+          "source_sha256": "ba994297b4cb18496166b95a1ae08b2f2afde03f728581295a785410e9736a5c",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 204,
+              "opcode": "ldc_w",
+              "cp_index": 1158
+            }
+          ]
+        },
+        {
+          "english_literal": "It is rumored that this base is no longer operational.",
+          "source_sha256": "4df4093d052d0d725f8432eb24196f46a578cab639af701923255eb19d8f638f",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 551,
+              "opcode": "ldc_w",
+              "cp_index": 1192
+            }
+          ]
+        },
+        {
+          "english_literal": "Luddic Path Base",
+          "source_sha256": "4c0662c8067f9d49207a0a773c50bdd4aa011554c8dfdd1d9f23b3d7ad4c22aa",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel(com.fs.starfarer.api.campaign.StarSystemAPI, java.lang.String);",
+              "offset": 83,
+              "opcode": "ldc",
+              "cp_index": 177
+            }
+          ]
+        },
+        {
+          "english_literal": "Recent events",
+          "source_sha256": "8ecce94dc301d0336d39467026263e67a76b51f6e3c66c7e4c029428a184561c",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 231,
+              "opcode": "ldc_w",
+              "cp_index": 1162
+            }
+          ]
+        },
+        {
+          "english_literal": "This base is known to be providing support to active Pather cells at the following colonies:",
+          "source_sha256": "031fd1092b2c68c81b90c9a3817bda7352f51823323e8f4f5036214f7ee60e5e",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 281,
+              "opcode": "ldc_w",
+              "cp_index": 1178
+            }
+          ]
+        },
+        {
+          "english_literal": "You do not know of any active pather cells this base might be providing support to.",
+          "source_sha256": "590991bf3d30ce15bf1d93ccd06169ebed657bb69ebe545002bd4561cef02ebb",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 349,
+              "opcode": "ldc_w",
+              "cp_index": 1184
+            }
+          ]
+        },
+        {
+          "english_literal": "You have destroyed this base.",
+          "source_sha256": "1c5a4ea6b8c503aeafcc0076d253a6ebe13eefaaf589ad75791695e190d0dc1d",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 523,
+              "opcode": "ldc_w",
+              "cp_index": 1190
+            }
+          ]
+        },
+        {
+          "english_literal": "You have not yet discovered the exact location or capabilities of this base.",
+          "source_sha256": "b374eaca57f7a700561ab866aeb6971a7f29290705e5a00216c95c0f7c8ec032",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 219,
+              "opcode": "ldc_w",
+              "cp_index": 1160
+            }
+          ]
+        },
+        {
+          "english_literal": "You have successfully completed this bounty.",
+          "source_sha256": "fc092357a4e87eff3ee376c95a6ad781135dd30b80b79d00a3ea8f9b2067d056",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 483,
+              "opcode": "ldc_w",
+              "cp_index": 1188
+            }
+          ]
+        },
+        {
+          "english_literal": "to cause widespread damage and destruction.",
+          "source_sha256": "1aa924300602a6b1ad0a02bd71f4fb3a69837bd1bc72ff058cf23180d83ee539",
+          "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 131,
+              "opcode": "ldc_w",
+              "cp_index": 1145
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - Bounty Completed",
+          "source_sha256": "41c43c9be99d1a216c8b534a1bd21f505a52625ba4cf1afdb840dfe7644fca3a",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 114,
+              "opcode": "ldc_w",
+              "cp_index": 1092
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - Bounty Expired",
+          "source_sha256": "c1efc3845e39ff8f1978a8e02dde37e98d4adc7fb5f858b651f55d8b3c4ba367",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 73,
+              "opcode": "ldc_w",
+              "cp_index": 1090
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - Bounty Posted",
+          "source_sha256": "07674a150ea342634d4a571bef26c4d46839f9e1aee11122fa59c1da30995d73",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 42,
+              "opcode": "ldc_w",
+              "cp_index": 1088
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - Exact Location Unknown",
+          "source_sha256": "c64454caa8c5324989541bb0e5dd51deb17f5726477850e45132cb0092c58ebf",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 250,
+              "opcode": "ldc_w",
+              "cp_index": 1104
+            }
+          ]
+        },
+        {
+          "english_literal": "The base serves to provide material support to active Pather cells on nearby colonies, enabling them ",
+          "source_sha256": "1c8a3643e83e573c2bb536a22a8970c0209f1943a4cecf49316a13b5bbad3b51",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": true,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 125,
+              "opcode": "ldc_w",
+              "cp_index": 1143
+            }
+          ]
+        },
+        {
+          "english_literal": " established a base in the ",
+          "source_sha256": "a8845c266368601bc23e97cd044bc970f369b49177376f32124ad56340b105d6",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 96,
+              "opcode": "ldc_w",
+              "cp_index": 1130
+            }
+          ]
+        },
+        {
+          "english_literal": " posted a bounty for the destruction of this base.",
+          "source_sha256": "4641384f7245f13d5b2dcb598247235d7a22a155fd51a115604d2268e8aa8b0a",
+          "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+          "reviewed_1064": true,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public void createSmallDescription(com.fs.starfarer.api.ui.TooltipMakerAPI, float, float);",
+              "offset": 414,
+              "opcode": "ldc_w",
+              "cp_index": 1186
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - Destroyed",
+          "source_sha256": "d66650be12dddff5543c3d0eba02f5d4fa6740cd806f9e800ea5a75fc73a6164",
+          "old_status": "REVIEWED_VISIBLE_UI_1004",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 148,
+              "opcode": "ldc_w",
+              "cp_index": 1094
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - Abandoned",
+          "source_sha256": "1f4122cc7f28292b73be6210575be3582b624b5b0bca54e1105a3dd338ffdeb5",
+          "old_status": "REVIEWED_VISIBLE_UI_1004",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 186,
+              "opcode": "ldc_w",
+              "cp_index": 1097
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - Discovered",
+          "source_sha256": "4e0240d0aa3c732b75bf659d4a3066290e43b7b74ea9f826ae262bb7172dcebd",
+          "old_status": "REVIEWED_VISIBLE_UI_1004",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 217,
+              "opcode": "ldc_w",
+              "cp_index": 1099
+            }
+          ]
+        },
+        {
+          "english_literal": " Base - ",
+          "source_sha256": "7b219a3041594f4c673a7d20118c70e4a9c2a36385a308072d26d3707dcd406d",
+          "old_status": "REVIEWED_VISIBLE_UI_1004",
+          "reviewed_1064": false,
+          "repaired_1064": false,
+          "uses": [
+            {
+              "method": "public java.lang.String getName();",
+              "offset": 271,
+              "opcode": "ldc_w",
+              "cp_index": 1106
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "unresolved_dynamic_getters": [
+    "FactionAPI.getDisplayNameHasOrHave()",
+    "FactionAPI.getDisplayNameIsOrAre()"
+  ],
+  "native_windows_gameplay_tested": false
+}

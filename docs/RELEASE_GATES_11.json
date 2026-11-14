@@ -25,10 +25,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 482,
-      "unresolved_count": 3176,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1063.json",
-      "source": "1.0.63: preserved 447 previous original-JVM historical API reviews byte-for-byte and added 35 LuddicPathCellsIntel draft class-scoped reviews, 14 corrected UI/technical fragments. 3176 historical API entries remain. Native Windows gameplay not tested."
+      "reviewed_offline": 530,
+      "unresolved_count": 3128,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1064.json",
+      "source": "1.0.64: 482 previously verified historical API fingerprints byte-identical plus 48 original-JVM reviews from HegemonyInspectionIntel and LuddicPathBaseIntel. 3 Set.add/Set.contains category keys preserved, 9 class-scoped corrections; 3128 historical entries still unreviewed. Native Windows gameplay not tested."
     },
     {
       "id": "rules_possessives",
@@ -152,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.63: 35 historical LuddicPathCellsIntel API drafts newly reviewed offline, 14 string repairs, 83 JVM uses checked. 1953 raw gender markers across 1006 rules remain; 3176 historical API rows and 186 getter calls pending. Some English dynamic getters on/at, has/have need bytecode-aware treatment. Windows gameplay untested."
+      "source": "1.0.64: 48 historical original-JVM API translations newly reviewed in two classes, 9 repaired translations including 3 technical category tags, 150 verified ldc uses. Remaining: 3128 historic API reviews, 186 JVM getters, 1953 raw gender placeholders in 1006 rules; native Windows gameplay not run."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.63: 83 original JVM LuddicPathCellsIntel string loads verified offline, 60 simulated render variants; private original-JAR fresh equals 1.0.62->1.0.63 upgrade, but no native Windows game or UI test."
+      "source": "1.0.64: Two original Java classes, 150 ldc uses, 3 technical tag operations, 25 static render combinations and original-JAR fresh=upgrade validated offline. No native Windows gameplay or visual inspection."
     },
     {
       "id": "rules_reflexive_1057",
@@ -263,6 +263,23 @@
       "rendered_dynamic_variants": 60,
       "technical_category_keys_restored": 1,
       "changed_classes": 1,
+      "game_data_changed": 0,
+      "new_jvm_instruction_changes": 0,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "inspection_pathbase_jvm_1064",
+      "status": "in_progress",
+      "source": "tools/apply_1064.py, docs/INSPECTION_PATHBASE_REVIEW_1064.json, docs/JVM_AUDIT_1064.json and docs/API_SEMANTIC_REVIEW_1064.json: 48 historically unreviewed original-JVM literals, 9 class-scoped revisions including 3 technical category keys Set.add/Set.contains; 150 ldc uses, 25 composed strings. Fresh JAR = upgrade 1.0.63->1.0.64 with exactly two modified classes; JVM instructions unchanged.",
+      "previous_historical_reviews": 482,
+      "new_historical_reviews": 48,
+      "total_historical_reviews": 530,
+      "corrected_fragments": 9,
+      "verified_mapped_literals": 56,
+      "original_jvm_ldc_uses": 150,
+      "test_render_variants": 25,
+      "preserved_technical_category_keys": 3,
+      "changed_classes": 2,
       "game_data_changed": 0,
       "new_jvm_instruction_changes": 0,
       "native_windows_gameplay_tested": false

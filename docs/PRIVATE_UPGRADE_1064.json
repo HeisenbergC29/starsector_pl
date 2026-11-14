@@ -1,0 +1,16 @@
+{
+  "release": "1.0.64",
+  "fresh_equal_upgrade": true,
+  "repeat_apply_noop": true,
+  "original_restore_byte_exact": true,
+  "tampered_jar_rejected": true,
+  "changed_class_count": 2,
+  "changed_classes": [
+    "com/fs/starfarer/api/impl/campaign/intel/bases/LuddicPathBaseIntel.class",
+    "com/fs/starfarer/api/impl/campaign/intel/inspection/HegemonyInspectionIntel.class"
+  ],
+  "java_instruction_offsets_opcodes_identical": true,
+  "new_api_sha256": "083160c303470a51f7d8cdfb1567499957f971612217c9a0b4706830b297337e",
+  "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "native_windows_gameplay_tested": false
+}

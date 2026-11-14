@@ -1,0 +1,655 @@
+{
+  "schema_version": 1,
+  "release": "1.0.64",
+  "game_version": "0.98a-RC8",
+  "source_classes": [
+    "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+    "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel"
+  ],
+  "previous_api_map_sha256": "5443294fa1cdf96b21fb7bba3e5a92b96f8f1b6cec6807203dd7e3e74e1d58fc",
+  "new_api_map_sha256": "080333ba3c5d89f79a27e83737be8eb940c21a10446901ae01de98ef735a7588",
+  "previous_historical_reviews": 482,
+  "new_historical_reviews": 48,
+  "historical_reviewed_total": 530,
+  "historical_remaining": 3128,
+  "corrected_literals": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Colony threats",
+      "polish_ascii_draft": "Colony threats"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "The authorities at ",
+      "polish_ascii_draft": "Decyzja wladz kolonii: "
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " will comply with the inspection. ",
+      "polish_ascii_draft": " - zgoda na inspekcje. "
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Operations at %s disrupted",
+      "polish_ascii_draft": "Zaklocono dzialalnosc: %s"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " forces arrive in-system and encounter resistance",
+      "polish_ascii_draft": ": oddzialy dotarly do ukladu i napotkaly opor"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Colony threats",
+      "polish_ascii_draft": "Colony threats"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Fleet log",
+      "polish_ascii_draft": "Fleet log"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "The base serves to provide material support to active Pather cells on nearby colonies, enabling them ",
+      "polish_ascii_draft": "Baza zapewnia wsparcie materialne aktywnym komorkom Sciezki Ludda na pobliskich koloniach, umozliwiajac im "
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "You do not know of any active pather cells this base might be providing support to.",
+      "polish_ascii_draft": "Nie wiadomo, czy baza wspiera jakiekolwiek aktywne komorki Sciezki Ludda."
+    }
+  ],
+  "protected_technical_category_keys": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Colony threats"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Fleet log"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Colony threats"
+    }
+  ],
+  "historical_reviewed_rows": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": ". Your forces will attempt to resist the inspection.",
+      "english_key_sha256": "51810b3ef145e0ed7c3dfda4b2f1d0bd47137485edc5ca6275ff5b0424b00661",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": ". Twoje sily sprobuja stawic opor kontroli.",
+      "new_draft": ". Twoje sily sprobuja stawic opor kontroli.",
+      "old_row_sha256": "b954e9c3d78db802fc4ccf038a010fadfde4f07b555bc9e9b46c3575ee102102",
+      "row_sha256": "b954e9c3d78db802fc4ccf038a010fadfde4f07b555bc9e9b46c3575ee102102",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Arrived in-system",
+      "english_key_sha256": "50821191743fe44bf6b7757ac7d75a8b8385fb27148218e26ac3703df0c28a7f",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Przybyli do ukladu",
+      "new_draft": "Przybyli do ukladu",
+      "old_row_sha256": "cf7f0cd2b459282247873222bafa471aab046e74ea9c332916d2820502388a8a",
+      "row_sha256": "cf7f0cd2b459282247873222bafa471aab046e74ea9c332916d2820502388a8a",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Change orders",
+      "english_key_sha256": "965ad215e368e19c188ad44e32a267a172afedf2a1d9d3edfd281ab4cfa14952",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Zmien rozkazy",
+      "new_draft": "Zmien rozkazy",
+      "old_row_sha256": "20807eb1fd80d79ef7e7760ff4535949f60d0f33368527e8a4fafe7272b81d0d",
+      "row_sha256": "20807eb1fd80d79ef7e7760ff4535949f60d0f33368527e8a4fafe7272b81d0d",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Colony threats",
+      "english_key_sha256": "21191aa3a68c451a76ebe949f12e79cc43ebbdaadbe304c6a52435d321f9e903",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Zagrozenia dla kolonii",
+      "new_draft": "Colony threats",
+      "old_row_sha256": "577482c31cd059190ee41ef4d8a9f116fa7a129b0b2ee9e1a872060de9fb42ae",
+      "row_sha256": "75fe2cd9494bf11b6a7fe3a72b34afe26ecb231810a186fc7e778a5e46433aa0",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Defenders will comply",
+      "english_key_sha256": "3cf4fcfd8c3af0f8f04caca36a10ae94b0ddf8a2214095d8fa7f0ffaec7ccfe3",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Obroncy podporzadkuja sie kontroli",
+      "new_draft": "Obroncy podporzadkuja sie kontroli",
+      "old_row_sha256": "eddbb4adc254987e5a6cd76fdb56f924735d2dbdddc1a4b9eb2bc580b3d8e28d",
+      "row_sha256": "eddbb4adc254987e5a6cd76fdb56f924735d2dbdddc1a4b9eb2bc580b3d8e28d",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Defenders will resist",
+      "english_key_sha256": "063f12d190d723fbc07ef29e0beb6478bab669ba06f9244a6864187d5e73fc89",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Obroncy stawia opor",
+      "new_draft": "Obroncy stawia opor",
+      "old_row_sha256": "84f1566bd038aa5206bb47249b1eae117c471747524079a0867d8046515fd583",
+      "row_sha256": "84f1566bd038aa5206bb47249b1eae117c471747524079a0867d8046515fd583",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Funds allocated for bribe",
+      "english_key_sha256": "29e37ac94499b2a4c7af671e4083245f4da32e4565dc76b282437e17c17655ae",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Srodki przeznaczone na lapowke",
+      "new_draft": "Srodki przeznaczone na lapowke",
+      "old_row_sha256": "1f87a1dedee0ebad34e6fb5969138dd205511c68934daccad85b0c7e967733ae",
+      "row_sha256": "1f87a1dedee0ebad34e6fb5969138dd205511c68934daccad85b0c7e967733ae",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Hegemony AI Inspection",
+      "english_key_sha256": "b3cecc9c1a6a675d58ea538260d9638c0fb9bd3dbebf5398de8803c83d6e3124",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Kontrola rdzeni SI przez Hegemonie",
+      "new_draft": "Kontrola rdzeni SI przez Hegemonie",
+      "old_row_sha256": "035bce7a86d08b00b1b60c4c53b7934331b6f7bed1ed9f65373b23ee4b5acae7",
+      "row_sha256": "035bce7a86d08b00b1b60c4c53b7934331b6f7bed1ed9f65373b23ee4b5acae7",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Inspection under way",
+      "english_key_sha256": "6ae25feb636da92373feb044e71b8d8518b407e7fba0855cf98b39e18f5a9aa2",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Kontrola w toku",
+      "new_draft": "Kontrola w toku",
+      "old_row_sha256": "19e9ef6892d52c20405ae69db6fb308084d960dc3d07572a23caebf32c17c9cb",
+      "row_sha256": "19e9ef6892d52c20405ae69db6fb308084d960dc3d07572a23caebf32c17c9cb",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "It is certain to find any AI cores currently in use.",
+      "english_key_sha256": "061d22cceda941ab8e67c46d39e12318844a8311df32173673644bd9c65dd68e",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Na pewno wykryje wszystkie uzywane obecnie rdzenie SI.",
+      "new_draft": "Na pewno wykryje wszystkie uzywane obecnie rdzenie SI.",
+      "old_row_sha256": "5b2e4d150a78b0293821daa802eab5711c386bc62b3982fcc8c6bf9427306777",
+      "row_sha256": "5b2e4d150a78b0293821daa802eab5711c386bc62b3982fcc8c6bf9427306777",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "No AI cores found",
+      "english_key_sha256": "01011629cd5604ad15932d82c682ce60b75d9b1cc5de4519ae21894aef892974",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Nie znaleziono rdzeni SI",
+      "new_draft": "Nie znaleziono rdzeni SI",
+      "old_row_sha256": "ba915b6f67760be6f6f40e13ccc4085fd700526cb951a216317962f86b3e54e6",
+      "row_sha256": "ba915b6f67760be6f6f40e13ccc4085fd700526cb951a216317962f86b3e54e6",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Operations at %s disrupted",
+      "english_key_sha256": "c7dc79dab5a10d220e607e3d3395c25d33a68c92ff83727e84566e5f8ddfb2d6",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Zaklocono dzialalnosc w %s",
+      "new_draft": "Zaklocono dzialalnosc: %s",
+      "old_row_sha256": "bd24a1ede9ec23063ddab529410f87c8425de84b7bc81ab0648a363f12de80d8",
+      "row_sha256": "db96f80aa1773ad4c7dbd27caec44e6861a503b9e21a749a96c313b2a6c54e27",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "The inspection task force is in-system and there's no time to implement new orders.",
+      "english_key_sha256": "2e33612223c440a10facfe295bc61bd6f353ab975ed43cdfb8761402f25d8e5b",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Grupa kontrolna jest juz w ukladzie. Na zmiane rozkazow jest za pozno.",
+      "new_draft": "Grupa kontrolna jest juz w ukladzie. Na zmiane rozkazow jest za pozno.",
+      "old_row_sha256": "ce7a1736c8488b6ae0bf0aa607eb693becbe083daffac671a62b4185ed9fc658",
+      "row_sha256": "ce7a1736c8488b6ae0bf0aa607eb693becbe083daffac671a62b4185ed9fc658",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "You've allocated enough funds to ensure the inspection will produce a satisfactory outcome all around.",
+      "english_key_sha256": "caa52ad5d0e2d9f186ed5fedf91339ae5542f70935e66b3f5e863ca9b4c5f609",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Przeznaczono wystarczajaco duzo srodkow, aby wynik kontroli zadowolil wszystkie strony.",
+      "new_draft": "Przeznaczono wystarczajaco duzo srodkow, aby wynik kontroli zadowolil wszystkie strony.",
+      "old_row_sha256": "20c5227d61c8dcfb26925771e7437a3602bb1d3de0cc331bef21ab1015b87788",
+      "row_sha256": "20c5227d61c8dcfb26925771e7437a3602bb1d3de0cc331bef21ab1015b87788",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Your orders",
+      "english_key_sha256": "9000c7d9c98befa4d29ab913d8701703c7ef441e383e58ab04865c2ec46449fc",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Twoje rozkazy",
+      "new_draft": "Twoje rozkazy",
+      "old_row_sha256": "1fdf6176a7ba3218cec40df1289906950997ce53b553524cf742296893bd320a",
+      "row_sha256": "1fdf6176a7ba3218cec40df1289906950997ce53b553524cf742296893bd320a",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "Your space and ground forces will attempt to resist the inspection.",
+      "english_key_sha256": "afc314e4f74ef84690c37238c7ea87851befe5634fddae8ea87a65907d9a62c9",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Twoje sily kosmiczne i naziemne sprobuja stawic opor kontroli.",
+      "new_draft": "Twoje sily kosmiczne i naziemne sprobuja stawic opor kontroli.",
+      "old_row_sha256": "4967783a92cd11a3299b4b80b096ae9a10a9962340a8e5d7d2ed713a062ddb29",
+      "row_sha256": "4967783a92cd11a3299b4b80b096ae9a10a9962340a8e5d7d2ed713a062ddb29",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "%s received",
+      "english_key_sha256": "8e9a5693d2c9409937467b95222271342920936377edc9108289dc995c9269da",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Otrzymano %s",
+      "new_draft": "Otrzymano %s",
+      "old_row_sha256": "fa880c14246aee557757c5c04d5b0e66345da75164a6d169be79bfe266095cb6",
+      "row_sha256": "fa880c14246aee557757c5c04d5b0e66345da75164a6d169be79bfe266095cb6",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "%s reward",
+      "english_key_sha256": "42e9f239a75d7c163ccc49616720e4917b689e90aa0037cc60f033af89461496",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Nagroda: %s",
+      "new_draft": "Nagroda: %s",
+      "old_row_sha256": "8f1ae1441cc4aff007b5674904bdb527cbc538f6bd786abd4a24620f26e465e9",
+      "row_sha256": "8f1ae1441cc4aff007b5674904bdb527cbc538f6bd786abd4a24620f26e465e9",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Brought in by smugglers",
+      "english_key_sha256": "27ed8dce87b86e3f09975a35b67e054e886f54c7cb8b8b53d72127b0d6defdba",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Przemycone przez przemytnikow",
+      "new_draft": "Przemycone przez przemytnikow",
+      "old_row_sha256": "8a4eb77f0e45e658bbaa4dbfe5a52efc86f95a7ffb905a43e81c0b48aba48754",
+      "row_sha256": "8a4eb77f0e45e658bbaa4dbfe5a52efc86f95a7ffb905a43e81c0b48aba48754",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Colony threats",
+      "english_key_sha256": "21191aa3a68c451a76ebe949f12e79cc43ebbdaadbe304c6a52435d321f9e903",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Zagrozenia dla kolonii",
+      "new_draft": "Colony threats",
+      "old_row_sha256": "d2d15af6694513b57a0480b19fee99b219154802967865b1a55b248eb9a8e5ee",
+      "row_sha256": "ee0d54ed4b654c360797682d6064028ba5e6ed83f8c4a0c0a5f549f71fe14914",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Development level",
+      "english_key_sha256": "41310ee9baf2cd2645287f3afb9c6edf093edc685aaebade1d926b703ac7ccde",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Poziom rozwoju",
+      "new_draft": "Poziom rozwoju",
+      "old_row_sha256": "4d320d0773924a89a061909299da24dabc24abba89ebafea69870dbdbaef78e1",
+      "row_sha256": "4d320d0773924a89a061909299da24dabc24abba89ebafea69870dbdbaef78e1",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Fleet log",
+      "english_key_sha256": "839873b91a3e7702b1eff3c2d512ea77ee3da271c0e7b25185a40d6c44bab938",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Dziennik floty",
+      "new_draft": "Fleet log",
+      "old_row_sha256": "4ef3f2bc81f75bef62fa9bb6f75475e041a26601979d6943e9c7773e9230030a",
+      "row_sha256": "3df8a2447ab99916167671cb5bdf2a3942e2c5e5ef55976187c43b9494195ade",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "It has extremely well-developed defensive capabilities and is protected by a large number of fleets.",
+      "english_key_sha256": "4c560cf9076488ed5bdc1b43fb57e2ed462f054225dab4912112ff4b3bca21e3",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Ma wyjatkowo silna obrone i chroni ja wiele flot.",
+      "new_draft": "Ma wyjatkowo silna obrone i chroni ja wiele flot.",
+      "old_row_sha256": "2249a71cdb6e2e543bbd722b14bc91875d8f8e20d757778fbca78205469fa843",
+      "row_sha256": "2249a71cdb6e2e543bbd722b14bc91875d8f8e20d757778fbca78205469fa843",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "It has well-developed defensive capabilities and is protected by a large number of fleets.",
+      "english_key_sha256": "ba994297b4cb18496166b95a1ae08b2f2afde03f728581295a785410e9736a5c",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Ma rozbudowana obrone i chroni ja wiele flot.",
+      "new_draft": "Ma rozbudowana obrone i chroni ja wiele flot.",
+      "old_row_sha256": "3197a6bbc8b0c9c787ffbb6e908256080dd98c1c2021bc381b71a1cba7d20d21",
+      "row_sha256": "3197a6bbc8b0c9c787ffbb6e908256080dd98c1c2021bc381b71a1cba7d20d21",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "It is rumored that this base is no longer operational.",
+      "english_key_sha256": "4df4093d052d0d725f8432eb24196f46a578cab639af701923255eb19d8f638f",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Wedlug poglosek baza nie jest juz aktywna.",
+      "new_draft": "Wedlug poglosek baza nie jest juz aktywna.",
+      "old_row_sha256": "21da100c8bc9d584d39e908967662abe566d5ae059497e46e7ec98937c8a2c33",
+      "row_sha256": "21da100c8bc9d584d39e908967662abe566d5ae059497e46e7ec98937c8a2c33",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Luddic Path Base",
+      "english_key_sha256": "4c0662c8067f9d49207a0a773c50bdd4aa011554c8dfdd1d9f23b3d7ad4c22aa",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Baza Sciezki Ludda",
+      "new_draft": "Baza Sciezki Ludda",
+      "old_row_sha256": "2c17950be4558dad345d3131e3eb39f6bf5ef2161b9a9106d3a1f5f0ff275530",
+      "row_sha256": "2c17950be4558dad345d3131e3eb39f6bf5ef2161b9a9106d3a1f5f0ff275530",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "Recent events",
+      "english_key_sha256": "8ecce94dc301d0336d39467026263e67a76b51f6e3c66c7e4c029428a184561c",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Ostatnie wydarzenia",
+      "new_draft": "Ostatnie wydarzenia",
+      "old_row_sha256": "cd07daecf43ccedf5628f691afa04fd68472e6822b8248ce75d177492c886e51",
+      "row_sha256": "cd07daecf43ccedf5628f691afa04fd68472e6822b8248ce75d177492c886e51",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "This base is known to be providing support to active Pather cells at the following colonies:",
+      "english_key_sha256": "031fd1092b2c68c81b90c9a3817bda7352f51823323e8f4f5036214f7ee60e5e",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Wiadomo, ze ta baza wspiera aktywne komorki Sciezki Ludda w nastepujacych koloniach:",
+      "new_draft": "Wiadomo, ze ta baza wspiera aktywne komorki Sciezki Ludda w nastepujacych koloniach:",
+      "old_row_sha256": "5814dc7c793abe1e9a130ce68ffca6a2a540bf33ea32629eef47d54319aa5738",
+      "row_sha256": "5814dc7c793abe1e9a130ce68ffca6a2a540bf33ea32629eef47d54319aa5738",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "You do not know of any active pather cells this base might be providing support to.",
+      "english_key_sha256": "590991bf3d30ce15bf1d93ccd06169ebed657bb69ebe545002bd4561cef02ebb",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Nie znasz zadnych aktywnych komorek Sciezki Ludda, ktore moglaby wspierac ta baza.",
+      "new_draft": "Nie wiadomo, czy baza wspiera jakiekolwiek aktywne komorki Sciezki Ludda.",
+      "old_row_sha256": "bb6681951ec449c9cc435d48663fc635bc374f382f214dab3bc22f427f5a0e9a",
+      "row_sha256": "5301e6c584e4aa32e2211e98444b5457f10fcf52c727aa3c0cc76d115515c363",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "You have destroyed this base.",
+      "english_key_sha256": "1c5a4ea6b8c503aeafcc0076d253a6ebe13eefaaf589ad75791695e190d0dc1d",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Zniszczyles te baze.",
+      "new_draft": "Zniszczyles te baze.",
+      "old_row_sha256": "d4c0254b0b4fef7cd4be3d49fad129b7d6c9c360a1ee249c2475bd73ebb6da22",
+      "row_sha256": "d4c0254b0b4fef7cd4be3d49fad129b7d6c9c360a1ee249c2475bd73ebb6da22",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "You have not yet discovered the exact location or capabilities of this base.",
+      "english_key_sha256": "b374eaca57f7a700561ab866aeb6971a7f29290705e5a00216c95c0f7c8ec032",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Nie odkryles jeszcze dokladnego polozenia ani mozliwosci obronnych tej bazy.",
+      "new_draft": "Nie odkryles jeszcze dokladnego polozenia ani mozliwosci obronnych tej bazy.",
+      "old_row_sha256": "0019a7fe44a320c93f9ca459b112b6328b1d07ab41f440fcf4025838c1748c84",
+      "row_sha256": "0019a7fe44a320c93f9ca459b112b6328b1d07ab41f440fcf4025838c1748c84",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "You have successfully completed this bounty.",
+      "english_key_sha256": "fc092357a4e87eff3ee376c95a6ad781135dd30b80b79d00a3ea8f9b2067d056",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Pomyslnie wykonales zlecenie za nagrode.",
+      "new_draft": "Pomyslnie wykonales zlecenie za nagrode.",
+      "old_row_sha256": "1725688f43e3cf5c2066b24143fb2439b0deb674d855d02965cf808dae9395f6",
+      "row_sha256": "1725688f43e3cf5c2066b24143fb2439b0deb674d855d02965cf808dae9395f6",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "to cause widespread damage and destruction.",
+      "english_key_sha256": "1aa924300602a6b1ad0a02bd71f4fb3a69837bd1bc72ff058cf23180d83ee539",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "powodowanie rozleglych szkod i zniszczen.",
+      "new_draft": "powodowanie rozleglych szkod i zniszczen.",
+      "old_row_sha256": "4e34e7e991cb5f1b0e9d36af2ec23ee6ccb80ac8767130406068d1d99ed3d311",
+      "row_sha256": "4e34e7e991cb5f1b0e9d36af2ec23ee6ccb80ac8767130406068d1d99ed3d311",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": " Base - Bounty Completed",
+      "english_key_sha256": "41c43c9be99d1a216c8b534a1bd21f505a52625ba4cf1afdb840dfe7644fca3a",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " Baza - nagroda wyplacona",
+      "new_draft": " Baza - nagroda wyplacona",
+      "old_row_sha256": "abe6a980034e0a37adee1d34c78184abdcd06b32bbdb4d340ee8685900dbb8be",
+      "row_sha256": "abe6a980034e0a37adee1d34c78184abdcd06b32bbdb4d340ee8685900dbb8be",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": " Base - Bounty Expired",
+      "english_key_sha256": "c1efc3845e39ff8f1978a8e02dde37e98d4adc7fb5f858b651f55d8b3c4ba367",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " Baza - nagroda wygasla",
+      "new_draft": " Baza - nagroda wygasla",
+      "old_row_sha256": "8d872a7063271eef05a314ebfc8878005e8dc5e528d1b589c4463764f6bd05d3",
+      "row_sha256": "8d872a7063271eef05a314ebfc8878005e8dc5e528d1b589c4463764f6bd05d3",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": " Base - Bounty Posted",
+      "english_key_sha256": "07674a150ea342634d4a571bef26c4d46839f9e1aee11122fa59c1da30995d73",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " Baza - wyznaczono nagrode",
+      "new_draft": " Baza - wyznaczono nagrode",
+      "old_row_sha256": "7cb32ab830164a4e1d1bd7134bf40384517511fb787544d3c318d5c266214beb",
+      "row_sha256": "7cb32ab830164a4e1d1bd7134bf40384517511fb787544d3c318d5c266214beb",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": " Base - Exact Location Unknown",
+      "english_key_sha256": "c64454caa8c5324989541bb0e5dd51deb17f5726477850e45132cb0092c58ebf",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " Baza - dokladna lokalizacja nieznana",
+      "new_draft": " Baza - dokladna lokalizacja nieznana",
+      "old_row_sha256": "61bb7e3c0c1ac8e7f772e17c9a915d0437f654c3602a65ce1ea409bcb9030812",
+      "row_sha256": "61bb7e3c0c1ac8e7f772e17c9a915d0437f654c3602a65ce1ea409bcb9030812",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": "The base serves to provide material support to active Pather cells on nearby colonies, enabling them ",
+      "english_key_sha256": "1c8a3643e83e573c2bb536a22a8970c0209f1943a4cecf49316a13b5bbad3b51",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": "Baza zapewnia wsparcie materialne aktywnym komorkom Sciezki na pobliskich koloniach, umozliwiajac im ",
+      "new_draft": "Baza zapewnia wsparcie materialne aktywnym komorkom Sciezki Ludda na pobliskich koloniach, umozliwiajac im ",
+      "old_row_sha256": "528c570338174717df504fc9ed041dc2848d940484d80951ae62e707e48881a9",
+      "row_sha256": "352386ce4ad463c186acc472b370261e09f602c9165ac793c868bba9b39cdc8a",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": " established a base in the ",
+      "english_key_sha256": "a8845c266368601bc23e97cd044bc970f369b49177376f32124ad56340b105d6",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " zalozyli baze w ",
+      "new_draft": " zalozyli baze w ",
+      "old_row_sha256": "89fa75ddcb109632bb9896161bc0a2b68df3fe791eff47465a520cbecf65d2ec",
+      "row_sha256": "89fa75ddcb109632bb9896161bc0a2b68df3fe791eff47465a520cbecf65d2ec",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.LuddicPathBaseIntel",
+      "english_literal": " posted a bounty for the destruction of this base.",
+      "english_key_sha256": "4641384f7245f13d5b2dcb598247235d7a22a155fd51a115604d2268e8aa8b0a",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " wyznaczyli nagrode za zniszczenie tej bazy.",
+      "new_draft": " wyznaczyli nagrode za zniszczenie tej bazy.",
+      "old_row_sha256": "b6b90e982eb116e0d94e992909dda62bfa4a43c28ae8543cc3109c1ce41c90bc",
+      "row_sha256": "b6b90e982eb116e0d94e992909dda62bfa4a43c28ae8543cc3109c1ce41c90bc",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": "The authorities at ",
+      "english_key_sha256": "f6ddea2bae6276035fa9971f5c4759f026eb50f0cde1b1ce02165bb001812e99",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": "Wladze na ",
+      "new_draft": "Decyzja wladz kolonii: ",
+      "old_row_sha256": "9d15a85e4914dae8a639ae473df671007ef90a214c0a8dbb16d3d753e2d2c48f",
+      "row_sha256": "625696dbf16e68205fe4706cba1a3282d7f4d63c76d97f9e19536e731d6b68da",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " The task force is projected to be ",
+      "english_key_sha256": "2ecc7479a7f4eac661ec7020545c4af6ed0de5eab939fdf857449ab107b313e2",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " Przewidywana sila grupy inspekcyjnej to ",
+      "new_draft": " Przewidywana sila grupy inspekcyjnej to ",
+      "old_row_sha256": "97975cd2bb2e2e5aa1cc150c9931010912dfa1b53effb0bcffd60a0c67ef1d1b",
+      "row_sha256": "97975cd2bb2e2e5aa1cc150c9931010912dfa1b53effb0bcffd60a0c67ef1d1b",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " and is likely comprised of ",
+      "english_key_sha256": "dd0fa003e9b8533b5557cbdd923c026e6a1ccd599edf4985515cda117a33ad57",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " a prawdopodobny sklad obejmuje ",
+      "new_draft": " a prawdopodobny sklad obejmuje ",
+      "old_row_sha256": "f739c7c9a49a130bbf8cb2b70a0109a169d11ca37af95fb41b9e8a4c5d1f4a2e",
+      "row_sha256": "f739c7c9a49a130bbf8cb2b70a0109a169d11ca37af95fb41b9e8a4c5d1f4a2e",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " forces arrive in-system and encounter resistance",
+      "english_key_sha256": "db5430e7c06fb7d5347a70907f96bd8ee690eb4ba67813f5058ceeb362dd8c4a",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " sily przybywaja do ukladu i napotykaja opor",
+      "new_draft": ": oddzialy dotarly do ukladu i napotkaly opor",
+      "old_row_sha256": "7d052aa924a9da1dc4ad53751b152f3d1b0db3b1f71e8ea41d36194313b07b66",
+      "row_sha256": "55664c4c213434772b10e04c7c1d9da8fe494976ebb278333abcfcbd76865ce1",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " hostile towards ",
+      "english_key_sha256": "84f8ca619619d2da3ffc5976495dc77ba6bf12e6a6c4ba513f5c1ec913b7093e",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " wrogie wobec ",
+      "new_draft": " wrogie wobec ",
+      "old_row_sha256": "98af2184ec0d62e75dd84b743ccc457433b4785e519a3d77104bb7e89dab6f2b",
+      "row_sha256": "98af2184ec0d62e75dd84b743ccc457433b4785e519a3d77104bb7e89dab6f2b",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " targeting %s for an inspection due to the suspected use of AI cores there.",
+      "english_key_sha256": "3c98f8d2206dffd6be2a235baab834405e0837c894036bafead8ae85ae973fe4",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " kieruje inspekcje na %s z powodu podejrzenia wykorzystywania tam rdzeni SI.",
+      "new_draft": " kieruje inspekcje na %s z powodu podejrzenia wykorzystywania tam rdzeni SI.",
+      "old_row_sha256": "ba8e4757a55ef1ffe55a3c51560989454ef55cabee90b3d6d931de649ee55b27",
+      "row_sha256": "ba8e4757a55ef1ffe55a3c51560989454ef55cabee90b3d6d931de649ee55b27",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " until arrival",
+      "english_key_sha256": "22b95f1b629c5bc280cf8dfc4049f19690ccf233bc09b89e86245f2df0303cb9",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " do przybycia",
+      "new_draft": " do przybycia",
+      "old_row_sha256": "8d44110067cdd050d42a78095697eefb11af2199d2654a7680374087318295ff",
+      "row_sha256": "8d44110067cdd050d42a78095697eefb11af2199d2654a7680374087318295ff",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.intel.inspection.HegemonyInspectionIntel",
+      "english_literal": " will comply with the inspection. ",
+      "english_key_sha256": "1689058fc5190819fa4912b64dfc2483bd3858265219a6b79fe8977c6a703e9d",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": " podporzadkuje sie inspekcji. ",
+      "new_draft": " - zgoda na inspekcje. ",
+      "old_row_sha256": "b6b22b3539b05b0da5d83924ead099d5c32a2022075f3cb1a2ad5113a2105cfd",
+      "row_sha256": "6845db32f5b81e333284292fcbedfbcae94fa2f3a0d6d8d452995ae5835ca926",
+      "evidence": "original_JVM_HegemonyInspection_and_LuddicPathBase_1064",
+      "review_status": "original_JVM_semantic_review_offline_pending_native_Windows"
+    }
+  ],
+  "native_windows_gameplay_tested": false
+}

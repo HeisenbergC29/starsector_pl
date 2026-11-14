@@ -444,9 +444,24 @@ jobs:
           python3 tools/build_review_1063.py worktree --record docs/LUDDIC_CELLS_REVIEW_1063.json --previous docs/API_SEMANTIC_REVIEW_1062.json --ledger docs/API_SEMANTIC_REVIEW_1063.json
       - name: 'Fail closed on v1.1: require native Windows game testing and 3176 remaining reviews'
         run: |
-          python3 tools/check_release_gates_1063.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1062.json --prior-semantic docs/API_SEMANTIC_REVIEW_1062.json --semantic docs/API_SEMANTIC_REVIEW_1063.json
-          python3 tools/test_release_gates_1063.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1062.json --prior-semantic docs/API_SEMANTIC_REVIEW_1062.json --semantic docs/API_SEMANTIC_REVIEW_1063.json
+          python3 tools/check_release_gates_1063.py worktree --gates docs/RELEASE_GATES_1063.json --previous docs/RELEASE_GATES_1062.json --prior-semantic docs/API_SEMANTIC_REVIEW_1062.json --semantic docs/API_SEMANTIC_REVIEW_1063.json
+          python3 tools/test_release_gates_1063.py worktree --gates docs/RELEASE_GATES_1063.json --previous docs/RELEASE_GATES_1062.json --prior-semantic docs/API_SEMANTIC_REVIEW_1062.json --semantic docs/API_SEMANTIC_REVIEW_1063.json
           python3 -m py_compile tools/private_upgrade_1063.py tools/audit_original_jvm_1063.py tools/package_1063.py
+      - name: Apply 1.0.64 original-JVM-scoped Hegemony inspection and Path base text repairs
+        run: python3 tools/apply_1064.py worktree
+      - name: Verify 48 historical API reviews, 150 original-JVM uses, 9 repairs and negative mutations
+        run: |
+          python3 tools/verify_1064.py worktree
+          python3 tools/test_1064.py worktree
+          python3 tools/test_package_contract_1064.py worktree
+      - name: Preserve 482 old review fingerprints and append 48 new original-JVM-reviewed API strings
+        run: |
+          python3 tools/build_review_1064.py worktree --record docs/INSPECTION_PATHBASE_REVIEW_1064.json --previous docs/API_SEMANTIC_REVIEW_1063.json --ledger docs/API_SEMANTIC_REVIEW_1064.json
+      - name: 'Protect 1.1: 3128 historical API reviews and native Windows gameplay remain unfinished'
+        run: |
+          python3 tools/check_release_gates_1064.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1063.json --prior-semantic docs/API_SEMANTIC_REVIEW_1063.json --semantic docs/API_SEMANTIC_REVIEW_1064.json
+          python3 tools/test_release_gates_1064.py worktree --gates docs/RELEASE_GATES_11.json --previous docs/RELEASE_GATES_1063.json --prior-semantic docs/API_SEMANTIC_REVIEW_1063.json --semantic docs/API_SEMANTIC_REVIEW_1064.json
+          python3 -m py_compile tools/private_upgrade_1064.py tools/audit_original_jvm_1064.py tools/package_1064.py
       - name: Test source Java-literal lexer (no commercial files in CI)
         run: python3 tools/test_java_lex_1030.py
       - name: Validate every data file and dialog option
@@ -487,18 +502,18 @@ jobs:
           file worktree/Starsector_PL_Instalator.exe | grep -q 'PE32+ executable.*x86-64'
       - name: Cross-build Linux JVM patchers for private original-JAR regression
         run: |
-          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1063" .)
-          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1063" .)
-          file api_linux_1063 obf_linux_1063
-          file api_linux_1063 | grep -q 'ELF 64-bit'
-          file obf_linux_1063 | grep -q 'ELF 64-bit'
+          (cd worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/api_linux_1064" .)
+          (cd worktree/buildtools/NARZEDZIA_OBF && GO111MODULE=off GOOS=linux GOARCH=amd64 go build -o "$GITHUB_WORKSPACE/obf_linux_1064" .)
+          file api_linux_1064 obf_linux_1064
+          file api_linux_1064 | grep -q 'ELF 64-bit'
+          file obf_linux_1064 | grep -q 'ELF 64-bit'
       - name: Upload temporary Linux patchers (no commercial JAR)
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.63_private_JAR_audit_patchers
+          name: Starsector_PL_1.0.64_private_JAR_audit_patchers
           path: |
-            api_linux_1063
-            obf_linux_1063
+            api_linux_1064
+            obf_linux_1064
           retention-days: 1
           if-no-files-found: error
       - name: Validate private-JAR regression script is importable
@@ -506,23 +521,23 @@ jobs:
       - name: Export temporary API patcher sources for historical upgrade verification
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.63_API_source_for_private_upgrade
+          name: Starsector_PL_1.0.64_API_source_for_private_upgrade
           path: worktree/buildtools/NARZEDZIA_JAR/ZRODLA_EXE_GO/
           retention-days: 1
           if-no-files-found: error
       - name: Export OBF patcher source for targeted original-JAR issue audit
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_1.0.63_OBF_source_for_private_audit
+          name: Starsector_PL_1.0.64_OBF_source_for_private_audit
           path: worktree/buildtools/NARZEDZIA_OBF/
           if-no-files-found: error
           retention-days: 2
-      - name: Package and CRC-check 1.0.63 minimal Windows installer
-        run: python3 tools/package_1063.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.63_MINIMALNY.zip
-      - name: Upload the 1.0.63 Windows package
+      - name: Package and CRC-check 1.0.64 minimal Windows installer
+        run: python3 tools/package_1064.py --worktree worktree --out Starsector_PL_ASCII_0.98a_RC8_1.0.64_MINIMALNY.zip
+      - name: Upload the 1.0.64 Windows package
         uses: actions/upload-artifact@v4
         with:
-          name: Starsector_PL_ASCII_1.0.63
-          path: Starsector_PL_ASCII_0.98a_RC8_1.0.63_MINIMALNY.zip
+          name: Starsector_PL_ASCII_1.0.64
+          path: Starsector_PL_ASCII_0.98a_RC8_1.0.64_MINIMALNY.zip
           if-no-files-found: error
           retention-days: 7
