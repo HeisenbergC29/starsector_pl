@@ -1,0 +1,74 @@
+{
+  "release": "1.0.61",
+  "source_verification": {
+    "release": "1.0.61",
+    "api_rows": 5312,
+    "reviewed_historical_rows": 25,
+    "historical_reviewed_total": 416,
+    "historical_remaining": 3242,
+    "new_literals": 3,
+    "fixed_existing_literals": 15,
+    "original_jvm_callsite_uses": 49,
+    "grammar_combinations": 93,
+    "game_data_files_unchanged": 870,
+    "mapping_sha256": "9efa72c67950a3f92ad776ad4c92172fa050f54d88556c8f159c3b1bec91f11b",
+    "native_windows_gameplay_tested": false
+  },
+  "negative_map_tests": {
+    "release": "1.0.61",
+    "negative_mutations_rejected": 12,
+    "cases": {
+      "lost original class row": "REJECTED",
+      "extra duplicate class key": "REJECTED",
+      "claim former draft was already reviewed": "REJECTED",
+      "translate missing day twice": "REJECTED",
+      "replace previous translation unexpectedly": "REJECTED",
+      "replace previously approved location label": "REJECTED",
+      "English plural days": "REJECTED",
+      "wrong singular day grammar": "REJECTED",
+      "missing sentence separator": "REJECTED",
+      "incorrect original arrival declension": "REJECTED",
+      "English transit suffix": "REJECTED",
+      "feminine status for masculine noun": "REJECTED"
+    },
+    "verified_real_original_jvm_calls": 49,
+    "historical_new_reviewed": 25,
+    "grammar_combinations_passed": 93,
+    "native_windows_gameplay_tested": false
+  },
+  "package_contract_tests": {
+    "version": "1.0.61",
+    "preflight_passed": true,
+    "invalid_metadata_cases_rejected": [
+      "fake completed history",
+      "wrong API row count",
+      "invent dynamic grammar",
+      "claim 100 data files",
+      "hide new source literals",
+      "invent 20 repairs"
+    ]
+  },
+  "original_jar_regression": {
+    "release": "1.0.61",
+    "fresh_equal_upgrade": true,
+    "repeat_apply_noop": true,
+    "original_restore_byte_exact": true,
+    "tampered_jar_rejected": true,
+    "changed_class_count": 1,
+    "changed_classes": [
+      "com/fs/starfarer/api/impl/campaign/intel/misc/GateHaulerIntel.class"
+    ],
+    "java_instruction_offsets_opcodes_identical": true,
+    "new_api_sha256": "338c2a172e291df8adeeb8d3fd68de153d4bfb30de241b4cfa44166d76d69d04",
+    "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "native_windows_gameplay_tested": false
+  },
+  "original_jvm_audit_sha256": "373589a97899dbc7c764ed63fe2c7d035d0c2af21c05b310b5195b5b730879dd",
+  "local_package": {
+    "filename": "Starsector_PL_ASCII_0.98a_RC8_1.0.61_LOCAL.zip",
+    "bytes": 19160381,
+    "sha256": "1785fa619eb530fa4856c45a6b49fdc9c2fdb912437ed553cf2c06ae6c8ca301",
+    "entries": 873
+  },
+  "gameplay_tested_on_native_windows": false
+}

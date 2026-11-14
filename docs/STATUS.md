@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-14
 
-**Wydanie robocze 1.0.60. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.61. Cel 1.1 nadal otwarty.**
+
+**1.0.61 (2026-11-14):** Zrecenzowano 25 dotad niezweryfikowanych historycznych mapowan Java API w `GateHaulerIntel` na podstawie 49 oryginalnych `ldc` (w tym 5 razy `day`, 5 razy `days`, jednorazowa spacja separatora przy offset 551). Dodano trzy oryginalne literaly, skorygowano 15 obecnych polskich tekstow, zabezpieczono i przetestowano 93 zlozone zdania o czasie i miejscu docelowym. Historyczny rejestr 391->416/3658; pozostało 3242. Mapa API 5309->5312 / 5307->5310 skutecznych trafien, OBF niezmieniona. 12 negatywnych testow mapy i 6 kontraktu pakietu odrzuconych. Jedna klasa API zmieniona; original-JAR fresh=upgrade 1.0.60->1.0.61, opcode JVM niezmienione, ponowna instalacja no-op, tamper rejection i odtworzenie oryginalnych JAR PASS. Kompilacja Go, vet, Windows x64 oraz ZIP 873 wpisy/CRC PASS. 870 plikow data (w tym 11107 rules i 7371 opcji) bez zmian. `docs/RELEASE_1061.md` i `docs/API_SEMANTIC_REVIEW_1061.json`; pozostalo 186 getterow, 1953 tokenow plciowych/1006 dialogow, 3242 historyczne API i natywne testy Windows. Wersja 1.1 NIEUKONCZONA.
+
+
 
 **1.0.60 (2026-11-14):** 5 nowych oryginalnych tekstow API w TradeFleetDepartureIntel i ProcurementMissionIntel: polski opis trasy, nazwy kategorii ladunku i naglowek frakcji; 2 naprawione skladane frazy z "large quantity of". Siedem oryginalnych instrukcji ldc potwierdzonych w JVM, dwie zmienione klasy, identyczne instrukcje i offsety. 16 skladanych wariantow, 11 negatywnych mutacji mapy i 5 kontraktu pakietu PASS. Oryginalne JAR: fresh=upgrade 1.0.59->1.0.60, no-op, tamper rejection i restore PASS. Mapa API 5304->5309 (5302->5307 skutecznych trafien), OBF bez zmian, 870 plikow data identycznych, 11107 dialogow i 7371 opcji. Lokalny Windows x64 i ZIP 873 wpisy bez JAR oryginalnych PASS. Raporty docs/RELEASE_1060.md, docs/JVM_AUDIT_1060.json, docs/PRIVATE_UPGRADE_1060.json. Do 1.1 wciaz pozostaja 3267 historycznych API, 186 getterow, 1953 zmienne plciowe w 1006 dialogach oraz prawdziwy gameplay test Windows.
 

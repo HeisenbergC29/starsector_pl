@@ -25,10 +25,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 391,
-      "unresolved_count": 3267,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1055.json",
-      "source": "1.0.55: 343 preceding immutable historical API reviews plus 48 additional class-scoped reviewed original-JVM UI fragments (14 BlockadeFGI, 10 KnightsOfLuddTakeoverExpedition, 24 GenericRaidFGI); 3267 remain, not native Windows-tested."
+      "reviewed_offline": 416,
+      "unresolved_count": 3242,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1061.json",
+      "source": "1.0.61: 391 fingerprint-preserved earlier reviews plus 25 historical DRAFT/OPTIONAL GateHaulerIntel records independently validated against original JVM ldc/call sites; 3242 remain. Three new unmapped literals excluded from historical count; Windows gameplay pending."
     },
     {
       "id": "rules_possessives",
@@ -152,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.60: 5 new original-JVM-scoped API UI strings and 2 corrected class-scoped grammar fragments; 1953 gender markers remain in 1006 rules, 3267 historic API entries and 186 JVM getter contexts unresolved. Native Windows gameplay has not been tested."
+      "source": "1.0.61: 25 historical GateHaulerIntel API rows reviewed, 15 translations corrected, 3 new literals; 1953 gender markers in 1006 rules remain, 3242 other historical API rows and 186 JVM getter calls unresolved. Windows native gameplay untested."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.60: 7 source-JVM literal callsites verified offline in trade fleet and procurement intel; fresh-vs-upgrade original-JAR comparison PASS but no actual Windows gameplay/UI test."
+      "source": "1.0.61: 49 original JVM GateHaulerIntel ldc usages verified in 5 methods, plus private original-JAR fresh=upgrade check, but no actual native Windows game or visual rendering tested."
     },
     {
       "id": "rules_reflexive_1057",
@@ -215,6 +215,22 @@
       "composed_sentences_tested": 16,
       "mod_data_changed": 0,
       "new_executable_java_instruction_changes": 0,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "gate_hauler_jvm_1061",
+      "status": "in_progress",
+      "source": "tools/apply_1061.py, docs/GATE_HAULER_REVIEW_1061.json, docs/JVM_AUDIT_1061.json and docs/API_SEMANTIC_REVIEW_1061.json: 25 new historical semantic reviews, 15 repaired class-scoped Java texts, 3 new time/separator literals, 49 verified original-JVM ldc uses and 93 rendered dynamic phrases; original JAR fresh=upgrade; unchanged game mechanics and data.",
+      "previous_historical_reviews": 391,
+      "new_historical_reviews": 25,
+      "total_historical_reviews": 416,
+      "changed_existing_translations": 15,
+      "added_missing_literals": 3,
+      "original_jvm_ldc_verified": 49,
+      "changed_classes": 1,
+      "tested_render_variants": 93,
+      "changed_game_data_files": 0,
+      "changed_jvm_executable_instructions": 0,
       "native_windows_gameplay_tested": false
     }
   ]

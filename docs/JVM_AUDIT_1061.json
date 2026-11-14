@@ -1,0 +1,360 @@
+{
+  "release": "1.0.61",
+  "game_version": "0.98a-RC8",
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "class": "com.fs.starfarer.api.impl.campaign.intel.misc.GateHaulerIntel",
+  "class_scoped_map_entries": 33,
+  "old_literal_count": 30,
+  "new_literal_count": 3,
+  "confirmed_original_jvm_ldc_uses": 49,
+  "day_singular_uses": 5,
+  "day_plural_uses": 5,
+  "separator_uses": 1,
+  "space_cp_constant_verified": true,
+  "uses": [
+    {
+      "method": "addBulletPoints",
+      "offset": 100,
+      "constant_pool_index": 658,
+      "shown_literal": "Entered open space",
+      "english_literal": "Entered open space"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 113,
+      "constant_pool_index": 666,
+      "shown_literal": "days",
+      "english_literal": "days"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 126,
+      "constant_pool_index": 667,
+      "shown_literal": "day",
+      "english_literal": "day"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 136,
+      "constant_pool_index": 671,
+      "shown_literal": "Estimated %s",
+      "english_literal": "Estimated %s "
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 147,
+      "constant_pool_index": 679,
+      "shown_literal": "to complete transit",
+      "english_literal": " to complete transit"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 207,
+      "constant_pool_index": 694,
+      "shown_literal": "Arrived at",
+      "english_literal": "Arrived at "
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 250,
+      "constant_pool_index": 699,
+      "shown_literal": "Witnessed the arrival of a Gate Hauler to a star system",
+      "english_literal": "Witnessed the arrival of a Gate Hauler to a star system"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 316,
+      "constant_pool_index": 710,
+      "shown_literal": "deep space",
+      "english_literal": "deep space"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 372,
+      "constant_pool_index": 715,
+      "shown_literal": "transiting deep space",
+      "english_literal": "transiting deep space"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 382,
+      "constant_pool_index": 717,
+      "shown_literal": "Location:",
+      "english_literal": "Location: "
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 424,
+      "constant_pool_index": 722,
+      "shown_literal": "Status: dormant",
+      "english_literal": "Status: dormant"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 449,
+      "constant_pool_index": 727,
+      "shown_literal": "Status: activating",
+      "english_literal": "Status: activating"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 473,
+      "constant_pool_index": 729,
+      "shown_literal": "Status: operational",
+      "english_literal": "Status: operational"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 500,
+      "constant_pool_index": 731,
+      "shown_literal": "Departing current location",
+      "english_literal": "Departing current location"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 513,
+      "constant_pool_index": 666,
+      "shown_literal": "days",
+      "english_literal": "days"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 526,
+      "constant_pool_index": 667,
+      "shown_literal": "day",
+      "english_literal": "day"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 536,
+      "constant_pool_index": 671,
+      "shown_literal": "Estimated %s",
+      "english_literal": "Estimated %s "
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 547,
+      "constant_pool_index": 733,
+      "shown_literal": "for transit",
+      "english_literal": " for transit"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 604,
+      "constant_pool_index": 666,
+      "shown_literal": "days",
+      "english_literal": "days"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 639,
+      "constant_pool_index": 667,
+      "shown_literal": "day",
+      "english_literal": "day"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 649,
+      "constant_pool_index": 671,
+      "shown_literal": "Estimated %s",
+      "english_literal": "Estimated %s "
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 660,
+      "constant_pool_index": 679,
+      "shown_literal": "to complete transit",
+      "english_literal": " to complete transit"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 720,
+      "constant_pool_index": 735,
+      "shown_literal": "Arriving at",
+      "english_literal": "Arriving at "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 161,
+      "constant_pool_index": 839,
+      "shown_literal": "The gate hauler is dormant, its systems shut down to conserve power.",
+      "english_literal": "The gate hauler is dormant, its systems shut down to conserve power."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 173,
+      "constant_pool_index": 841,
+      "shown_literal": "Resources required to activate:",
+      "english_literal": "Resources required to activate:"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 210,
+      "constant_pool_index": 855,
+      "shown_literal": "The gate hauler is in the process of reactivating its systems and should be operational within a day.",
+      "english_literal": "The gate hauler is in the process of reactivating its systems and should be operational within a day."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 232,
+      "constant_pool_index": 857,
+      "shown_literal": "The gate hauler is operational and ready to travel to another star system or deploy its gate at a stable location.",
+      "english_literal": "The gate hauler is operational and ready to travel to another star system or deploy its gate at a stable location."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 257,
+      "constant_pool_index": 859,
+      "shown_literal": "The gate hauler is outbound from its current location, heading for open space and accelerating.",
+      "english_literal": "The gate hauler is outbound from its current location, heading for open space and accelerating."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 268,
+      "constant_pool_index": 666,
+      "shown_literal": "days",
+      "english_literal": "days"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 281,
+      "constant_pool_index": 667,
+      "shown_literal": "day",
+      "english_literal": "day"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 291,
+      "constant_pool_index": 861,
+      "shown_literal": "Once it's in open space, it's estimated that it will take %s",
+      "english_literal": "Once it's in open space, it's estimated that it will take %s "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 302,
+      "constant_pool_index": 863,
+      "shown_literal": "until it arrives",
+      "english_literal": " until it arrives "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 308,
+      "constant_pool_index": 865,
+      "shown_literal": "to its destination, the",
+      "english_literal": "to its destination, the "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 326,
+      "constant_pool_index": 868,
+      "shown_literal": ". On arrival,",
+      "english_literal": ". On arrival, "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 332,
+      "constant_pool_index": 870,
+      "shown_literal": "it will take some time to decelerate and attain a parking orbit.",
+      "english_literal": "it will take some time to decelerate and attain a parking orbit."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 388,
+      "constant_pool_index": 666,
+      "shown_literal": "days",
+      "english_literal": "days"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 423,
+      "constant_pool_index": 667,
+      "shown_literal": "day",
+      "english_literal": "day"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 433,
+      "constant_pool_index": 875,
+      "shown_literal": "The gate hauler is in transit, in deep space. It's estimated that it will take %s",
+      "english_literal": "The gate hauler is in transit, in deep space. It's estimated that it will take %s "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 444,
+      "constant_pool_index": 863,
+      "shown_literal": "until it arrives",
+      "english_literal": " until it arrives "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 450,
+      "constant_pool_index": 865,
+      "shown_literal": "to its destination, the",
+      "english_literal": "to its destination, the "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 468,
+      "constant_pool_index": 868,
+      "shown_literal": ". On arrival,",
+      "english_literal": ". On arrival, "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 474,
+      "constant_pool_index": 870,
+      "shown_literal": "it will take some time to decelerate and attain a parking orbit.",
+      "english_literal": "it will take some time to decelerate and attain a parking orbit."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 533,
+      "constant_pool_index": 877,
+      "shown_literal": "The gate hauler has arrived to the",
+      "english_literal": "The gate hauler has arrived to the "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 551,
+      "constant_pool_index": 879,
+      "shown_literal": "",
+      "english_literal": " "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 557,
+      "constant_pool_index": 881,
+      "shown_literal": "and is decelerating in order to attain a parking orbit.",
+      "english_literal": "and is decelerating in order to attain a parking orbit."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 588,
+      "constant_pool_index": 883,
+      "shown_literal": "The gate hauler has been given an order to deploy its gate.",
+      "english_literal": "The gate hauler has been given an order to deploy its gate."
+    },
+    {
+      "method": "getIntelTags",
+      "offset": 17,
+      "constant_pool_index": 914,
+      "shown_literal": "Fleet log",
+      "english_literal": "Fleet log"
+    },
+    {
+      "method": "getSortString",
+      "offset": 4,
+      "constant_pool_index": 914,
+      "shown_literal": "Fleet log",
+      "english_literal": "Fleet log"
+    },
+    {
+      "method": "getName",
+      "offset": 0,
+      "constant_pool_index": 934,
+      "shown_literal": "Gate Hauler",
+      "english_literal": "Gate Hauler"
+    }
+  ],
+  "native_windows_gameplay_tested": false
+}

@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.60):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.61):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.60** (snapshot 1.0.12 + overlaye 1013–1060; 5 nowych tekstow API i 2 naprawione zdania o ladunku/flocie; 7 odczytow JVM w 2 klasach; 5309 wierszy API, wszystkie 870 danych gry niezmienione. Cel 1.1 nadal OTWARTY).
+**Aktualny stan roboczy: 1.0.61** (snapshot 1.0.12 + overlaye 1013–1061; 25 historycznych API zrecenzowanych w oryginalnym GateHaulerIntel, 15 poprawek jezykowych, 3 nowe literały dzien/dni/separator, 49 potwierdzonych odczytow JVM, 93 testy skladanych zdan. API 5312 wierszy, 870 plikow danych niezmienionych. Cel 1.1 nadal OTWARTY).
 
 ## Etap 1.0.45
 
@@ -70,9 +70,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport i reprodukcja](docs/RELEASE_1059.md): 6 oryginalnych tekstow UI klasy `MonthlyReportNodeTooltipCreator` dotad nieprzetlumaczonych, poprawiony komunikat laczacy liczbe jednostek z nazwa towaru. 10 rzeczywistych uzyc `ldc` z oryginalnego JVM, 15 wariantow zdania, 10 negatywnych mutacji i 1 zmieniona klasa Java. Oryginalny JAR: fresh=upgrade 1.0.58->1.0.59; idempotencja, backup/restore i odrzucanie uszkodzonego JAR PASS. Dane gry i pozostałe 869 plikow bez zmian; 17 wczesniejszych recenzji tej klasy nie podnosi licznika 391/3658. Nie bylo natywnego testu rozgrywki Windows. **1.1 NIE GOTOWA.**
 
-## Najnowszy etap 1.0.60
+## Etap 1.0.60
 
 [Raport i testy](docs/RELEASE_1060.md): 5 nowych klasowych literalow Java API (trasa, towary, materialy, etykieta frakcji), 2 poprawione zdania o duzej ilosci ladunku, 7 zweryfikowanych odczytow w oryginalnym JVM. 16 testow kompozycji tekstow, 11 negatywnych mutacji mapy, 5 testow kontraktu pakietu. Original-JAR fresh=upgrade 1.0.59->1.0.60, dokladnie 2 zmienione klasy, identyczne opcode, backup/restore i odmowa uszkodzonego JAR PASS. 870 danych nietknietych. Historyczne API 391/3658 oraz 186 getterow do audytu; gameplay Windows niewykonany. Docelowa 1.1 nie jest gotowa.
+
+## Najnowszy etap 1.0.61
+
+[Dokumentacja, audit i odtwarzalne testy](docs/RELEASE_1061.md): w `GateHaulerIntel` poprawiono polskie czasy `dzien/dni`, statusy Holownika Bram, skladanie docelowych ukladow i czasow lotu. **25** starych DRAFT/OPTIONAL wierszy zweryfikowano semantycznie po sprawdzeniu **49** odczytow `ldc` w oryginalnym JVM. 15 wczesniejszych tekstow poprawiono, 3 nowe dodano, 93 warianty zdan przetestowano. Historyczna recenzja API: **416/3658** (3242 nadal otwarte). Original-JAR fresh=upgrade 1.0.60->1.0.61, jedna klasa zmieniona, kod JVM identyczny. Wszystkie 870 plikow gry i 7371 opcji dialogowych niezmienione. **Brak testu natywnej rozgrywki Windows. Wersja 1.1 NIE jest jeszcze ukonczona.**
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
