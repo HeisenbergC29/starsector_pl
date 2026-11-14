@@ -1,0 +1,299 @@
+{
+  "release": "1.0.62",
+  "game_version": "0.98a-RC8",
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "source_class": "com.fs.starfarer.api.impl.campaign.intel.bases.PirateBaseIntel",
+  "original_mapped_literals": 36,
+  "new_missing_literals": 2,
+  "confirmed_original_jvm_ldc_uses": 42,
+  "unique_confirmed_literals": 38,
+  "highlight_call_sites": [
+    {
+      "method": "addBulletPoints",
+      "offset": 174,
+      "literal": "Agreement"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 356,
+      "literal": "agreement"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 438,
+      "literal": "agreement"
+    }
+  ],
+  "technical_tag_call_sites": [
+    {
+      "method": "getIntelTags",
+      "offset": 59,
+      "literal": "Colony threats"
+    },
+    {
+      "method": "getIntelTags",
+      "offset": 81,
+      "literal": "Colony threats"
+    },
+    {
+      "method": "getSortString",
+      "offset": 4,
+      "literal": "Fleet log"
+    }
+  ],
+  "uses": [
+    {
+      "method": "PirateBaseIntel",
+      "offset": 125,
+      "constant_pool_index": 257,
+      "english_literal": "Pirate Base"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 71,
+      "constant_pool_index": 1248,
+      "english_literal": "Agreement broken"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 87,
+      "constant_pool_index": 1248,
+      "english_literal": "Agreement broken"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 114,
+      "constant_pool_index": 1259,
+      "english_literal": "Agreement dissolved"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 158,
+      "constant_pool_index": 1269,
+      "english_literal": "Agreement made with base commander"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 174,
+      "constant_pool_index": 1274,
+      "english_literal": "Agreement"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 237,
+      "constant_pool_index": 1278,
+      "english_literal": "Bounty faction: "
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 291,
+      "constant_pool_index": 1295,
+      "english_literal": "%s reward"
+    },
+    {
+      "method": "addBulletPoints",
+      "offset": 409,
+      "constant_pool_index": 1310,
+      "english_literal": "%s received"
+    },
+    {
+      "method": "getSortString",
+      "offset": 4,
+      "constant_pool_index": 1354,
+      "english_literal": "Fleet log"
+    },
+    {
+      "method": "getName",
+      "offset": 42,
+      "constant_pool_index": 1378,
+      "english_literal": " Base - Bounty Posted"
+    },
+    {
+      "method": "getName",
+      "offset": 73,
+      "constant_pool_index": 1380,
+      "english_literal": " Base - Bounty Expired"
+    },
+    {
+      "method": "getName",
+      "offset": 114,
+      "constant_pool_index": 1382,
+      "english_literal": " Base - Bounty Completed"
+    },
+    {
+      "method": "getName",
+      "offset": 148,
+      "constant_pool_index": 1384,
+      "english_literal": " Base - Destroyed"
+    },
+    {
+      "method": "getName",
+      "offset": 186,
+      "constant_pool_index": 1387,
+      "english_literal": " Base - Abandoned"
+    },
+    {
+      "method": "getName",
+      "offset": 217,
+      "constant_pool_index": 1389,
+      "english_literal": " Base - Discovered"
+    },
+    {
+      "method": "getName",
+      "offset": 250,
+      "constant_pool_index": 1394,
+      "english_literal": " Base - Exact Location Unknown"
+    },
+    {
+      "method": "getName",
+      "offset": 271,
+      "constant_pool_index": 1396,
+      "english_literal": " Base - "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 96,
+      "constant_pool_index": 1420,
+      "english_literal": " established a base in the "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 125,
+      "constant_pool_index": 1433,
+      "english_literal": "The base serves as a staging ground for raids against nearby colonies."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 221,
+      "constant_pool_index": 1441,
+      "english_literal": "It has limited defensive capabilities and is protected by a few fleets."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 236,
+      "constant_pool_index": 1446,
+      "english_literal": "It has limited defensive capabilities and is protected by a small number of fleets."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 251,
+      "constant_pool_index": 1448,
+      "english_literal": "It has fairly well-developed defensive capabilities and is protected by a considerable number of fleets."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 266,
+      "constant_pool_index": 1450,
+      "english_literal": "It has very well-developed defensive capabilities and is protected by a large number of fleets."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 281,
+      "constant_pool_index": 1452,
+      "english_literal": "It has very well-developed defensive capabilities and is protected by a large number of fleets. Both the base and the fleets have elite-level equipment, at least by pirate standards."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 296,
+      "constant_pool_index": 1454,
+      "english_literal": "You have not yet discovered the exact location or capabilities of this base."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 342,
+      "constant_pool_index": 1464,
+      "english_literal": "You have an %s with the base commander, and fleets from this base do not, as a rule, harass your colonies or shipping. The protection payment is %s of the gross income of all of your affected colonies, which amounts to %s per month at their current level of income."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 356,
+      "constant_pool_index": 1466,
+      "english_literal": "agreement"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 438,
+      "constant_pool_index": 1466,
+      "english_literal": "agreement"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 484,
+      "constant_pool_index": 1484,
+      "english_literal": "Recent events"
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 547,
+      "constant_pool_index": 1499,
+      "english_literal": "Pirates operating from this base have been targeting the "
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 636,
+      "constant_pool_index": 1504,
+      "english_literal": " posted a bounty for the destruction of this base."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 705,
+      "constant_pool_index": 1506,
+      "english_literal": "You have successfully completed this bounty."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 745,
+      "constant_pool_index": 1508,
+      "english_literal": "You have destroyed this base."
+    },
+    {
+      "method": "createSmallDescription",
+      "offset": 773,
+      "constant_pool_index": 1510,
+      "english_literal": "It is rumored that this base is no longer operational."
+    },
+    {
+      "method": "getIntelTags",
+      "offset": 59,
+      "constant_pool_index": 1537,
+      "english_literal": "Colony threats"
+    },
+    {
+      "method": "getIntelTags",
+      "offset": 81,
+      "constant_pool_index": 1537,
+      "english_literal": "Colony threats"
+    },
+    {
+      "method": "pickPostfix",
+      "offset": 107,
+      "constant_pool_index": 1618,
+      "english_literal": "Free Orbit"
+    },
+    {
+      "method": "pickPostfix",
+      "offset": 191,
+      "constant_pool_index": 1642,
+      "english_literal": "Mine Depot"
+    },
+    {
+      "method": "commodityUpdated",
+      "offset": 188,
+      "constant_pool_index": 1739,
+      "english_literal": "Brought in by raiders"
+    },
+    {
+      "method": "economyUpdated",
+      "offset": 158,
+      "constant_pool_index": 1776,
+      "english_literal": "Development level"
+    },
+    {
+      "method": "economyUpdated",
+      "offset": 196,
+      "constant_pool_index": 1776,
+      "english_literal": "Development level"
+    }
+  ],
+  "native_windows_gameplay_tested": false
+}

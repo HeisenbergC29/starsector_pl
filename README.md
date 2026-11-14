@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.61):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.62):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.61** (snapshot 1.0.12 + overlaye 1013–1061; 25 historycznych API zrecenzowanych w oryginalnym GateHaulerIntel, 15 poprawek jezykowych, 3 nowe literały dzien/dni/separator, 49 potwierdzonych odczytow JVM, 93 testy skladanych zdan. API 5312 wierszy, 870 plikow danych niezmienionych. Cel 1.1 nadal OTWARTY).
+**Aktualny stan roboczy: 1.0.62** (snapshot 1.0.12 + nakladki 1013-1062; 31 dodatkowych historycznych recenzji API PirateBaseIntel, 5 naprawionych tlumaczen, 2 brakujace UI highlighter literals; 42 original-JVM ldc sites. API 5314 mapowanych wierszy. Dwa techniczne klucze kategorii sa chronione; 870 mod/data niezmienionych. Docelowa 1.1 nadal NIE GOTOWA).
 
 ## Etap 1.0.45
 
@@ -74,9 +74,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport i testy](docs/RELEASE_1060.md): 5 nowych klasowych literalow Java API (trasa, towary, materialy, etykieta frakcji), 2 poprawione zdania o duzej ilosci ladunku, 7 zweryfikowanych odczytow w oryginalnym JVM. 16 testow kompozycji tekstow, 11 negatywnych mutacji mapy, 5 testow kontraktu pakietu. Original-JAR fresh=upgrade 1.0.59->1.0.60, dokladnie 2 zmienione klasy, identyczne opcode, backup/restore i odmowa uszkodzonego JAR PASS. 870 danych nietknietych. Historyczne API 391/3658 oraz 186 getterow do audytu; gameplay Windows niewykonany. Docelowa 1.1 nie jest gotowa.
 
-## Najnowszy etap 1.0.61
+## Etap 1.0.61
 
 [Dokumentacja, audit i odtwarzalne testy](docs/RELEASE_1061.md): w `GateHaulerIntel` poprawiono polskie czasy `dzien/dni`, statusy Holownika Bram, skladanie docelowych ukladow i czasow lotu. **25** starych DRAFT/OPTIONAL wierszy zweryfikowano semantycznie po sprawdzeniu **49** odczytow `ldc` w oryginalnym JVM. 15 wczesniejszych tekstow poprawiono, 3 nowe dodano, 93 warianty zdan przetestowano. Historyczna recenzja API: **416/3658** (3242 nadal otwarte). Original-JAR fresh=upgrade 1.0.60->1.0.61, jedna klasa zmieniona, kod JVM identyczny. Wszystkie 870 plikow gry i 7371 opcji dialogowych niezmienione. **Brak testu natywnej rozgrywki Windows. Wersja 1.1 NIE jest jeszcze ukonczona.**
+
+## Najnowszy etap 1.0.62
+
+[Dokumentacja i dowody](docs/RELEASE_1062.md): **31** historycznych DRAFT/OPTIONAL wierszy klasy `PirateBaseIntel` zrecenzowano na podstawie **42** wywolan oryginalnego JVM; 5 korekt, 2 nowe literaly `Agreement` i `agreement`, 18 testow skladanych powiadomien. Przywrocono oryginalne techniczne znaczniki `Fleet log` i `Colony threats` uzywane przez `Set.contains` i `Set.add` (nie sa to zwykle etykiety interfejsu). 416 starszych odciskow recenzji zachowano, razem **447/3658**, pozostaje **3211**. Fresh original-JAR 1.0.62 = upgrade 1.0.61->1.0.62; tylko jedna klasa Java zmieniona, opcode niezmieniony. 870 plikow danych identycznych. Otwarty problem dynamicznego angielskiego `has/have` i tytulow baz. Natywnego testu gry Windows nie przeprowadzono. Wersja 1.1 NIEUKONCZONA.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

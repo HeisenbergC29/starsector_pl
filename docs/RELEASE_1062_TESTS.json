@@ -1,0 +1,73 @@
+{
+  "source_verification": {
+    "release": "1.0.62",
+    "map_rows": 5314,
+    "old_map_rows": 5312,
+    "historical_newly_reviewed": 31,
+    "historical_reviewed_total": 447,
+    "remaining_historical_api": 3211,
+    "existing_literal_corrections": 5,
+    "new_literal_translations": 2,
+    "original_jvm_ldc_uses": 42,
+    "game_data_files_byte_identical": 870,
+    "rendered_tooltip_combinations": 18,
+    "technical_category_tokens_restored": 2,
+    "mapping_sha256": "1f85680ff856b858f2f4db342aa98754c085a35bec6e9d0538113a55f9471f01",
+    "native_windows_gameplay_tested": false
+  },
+  "negative_map": {
+    "release": "1.0.62",
+    "negative_mutations_rejected": 12,
+    "cases": {
+      "delete existing map row": "REJECTED",
+      "duplicate existing map row": "REJECTED",
+      "reviewed row incorrectly reclassified": "REJECTED",
+      "unexpected previous Polish translation": "REJECTED",
+      "new missing literal already mapped": "REJECTED",
+      "unapproved previously approved row modified": "REJECTED",
+      "translation of Fleet log technical sort key": "REJECTED",
+      "translation of Colony threats internal tag": "REJECTED",
+      "missing agreement highlighted token": "REJECTED",
+      "wrong lowercase dynamic agreement value": "REJECTED",
+      "English agreement event translation": "REJECTED",
+      "ambiguous repeated highlight": "REJECTED"
+    },
+    "source_verified": true,
+    "original_jvm_ldc_uses": 42,
+    "historical_new_reviews": 31,
+    "native_windows_gameplay_tested": false
+  },
+  "package_contract": {
+    "version": "1.0.62",
+    "preflight_passed": true,
+    "invalid_metadata_cases_rejected": [
+      "fake completed history",
+      "wrong API row count",
+      "invent dynamic grammar",
+      "claim 100 data files",
+      "hide new source literals",
+      "invent 20 repairs"
+    ]
+  },
+  "original_jar": {
+    "release": "1.0.62",
+    "fresh_equal_upgrade": true,
+    "repeat_apply_noop": true,
+    "original_restore_byte_exact": true,
+    "tampered_jar_rejected": true,
+    "changed_class_count": 1,
+    "changed_classes": [
+      "com/fs/starfarer/api/impl/campaign/intel/bases/PirateBaseIntel.class"
+    ],
+    "java_instruction_offsets_opcodes_identical": true,
+    "new_api_sha256": "f8906cb9079dd6e4e56620550d5ed4021716a226bc6a0aa0ab1a198d23ddf7e3",
+    "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "native_windows_gameplay_tested": false
+  },
+  "original_jvm_evidence_sha256": "628da2f27c9aca56fdc7abbea8ed52aa9d1c76ab7b779a1bef4a5d23655fe364",
+  "local_package": {
+    "name": "Starsector_PL_ASCII_0.98a_RC8_1.0.62_LOCAL.zip",
+    "sha256": "69250dcc7c600bf89dc473cc2dfae6fb3a295872fc424714231864b81391496c"
+  },
+  "native_windows_gameplay_tested": false
+}

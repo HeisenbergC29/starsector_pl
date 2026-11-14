@@ -25,10 +25,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 416,
-      "unresolved_count": 3242,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1061.json",
-      "source": "1.0.61: 391 fingerprint-preserved earlier reviews plus 25 historical DRAFT/OPTIONAL GateHaulerIntel records independently validated against original JVM ldc/call sites; 3242 remain. Three new unmapped literals excluded from historical count; Windows gameplay pending."
+      "reviewed_offline": 447,
+      "unresolved_count": 3211,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1062.json",
+      "source": "1.0.62: all 416 prior verified historical API fingerprints preserved, plus 31 PirateBaseIntel DRAFT/OPTIONAL original-JVM-scoped reviews. Two newly mapped original literals are not counted as historic. 3211 entries await review; Windows gameplay untested."
     },
     {
       "id": "rules_possessives",
@@ -152,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.61: 25 historical GateHaulerIntel API rows reviewed, 15 translations corrected, 3 new literals; 1953 gender markers in 1006 rules remain, 3242 other historical API rows and 186 JVM getter calls unresolved. Windows native gameplay untested."
+      "source": "1.0.62: 31 historical PirateBaseIntel API mappings reviewed offline, 5 class-scoped fixes including restoring two technical category keys and two newly mapped UI highlighter literals; 1953 gender markers in 1006 rules, 3211 historic API entries, 186 JVM getters remain unreviewed. Native Windows gameplay missing."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.61: 49 original JVM GateHaulerIntel ldc usages verified in 5 methods, plus private original-JAR fresh=upgrade check, but no actual native Windows game or visual rendering tested."
+      "source": "1.0.62: 42 PirateBaseIntel original-JVM ldc callsites checked offline. Private original-JAR fresh=upgrade 1.0.61->1.0.62; no native Windows gameplay UI test."
     },
     {
       "id": "rules_reflexive_1057",
@@ -229,6 +229,23 @@
       "original_jvm_ldc_verified": 49,
       "changed_classes": 1,
       "tested_render_variants": 93,
+      "changed_game_data_files": 0,
+      "changed_jvm_executable_instructions": 0,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "pirate_base_jvm_1062",
+      "status": "in_progress",
+      "source": "tools/apply_1062.py, docs/PIRATE_BASE_REVIEW_1062.json, docs/JVM_AUDIT_1062.json, docs/API_SEMANTIC_REVIEW_1062.json: 31 new original-JVM-reviewed historic API rows, 5 corrected literals (including protection of Set.contains/Set.add technical category strings), 2 newly mapped agreement highlighter words; 42 verified ldc uses and 18 rendered tooltip variants; private original JAR fresh=upgrade. No game mechanics changed.",
+      "previous_historical_reviews": 416,
+      "new_historical_reviews": 31,
+      "total_historical_reviews": 447,
+      "changed_existing_translations": 5,
+      "added_missing_literals": 2,
+      "original_jvm_ldc_verified": 42,
+      "changed_classes": 1,
+      "tested_render_variants": 18,
+      "restored_technical_category_strings": 2,
       "changed_game_data_files": 0,
       "changed_jvm_executable_instructions": 0,
       "native_windows_gameplay_tested": false
