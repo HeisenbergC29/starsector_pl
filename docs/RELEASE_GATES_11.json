@@ -13,13 +13,13 @@
       "unresolved_count": 186,
       "total_jvm_getter_calls": 219,
       "shared_her_conflict_open": false,
-      "reviewed_rules_rows_offline": 433,
-      "removed_visible_gender_variable_refs": 606,
-      "source": "1.0.57: 70 new unique grammar-reviewed dialogue rows (74 gesture fragments, 76 removed possessive markers); 2089 raw gender tokens remain in 1028 rows. JVM 186 getter contexts not yet reviewed; native Windows UI not tested.",
+      "reviewed_rules_rows_offline": 555,
+      "removed_visible_gender_variable_refs": 742,
+      "source": "1.0.58: 122 nonoverlapping SHA-pinned speech attribution dialogue records, 136 redundant dynamic subject markers removed; 1953 raw gender placeholders remain across 1006 rules. 186 JVM getters and Windows gameplay not tested.",
       "base_bar_shared_her_resolved_offline_1052": true,
       "shared_her_pending_native_windows_validation": true,
       "base_bar_gender_getter_callsites_reviewed_1052": 13,
-      "pending_windows_ui_rules_rows": 433
+      "pending_windows_ui_rules_rows": 555
     },
     {
       "id": "draft_semantics",
@@ -152,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.57: 70 new contextual gesture corrections, 2089 remaining dynamic gender tokens in 1028 dialogue rows, 3267 API histories and 186 JVM getter calls not fully reviewed; native Windows gameplay not tested."
+      "source": "1.0.58: 122 new contextual speech attribution corrections; 1953 gender placeholders across 1006 rows, 3267 historical API strings and 186 JVM getters still unreviewed; native Windows gameplay not tested."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.57: 433 unique rules records reviewed offline plus prior dynamic Java texts need native Windows gameplay verification. Native gameplay has not been tested."
+      "source": "1.0.58: 555 unique rule records reviewed for selected fragments offline, plus prior Java UI texts, still require native Windows gameplay testing; no native game was run."
     },
     {
       "id": "rules_reflexive_1057",
@@ -174,6 +174,21 @@
       "protected_prior_reviewed_ids": 363,
       "changes_to_conditions_scripts_ids_options": 0,
       "pending_windows_ui": 70,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "rules_speech_attributions_1058",
+      "status": "in_progress",
+      "source": "tools/apply_1058.py + docs/RULES_SPEECH_REVIEW_1058.json: exactly 122 unique ID + full-text SHA-pinned rows; 136 elided subject pronouns following reporting verbs outside quotes. Byte-exact reverse 1.0.57, original 869 other data files, game IDs/conditions/scripts/options protected.",
+      "corrected_rules_rows": 122,
+      "removed_dynamic_gender_refs": 136,
+      "previous_affected_rows": 1028,
+      "remaining_affected_rows": 1006,
+      "previous_placeholder_occurrences": 2089,
+      "remaining_placeholder_occurrences": 1953,
+      "protected_prior_reviewed_ids": 433,
+      "changes_to_conditions_scripts_ids_options": 0,
+      "pending_windows_ui": 122,
       "native_windows_gameplay_tested": false
     }
   ]

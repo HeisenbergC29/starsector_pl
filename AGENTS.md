@@ -1,6 +1,8 @@
 # Starsector PL: instrukcje dla kolejnego agenta
 
-**Aktualny stan roboczy: 1.0.57** (snapshot 1.0.12 + overlaye 1013–1057; 70 nowych poprawek w 74 gestach, 76 usunietych zbednych zaimkow, 433 unikatowe dialogi po review, 2089 pozostalych surowych zmiennych w 1028 wierszach; mapy JVM nadal 3537 OBF w 539 klasach i 5296 API w 938 klasach; 869 innych plikow data bajtowo niezmienionych). Cel 1.1 wciaz OTWARTY.
+**Aktualny stan roboczy: 1.0.58** (snapshot 1.0.12 + overlaye 1013–1058; 122 nowych recenzji ID, 136 zaimkow podmiotowych usunietych przy czasownikach wprowadzajacych wypowiedz, lacznie 555 unikatowych rekordow tekstowych recenzowanych offline, 1953 zmiennych w 1006 rekordach. Mapy API/OBF bez zmian. 869 innych plikow data bajtowo niezmienionych. Cel 1.1 NIE GOTOWY).
+
+**1.0.58:** 122 nowych SHA-pinned dialogow; 136 usunietych zbednych `$heOrShe` i `$HeOrShe` tylko za czasownikiem wprowadzajacym wypowiedz, poza cytatem. Wszystkie 433 poprzednie ID chronione, 869 innych danych bez zmian, 10 mutacji negatywnych PASS. Oryginalne JAR: fresh = upgrade z 1.0.57, idempotencja, tamper rejection i restore PASS. Szczegoly `docs/RELEASE_1058.md`. Przy CI z 1.0.57 uzywaj archiwalnego `docs/RELEASE_GATES_1057.json`, najnowsze bramki sa w `docs/RELEASE_GATES_11.json`; gameplay Windows pozostaje niewykonany.
 
 **1.0.57:** Oryginalny rules.csv 1.0.56 i 70 SHA-pinned niepowtarzajacych sie dialogow. 74 poprawek gestow (`kreci glowa`, `przewraca oczami`, `sklada dlonie` itd.); 76 mniej zbednych `$hisOrHer`. 10 negatywnych testow i bajtowa rekonstruowalnosc 1.0.56 PASS, 869 pozostalych danych identyczne. Rzeczywisty original-JAR upgrade 1.0.56->1.0.57, idempotencja, tamper rejection, restore PASS. Natywne Windows gameplay NIEWYKONANE. Szczegoly `docs/RELEASE_1057.md`; dziedziczonym testom 1.0.56 podawaj `docs/RELEASE_GATES_1056.json`, a aktualnym 1.0.57 najnowszy `docs/RELEASE_GATES_11.json`.
 

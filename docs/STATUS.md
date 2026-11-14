@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-14
 
-**Wydanie robocze 1.0.57. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.58. Cel 1.1 nadal otwarty.**
+
+**1.0.58 (2026-11-14):** Zmieniono wyłącznie 122 nowe, nieprzeglądane wcześniej identyfikatory w `rules.csv`, usuwając 136 redundantnych zaimków po czasownikach wprowadzających wypowiedź. Pełna ewidencja par zdań, miejsc edycji i SHA-256 w `docs/RULES_SPEECH_REVIEW_1058.json`. SHA źródła `693b874b6738d792bbf5b74a9e247e594c607c1834a2822823a228511a311f6c`, wynik `4fcf72e3aad0a0c72bac3bea021a311b36f12c4d201d4dcf9b9c7edf2eeb0e04`. Cofnięcie zmian bajtowo odtwarza 1.0.57. Wszystkie 869 innych danych, techniczne ID, skrypty, warunki, opcje i mapy JVM bez zmian. 10 negatywnych testów danych i 5 kontraktowych PASS. Oryginalne JAR: świeża instalacja = aktualizacja 1.0.57 → 1.0.58, przywracanie/no-op/tamper rejection PASS. Trzy programy Windows x64 skompilowane. **Łącznie 555** unikatowych ID po recenzji offline; **1953** surowe zmienne w **1006** dialogach pozostają do oceny. Historyczne API 391/3658; 3267 otwartych i 186 getterów Java nierozpatrzonych. Uruchomienie gry na Windows nadal niewykonane; 1.1 nie jest ukończona. Patrz `docs/RELEASE_1058.md`.
+
+
 
 **1.0.57 (2026-11-14):** Przygotowano i zweryfikowano 70 unikatowych nowych korekt w `rules.csv`: 74 idiomatyczne gesty ciala, 76 usunietych niepotrzebnych `$hisOrHer`. 363 wczesniejsze recenzje zachowane, lacznie 433/11107 dialogow przeanalizowanych offline, pozostaly 1028 rekordow zawierajacych 2089 potencjalnych zmiennych plciowych. SHA rules `693b874b6738d792bbf5b74a9e247e594c607c1834a2822823a228511a311f6c`. Pelny rejestr kazdego ID, oryginalnego i poprawionego tekstu i SHA: `docs/RULES_REFLEXIVE_REVIEW_1057.json`. Cofniecie zmian daje bajtowo oryginalna 1.0.56; pozostale 869 plikow data, mapy OBF/API, skrypty i opcje dialogowe sa niezmienione. Cross-build Windows x64, testy Go, 10 negatywnych mutacji, 10 falszywych bramek, 5 prob falsyfikacji metadanych paczki, prywatny test original JAR fresh=upgrade 1.0.56->1.0.57 i restore: PASS. Historyczne API 391/3658 (3267 otwartych), JVM getters 186 bez zmian. Windows gameplay NIEWYKONANY; 1.1 niekompletna. Patrz `docs/RELEASE_1057.md` i bramki 1.1.
 

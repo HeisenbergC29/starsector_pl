@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.57):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.58):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.57** (snapshot 1.0.12 + overlaye 1013–1057; OBF 3537/539 i API 5296/938 bez nowych zmian; 70 dalszych dialogow, 74 korekty gestow i 76 usunietych zbednych zmiennych dzierzawczych; 433 unikatowe dialogi po review, 2089 zmiennych do dalszej oceny w 1028 rekordach). Cel 1.1 OTWARTY.
+**Aktualny stan roboczy: 1.0.58** (snapshot 1.0.12 + overlaye 1013–1058; 122 nowe rekordy tekstowe, 136 redundantnych zaimkow usunietych w wprowadzeniach dialogowych; 555 unikatowych dialogow zrecenzowanych offline, 1953 pozostale zmienne w 1006 rekordach; API 5296/938 i OBF 3537/539 bez zmian). Docelowa 1.1 nadal OTWARTA.
 
 ## Etap 1.0.45
 
@@ -58,9 +58,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport 1.0.56](docs/RELEASE_1056.md): **110 zatwierdzonych korekt dialogow** w 11 107 rekordach `data/campaign/rules.csv`: 71 opuszczen zbednego zaimka po `mowi/odpowiada`, 39 neutralizacji wyrazen dzierzawczych. Wszystkie oryginalne skrypty, identyfikatory i opcje pozostaly bajtowo identyczne; walidator odwraca caly 110-pozycyjny plan i odtwarza oryginalny rules.csv SHA. Pozostaje **2165** wystapien dynamicznych form plci w **1029** dialogach (to kandydaci, nie kazdy jest realnym bledem). Recenzje dialogow: **363 offline**, historyczne API **391/3658** bez zmian. [Rzeczywisty upgrade oryginalnych JAR](docs/PRIVATE_UPGRADE_1056.json) PASS bez jakiejkolwiek zmiany API/OBF. **1.1 NIE jest skonczona**, w szczegolnosci brak native Windows gameplay.
 
-## Najnowszy etap 1.0.57
+## Etap 1.0.57
 
 [Raport, dokumentacja i testy](docs/RELEASE_1057.md): 70 nowych SHA-pinned dialogow (74 idiomatyczne poprawki opisow gestow), 76 usunietych zbednych zmiennych `$hisOrHer`, 869 innych plikow danych bez zmian. Poprzednie 363 dialogi zrecenzowane offline pozostaja chronione; licznik 433. Pozostalo 2089 potencjalnych dynamicznych zmiennych w 1028 dialogach. Bez zmiany map OBF/API i mechaniki gry. Odtworzenie poprzedniego `rules.csv` bajtowo, 20 negatywnych testow CSV/bramek i 5 testow metadanych pakietu PASS. Na oryginalnych JAR: fresh=upgrade 1.0.56->1.0.57, idempotencja, odmowa uszkodzonego JAR i restore PASS. Natywnego gameplay Windows nadal NIE przetestowano; 1.1 NIE gotowa.
+
+## Najnowszy etap 1.0.58
+
+[Dokumentacja i reprodukcja](docs/RELEASE_1058.md): **122** nowe, wcześniej nierecenzowane rekordy `rules.csv`, **136** zbędnych zaimków podmiotowych po czasownikach `mowi`, `dodaje`, `odpowiada`, `pyta` itd. usuniętych z samych tekstów. Poprzednie 433 unikatowe ID chronione; ogółem 555. Pozostało 1953 potencjalnych zmiennych płciowych w 1006 dialogach. 869 pozostałych plików data i obie mapy JVM niezmienione. Testy offline, oryginalnych JAR-ów i aktualizacji 1.0.57 → 1.0.58 przeszły, ale **natywnego gameplay Windows nie testowano**. Wydanie 1.1 nie jest kompletne.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.
