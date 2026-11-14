@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.65):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.66):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.65** (snapshot 1.0.12 + nakladki 1013–1065; MarketCMD: 104 wpisy DRAFT sprawdzone, 17 juz policzonych we wczesniejszej historii, 87 nowych historycznych recenzji i 17 poprawek tekstowych. 363 JVM ldc, 55 kompozycji; mapa API 5314 wpisow, 870 mod/data bez zmian. Audyt 617/3658, pozostaje 3041. **Testy w uruchomionej grze dopiero PO wydaniu 1.1**, nie wczesniej).
+**Aktualny stan roboczy: 1.0.66** (snapshot 1.0.12 + nakladki 1013–1066; symulator walki, przemysl kolonii i samouczek: 161 DRAFT wpisow recenzji, 47 juz historycznie policzonych, 114 nowych, 13 brakujacych tekstow i 9 korekt; 669 original-JVM ldc calls, 60 testow skladania, mapa API 5327 wierszy, wszystkie 870 mod/data niezmienione. Historia 731/3658, pozostaje 2927. Gameplay w uruchomionej grze dopiero po pierwszym wydaniu 1.1).
 
 ## Etap 1.0.45
 
@@ -90,11 +90,15 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Pelny raport oraz dowody](docs/RELEASE_1064.md): **48** nowych zatwierdzonych historycznych mapowan API w **2** klasach, 150 potwierdzonych instrukcji odczytujacych teksty w oryginalnym JVM, **9** naprawionych tlumaczen. Klucze `Colony threats` w obu klasach i `Fleet log` przy sortowaniu baz musza zostac po angielsku ze wzgledu na `Set.add`/`Set.contains`; nie sa widocznymi etykietami. Zrecenzowano **530/3658** historycznych wpisow, poprzednie 482 odciski zachowane. Na prawdziwych JAR: fresh 1.0.64 = upgrade 1.0.63->1.0.64, dwie klasy zmienione, JVM opcode niezmienione, restore i tamper rejection PASS. 870 plikow danych gry bajtowo identycznych. 186 getterow JVM i natywny Windows gameplay wciaz do wykonania. **1.1 NIE JEST GOTOWA.**
 
-## Najnowszy etap 1.0.65
+## Etap 1.0.65
 
 [Raport wydania 1.0.65](docs/RELEASE_1065.md): `MarketCMD` (rajdy, bombardowania, obrona kolonii): **104** historyczne wpisy API zbadane na podstawie oryginalnego JVM; **17 bylo juz policzonych** w poprzednim audycie, wiec doliczono tylko **87 nowych**. Poprawiono **17** tekstow skladanych z dynamicznymi nazwami; **363** rzeczywiste odwolania JVM do stalych, **111** zmapowanych tekstow, **55** wariantow i **12** negatywnych mutacji. Original-JAR fresh=upgrade 1.0.64->1.0.65, jedna klasa zmieniona, opcode bez zmian, backup/restore i tamper reject PASS. Historia API **617/3658**, pozostaje **3041**. Dane gry bez zmian.
 
 **Polityka testowania [1.1](docs/TEST_POLICY_11.md):** zgodnie z decyzja uzytkownika testy **uruchomionej gry** i przeglad wizualny odbeda sie **po opublikowaniu 1.1**. Nie blokuja jej wydania; CI, przeglad pelnego zakresu tlumaczen, integralnosc danych, bezpieczne podmiany Java i sprawdzenie pakietu nadal sa obowiazkowe przed wydaniem. **1.1 nie jest jeszcze gotowa z powodu pozostalych nietlumaczonych/niesprawdzonych tekstow.**
+
+## Najnowszy etap 1.0.66
+
+[Pelny audyt i instrukcja reprodukcji](docs/RELEASE_1066.md): 161 sprawdzonych z oryginalnym JVM roboczych tekstow w `SimulatorPluginImpl`, `BaseIndustry`, `TutorialMissionIntel`: 47 byly w poprzedniej historii (46 przemysl i 1 samouczek), **114** naprawde nowych recenzji, suma **731/3658** (2927 do przejrzenia). Dopisano **13** wczesniej nieobecnych mapowan widocznych tekstow, poprawiono **9** polskich fragmentow (liczby dni, jednostki produkcji, wyroznienia samouczka). Oryginalne JVM: **669** potwierdzonych odczytow, 3 zmienione klasy Java; fresh original JAR 1.0.66 = upgrade z 1.0.65, bez zmiany instrukcji JVM. **60** wariantow skladanych zdan, 16 negatywnych testow, 870 nietknietych plikow danych. Symulator: sekcje `Agresja i zachowanie` i `Opcje deweloperskie`. Cel 1.1 nadal NIEUKONCZONY. Zgodnie z [polityka testowania](docs/TEST_POLICY_11.md) prawdziwe testy gry nastapia **dopiero po wydaniu 1.1**, nie blokuja publikacji; nadal wymagane testy integracyjne map, JAR i instalatora.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

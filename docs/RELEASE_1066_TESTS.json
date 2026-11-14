@@ -1,0 +1,115 @@
+{
+  "release": "1.0.66",
+  "verify": {
+    "release": "1.0.66",
+    "new_missing_ui_texts": 13,
+    "corrected_ui_fragments": 9,
+    "reviewed_draft_status_rows": 161,
+    "new_unique_historical_reviews": 114,
+    "prior_historical_reviews_not_recounted": 47,
+    "historical_api_reviews_total": 731,
+    "historical_api_unreviewed": 2927,
+    "original_jvm_ldc_uses": 669,
+    "mapped_class_scoped_literals": 205,
+    "unchanged_game_data_files": 870,
+    "gameplay_testing": "after_1_1_release",
+    "rendered_combinations": 60,
+    "tested_numbers": [
+      1,
+      2,
+      5,
+      12,
+      21
+    ],
+    "tested_colonies": [
+      "Jangala",
+      "Chicomoztoc",
+      "Asharu",
+      "Sindria",
+      "Nova Maxios"
+    ],
+    "tutorial_highlight_consistent": true,
+    "simulator_titles_translated": true,
+    "all_rendered_ascii": true
+  },
+  "test": {
+    "release": "1.0.66",
+    "invalid_mutations_rejected": 16,
+    "native_gameplay_tests": "after_1_1_release",
+    "valid_compositions_tested": 60,
+    "cases": {
+      "source map missing original industry key": "REJECTED",
+      "source map contains duplicated key": "REJECTED",
+      "unapproved legacy translation modification": "REJECTED",
+      "simulator draft review status falsified": "REJECTED",
+      "unrelated map class changed": "REJECTED",
+      "progress day declension regressed": "REJECTED",
+      "production units untranslated": "REJECTED",
+      "remaining days english suffix": "REJECTED",
+      "dynamic construction cost marker missing": "REJECTED",
+      "dynamic colony location inflected": "REJECTED",
+      "tutorial Go Dark highlight untranslated": "REJECTED",
+      "tutorial Emergency Burn accusative incorrect": "REJECTED",
+      "tutorial sensor scan grammar incorrect": "REJECTED",
+      "tutorial Storage highlight not found": "REJECTED",
+      "simulator aggression section still English": "REJECTED",
+      "simulator developer section still English": "REJECTED"
+    }
+  },
+  "package_contract": {
+    "version": "1.0.66",
+    "preflight_passed": true,
+    "invalid_metadata_cases_rejected": [
+      "fake completed history",
+      "incorrect new historical review count",
+      "inflate composition evidence",
+      "claim changed data files",
+      "claimed unverified mapping",
+      "hide literal corrections",
+      "hide untranslated legacy API backlog"
+    ]
+  },
+  "private_upgrade": {
+    "release": "1.0.66",
+    "fresh_equal_upgrade": true,
+    "repeat_apply_noop": true,
+    "original_restore_byte_exact": true,
+    "tampered_jar_rejected": true,
+    "changed_class_count": 3,
+    "changed_classes": [
+      "com/fs/starfarer/api/impl/SimulatorPluginImpl.class",
+      "com/fs/starfarer/api/impl/campaign/econ/impl/BaseIndustry.class",
+      "com/fs/starfarer/api/impl/campaign/tutorial/TutorialMissionIntel.class"
+    ],
+    "java_instruction_offsets_opcodes_identical": true,
+    "new_api_sha256": "daa2ed00b18d2b78b0862c89b91d90663c7026caac052ede27f9372548c862b5",
+    "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "native_windows_gameplay_tested": false
+  },
+  "original_JVM": {
+    "release": "1.0.66",
+    "game": "0.98a-RC8",
+    "original_api_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+    "total_original_jvm_ldc_uses": 669,
+    "total_map_literals_after": 205,
+    "never_modify_java_opcode": true,
+    "native_game_tests": "after_1_1_release"
+  },
+  "history": {
+    "com.fs.starfarer.api.impl.SimulatorPluginImpl": {
+      "drafts": 58,
+      "new": 58,
+      "already": 0
+    },
+    "com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry": {
+      "drafts": 56,
+      "new": 10,
+      "already": 46
+    },
+    "com.fs.starfarer.api.impl.campaign.tutorial.TutorialMissionIntel": {
+      "drafts": 47,
+      "new": 46,
+      "already": 1
+    }
+  }
+}

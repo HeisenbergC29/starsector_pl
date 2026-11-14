@@ -25,10 +25,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 617,
-      "unresolved_count": 3041,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1065.json",
-      "source": "1.0.65: all 530 previously reviewed API fingerprints preserved; 104 MarketCMD DRAFT entries examined but 17 already in historical ledger, so only 87 new entries counted. 3041 historical translations pending. Gameplay test not a pre-1.1 requirement."
+      "reviewed_offline": 731,
+      "unresolved_count": 2927,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1066.json",
+      "source": "1.0.66: 161 historical DRAFT rows in SimulatorPluginImpl, BaseIndustry, TutorialMissionIntel original-JVM reviewed, 47 already historical (46 BaseIndustry and 1 Tutorial), 114 genuinely new. 617 immutable earlier entries maintained; 2927 remain. Gameplay testing only after 1.1."
     },
     {
       "id": "rules_possessives",
@@ -152,7 +152,7 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.65: reviewed 104 MarketCMD DRAFT rows (87 new historically, 17 rechecked), repaired 17 text fragments; remaining 3041 historic API rows, 186 JVM getter call contexts, 1953 raw gender markers in 1006 rules, and full player-visible text completeness. Native gameplay is intentionally scheduled after 1.1 release and is not blocking."
+      "source": "1.0.66: original-JVM reviewed 161 DRAFT source rows (114 new historically, 47 already counted), repaired 9 phrases and added 13 player-visible UI texts, including simulator headings, industry durations, tutorial highlights. 2927 historic API rows, 186 getter contexts and 1953 raw gender placeholders in 1006 dialogue records remain; full game test after 1.1."
     },
     {
       "id": "windows_runtime",
@@ -301,6 +301,24 @@
       "rendered_combinations": 55,
       "changed_jvm_classes": 1,
       "changed_mod_data_files": 0,
+      "new_jvm_executable_instructions": 0,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "sim_industry_tutorial_jvm_1066",
+      "status": "in_progress",
+      "source": "tools/apply_1066.py, docs/SIM_INDUSTRY_TUTORIAL_REVIEW_1066.json, docs/JVM_AUDIT_1066.json and docs/API_SEMANTIC_REVIEW_1066.json: 161 DRAFT rows reviewed, 47 previously counted (46 BaseIndustry, 1 Tutorial), 114 new historical, 13 newly translated UI strings, 9 original-JVM grammar fixes; 669 ldc uses and 60 composed text variants. Original private-JAR fresh=upgrade, exactly 3 changed classes, JVM code instructions unchanged. Actual gameplay testing after 1.1.",
+      "previous_historical_reviews": 617,
+      "historical_rows_rechecked": 47,
+      "new_historical_reviews": 114,
+      "total_historical_reviews": 731,
+      "added_literals": 13,
+      "corrected_fragments": 9,
+      "verified_original_jvm_ldc_calls": 669,
+      "mapped_jvm_literal_count": 205,
+      "simulated_composed_texts": 60,
+      "changed_jvm_classes": 3,
+      "changed_game_data_files": 0,
       "new_jvm_executable_instructions": 0,
       "native_windows_gameplay_tested": false
     }
