@@ -1,0 +1,15 @@
+{
+  "release": "1.0.65",
+  "fresh_equal_upgrade": true,
+  "repeat_apply_noop": true,
+  "original_restore_byte_exact": true,
+  "tampered_jar_rejected": true,
+  "changed_class_count": 1,
+  "changed_classes": [
+    "com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+  ],
+  "java_instruction_offsets_opcodes_identical": true,
+  "new_api_sha256": "59d884983c191f96eecb8c7d177a2e317e9ad1920c87e9aa862fc85414779ca4",
+  "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "native_windows_gameplay_tested": false
+}

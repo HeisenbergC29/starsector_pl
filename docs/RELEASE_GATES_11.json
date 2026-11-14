@@ -25,10 +25,10 @@
       "id": "draft_semantics",
       "status": "blocked",
       "total_draft_rows": 3658,
-      "reviewed_offline": 530,
-      "unresolved_count": 3128,
-      "review_ledger": "docs/API_SEMANTIC_REVIEW_1064.json",
-      "source": "1.0.64: 482 previously verified historical API fingerprints byte-identical plus 48 original-JVM reviews from HegemonyInspectionIntel and LuddicPathBaseIntel. 3 Set.add/Set.contains category keys preserved, 9 class-scoped corrections; 3128 historical entries still unreviewed. Native Windows gameplay not tested."
+      "reviewed_offline": 617,
+      "unresolved_count": 3041,
+      "review_ledger": "docs/API_SEMANTIC_REVIEW_1065.json",
+      "source": "1.0.65: all 530 previously reviewed API fingerprints preserved; 104 MarketCMD DRAFT entries examined but 17 already in historical ledger, so only 87 new entries counted. 3041 historical translations pending. Gameplay test not a pre-1.1 requirement."
     },
     {
       "id": "rules_possessives",
@@ -152,13 +152,15 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.64: 48 historical original-JVM API translations newly reviewed in two classes, 9 repaired translations including 3 technical category tags, 150 verified ldc uses. Remaining: 3128 historic API reviews, 186 JVM getters, 1953 raw gender placeholders in 1006 rules; native Windows gameplay not run."
+      "source": "1.0.65: reviewed 104 MarketCMD DRAFT rows (87 new historically, 17 rechecked), repaired 17 text fragments; remaining 3041 historic API rows, 186 JVM getter call contexts, 1953 raw gender markers in 1006 rules, and full player-visible text completeness. Native gameplay is intentionally scheduled after 1.1 release and is not blocking."
     },
     {
       "id": "windows_runtime",
-      "status": "blocked",
+      "status": "deferred_post_1_1",
       "native_gameplay_tested": false,
-      "source": "1.0.64: Two original Java classes, 150 ldc uses, 3 technical tag operations, 25 static render combinations and original-JAR fresh=upgrade validated offline. No native Windows gameplay or visual inspection."
+      "source": "User decision 2026-11-14: run Starsector gameplay and UI visual tests only AFTER the first completed 1.1 release. This gate is intentionally deferred, not failed, complete, or a prerequisite. Offline JVM/installer/data tests still required before release.",
+      "required_before_1_1": false,
+      "testing_phase": "after_1_1_release"
     },
     {
       "id": "rules_reflexive_1057",
@@ -283,6 +285,37 @@
       "game_data_changed": 0,
       "new_jvm_instruction_changes": 0,
       "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "marketcmd_raid_bombardment_1065",
+      "status": "in_progress",
+      "source": "tools/apply_1065.py; original JVM audit docs/JVM_AUDIT_1065.json; docs/MARKETCMD_REVIEW_1065.json and docs/API_SEMANTIC_REVIEW_1065.json. 104 DRAFT rows reviewed, 17 previously counted, 87 unique new historical reviews, 17 repaired fragments including 1 previously verified UI prefix and two previously reviewed historical phrases; 363 JVM ldc uses, 111 mapped source strings; 55 composed texts, 12 negative mutations, fresh=upgrade original JAR and only MarketCMD.class changed. No native game testing before 1.1.",
+      "previous_historical_reviews": 530,
+      "preexisting_historical_rows_rechecked": 17,
+      "new_historical_reviews": 87,
+      "total_historical_reviews": 617,
+      "mapped_literal_count": 111,
+      "original_jvm_ldc_uses": 363,
+      "unique_jvm_string_literals": 240,
+      "grammar_fragments_repaired": 17,
+      "rendered_combinations": 55,
+      "changed_jvm_classes": 1,
+      "changed_mod_data_files": 0,
+      "new_jvm_executable_instructions": 0,
+      "native_windows_gameplay_tested": false
     }
-  ]
+  ],
+  "test_policy": {
+    "native_windows_gameplay": "after_release_1.1",
+    "native_gameplay_required_before_1_1": false,
+    "post_release_gameplay_status": "not_started",
+    "user_decision_date": "2026-11-14",
+    "pre_release_checks": [
+      "offline_text_review",
+      "csv_integrity",
+      "jvm_patch_integrity",
+      "installer_build",
+      "ci_regression"
+    ]
+  }
 }

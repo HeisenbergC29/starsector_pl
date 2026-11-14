@@ -1,0 +1,81 @@
+{
+  "verification": {
+    "release": "1.0.65",
+    "historical_api_reviewed_new": 87,
+    "historical_api_rechecked_prior": 17,
+    "historical_api_reviewed_total": 617,
+    "historical_api_unreviewed": 3041,
+    "original_jvm_ldc_uses": 363,
+    "mapped_literals": 111,
+    "repaired_literals": 17,
+    "unchanged_game_data_files": 870,
+    "native_gameplay_test_policy": "after_1_1_release",
+    "rendered_combinations": 55,
+    "message_kinds": 11,
+    "names_tested": 5,
+    "industry_names_tested": 5,
+    "faction_names_tested": 5,
+    "quantities_tested": 5
+  },
+  "negative_map": {
+    "release": "1.0.65",
+    "invalid_mutations_rejected": 12,
+    "positive_rendered_combinations": 55,
+    "cases": {
+      "map deleted original key": "REJECTED",
+      "map duplicated original key": "REJECTED",
+      "map new malicious status": "REJECTED",
+      "map changed baseline user text": "REJECTED",
+      "map changed non-target class": "REJECTED",
+      "market duration placeholder removed": "REJECTED",
+      "market duration incorrect declension": "REJECTED",
+      "industry dynamic inflection regressed": "REJECTED",
+      "station attack inflection regressed": "REJECTED",
+      "station defender subject gender broken": "REJECTED",
+      "colon-based stability lost": "REJECTED",
+      "raid skill requirement grammar regressed": "REJECTED"
+    }
+  },
+  "negative_package": {
+    "version": "1.0.65",
+    "preflight_passed": true,
+    "invalid_metadata_cases_rejected": [
+      "fake completed history",
+      "wrong new historical row count",
+      "inflate compositions",
+      "fabricate changed data",
+      "wrong mapped source literal count",
+      "inflate repair count"
+    ]
+  },
+  "original_jvm": {
+    "release": "1.0.65",
+    "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+    "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+    "original_class_sha256": "49a65f29f1f4e8e7f9669fb31d823b1cb90535caaaf00881a03e850d8ce03feb",
+    "jvm_ldc_uses": 363,
+    "unique_jvm_literal_texts": 240,
+    "mapped_source_literals": 111,
+    "historical_draft_reviews": 104,
+    "repaired_fragments": 17,
+    "unmapped_original_jvm_literals": 129,
+    "gameplay_test_policy": "after_1_1_release",
+    "native_windows_gameplay_tested": false
+  },
+  "private_jar_upgrade": {
+    "release": "1.0.65",
+    "fresh_equal_upgrade": true,
+    "repeat_apply_noop": true,
+    "original_restore_byte_exact": true,
+    "tampered_jar_rejected": true,
+    "changed_class_count": 1,
+    "changed_classes": [
+      "com/fs/starfarer/api/impl/campaign/rulecmd/salvage/MarketCMD.class"
+    ],
+    "java_instruction_offsets_opcodes_identical": true,
+    "new_api_sha256": "59d884983c191f96eecb8c7d177a2e317e9ad1920c87e9aa862fc85414779ca4",
+    "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "native_windows_gameplay_tested": false
+  },
+  "gameplay_test_policy": "after_release_1.1"
+}

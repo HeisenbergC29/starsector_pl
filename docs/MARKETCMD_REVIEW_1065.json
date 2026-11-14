@@ -1,0 +1,1220 @@
+{
+  "schema_version": 1,
+  "release": "1.0.65",
+  "game_version": "0.98a-RC8",
+  "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+  "previous_map_sha256": "080333ba3c5d89f79a27e83737be8eb940c21a10446901ae01de98ef735a7588",
+  "new_map_sha256": "4d83faa23a64a85a094c325d6f7f53e7d8944da7919eb497eb20be480aba2163",
+  "previous_historical_reviews": 530,
+  "revisited_previously_reviewed_historical_rows": 17,
+  "new_historical_reviews": 87,
+  "historical_reviewed_total": 617,
+  "historical_remaining": 3041,
+  "corrections": [
+    {
+      "english_literal": "Fleet capability for ground support",
+      "polish_ascii_draft": "Mozliwosci floty w zakresie wsparcia naziemnego"
+    },
+    {
+      "english_literal": "Your ground forces commander estimates that given the relative force strengths,  the raid should disrupt all ",
+      "polish_ascii_draft": "Dowodca sil naziemnych ocenia, ze rajd powinien zaklocic dzialanie obiektu: "
+    },
+    {
+      "english_literal": " operations for at least %s days.",
+      "polish_ascii_draft": " przez co najmniej %s dn."
+    },
+    {
+      "english_literal": " operations are already disrupted, and a raid will have ",
+      "polish_ascii_draft": " - dzialanie obiektu jest juz zaklocone, wiec skutecznosc rajdu bedzie "
+    },
+    {
+      "english_literal": "reduced effect.",
+      "polish_ascii_draft": "mniejsza."
+    },
+    {
+      "english_literal": " dominates the orbit and prevents any ",
+      "polish_ascii_draft": " kontroluje orbite i blokuje "
+    },
+    {
+      "english_literal": "hostile action, aside from a quick raid, unless it is dealt with.",
+      "polish_ascii_draft": "wrogie dzialania poza szybkim rajdem, dopoki zagrozenie nie zostanie usuniete."
+    },
+    {
+      "english_literal": "Aid the ",
+      "polish_ascii_draft": "Wesprzyj: "
+    },
+    {
+      "english_literal": "Engage the ",
+      "polish_ascii_draft": "Zaatakuj: "
+    },
+    {
+      "english_literal": " and its defenders",
+      "polish_ascii_draft": " (wraz z obroncami)"
+    },
+    {
+      "english_literal": "Requires at least ",
+      "polish_ascii_draft": "Minimalna wymagana skutecznosc rajdu: "
+    },
+    {
+      "english_literal": " raid effectiveness.",
+      "polish_ascii_draft": "."
+    },
+    {
+      "english_literal": "Stability of ",
+      "polish_ascii_draft": "Stabilnosc kolonii: "
+    },
+    {
+      "english_literal": "Consider an orbital bombardment of ",
+      "polish_ascii_draft": "Rozwaz bombardowanie orbitalne. Cel: "
+    },
+    {
+      "english_literal": "Launch a raid against ",
+      "polish_ascii_draft": "Rozpocznij rajd. Cel: "
+    },
+    {
+      "english_literal": "Secretly raided ",
+      "polish_ascii_draft": "Przeprowadzono tajny rajd. Cel: "
+    },
+    {
+      "english_literal": "Suffer no penalty to your standing with ",
+      "polish_ascii_draft": "Bez pogorszenia relacji. Frakcja: "
+    }
+  ],
+  "corrected_existing_previously_verified_texts": 1,
+  "historical_previously_reviewed_english_keys_sha256": [
+    "148416b6bebe2ca88e42561f6ea73448c27005a73d0a0d3edeff5746d50a957e",
+    "2144d5fd1951015a4f1a555d8988458a68c5894ee26db591262a7099ca3bb673",
+    "33ab41d945669b23480271c70bad7f60c29c6f864b76f8b44c8b89abdf22b7c5",
+    "379e1888d2179050c2ba2e1c17cb14eaab5f72ac1f1ca682391d75444aef7a14",
+    "3b8c3cc5044224b749cd7126a047cb59a73f38c200b7354de63af6770cf75ac0",
+    "5423819de17b06b504b03410dfca4d54a22f3a40d4288c4d98b1936ceb4d1d4b",
+    "55ea678f29b03c5fefda3ee85a4d565e9919e7c710bac983c66c90076413c1bd",
+    "5cad27fa45b3d59cf142ff0da2ce8fb3fe1cddefa28804e24a3173e23bb235b2",
+    "8f531addd0eaca9b6250f85f1826b28dce9628130e1695075baf0311ba03d11f",
+    "99d8f0df3daa737630818bc05b0e3ad37db7efdf9abc2eebd4fa9c246a1271d4",
+    "bb12519c24aae2774967b51c7922da7ba2b61336b83759da87b3e7cdbb76cb52",
+    "c262ce6680f2b41ec57cdfa9a7237c5f632b444766d01cd76af6528cc557e0f9",
+    "d0c1c0d97b3c611cad9011ffd74e83b0e2e8c2f3d6448fd16327bb1bcd533b48",
+    "d6f4dbba099dfa39c5f49e3a5ac36ec75f2a0e85a26330acdcd9d6cecb12cdd9",
+    "db31de85d57596dfa7101bda71b42e0fd9ba49446874b8a696fe9c389bfd8e52",
+    "f793e234d2d74c737842c76349d7ec572b6104ff11fb4b67bf5225b2161236a1",
+    "fa801682dc28fd0b467da31bcdb77eb037d675835afd77d8af7c7cb21610aebc"
+  ],
+  "previously_reviewed_historical_rows": [
+    {
+      "english_literal": " operations for at least %s days.",
+      "old_row_sha256": "cc07b8c9722892688caa1ffdcd2f37fa457dbace89f1442ffaa6696f2d66184c"
+    },
+    {
+      "english_literal": "A bombardment requires %s fuel. You have %s fuel.",
+      "old_row_sha256": "1fd024804ef1a8b19a0a4768dca9143477a667bdc8a463dcd08530f7afe1fa63"
+    },
+    {
+      "english_literal": "A tactical bombardment will destabilize the colony, and will also disrupt the following military targets for approximately %s days:",
+      "old_row_sha256": "4ee9c6d61926420599abc5a11662f8f5538bad59bf1e337777bd1a3f9dc720fa"
+    },
+    {
+      "english_literal": "Are you sure you want to engage in open hostilities?",
+      "old_row_sha256": "dbda6972803dad15d98e4c8bbb04f3a1de3e994cda038a6500d0472be2dadb54"
+    },
+    {
+      "english_literal": "Fleet capability for ground support",
+      "old_row_sha256": "577d52679e144977054beaf72752bd0e49b178ffd5d126ffd2d2b9b8ac980732"
+    },
+    {
+      "english_literal": "Marines on board",
+      "old_row_sha256": "44a19bf2229f33c46fc4a80cd62d2f7406b25f95f708eaec2f704529f5e42605"
+    },
+    {
+      "english_literal": "The attackers are in disarray and not currently attempting to engage the station.",
+      "old_row_sha256": "287fb3259f795dfabb8efce21266cb7f7040511d465f40840020d0b05f86aabc"
+    },
+    {
+      "english_literal": "The bombardment requires %s fuel. You have %s fuel.",
+      "old_row_sha256": "b65dceedc14e906629a6268f400e7fc11d470fedc00506b9babd073457e1d90e"
+    },
+    {
+      "english_literal": "The colony has no orbital station or nearby fleets to defend it.",
+      "old_row_sha256": "737bb59f30e01ce4544c8bad9e3dedfe8c4e93265770eabe30d8b4156675c84a"
+    },
+    {
+      "english_literal": "The defenders are refusing to give battle to defend the colony.",
+      "old_row_sha256": "c53410c12f7b577aa7d691d68b5c0ce2dcd0e3fa4b40d95f05375b390b6cf061"
+    },
+    {
+      "english_literal": "The ground defenses are too strong for your forces to be able to cause long-term disruption.",
+      "old_row_sha256": "d7ba375a9996ab44e6715681be689e1ac96b1b711b36c4ea8f0578745c1d5f3b"
+    },
+    {
+      "english_literal": "The presence of enemy fleets that are willing to offer battle makes a raid impossible.",
+      "old_row_sha256": "4db4dd0417d5d579f65f80ec23ec643a45089716f711660c21851c15addb7597"
+    },
+    {
+      "english_literal": "There are no nearby fleets to defend the colony.",
+      "old_row_sha256": "1df4844028bfde0554aca808bd7486f7286b4ac13ef2dabf6a275a215582eabc"
+    },
+    {
+      "english_literal": "You do not have the forces to carry out an effective raid.",
+      "old_row_sha256": "5bddbbaa97a619d855295cd4969aae84144aae44089a8aa26dba90606d88fb56"
+    },
+    {
+      "english_literal": "You're unable to join this battle.",
+      "old_row_sha256": "37d5bf4fd783fdbdddeea5c9958bc4dd90deb4ff9a4afe3f89be88693ffcbcb7"
+    },
+    {
+      "english_literal": "Your forces will be able to organize another raid within a day or so.",
+      "old_row_sha256": "a68285fecd749c45c9bb7e7161238de01618b2b3dcd75da49fc9bb317133a08c"
+    },
+    {
+      "english_literal": "will only result in a minor penalty to your standing.",
+      "old_row_sha256": "a56b7d12ff7a0cad51e1b4dabf40e94880f0dfcb129796e13dbaf61ad46ceb1d"
+    }
+  ],
+  "reviewed_historical_rows": [
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The Luddic insurgency acquired unusually heavy weaponry somehow",
+      "english_key_sha256": "2b34199d0982ef835fbf89eccfb759674c429d838ce6ed2fff5c52a085e3c74e",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Luddystyczni powstancy zdobyli w nieznany sposob niezwykle ciezkie uzbrojenie",
+      "new_draft": "Luddystyczni powstancy zdobyli w nieznany sposob niezwykle ciezkie uzbrojenie",
+      "old_row_sha256": "e2d757cd464c4053a38a14ef8a2cdb67b3c1133cc43d9697fb16d9b5b4834cac",
+      "row_sha256": "e2d757cd464c4053a38a14ef8a2cdb67b3c1133cc43d9697fb16d9b5b4834cac",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "There are defending ships present, but they are currently involved in a battle, and you could take advantage of the distraction to launch a raid.",
+      "english_key_sha256": "3286392f18d6d3841dea9c0fb07e612e374c3dfde5ef279cab5d54a288761f10",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Obecne sa okrety obrony, ale teraz uczestnicza w bitwie. Mozesz wykorzystac zamieszanie i przeprowadzic rajd.",
+      "new_draft": "Obecne sa okrety obrony, ale teraz uczestnicza w bitwie. Mozesz wykorzystac zamieszanie i przeprowadzic rajd.",
+      "old_row_sha256": "703f83be7ea7d5a9157e49a15a9d0b42ad59d4b461cabda10e99c4befd95cb1a",
+      "row_sha256": "703f83be7ea7d5a9157e49a15a9d0b42ad59d4b461cabda10e99c4befd95cb1a",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Defending ships are present, but not in sufficient strength to want to give battle or prevent any hostile action you might take.",
+      "english_key_sha256": "d1358207553a6c783f3cde50d3ecdd0b78a86ef7cdcee79cd26ae0fccb113227",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "W poblizu sa okrety obrony, lecz ich sily sa zbyt male, by podjac walke lub powstrzymac twoje wrogie dzialania.",
+      "new_draft": "W poblizu sa okrety obrony, lecz ich sily sa zbyt male, by podjac walke lub powstrzymac twoje wrogie dzialania.",
+      "old_row_sha256": "87f0e5fca9ee498e68950220d948fcc6b75680eb687b520e522e05da358ee9f8",
+      "row_sha256": "87f0e5fca9ee498e68950220d948fcc6b75680eb687b520e522e05da358ee9f8",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "(DEBUG mode: can raid and bombard anyway)",
+      "english_key_sha256": "50dac60355d619992073bff1b430f6718fb47a1b558f3a6dadb5207f6eb7dc13",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "(Tryb DEBUG: rajd i bombardowanie sa mimo to dostepne)",
+      "new_draft": "(Tryb DEBUG: rajd i bombardowanie sa mimo to dostepne)",
+      "old_row_sha256": "d4fd16d005fa45477bae27b09ab31455d7e96f9ad670ef655afebd3729d5bc21",
+      "row_sha256": "d4fd16d005fa45477bae27b09ab31455d7e96f9ad670ef655afebd3729d5bc21",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "(DEBUG mode: can do it anyway)",
+      "english_key_sha256": "32fc362d70d95923b3958977f3ec0d7c0d9a927ee8a8beb0f5b13361759940d2",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "(Tryb DEBUG: mozna wykonac mimo to)",
+      "new_draft": "(Tryb DEBUG: mozna wykonac mimo to)",
+      "old_row_sha256": "cc086015f302572a058bf3a252d5fb185bb05dabbd1b8719d45ecce7c987c437",
+      "row_sha256": "cc086015f302572a058bf3a252d5fb185bb05dabbd1b8719d45ecce7c987c437",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " not currently hostile, and you have been positively identified. ",
+      "english_key_sha256": "9edc033e328194cf701667624d558956407c9a8a53e13c3929f5258257207386",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " nie sa obecnie wrogie, a twoja tozsamosc zostala potwierdzona. ",
+      "new_draft": " nie sa obecnie wrogie, a twoja tozsamosc zostala potwierdzona. ",
+      "old_row_sha256": "11287ca9ca4afc02fafc4de004117f515e84a905ca4810af13619c4f05dddb53",
+      "row_sha256": "11287ca9ca4afc02fafc4de004117f515e84a905ca4810af13619c4f05dddb53",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " not currently hostile. Your fleet's transponder is on, and carrying out a raid ",
+      "english_key_sha256": "500845d4e4dd5c968e859f61b98f8ef651a991493a506b564e6b4818f7d33f77",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " nie sa obecnie wrogie. Transponder twojej floty jest wlaczony, a przeprowadzenie rajdu ",
+      "new_draft": " nie sa obecnie wrogie. Transponder twojej floty jest wlaczony, a przeprowadzenie rajdu ",
+      "old_row_sha256": "98d968f13dc318d1de835011460585b679c1fb687bdb259f1ee52a06e1cd31bd",
+      "row_sha256": "98d968f13dc318d1de835011460585b679c1fb687bdb259f1ee52a06e1cd31bd",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " not currently hostile. Your fleet's transponder is off, and carrying out a raid ",
+      "english_key_sha256": "97b0393baa5028f62cb4e6ccaf2ec58fb7c3caeaf0413d9bfeebeb9a59fd4506",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " nie sa obecnie wrogie. Transponder twojej floty jest wylaczony, a przeprowadzenie rajdu ",
+      "new_draft": " nie sa obecnie wrogie. Transponder twojej floty jest wylaczony, a przeprowadzenie rajdu ",
+      "old_row_sha256": "6963e7daf01ee58e6bf063d9695cc9b8b7dc1a9dec4950f4fb60a872252d3bae",
+      "row_sha256": "6963e7daf01ee58e6bf063d9695cc9b8b7dc1a9dec4950f4fb60a872252d3bae",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Ground defense strength: %s",
+      "english_key_sha256": "982b5e63b06911023f25219b8e6bb0b32dc1100f7a88ce3275c643beecb3aa60",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Sila obrony naziemnej: %s",
+      "new_draft": "Sila obrony naziemnej: %s",
+      "old_row_sha256": "d63547c748c3d60d939493151d6106d057a657d5387aa425c77b829e1208dcf2",
+      "row_sha256": "d63547c748c3d60d939493151d6106d057a657d5387aa425c77b829e1208dcf2",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "You do not have the forces to carry out an effective raid to acquire valuables or achieve other objectives.",
+      "english_key_sha256": "feb319023b4445216caa64951b18e62c5191b4d6b37ce3eadff62af02458dec4",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Nie masz dosc sil, by skutecznie przeprowadzic rajd w celu zdobycia cennych przedmiotow lub realizacji innych zadan.",
+      "new_draft": "Nie masz dosc sil, by skutecznie przeprowadzic rajd w celu zdobycia cennych przedmiotow lub realizacji innych zadan.",
+      "old_row_sha256": "ab93eba92aa65d3fb03527b05df174e843803257c4fb1f765f7d93ed1e33c2c6",
+      "row_sha256": "ab93eba92aa65d3fb03527b05df174e843803257c4fb1f765f7d93ed1e33c2c6",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Disrupt the operations of a specific industry or facility",
+      "english_key_sha256": "cc4e6b8f5edfe72dff3fe0d505daceb7387d83661c77dc4af39dc697d32ca468",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Zakloc dzialanie wybranego przemyslu lub obiektu",
+      "new_draft": "Zakloc dzialanie wybranego przemyslu lub obiektu",
+      "old_row_sha256": "c8ab68111162a203466f840d3d4335c95513d19dd572932bb7f47dc61bc3450c",
+      "row_sha256": "c8ab68111162a203466f840d3d4335c95513d19dd572932bb7f47dc61bc3450c",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Requires at least ",
+      "english_key_sha256": "62eec82a43679836ab4bc41d17977200f0689a1daba60501e978fd478c305b07",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Wymaga co najmniej ",
+      "new_draft": "Minimalna wymagana skutecznosc rajdu: ",
+      "old_row_sha256": "30aa42d3b79b65d746fa8e1873c2568325ce9fbebbda051a2294c1ada7999092",
+      "row_sha256": "c9541a53f9e15ba0f5273dccfdfa86e2ad249d85a52bb7794f10f04be66efa28",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " not currently hostile, and will become hostile if you carry out the bombardment. ",
+      "english_key_sha256": "ed55974a0a33e0504f70aeaccc4184d47ee001c625149cee0019833aafcd48e4",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " nie sa obecnie wrogie, ale stana sie takie, jesli przeprowadzisz bombardowanie. ",
+      "new_draft": " nie sa obecnie wrogie, ale stana sie takie, jesli przeprowadzisz bombardowanie. ",
+      "old_row_sha256": "df588ef492f49753dab17d08a6c462b8c70aa5a8749da5075e67235f0b962e1a",
+      "row_sha256": "df588ef492f49753dab17d08a6c462b8c70aa5a8749da5075e67235f0b962e1a",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Are you sure?",
+      "english_key_sha256": "f0762c4f3bfcd695e32e7fcd087dc2a60bc26cda108b4fc0a643445b397168c7",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Na pewno?",
+      "new_draft": "Na pewno?",
+      "old_row_sha256": "caaddf8c61304353685b2f0fc5aa76b7a5c5460c5114ca0b906742052c07aa9c",
+      "row_sha256": "caaddf8c61304353685b2f0fc5aa76b7a5c5460c5114ca0b906742052c07aa9c",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Multiple factions that are not currently hostile will become hostile if you carry out the bombardment. Are you sure?",
+      "english_key_sha256": "90da48bc34926026d890145ec5efb8a458a4cad96a81916b940ca77f90eb0f33",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Wiele frakcji, ktore obecnie nie sa wrogie, stanie sie wrogami po bombardowaniu. Na pewno chcesz je przeprowadzic?",
+      "new_draft": "Wiele frakcji, ktore obecnie nie sa wrogie, stanie sie wrogami po bombardowaniu. Na pewno chcesz je przeprowadzic?",
+      "old_row_sha256": "dabad25ae32067c1eacd31c2ac72eac25a88f3531b8cc5bc4fae1796036d64c6",
+      "row_sha256": "dabad25ae32067c1eacd31c2ac72eac25a88f3531b8cc5bc4fae1796036d64c6",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Your ground forces commander estimates that given the relative force strengths,  the raid should disrupt all ",
+      "english_key_sha256": "fbfbf769bcfa79c1cc78cdf7cde458c43ec76a13c6b8d1fe429e6f3d36192a34",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Dowodca sil naziemnych szacuje, ze przy obecnym stosunku sil rajd powinien zaklocic dzialanie wszystkich ",
+      "new_draft": "Dowodca sil naziemnych ocenia, ze rajd powinien zaklocic dzialanie obiektu: ",
+      "old_row_sha256": "6cc7e28d64b6989e602eea602ba92f257fae234c109ee1203b9970ca56e17001",
+      "row_sha256": "db898b2764f27fcdeb2677bef8d4c87e29fe94c2b19c4f610134b7ff87fe91e1",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Your forces are ready to go, awaiting your final confirmation.",
+      "english_key_sha256": "4a0a643ca68c3915df26cc825b293691ebc6bfe48e4da16640773fcce21a2d53",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Twoje oddzialy sa gotowe i czekaja na ostateczne potwierdzenie.",
+      "new_draft": "Twoje oddzialy sa gotowe i czekaja na ostateczne potwierdzenie.",
+      "old_row_sha256": "d67f378b7fdf0337313ec22b49bc07f51b948492e6d0c89ce72adad90d0cd726",
+      "row_sha256": "d67f378b7fdf0337313ec22b49bc07f51b948492e6d0c89ce72adad90d0cd726",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Danger level of objectives",
+      "english_key_sha256": "bada06a934d7ab9d865d7bd6ec2ef03a63bc5b6c2467ba6fa04c901d1dfe5ddb",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Poziom zagrozenia celow",
+      "new_draft": "Poziom zagrozenia celow",
+      "old_row_sha256": "50ad94f194858cd197124ead241e95811993f71a455206ec32bc2c69aa85683e",
+      "row_sha256": "50ad94f194858cd197124ead241e95811993f71a455206ec32bc2c69aa85683e",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Colony hazard rating",
+      "english_key_sha256": "7735952337dd28b62a235b9e2435368a37d5766546e439410079c8c5c57afe6b",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Poziom zagrozen kolonii",
+      "new_draft": "Poziom zagrozen kolonii",
+      "old_row_sha256": "2e3e01032fd35fee47bf9fc00cf593ba3d239ce321fb0d2537c192cf64d44d83",
+      "row_sha256": "2e3e01032fd35fee47bf9fc00cf593ba3d239ce321fb0d2537c192cf64d44d83",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Your forces have not suffered any casualties.",
+      "english_key_sha256": "1dcaa8b2ef12d16ee93e8eee181b73fc92dbd675759666cc29410fd17e9729a5",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Twoje oddzialy nie poniosly strat.",
+      "new_draft": "Twoje oddzialy nie poniosly strat.",
+      "old_row_sha256": "b016e0f80fe6fe27b55148c485068c7bc388501dc487e268fde989611d328af9",
+      "row_sha256": "b016e0f80fe6fe27b55148c485068c7bc388501dc487e268fde989611d328af9",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "You forces have suffered casualties during the raid.",
+      "english_key_sha256": "797923404cd919c0844815508378b85be40ce7fc71c911a985d50a8ee71d24e7",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Twoje oddzialy poniosly straty podczas rajdu.",
+      "new_draft": "Twoje oddzialy poniosly straty podczas rajdu.",
+      "old_row_sha256": "88ee2159f2fbcc7cc23b4fbf55366cf1024589dc261fe068115c107d1b26d0e8",
+      "row_sha256": "88ee2159f2fbcc7cc23b4fbf55366cf1024589dc261fe068115c107d1b26d0e8",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " has suffered extensive damage and is not currently combat-capable.",
+      "english_key_sha256": "10ac14cdc4297c30368006b759bac7028d36093024cd172bf8df31c47a30ad41",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " zostala powaznie uszkodzona i obecnie nie nadaje sie do walki.",
+      "new_draft": " zostala powaznie uszkodzona i obecnie nie nadaje sie do walki.",
+      "old_row_sha256": "fbc5141208a6b3dac5beff07d6b261ad19c03d22abcbf9e3dc573f9a9731ded1",
+      "row_sha256": "fbc5141208a6b3dac5beff07d6b261ad19c03d22abcbf9e3dc573f9a9731ded1",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " is under construction and is not currently combat-capable.",
+      "english_key_sha256": "268961882aee8fa1ff55e312973daa0ec3d0abdeebf6f8fa9b18bd95113faf00",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " jest w budowie i obecnie nie nadaje sie do walki.",
+      "new_draft": " jest w budowie i obecnie nie nadaje sie do walki.",
+      "old_row_sha256": "e831729d359fb7e57c7e503dc35dd34bb7cddb1d6bfdcad396e742bda95091bd",
+      "row_sha256": "e831729d359fb7e57c7e503dc35dd34bb7cddb1d6bfdcad396e742bda95091bd",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Specialized fleet bombardment capability",
+      "english_key_sha256": "95fc6057062403e6ea0d1d4d6c3c0f186d01889277f60a47bf2b23943f8e005e",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Specjalistyczne mozliwosci bombardowania floty",
+      "new_draft": "Specjalistyczne mozliwosci bombardowania floty",
+      "old_row_sha256": "b13a1dd6a2554e2f42ad63ac52e16de4b3b64267e7ee5e88c0f7b2eb917af86f",
+      "row_sha256": "b13a1dd6a2554e2f42ad63ac52e16de4b3b64267e7ee5e88c0f7b2eb917af86f",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " not currently hostile. A bombardment is a major enough hostile action that it can't be concealed, ",
+      "english_key_sha256": "90315997aca426a5936edfbf48863f6efc87cb181a068acb8f849cde32c2dfb1",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " nie sa obecnie wrogie. Bombardowanie jest tak powaznym aktem wrogosci, ze nie da sie go ukryc, ",
+      "new_draft": " nie sa obecnie wrogie. Bombardowanie jest tak powaznym aktem wrogosci, ze nie da sie go ukryc, ",
+      "old_row_sha256": "c3d56e62b361d60bf313ce8ceaf6a2df6e2335ddd077f0cbfa99f4cce97c487f",
+      "row_sha256": "c3d56e62b361d60bf313ce8ceaf6a2df6e2335ddd077f0cbfa99f4cce97c487f",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "regardless of transponder status.",
+      "english_key_sha256": "5d683379fd23083a23ba16f3b445c5a4a3cd7af4282a4593a6232856a1fa94f4",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "niezaleznie od stanu transpondera.",
+      "new_draft": "niezaleznie od stanu transpondera.",
+      "old_row_sha256": "688dfbc6e7418e4308fee663eda6ddfec0148312e7749a621e337b6dcde0cd2d",
+      "row_sha256": "688dfbc6e7418e4308fee663eda6ddfec0148312e7749a621e337b6dcde0cd2d",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Starship fuel can be easily destabilized, unlocking the destructive potential of the antimatter it contains. Ground defenses can counter a bombardment, though in practice it only means that more fuel is required to achieve the same result.",
+      "english_key_sha256": "732f0900bcff2b8c8fae69186cb0f75fe1e9db768e0cc397977bbd692f86bd62",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Paliwo okretowe mozna latwo zdestabilizowac i uwolnic niszczycielska energie zawartej w nim antymaterii. Obrona naziemna moze przeciwdzialac bombardowaniu, choc w praktyce oznacza to tylko koniecznosc zuzycia wiekszej ilosci paliwa.",
+      "new_draft": "Paliwo okretowe mozna latwo zdestabilizowac i uwolnic niszczycielska energie zawartej w nim antymaterii. Obrona naziemna moze przeciwdzialac bombardowaniu, choc w praktyce oznacza to tylko koniecznosc zuzycia wiekszej ilosci paliwa.",
+      "old_row_sha256": "0829aa9bdc9a6f87b4a81448a8ad03de0ee2394239dbadc453ec7f712103d00c",
+      "row_sha256": "0829aa9bdc9a6f87b4a81448a8ad03de0ee2394239dbadc453ec7f712103d00c",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Effective ground defense strength: %s",
+      "english_key_sha256": "ddc37b8bf3f357c7c1964f52c4c54dd1c8150d9e80d76536915b4b9b3a0a7bcc",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Efektywna sila obrony naziemnej: %s",
+      "new_draft": "Efektywna sila obrony naziemnej: %s",
+      "old_row_sha256": "de4c4c7c5321aec040e717739d6089666e74a4d32c7720043d4c1c443f3ee114",
+      "row_sha256": "de4c4c7c5321aec040e717739d6089666e74a4d32c7720043d4c1c443f3ee114",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Prepare a tactical bombardment",
+      "english_key_sha256": "ac1e9db37150e6819d0788263149bd7b35fedd3db90ed4369495b1e6a0621e2f",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Przygotuj bombardowanie taktyczne",
+      "new_draft": "Przygotuj bombardowanie taktyczne",
+      "old_row_sha256": "e5f5f5465818c98b7a67ec42f2b50a945849cb9816d8b2b24985a2949af46e39",
+      "row_sha256": "e5f5f5465818c98b7a67ec42f2b50a945849cb9816d8b2b24985a2949af46e39",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Not enough fuel.",
+      "english_key_sha256": "822e449e648d7d76e94f1d9a26c5cbc0467dff597b258a4ab6266d4ad28ae6f4",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Za malo paliwa.",
+      "new_draft": "Za malo paliwa.",
+      "old_row_sha256": "b80ce627d89a3dad6a145c3f98ba4a0db49b2fc64b0002b45ca6a855af7cdc02",
+      "row_sha256": "b80ce627d89a3dad6a145c3f98ba4a0db49b2fc64b0002b45ca6a855af7cdc02",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Make special efforts to keep your preparations secret, then proceed",
+      "english_key_sha256": "a39bd63e1591a572cbb90af00ebded9031cca0613a800b88028cfcca6410bd4a",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Zadbaj o zachowanie przygotowan w tajemnicy, a nastepnie przeprowadz atak",
+      "new_draft": "Zadbaj o zachowanie przygotowan w tajemnicy, a nastepnie przeprowadz atak",
+      "old_row_sha256": "c7e25e655ea1d9b4cef30dd15f78f77b8aca89c078479cfc13ae9069aaf34627",
+      "row_sha256": "c7e25e655ea1d9b4cef30dd15f78f77b8aca89c078479cfc13ae9069aaf34627",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Suffer no penalty to your standing with ",
+      "english_key_sha256": "f785850c6ae9ad9183f7b8bda123d4f958497ddcca37d49768e0f5188fbbf39e",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Uniknij utraty reputacji u ",
+      "new_draft": "Bez pogorszenia relacji. Frakcja: ",
+      "old_row_sha256": "e33aa37310591deb1a81d77761ef012a590bacee516484eb5ceb8fd398e01cb1",
+      "row_sha256": "3a97eb0b5f1a39586e665cec8dad21637ef3e9e48ab03ec4943a1ffaf19384ff",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Will not help if forced to turn your transponder on by patrols arriving to investigate the raid.",
+      "english_key_sha256": "49031abd6e06cb714375643560506fb060a2a7110059e91d22aa76982caaebfd",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Nie pomoze to, jesli patrol przybyly zbadac rajd zmusi cie do wlaczenia transpondera.",
+      "new_draft": "Nie pomoze to, jesli patrol przybyly zbadac rajd zmusi cie do wlaczenia transpondera.",
+      "old_row_sha256": "eb6914c27aa47caf479a6dbccbc37b818a84bb23f9a39e3d9babdae36529020d",
+      "row_sha256": "eb6914c27aa47caf479a6dbccbc37b818a84bb23f9a39e3d9babdae36529020d",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " does not have any undisrupted military targets that would be affected by a tactical bombardment.",
+      "english_key_sha256": "80c25692d087d1f55d3c2d58209dd3adf55ddd8e6cfece8d2bfd97bd7f0950f7",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " nie ma niezniszczonych celow wojskowych, ktore moglyby ucierpiec podczas bombardowania taktycznego.",
+      "new_draft": " nie ma niezniszczonych celow wojskowych, ktore moglyby ucierpiec podczas bombardowania taktycznego.",
+      "old_row_sha256": "8abe66cb8ed77ddd94a1fc016a11d7f39d3ee238790f20ce856eeaf500b3bc66",
+      "row_sha256": "8abe66cb8ed77ddd94a1fc016a11d7f39d3ee238790f20ce856eeaf500b3bc66",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "A saturation bombardment of a colony this size will destroy it utterly.",
+      "english_key_sha256": "87390b730c37afdd1eb877e7cb23929751a69e3e6981f3931b58d83aa6684a48",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Bombardowanie saturacyjne calkowicie zniszczy kolonie tej wielkosci.",
+      "new_draft": "Bombardowanie saturacyjne calkowicie zniszczy kolonie tej wielkosci.",
+      "old_row_sha256": "287f0715cf7757678faa7b18e4686b5aed0d70d67336c843d8c75b9666596426",
+      "row_sha256": "287f0715cf7757678faa7b18e4686b5aed0d70d67336c843d8c75b9666596426",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "A saturation bombardment will destabilize the colony, reduce its population, and disrupt all operations for a long time.",
+      "english_key_sha256": "4c290be4dafd3cd290d36baf97429ea88e5eb00e90c507352ec16596eb8a618e",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Bombardowanie saturacyjne zdestabilizuje kolonie, zmniejszy jej populacje i na dlugo zakloci wszystkie operacje.",
+      "new_draft": "Bombardowanie saturacyjne zdestabilizuje kolonie, zmniejszy jej populacje i na dlugo zakloci wszystkie operacje.",
+      "old_row_sha256": "fa7f0d3be07225ae37f0cd53dec69a8f470ba682d67ee91560732f51f39bd8d6",
+      "row_sha256": "fa7f0d3be07225ae37f0cd53dec69a8f470ba682d67ee91560732f51f39bd8d6",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "An atrocity of this scale can not be hidden, but any factions that would be dismayed by such actions are already hostile to you.",
+      "english_key_sha256": "61d53768a7fc5bfeec049c86acd053b1c103c3b4b4d61a08670029c03d2fc7da",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Nie da sie ukryc zbrodni na taka skale, ale wszystkie frakcje, ktore potepilyby takie dzialania, sa juz ci wrogie.",
+      "new_draft": "Nie da sie ukryc zbrodni na taka skale, ale wszystkie frakcje, ktore potepilyby takie dzialania, sa juz ci wrogie.",
+      "old_row_sha256": "3f40de49de4bb27c95e720e2cb3fa8028d20d56deb034dbd74e9a48d2f0f58ce",
+      "row_sha256": "3f40de49de4bb27c95e720e2cb3fa8028d20d56deb034dbd74e9a48d2f0f58ce",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "An atrocity of this scale can not be hidden, and will make the following factions hostile:",
+      "english_key_sha256": "274e848b57628044f63539a502372472a8f430515b66cbecfb7f5a1d164fc08d",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Nie da sie ukryc zbrodni na taka skale. Nastepujace frakcje stana sie wrogie:",
+      "new_draft": "Nie da sie ukryc zbrodni na taka skale. Nastepujace frakcje stana sie wrogie:",
+      "old_row_sha256": "309a67d4d41cbd50b2f94c4bfef73bafa08149f5df1d7e7fa63a0b316ddbafde",
+      "row_sha256": "309a67d4d41cbd50b2f94c4bfef73bafa08149f5df1d7e7fa63a0b316ddbafde",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "All operations disrupted. Colony size reduced to %s.",
+      "english_key_sha256": "35ca1887601fa3d6e38a8af286a75dde452065e0ed6c564f26a7adea78fc3e47",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Wszystkie operacje zaklocone. Wielkosc kolonii zmniejszona do %s.",
+      "new_draft": "Wszystkie operacje zaklocone. Wielkosc kolonii zmniejszona do %s.",
+      "old_row_sha256": "70c505b387e7193cf13312ee9c9c46d13f586c67776e36a085ba989ddaa4fb17",
+      "row_sha256": "70c505b387e7193cf13312ee9c9c46d13f586c67776e36a085ba989ddaa4fb17",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The lack of consistent pay over the last few months has caused discontent among your crew. A number take this opportunity to leave your employment.",
+      "english_key_sha256": "1e302324a132b8807a2422affee2ad1cc9dbd8356fb64fb28f602276b8f21aea",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Brak regularnych wyplat przez ostatnie miesiace wywolal niezadowolenie zalogi. Czesc ludzi korzysta z okazji i odchodzi ze sluzby u ciebie.",
+      "new_draft": "Brak regularnych wyplat przez ostatnie miesiace wywolal niezadowolenie zalogi. Czesc ludzi korzysta z okazji i odchodzi ze sluzby u ciebie.",
+      "old_row_sha256": "f3bfe5d61ec44ab6cedf6e70979d94503c7296b21a0de4afee26b12e69ff685c",
+      "row_sha256": "f3bfe5d61ec44ab6cedf6e70979d94503c7296b21a0de4afee26b12e69ff685c",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "After careful consideration, there do not appear to be any targets likely to yield anything of value.",
+      "english_key_sha256": "83f952fcbdb0894adb980d408ac7ede207c1aef2769177a462af59c46d5a85fa",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Po dokladnym rozpoznaniu nie znaleziono celow, ktore moglyby zapewnic wartosciowe lupy.",
+      "new_draft": "Po dokladnym rozpoznaniu nie znaleziono celow, ktore moglyby zapewnic wartosciowe lupy.",
+      "old_row_sha256": "4c933aecbc1a40d08929d04c4d805d3792be5ab9ddad560e911dfff5fb24feee",
+      "row_sha256": "4c933aecbc1a40d08929d04c4d805d3792be5ab9ddad560e911dfff5fb24feee",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Aid the attacking forces",
+      "english_key_sha256": "1cb9ecb55426a9863bde5aa9a0672044cba17389f5a88bc488fca3a2a9a4a24a",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Wspomoz atakujacych",
+      "new_draft": "Wspomoz atakujacych",
+      "old_row_sha256": "6dce45e4bb478818b191b35db3964861f5e18862f9507ceb981bc185d515e809",
+      "row_sha256": "6dce45e4bb478818b191b35db3964861f5e18862f9507ceb981bc185d515e809",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Aid the defenders",
+      "english_key_sha256": "dbfb1187f9708e7e1f9dadded4216b88d3640d0ae90a71edd286b5ac23353790",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Wspomoz obroncow",
+      "new_draft": "Wspomoz obroncow",
+      "old_row_sha256": "84aca36d6798f26ad8ac276dee1b3e56c81d8b0d5f19a13c36e09b2f08a03962",
+      "row_sha256": "84aca36d6798f26ad8ac276dee1b3e56c81d8b0d5f19a13c36e09b2f08a03962",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "All defenses must be defeated to make a bombardment possible.",
+      "english_key_sha256": "fc028cb35354c2c32466a8e916e2f267c056110c5946de705f6ace192d87a5b6",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Aby przeprowadzic bombardowanie, trzeba najpierw pokonac wszystkie sily obronne.",
+      "new_draft": "Aby przeprowadzic bombardowanie, trzeba najpierw pokonac wszystkie sily obronne.",
+      "old_row_sha256": "6ca48876404e4dd09f01b9755aa54856a2e7339ea5115a9017102a634bfb5b8a",
+      "row_sha256": "6ca48876404e4dd09f01b9755aa54856a2e7339ea5115a9017102a634bfb5b8a",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "All operations disrupted.",
+      "english_key_sha256": "25f761ab28bf70848e5f3d0d361f10da9871f36a209d17122a61dd87dc32bea0",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Wszystkie operacje zostaly zaklocone.",
+      "new_draft": "Wszystkie operacje zostaly zaklocone.",
+      "old_row_sha256": "00ce345021dd885752becf2acf8707aad4da8ca0beea7953cdbcb35bd1ef07a9",
+      "row_sha256": "00ce345021dd885752becf2acf8707aad4da8ca0beea7953cdbcb35bd1ef07a9",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "An orbital station",
+      "english_key_sha256": "3b956f5b21310a481edef8df5fc780ebaea5cc95ab7d972459576263136f6c94",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Stacja orbitalna",
+      "new_draft": "Stacja orbitalna",
+      "old_row_sha256": "a9f3de88e4358630e836befe3d2541ee10ace3884e48f5921f17b63853214009",
+      "row_sha256": "a9f3de88e4358630e836befe3d2541ee10ace3884e48f5921f17b63853214009",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Consider an orbital bombardment of ",
+      "english_key_sha256": "720ad7204092178f8858847c08728dbd6c76cb9e33d786e5c1905925c9b97496",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Rozwaz bombardowanie orbitalne ",
+      "new_draft": "Rozwaz bombardowanie orbitalne. Cel: ",
+      "old_row_sha256": "ee7b237ef384a5ee44884d0ae04c00724616f0990b8c76663696db3fe031269a",
+      "row_sha256": "bc95d81540727bf7393f356bc5fab3aa20a932db47c01e618a72827102514b74",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Designate raid objectives",
+      "english_key_sha256": "9fd2251ab66a98edd40b2a5b9b47fa3a6fcc8d4c239b10fded94aad9935ec7e3",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Wyznacz cele rajdu",
+      "new_draft": "Wyznacz cele rajdu",
+      "old_row_sha256": "74a76cd5d3bc39ea34da8674ebb9085b092deb1ea12206f09970623bfef89f5b",
+      "row_sha256": "74a76cd5d3bc39ea34da8674ebb9085b092deb1ea12206f09970623bfef89f5b",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Engage the defenders",
+      "english_key_sha256": "1941b4ed50099bef4ec18120117e441f6b69e2e81529b46554e5e8f199f9fb6e",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Zaatakuj obroncow",
+      "new_draft": "Zaatakuj obroncow",
+      "old_row_sha256": "d56ce8d21bd01dec580250c0a667ad5a7e4f970c1986a6d66d3eccf9d4193f23",
+      "row_sha256": "d56ce8d21bd01dec580250c0a667ad5a7e4f970c1986a6d66d3eccf9d4193f23",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Expected resistance",
+      "english_key_sha256": "b8b177bf40a703e284dce0e9e8dcca816d15e029081fca172d56fa5352d96426",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Spodziewany opor",
+      "new_draft": "Spodziewany opor",
+      "old_row_sha256": "a263a302c7c1dc1ab94e7095c8fddfdde12a6725e8d8ee48ec49d3cc2e0bc39d",
+      "row_sha256": "a263a302c7c1dc1ab94e7095c8fddfdde12a6725e8d8ee48ec49d3cc2e0bc39d",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Forces held in reserve",
+      "english_key_sha256": "022bd6d7e374ea26dcb1e662d4406d22406903ee7ecabbf9a4149d0a3008b873",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Sily w rezerwie",
+      "new_draft": "Sily w rezerwie",
+      "old_row_sha256": "c0eb672db8c1ac0f239fea56173cd66c8070a42a003ce7642d59446f9b6086cf",
+      "row_sha256": "c0eb672db8c1ac0f239fea56173cd66c8070a42a003ce7642d59446f9b6086cf",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "High raid effectiveness",
+      "english_key_sha256": "44257a56edf5fabe73d4b17aa9e479c45478688c4216dfffb4ae6e2c522a7899",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Wysoka skutecznosc rajdu",
+      "new_draft": "Wysoka skutecznosc rajdu",
+      "old_row_sha256": "ad0166a76a9375099eef724de2a0ace817f8186f0dd0f3a8e6cbd56ff7fb8691",
+      "row_sha256": "ad0166a76a9375099eef724de2a0ace817f8186f0dd0f3a8e6cbd56ff7fb8691",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Increased defender preparedness",
+      "english_key_sha256": "2d75e18caeb704efe7db9410730c115fb2be2d15f42c6ed56f7e0d19d8b0bb6f",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Zwiekszona gotowosc obroncow",
+      "new_draft": "Zwiekszona gotowosc obroncow",
+      "old_row_sha256": "4d050938c395ac1630b3bc523a74deb05a3e33922d9923eca520f0d64a476853",
+      "row_sha256": "4d050938c395ac1630b3bc523a74deb05a3e33922d9923eca520f0d64a476853",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Launch a raid against ",
+      "english_key_sha256": "1e9faf6fd337496747c0d737bc0bee1c1f32cc9c6a870444fc3a5d923569ee02",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Przeprowadz rajd na ",
+      "new_draft": "Rozpocznij rajd. Cel: ",
+      "old_row_sha256": "07cd8e94e8d2d8dda345de0481b8b8300c61e461b7999c1e55aa7b5d4277d774",
+      "row_sha256": "3d7a4913fb9b0a1046ca516f1fc4669315522d9a80a14ca31f0250de632589cf",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Launch bombardment",
+      "english_key_sha256": "754bb0028ba30cb861a04a91bf8942e4353bf681d07da5f3c3c204abbde24f4a",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Rozpocznij bombardowanie",
+      "new_draft": "Rozpocznij bombardowanie",
+      "old_row_sha256": "35895bbc59d2e99ccd9019711ab7a77f53f1db35ef7b30755d275d3767ff79d4",
+      "row_sha256": "35895bbc59d2e99ccd9019711ab7a77f53f1db35ef7b30755d275d3767ff79d4",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Launch raid",
+      "english_key_sha256": "d4b03bbd9f7b7be2828e8daf1eb24fa9dc58bb0e5accd84fc597ccbf67d7afd3",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Rozpocznij rajd",
+      "new_draft": "Rozpocznij rajd",
+      "old_row_sha256": "e5c680ce5a8fff150a9aa223599e07aff43b83839c5571e3a19ee2ef648e728f",
+      "row_sha256": "e5c680ce5a8fff150a9aa223599e07aff43b83839c5571e3a19ee2ef648e728f",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Low raid effectiveness",
+      "english_key_sha256": "c64ee8e4ed2af9ae7b0e2be7f9f1e7a122eb5adf5aad19aef2fca3017977af3e",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Niska skutecznosc rajdu",
+      "new_draft": "Niska skutecznosc rajdu",
+      "old_row_sha256": "f26430be8d0ae2d2be61512f33d6dce4a39321df20ac3f0b33fd72b764d1561a",
+      "row_sha256": "f26430be8d0ae2d2be61512f33d6dce4a39321df20ac3f0b33fd72b764d1561a",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Military operations disrupted.",
+      "english_key_sha256": "3b81952d69fe5467ae68fccec576245f66da3645e13ff9f853a662f5e256f622",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Dzialania wojskowe zostaly zaklocone.",
+      "new_draft": "Dzialania wojskowe zostaly zaklocone.",
+      "old_row_sha256": "b93ee9e7c2512ef68f3fe90a35fe77ef906091fa77ff84165276b95b24683e78",
+      "row_sha256": "b93ee9e7c2512ef68f3fe90a35fe77ef906091fa77ff84165276b95b24683e78",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Never mind",
+      "english_key_sha256": "8f262a081444175add7537cc60967652ba07773dc0ad83a37d989b9f7a644b78",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Anuluj",
+      "new_draft": "Anuluj",
+      "old_row_sha256": "3066cc7a2c8bc1f53962e5c895aef9882e7958289b311c8ec2f2585dc812fdfe",
+      "row_sha256": "3066cc7a2c8bc1f53962e5c895aef9882e7958289b311c8ec2f2585dc812fdfe",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Operation difficulty: %s",
+      "english_key_sha256": "236af974bc5803f21055b113fe3488af4fb9752845c2ba59fb6a4d178ccca4e2",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Trudnosc operacji: %s",
+      "new_draft": "Trudnosc operacji: %s",
+      "old_row_sha256": "a553d71d0c702dde698f6de9cdbfd5ddd6f44b1ccb37468c7f534843561f3539",
+      "row_sha256": "a553d71d0c702dde698f6de9cdbfd5ddd6f44b1ccb37468c7f534843561f3539",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Pick through the spoils",
+      "english_key_sha256": "b50726b79927dd9715d6d1cf14e380137a1ae120f0fc74470cb43d3aeafec790",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Przejrzyj lupy",
+      "new_draft": "Przejrzyj lupy",
+      "old_row_sha256": "d507e5c6b3a29f64a05f8cfe55ca1b9ddd731b828ff2ae8d140989ad2ed5c6f6",
+      "row_sha256": "d507e5c6b3a29f64a05f8cfe55ca1b9ddd731b828ff2ae8d140989ad2ed5c6f6",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Prepare a saturation bombardment",
+      "english_key_sha256": "9c9be326b0ff15a2851f9489039026d390f12da607a003523da9e8dba42c51e9",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Przygotuj bombardowanie saturacyjne",
+      "new_draft": "Przygotuj bombardowanie saturacyjne",
+      "old_row_sha256": "1547c448d3d96dbba0edd0d176898b815886eabb7b431c5a570a97d8453035d9",
+      "row_sha256": "1547c448d3d96dbba0edd0d176898b815886eabb7b431c5a570a97d8453035d9",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Projected raid effectiveness: %s",
+      "english_key_sha256": "28cebdb78d59bb00a598201d33ef36a4c7d65f4d63da898948508685665af85e",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Prognozowana skutecznosc rajdu: %s",
+      "new_draft": "Prognozowana skutecznosc rajdu: %s",
+      "old_row_sha256": "045077e1c64739db91d734d241671cd70be4b19364d8cf9e55325413be201c1e",
+      "row_sha256": "045077e1c64739db91d734d241671cd70be4b19364d8cf9e55325413be201c1e",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Raid strength: %s",
+      "english_key_sha256": "bd4adca98c72e3439b6ecc200c0ce4047f2fdf291a847621e99a26ed7d8f909f",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Sila rajdu: %s",
+      "new_draft": "Sila rajdu: %s",
+      "old_row_sha256": "f786f2ffeac53a4e3357f627b4d0aacc351df332dbee1cf10c947f7753c88d52",
+      "row_sha256": "f786f2ffeac53a4e3357f627b4d0aacc351df332dbee1cf10c947f7753c88d52",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Recently bombarded",
+      "english_key_sha256": "6a2e7dbe8795d787046f82cf3a58a3c68c8568bafdf65448c66dd8cc09467588",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Niedawno bombardowano",
+      "new_draft": "Niedawno bombardowano",
+      "old_row_sha256": "8c684f730718669e39a19a26fd63a88b8252fcceea833510eada011f9b952401",
+      "row_sha256": "8c684f730718669e39a19a26fd63a88b8252fcceea833510eada011f9b952401",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Recently raided",
+      "english_key_sha256": "7d105842fb6b283ee9fdfda472bcde29def3be9e625ef21d9d377020d7bb326a",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Niedawno przeprowadzono rajd",
+      "new_draft": "Niedawno przeprowadzono rajd",
+      "old_row_sha256": "ef8654b4cfbb4cfe6d631b3635876ce0768ea0ed5c8a4a4c5ca28f7f2a2684bf",
+      "row_sha256": "ef8654b4cfbb4cfe6d631b3635876ce0768ea0ed5c8a4a4c5ca28f7f2a2684bf",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "\n\nRequires transponder to be turned off",
+      "english_key_sha256": "7c85bffc4419c573059577f809115911dcf5c6f00350b688dc3904011128de08",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "\n\nWymaga wylaczenia transpondera",
+      "new_draft": "\n\nWymaga wylaczenia transpondera",
+      "old_row_sha256": "65067509e349a94a61d9e43f83220bf5f78d2764619b0176ba7f15b8da2f5dc2",
+      "row_sha256": "65067509e349a94a61d9e43f83220bf5f78d2764619b0176ba7f15b8da2f5dc2",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Saturation bombardment",
+      "english_key_sha256": "eb46365548f7bfbe5582d15ddfa7a2895648851b8e845e95cde426861549fc47",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Bombardowanie saturacyjne",
+      "new_draft": "Bombardowanie saturacyjne",
+      "old_row_sha256": "7732fc3586cf56953fa332335f1e5665061199eeda0d5d81b8847842693a631e",
+      "row_sha256": "7732fc3586cf56953fa332335f1e5665061199eeda0d5d81b8847842693a631e",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Secretly raided ",
+      "english_key_sha256": "42e7239202ed5b08215958511f274c09f91625c3cde470da47e19008d207bfb6",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Przeprowadzono tajny rajd ",
+      "new_draft": "Przeprowadzono tajny rajd. Cel: ",
+      "old_row_sha256": "b819e9351bba3c8e7a84b9d7720f742148d63000acc4c9ace08fe9b311e40440",
+      "row_sha256": "86d00c7bd88e0d4b52899bde8ae28cfcb01df4cb2c59819c20d7df8c93a93359",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Select raid objectives",
+      "english_key_sha256": "8901f824269e01f7461b08ffda13221fa5be197a1d33b09dd949be66f69ba98d",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Wybierz cele rajdu",
+      "new_draft": "Wybierz cele rajdu",
+      "old_row_sha256": "ab68d08beacd70955f1df6b372206194b23da7bfecfed7031a78bd9a29fa7ded",
+      "row_sha256": "ab68d08beacd70955f1df6b372206194b23da7bfecfed7031a78bd9a29fa7ded",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Tactical bombardment",
+      "english_key_sha256": "40711408ced015bcbd2c9de4147dd5bf674f9753945520352b804cdf4043d2a9",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Bombardowanie taktyczne",
+      "new_draft": "Bombardowanie taktyczne",
+      "old_row_sha256": "2e4484daa6a7eb5c9f522e553c41f06ab997edfb235fdf2766c853c50f3b9ce2",
+      "row_sha256": "2e4484daa6a7eb5c9f522e553c41f06ab997edfb235fdf2766c853c50f3b9ce2",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "There are no defenders to engage.",
+      "english_key_sha256": "3baf5ab8233719e8683c0ab7ebc24198c1c61a3ace6ad191883458662c4f9178",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Brak obroncow, ktorych mozna zaatakowac.",
+      "new_draft": "Brak obroncow, ktorych mozna zaatakowac.",
+      "old_row_sha256": "77cfa6f4bdfcf4b024dbfdff00289025a4af6b697bb9641dbef49d5b769be24c",
+      "row_sha256": "77cfa6f4bdfcf4b024dbfdff00289025a4af6b697bb9641dbef49d5b769be24c",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "There are no industries or facilities present that could be disrupted by a raid.",
+      "english_key_sha256": "141462b4a160659853e0fa5b8f70f91cd31c2d2ff597b85c96aefc8766db1e34",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Nie ma tu przemyslu ani instalacji, ktorych dzialanie mozna zaklocic rajdem.",
+      "new_draft": "Nie ma tu przemyslu ani instalacji, ktorych dzialanie mozna zaklocic rajdem.",
+      "old_row_sha256": "6932c798b5ad928dd8e34ab0e84229ebee1c32389633909ae87ab0b1f88e96ce",
+      "row_sha256": "6932c798b5ad928dd8e34ab0e84229ebee1c32389633909ae87ab0b1f88e96ce",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Try to acquire valuables, such as commodities or blueprints, or achieve other objectives",
+      "english_key_sha256": "9eefa6678e4b761c38c5d0e0ce299b7c621062b0f52e7c7b8dfc71931c100b0c",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "Sprobuj zdobyc cenne towary lub schematy albo osiagnac inne cele",
+      "new_draft": "Sprobuj zdobyc cenne towary lub schematy albo osiagnac inne cele",
+      "old_row_sha256": "b21c2fb4a39172270a2bbdaa526dc12ca0030ca930ef7ecb5be46a7a94124c19",
+      "row_sha256": "b21c2fb4a39172270a2bbdaa526dc12ca0030ca930ef7ecb5be46a7a94124c19",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " and its defenders",
+      "english_key_sha256": "94e60e9eac89c019ad6fd22eb3761520208f0ea8bb77e840874e2a31d7eb557d",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": " i jego obroncow",
+      "new_draft": " (wraz z obroncami)",
+      "old_row_sha256": "d7c9d20fd228085171a48b6ac3db6e35d0d6391223e8c4d3f88f5364a03f2578",
+      "row_sha256": "39ec4d4de658e6fdb09e9601962fcdfcb92a342e73c7ee9ff5f6701f74731e5e",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "orbital station",
+      "english_key_sha256": "1c791b26913f6d7365069ae01ba3f3beca20739dc78648ae03bbc106ec28f940",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "stacja orbitalna",
+      "new_draft": "stacja orbitalna",
+      "old_row_sha256": "9d7dc388200c36a78712c8900dea43cfbbab56b4165b47aec8512c3ad53241d3",
+      "row_sha256": "9d7dc388200c36a78712c8900dea43cfbbab56b4165b47aec8512c3ad53241d3",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " raid effectiveness.",
+      "english_key_sha256": "f2915fdf731503589f435a7e5f2c7cd4461c661ead5081b23618d3d667743dd9",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": " skutecznosc rajdu.",
+      "new_draft": ".",
+      "old_row_sha256": "1c0a6d8091aa0a0c3aa570130adc4b39a08731a969e229a5baa43f6d64715b26",
+      "row_sha256": "c2ca010a9604f5d834d5e3264363a447732af0fd70cbfd104e8b84dd21c9b60a",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "reduced effect.",
+      "english_key_sha256": "e4fb0ba55cffcf4b696f8afbf12f9284525c6d6547c499111fa0ee9a878ab9d3",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "ograniczony efekt.",
+      "new_draft": "mniejsza.",
+      "old_row_sha256": "5dd3b71df2106a3232ea68da027e2f6842faf4b71d8f110a40a43486e9908064",
+      "row_sha256": "bc018c29dc6ebd2540250f755120aaf6ccb0ebd5e05fc0bec2faffbfa823df43",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "will result in open hostilities.",
+      "english_key_sha256": "8bf63945e3036d45c8601eb5355ed4165f80362d42184387d700a5f4219f44e7",
+      "old_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "old_draft": "spowoduje otwarta wrogosc.",
+      "new_draft": "spowoduje otwarta wrogosc.",
+      "old_row_sha256": "d5da03b33e64e3aaec64fbb52e1112018ca4e3a8849dcf2768ce7143d1e2bc61",
+      "row_sha256": "d5da03b33e64e3aaec64fbb52e1112018ca4e3a8849dcf2768ce7143d1e2bc61",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Defending ships are present in sufficient strength to prevent any hostile action until they are dealt with.",
+      "english_key_sha256": "348470de83b4ec3af496460d8b6b169a45aa95d5cb70f3fe3d9150ec4cda5df5",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": "Okrety obroncow sa na tyle liczne, ze uniemozliwiaja wszelkie wrogie dzialania, dopoki nie zostana pokonane.",
+      "new_draft": "Okrety obroncow sa na tyle liczne, ze uniemozliwiaja wszelkie wrogie dzialania, dopoki nie zostana pokonane.",
+      "old_row_sha256": "583da262753b01c2f1872d49baa57a5f5f8c8337fcbad92c997e90a24d6d2c9d",
+      "row_sha256": "583da262753b01c2f1872d49baa57a5f5f8c8337fcbad92c997e90a24d6d2c9d",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "The defending ships present are, with the support of the station, sufficient to prevent raiding as well.",
+      "english_key_sha256": "7d296d76bf12647a7578f4e3baf12fb749bcd34f9721123057f3b211c5fc6243",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": "Okrety obroncow, wspierane przez stacje, sa wystarczajaco silne, aby uniemozliwic takze rajd.",
+      "new_draft": "Okrety obroncow, wspierane przez stacje, sa wystarczajaco silne, aby uniemozliwic takze rajd.",
+      "old_row_sha256": "df4f49b401881c162340ee1770430c8dc9102a6c1a09122113d92c19a138456c",
+      "row_sha256": "df4f49b401881c162340ee1770430c8dc9102a6c1a09122113d92c19a138456c",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "hostile action, aside from a quick raid, unless it is dealt with.",
+      "english_key_sha256": "10bc763d4876bf9a7f32a71ea3866a10c7f8d24da600029a97b951d7d459e718",
+      "old_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "old_draft": "wrogich dzialan, poza szybkim rajdem, dopoki problem nie zostanie rozwiazany.",
+      "new_draft": "wrogie dzialania poza szybkim rajdem, dopoki zagrozenie nie zostanie usuniete.",
+      "old_row_sha256": "5086db278dbba0b136c6d0a23cb0a89cb25b9d61b15093d53b9c20a5c6aeb0d9",
+      "row_sha256": "222517953589768aca0cad95c1ccbbad49648d8cc81582ca4efd7efb6a4414d6",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Engage the ",
+      "english_key_sha256": "ae58eefaf2cabd13dbcf84bcd7b6098ebe65dee177351732890c7ad3db950dd0",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Zaatakuj ",
+      "new_draft": "Zaatakuj: ",
+      "old_row_sha256": "e1c71895e69aa719731e4a936e9a086fd88608013581d4fd64c171c3c92d966c",
+      "row_sha256": "4589200298e9f8c4623fc5d768657c7f517adf728534a7f418feb8a69541cb7f",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": "Stability of ",
+      "english_key_sha256": "ee78d536eeb35a417ac1923370ca466343dd6fadb961e61baf8de9eecc140fea",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": "Stabilnosc ",
+      "new_draft": "Stabilnosc kolonii: ",
+      "old_row_sha256": "09e7d2d1a6318c02fa8f6ac16891018aa763fca7fc4850c906f805add19556f9",
+      "row_sha256": "2c6f90bbbc9a286f0ee8d0af31a62e39faccf3468e092a77530241af905f0cca",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " dominates the orbit and prevents any ",
+      "english_key_sha256": "1fcb2ff80850ad67a2c62f0a9b759bab777bef359a4192c18f6166fe695de1b9",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " dominuje na orbicie i nie pozwala na zadne ",
+      "new_draft": " kontroluje orbite i blokuje ",
+      "old_row_sha256": "37747ea4bf0f8b1581e4e4c494f77e95e6111c02d6a8edae250f1caf6e596ed3",
+      "row_sha256": "8982ed02e599c7a87248d46e7c1810d99993a023f8007637e97f16704bcde51c",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " operations are already disrupted, and a raid will have ",
+      "english_key_sha256": "5d243dcd960abf544912a1142e083ac3b3a5e16a64b0c7256bd082f3444e042a",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " juz sa zaklocone, wiec rajd bedzie mial ",
+      "new_draft": " - dzialanie obiektu jest juz zaklocone, wiec skutecznosc rajdu bedzie ",
+      "old_row_sha256": "e9ce1260eb17ee267dc985bf3a61b841384ec5282c83887a6dbb1ca1b96a21da",
+      "row_sha256": "24dac1b43f027306f3a88099f54d043c7bdb6ca76c672e46117264a3e36e7d62",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    },
+    {
+      "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+      "english_literal": " reduced by %s.",
+      "english_key_sha256": "ed0e12db68372da48b3718c8a0602e32dc21344e924047e70acc2f4038fb7d10",
+      "old_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "old_draft": " zmniejszona o %s.",
+      "new_draft": " zmniejszona o %s.",
+      "old_row_sha256": "86b9d13d1ad0555b67403e3a2822b6dabdc7175f84a1d88cab36d02fc07652f1",
+      "row_sha256": "86b9d13d1ad0555b67403e3a2822b6dabdc7175f84a1d88cab36d02fc07652f1",
+      "evidence": "original_JVM_MarketCMD_1065",
+      "review_status": "reviewed_original_JVM_offline_game_tests_after_1_1"
+    }
+  ],
+  "gameplay_test_policy": "after_1_1_release"
+}

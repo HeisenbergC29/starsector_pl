@@ -1,0 +1,1945 @@
+{
+  "release": "1.0.65",
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "source_class": "com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD",
+  "original_class_sha256": "49a65f29f1f4e8e7f9669fb31d823b1cb90535caaaf00881a03e850d8ce03feb",
+  "jvm_ldc_uses": 363,
+  "unique_jvm_literal_texts": 240,
+  "mapped_source_literals": 111,
+  "historical_draft_reviews": 104,
+  "repaired_fragments": 17,
+  "unmapped_original_jvm_literals": 129,
+  "mapped_literal_evidence": [
+    {
+      "english_literal": "The Luddic insurgency acquired unusually heavy weaponry somehow",
+      "source_sha256": "2b34199d0982ef835fbf89eccfb759674c429d838ce6ed2fff5c52a085e3c74e",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "public boolean execute(java.lang.String, com.fs.starfarer.api.campaign.InteractionDialogAPI, java.util.List<com.fs.starfarer.api.util.Misc$Token>, java.util.Map<java.lang.String, com.fs.starfarer.api.campaign.rules.MemoryAPI>);",
+          "offset": 598,
+          "opcode": "ldc_w",
+          "cp_index": 506
+        }
+      ]
+    },
+    {
+      "english_literal": "The colony has no orbital station or nearby fleets to defend it.",
+      "source_sha256": "fa801682dc28fd0b467da31bcdb77eb037d675835afd77d8af7c7cb21610aebc",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 143,
+          "opcode": "ldc_w",
+          "cp_index": 558
+        }
+      ]
+    },
+    {
+      "english_literal": "There are no nearby fleets to defend the colony.",
+      "source_sha256": "bb12519c24aae2774967b51c7922da7ba2b61336b83759da87b3e7cdbb76cb52",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 163,
+          "opcode": "ldc_w",
+          "cp_index": 569
+        }
+      ]
+    },
+    {
+      "english_literal": "There are defending ships present, but they are currently involved in a battle, and you could take advantage of the distraction to launch a raid.",
+      "source_sha256": "3286392f18d6d3841dea9c0fb07e612e374c3dfde5ef279cab5d54a288761f10",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 836,
+          "opcode": "ldc_w",
+          "cp_index": 699
+        }
+      ]
+    },
+    {
+      "english_literal": "Defending ships are present, but not in sufficient strength to want to give battle or prevent any hostile action you might take.",
+      "source_sha256": "d1358207553a6c783f3cde50d3ecdd0b78a86ef7cdcee79cd26ae0fccb113227",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 857,
+          "opcode": "ldc_w",
+          "cp_index": 701
+        },
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 933,
+          "opcode": "ldc_w",
+          "cp_index": 701
+        }
+      ]
+    },
+    {
+      "english_literal": "(DEBUG mode: can raid and bombard anyway)",
+      "source_sha256": "50dac60355d619992073bff1b430f6718fb47a1b558f3a6dadb5207f6eb7dc13",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1282,
+          "opcode": "ldc_w",
+          "cp_index": 745
+        }
+      ]
+    },
+    {
+      "english_literal": "The presence of enemy fleets that are willing to offer battle makes a raid impossible.",
+      "source_sha256": "f793e234d2d74c737842c76349d7ec572b6104ff11fb4b67bf5225b2161236a1",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1411,
+          "opcode": "ldc_w",
+          "cp_index": 758
+        }
+      ]
+    },
+    {
+      "english_literal": "Your forces will be able to organize another raid within a day or so.",
+      "source_sha256": "5423819de17b06b504b03410dfca4d54a22f3a40d4288c4d98b1936ceb4d1d4b",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1499,
+          "opcode": "ldc_w",
+          "cp_index": 770
+        },
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1523,
+          "opcode": "ldc_w",
+          "cp_index": 770
+        }
+      ]
+    },
+    {
+      "english_literal": "(DEBUG mode: can do it anyway)",
+      "source_sha256": "32fc362d70d95923b3958977f3ec0d7c0d9a927ee8a8beb0f5b13361759940d2",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1536,
+          "opcode": "ldc_w",
+          "cp_index": 772
+        }
+      ]
+    },
+    {
+      "english_literal": " not currently hostile, and you have been positively identified. ",
+      "source_sha256": "9edc033e328194cf701667624d558956407c9a8a53e13c3929f5258257207386",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1691,
+          "opcode": "ldc_w",
+          "cp_index": 795
+        },
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 419,
+          "opcode": "ldc_w",
+          "cp_index": 795
+        }
+      ]
+    },
+    {
+      "english_literal": "Are you sure you want to engage in open hostilities?",
+      "source_sha256": "55ea678f29b03c5fefda3ee85a4d565e9919e7c710bac983c66c90076413c1bd",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1697,
+          "opcode": "ldc_w",
+          "cp_index": 797
+        },
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 425,
+          "opcode": "ldc_w",
+          "cp_index": 797
+        }
+      ]
+    },
+    {
+      "english_literal": "The attackers are in disarray and not currently attempting to engage the station.",
+      "source_sha256": "2144d5fd1951015a4f1a555d8988458a68c5894ee26db591262a7099ca3bb673",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1775,
+          "opcode": "ldc_w",
+          "cp_index": 807
+        }
+      ]
+    },
+    {
+      "english_literal": "You're unable to join this battle.",
+      "source_sha256": "99d8f0df3daa737630818bc05b0e3ad37db7efdf9abc2eebd4fa9c246a1271d4",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1798,
+          "opcode": "ldc_w",
+          "cp_index": 809
+        }
+      ]
+    },
+    {
+      "english_literal": "The defenders are refusing to give battle to defend the colony.",
+      "source_sha256": "c262ce6680f2b41ec57cdfa9a7237c5f632b444766d01cd76af6528cc557e0f9",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1838,
+          "opcode": "ldc_w",
+          "cp_index": 813
+        }
+      ]
+    },
+    {
+      "english_literal": "Marines on board",
+      "source_sha256": "d0c1c0d97b3c611cad9011ffd74e83b0e2e8c2f3d6448fd16327bb1bcd533b48",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 178,
+          "opcode": "ldc_w",
+          "cp_index": 1015
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 126,
+          "opcode": "ldc_w",
+          "cp_index": 1015
+        }
+      ]
+    },
+    {
+      "english_literal": "Fleet capability for ground support",
+      "source_sha256": "8f531addd0eaca9b6250f85f1826b28dce9628130e1695075baf0311ba03d11f",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 191,
+          "opcode": "ldc_w",
+          "cp_index": 1023
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 139,
+          "opcode": "ldc_w",
+          "cp_index": 1023
+        }
+      ]
+    },
+    {
+      "english_literal": " not currently hostile. Your fleet's transponder is on, and carrying out a raid ",
+      "source_sha256": "500845d4e4dd5c968e859f61b98f8ef651a991493a506b564e6b4818f7d33f77",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 506,
+          "opcode": "ldc_w",
+          "cp_index": 1068
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 396,
+          "opcode": "ldc_w",
+          "cp_index": 1068
+        }
+      ]
+    },
+    {
+      "english_literal": " not currently hostile. Your fleet's transponder is off, and carrying out a raid ",
+      "source_sha256": "97b0393baa5028f62cb4e6ccaf2ec58fb7c3caeaf0413d9bfeebeb9a59fd4506",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 592,
+          "opcode": "ldc_w",
+          "cp_index": 1081
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 482,
+          "opcode": "ldc_w",
+          "cp_index": 1081
+        }
+      ]
+    },
+    {
+      "english_literal": "will only result in a minor penalty to your standing.",
+      "source_sha256": "5cad27fa45b3d59cf142ff0da2ce8fb3fe1cddefa28804e24a3173e23bb235b2",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 598,
+          "opcode": "ldc_w",
+          "cp_index": 1083
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 488,
+          "opcode": "ldc_w",
+          "cp_index": 1083
+        }
+      ]
+    },
+    {
+      "english_literal": "You do not have the forces to carry out an effective raid.",
+      "source_sha256": "148416b6bebe2ca88e42561f6ea73448c27005a73d0a0d3edeff5746d50a957e",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 981,
+          "opcode": "ldc_w",
+          "cp_index": 1129
+        }
+      ]
+    },
+    {
+      "english_literal": "Ground defense strength: %s",
+      "source_sha256": "982b5e63b06911023f25219b8e6bb0b32dc1100f7a88ce3275c643beecb3aa60",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidMenu();",
+          "offset": 630,
+          "opcode": "ldc_w",
+          "cp_index": 1156
+        },
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 386,
+          "opcode": "ldc_w",
+          "cp_index": 1156
+        }
+      ]
+    },
+    {
+      "english_literal": "The ground defenses are too strong for your forces to be able to cause long-term disruption.",
+      "source_sha256": "d6f4dbba099dfa39c5f49e3a5ac36ec75f2a0e85a26330acdcd9d6cecb12cdd9",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidMenu();",
+          "offset": 893,
+          "opcode": "ldc_w",
+          "cp_index": 1158
+        }
+      ]
+    },
+    {
+      "english_literal": "You do not have the forces to carry out an effective raid to acquire valuables or achieve other objectives.",
+      "source_sha256": "feb319023b4445216caa64951b18e62c5191b4d6b37ce3eadff62af02458dec4",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidMenu();",
+          "offset": 920,
+          "opcode": "ldc_w",
+          "cp_index": 1160
+        }
+      ]
+    },
+    {
+      "english_literal": "Disrupt the operations of a specific industry or facility",
+      "source_sha256": "cc4e6b8f5edfe72dff3fe0d505daceb7387d83661c77dc4af39dc697d32ca468",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidMenu();",
+          "offset": 969,
+          "opcode": "ldc_w",
+          "cp_index": 1164
+        }
+      ]
+    },
+    {
+      "english_literal": "Requires at least ",
+      "source_sha256": "62eec82a43679836ab4bc41d17977200f0689a1daba60501e978fd478c305b07",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidMenu();",
+          "offset": 1068,
+          "opcode": "ldc_w",
+          "cp_index": 1166
+        }
+      ]
+    },
+    {
+      "english_literal": " not currently hostile, and will become hostile if you carry out the bombardment. ",
+      "source_sha256": "ed55974a0a33e0504f70aeaccc4184d47ee001c625149cee0019833aafcd48e4",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 185,
+          "opcode": "ldc_w",
+          "cp_index": 1230
+        }
+      ]
+    },
+    {
+      "english_literal": "Are you sure?",
+      "source_sha256": "f0762c4f3bfcd695e32e7fcd087dc2a60bc26cda108b4fc0a643445b397168c7",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 191,
+          "opcode": "ldc_w",
+          "cp_index": 1232
+        }
+      ]
+    },
+    {
+      "english_literal": "Multiple factions that are not currently hostile will become hostile if you carry out the bombardment. Are you sure?",
+      "source_sha256": "90da48bc34926026d890145ec5efb8a458a4cad96a81916b940ca77f90eb0f33",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 231,
+          "opcode": "ldc_w",
+          "cp_index": 1234
+        }
+      ]
+    },
+    {
+      "english_literal": "Your ground forces commander estimates that given the relative force strengths,  the raid should disrupt all ",
+      "source_sha256": "fbfbf769bcfa79c1cc78cdf7cde458c43ec76a13c6b8d1fe429e6f3d36192a34",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidDisruptIndustryPicked(com.fs.starfarer.api.campaign.econ.Industry);",
+          "offset": 125,
+          "opcode": "ldc_w",
+          "cp_index": 1314
+        }
+      ]
+    },
+    {
+      "english_literal": "Your forces are ready to go, awaiting your final confirmation.",
+      "source_sha256": "4a0a643ca68c3915df26cc825b293691ebc6bfe48e4da16640773fcce21a2d53",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidDisruptIndustryPicked(com.fs.starfarer.api.campaign.econ.Industry);",
+          "offset": 185,
+          "opcode": "ldc_w",
+          "cp_index": 1321
+        }
+      ]
+    },
+    {
+      "english_literal": "Danger level of objectives",
+      "source_sha256": "bada06a934d7ab9d865d7bd6ec2ef03a63bc5b6c2467ba6fa04c901d1dfe5ddb",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected com.fs.starfarer.api.combat.MutableStat getMarineLossesStat(java.util.List<com.fs.starfarer.api.impl.campaign.graid.GroundRaidObjectivePlugin>);",
+          "offset": 365,
+          "opcode": "ldc_w",
+          "cp_index": 1450
+        }
+      ]
+    },
+    {
+      "english_literal": "Colony hazard rating",
+      "source_sha256": "7735952337dd28b62a235b9e2435368a37d5766546e439410079c8c5c57afe6b",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected com.fs.starfarer.api.combat.MutableStat getMarineLossesStat(java.util.List<com.fs.starfarer.api.impl.campaign.graid.GroundRaidObjectivePlugin>);",
+          "offset": 377,
+          "opcode": "ldc_w",
+          "cp_index": 1457
+        }
+      ]
+    },
+    {
+      "english_literal": "Your forces have not suffered any casualties.",
+      "source_sha256": "1dcaa8b2ef12d16ee93e8eee181b73fc92dbd675759666cc29410fd17e9729a5",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidConfirm(boolean);",
+          "offset": 367,
+          "opcode": "ldc_w",
+          "cp_index": 1605
+        }
+      ]
+    },
+    {
+      "english_literal": "You forces have suffered casualties during the raid.",
+      "source_sha256": "797923404cd919c0844815508378b85be40ce7fc71c911a985d50a8ee71d24e7",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidConfirm(boolean);",
+          "offset": 391,
+          "opcode": "ldc_w",
+          "cp_index": 1610
+        }
+      ]
+    },
+    {
+      "english_literal": " has suffered extensive damage and is not currently combat-capable.",
+      "source_sha256": "10ac14cdc4297c30368006b759bac7028d36093024cd172bf8df31c47a30ad41",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void printStationState();",
+          "offset": 89,
+          "opcode": "ldc_w",
+          "cp_index": 1849
+        }
+      ]
+    },
+    {
+      "english_literal": " is under construction and is not currently combat-capable.",
+      "source_sha256": "268961882aee8fa1ff55e312973daa0ec3d0abdeebf6f8fa9b18bd95113faf00",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void printStationState();",
+          "offset": 125,
+          "opcode": "ldc_w",
+          "cp_index": 1851
+        }
+      ]
+    },
+    {
+      "english_literal": "Specialized fleet bombardment capability",
+      "source_sha256": "95fc6057062403e6ea0d1d4d6c3c0f186d01889277f60a47bf2b23943f8e005e",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 121,
+          "opcode": "ldc_w",
+          "cp_index": 2003
+        }
+      ]
+    },
+    {
+      "english_literal": " not currently hostile. A bombardment is a major enough hostile action that it can't be concealed, ",
+      "source_sha256": "90315997aca426a5936edfbf48863f6efc87cb181a068acb8f849cde32c2dfb1",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 273,
+          "opcode": "ldc_w",
+          "cp_index": 2005
+        }
+      ]
+    },
+    {
+      "english_literal": "regardless of transponder status.",
+      "source_sha256": "5d683379fd23083a23ba16f3b445c5a4a3cd7af4282a4593a6232856a1fa94f4",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 279,
+          "opcode": "ldc_w",
+          "cp_index": 2007
+        }
+      ]
+    },
+    {
+      "english_literal": "Starship fuel can be easily destabilized, unlocking the destructive potential of the antimatter it contains. Ground defenses can counter a bombardment, though in practice it only means that more fuel is required to achieve the same result.",
+      "source_sha256": "732f0900bcff2b8c8fae69186cb0f75fe1e9db768e0cc397977bbd692f86bd62",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 326,
+          "opcode": "ldc_w",
+          "cp_index": 2009
+        }
+      ]
+    },
+    {
+      "english_literal": "Effective ground defense strength: %s",
+      "source_sha256": "ddc37b8bf3f357c7c1964f52c4c54dd1c8150d9e80d76536915b4b9b3a0a7bcc",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 346,
+          "opcode": "ldc_w",
+          "cp_index": 2014
+        }
+      ]
+    },
+    {
+      "english_literal": "A bombardment requires %s fuel. You have %s fuel.",
+      "source_sha256": "3b8c3cc5044224b749cd7126a047cb59a73f38c200b7354de63af6770cf75ac0",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 538,
+          "opcode": "ldc_w",
+          "cp_index": 2021
+        }
+      ]
+    },
+    {
+      "english_literal": "Prepare a tactical bombardment",
+      "source_sha256": "ac1e9db37150e6819d0788263149bd7b35fedd3db90ed4369495b1e6a0621e2f",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 691,
+          "opcode": "ldc_w",
+          "cp_index": 2033
+        }
+      ]
+    },
+    {
+      "english_literal": "Not enough fuel.",
+      "source_sha256": "822e449e648d7d76e94f1d9a26c5cbc0467dff597b258a4ab6266d4ad28ae6f4",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 751,
+          "opcode": "ldc_w",
+          "cp_index": 2037
+        },
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 779,
+          "opcode": "ldc_w",
+          "cp_index": 2037
+        }
+      ]
+    },
+    {
+      "english_literal": "Make special efforts to keep your preparations secret, then proceed",
+      "source_sha256": "a39bd63e1591a572cbb90af00ebded9031cca0613a800b88028cfcca6410bd4a",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 57,
+          "opcode": "ldc_w",
+          "cp_index": 2051
+        }
+      ]
+    },
+    {
+      "english_literal": "Suffer no penalty to your standing with ",
+      "source_sha256": "f785850c6ae9ad9183f7b8bda123d4f958497ddcca37d49768e0f5188fbbf39e",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 104,
+          "opcode": "ldc_w",
+          "cp_index": 2057
+        }
+      ]
+    },
+    {
+      "english_literal": "Will not help if forced to turn your transponder on by patrols arriving to investigate the raid.",
+      "source_sha256": "49031abd6e06cb714375643560506fb060a2a7110059e91d22aa76982caaebfd",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 133,
+          "opcode": "ldc_w",
+          "cp_index": 2061
+        }
+      ]
+    },
+    {
+      "english_literal": " does not have any undisrupted military targets that would be affected by a tactical bombardment.",
+      "source_sha256": "80c25692d087d1f55d3c2d58209dd3adf55ddd8e6cfece8d2bfd97bd7f0950f7",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardTactical();",
+          "offset": 144,
+          "opcode": "ldc_w",
+          "cp_index": 2114
+        }
+      ]
+    },
+    {
+      "english_literal": "A tactical bombardment will destabilize the colony, and will also disrupt the following military targets for approximately %s days:",
+      "source_sha256": "db31de85d57596dfa7101bda71b42e0fd9ba49446874b8a696fe9c389bfd8e52",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardTactical();",
+          "offset": 185,
+          "opcode": "ldc_w",
+          "cp_index": 2118
+        }
+      ]
+    },
+    {
+      "english_literal": "The bombardment requires %s fuel. You have %s fuel.",
+      "source_sha256": "33ab41d945669b23480271c70bad7f60c29c6f864b76f8b44c8b89abdf22b7c5",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardTactical();",
+          "offset": 333,
+          "opcode": "ldc_w",
+          "cp_index": 2128
+        },
+        {
+          "method": "protected void bombardSaturation();",
+          "offset": 561,
+          "opcode": "ldc_w",
+          "cp_index": 2128
+        }
+      ]
+    },
+    {
+      "english_literal": "A saturation bombardment of a colony this size will destroy it utterly.",
+      "source_sha256": "87390b730c37afdd1eb877e7cb23929751a69e3e6981f3931b58d83aa6684a48",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardSaturation();",
+          "offset": 372,
+          "opcode": "ldc_w",
+          "cp_index": 2150
+        }
+      ]
+    },
+    {
+      "english_literal": "A saturation bombardment will destabilize the colony, reduce its population, and disrupt all operations for a long time.",
+      "source_sha256": "4c290be4dafd3cd290d36baf97429ea88e5eb00e90c507352ec16596eb8a618e",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardSaturation();",
+          "offset": 388,
+          "opcode": "ldc_w",
+          "cp_index": 2152
+        }
+      ]
+    },
+    {
+      "english_literal": "An atrocity of this scale can not be hidden, but any factions that would be dismayed by such actions are already hostile to you.",
+      "source_sha256": "61d53768a7fc5bfeec049c86acd053b1c103c3b4b4d61a08670029c03d2fc7da",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardSaturation();",
+          "offset": 410,
+          "opcode": "ldc_w",
+          "cp_index": 2154
+        }
+      ]
+    },
+    {
+      "english_literal": "An atrocity of this scale can not be hidden, and will make the following factions hostile:",
+      "source_sha256": "274e848b57628044f63539a502372472a8f430515b66cbecfb7f5a1d164fc08d",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardSaturation();",
+          "offset": 426,
+          "opcode": "ldc_w",
+          "cp_index": 2156
+        }
+      ]
+    },
+    {
+      "english_literal": "All operations disrupted. Colony size reduced to %s.",
+      "source_sha256": "35ca1887601fa3d6e38a8af286a75dde452065e0ed6c564f26a7adea78fc3e47",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardConfirm();",
+          "offset": 1118,
+          "opcode": "ldc_w",
+          "cp_index": 2246
+        }
+      ]
+    },
+    {
+      "english_literal": "The lack of consistent pay over the last few months has caused discontent among your crew. A number take this opportunity to leave your employment.",
+      "source_sha256": "1e302324a132b8807a2422affee2ad1cc9dbd8356fb64fb28f602276b8f21aea",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void applyDebtEffect();",
+          "offset": 209,
+          "opcode": "ldc_w",
+          "cp_index": 2352
+        }
+      ]
+    },
+    {
+      "english_literal": "After careful consideration, there do not appear to be any targets likely to yield anything of value.",
+      "source_sha256": "83f952fcbdb0894adb980d408ac7ede207c1aef2769177a462af59c46d5a85fa",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidValuable();",
+          "offset": 87,
+          "opcode": "ldc_w",
+          "cp_index": 1201
+        }
+      ]
+    },
+    {
+      "english_literal": "Aid the attacking forces",
+      "source_sha256": "1cb9ecb55426a9863bde5aa9a0672044cba17389f5a88bc488fca3a2a9a4a24a",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1067,
+          "opcode": "ldc_w",
+          "cp_index": 723
+        }
+      ]
+    },
+    {
+      "english_literal": "Aid the defenders",
+      "source_sha256": "dbfb1187f9708e7e1f9dadded4216b88d3640d0ae90a71edd286b5ac23353790",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1054,
+          "opcode": "ldc_w",
+          "cp_index": 721
+        }
+      ]
+    },
+    {
+      "english_literal": "All defenses must be defeated to make a bombardment possible.",
+      "source_sha256": "fc028cb35354c2c32466a8e916e2f267c056110c5946de705f6ace192d87a5b6",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1449,
+          "opcode": "ldc_w",
+          "cp_index": 764
+        }
+      ]
+    },
+    {
+      "english_literal": "All operations disrupted.",
+      "source_sha256": "25f761ab28bf70848e5f3d0d361f10da9871f36a209d17122a61dd87dc32bea0",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardConfirm();",
+          "offset": 1102,
+          "opcode": "ldc_w",
+          "cp_index": 2244
+        }
+      ]
+    },
+    {
+      "english_literal": "An orbital station",
+      "source_sha256": "3b956f5b21310a481edef8df5fc780ebaea5cc95ab7d972459576263136f6c94",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 682,
+          "opcode": "ldc_w",
+          "cp_index": 663
+        }
+      ]
+    },
+    {
+      "english_literal": "Consider an orbital bombardment of ",
+      "source_sha256": "720ad7204092178f8858847c08728dbd6c76cb9e33d786e5c1905925c9b97496",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1352,
+          "opcode": "ldc_w",
+          "cp_index": 752
+        }
+      ]
+    },
+    {
+      "english_literal": "Designate raid objectives",
+      "source_sha256": "9fd2251ab66a98edd40b2a5b9b47fa3a6fcc8d4c239b10fded94aad9935ec7e3",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 1006,
+          "opcode": "ldc_w",
+          "cp_index": 1131
+        }
+      ]
+    },
+    {
+      "english_literal": "Engage the defenders",
+      "source_sha256": "1941b4ed50099bef4ec18120117e441f6b69e2e81529b46554e5e8f199f9fb6e",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 964,
+          "opcode": "ldc_w",
+          "cp_index": 715
+        },
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 974,
+          "opcode": "ldc_w",
+          "cp_index": 715
+        },
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1142,
+          "opcode": "ldc_w",
+          "cp_index": 715
+        }
+      ]
+    },
+    {
+      "english_literal": "Expected resistance",
+      "source_sha256": "b8b177bf40a703e284dce0e9e8dcca816d15e029081fca172d56fa5352d96426",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 275,
+          "opcode": "ldc_w",
+          "cp_index": 1027
+        }
+      ]
+    },
+    {
+      "english_literal": "Forces held in reserve",
+      "source_sha256": "022bd6d7e374ea26dcb1e662d4406d22406903ee7ecabbf9a4149d0a3008b873",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected com.fs.starfarer.api.combat.MutableStat getMarineLossesStat(java.util.List<com.fs.starfarer.api.impl.campaign.graid.GroundRaidObjectivePlugin>);",
+          "offset": 444,
+          "opcode": "ldc_w",
+          "cp_index": 1470
+        }
+      ]
+    },
+    {
+      "english_literal": "High raid effectiveness",
+      "source_sha256": "44257a56edf5fabe73d4b17aa9e479c45478688c4216dfffb4ae6e2c522a7899",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected com.fs.starfarer.api.combat.MutableStat getMarineLossesStat(java.util.List<com.fs.starfarer.api.impl.campaign.graid.GroundRaidObjectivePlugin>);",
+          "offset": 396,
+          "opcode": "ldc_w",
+          "cp_index": 1464
+        }
+      ]
+    },
+    {
+      "english_literal": "Increased defender preparedness",
+      "source_sha256": "2d75e18caeb704efe7db9410730c115fb2be2d15f42c6ed56f7e0d19d8b0bb6f",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 323,
+          "opcode": "ldc_w",
+          "cp_index": 1036
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 225,
+          "opcode": "ldc_w",
+          "cp_index": 1036
+        },
+        {
+          "method": "protected com.fs.starfarer.api.combat.MutableStat getMarineLossesStat(java.util.List<com.fs.starfarer.api.impl.campaign.graid.GroundRaidObjectivePlugin>);",
+          "offset": 458,
+          "opcode": "ldc_w",
+          "cp_index": 1036
+        },
+        {
+          "method": "public boolean doIndustryRaid(com.fs.starfarer.api.campaign.FactionAPI, float, com.fs.starfarer.api.campaign.econ.Industry, float);",
+          "offset": 78,
+          "opcode": "ldc_w",
+          "cp_index": 1036
+        }
+      ]
+    },
+    {
+      "english_literal": "Launch a raid against ",
+      "source_sha256": "1e9faf6fd337496747c0d737bc0bee1c1f32cc9c6a870444fc3a5d923569ee02",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1315,
+          "opcode": "ldc_w",
+          "cp_index": 747
+        }
+      ]
+    },
+    {
+      "english_literal": "Launch bombardment",
+      "source_sha256": "754bb0028ba30cb861a04a91bf8942e4353bf681d07da5f3c3c204abbde24f4a",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 13,
+          "opcode": "ldc_w",
+          "cp_index": 1223
+        }
+      ]
+    },
+    {
+      "english_literal": "Launch raid",
+      "source_sha256": "d4b03bbd9f7b7be2828e8daf1eb24fa9dc58bb0e5accd84fc597ccbf67d7afd3",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 13,
+          "opcode": "ldc_w",
+          "cp_index": 2046
+        }
+      ]
+    },
+    {
+      "english_literal": "Low raid effectiveness",
+      "source_sha256": "c64ee8e4ed2af9ae7b0e2be7f9f1e7a122eb5adf5aad19aef2fca3017977af3e",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected com.fs.starfarer.api.combat.MutableStat getMarineLossesStat(java.util.List<com.fs.starfarer.api.impl.campaign.graid.GroundRaidObjectivePlugin>);",
+          "offset": 418,
+          "opcode": "ldc_w",
+          "cp_index": 1466
+        }
+      ]
+    },
+    {
+      "english_literal": "Military operations disrupted.",
+      "source_sha256": "3b81952d69fe5467ae68fccec576245f66da3645e13ff9f853a662f5e256f622",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardConfirm();",
+          "offset": 973,
+          "opcode": "ldc_w",
+          "cp_index": 2225
+        }
+      ]
+    },
+    {
+      "english_literal": "Never mind",
+      "source_sha256": "8f262a081444175add7537cc60967652ba07773dc0ad83a37d989b9f7a644b78",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1709,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        },
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 28,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        },
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 203,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        },
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 237,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        },
+        {
+          "method": "protected void addNeverMindOption();",
+          "offset": 13,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        },
+        {
+          "method": "protected void addBombardNeverMindOption();",
+          "offset": 13,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        },
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 311,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        },
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 437,
+          "opcode": "ldc_w",
+          "cp_index": 801
+        }
+      ]
+    },
+    {
+      "english_literal": "Operation difficulty: %s",
+      "source_sha256": "236af974bc5803f21055b113fe3488af4fb9752845c2ba59fb6a4d178ccca4e2",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 740,
+          "opcode": "ldc_w",
+          "cp_index": 1104
+        }
+      ]
+    },
+    {
+      "english_literal": "Pick through the spoils",
+      "source_sha256": "b50726b79927dd9715d6d1cf14e380137a1ae120f0fc74470cb43d3aeafec790",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "public void raidConfirmContinue();",
+          "offset": 105,
+          "opcode": "ldc_w",
+          "cp_index": 1731
+        }
+      ]
+    },
+    {
+      "english_literal": "Prepare a saturation bombardment",
+      "source_sha256": "9c9be326b0ff15a2851f9489039026d390f12da607a003523da9e8dba42c51e9",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 706,
+          "opcode": "ldc_w",
+          "cp_index": 2035
+        }
+      ]
+    },
+    {
+      "english_literal": "Projected raid effectiveness: %s",
+      "source_sha256": "28cebdb78d59bb00a598201d33ef36a4c7d65f4d63da898948508685665af85e",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 914,
+          "opcode": "ldc_w",
+          "cp_index": 1122
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 835,
+          "opcode": "ldc_w",
+          "cp_index": 1122
+        }
+      ]
+    },
+    {
+      "english_literal": "Raid strength: %s",
+      "source_sha256": "bd4adca98c72e3439b6ecc200c0ce4047f2fdf291a847621e99a26ed7d8f909f",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 653,
+          "opcode": "ldc_w",
+          "cp_index": 1086
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 543,
+          "opcode": "ldc_w",
+          "cp_index": 1086
+        }
+      ]
+    },
+    {
+      "english_literal": "Recently bombarded",
+      "source_sha256": "6a2e7dbe8795d787046f82cf3a58a3c68c8568bafdf65448c66dd8cc09467588",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void bombardConfirm();",
+          "offset": 721,
+          "opcode": "ldc_w",
+          "cp_index": 2207
+        }
+      ]
+    },
+    {
+      "english_literal": "Recently raided",
+      "source_sha256": "7d105842fb6b283ee9fdfda472bcde29def3be9e625ef21d9d377020d7bb326a",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidConfirm(boolean);",
+          "offset": 69,
+          "opcode": "ldc_w",
+          "cp_index": 1574
+        }
+      ]
+    },
+    {
+      "english_literal": "\n\nRequires transponder to be turned off",
+      "source_sha256": "7c85bffc4419c573059577f809115911dcf5c6f00350b688dc3904011128de08",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 76,
+          "opcode": "ldc_w",
+          "cp_index": 2055
+        }
+      ]
+    },
+    {
+      "english_literal": "Saturation bombardment",
+      "source_sha256": "eb46365548f7bfbe5582d15ddfa7a2895648851b8e845e95cde426861549fc47",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "public void doBombardment(com.fs.starfarer.api.campaign.FactionAPI, com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD$BombardType);",
+          "offset": 299,
+          "opcode": "ldc_w",
+          "cp_index": 2382
+        }
+      ]
+    },
+    {
+      "english_literal": "Secretly raided ",
+      "source_sha256": "42e7239202ed5b08215958511f274c09f91625c3cde470da47e19008d207bfb6",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 260,
+          "opcode": "ldc_w",
+          "cp_index": 2076
+        }
+      ]
+    },
+    {
+      "english_literal": "Select raid objectives",
+      "source_sha256": "8901f824269e01f7461b08ffda13221fa5be197a1d33b09dd949be66f69ba98d",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidValuable();",
+          "offset": 105,
+          "opcode": "ldc_w",
+          "cp_index": 1206
+        },
+        {
+          "method": "protected void raidDisrupt();",
+          "offset": 87,
+          "opcode": "ldc_w",
+          "cp_index": 1206
+        }
+      ]
+    },
+    {
+      "english_literal": "Tactical bombardment",
+      "source_sha256": "40711408ced015bcbd2c9de4147dd5bf674f9753945520352b804cdf4043d2a9",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "public void doBombardment(com.fs.starfarer.api.campaign.FactionAPI, com.fs.starfarer.api.impl.campaign.rulecmd.salvage.MarketCMD$BombardType);",
+          "offset": 317,
+          "opcode": "ldc_w",
+          "cp_index": 2384
+        }
+      ]
+    },
+    {
+      "english_literal": "There are no defenders to engage.",
+      "source_sha256": "3baf5ab8233719e8683c0ab7ebc24198c1c61a3ace6ad191883458662c4f9178",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1820,
+          "opcode": "ldc_w",
+          "cp_index": 811
+        }
+      ]
+    },
+    {
+      "english_literal": "There are no industries or facilities present that could be disrupted by a raid.",
+      "source_sha256": "141462b4a160659853e0fa5b8f70f91cd31c2d2ff597b85c96aefc8766db1e34",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidDisrupt();",
+          "offset": 69,
+          "opcode": "ldc_w",
+          "cp_index": 1240
+        }
+      ]
+    },
+    {
+      "english_literal": "Try to acquire valuables, such as commodities or blueprints, or achieve other objectives",
+      "source_sha256": "9eefa6678e4b761c38c5d0e0ce299b7c621062b0f52e7c7b8dfc71931c100b0c",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidMenu();",
+          "offset": 954,
+          "opcode": "ldc_w",
+          "cp_index": 1162
+        }
+      ]
+    },
+    {
+      "english_literal": " and its defenders",
+      "source_sha256": "94e60e9eac89c019ad6fd22eb3761520208f0ea8bb77e840874e2a31d7eb557d",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1012,
+          "opcode": "ldc_w",
+          "cp_index": 719
+        },
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1100,
+          "opcode": "ldc_w",
+          "cp_index": 719
+        }
+      ]
+    },
+    {
+      "english_literal": " operations for at least %s days.",
+      "source_sha256": "379e1888d2179050c2ba2e1c17cb14eaab5f72ac1f1ca682391d75444aef7a14",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidDisruptIndustryPicked(com.fs.starfarer.api.campaign.econ.Industry);",
+          "offset": 140,
+          "opcode": "ldc_w",
+          "cp_index": 1316
+        }
+      ]
+    },
+    {
+      "english_literal": "orbital station",
+      "source_sha256": "1c791b26913f6d7365069ae01ba3f3beca20739dc78648ae03bbc106ec28f940",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void printStationState();",
+          "offset": 27,
+          "opcode": "ldc_w",
+          "cp_index": 1847
+        }
+      ]
+    },
+    {
+      "english_literal": " raid effectiveness.",
+      "source_sha256": "f2915fdf731503589f435a7e5f2c7cd4461c661ead5081b23618d3d667743dd9",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidMenu();",
+          "offset": 1079,
+          "opcode": "ldc_w",
+          "cp_index": 1168
+        }
+      ]
+    },
+    {
+      "english_literal": "reduced effect.",
+      "source_sha256": "e4fb0ba55cffcf4b696f8afbf12f9284525c6d6547c499111fa0ee9a878ab9d3",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidDisruptIndustryPicked(com.fs.starfarer.api.campaign.econ.Industry);",
+          "offset": 102,
+          "opcode": "ldc_w",
+          "cp_index": 1312
+        }
+      ]
+    },
+    {
+      "english_literal": "will result in open hostilities.",
+      "source_sha256": "8bf63945e3036d45c8601eb5355ed4165f80362d42184387d700a5f4219f44e7",
+      "prior_status": "DRAFT_OPTIONAL_JAR_NOT_TESTED_IN_GAME",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 512,
+          "opcode": "ldc_w",
+          "cp_index": 1070
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 402,
+          "opcode": "ldc_w",
+          "cp_index": 1070
+        }
+      ]
+    },
+    {
+      "english_literal": "Defending ships are present in sufficient strength to prevent any hostile action until they are dealt with.",
+      "source_sha256": "348470de83b4ec3af496460d8b6b169a45aa95d5cb70f3fe3d9150ec4cda5df5",
+      "prior_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 903,
+          "opcode": "ldc_w",
+          "cp_index": 705
+        }
+      ]
+    },
+    {
+      "english_literal": "The defending ships present are, with the support of the station, sufficient to prevent raiding as well.",
+      "source_sha256": "7d296d76bf12647a7578f4e3baf12fb749bcd34f9721123057f3b211c5fc6243",
+      "prior_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 873,
+          "opcode": "ldc_w",
+          "cp_index": 703
+        }
+      ]
+    },
+    {
+      "english_literal": "hostile action, aside from a quick raid, unless it is dealt with.",
+      "source_sha256": "10bc763d4876bf9a7f32a71ea3866a10c7f8d24da600029a97b951d7d459e718",
+      "prior_status": "OPTIONAL_PATCHER_NOT_GAME_TESTED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 807,
+          "opcode": "ldc_w",
+          "cp_index": 697
+        }
+      ]
+    },
+    {
+      "english_literal": "Engage the ",
+      "source_sha256": "ae58eefaf2cabd13dbcf84bcd7b6098ebe65dee177351732890c7ad3db950dd0",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1089,
+          "opcode": "ldc_w",
+          "cp_index": 725
+        },
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1123,
+          "opcode": "ldc_w",
+          "cp_index": 725
+        }
+      ]
+    },
+    {
+      "english_literal": "Stability of ",
+      "source_sha256": "ee78d536eeb35a417ac1923370ca466343dd6fadb961e61baf8de9eecc140fea",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidConfirm(boolean);",
+          "offset": 628,
+          "opcode": "ldc_w",
+          "cp_index": 1654
+        },
+        {
+          "method": "protected void bombardConfirm();",
+          "offset": 783,
+          "opcode": "ldc_w",
+          "cp_index": 1654
+        }
+      ]
+    },
+    {
+      "english_literal": " dominates the orbit and prevents any ",
+      "source_sha256": "1fcb2ff80850ad67a2c62f0a9b759bab777bef359a4192c18f6166fe695de1b9",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 801,
+          "opcode": "ldc_w",
+          "cp_index": 695
+        }
+      ]
+    },
+    {
+      "english_literal": " operations are already disrupted, and a raid will have ",
+      "source_sha256": "5d243dcd960abf544912a1142e083ac3b3a5e16a64b0c7256bd082f3444e042a",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void raidDisruptIndustryPicked(com.fs.starfarer.api.campaign.econ.Industry);",
+          "offset": 96,
+          "opcode": "ldc_w",
+          "cp_index": 1310
+        }
+      ]
+    },
+    {
+      "english_literal": " reduced by %s.",
+      "source_sha256": "ed0e12db68372da48b3718c8a0602e32dc21344e924047e70acc2f4038fb7d10",
+      "prior_status": "DRAFT_ONLY_NOT_INSTALLED",
+      "draft_reviewed_1065": true,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidConfirm(boolean);",
+          "offset": 646,
+          "opcode": "ldc_w",
+          "cp_index": 1656
+        },
+        {
+          "method": "protected void bombardConfirm();",
+          "offset": 801,
+          "opcode": "ldc_w",
+          "cp_index": 1656
+        }
+      ]
+    },
+    {
+      "english_literal": "Target: ",
+      "source_sha256": "30eaddeafeaeb4b614009a9e1c768fb735a7403f6c972e0f5daf96be256725ed",
+      "prior_status": "REVIEWED_UI_LITERAL_1005",
+      "draft_reviewed_1065": false,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidDisruptIndustryPicked(com.fs.starfarer.api.campaign.econ.Industry);",
+          "offset": 16,
+          "opcode": "ldc_w",
+          "cp_index": 1290
+        }
+      ]
+    },
+    {
+      "english_literal": "Aid the ",
+      "source_sha256": "4986824683842a8e4c6247379889b9b5b5fc1c52ce0ed01ccb55619019ff4261",
+      "prior_status": "VERIFIED_ORIGINAL_LITERAL_1008",
+      "draft_reviewed_1065": false,
+      "corrected_1065": true,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1001,
+          "opcode": "ldc_w",
+          "cp_index": 717
+        },
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1035,
+          "opcode": "ldc_w",
+          "cp_index": 717
+        }
+      ]
+    },
+    {
+      "english_literal": "Continue",
+      "source_sha256": "31fbef162594de01bab0cd525c51f74de7bcb15063029fa1a54b2cf5944c80d8",
+      "prior_status": "VERIFIED_UI_LABEL_CALLSITE_1027",
+      "draft_reviewed_1065": false,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void addContinueOption(java.lang.String);",
+          "offset": 4,
+          "opcode": "ldc_w",
+          "cp_index": 1328
+        },
+        {
+          "method": "protected void raidConfirm(boolean);",
+          "offset": 1033,
+          "opcode": "ldc_w",
+          "cp_index": 1328
+        },
+        {
+          "method": "protected void engage();",
+          "offset": 86,
+          "opcode": "ldc_w",
+          "cp_index": 1328
+        },
+        {
+          "method": "protected void addBombardContinueOption(java.lang.String);",
+          "offset": 4,
+          "opcode": "ldc_w",
+          "cp_index": 1328
+        },
+        {
+          "method": "protected void applyDebtEffect();",
+          "offset": 337,
+          "opcode": "ldc_w",
+          "cp_index": 1328
+        }
+      ]
+    },
+    {
+      "english_literal": "Select",
+      "source_sha256": "2a78025de6aae5e7ff88e5a951bb3a78ddd67388913529cf9e2dd9653e62b02d",
+      "prior_status": "VERIFIED_UI_LABEL_CALLSITE_1027",
+      "draft_reviewed_1065": false,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidValuable();",
+          "offset": 108,
+          "opcode": "ldc_w",
+          "cp_index": 1208
+        },
+        {
+          "method": "protected void raidDisrupt();",
+          "offset": 90,
+          "opcode": "ldc_w",
+          "cp_index": 1208
+        }
+      ]
+    },
+    {
+      "english_literal": "Spoils",
+      "source_sha256": "77b92a2288a9dc2efd099b8d5369bf112aaf7c74d8719bac2969ef3e368379f2",
+      "prior_status": "VERIFIED_UI_LABEL_CALLSITE_1027",
+      "draft_reviewed_1065": false,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void raidShowLoot();",
+          "offset": 9,
+          "opcode": "ldc_w",
+          "cp_index": 1828
+        }
+      ]
+    },
+    {
+      "english_literal": "Yes",
+      "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "prior_status": "VERIFIED_UI_LABEL_CALLSITE_1027",
+      "draft_reviewed_1065": false,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1706,
+          "opcode": "ldc_w",
+          "cp_index": 799
+        },
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 200,
+          "opcode": "ldc_w",
+          "cp_index": 799
+        },
+        {
+          "method": "protected void addBombardConfirmOptions();",
+          "offset": 234,
+          "opcode": "ldc_w",
+          "cp_index": 799
+        },
+        {
+          "method": "protected void addConfirmOptions();",
+          "offset": 434,
+          "opcode": "ldc_w",
+          "cp_index": 799
+        }
+      ]
+    },
+    {
+      "english_literal": "Go back",
+      "source_sha256": "6aadac2f2b7a6b8e3e01909529190a0c2910592cfb85f5d65901b37c820236fa",
+      "prior_status": "VERIFIED_UI_LDC_TO_WIDGET_1029",
+      "draft_reviewed_1065": false,
+      "corrected_1065": false,
+      "uses": [
+        {
+          "method": "protected void showDefenses(boolean);",
+          "offset": 1850,
+          "opcode": "ldc_w",
+          "cp_index": 815
+        },
+        {
+          "method": "protected void raidNonMarket();",
+          "offset": 1039,
+          "opcode": "ldc_w",
+          "cp_index": 815
+        },
+        {
+          "method": "protected void raidMenu();",
+          "offset": 1139,
+          "opcode": "ldc_w",
+          "cp_index": 815
+        },
+        {
+          "method": "protected void bombardMenu();",
+          "offset": 791,
+          "opcode": "ldc_w",
+          "cp_index": 815
+        }
+      ]
+    }
+  ],
+  "gameplay_test_policy": "after_1_1_release",
+  "native_windows_gameplay_tested": false
+}
