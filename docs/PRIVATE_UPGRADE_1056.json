@@ -1,0 +1,21 @@
+{
+  "release": "1.0.56",
+  "source": "private original Starsector 0.98a-RC8 API+OBF JAR",
+  "fresh_install_equals_upgrade_1055_to_1056": true,
+  "previous_version_was_noop_when_same_map": true,
+  "idempotent_reapplication": true,
+  "tampered_input_refused_unchanged": true,
+  "both_original_jars_restored_sha_identical": true,
+  "original_sha256": {
+    "starfarer.api.jar": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+    "starfarer_obf.jar": "5dd222b9e266d2ac2d63b3dad4983eb05caaf5a247d7dfb82aaeba47ea774cc8"
+  },
+  "patched_sha256": {
+    "starfarer.api.jar": "57004e66715ce8ccaec236a85d73961290cb4ebbbdc0282abd12a31c9b0c6be8",
+    "starfarer_obf.jar": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1"
+  },
+  "API_JVM_mapping_changed": false,
+  "OBF_JVM_mapping_changed": false,
+  "commercial_JARs_in_release": false,
+  "native_windows_gameplay_tested": false
+}

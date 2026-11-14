@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.55):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.56):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.55** (snapshot 1.0.12 + overlaye 1013–1055; OBF 3537 podmian w 539 klasach bez zmian, API 5298 wierszy mapy/5296 realnych podmian w 938 klasach; 8 nowych i 2 poprawione fragmenty w 3 klasach JVM; 870 data bez zmian). Cel 1.1 nadal OTWARTY.
+**Aktualny stan roboczy: 1.0.56** (snapshot 1.0.12 + overlaye 1013–1056; OBF 3537/539 i API 5296/938 bez nowych zmian; 110 skorygowanych dialogow w rules.csv, 110 mniej surowych zmiennych plci, 870 data plikow). Cel 1.1 OTWARTY.
 
 ## Etap 1.0.45
 
@@ -50,9 +50,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Raport 1.0.54](docs/RELEASE_1054.md): polskie powiadomienia symulatora i kodeksu nie doklejaja juz angielskich `faction(s)/variant(s)/entry/entries` po dynamicznej liczbie. 7 nowych dokladnych mapowan i 6 poprawionych istniejacych API; wliczajac PhaseField, filtr planet, blokade kolonii i aktywnosc Ligi Persea. Wszystkie 13 `CONSTANT_String` i uzycia `ldc` zweryfikowano na oryginalnym JVM. [Audyt binarny](docs/JVM_AUDIT_1054.json): tylko 6 klas zmienionych wzgledem 1.0.53, zadnych nowych zmian wykonywalnego kodu. [Prawdziwy upgrade JAR](docs/UPGRADE_1054.json): fresh=upgrade, no-op, tamper refusal i restore PASS. **343/3658** historycznych API zweryfikowanych offline, **3315** pozostalych; 186 innych getterow i natywny gameplay Windows nadal otwarte.
 
-## Najnowszy etap 1.0.55
+## Etap 1.0.55
 
 [Raport 1.0.55](docs/RELEASE_1055.md): dwie klasy blokad mialy nieprzetlumaczone jednostki `day/days`, dodatkowe `more ` i naglowki `Assessment` mimo polskich fraz otaczajacych. Dodano osiem class-scoped literalow, poprawiono dwa skladane fragmenty `GenericRaidFGI` o braku celow. 20 testow liczb i stanow blokady, 4 przykladowe nazwy operacji, 7 testow mapy, 10 bramek 1.1 PASS. [JVM original proof](docs/JVM_AUDIT_1055.json) i [realny JAR upgrade](docs/UPGRADE_1055.json): 3 zmienione klasy, zero nowych metodowych instrukcji, swieza instalacja=upgrade 1.0.54->1.0.55. Historyczna recenzja **391/3658**, **3267** nadal otwartych. Nie przetestowano wizualnie w dzialajacej grze Windows; 1.1 nieukonczona.
+
+## Najnowszy etap 1.0.56
+
+[Raport 1.0.56](docs/RELEASE_1056.md): **110 zatwierdzonych korekt dialogow** w 11 107 rekordach `data/campaign/rules.csv`: 71 opuszczen zbednego zaimka po `mowi/odpowiada`, 39 neutralizacji wyrazen dzierzawczych. Wszystkie oryginalne skrypty, identyfikatory i opcje pozostaly bajtowo identyczne; walidator odwraca caly 110-pozycyjny plan i odtwarza oryginalny rules.csv SHA. Pozostaje **2165** wystapien dynamicznych form plci w **1029** dialogach (to kandydaci, nie kazdy jest realnym bledem). Recenzje dialogow: **363 offline**, historyczne API **391/3658** bez zmian. [Rzeczywisty upgrade oryginalnych JAR](docs/PRIVATE_UPGRADE_1056.json) PASS bez jakiejkolwiek zmiany API/OBF. **1.1 NIE jest skonczona**, w szczegolnosci brak native Windows gameplay.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

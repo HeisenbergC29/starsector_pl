@@ -13,12 +13,13 @@
       "unresolved_count": 186,
       "total_jvm_getter_calls": 219,
       "shared_her_conflict_open": false,
-      "reviewed_rules_rows_offline": 253,
-      "removed_visible_gender_variable_refs": 420,
-      "source": "1.0.52 original-JVM checked 11 direct inherited BaseBarEventWithPerson getter callsites (2 dative mu/jej, 9 possessive jego/jej) and 2 gender-label sites; shared her #143 yields same Polish jej in both documented usages. Broader unreviewed JVM count conservatively still 186 until full corpus re-accounting; no native Windows test",
+      "reviewed_rules_rows_offline": 363,
+      "removed_visible_gender_variable_refs": 530,
+      "source": "1.0.56: 110 new exact text-only neutralizations in rules.csv, with all 253 prior reviewed rule IDs protected; 110 fewer raw variable uses, 1029 affected rows and 2165 raw occurrences remain, 186 JVM getter callsites still unreviewed; native Windows UI not tested",
       "base_bar_shared_her_resolved_offline_1052": true,
       "shared_her_pending_native_windows_validation": true,
-      "base_bar_gender_getter_callsites_reviewed_1052": 13
+      "base_bar_gender_getter_callsites_reviewed_1052": 13,
+      "pending_windows_ui_rules_rows": 363
     },
     {
       "id": "draft_semantics",
@@ -40,6 +41,20 @@
     {
       "id": "rules_gender_neutral_1045",
       "status": "in_progress"
+    },
+    {
+      "id": "rules_gender_neutral_1056",
+      "status": "in_progress",
+      "source": "tools/apply_1056.py and docs/RULES_NEUTRAL_REVIEW_1056.json: 110 exact ID+SHA scoped text-only dialogue edits (71 elided subject pronouns, 39 neutral possessives); full original rules.csv byte-exact reconstructed after inverse application; all non-text CSV fields and 869 other data files unchanged",
+      "corrected_rules_rows": 110,
+      "removed_dynamic_gender_refs": 110,
+      "previous_affected_rows": 1139,
+      "remaining_affected_rows": 1029,
+      "previous_placeholder_occurrences": 2275,
+      "remaining_placeholder_occurrences": 2165,
+      "changes_to_conditions_scripts_ids_options": 0,
+      "pending_windows_ui": 110,
+      "native_windows_gameplay_tested": false
     },
     {
       "id": "numeric_quantities",
@@ -137,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.55: seven plus one translated headers/duration fragments and 2 repaired GenericRaid UI phrases, 48 historical UI texts newly reviewed; 3267 historical DRAFT texts and 2275 raw rules pronoun tokens still need review; 1.1 incomplete."
+      "source": "1.0.56: 110 narrative dialogue sentences neutralized without script changes; raw potential gender tokens down to 2165 across 1029 rules.csv records. Full completeness still not verified: 3267 historical API rows and 186 JVM getter callsites unreviewed; native gameplay Windows untested"
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.55: both blockade duration branches, 2 Assessment headings and repaired no-target colony prose, along with previous 253 rules rows, 81 story contexts and 219 getter calls require actual Windows UI verification."
+      "source": "1.0.56: 110 new dialogue text revisions plus prior 253 reviewed rules rows, 391 reviewed historical API strings, 81 story contexts and 219 gender getter uses require actual Windows game UI verification; native game not run"
     }
   ]
 }
