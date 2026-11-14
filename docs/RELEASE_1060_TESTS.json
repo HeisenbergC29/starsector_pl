@@ -1,0 +1,106 @@
+{
+  "release": "1.0.60",
+  "game": "Starsector 0.98a-RC8",
+  "checks": {
+    "verify_1060.py": {
+      "release": "1.0.60",
+      "old_api_map_rows": 5304,
+      "new_api_map_rows": 5309,
+      "added_literals": 5,
+      "corrected_literals": 2,
+      "rendered_combinations": 16,
+      "render_details": {
+        "cargo_variants": 9,
+        "route_variants": 4,
+        "faction_variants": 3,
+        "total": 16
+      },
+      "unchanged_data_files": 870,
+      "unchanged_rules_sha256": "4fcf72e3aad0a0c72bac3bea021a311b36f12c4d201d4dcf9b9c7edf2eeb0e04",
+      "mapping_sha256": "963634daecdbd86e007091f90788367d826ade750d4b16bf335dd88ce439b724",
+      "changed_java_classes_expected": 2,
+      "native_windows_gameplay_tested": false
+    },
+    "test_1060.py": {
+      "release": "1.0.60",
+      "negative_cases_rejected": 11,
+      "invalid_variants": {
+        "duplicate source map row": "REJECTED",
+        "missing baseline entry": "REJECTED",
+        "old grammar changed without review": "REJECTED",
+        "previous status falsely marked verified": "REJECTED",
+        "new literal already mapped": "REJECTED",
+        "untranslated goods category": "REJECTED",
+        "untranslated materiel category": "REJECTED",
+        "faulty large-cargo grammar": "REJECTED",
+        "faulty large valuable grammar": "REJECTED",
+        "untranslated route": "REJECTED",
+        "untranslated faction header": "REJECTED"
+      },
+      "valid_rendered_sentences": 16,
+      "unchanged_data_files": 870
+    },
+    "test_package_contract_1060.py": {
+      "release": "1.0.60",
+      "preflight_passed": true,
+      "invalid_package_states_rejected": {
+        "added_literals": "REJECTED",
+        "corrected_literals": "REJECTED",
+        "new_api_map_rows": "REJECTED",
+        "unchanged_data_files": "REJECTED",
+        "rendered_combinations": "REJECTED"
+      }
+    }
+  },
+  "original_jvm": {
+    "release": "1.0.60",
+    "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+    "confirmed_original_jvm_ldc": 7,
+    "new_literals": 5,
+    "corrected_prior_literals": 2,
+    "classes": [
+      "com.fs.starfarer.api.impl.campaign.intel.ProcurementMissionIntel",
+      "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel"
+    ],
+    "uses": {
+      "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.addBulletPoints@141": "From ",
+      "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.addBulletPoints@162": " to ",
+      "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.getWhat@11": "goods",
+      "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.getWhat@22": "materiel",
+      "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.createSmallDescription@799": "It's noteworthy because it's carrying a large quantity of valuable ",
+      "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.createSmallDescription@885": "It's noteworthy because it's carrying a large quantity of ",
+      "com.fs.starfarer.api.impl.campaign.intel.ProcurementMissionIntel.addBulletPoints@352": "Faction: "
+    },
+    "excluded_technical_tag_literals": [
+      "Smuggling",
+      "Trade"
+    ],
+    "native_windows_gameplay_tested": false
+  },
+  "original_jar_upgrade": {
+    "release": "1.0.60",
+    "fresh_equal_upgrade": true,
+    "repeat_apply_noop": true,
+    "original_restore_byte_exact": true,
+    "tampered_jar_rejected": true,
+    "changed_class_count": 2,
+    "changed_classes": [
+      "com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class",
+      "com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+    ],
+    "java_instruction_offsets_opcodes_identical": true,
+    "new_api_sha256": "fb27387ebe7ed703012dd1300a15d401af1a69889c228aa1a1d67a43af896b1f",
+    "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+    "native_windows_gameplay_tested": false
+  },
+  "local_zip": {
+    "filename": "Starsector_PL_ASCII_0.98a_RC8_1.0.60_LOCAL.zip",
+    "bytes": 18946104,
+    "sha256": "eb13089c8fc3d016e0f16eb555fe7dabcff3b344628acd456b777da0da66d6aa",
+    "entries": 873,
+    "corrupted_entry": null,
+    "total_data": 870,
+    "game_jars_included": 0
+  },
+  "native_windows_gameplay_tested": false
+}

@@ -1,6 +1,10 @@
 # Stan projektu — Starsector PL 0.98a-RC8, 2026-11-14
 
-**Wydanie robocze 1.0.59. Cel 1.1 nadal otwarty.**
+**Wydanie robocze 1.0.60. Cel 1.1 nadal otwarty.**
+
+**1.0.60 (2026-11-14):** 5 nowych oryginalnych tekstow API w TradeFleetDepartureIntel i ProcurementMissionIntel: polski opis trasy, nazwy kategorii ladunku i naglowek frakcji; 2 naprawione skladane frazy z "large quantity of". Siedem oryginalnych instrukcji ldc potwierdzonych w JVM, dwie zmienione klasy, identyczne instrukcje i offsety. 16 skladanych wariantow, 11 negatywnych mutacji mapy i 5 kontraktu pakietu PASS. Oryginalne JAR: fresh=upgrade 1.0.59->1.0.60, no-op, tamper rejection i restore PASS. Mapa API 5304->5309 (5302->5307 skutecznych trafien), OBF bez zmian, 870 plikow data identycznych, 11107 dialogow i 7371 opcji. Lokalny Windows x64 i ZIP 873 wpisy bez JAR oryginalnych PASS. Raporty docs/RELEASE_1060.md, docs/JVM_AUDIT_1060.json, docs/PRIVATE_UPGRADE_1060.json. Do 1.1 wciaz pozostaja 3267 historycznych API, 186 getterow, 1953 zmienne plciowe w 1006 dialogach oraz prawdziwy gameplay test Windows.
+
+
 
 **1.0.59 (2026-11-14):** Prawdziwy original-JAR audyt `MonthlyReportNodeTooltipCreator`: 6 brakujacych tekstow (3 naglowki i 3 elementy skladanej ilosci), 1 korekta poprzedniego tlumaczenia `Approximately %s `. W 10 potwierdzonych miejscach `ldc` przekazanych do `addSectionHeading` lub `StringBuilder` zadnych zmian w instrukcjach JVM (545/545). W praktyce komunikat sklada sie do np. `Szacunkowa ilosc: 5 jedn. Towar: Ruda.`; 15 testow renderow. Mapa API 5298->5304 / skuteczne 5296->5302, 938 klas bez zmian. OBF 3537/539 i wszystkie 870 `mod/data` bajtowo niezmienione. Testy 10 nieprawidlowych mapowan i 5 falszywych stanow paczki odrzucone, GO tests/vet i Windows cross-build PASS. Prywatny test original-JAR: fresh 1.0.59 = upgrade 1.0.58->1.0.59, tylko 1 klasa `.class` zmieniona, idempotencja, backup/restore, tamper rejection PASS. Szczegoly `docs/RELEASE_1059.md`, `docs/JVM_AUDIT_1059.json`, `docs/PRIVATE_UPGRADE_1059.json`. Historia API 391/3658 (17 starych recenzji klasy nie doliczono po raz drugi), niewyjasnione 3267 wpisow i 186 getterow; 1953 placeholdery w 1006 dialogach, natywny Windows gameplay NIEWYKONANY. Wersja 1.1 nieukonczona.
 

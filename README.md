@@ -1,10 +1,10 @@
 # Starsector PL ASCII — polonizacja Starsector 0.98a-RC8
 
-**Stan (1.0.59):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
+**Stan (1.0.60):** rozwijana polonizacja, docelowe wydanie **1.1** NIE jest jeszcze ukończone.
 
 Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy bez historii rozmowy.
 
-**Aktualny stan roboczy: 1.0.59** (snapshot 1.0.12 + nakladki 1013–1059; 6 dodanych mapowan i 1 poprawiony tekst skladany w raporcie miesiecznym Java API, bez zmian danych gry; API 5302 skutecznych podmian w 938 klasach, OBF 3537/539. Cel 1.1 nadal OTWARTY).
+**Aktualny stan roboczy: 1.0.60** (snapshot 1.0.12 + overlaye 1013–1060; 5 nowych tekstow API i 2 naprawione zdania o ladunku/flocie; 7 odczytow JVM w 2 klasach; 5309 wierszy API, wszystkie 870 danych gry niezmienione. Cel 1.1 nadal OTWARTY).
 
 ## Etap 1.0.45
 
@@ -66,9 +66,13 @@ Repozytorium ma umożliwić innemu agentowi odtworzenie i kontynuowanie pracy be
 
 [Dokumentacja i reprodukcja](docs/RELEASE_1058.md): **122** nowe, wcześniej nierecenzowane rekordy `rules.csv`, **136** zbędnych zaimków podmiotowych po czasownikach `mowi`, `dodaje`, `odpowiada`, `pyta` itd. usuniętych z samych tekstów. Poprzednie 433 unikatowe ID chronione; ogółem 555. Pozostało 1953 potencjalnych zmiennych płciowych w 1006 dialogach. 869 pozostałych plików data i obie mapy JVM niezmienione. Testy offline, oryginalnych JAR-ów i aktualizacji 1.0.57 → 1.0.58 przeszły, ale **natywnego gameplay Windows nie testowano**. Wydanie 1.1 nie jest kompletne.
 
-## Najnowszy etap 1.0.59
+## Etap 1.0.59
 
 [Raport i reprodukcja](docs/RELEASE_1059.md): 6 oryginalnych tekstow UI klasy `MonthlyReportNodeTooltipCreator` dotad nieprzetlumaczonych, poprawiony komunikat laczacy liczbe jednostek z nazwa towaru. 10 rzeczywistych uzyc `ldc` z oryginalnego JVM, 15 wariantow zdania, 10 negatywnych mutacji i 1 zmieniona klasa Java. Oryginalny JAR: fresh=upgrade 1.0.58->1.0.59; idempotencja, backup/restore i odrzucanie uszkodzonego JAR PASS. Dane gry i pozostałe 869 plikow bez zmian; 17 wczesniejszych recenzji tej klasy nie podnosi licznika 391/3658. Nie bylo natywnego testu rozgrywki Windows. **1.1 NIE GOTOWA.**
+
+## Najnowszy etap 1.0.60
+
+[Raport i testy](docs/RELEASE_1060.md): 5 nowych klasowych literalow Java API (trasa, towary, materialy, etykieta frakcji), 2 poprawione zdania o duzej ilosci ladunku, 7 zweryfikowanych odczytow w oryginalnym JVM. 16 testow kompozycji tekstow, 11 negatywnych mutacji mapy, 5 testow kontraktu pakietu. Original-JAR fresh=upgrade 1.0.59->1.0.60, dokladnie 2 zmienione klasy, identyczne opcode, backup/restore i odmowa uszkodzonego JAR PASS. 870 danych nietknietych. Historyczne API 391/3658 oraz 186 getterow do audytu; gameplay Windows niewykonany. Docelowa 1.1 nie jest gotowa.
 
 ## Zacznij tutaj
 1. [AGENTS.md](AGENTS.md) — niezmienne zasady pracy i lokalizacji.

@@ -152,13 +152,13 @@
     {
       "id": "text_completeness",
       "status": "in_progress",
-      "source": "1.0.59: six newly mapped original-JVM UI fragments and one corrected monthly report tooltip composition; 1953 dynamic gender placeholders in 1006 rules, 3267 historical API reviews and 186 getter calls remain open; Windows gameplay not tested."
+      "source": "1.0.60: 5 new original-JVM-scoped API UI strings and 2 corrected class-scoped grammar fragments; 1953 gender markers remain in 1006 rules, 3267 historic API entries and 186 JVM getter contexts unresolved. Native Windows gameplay has not been tested."
     },
     {
       "id": "windows_runtime",
       "status": "blocked",
       "native_gameplay_tested": false,
-      "source": "1.0.59: 555 unique dialogue rules and selected original-JVM UI corrections verified offline; 10 MonthlyReportNodeTooltipCreator callsites require native Windows visual confirmation; no actual game was run."
+      "source": "1.0.60: 7 source-JVM literal callsites verified offline in trade fleet and procurement intel; fresh-vs-upgrade original-JAR comparison PASS but no actual Windows gameplay/UI test."
     },
     {
       "id": "rules_reflexive_1057",
@@ -202,6 +202,19 @@
       "prior_historical_api_reviews": 391,
       "data_file_changes": 0,
       "new_executable_bytecode_changes": 0,
+      "native_windows_gameplay_tested": false
+    },
+    {
+      "id": "trade_route_and_procurement_1060",
+      "status": "in_progress",
+      "source": "tools/apply_1060.py, tools/audit_original_jvm_1060.py, docs/JVM_AUDIT_1060.json: TradeFleetDepartureIntel route labels, goods/materiel names, two corrected composed-cargo phrases, ProcurementMissionIntel faction label. Technical category tag constants untouched; fresh=upgrade original JAR; no native gameplay.",
+      "new_class_scoped_literals": 5,
+      "repaired_previously_unverified_literals": 2,
+      "original_jvm_ldc_callsites": 7,
+      "modified_classes": 2,
+      "composed_sentences_tested": 16,
+      "mod_data_changed": 0,
+      "new_executable_java_instruction_changes": 0,
       "native_windows_gameplay_tested": false
     }
   ]

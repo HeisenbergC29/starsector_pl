@@ -1,0 +1,25 @@
+{
+  "release": "1.0.60",
+  "original_jar_sha256": "a7ba18f3476ffe704729bd0a7a47443f035fea98a32ac2930eae8b391d013c2a",
+  "confirmed_original_jvm_ldc": 7,
+  "new_literals": 5,
+  "corrected_prior_literals": 2,
+  "classes": [
+    "com.fs.starfarer.api.impl.campaign.intel.ProcurementMissionIntel",
+    "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel"
+  ],
+  "uses": {
+    "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.addBulletPoints@141": "From ",
+    "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.addBulletPoints@162": " to ",
+    "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.getWhat@11": "goods",
+    "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.getWhat@22": "materiel",
+    "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.createSmallDescription@799": "It's noteworthy because it's carrying a large quantity of valuable ",
+    "com.fs.starfarer.api.impl.campaign.intel.misc.TradeFleetDepartureIntel.createSmallDescription@885": "It's noteworthy because it's carrying a large quantity of ",
+    "com.fs.starfarer.api.impl.campaign.intel.ProcurementMissionIntel.addBulletPoints@352": "Faction: "
+  },
+  "excluded_technical_tag_literals": [
+    "Smuggling",
+    "Trade"
+  ],
+  "native_windows_gameplay_tested": false
+}

@@ -1,0 +1,16 @@
+{
+  "release": "1.0.60",
+  "fresh_equal_upgrade": true,
+  "repeat_apply_noop": true,
+  "original_restore_byte_exact": true,
+  "tampered_jar_rejected": true,
+  "changed_class_count": 2,
+  "changed_classes": [
+    "com/fs/starfarer/api/impl/campaign/intel/ProcurementMissionIntel.class",
+    "com/fs/starfarer/api/impl/campaign/intel/misc/TradeFleetDepartureIntel.class"
+  ],
+  "java_instruction_offsets_opcodes_identical": true,
+  "new_api_sha256": "fb27387ebe7ed703012dd1300a15d401af1a69889c228aa1a1d67a43af896b1f",
+  "unchanged_obf_sha256": "85b4b2afb4f6175cabedf1ef5cb9976e0097e39403dff0fc18c728c9d48894e1",
+  "native_windows_gameplay_tested": false
+}
